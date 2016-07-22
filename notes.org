@@ -11,6 +11,8 @@ tracker -- while I'm writing the book, Org Mode is a lot easier to
 work with than a bug tracker would be.  Once I'm not working on the
 book on a regular basis, I might switch to a real bug tracker.
 
+* http://hood.ie/blog/welcoming-communities.html is great,
+  and links to some good stuff too, including more by Mikael Rogers.
 * Discuss the issue of when the "users" are by definition developers.
   (e.g., all those JS projects on GitHub).  Being a developer in
   general is not the same as being a developer on the project -- all
