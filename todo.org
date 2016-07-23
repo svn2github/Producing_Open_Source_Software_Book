@@ -376,7 +376,7 @@ items right now.
    "project maturity," which appeared in a companion book to yours: Open
    Source for Businesses.
 ** Chapter 6 (Andy Oram)
-   Attached. Some interesting comments, nothing too disruptive I think.
+   Some interesting comments, nothing too disruptive I think.
 
    Per one of my principles, let's provide a broad overview of the topic
    (communications is a big topic!) at the start. For the first two or
