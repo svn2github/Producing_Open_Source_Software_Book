@@ -1,20 +1,23 @@
-<chapter id="money">
+<chapter id="money-and-investment">
+<!-- For link compatibility with a previous ID. -->
+<anchor id="money" />
 
-<title>Organizations, Money, and Business</title>
+<title>Participating as a Business or a Government Agency</title>
 
 <simplesect>
 
-<para>This chapter examines how to use money constructively in a free
-software environment, and some of the adjustments your organization
-might want to consider as it gets involved in free software projects.
-This chapter is aimed partly at developers who are paid to work on
-open source projects, but even more at their managers and even at the
-executives making strategic decisions.  When an organization makes an
-investment in open source, people at all levels have to understand not
-just how best to structure that investment, but the effects that
-long-term open source engagement will have on the organization itself.
-Open source can be transformative&nbsp;&mdash;&nbsp;at least when done
-right.</para>
+<para>This chapter examines how to use money and organizational
+capacity constructively in a free software environment.  It also
+discusses some of the adjustments your organization may need to
+make as it gets involved in free software projects.  When an
+organization makes an investment in open source, people at all levels
+have to understand not just how best to structure that investment, but
+the effects that long-term open source engagement will have on the
+organization itself.  Open source can be
+transformative&nbsp;&mdash;&nbsp;at least when done right.  Thus,
+while the material here should be useful for developers who are paid
+to work on open source projects, it's really meant for their managers
+and for executives making strategic decisions.</para>
 
 <para>This chapter is <emphasis>not</emphasis> primarily about how to
 find funding sources for your open source project, though I hope it
@@ -378,7 +381,7 @@ important for a government agency:</para>
      http://doccookbook.sourceforge.net/html/en/dbc.markup.xref.html. -->
 <itemizedlist>
   <listitem><xref xrefstyle="select: title" linkend="rfi-rfp-contract-language"/></listitem>
-  <listitem><xref xrefstyle="select: title" linkend="third-party-review"/></listitem>
+  <listitem><xref xrefstyle="select: title" linkend="independent-review"/></listitem>
   <listitem><xref xrefstyle="select: title" linkend="lawyers-no-surprises"/></listitem>
   <listitem><xref xrefstyle="select: title" linkend="lock-in-vs-freedom"/></listitem>
   <listitem><xref xrefstyle="select: title" linkend="dispel-myths"/></listitem>
@@ -1136,12 +1139,14 @@ section.</para>
 </sect2>
 
 <!-- ========================== subsection =========================== -->
-<sect2 id="third-party-review">
-<title>IV&amp;V: Use Third-Party Review Throughout Development</title>
+<sect2 id="independent-review">
+<!-- For link compatibility with a previous ID. -->
+<anchor id="third-party-review" />
+<title>Open Source IV&amp;V: Use Third-Party Review Throughout Development</title>
 
 <para>When a vendor who normally does proprietary development is hired
 to do open source development, by default the result is almost always
-be a product that is not truly open source and that no third party can
+a product that is not truly open source and that no third party can
 actually deploy<footnote><para>While some selection bias no doubt
 informs my experience&nbsp;&mdash;&nbsp;after all, the consultant
 tends to get brought in when things are going wrong, not when they're
@@ -1153,39 +1158,48 @@ consistency.</para></footnote>.  This section is about how to avoid
 that problem.  While in some instances the vendor&nbsp;&mdash;&nbsp;or
 at least factions within the vendor&nbsp;&mdash;&nbsp;may be
 deliberately obstructive, more often the problem is that they simply
-don't know what they don't know, and have no internal way to find out.
-Thus the most effective solutions is to bring in that
-knowledge from the outside: have a separate contract with a different
-company, one entirely independent of the primary vendor, to play the
-role of third-party open source participant.</para>
+don't know what they don't know.  The most effective solution is to
+bring in that knowledge from the outside: have a separate contract
+with a different company, one entirely independent of the primary
+vendor, to play the role of third-party open source
+participant.</para>
 
 <para>There is a long tradition of such outside review in technical
-contracting.  It's known as <firstterm>IV&amp;V</firstterm>, for
-"<firstterm>Independent Verification and
-Validation</firstterm>"<footnote><para>For a more general discussion
-of IV&amp;V, see <ulink
+contracting: it's known as <emphasis>IV&amp;V</emphasis>, for
+"<emphasis>Independent Verification and
+Validation</emphasis>"<footnote><para>For a more general discussion of
+IV&amp;V, see <ulink
 url="https://en.wikipedia.org/wiki/Verification_and_validation"
 >en.wikipedia.org/wiki/Verification_and_validation</ulink> and <ulink
 url="https://en.wikipedia.org/wiki/Software_verification_and_validation"
 >en.wikipedia.org/wiki/Software_verification_and_validation</ulink>.
 Note that neither of those discusses open source specifically,
-however</para></footnote>, and what keeps it independent is that the
-IV&amp;V vendor is responsible to the customer,
-<emphasis>not</emphasis> to the primary development vendor.  That part
-is crucial: even if the two vendors are contracting through the same
-prime vehicle, or one is a subcontractor to the other, it must be
-clear in the contracts that the IV&amp;V function reports directly to
-the client, interacting with the primary development vendor only to
-<emphasis>perform</emphasis> the IV&amp;V function.</para>
+however</para></footnote>.  If you hire a vendor to develop an open
+source software project, contracting with a separate <firstterm>Open
+Source IV&amp;V</firstterm> (or <firstterm>OS IV&amp;V</firstterm>)
+vendor to work alongside the primary development vendor can make the
+difference between a project that is open source in name only and a
+project that is actually open source, in the sense that it is possible
+for parties other than its orginal developers to deploy, maintain, and
+improve it.</para>
 
-<para>The cost of IV&amp;V review is much smaller than the cost of the
-main contract&nbsp;&mdash;&nbsp;generally, expect on the order of 5%
-to 10%&nbsp;&mdash;&nbsp;and the benefit is large: the difference
+<para>The key to successful OS IV&amp;V is that the reviewer is
+responsible to the customer, <emphasis>not</emphasis> to the primary
+development vendor.  That part is crucial: even if the two vendors are
+contracting through the same prime vehicle, or one is a subcontractor
+to the other, it must be clear in the contracts that the reviewer
+reports directly to the client, interacting with the primary
+development vendor only to <emphasis>perform</emphasis> the OS
+IV&amp;V function.</para>
+
+<para>The cost of OS IV&amp;V review is much smaller than the cost of
+the main contract&nbsp;&mdash;&nbsp;generally, expect on the order of
+5% to 10%&nbsp;&mdash;&nbsp;and the benefit is large: the difference
 between an end product that is not useably open source and one that is
 truly open source, able to be deployed and supported by anyone.</para>
 
-<para>During development, the IV&amp;V reviewers participate the way
-any third party would, posting in the project's public discussion
+<para>During development, the OS IV&amp;V reviewers participate the
+way any third party would, posting in the project's public discussion
 forums, using the installation documentation to try to get the
 software up and running, reporting bugs via the public tracker,
 submitting pull requests, and so on.  As the project reaches the alpha
@@ -1200,10 +1214,10 @@ project are truly met.</para>
 
 <para>But the reviewer's job is not just to review.  The reviewer is
 there to <emphasis>help</emphasis> the primary vendor meet these
-expectations throughout development, and to report back to you, the
-customer, as to whether the vendor is doing so.  In far too many
-cases, I have seen a nominally open source project be contracted for
-and developed, only for the customer to discover at the
+expectations throughout development, and to report back to the
+customer as to whether the vendor is doing so.  In far too many cases,
+I have seen a nominally open source project be contracted for and
+developed, only for the customer to discover at the
 end&nbsp;&mdash;&nbsp;too late to do anything about
 it&nbsp;&mdash;&nbsp;that literally no party besides than the original
 vendor can actually deploy, maintain, or extend the software, because
@@ -1218,18 +1232,18 @@ linkend="getting-started"/></phrase>.)</para>
 this failure.  In their mind, they developed and delivered software
 the way they usually do, so what's the problem?  The fact that no one
 other than them can deploy or modify the end result doesn't register
-as a failure, because in all their other projects that was never
-expected anyway.  The fact that the contract requires it is
-meaningless unless the customer has some way to test and enforce that
-requirement.  As most customers do not have the in-house technical
-capability to do so, without some kind of external review process
-the open source clauses in the contract are effectively void.</para>
+as a failure, because in all their other projects that was never a
+goal anyway.  The fact that the contract requires it is meaningless
+unless the customer has some way to test and enforce that requirement.
+As most customers do not have the in-house technical capability to do
+so, without some kind of external review process the open source
+clauses in the contract are effectively void.</para>
 
 <para>Independent review is not merely a sort of open source
 insurance, though it would be worthwhile even if it were only that.
 It is also an investment in the success of future partnerships with
 the primary vendor.  The vendor becomes more inherently capable of
-performing quality open source work in the future, because the
+performing quality open source work in the future, because the OS
 IV&amp;V process provides a practical education in open source
 development.  Thus, done right, third-party review results in both a
 healthier open source project and a healthier long-term relationship
@@ -1238,10 +1252,10 @@ expertise outside that primary contractor right from the start, as
 discussed in <xref linkend="foster-expertise-diversity"/>.  Ideally,
 at the end of development for a new open source product, you should
 have at least two independent commercial entities able to deploy and
-support the software: the primary development vendor, and the IV&amp;V
-vendor.  That's already twice as much supplier diversity as most
-projects have coming out of the gate, and it will be much easier to
-add a third vendor than a second.</para>
+support the software: the primary development vendor, and the OS
+IV&amp;V vendor.  That's already twice as much supplier diversity as
+most projects have coming out of the gate, and it's much easier to add
+a third vendor than a second.</para>
 
 </sect2>
 
@@ -2219,7 +2233,7 @@ your contractor, or at least to perform knowledgeable review, then I
 strongly recommend finding a third-party to provide
 <emphasis>independent</emphasis> deployability and maintainability
 review while the project is under way, as described in
-<xref linkend="third-party-review"/>.</para>
+<xref linkend="independent-review"/>.</para>
 
 <sect3 id="talk-to-relevant-communities-early">
 <title>Establish contact early with relevant communities</title>
