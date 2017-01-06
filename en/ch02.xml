@@ -1956,15 +1956,16 @@ question people ask in the forums (even if you moderate them through);
 reviewing every patch or suggestion posted, when doing so may cost
 valuable development time; etc.</para>
 
-<para>One way to think of it is that you're open sourcing your code,
-not your time.  One of those resources is infinitely replicable, the
-other is not.  You'll have to determine the point at which engaging
-with outside users and developers makes sense for your project.  In
-the long run it usually does, and most of this book is about how to do
-it effectively.  But it's still under your control.  Developing in the
-open does not change this, it just ensures that everything done in the
-project is, by definition, done in a way that's compatible with being
-open source.</para>
+<para>One way to think of it is: you open source your code, not your
+time.  The latter resource is infinitely replicable; the former is
+not, and you may protect it however you need to.  You'll have to
+determine the point at which engaging with outside users and
+developers makes sense for your project.  In the long run it usually
+does, and most of this book is about how to do it effectively.  But
+the pace of engagement is always under your control.  Developing in
+the open does not change this, it just ensures that everything done in
+the project is, by definition, done in a way that's compatible with
+being open source.</para>
 
 </sect2>
 </sect1>
