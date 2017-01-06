@@ -4,81 +4,17 @@
 
 <simplesect>
 
-<para>The classic model of how free software projects get started was
-supplied by Eric Raymond, in a now-famous paper on open source
-processes entitled <citetitle>The Cathedral and the
-Bazaar</citetitle>.  He wrote:</para>
-
-    <blockquote>
-      <para><emphasis>Every good work of software starts by scratching
-      a developer's personal itch.</emphasis></para>
-
-      <para>(from <emphasis role="bold"><ulink
-      url="http://www.catb.org/~esr/writings/cathedral-bazaar/"
-      >catb.org/~esr/writings/cathedral-bazaar/</ulink>
-      </emphasis>)</para>
-    </blockquote>
-
-<para>Note that Raymond wasn't saying that open source projects happen
-only when some individual gets an itch.  Rather, he was saying that
-<emphasis>good</emphasis> software results when the programmer has a
-personal interest in seeing the problem solved; the relevance of this
-to free software was that a personal itch happened to be the most
-frequent motivation for starting a free software project.</para>
-
-<para>This is still how most free software projects are started, but less so
-now than in 1997, when Raymond wrote those words.  Today, we have the
-phenomenon of organizations&mdash;for-profit corporations,
-governments, non-profits, etc&mdash;starting large, centrally-conceived
-open source
-projects from scratch.  The lone programmer, banging out some code to
-solve a local problem and then realizing the result has wider
-applicability, is still the source of much new free software, but is
-not the only story.</para>
-
-<para>Raymond's point is still insightful, however.  The essential
-condition is that the producers of the software have a direct interest
-in its success, usually because they use it themselves or work
-directly with people who use it.  If the software
-doesn't do what it's supposed to do, the person or organization
-producing it will feel the dissatisfaction in their daily work.  For
-example, the open source software developed by the Kuali Foundation
-(<ulink url="https://www.kuali.org/" >kuali.org</ulink>), used by educational
-institutions to manage their finances, research grants, HR systems,
-student information, etc, can hardly be said to scratch any individual
-programmer's personal itch.  It
-scratches an institutional itch.  But that itch arises directly from
-the experiences of the institutions concerned, and therefore if
-the project fails to satisfy them, they will know.  This arrangement
-produces good software because the feedback loop flows in the right
-direction.  The program isn't being written to be sold to someone else
-so they can solve <emphasis>their</emphasis> problem.  It's being
-written to solve one's <emphasis>own</emphasis> problem, and then
-shared with everyone, much as though the problem were a disease and
-the software were medicine whose distribution is meant to completely
-eradicate the epidemic.</para>
-
-<para>This chapter is about how to introduce a new free software
-project to the world, but many of its recommendations would sound
-familiar to a health organization distributing medicine.  The goals
-are very similar: you want to make it clear what the medicine does,
-get it into the hands of the right people, and make sure that those
-who receive it know how to use it.  But with software, you also want
-to entice some of the recipients into joining the ongoing research
-effort to improve the medicine.</para>
-
-<para>Free software distribution is a twofold task.  The software
-needs to acquire users, and to acquire developers.  These two needs
-are not necessarily in conflict, but they do add some complexity to a
-project's initial presentation.  Some information is useful for both
-audiences, some is useful only for one or the other.  Both kinds of
-information should subscribe to the principle of scaled presentation;
-that is, the degree of detail presented at each stage should
-correspond to the amount of time and effort put in by the
-reader at that stage.  More effort should always result in more
-reward.  When the two do 
-not correlate tightly, people may quickly lose faith and stop
-investing effort.</para>
+<para>Starting a free software project is a twofold task.  The
+software needs to acquire users, and to acquire developers.  These two
+needs are not necessarily in conflict, but the interaction between
+them adds some complexity to a project's initial presentation.  Some
+information is useful for both audiences, some is useful only for one
+or the other.  Both kinds of information should subscribe to the
+principle of scaled presentation: the degree of detail presented at
+each stage should correspond to the amount of time and effort put in
+by the reader at that stage.  More effort should always result in more
+reward.  When effort and reward do not correlate reliably, most people
+will lose faith and stop investing effort.</para>
 
 <para>The corollary to this is that <emphasis>appearances
 matter</emphasis>.  Programmers, in particular, often don't like to
@@ -91,15 +27,15 @@ programmers come up with on their own.</para>
 <para>This is a pity, because there are situations where form
 <emphasis>is</emphasis> substance, and project presentation is one of
 them.  For example, the very first thing a visitor learns about a
-project is what its web site looks like.  This information is absorbed
-before any of the actual content on the site is
+project is what its home page looks like.  This information is
+absorbed before any of the actual content on the site is
 comprehended&mdash;before any of the text has been read or links
 clicked on.  However unjust it may be, people cannot stop themselves
 from forming an immediate first impression.  The site's appearance
 signals whether care was taken in organizing the project's
 presentation.  Humans have extremely sensitive antennae for detecting
 the investment of care.  Most of us can tell in one glance whether a
-web site was thrown together quickly or was given serious thought.
+home page was thrown together quickly or was given serious thought.
 This is the first piece of information your project puts out, and the
 impression it creates will carry over to the rest of the project by
 association.</para>
@@ -126,10 +62,41 @@ giving off this aura of preparedness, the project sends out a message:
 "Your time will not be wasted if you get involved," which is exactly
 what people need to hear.</para>
 
+<sidebar id="user-vs-developer">
+<title>What We Mean by Users and Developers.</title>
+<para>The terms <firstterm>user</firstterm> and
+<firstterm>developer</firstterm> here refer to someone's relationship
+to the open source software project in question, not to her identity
+in the world at large.</para>
+
+<para>For example, if the open source project is a Javascript library
+intended for use in web development, and someone is using the library
+as part of her work building web sites, then she is a "user" of the
+library (even though professionally her title might be "software
+developer").  But if she starts contributing bugfixes and enhancements
+back <firstterm>upstream</firstterm> -- that is, back into the project
+-- then, to the extent that she becomes involved in the project's
+maintenance, she is also a "developer" of the project.</para>
+
+<para>It's common for developers in an open source projects to be
+users as well, but it's not always the case.  Especially with large
+projects started by organizations to meet enterprise-scale software
+needs, the developers may not always be direct users of the software,
+although they are still usually part of the team that uses that
+software within their organization.</para>
+
+<para>In projects meant primarily for programmers, the boundary
+between user and developer is very porous: <emphasis>every</emphasis>
+user is a potential developer.  But even in projects meant for
+non-technical people, some percentage of the users are potential
+developers.  Open source projects should be run in such a way as to
+make that transition welcoming to anyone who's interested.</para>
+</sidebar>
+
 <para>If you use a "canned hosting" site (see <xref
 linkend="starting-with-canned-hosting"/>), one advantage of that
 choice is that those sites have a default layout that is similar from
-project to project, and is pretty well-suited to presenting a project
+project to project and is pretty well-suited to presenting a project
 to the world.  That layout can be customized, within certain
 boundaries, but the default design prompts you to include the
 information visitors are most likely to be looking for.</para>
@@ -154,8 +121,7 @@ looking, and the payoff can be huge.  If the usual Internet search
 engines don't turn up anything, try searching directly on <ulink
 url="https://github.com/" >github.com</ulink>, <ulink
 url="https://freshcode.club/" >freshcode.club</ulink>, <ulink
-url="https://openhub.net/" >openhub.net</ulink>, <ulink
-url="https://sourceforge.net/" >sourceforge.net</ulink>, and in the
+url="https://openhub.net/" >openhub.net</ulink>, and in the
 Free Software Foundation's directory of free software at <ulink
 url="https://directory.fsf.org/" >directory.fsf.org</ulink>.</para>
 
@@ -304,7 +270,16 @@ they simply have trouble remembering it.</para>
             <xref linkend="starting-with-canned-hosting"/>), you
             can still register project-specific domains and forward
             them to the hosting site.  It helps users a lot to have a
-            simple URL to remember.</para>
+            simple URL to remember.<footnote><para>The importance of
+            top-level domain names seems to be declining.  A number of
+            projects now have just their name in the
+            <systemitem>.io</systemitem> TLD, for example, and don't
+            bother with <systemitem>.com</systemitem>,
+            <systemitem>.net</systemitem>, or
+            <systemitem>.org</systemitem>.  I can't predict what the
+            brand psychology of domain names will be in the future, so
+            just use your judgement, and if you can get the name in
+            all the important TLDs, do so.</para></footnote></para>
   </listitem>
   <listitem><para>If possible, is available as a username on <ulink
             url="https://twitter.com/" >Twitter</ulink> and other
@@ -348,7 +323,7 @@ microposts&nbsp;&mdash;&nbsp;colloquially referred to as
 total number of people on Identi.ca is far smaller than on Twitter,
 the percentage of them that are likely to be interested in news about
 an open source project is far higher, at least as of this writing in
-2013 and for some years preceding that.</para></footnote>, the <ulink
+2017 and probably for some years after that.</para></footnote>, the <ulink
 url="https://github.com/gnome" >gnome</ulink> username at
 GitHub.com<footnote><para>While the master copy of Gnome's source code
 is at <ulink url="https://git.gnome.org/" >git.gnome.org</ulink>, they
@@ -415,8 +390,8 @@ any less than that.  The phrase "designed to detect and handle
 failures at the application layer" will stand out to engineers who
 have experience with large-scale computing clusters&mdash;when they
 see those words, they'll know that the people behind Hadoop understand
-that world, and will thus be more willing to give Hadoop
-consideration.</para>
+that world, and the first-time visitor will thus be likely to give
+Hadoop further consideration.</para>
 
 <para>Those who remain interested after reading the mission statement
 will next want to see more details, perhaps some user or developer
@@ -456,7 +431,7 @@ linkend="legal"/>.</para>
 determined&mdash;probably in a minute or less&mdash;that she's
 interested in spending, say, at least five more minutes investigating
 this project.  The next sections describe what she should encounter in
-that five minutes.</para>
+those five minutes.</para>
 
 </sect2>
 
@@ -502,7 +477,7 @@ clarifying the mission statement's scope:</para>
     </itemizedlist>
     <para><emphasis>Requirements:</emphasis></para>
     <itemizedlist>
-      <listitem><para><emphasis>Python 2.2 or higher</emphasis></para>
+      <listitem><para><emphasis>Python 3.2 or higher</emphasis></para>
       </listitem>
       <listitem><para><emphasis>Enough disk space to hold the indexes
                 (approximately 2x original data size)</emphasis></para>
@@ -588,7 +563,7 @@ project should think carefully about what its best development status
 indicators are&nbsp;&mdash;&nbsp;Launchpad project pages do provide
 some good examples of the possibilities.  Start from the top of a
 project page there and scroll down: <ulink
-url="https://launchpad.net/drizzle" >launchpad.net/drizzle</ulink>.
+url="https://launchpad.net/drizzle" >launchpad.net/drizzle</ulink>
 or <ulink url="https://launchpad.net/inkscape"
 >launchpad.net/inkscape</ulink>, to pick two at random.</para></sidebar>
 
@@ -614,13 +589,17 @@ pleasant surprises produce the best kind of word-of-mouth.</para>
   release, with which users can get real work done and which has all
   the intended functionality, but which also has known bugs.  The main
   purpose of alpha software is to generate feedback, so the developers
-  know what to work on.  The next stage, <firstterm>beta</firstterm>,
-  means the software has had all the serious bugs fixed, but has not
-  yet been tested enough to certify for production release.  The purpose of beta
-  software is to either become the official release, assuming no bugs
-  are found, or provide detailed feedback to the developers so they
-  can reach the official release quickly.  The difference between
-  alpha and beta is very much a matter of judgement.</para>
+  know what to work on.  Alpha releases are generally free to change
+  APIs and functionality.</para>
+
+  <para>The next stage, <firstterm>beta</firstterm>, means the
+  software's APIs are finalized and its serious known bugs fixed, but
+  it has not yet been tested enough to certify for production release.
+  The purpose of beta software is to either become the official
+  release, assuming no bugs are found, or provide detailed feedback to
+  the developers so they can reach the official release quickly.  In a
+  series of beta releases, APIs and functionality should not change
+  except when absolutely necessary.</para>
 </sidebar>
 
 </sect3>
@@ -862,6 +841,10 @@ url="https://wiki.documentfoundation.org/Development"
 >wiki.documentfoundation.org/Development</ulink> are also a good
 example.</para>
 
+<para>If the project has a written Code of Conduct (see <xref
+linkend="code-of-conduct"/>), then the developer guidelines should
+link to it.</para>
+
 <para>The separate issue of providing a programmer's introduction to
 the software is discussed in <xref
 linkend="developer-documentation"/><phrase output="printed">
@@ -1091,6 +1074,15 @@ should have.  See
 <xref linkend="technical-infrastructure"/></phrase> for
 more.</para>
 
+<para>If the infrastructure aspects of documentation workflow seem
+daunting, consider using <ulink url="https://readthedocs.org/"
+>readthedocs.org</ulink>.  Many projects now depend on it to automate
+the process of presenting their documentation online.  The site takes
+care of format conversion, integration with the project's version
+control repository (so that documentation rebuilds happen
+automatically), and various other mundane tasks, so that you and your
+contributors can focus on content.</para>
+
 </sect3>
 
 </sect2>
@@ -1302,8 +1294,8 @@ linkend="legal"/></phrase> for details.</para>
 
 <sidebar>
 <para>If users interact with your code primarily over a
-network&mdash;that is, the software is usually part of a hosted
-service, rather than being distributed as a binary&mdash;then consider
+network connection&mdash;that is, the software is usually part of a hosted
+service, rather than being distributed to run client-side&mdash;then consider
 using the <firstterm>GNU Affero GPL</firstterm> instead.  The AGPL is
 just the GPL with one extra clause establishing network accessibility
 as a form of distribution for the purposes of the license.  See <xref
@@ -1679,9 +1671,9 @@ output="printed"> in <xref linkend="communications"/></phrase>), and
 if you're particularly unlucky some of those people may find their way
 into your project.  It is always up to the project leadership, by
 which I mean those whom others in the project tend to listen to the
-most, to see to it that a code of conduct is used wisely.  (See also
-<xref linkend="rudeness"/><phrase output="printed"> in <xref
-linkend="communications"/></phrase>.)</para>
+most, to enforce a code of conduct, and to see to it that a code of
+conduct is used wisely.  (See also <xref linkend="rudeness"/><phrase
+output="printed"> in <xref linkend="communications"/></phrase>.)</para>
 
 <para>Some participants may genuinely disagree with the need to adopt
 a code at all, and argue against it on the grounds that it could do
@@ -2084,7 +2076,15 @@ in the appropriate forums.  There are two kinds of forums: generic
 forums that display many kinds of new project announcements, and
 topic-specific forums where your project would be welcome news.</para>
 
-<para>As of late 2015, the best general forum is probably <ulink
+<para>Make sure the announcement includes key words and phrases that
+will help people find your project in search engines.  A good test is
+that if someone does a search for "open source foo bar baz", and your
+project is a credible offering for foo, bar, and baz, then it should
+be on the first page of results.  (Unless you have a lot of open
+source competitors&nbsp;&mdash;&nbsp;but you don't, because you read
+<xref linkend="look-around"/>, right?)</para>
+
+<para>As of late 2017, the best general forum for announcements is probably <ulink
 url="https://news.ycombinator.com/" >news.ycombinator.com</ulink>.
 While you are welcome to submit your project there, note that it will
 have to successfully climb the word-of-mouth / upvote tree to get
@@ -2099,15 +2099,10 @@ can get mentioned in a place like that, I hesitate to contribute to
 the marketing arms race by suggesting any concrete steps to accomplish
 this.  Use your judgement and try not to spam.</para>
 
-<para>Send the announcement to <ulink url="https://changelog.com/"
->changelog.com</ulink>; if they think it's interesting to enough
-people, they'll give it some coverage, and that can get you some good
-initial developer attention.  You might also try registering your
-project at <ulink url="https://openhatch.org/" >openhatch.org</ulink>,
-a site that matches open source projects with programmers looking for
-good projects to participate in, and at <ulink
+<para>You might also register your project at <ulink
+url="https://freshcode.club/" >freshcode.club</ulink>, and at <ulink
 url="http://openhub.net/" >openhub.net</ulink>, which is the closest
-thing there is to an global database of free software projects and
+thing there is to a global database of free software projects and
 their contributors, though it is somewhat desultorily
 maintained.</para>
 
