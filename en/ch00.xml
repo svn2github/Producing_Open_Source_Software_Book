@@ -48,8 +48,8 @@ continuing it, it cannot be unilaterally shut down.  Everyone has
 infinite power; everyone has no power.  It's an interesting
 dynamic.</para>
 
-<para>That is why I wanted to write this book in the first place, and
-seven years later, wanted to update it.  Free software projects have
+<para>That is why I wanted to write this book in the first place, and,
+a decade later, wanted to update it.  Free software projects have
 evolved a distinct culture, an ethos in which the liberty to make the
 software do anything one wants is a central tenet.  Yet the result of
 this liberty is not a scattering of individuals each going their own
@@ -77,7 +77,7 @@ that's what keeps the whole system going.</para>
 <sect1 id="audience">
 <title>Who Should Read This Book?</title>
 
-<para>This book is meant for software developers and managers who are
+<para>This book is meant for managers and software developers who are
 considering starting an open source project, or who have started one
 and are wondering what to do now.  It should also be helpful for
 people who just want to participate in an open source project but have
@@ -134,8 +134,8 @@ talk to an informant there, someone I could trust to explain what was
 really going on.</para>
 
 <para>While Subversion was my full time job from 2000-2006, I've been
-involved in free software for more than twenty years, including the
-seven years since 2006 (when the first edition of this book was
+involved in free software for more than twenty years, including all
+the years since 2006 (when the first edition of this book was
 published).  Other projects and organizations that have influenced
 this book include:</para>
 
@@ -188,10 +188,10 @@ this book include:</para>
 </itemizedlist>
 
 <para>This is not a complete list, of course.  Many of the client
-projects I work with through our consulting practice at at <ulink
+projects I work with through our consulting practice at <ulink
 url="http://opentechstrategies.com/">Open Tech Strategies, LLC</ulink>
 have influenced this book, and like most open source programmers, I
-also keep loose tabs on a variety of different projects of interest to
+keep loose tabs on a variety of different projects of interest to
 me, just to have a sense of the general state of things.  I haven't
 named all of them here, but they are mentioned in the text where
 appropriate.</para>

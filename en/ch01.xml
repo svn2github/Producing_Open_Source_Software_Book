@@ -4,85 +4,77 @@
 
 <simplesect>
 
-<para>Most free software projects fail.</para>
+<para>Free software&nbsp;&mdash;&nbsp;open source
+software<footnote><para>The terms are synonymous, as mentioned in
+<!-- I thought I was going to have to add the xrefstyle="the %t"
+     attribute to the xref below, but DocBook knew that the target was
+     a chapter-like thing not a section-like thing and didn't add any
+     words, so the "the" in the running text is enough. -->
+the <xref linkend="preface"/>.  See <xref
+linkend="free-vs-open-source"/> for
+more.</para></footnote>&nbsp;&mdash;&nbsp;has become the backbone of
+modern information technology.  It runs on your phone, on your laptop
+and desktop computers, and in embedded microcontrollers for household
+appliances, automobiles, industrial machinery and countless other
+devices that we too often forget even have software.  Open source is
+especially prevalent on the servers that provide online services on
+the Internet.  Every time you send an email, visit a web site, or call
+up some information on your smartphone, a significant portion of the
+activity is handled by open source software.</para>
 
-<para>We tend not to hear very much about the failures.  Only
-successful projects attract attention, and there are so many free
-software projects in total<footnote><para>I tried to estimate the
-number, by looking at just the number of projects registered at the
-most popular hosting sites, and the closest I could calculate to an
-answer was somewhere between one hundred thousand and two hundred
-thousand.  That would still be far lower the total number of free
-software projects on the Internet, of course, as it only counts the
-ones that chose to use one of the major hosting
-sites.</para></footnote> that even though only a small percentage
-succeed, the result is still a lot of visible projects.  We also don't
-hear about the failures because failure is not an event.  There is no
-single moment when a project ceases to be viable; people just sort of
-drift away and stop working on it.  There may be a moment when a final
-change is made to the project, but those who made it usually didn't
-know at the time that it was the last one.  There is not even a clear
-definition of when a project is expired.  Is it when it hasn't been
-actively worked on for six months?  When its user base stops growing,
-without having exceeded the developer base?  What if the developers of
-one project abandon it because they realized they were duplicating the
-work of another&mdash;and what if they join that other project, then
-expand it to include much of their earlier effort?  Did the first
-project end, or just change homes?</para>
+<para>Yet it is also largely invisible, even to many of the people who
+work in technology.  Open source's nature is to fade into the
+background and go unnoticed except by those whose work touches it
+directly.  It is the plankton of computing.  We all breathe, but few
+of us stop to think about where the oxygen is coming from.</para>
 
-<para>Because of such complexities, it's impossible to put a precise
-number on the failure rate.  But anecdotal evidence from two decades
-in open source, some casting around on multi-project hosting sites
-(see <xref linkend="canned-hosting"/><phrase output="printed"> in
-<xref linkend="technical-infrastructure"/></phrase> for more about
-them), and a little Googling all point to the same conclusion: the
-rate is extremely high, probably on the order of 90&ndash;95%.  The
-number climbs higher if you include surviving but dysfunctional
-projects: those which <emphasis>are</emphasis> producing running code,
-but which are not pleasant places to be, or are not making progress as
-quickly or as dependably as they could.</para>
+<para>If you've read this far, though, you're already one of the
+people who wonders where the oxygen comes from, and probably want to
+create some yourself.</para>
 
-<para>This book is about avoiding failure.  It examines not only how
-to do things right, but how to do them wrong, so you can recognize and
-correct problems early.  My hope is that after reading it, you will
-have a repertory of techniques not just for avoiding common pitfalls
-of open source development, but also for dealing with the growth and
-maintenance of a successful project.  Success is not a zero-sum game,
-and this book is not about winning or getting ahead of the
-competition.  Indeed, an important part of running an open source
+<para>This book will examine not only how to do open source right, but
+how to do it wrong, so you can recognize and correct problems early.
+My hope is that after reading it, you will have a repertory of
+techniques not just for avoiding common pitfalls, but for dealing with
+the growth and maintenance of a successful project.  Success is not a
+zero-sum game, and this book is not about winning or getting ahead of
+the competition.  Indeed, an important part of running an open source
 project is working smoothly with other, related projects.  In the long
 run, every successful project contributes to the well-being of the
 overall, worldwide body of free software.</para>
 
-<para>It would be tempting to say that free software projects fail for
-the same sorts of reasons proprietary software projects do.
-Certainly, free software has no monopoly on unrealistic requirements,
-vague specifications, poor resource management, insufficient design
-phases, or any of the other hobgoblins already well known to the
-software industry.  There is a huge body of writing on these topics,
-and I will try not to duplicate it in this book.  Instead, I will
-attempt to describe the problems peculiar to free software.  When a
-free software project runs aground, it is often because the developers
-(or the managers) did not appreciate the unique problems of open
-source software development, even though they might be quite
-well-prepared for the better-known difficulties of closed-source
-development.</para>
+<para>It would be tempting to say that when free software projects
+fail, they do so for the same sorts of reasons proprietary software
+projects do.  Certainly, free software has no monopoly on unrealistic
+requirements, vague specifications, poor staff management, ignoring
+user feedback, or any of the other hobgoblins already well known to
+the software industry.  There is a huge body of writing on these
+topics, and I will try not to duplicate it in this book.  Instead, I
+will attempt to describe the problems peculiar to free software.  When
+a free software project runs aground, it is often because the
+participants did not appreciate the unique problems of open source
+software development, even though they might be quite well-prepared
+for the better-known difficulties of closed-source development.</para>
 
 <para>One of the most common mistakes is unrealistic expectations
 about the benefits of open source itself.  An open license does not
-guarantee that hordes of active developers will suddenly devote
-their time to your project, nor does open-sourcing a troubled project
+guarantee that hordes of active developers will suddenly devote their
+time to your project, nor does open-sourcing a troubled project
 automatically cure its ills.  In fact, quite the opposite: opening up
 a project can add whole new sets of complexities, and cost
 <emphasis>more</emphasis> in the short term than simply keeping it
-in-house.  Opening up means arranging the code to be comprehensible to
-complete strangers, setting up development documentation and email lists,
-and often writing documentation for the first time.  All this is a lot
-of work.  And of course, if any interested developers
-<emphasis>do</emphasis> show up, there is the added burden of
-answering their questions for a while before seeing any benefit from
-their presence.  As developer Jamie Zawinski said about the troubled
-early days of the Mozilla project:</para>
+in-house.</para>
+
+<para>Opening up means arranging the code to be comprehensible to
+complete strangers, writing development documentation, and setting
+discussion forums and other collaboration tools (this is discussed in
+more detail in <xref linkend="technical-infrastructure"/>).</para>
+
+<para>All of this is work, and is pure overhead at first.  If any
+interested developers <emphasis>do</emphasis> show up, there is the
+added burden of answering their questions for a while before seeing
+any benefit from their presence.  As developer Jamie Zawinski said
+about the troubled early days of the Mozilla project:</para>
 
     <blockquote>
       <para><emphasis>Open source does work, but it is most definitely
@@ -99,11 +91,12 @@ early days of the Mozilla project:</para>
 <para>A related mistake is that of skimping on presentation and
 packaging, figuring that these can always be done later, when the
 project is well under way.  Presentation and packaging comprise a wide
-range of tasks, all revolving around the theme of reducing the barrier
-to entry.  Making the project inviting to the uninitiated means
-writing user and developer documentation, setting up docs that are
-informative to newcomers, automating as much of the
-software's compilation and installation as possible, etc.</para>
+range of tasks, all revolving around the theme of clearing away
+distractions and cognitive barriers for newcomers -- reducing the
+amount of work they need to do to get from wherever they are to "the
+next step" of engagement.  The web site has to look good, the
+software's compilation, packaging, and installation should be as
+automated as possible, etc.</para>
 
 <para>Many programmers unfortunately treat this kind of work as being
 of secondary importance to the code itself.  There are a couple of
@@ -123,27 +116,28 @@ priority from the very start of the project.</para>
 <para>Next comes the fallacy that little or no project management is
 required in open source, or conversely, that the same management
 practices used for in-house development will work equally well on an
-open source project.  Management in an open source project isn't
-always very visible, but in the successful projects, it's usually
-happening behind the scenes in some form or another.  A small thought
-experiment suffices to show why.  An open source project consists of a
-random collection of programmers&mdash;already a notoriously
-independent-minded species&mdash;who have most likely never met each
-other, and who may each have different personal goals in working on
-the project.  The thought experiment is simply to imagine what would
-happen to such a group <emphasis>without</emphasis> management.
-Barring miracles, it would collapse or drift apart very quickly.
-Things won't simply run themselves, much as we might wish otherwise.
-But the management, though it may be quite active, is often informal,
-subtle, and low-key.  The only thing keeping a development group
-together is their shared belief that they can do more in concert than
-individually.  Thus the goal of management is mostly to ensure that
-they continue to believe this, by setting standards for
-communications, by making sure useful developers don't get
-marginalized due to personal idiosyncracies, and in general by making
-the project a place developers want to keep coming back to.  Specific
-techniques for doing this are discussed throughout the rest of this
-book.</para>
+open source project.</para>
+
+<para>Management in an open source project isn't always very visible,
+but in the successful projects, it's usually happening behind the
+scenes in some form or another.  A small thought experiment suffices
+to show why.  An open source project consists of a random collection
+of programmers&mdash;already a notoriously independent-minded
+species&mdash;who have most likely never met each other, and who may
+each have different personal goals in working on the project.  The
+thought experiment is simply to imagine what would happen to such a
+group <emphasis>without</emphasis> management.  Barring miracles, it
+would collapse or drift apart very quickly.  Things won't simply run
+themselves, much as we might wish otherwise.  But the management,
+though it may be quite active, is often informal, subtle, and low-key.
+The only thing keeping a development group together is their shared
+belief that they can do more in concert than individually.  Thus the
+goal of management is mostly to ensure that they continue to believe
+this, by setting standards for communications, by making sure useful
+developers don't get marginalized due to personal idiosyncracies, and
+in general by making the project a place developers want to keep
+coming back to.  Specific techniques for doing this are discussed
+throughout the rest of this book.</para>
 
 <para>Finally, there is a general category of problems that may be
 called "failures of cultural navigation."  Twenty years ago, even ten,
@@ -171,17 +165,38 @@ fall back on for resolving differences. </para>
 interesting phenomenon: certain types of organizations are
 structurally less compatible with open source development than others.
 One of the great surprises for me in preparing the second edition of
-this book was realizing that, on the whole, my experiences indicated
-that governments are less naturally suited to participating in free
-software projects than private-sector, for-profit corporations, with
+this book was realizing that, on the whole, experience indicates that
+governments are <emphasis>less</emphasis> suited to participating in
+free software projects than for-profit corporations are, with
 non-profits somewhere in between the two.  There are many reasons for
 this (see <xref linkend="governments-and-open-source"/>), and the
 problems are certainly surmountable, but it's worth noting that when
 an existing organization&nbsp;&mdash;&nbsp;particularly a hierarchical
 one, and <emphasis>particularly</emphasis> a hierarchical,
 risk-averse, and publicity-sensitive one&nbsp;&mdash;&nbsp;starts or
-joins an open source project, some adjustments will usually be
-needed.</para>
+joins an open source project, the organization will usually have to
+make some adjustments.</para>
+
+<para>The extra effort required to run open source instead of closed
+is not great, but the effort is most noticeable right at the
+beginning.  What's less noticeable at the beginning are the benefits,
+which are considerable and which become clearer as the project
+progresses.  There is the deep personal satisfaction it gives
+developers, of course: the pleasure of doing one's work in the open,
+able to appreciate and be appreciated by one's peers.  It is no
+accident that many open source developers continue to stay active on
+the same projects -- as part of their job -- even after changing
+employers.  But there are also significant organizational benefits:
+the open source projects your organization participates in are a
+membrane through which your managers and developers are regularly
+exposed to people and ideas outside your organizational hierarchy.
+It's like having the benefits of attending a conference, but while
+still getting daily work done and without incurring travel
+expenses.<footnote><para>Of course, it's still a good idea for them to
+attend real conferences once in a while too; see <xref
+linkend="meeting-in-person"/>.</para></footnote> In a successful open
+source project, these benefits, once they start arriving, greatly
+outweigh the costs.</para>
 
 <para>This book is a practical guide, not an anthropological study or
 a history.  However, a working knowledge of the origins of today's
@@ -192,14 +207,14 @@ and dialect, yet still be able to participate comfortably and
 effectively everywhere.  In contrast, a person who does not understand
 the culture will find the process of organizing or participating in a
 project difficult and full of surprises.  Since the number of people
-developing free software is still growing by leaps and bounds, there
-are many people in that latter category&mdash;this is largely a
-culture of recent immigrants, and will continue to be so for some
-time.  If you think you might be one of them, the next section
-provides background for discussions you'll encounter later, both in
-this book and on the Internet.  (On the other hand, if you've been
-working with open source for a while, you may already know a lot of
-its history, so feel free to skip the next section.)</para>
+developing free software continues to grow, there are many people in
+that latter category&mdash;this is largely a culture of recent
+immigrants, and will continue to be so for some time.  If you think
+you might be one of them, the next section provides background for
+discussions you'll encounter later, both in this book and on the
+Internet.  (On the other hand, if you've been working with open source
+for a while, you may already know a lot of its history, so feel free
+to skip the next section.)</para>
 
 </simplesect>
 
@@ -460,7 +475,7 @@ band together and share with one another, but they
 enthusiasm, by coordinating a massive distributed development effort
 in which the Unix command-line utilities and code libraries, and
 eventually the operating system kernel itself, were rewritten from
-scratch mostly by volunteers.  The BSD project became a prime example
+scratch mostly by volunteers.  The BSD project became an early example
 of non-ideological free software development, and also served as a
 training ground for many developers who would go on to remain active
 in the open source world.</para>
@@ -520,7 +535,7 @@ about qualifications or motivations beyond the technical.</para>
 turned out that the free software world was producing some very
 high-quality code.  In some cases, it was demonstrably technically
 superior to the nearest non-free alternative; in others, it was at
-least comparable, and of course it always cost less.  While only a few
+least comparable, and of course it always cost less to acquire.  While only a few
 people might have been motivated to run free software on strictly
 philosophical grounds, a great many people were happy to run it
 because it did a better job.  And of those who used it, some
