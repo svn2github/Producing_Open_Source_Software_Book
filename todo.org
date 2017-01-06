@@ -11,60 +11,6 @@ that may be actionable some day but that I don't consider to be "todo"
 items right now.
 
 * Andy Oram comments
-** Chapter 1 (Andy Oram)
-   By the way, for both the preface and some marketing material, we need
-   to list the main changes to the new edition.
-
-   I guess the opening ("Most free software projects fail.") seemed like
-   a powerful statement when we put out the first edition, but this time
-   I worry a bit about starting out with negatives. What about the
-   stoned-soup miracle of seeing value created out of many small
-   contributions by many strangers? What about the joys of community (as
-   one finds, for instance, at DebConf)? What about the uncorruptible and
-   unbreakable persistence of a project that meet people's needs? I would
-   start with a page about those and then move to failure.
-   
-   Right at the beginning: "We tend not to hear very much about the
-   failures..." This paragraph seems longer than necessary. You make a
-   good point, but make it in two sentences and move on.
-   
-   List of myths and causes of failure, pages 1-2: Consider adding a bit
-   of structure, perhaps through a variablelist: open source as panacea,
-   lack of packaging, lack of active management, etc.
-   
-   Page 3: "some adjustments will usually be needed." Who has to adjust?
-   The risk-averse organization, or the open source developers?
-   
-   Page 6: about BSD. Although that projects produced a lot of critical
-   code still in widespread use, and OSes that powered a lot of projects,
-   the organizations producing the various OSes diverged from what we now
-   see as good free software practices, and the projects suffered. (The
-   fragmentation and forks were symptoms of that.) I don't think you need
-   to go into all that in Chapter 1, but it might be a useful topic for
-   later chapters. If you don't mind getting the flames.
-   
-   X Windows: I'd rather not use a sloppy term, particularly because MS
-   trademarked Windows. You could just give the full name once and then
-   call it X.
-   
-   Page 7: "of course it always cost less." This could trigger complaints
-   about the complicated TCO problem. It might be more accurate to say
-   "of course, people with some computing skill could always use it
-   reduce their software costs."
-   
-   A big addition to your Chapter 1 history: the renewed popularity of
-   SaaS in the 1990s (it has existed in some form for decades, of course)
-   presents a new challenge that the FSF responded to quickly and that
-   your chapter needs to cover. It can take up just a few paragraphs, but
-   there are a lot of subtleties. The counter-intuitive fact is that free
-   software has flourished more and more as SaaS grows. I would like to
-   see people adopt the term "closed core" to describe the phenomenon. I
-   introduced that term in 2011:
-   
-   http://radar.oreilly.com/2011/12/could-closed-core-prove-a-more.html
-   
-   You already described the phenomenon earlier, to explain why companies
-   invest in open source, but this is a bit of an extra twist.
 ** Chapter 2 (Andy Oram)
    Pages 11-12: Some of this material perhaps should not be right at the
    beginning of the chapter. Basically, how to present yourself to the
