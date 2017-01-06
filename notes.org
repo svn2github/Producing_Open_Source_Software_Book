@@ -11,6 +11,9 @@ tracker -- while I'm writing the book, Org Mode is a lot easier to
 work with than a bug tracker would be.  Once I'm not working on the
 book on a regular basis, I might switch to a real bug tracker.
 
+* http://www.techrepublic.com/article/for-50-percent-of-developers-open-source-is-a-9-to-5-job/
+  Re Dirk Riehle's http://dirkriehle.com/2013/08/22/paid-vs-volunteer-work-in-open-source/
+* http://betanews.com/2015/04/20/why-the-open-source-software-model-is-fundamentally-broken/
 * http://hood.ie/blog/welcoming-communities.html is great,
   and links to some good stuff too, including more by Mikael Rogers.
 * Discuss the issue of when the "users" are by definition developers.
