@@ -1051,3 +1051,213 @@ Archived entries from file /home/kfogel/src/producingoss/todo.org
   appropriate model.  IMHO freewheeling discussion is rarely good *in
   the specific case of planning releases of an open source project*.
   It's good in many other situations, just not that one.  -K]
+
+* Chapter 6 (Andy Oram)
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-01-07 Sat 00:37
+  :ARCHIVE_FILE: ~/src/producingoss/todo.org
+  :ARCHIVE_OLPATH: Andy Oram comments
+  :ARCHIVE_CATEGORY: todo
+  :END:
+  Some interesting comments, nothing too disruptive I think.
+
+  Per one of my principles, let's provide a broad overview of the topic
+  (communications is a big topic!) at the start. For the first two or
+  three paragraphs, I would remind readers what an open source project
+  must do--recruit developers and users, motivate people, allow
+  free-flowing discussion while reaching decisions, etc.--and then
+  proceed to the types of communication required. The importance of
+  writing well is a secondary topic, and could be a section following
+  these few introductory paragraphs.
+   
+  [Good idea; done.  -K]
+
+  I wonder whether you have devoted enough material to the media
+  (mailing list, web site, FAQ, etc.) a project uses to do
+  communications. You introduce a lot of these in Chapter 2 and descibe
+  them on a technical level in Chapter 3. Maybe these are enough; I'm
+  not sure. Chapter 6 assumes that all these are in place and talks
+  about how to maximize their value. I would consider listing the
+  important basic blocks of communication again.
+
+  [I think they'll remember, or consult back in Chapter 2.  This is
+  partly because it's very unlikely that any of that infrastructure
+  will be unfamiliar to a reader anyway -- most people reading this
+  book know about wikis and Slack (if not IRC) and mailing lists
+  anyway.  -K]
+   
+  By the way, a friend of mine has a T-shirt reading, "Hyperbole is the
+  greatest thing ever."
+   
+  [I want that T-shirt more than anything else! :-)   -K]
+
+  Structure and Formatting, page 115: I cheered when I read your first
+  paragraph about writing with proper grammar. From my own experience
+  over the decades, I'd like to suggest another point you can make
+  (regarding "arbitrary"): proper grammer and word usage is critical to
+  minimizing ambiguity. Ambiguity can be very destructive in technical
+  material (and certain other publications, such as legal ones). And
+  little things such as run-on sentences, where it's not clear what's
+  cause and what's effect, can create this dangerous ambiguity. No one
+  can be perfect, but writers should do the best they can and reread
+  their own work to look for ambiguity caused by mistakes.
+   
+  [Done, and...]
+
+  The rest of this section could be a bulleted list, each paragraph
+  after the second becoming its own item.
+   
+  [...done.  -K]
+
+  Subject lines, page 116: I don't know whether my observation here is
+  on-topic, but I'm frusrated to find that Google Mail doesn't let you
+  change the subject line when you press Reply or Forward. I don't know
+  whether other mailers have the same problem, but a lot of people use
+  Google Mail. When I want to change the subject line, I have to launch
+  a new thread (which I may or may not want to do) and manually cut and
+  paste addresses and the text of the email.
+   
+  [It does allow it.  I'm pretty sure I sent you an email explaining
+  where it's hidden in their UI.  -K]
+
+  Real names, page 118-119: I like your clever suggestion that people
+  who want to remain anonymous can invent a real-seeming name. Women
+  (and perhaps certain ethnic groups) have a particular need to hide
+  their identities because they can be harrassed quite severely, and
+  their contributions can be devalued. They may try to choose "neutral"
+  names. I don't know whether this is worth saying--you already grant
+  them the right to hide their identities.
+   
+  [It's a good point, but IMHO not worth the space.  Anyone who
+  wants/needs to do that sort of identity hiding has already figured
+  this out, and will understand how that fits in with the advice
+  here.  -K]
+
+  Avoiding Common Pitfalls, page 121: Can you add a sentence or two
+  after this heading? Our production team has (or used to have) a rule
+  against putting two headings in a row. I concur, finding that this
+  looks bad. And there's almost always something general one can say to
+  tie subsections together. As encouragement, here's a suggestion: the
+  subsections here revolve around the idea of increasing productivity
+  during discussions. You could find a couple sentences to say about
+  that.
+   
+  [Done.  -K]
+
+  "Me too" posts, page. 121: I'm not sure I'd encourage people to post
+  empty encouraging messages--every message takes up a little bit of
+  other people's time, and if the mailing list contains a lot of
+  content-free messages, readers are discouraged from reading it. Your
+  next section talks about signal/noise ratio, and I think that applies
+  here too. Unless people are voting, I'd avoid extra messages that just
+  convey encouragement. When I want to convey encouragement, I try to
+  find something extra to say that "adds value."
+   
+  [Added some clarification about when it's okay to do a "me too"
+  post.  -K]
+
+  Holy Wars (pages 124-125): I have my own approach to holy wars (man,
+  don't you see lots of those during this election season?). It may or
+  may not be useful to you--you can ignore this if you want. I think
+  holy wars stem from different basic values. The idea of "values" is
+  almost defined by these being unarguable. You are pro-life or
+  pro-choice, that's it. And sometimes people do overlap in their values
+  (most people are partly pro-life and partly pro-choice) but different
+  groups emphasize a value more than others. So people may have
+  radically different values, or may simply place different value on
+  each of their shared values. Take the GPU vs. BSD bruhaha: both sides
+  value freedom of choice and efficiency, but they place different
+  emphases on each. In any case where values clash, argument is useless
+  because values lie beyond rationality. My two cents.
+   
+  [I agree, but probably it won't help the reader much to go into
+  that here.  This section isn't about the philosophical causes of
+  holy wars, but just about how to avoid starting them or fanning the
+  flames.  -K]
+
+  The "Noisy Minority" Effect (pages 125): It might be worth
+  acknowledging that the minority is sometimes right. In politics and
+  social policy, we have plenty of examples of this. (Most white
+  Americans in 1950 thought that blacks didn't deserve equal political
+  rights, for instance.) If the merits of a proposal can be discussed
+  dispassionately (which can't be done during Holy Wars, for instance,
+  because values are not subject to rationality), the number of people
+  who support each side isn't really important. I may be idealistic
+  here.
+
+  [That's what I love about open source: it's okay if the right side
+  doesn't win, because they can always fork if they really want to.
+  (Whereas in 1950s America, a black person couldn't, you should
+  pardon the expression, fork the lunch counter or the drinking
+  fountain or any of the countless other bits of physical and social
+  infrastructure that were arranged to keep white people on top.)  So
+  I don't want to address here the sitaution of the minority being
+  right.  This section is specifically about how to deal with noisy
+  minorities who are abusing project procedures to prolong a
+  discussion that should be settled, rightly or wrongly, by now.  -K]
+   
+  Difficult People (page 126), would you feel comfortable mentioning the
+  discussions in The Art of Programming? It's up to you.
+   
+  [Did you mean "The Art of Community" or "Team Geek"?  The only
+  other thing that I know of with a title close to that is Knuth's
+  "The Art of Computer Programming", but you surely didn't mean
+  that.  In any case, I don't want to cite another source unless
+  either I've used it or it says something I don't say here.  The
+  former is not the case, and AFAIK the latter is not either.  -K]
+
+  Conspicuous Use of Archives, address for archives (page 130): in an
+  earlier chapter, you said archives often move--that seems to
+  contradict your "forever" URL promise here.
+
+  [I added some material in "linking-to-emails" about why archives
+  sometimes move even though it's rarely desirable that they do so.
+  -K]
+   
+  Treat all resources like archives (page 131): Consider using the list
+  to contain both the purpose of the FAQ and the implied way to handle,
+  instead of having the purposes in the list and the implied way to
+  handle the FAQ in the paragraph that follows. (And the list should
+  probably be bulleted.) I think the points could be absorbed by readers
+  more easily if each purpose is tied right to your conclusion about
+  what to do.
+   
+  [Spot-on point, thank you.  Done.  -K]
+
+  "policing" (page 133): This is an overly harsh word, as is evidenced
+  by your disclaimers in parentheses. Say "monitoring" instead.
+   
+  [Done.  -K]
+
+  "r12908" (page 133): isn't this format also the way the revision
+  appears in svn command lines? A good reason to settle on it as a
+  convention.
+
+  [Yup, though the tooling support appeared later, after the
+  convention was already decided on.  -K]
+   
+  Announcing Security Vulnerabilities (page 136): Sometimes it's hard to
+  tell whether a bug makes a piece of software less secure or just
+  causes bad outcomes. I don't know whether you should discuss this
+  here, because it's a highly technical (and language-dependent) topic
+  that goes beyond the scope of the book. Perhaps a paragraph describing
+  the difficulty of deciding what's a security vulnerability is
+  worthwhile. To some extent, this is a communications issue, and
+  therefore relevant to the chapter: a project wants to help users
+  understand which bugs are security vulnerabilities.
+   
+  [I think I don't want to wade into that particular snowstorm here.
+  If the project has difficulty deciding what constitutes a security
+  vulnerability, there is probably little guidance this book can give
+  them.  -K]
+
+  Some of this section may be outside the scope of the communications
+  chapter. This chapter isn't about how to handle and fix security
+  flaws; it's about communications. I can see how all the material could
+  arguably stay in this chapter, but perhaps there's a more appropriate
+  chapter for some of the security material.
+   
+  [Well, most of this material is about communications, in the end.
+  There isn't really a better place for this material, as far as I
+  can see, so I just left it here.  Not perfect, but it'll do.  -K]
+

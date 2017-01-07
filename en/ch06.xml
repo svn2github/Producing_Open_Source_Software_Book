@@ -4,6 +4,24 @@
 
 <simplesect>
 
+<para>An open source project must do many things: recruit users and
+developers, encourage new contributors to become more deeply involved,
+allow free-flowing discussion while still reaching necessary
+decisions, maintain a body of knowledge and convention that guides
+newcomers and experts alike, and, of course, produce working
+software.</para>
+
+<para>Coordinate people to accomplish all this together requires many
+techniques, and because open source collaboration is ultimately based
+on software code, most of those techniques revolve around the written
+word.  We'll start there.</para>
+
+</simplesect>
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="written-culture">
+<title>Written Culture</title>
+
 <para>The ability to write clearly is perhaps the most important skill
 one can have in an open source environment.  In the long run it
 matters more than programming talent.  A great programmer with lousy
@@ -47,7 +65,9 @@ hoc</foreignphrase>, because they're improvised responses to dynamic
 situations.  All participants need to be aware of when and how
 communications can become bogged down, and be involved in
 solutions.  Helping people do this is a big part of managing an open
-source project.  The sections that follow discuss both how to conduct
+source project.</para>
+
+<para>The sections that follow discuss both how to conduct
 your own communications, and how to make maintenance of communications
 mechanisms a priority for everyone in the project.<footnote><para>There
 has been some interesting academic research on this topic; for example,
@@ -59,8 +79,7 @@ url="http://www.st.cs.uni-sb.de/edu/empirical-se/2006/PDFs/gutwin04.pdf"
 So try there first, but be prepared to use a search engine if it moves
 again.</para></footnote></para>
 
-</simplesect>
-
+</sect1>
 
 <!-- ======================== SECTION ============================== -->
 <sect1 id="you-are-what-you-write">
@@ -135,54 +154,73 @@ means more people will understand what you write, but because it makes
 you look like the sort of person who takes the time to communicate
 clearly: that is, someone worth paying attention to.</para>
 
+<para>Careful grammar also minimizes ambiguity.  This is especially
+important in technical writing, where plausible alternatives will
+often be juxtaposed, and the distinction between cause and effect may
+not be immediately clear from context alone.  A grammatical structure
+that represents these things in precisely the way the writer intended
+will help everyone avoid confusion.</para>
+
 <para>For email in particular, experienced open source developers have
-settled on certain conventions:</para>
+settled on certain formatting conventions:</para>
 
-<para>Send plain text mails only, not HTML, RichText, or other formats
-that might get mangled by certain online archives or text-based mail
-readers.  When including screen output, snippets of code, or other
-preformatted text, offset it clearly, so that even a lazy eye can
-easily see the boundaries between your prose and the material you're
-quoting.  If the overall structure of your post is still visible from
-five meters away, you're doing it right.</para>
-
-<para>For preformatted blocks, such as quoted code or error messages,
-try to stay under 80 columns wide, which has become the
-<foreignphrase>de facto</foreignphrase> standard terminal width (that
-is, some people may use wider displays, but no one uses a narrower
-one).  By making your lines a little <emphasis>less</emphasis> than 80
-columns, you leave room for a few levels of quoting characters to be
-added in others' replies without forcing a rewrapping of your
-preformatted text.</para>
-
-<para id="quoting-and-top-posting">When quoting someone else's mail,
-insert your responses where they're most appropriate, at several
-different places if necessary, and trim off the parts of their mail
-you didn't use.  If you're writing a quick response that applies to
-their entire post, and your response will be sensible even to someone
-who hasn't read the original, then it's okay to
-<firstterm>top-post</firstterm> (that is, to put your response above
-the quoted text of their mail); otherwise, quote the relevant portion
-of the original text first, followed by your response.</para>
-
-<para><emphasis>Construct the subject lines of new mails
-carefully.</emphasis> It's the most important line in your mail,
-because it allows each other person in the project to decide whether
-or not to read more.  Modern mail reading software organizes groups of
-related messages into threads, which can be defined not only by a
-common subject, but by various other headers (which are sometimes not
-displayed).  It follows that if a thread starts to drift to a new
-topic, you can&mdash;and should&mdash;adjust the subject line
-accordingly when replying.  The thread's integrity will be preserved,
-due to those other headers, but the new subject will help people
-looking at an overview of the thread know that the topic has drifted.
-Likewise, if you really want to start a new topic, do it by posting a
-fresh mail, not by replying to an existing mail and changing the
-subject.  Otherwise, your mail would still be grouped in to the same
-thread as what you're replying to, and thus fool people into thinking
-it's about something it's not.  Again, the penalty would not only be
-the waste of their time, but the slight dent in your credibility as
-someone fluent in using communications tools.</para>
+<itemizedlist>
+  <listitem><para>Send plain text mails only, not HTML, RichText, or
+  other formats that might get mangled by certain online archives or
+  text-based mail readers.  When including screen output, snippets of
+  code, or other preformatted text, offset it clearly, so that even a
+  lazy eye can easily see the boundaries between your prose and the
+  material you're quoting.  If the overall structure of your post is
+  still visible from five meters away, you're doing it right. </para>
+  </listitem>
+  <listitem><para>For preformatted blocks, such as quoted code or
+  error messages, try to stay under 80 columns wide, which has become
+  the <foreignphrase>de facto</foreignphrase> standard terminal width
+  (that is, some people may use wider displays, but no one uses a
+  narrower one).  By making your lines a little
+  <emphasis>less</emphasis> than 80 columns, you leave room for a few
+  levels of quoting characters to be added in others' replies without
+  forcing a rewrapping of your preformatted text.</para>
+  </listitem>
+  <!-- I'm not sure what the id on the paragraph below is for.
+       I added it at some point when this was still a standalone
+       paragraph, i.e. before r2989, but it's not referred to from
+       from anywhere else in the book.  However, I think I might
+       refer to it from somewhere out on the Net, so I'm leaving
+       it here just in case, even though I'm not actually even sure it
+       works when the paragraph is in a listitem like this. -->
+  <listitem><para id="quoting-and-top-posting">When quoting someone
+  else's mail, insert your responses where they're most appropriate,
+  at several different places if necessary, and trim off the parts of
+  their mail you didn't use.  If you're writing a quick response that
+  applies to their entire post, and your response will be sensible
+  even to someone who hasn't read the original, then it's okay to
+  <firstterm>top-post</firstterm> (that is, to put your response above
+  the quoted text of their mail); otherwise, quote the relevant
+  portion of the original text first, followed by your
+  response.</para>
+  </listitem>
+  <listitem><para><emphasis>Construct the subject lines of new mails
+  carefully.</emphasis> It's the most important line in your mail,
+  because it allows each other person in the project to decide whether
+  or not to read more.  Modern mail reading software organizes groups
+  of related messages into threads, which can be defined not only by a
+  common subject, but by various other headers (which are sometimes
+  not displayed).  It follows that if a thread starts to drift to a
+  new topic, you can&mdash;and should&mdash;adjust the subject line
+  accordingly when replying.  The thread's integrity will be
+  preserved, due to those other headers, but the new subject will help
+  people looking at an overview of the thread know that the topic has
+  drifted.  Likewise, if you really want to start a new topic, do it
+  by posting a fresh mail, not by replying to an existing mail and
+  changing the subject.  Otherwise, your mail would still be grouped
+  in to the same thread as what you're replying to, and thus fool
+  people into thinking it's about something it's not.  Again, the
+  penalty would not only be the waste of their time, but the slight
+  dent in your credibility as someone fluent in using communications
+  tools.</para>
+  </listitem>
+</itemizedlist>
 
 </sect2>
 
@@ -593,6 +631,11 @@ project.</para>
 <sect1 id="common-pitfalls">
 <title>Avoiding Common Pitfalls</title>
 
+<para>Certain anti-patterns appear again and again in threaded
+discussion forums.  Below are the ones that seem to come up most often
+in open source project forums, and some advice on how to handle
+them.</para>
+
 <!-- ======================== subsection ============================== -->
 
 <sect2 id="post-with-purpose">
@@ -629,7 +672,8 @@ see a flaw in a proposal and suspect that you're the only one who sees
 it, and b) when you see that miscommunication is happening between
 others, and know that you can fix it with a clarifying post.  It's
 also generally fine to post just to thank someone for doing something,
-or to say "Me too!", because a reader can tell right away that such
+or to say "Me too!" if you want to strengthen a developing consensus,
+because a reader can tell right away that such
 posts do not require any response or further action, and therefore the
 mental effort demanded by the post ends cleanly when the reader
 reaches the last line of the mail.  But even then, think twice before
@@ -1419,47 +1463,61 @@ case study.</para>
 <para>How do people use a FAQ?</para>
 
 <orderedlist>
+
   <listitem>
     <para>They want to search in it for specific words and phrases.</para>
+
+    <para><emphasis>Therefore: the FAQ should be available in some
+    sort of textual format.</emphasis></para>
   </listitem>
-  <listitem>
-    <para>They want to browse it, soaking up information without
-          necessarily looking for answers to specific questions.</para>
-  </listitem>
+
   <listitem>
     <para>They expect search engines such as Google to know about the
           FAQ's content, so that searches can result in FAQ entries.</para>
+
+    <para><emphasis>Therefore: the FAQ should be available as an HTML
+    page.</emphasis></para>
   </listitem>
+
+  <listitem>
+    <para>They want to browse it, soaking up information without
+    necessarily looking for answers to specific questions.</para>
+
+    <para><emphasis>Therefore: the FAQ should not only be available as
+    an HTML page, it should be designed for easy browseability and
+    have a table of contents.</emphasis></para>
+  </listitem>
+
   <listitem>
     <para>They want to be able to refer other people directly to specific
           items in the FAQ.</para>
+
+     <!-- This paragraph has an ID because of an old sidebar that used
+          to be here (until r2691) discussing HTML named anchors and
+          IDs in a level of detail that is no longer necessary.
+          However, people may still have links to it, and this
+          paragraph is the right place for someone to land if they
+          follow such a link. -->
+    <para id="html-named-anchors-and-ids"><emphasis>Therefore: each
+    individual entry in the FAQ should be directly addresseable via a
+    direct URL (e.g., using HTML IDs and named anchors, which are tags
+    that allow people to reach a particular location on the
+    page).</emphasis></para>
   </listitem>
+
   <listitem>
     <para>They want to be able to add new material to the FAQ, but
           note that this happens much less often than answers are
           looked up&mdash;FAQs are far more often read from than
           written to.</para>
+
+    <para><emphasis>Therefore: the source files for the FAQ should be
+    conveniently available (see <xref
+    linkend="version-everything"/><phrase output="printed"> in <xref
+    linkend="technical-infrastructure"/></phrase>), in a format that's
+    easy to edit.</emphasis></para>
   </listitem>
 </orderedlist>
-
-<!-- This paragraph has an ID because of an old sidebar that used to
-     be here (until r2691) discussing HTML named anchors and IDs in
-     a level of detail that is no longer necessary.  However, people
-     may still have links to it, and this paragraph is the right place
-     for someone to land if they follow such a link. -->
-<para id="html-named-anchors-and-ids">Point 1 implies that the FAQ
-should be available in some sort of textual format.  Points 2 and 3
-imply that the FAQ should be available as an HTML page, with point 2
-additionally indicating that the HTML should be designed for
-readability (i.e., you'll want some control over its look and feel),
-and should have a table of contents.  Point 4 means that each
-individual entry in the FAQ should be directly addresseable via a
-direct URL (e.g., using HTML IDs and named anchors, tags that allow
-people to reach a particular location on the page).  Point 5 means the
-source files for the FAQ should be available in a convenient way (see
-<xref linkend="version-everything"/><phrase output="printed"> in <xref
-linkend="technical-infrastructure"/></phrase>), in a format that's
-easy to edit.</para>
 
 <para>Formatting the FAQ like this is just one example of how to make
 a resource presentable.  The same properties&mdash;direct
@@ -1580,8 +1638,8 @@ introductory material would be immediately clear to people unfamiliar
 with the project.</para>
 
 <para>Static web pages are not the only venue for advertising the
-project's customs.  A certain amount of interactive policing (in the
-friendly-reminder sense, not the handcuffs-and-jail sense) is also
+project's customs.  A certain amount of interactive monitoring (in the
+friendly-reminder sense, not the prison-panopticon sense) is also
 required.  All peer review, even the commit reviews described in
 <xref linkend="code-review"/><phrase output="printed"> in
 <xref linkend="getting-started"/></phrase>, should include review
@@ -2250,7 +2308,7 @@ To: admin@large-famous-server.com
 Reply-to: Your Name Here (not the security list's address)
 Subject: Confidential important notification.
 
-[[[ BEGIN ENCRYPTED MAIL ]]]
+[[[ BEGIN ENCRYPTED AND DIGITALLY-SIGNED MAIL ]]]
 
 This email is a confidential pre-notification of a security alert
 in the Scanley server software.

@@ -609,8 +609,9 @@ overall will of the group accurately.</para>
 practice to give not only the thread's URL, but the subject, sender
 name, and date of the first message in the thread (or at least of some
 message in the thread).  The reason is that archives sometimes
-move&nbsp;&mdash;&nbsp;surprisingly often,
-actually&nbsp;&mdash;&nbsp;and the URL alone will usually not contain
+move&nbsp;&mdash;&nbsp;this is rarely desirable, but it still happens
+from time to time, usually for political reasons or because of a change in
+hosting provider&nbsp;&mdash;&nbsp;and the URL alone will usually not contain
 enough information to find the message or thread in its new
 location.</para>
 
