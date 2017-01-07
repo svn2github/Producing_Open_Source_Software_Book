@@ -424,32 +424,6 @@ items right now.
    it? Of course, before anyone makes a suggestion, it's always good to
    do some research and present a clear plan about its feasibility, but
    the purposes isn't to railroad discussion.
-** Chapter 8 (Andy Oram)
-   Politics (page 162): a valuable enough point to be a section or
-   sidebar.
-   
-   Automated testing (pages 168-170): Is it worth mentioning test-driven
-   development, just as a process used by many projects?
-   
-   Meeting in Person (page 172): I'm glad you keep this short, instead of
-   entering deeply into a big topic. It may be worth referring to Jono's
-   book The Art of Community for detail, because he has the subject
-   nicely covered. One topic you might want to devote a couple sentences
-   to, though, is the cost of attending. The project may want to sponsor
-   certain people and perhaps run votes or use some other system to
-   determine who gets a scholarship.
-   
-   Documentation manager (pages 175-176): you have come to my favorite
-   topic, of course. We can't teach people here how to write readable and
-   actionable documentation. But there is one thing I would like to
-   suggest including: good documentation puts things together in usable
-   sequences for people. It doesn't just explain each option or call in
-   isolation. When something change, the first task of the documentation
-   people is add or change the necessary information about that
-   individual feature, but then something should try to go through
-   tutorials or other documents and try to think of the ripple effects of
-   the change. Entire procedures that are currently documented may be no
-   longer necessary.
 * Web site and build infrastructure
 ** BUG: DocBook->PDF via FOP continually breaks, totally unmaintainable.
    Wow, I'm so tired of this.  In theory, DocBook is convertible to PDF.

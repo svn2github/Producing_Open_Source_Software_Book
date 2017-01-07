@@ -1594,12 +1594,16 @@ code, bug tracker, etc.  For example, projects often use
 <firstterm>continuous integration</firstterm> (CI) testing
 (a.k.a. <firstterm>build farms</firstterm>) to automatically ensure
 that the changes developers are committing both integrate into the
-mainline trunk and pass all regression tests<footnote><para>The
+mainline trunk and pass all automated tests<footnote><para>The
 Wikipedia page <ulink
 url="https://en.wikipedia.org/wiki/Continuous_integration"
 >en.wikipedia.org/wiki/Continuous_integration</ulink> has a good
 description of this practice and its variants.</para></footnote>.
-However, depending on the size and complexity of the codebase, the
+(<xref linkend="automated-testing"/><phrase output="printed"> in <xref
+linkend="managing-participants"/></phrase> discusses this concept in
+more detail.)</para>
+
+<para>Depending on the size and complexity of the codebase, the
 number of developers checking in changes, and other factors, running a
 responsive build farm can cost more money than any individual
 developer has at their disposal.  A good way to help, and gain some

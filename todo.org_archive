@@ -898,3 +898,59 @@ Archived entries from file /home/kfogel/src/producingoss/todo.org
 
   [I think the history is interesting personally, but not relevant
   enough to readers to include.  -K]
+
+* Chapter 8 (Andy Oram)
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-01-06 Fri 22:05
+  :ARCHIVE_FILE: ~/src/producingoss/todo.org
+  :ARCHIVE_OLPATH: Andy Oram comments
+  :ARCHIVE_CATEGORY: todo
+  :END:
+  Politics (page 162): a valuable enough point to be a section or
+  sidebar.
+   
+  [Thanks.  I considered it, but generally I prefer to use sidebars
+  for definitions or for discrete thoughts that are, at least in
+  theory, separable from the main body of text around them.  The
+  point about politics made here seems to me to be connected enough
+  to the rest of the section that I'd like to keep it part of the
+  section.  -Karl]
+
+  Automated testing (pages 168-170): Is it worth mentioning test-driven
+  development, just as a process used by many projects?
+   
+  [I'm inclined not to.  There are too many methodologies to mention
+  each one, and I'm not convinced that TDD is more relevant to open
+  source than it is to any other kind of software project.  I did
+  update this section to discuss unit testing as well as regression
+  testing, though. -K]
+
+  Meeting in Person (page 172): I'm glad you keep this short, instead of
+  entering deeply into a big topic. It may be worth referring to Jono's
+  book The Art of Community for detail, because he has the subject
+  nicely covered. One topic you might want to devote a couple sentences
+  to, though, is the cost of attending. The project may want to sponsor
+  certain people and perhaps run votes or use some other system to
+  determine who gets a scholarship.
+
+  [I thought about it, and reviewed what Jono says there.  It's good
+  material, but I think it doesn't connect well with what's here.
+  The cost issue will present itself fairly clearly to anyone who's
+  actually budgeting for one of these, so I don't think I need to
+  spend space on it here.  If I discuss the benefits, then the reader
+  can weigh those against the costs -- they don't need me to tell
+  them that there are costs :-).  -Karl]
+   
+  Documentation manager (pages 175-176): you have come to my favorite
+  topic, of course. We can't teach people here how to write readable and
+  actionable documentation. But there is one thing I would like to
+  suggest including: good documentation puts things together in usable
+  sequences for people. It doesn't just explain each option or call in
+  isolation. When something change, the first task of the documentation
+  people is add or change the necessary information about that
+  individual feature, but then something should try to go through
+  tutorials or other documents and try to think of the ripple effects of
+  the change. Entire procedures that are currently documented may be no
+  longer necessary.
+
+  [I added a paragraph about this.  Thanks!  -K]

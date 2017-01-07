@@ -596,57 +596,76 @@ project a <emphasis>lot</emphasis> of time.  It also makes people much
 more relaxed about refactoring large swaths of code, and therefore
 contributes to the software's long-term maintainability.</para>
 
-  <sidebar id="regression-testing">
-  <title>Regression Testing</title>
+  <sidebar id="regression-testing-vs-unit-testing">
+  <title>Regression Testing and Unit Testing</title>
 
-  <para><firstterm>Regression testing</firstterm> means testing for
-  the reappearance of already-fixed bugs.  The purpose of regression
-  testing is to reduce the chances that code changes will break the
-  software in unexpected ways.  As a software project gets bigger and
-  more complicated, the chances of such unexpected side effects
-  increase steadily.  Good design can reduce the rate at which the
-  chances increase, but it cannot eliminate the problem
-  entirely.</para>
+  <para><firstterm>Regression testing</firstterm> means testing that
+  working software stays working.  Its purpose is to reduce the
+  chances that code changes will break the software, particularly in
+  ways the software has been broken before.  Many projects have a
+  <firstterm>regression test suite</firstterm>, a separate program
+  that invokes the project's software with the expectation of
+  particular inputs causing particular behaviors.  If the test suite
+  succeeds in causing a different behavior to happen, this is known as
+  a <firstterm>regression</firstterm>, meaning that someone's change
+  unexpectedly broke something else.</para>
 
-  <para>As a result, many projects have a <firstterm>test
-  suite</firstterm>, a separate program that invokes the project's
-  software in ways that have been known in the past to stimulate
-  specific bugs.  If the test suite succeeds in making one of these
-  bugs happen, this is known as a <firstterm>regression</firstterm>,
-  meaning that someone's change unexpectedly unfixed a
-  previously-fixed bug.</para>
+  <para><firstterm>Unit testing</firstterm> means testing the
+  software's module boundaries using their documented APIs.  Its
+  purpose is both to reduce the chance that modifications will break
+  existing functionality, and to prove that the intended functionality
+  exists as claimed.  If regression testing is retrospective ("What
+  has broken in the past?"), unit testing is prospective ("What do we
+  need to ensure continues to work into the future?").  As with
+  regression tests, many projects have a <firstterm>unit test
+  suite</firstterm>.</para>
+
+  <para>As a software project gets bigger and more complicated, the
+  chances of unexpected side effects increase steadily.  Good design
+  can reduce the rate at which those chances increase, but it cannot
+  eliminate the problem entirely.  Thus many projects encourage, and
+  sometimes even require, contributors to accompany new functionality
+  with corresponding new regression or unit tests.</para>
 
   <para>See also
   <ulink url="https://en.wikipedia.org/wiki/Regression_testing"
-  >en.wikipedia.org/wiki/Regression_testing</ulink>.</para>
+  >en.wikipedia.org/wiki/Regression_testing</ulink> and 
+  <ulink url="https://en.wikipedia.org/wiki/Unit_testing"
+  >en.wikipedia.org/wiki/Unit_testing</ulink>.</para>
 
   </sidebar>
 
-<para>Regression testing is not a panacea.  For one thing, it works
+<para>Automated testing is not a panacea.  For one thing, it works
 best for programs with batch-style interfaces.  Software that is
 operated primarily through graphical user interfaces is much harder to
-drive programmatically.  Another problem is that the regression test
-suite framework itself can often be quite complex, with a learning
-curve and maintenance burden all its own.  Reducing this complexity is
+drive programmatically.  Another problem is that test suites
+themselves can often be quite complex, with a learning
+curve and maintenance burden all their own.  Reducing this complexity is
 one of the most useful things you can do, even though it may take a
 considerable amount of time.  The easier it is to add new tests to the
 suite, the more developers will do so, and the fewer bugs will survive
 to release.  Any effort spent making tests easier to write will be
 paid back manyfold over the lifetime of the project.</para>
 
-<para>Many projects have a <firstterm>"Don't break the
+<para>Almost all projects have a <firstterm>"Don't break the
 build!"</firstterm> rule, meaning: don't commit a change that makes
 the software unable to compile or run.  Being the person who broke the
 build is usually cause for mild embarrassment and ribbing.  Projects
-with regression test suites often have a corollary rule: don't commit
-any change that causes tests to fail.  Such failures are easiest to
-spot if there are automatic nightly runs of the entire test suite,
-with the results mailed out to the development list or to a dedicated
-test-results mailing list; that's another example of a worthwhile
-automation.</para>
+with test suites often have a corollary rule: don't commit any change
+that causes tests to fail.  Such failures are easiest to spot if there
+are automatic nightly or per-change runs of the entire test suite,
+with the results posted publicly; that's another example of a
+worthwhile automation.<footnote><para>Increasingly, project hosting
+sites offer to connect repositories to automated test services.  For
+example, GitHub provides easy integration with Travis-CI (<ulink
+url="https://travis-ci.org/" >travis-ci.org</ulink>), a hosted open
+source continuous integration service that has become the default
+automated testing mechanism for many projects.  Unless you have a good
+reason to do something different, your project should probably just
+use Travis-CI too.</para></footnote></para>
 
 <para>Most developers are willing to take the extra time to
-write regression tests, when the test system is comprehensible and
+write tests, when the test system is comprehensible and
 easy to work with.  Accompanying changes with tests is understood to
 be the responsible thing to do, and it's also an easy opportunity for
 collaboration: often two developers will divide up the work for a
@@ -660,51 +679,18 @@ painful than it has to be.</para>
 accompany <emphasis>every</emphasis> bugfix or new feature.  Whether
 this is a good idea or not depends on many factors: the nature of the
 software, the makeup of the development team, and the difficulty of
-writing new tests.  The CVS (<ulink url="http://cvs.nongnu.org/"
->cvs.nongnu.org/</ulink>)
-project has long had such a rule.  It is a good policy in theory,
-since CVS is version control software and therefore very risk-averse
-about the possibility of munging or mishandling the user's data.  The
-problem in practice is that CVS's regression test suite is a single
-huge shell script (amusingly named <filename>sanity.sh</filename>),
-hard to read and hard to modify or extend.  The difficulty of adding
-new tests, combined with the requirement that patches be accompanied
-by new tests, means that CVS effectively discourages patches.  When I
-used to work on CVS, I sometimes saw people start on and even complete
-a patch to CVS's own code, but give up when told of the requirement to
-add a new test to <filename>sanity.sh</filename>.</para>
+writing new tests.  It is normal to spend more time writing a new
+regression test than on fixing the original bug.  But don't let it get
+to an extreme: if it takes ten minutes to diagnose and fix a bug, but
+two hours to add a corresponding test, most developers will not bother
+with the test.  And if the project requires tests to accompany fixes,
+then the developer may not bother to fix the bug in the first
+place.</para>
 
-<para>It is normal to spend more time writing a new regression test
-than on fixing the original bug.  But CVS carried this phenomenon to
-an extreme: one might spend hours trying to design one's test
-properly, and still get it wrong, because there are just too many
-unpredictable complexities involved in changing a 35,000-line Bourne
-shell script.  Even longtime CVS developers often grumbled when they
-had to add a new test.</para>
-
-<para>This situation was due to a failure on all our parts to consider
-the automation ratio.  It is true that switching to a real test
-framework&mdash;whether custom-built or off-the-shelf&mdash;would have
-been a major effort.<footnote><para>Note that there would be no need
-to convert all the existing tests to the new framework; the two could
-happily exist side by side, with old tests converted over only as they
-needed to be changed.</para></footnote> But neglecting to do so has
-cost the project much more, over the years.  How many bugfixes and new
-features are <emphasis>not</emphasis> in CVS today, because of the
-impediment of an awkward test suite?  We cannot know the exact number,
-but it is surely many times greater than the number of bugfixes or new
-features the developers might forgo in order to develop a new test
-system (or integrate an off-the-shelf system).  That task would only
-take a finite amount of time, while the penalty of using the current
-test suite will continue forever if nothing is done.</para>
-
-<para>The point is not that having strict requirements to write tests
-is bad, nor that writing your test system as a Bourne shell script is
-necessarily bad.  It might work fine, depending on how you design it
-and what it needs to test.  The point is simply that when the test
-system becomes a significant impediment to development, something must
-be done.  The same is true for any routine process that turns into a
-barrier or a bottleneck.</para>
+<para>When the test system ever becomes a significant impediment to
+development, something <emphasis>must</emphasis> be done, and quickly.
+The same would be true for any routine process that turns into a
+barrier or a bottleneck for contributors.</para>
 
 </sect3>
 
@@ -880,9 +866,10 @@ who are not part of your organization but who work on the same
 project(s) as your own developers do.  Subsidizing in-person meetups,
 hackathons, and conference travel creates good will and is a
 relatively cheap way to signal the permanence of your company's
-strategic investestment in a given project.</para>
-
-<!-- TODO: mention the organizational benefits too, as per Ch. 1 -->
+strategic investestment in a given project.  It's also a good way for
+your organization to absorb outside ideas from the competitive and
+collaborative landscape, since it puts your developers in close
+contact with developers from other companies.</para>
 
 <para>Once you have decided to sponsor in-person contact, what form
 should it take?</para>
@@ -978,9 +965,12 @@ arrangement, which is fine if it works, and if it doesn't then you're
 right back where you started and can try a different resolution.</para>
 
 <sect3 id="patch-manager">
-<title>Patch Manager</title>
+<title>Patch Manager (or Pull Request Manager)</title>
 
-<para>In a free software project that receives a lot of patches,
+<para>In a free software project that receives a lot of
+patches<footnote><para>Here "patch" and "pull request" are synonymous:
+they just mean a proposed change to the software, supplied in the
+standard format for contributing changes.</para></footnote>,
 keeping track of which patches have arrived and what has been decided
 about them can be a nightmare, especially if done in a decentralized
 way.  Most patches arrive either as posts to the project's development
@@ -1218,7 +1208,13 @@ record of exactly where and how the documentation lags behind the
 software, and they can have practiced procedures for handling large
 quantities of patches in an integrated way.</para>
 
-<para>Of course, this does not preclude other people in the project
+<para>Documentation managers also serve another important purpose:
+they may be the only people in the project who regularly review the
+documentation from top to bottom, and thus are in a position to notice
+obsolete or redundant material, independently of any particular
+change.</para>
+
+<para>Of course, none of this prevents other people in the project
 from applying documentation patches on the fly, especially small ones,
 as time permits.  And the same patch manager (see
 <xref linkend="patch-manager"/><phrase output="printed"> earlier
@@ -1248,9 +1244,10 @@ changes may land without going through a pre-change review process.</para>
 
 <para>Bug report growth is proportional to user base growth, rather
 than to the number of actual bugs in the software.  That is, the
-number of tickets in a project's bug tracker grows in proportion to
-the number of people <emphasis>using</emphasis> the
-software.<footnote><para> See <ulink
+number of tickets in a project's bug tracker grows in
+proportion&nbsp;&mdash;&nbsp;albeit usually non-linear
+proportion&nbsp;&mdash;&nbsp;to the number of people
+<emphasis>using</emphasis> the software.<footnote><para> See <ulink
 url="http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/"
 >rants.org/2010/01/10/bugs-users-and-tech-debt</ulink> for a more
 detailed discussion of this.</para></footnote> Therefore, even as you
