@@ -975,7 +975,8 @@ and review process for sizeable changes cannot be an afterthought; It
 must be considered part of the work, and fully embraced by the
 contractor.  Don't think of community scrutiny as an obstacle to be
 overcome&mdash;think of it as a free design board and QA department.
-It is a benefit to be aggressively pursued, not merely endured.</para>
+It is a benefit to be aggressively pursued, not an obstacle to be
+merely endured.</para>
 
 <sect3 id="cvs-pserver">
 <title>Case study: the CVS password-authentication protocol</title>
@@ -1018,7 +1019,7 @@ compatibility concerns.</para>
 <para>The root of the problem was not lack of experience; we could
 easily have learned what we needed to know.  The problem was our
 attitude toward the rest of the development community.  We regarded
-acceptance of the changes as a hurdle to leap, rather than as a
+acceptance of the changes as a hurdle to get over, rather than as a
 process by which the quality of the changes could be improved.  Since
 we were confident that almost anything we did would be accepted (as it
 was), we made little effort to get others involved.</para>
