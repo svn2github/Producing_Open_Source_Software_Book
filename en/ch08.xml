@@ -1936,7 +1936,8 @@ by GitHub.com.  GitHub's decision to use the term "fork" instead of
 is largely responsible for the newer, "short fork" sense of
 "fork".</para></footnote> Short forks are done on a routine basis as
 part of daily development, and have no negative effect on the social
-cohesiveness of the project.</para>
+cohesiveness of the project.  They are really just an extension of the
+concept of development branches.</para>
 
 <para>Social forks are much less common, and are much more significant
 when they happen.  A social fork is when a group of developers is
@@ -1944,7 +1945,7 @@ unhappy with the direction of the project and decides to create a
 divergent version more in line with their own vision.  Of course, one
 of the technical actions required for such this is to create their own
 copy of the project's repository, and perhaps of its bug database and
-other resources as well.  But this new copy of the project represents
+other assets as well.  But this new copy of the project represents
 a potentially permanent divergence, and developers on both sides of
 the fork are aware of this; thus, it is a completely different beast
 from a cooperative short fork.</para>

@@ -1358,3 +1358,47 @@ Archived entries from file /home/kfogel/src/producingoss/todo.org
 
   [Done.  I agree with you about that problem, but I think it's
   already implied in the discussion in the section.  -K]
+
+* Chapter 4 (Andy Oram)
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-01-07 Sat 15:26
+  :ARCHIVE_FILE: ~/src/producingoss/todo.org
+  :ARCHIVE_OLPATH: Andy Oram comments
+  :ARCHIVE_CATEGORY: todo
+  :END:
+  Forkability (pages 72-72): I have two general suggestions for material
+  to add.
+   
+  First, what I've heard of the various BSD projects is very sad. I
+  mentioned this also in my comments to Chapter 1. I believe that the
+  proliferation of *BSD projects could have been avoided if the
+  maintainers knew the kind of open source collaboration culture that
+  eventually developed in other projects. They had numerous forks, and
+  created confusion as well as bad vibes. Might be worth mentioning.
+   
+  [I've heard this too, but I don't have enough first-hand knowledge
+  nor primary sources to want to discuss it in the book.  In general,
+  when I talk about specific projects, I like to have reams of
+  evidence so I'm sure that what I'm saying is accurate.  -K]
+
+  Second, there is a process that GitHub calls forking. Someone (maybe
+  you) told me that it's not forking in the same drastic sense that the
+  GNU compiler or Emacs forked. That might be worth mentioning, because
+  other readers may be confused. GitHub presents forking as a good thing
+  (and I think it may be part of the larger Git culture as well), but
+  it's a much less conflicted process.
+
+  [I added this distinction a while ago, in Chapter 8, but have now
+  added links to it from relevant places in Chapters 4 and 5.  -K]
+   
+  Approval voting, page 76: I see two other reasons to avoid complex
+  voting systems: people are less likely to understand them and
+  therefore to trust them, and people are less likely to use them
+  optimally because they require training.
+
+  [Added this point, thanks.  -K]
+   
+  Footnote on Software Freedom Conservancy, p. 80; this is a disclosure,
+  not a disclaimer.
+
+  [Good point -- fixed!  -K]

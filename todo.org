@@ -11,31 +11,6 @@ that may be actionable some day but that I don't consider to be "todo"
 items right now.
 
 * Andy Oram comments
-** Chapter 4 (Andy Oram)
-   Forkability (pages 72-72): I have two general suggestions for material
-   to add.
-   
-   First, what I've heard of the various BSD projects is very sad. I
-   mentioned this also in my comments to Chapter 1. I believe that the
-   proliferation of *BSD projects could have been avoided if the
-   maintainers knew the kind of open source collaboration culture that
-   eventually developed in other projects. They had numerous forks, and
-   created confusion as well as bad vibes. Might be worth mentioning.
-   
-   Second, there is a process that GitHub calls forking. Someone (maybe
-   you) told me that it's not forking in the same drastic sense that the
-   GNU compiler or Emacs forked. That might be worth mentioning, because
-   other readers may be confused. GitHub presents forking as a good thing
-   (and I think it may be part of the larger Git culture as well), but
-   it's a much less conflicted process.
-   
-   Approval voting, page 76: I see two other reasons to avoid complex
-   voting systems: people are less likely to understand them and
-   therefore to trust them, and people are less likely to use them
-   optimally because they require training.
-   
-   Footnote on Software Freedom Conservancy, p. 80; this is a disclosure,
-   not a disclaimer.
 ** Chapter 5 (Andy Oram)
    Lots more comments on this chapter than usual, including a
    suggested name change and some reorganization.
