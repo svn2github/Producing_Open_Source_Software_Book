@@ -159,15 +159,14 @@ will thank you.</para>
 <sect2 id="release-number-components">
 <title>Release Number Components</title>
 
-<para>This section describes the formal conventions of release
+<para>This section describes the usual conventions of release
 numbering in detail, and assumes very little prior knowledge.  It is
 intended mainly as a reference.  If you're already familiar with these
-conventions, you can skip this section.<footnote><para>Since the first
-edition of this book was published, these conventions have been
+conventions, you can skip this section.<footnote><para>These
+conventions have been
 formalized, in a more detailed way, as the <citetitle>Semantic
 Versioning</citetitle> standard and are maintained at <ulink
-url="http://semver.org/" >semver.org</ulink>.  As of this writing in
-July 2015 the latest version of the standard is 2.0.0.  The
+url="http://semver.org/" >semver.org</ulink>.  The
 recommendations made there seem to be roughly the same as the first
 strategy documented here, except that Semantic Versioning apparently
 does not include the forward-compatibility requirement for increments
@@ -557,9 +556,13 @@ Lather, rinse, repeat for 1.0.2, and so on.  When it's time to start
 thinking about a 1.1.x release, make a new branch from trunk.</para>
 
 <para>Maintenance can continue in parallel along both 1.0.x and 1.1.x,
-and releases can be made independently from both lines (while regular
-development work happens, as always, on the main
-trunk&nbsp;&mdash;&nbsp;in Git, the "master" branch).  In fact, it is
+and releases can be made independently from both lines (while new
+development work happens either directly the main
+trunk&nbsp;&mdash;&nbsp;in Git, the "master"
+branch&nbsp;&mdash;&nbsp;or in short-lived "feature branches" that get
+merged into the main trunk as soon as they're ready).</para>
+
+<para>In fact, it is 
 not unusual to publish near-simultaneous releases from two different
 lines.  The older series is recommended for more conservative site
 administrators, who may not want to make the big jump to (say) 1.1
@@ -614,9 +617,11 @@ matter what new features and bugfixes are ready or not
 ready&nbsp;&mdash;&nbsp;anything that isn't ready simply isn't
 included in the release.<footnote><para>While any release methology
 requires some degree of branch management, time-based releases imply
-that the development team must use fairly strict branch management
-discipline at all times.  Otherwise, unfinished code might be hard to
-extricate from the release branch when release time rolls
+that the development team must use a fairly strict gateway policy
+at all times.  Development work must stay isolated from release
+branches until that work is truly ready to be shipped.  Otherwise,
+unfinished code might be hard to extricate from the release branch
+when release time rolls
 around.)</para></footnote> Developers who didn't make the deadline are
 told to just wait for the next train, but this is easy for them to
 accept because they can count on the next train coming by in exactly
@@ -1274,35 +1279,51 @@ can.</para>
 <sect1 id="testing-and-releasing">
 <title>Testing and Releasing</title>
 
-<para>Once the source distribution is produced from the stabilized release
-branch, the public part of the release process begins.  But before the
-distribution is made available to the world at large, it should be tested
-and approved by some minimum number of developers, usually three or
-more.  Approval is not simply a matter of inspecting the release for
-obvious flaws; ideally, the developers download the package, build and
-install it onto a clean system, run the regression test suite (see
+<para>Once the source distribution is produced from the stabilized
+release branch, the public part of the release process begins.  But
+before the distribution is made available to the world at large, it
+should be tested and approved by some minimum number of developers,
+usually three or more.  That approval must then be signalled to the
+world at large, using digital signatures and identifying hashes.</para>
+
+<para>The purpose of signing and hashing is to give users a way to
+verify that the copy they receive has not been maliciously tampered
+with.  Users are about to run this code on their computers&mdash;if
+the code has been tampered with, an attacker could suddenly have a
+back door to all their data.  See <xref
+linkend="security-releases"/><phrase output="printed"> later in this
+chapter</phrase> for more about paranoia.  The details of creating
+digital signatures and release hashes are beyond the scope of this
+book, but if you're not familiar with them, see <ulink
+url="https://www.apache.org/dev/release-signing.html"
+>apache.org/dev/release-signing.html</ulink>, and you might also want
+to do an Internet search for these phrases (simultaneously):
+"open&nbsp;source" "digital&nbsp;signature"
+"web&nbsp;of&nbsp;trust".</para>
+
+<para>Gaining developer approval is not simply a matter of them
+inspecting the release for obvious flaws.  Ideally, the developers
+download the package, build and install it onto a clean system, run
+the regression test suite (see
 <xref linkend="automated-testing"/><phrase output="printed"> in
 <xref linkend="managing-participants"/></phrase>), and do some
 manual testing.  Assuming it passes these checks, as well as any other
-release checklist criteria the project may have, the developers then
-digitally sign each container (the .tar.gz file, .zip file, etc) using
-GnuPG (<ulink url="https://www.gnupg.org/" >gnupg.org</ulink>), PGP
-(<ulink url="http://www.pgpi.org/" >pgpi.org</ulink>), or some other
-program capable of producing PGP-compatible signatures.</para>
+release checklist criteria the project may have, each developer then
+digitally signs each container (the .tar.gz file, .zip file, etc) using
+GnuPG (<ulink url="https://www.gnupg.org/" >gnupg.org</ulink>) or some other
+program capable of producing OpenPGP-compliant signatures.</para>
 
 <para>In most projects, the developers just use their personal digital
 signatures, instead of a shared project key, and as many developers as
 want to may sign (i.e., there is a minimum number, but not a maximum).
 The more developers sign, the more testing the release undergoes, and
 also the greater the likelihood that a security-conscious user can
-find a digital trust path from herself to the release.</para>
+find a web-of-trust path from herself to the release.</para>
 
 <para>Once approved, the release (that is, all tarballs, zip files,
 and whatever other formats are being distributed) should be placed
 into the project's download area, accompanied by the digital
-signatures, and by MD5/SHA1 checksums (see <ulink
-url="https://en.wikipedia.org/wiki/Cryptographic_hash_function"
->en.wikipedia.org/wiki/Cryptographic_hash_function</ulink>).
+signatures and hashes.
 There are various standards for doing this.  One way is to accompany
 each released package with a file giving the corresponding digital
 signatures, and another file giving the checksum.  For example, if one
@@ -1311,22 +1332,16 @@ place in the same directory a file
 <filename>scanley-2.5.0.tar.gz.asc</filename> containing the digital
 signature for that tarball, another file
 <filename>scanley-2.5.0.tar.gz.md5</filename> containing its MD5
-checksum, and optionally another,
-<filename>scanley-2.5.0.tar.gz.sha1</filename>, containing the SHA1
-checksum.  A different way to provide checking is to collect all the
+checksum, perhaps another,
+<filename>scanley-2.5.0.tar.gz.sha256</filename>, containing its SHA256
+checksum, etc.  A different way to provide checking is to collect all the
 signatures for all the released packages into a single file,
 <filename>scanley-2.5.0.sigs</filename>; the same may be done with the
 checksums.</para>
 
 <para>It doesn't really matter which way you do it.  Just keep to a
 simple scheme, describe it clearly, and be consistent from release to
-release.  The purpose of all this signing and checksumming is to give
-users a way to verify that the copy they receive has not been
-maliciously tampered with.  Users are about to run this code on their
-computers&mdash;if the code has been tampered with, an attacker could
-suddenly have a back door to all their data.  See
-<xref linkend="security-releases"/><phrase output="printed">
-later in this chapter</phrase> for more about paranoia.</para>
+release.</para>
 
 <sect2 id="candidate-releases">
 <title>Candidate Releases</title>
@@ -1635,6 +1650,22 @@ release's contents are fairly well defined, the onus is on the
 proposer to justify the expansion, even though the date of the release
 may not have been set yet.</para>
 
+<para>An alternative strategy for dealing with the tension between
+project release timing and corporate needs is for the company to
+simply make separate interim releases for its customers.  As discussed
+in <xref linkend="economics-of-open-source"/><phrase output="printed">
+in <xref linkend="money"/></phrase>, such releases can be public and
+open source, and won't do the project any harm as long as they are
+clearly distinguished from the project's official releases.  However,
+maintaining separate release lines independently from the project
+comes with its own overhead in tracking changes and porting them back
+and forth.  This technique only works when a company has the resources
+to dedicate enough people to release management to handle that
+overhead.</para>
+
+<sidebar id="university-of-virginia-case-study" >
+<title>Case Study: The Founding of the University of Virginia</title>
+
 <para>In his multi-volume biography of Thomas Jefferson,
 <citetitle>Jefferson and His Time</citetitle>, Dumas Malone tells the
 story of how Jefferson handled the first meeting held to decide the
@@ -1653,21 +1684,22 @@ plans.  The facts that construction went far over budget, and that
 many of his ideas did not, for various reasons, work out in the end,
 were all things Jefferson probably knew perfectly well would happen.
 His purpose was strategic: to show up at the meeting with something so
-substantive that everyone else would have to fall into the role of
-simply proposing modifications to it, so that the overall shape, and
+substantive that everyone else would have to fall back into simply
+proposing modifications to it, so that the overall shape, and
 therefore schedule, of the project would be roughly as he
 wanted.</para>
 
-<para>In the case of a free software project, there is no single
+<para>In the case of a free software project release, there is usually no single
 "meeting", but instead a series of small proposals made in the
 discussion forums and in the ticket tracker.  But if you have some
 credibility in the
 project to start with, and you start assigning various features,
 enhancements, and bugs to target releases in the tracker,
 according to some announced overall plan, people will mostly go along
-with you.  Once you've got things laid out more or less as you want
-them, the conversations about actual release
-<emphasis>dates</emphasis> will go much more smoothly.</para>
+with you.  Once you've got things planned out more or less as you want
+them, and assuming that plan is sane, the conversations about
+actual release <emphasis>dates</emphasis> will go much more smoothly.</para>
+</sidebar>
 
 <para>It is crucial, of course, to never present any individual
 decision as written in stone.  In the comments associated with each

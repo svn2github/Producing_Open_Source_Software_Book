@@ -954,3 +954,100 @@ Archived entries from file /home/kfogel/src/producingoss/todo.org
   longer necessary.
 
   [I added a paragraph about this.  Thanks!  -K]
+
+* Chapter 7 (Andy Oram)
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-01-06 Fri 23:10
+  :ARCHIVE_FILE: ~/src/producingoss/todo.org
+  :ARCHIVE_OLPATH: Andy Oram comments
+  :ARCHIVE_CATEGORY: todo
+  :END:
+  Road repair metaphor (page 142): I love this metaphor, and will think
+  of it the next time I'm crawling along Route I95. But you might be
+  unnecessarily pessimistic. Do parallel development tracks really
+  discomfort anybody? Open source projects maintain a clean, stable
+  release while creating a new branch (or several) to work on
+  updates. Why say that everybody slows down in order to allow
+  development to proceed in parallel?
+   
+  [Yep, it definitely slows it down.  I can supply examples without
+  end :-).  If stabilizing release branches had no cost, there would
+  never be discussion or dissent about creating them.  In practices,
+  there are costs and they are usually noticeable to all developers
+  (especially in open source projects).  -K]
+
+  "Since the first edition of this book..." (footnote, page 144): Don't
+  talk about the differences between the first and second editions in
+  this book, unless you have a critical point to make. (For instance,
+  you can distinguish between editions if you offered advice in the
+  first edition that is invalid in the second because of changes in the
+  environment.) I don't think this footnote is needed. Say in the text
+  what's current, bring everything up to date.
+   
+  [Got rid of the edition comment, but kept the footnote.  -K]
+
+  Major, minor, patch (page 145): Explain the sometimes fluid difference
+  between these concepts first. Then explain how the canonical
+  three-part numbering scheme reflects those concepts. Currently, you
+  do the opposite: describing the scheme before the meaning.
+   
+  [Too hard to reverse the order -- it's a good idea, but it also
+  introduces problems of its own.  I'm sort of counting on the fact
+  that only people seriously concerned with getting version numbers
+  right will even read this section, and those people are the sort of
+  reader for whom presenting the scheme first and then tying it to
+  the concepts will work okay.  -K]
+
+  "...regular development work happens..." (page 148): I am confused
+  about the difference between the main branch and the others. What is
+  "irregular" about working in another branch? You need to distinguish
+  the different work performed on different branches.
+   
+  [Fixed, thank you.  -K]
+
+  "...fairly strict branch management..." (footnote, page 149): I don't
+  know what this is. Hopefully, an earlier section defined what you mean
+  by "strict branch management." You have to indicate what you mean by
+  this. Is it just maintaining branches for each type of work and making
+  sure each commit goes to the branch where it should go?
+   
+  [Explained it better, thanks.  -K]
+   
+  Digital signing (page 157): this may need a little more
+  explanation. Even I, who have a general sense of how the web of trust
+  works with GPG, am confused about how average users will use it to
+  reach the developers who signed the release. Do you expect people to
+  build up enough personal connections to make use of the web of trust?
+   
+  [I can't fully explain it in this book, as it's too big a topic,
+  but mention it earlier now and have added pointers to some
+  resources.  -K]
+
+  "The purpose of all this signing and checksumming..." (page 157): I
+  like to put purposes near the beginning of the section, not the end,
+  because you are explaining why this section is important to read.
+   
+  [Good point!  Handled in the above change.  -K]
+
+  Planning Releases (pages 160-161): Back in Chapter 5 (as well as in
+  one of your ORM reports) you discuss the strategy of doing work in a
+  separate branch to ensure a company can release what customers want on
+  time, and then merging it back into the open project. Couldn't that be
+  done here? It's not a complete substitute for getting what you want
+  into the open project, but it's an alternative.
+   
+  [Ah, thanks for noticing the connection.  Done.  -K]
+
+  Jeffersons' University (page 161): Is this an ethical and appropriate
+  model for persuading free software developers to support one person's
+  plan? Suppose Jefferson really had a stupid idea? Wouldn't you want
+  free-wheeling discussion before anything is "set in stone" as you call
+  it? Of course, before anyone makes a suggestion, it's always good to
+  do some research and present a clear plan about its feasibility, but
+  the purposes isn't to railroad discussion.
+   
+  [I made a minor modification to emphasize that the plan should be a
+  good one, but yes, basically, I think this is an ethical and
+  appropriate model.  IMHO freewheeling discussion is rarely good *in
+  the specific case of planning releases of an open source project*.
+  It's good in many other situations, just not that one.  -K]
