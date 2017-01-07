@@ -880,3 +880,21 @@ Archived entries from file /home/kfogel/src/producingoss/todo.org
   [Okay, despite my earlier aversion to discussing SEO explicitly,
   I've put a note about it here, as well as updating some out-of-date
   material about generic announcement sites.  -K]
+
+* Chapter 9 (Andy Oram)
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-01-06 Fri 21:16
+  :ARCHIVE_FILE: ~/src/producingoss/todo.org
+  :ARCHIVE_OLPATH: Andy Oram comments
+  :ARCHIVE_CATEGORY: todo
+  :END:
+  AGPL (pages 195-196): I believe the idea for this license historically
+  arose as discussions were just beginning for the GPL 3, and some
+  participants (perhaps even including RMS) wanted the GPL 3 to include
+  the critical clause. Pushback from others who were less hostile to
+  cloud services (which didn't even have that name then) led to a split
+  between the GPL 3 and the AGPL. I am not sure of this, but it's my
+  recollection. I don't know whether it's worth mentioning.
+
+  [I think the history is interesting personally, but not relevant
+  enough to readers to include.  -K]

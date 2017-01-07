@@ -450,14 +450,6 @@ items right now.
    tutorials or other documents and try to think of the ripple effects of
    the change. Entire procedures that are currently documented may be no
    longer necessary.
-** Chapter 9 (Andy Oram)
-   AGPL (pages 195-196): I believe the idea for this license historically
-   arose as discussions were just beginning for the GPL 3, and some
-   participants (perhaps even including RMS) wanted the GPL 3 to include
-   the critical clause. Pushback from others who were less hostile to
-   cloud services (which didn't even have that name then) led to a split
-   between the GPL 3 and the AGPL. I am not sure of this, but it's my
-   recollection. I don't know whether it's worth mentioning.
 * Web site and build infrastructure
 ** BUG: DocBook->PDF via FOP continually breaks, totally unmaintainable.
    Wow, I'm so tired of this.  In theory, DocBook is convertible to PDF.

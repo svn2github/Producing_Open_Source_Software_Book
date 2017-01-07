@@ -737,7 +737,7 @@ version of the license.</para></footnote>.  Its purpose is to bring
 copyleft-style sharing provisions to the increasing amount of code
 being run as hosted services&nbsp;&mdash;&nbsp;that is, software that
 runs "in the cloud" on remote servers, that users interact with only
-over the network, and that therefore is never directly distributed to
+over the network, and that therefore is not directly distributed to its
 users as executable or source code.  Many such services use GPL'd
 software, often with extensive modifications, yet could avoid
 publishing their changes because they weren't actually distributing
