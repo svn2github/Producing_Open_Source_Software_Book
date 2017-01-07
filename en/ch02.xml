@@ -63,7 +63,7 @@ giving off this aura of preparedness, the project sends out a message:
 what people need to hear.</para>
 
 <sidebar id="user-vs-developer">
-<title>What We Mean by Users and Developers.</title>
+<title>What We Mean by Users and Developers</title>
 <para>The terms <firstterm>user</firstterm> and
 <firstterm>developer</firstterm> here refer to someone's relationship
 to the open source software project in question, not to her identity
@@ -291,7 +291,7 @@ they simply have trouble remembering it.</para>
 </para>
 
 <sect3 id="own-the-name">
-<title>Own the name in the important namespaces</title>
+<title>Own the Name in the Important Namespaces</title>
 
 <para>For large projects, it is a good idea to own the project's name
 as many of the relevant namespaces on the Internet as you can.  By
@@ -568,7 +568,7 @@ or <ulink url="https://launchpad.net/inkscape"
 >launchpad.net/inkscape</ulink>, to pick two at random.</para></sidebar>
 
 <sect3 id="development-status-honesty">
-<title>Development status should always reflect reality.</title>
+<title>Development Status Should Always Reflect Reality</title>
 
 <para>Don't be afraid of looking unready, and never give in to the
 temptation to inflate or hype the development status.  Everyone knows that
@@ -993,7 +993,7 @@ doing.</para>
 </sidebar>
 
 <sect3 id="documentation-availability">
-<title>Availability of documentation</title>
+<title>Availability of Documentation</title>
 
 <para>Documentation should be available from two places: online
 (directly from the web site), <emphasis>and</emphasis> in the
@@ -1030,7 +1030,7 @@ document would only make their lives harder.</para>
 </sect3>
 
 <sect3 id="developer-documentation">
-<title>Developer documentation</title>
+<title>Developer Documentation</title>
 
 <para>Developer documentation is written by programmers to help other
 programmers

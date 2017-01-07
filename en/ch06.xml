@@ -1404,7 +1404,7 @@ homework, and therefore are probably saying something now that has not
 been said before.</para>
 
 <sect3 id="all-as-archives">
-<title>Treat all resources like archives</title>
+<title>Treat All Resources Like Archives</title>
 
 <para>All of the preceding advice applies to more than just mailing
 list archives.  Having particular pieces of information at stable,
@@ -1959,7 +1959,7 @@ guidelines:</para>
 series of steps, which are described in the sections below.</para>
 
 <sect3 id="security-receiving">
-<title>Receive the report</title>
+<title>Receive the Report</title>
 
 <para>Obviously, a project needs the ability to receive security bug
 reports from anyone.  But the regular bug reporting channels won't do,
@@ -2011,7 +2011,7 @@ accordingly.</para>
 </sect3>
 
 <sect3 id="security-finding-a-fix">
-<title>Develop the fix quietly</title>
+<title>Develop the Fix Quietly</title>
 
 <para>So what does the security list do when it receives a report?
 The first task is to evaluate the problem's severity and
@@ -2108,7 +2108,7 @@ already aware of the bug.</para>
 </sect3>
 
 <sect3 id="security-cve">
-<title>CVE numbers</title>
+<title>CVE Numbers</title>
 
 <para>You may have seen a <firstterm>CVE number</firstterm> associated
 with a particular security problems&nbsp;&mdash;&nbsp;e.g., a number
@@ -2193,7 +2193,7 @@ security engineer at RedHat.</para>
 </sect3>
 
 <sect3 id="security-prenotification">
-<title>Pre-notification</title>
+<title>Pre-Notification</title>
 
 <para>Once your security response team (that is, those developers who
 are on the security mailing list, or who have been brought in to deal
@@ -2311,7 +2311,7 @@ precisely the point of CVE numbers.</para>
 </sect3>
 
 <sect3 id="security-announcing">
-<title>Distribute the fix publicly</title>
+<title>Distribute the Fix Publicly</title>
 
 <para>The last step in handling a security bug is to distribute the
 fix publicly.  In a single, comprehensive announcement, you should

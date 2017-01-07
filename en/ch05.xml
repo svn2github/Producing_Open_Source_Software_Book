@@ -979,7 +979,7 @@ It is a benefit to be aggressively pursued, not an obstacle to be
 merely endured.</para>
 
 <sect3 id="cvs-pserver">
-<title>Case study: the CVS password-authentication protocol</title>
+<title>Case Study: the CVS Password-Authentication Protocol</title>
 
 <para>In 1995, I was one half of a partnership that provided support
 and enhancements for CVS (the Concurrent Versions System; see <ulink
@@ -1776,7 +1776,7 @@ community if anyone can look at your repository and see that there are
 few or no code changes coming from outside your organization.</para>
 
 <sect3 id="activity-cannot-be-faked">
-<title>Case study: You can't fake it, so don't try</title>
+<title>Case Study: You Can't Fake It, So Don't Try</title>
 
 <para>Once I saw an announcement by a very well-known computer
 company, stating that they were releasing an important software
@@ -2239,7 +2239,7 @@ review while the project is under way, as described in
 <xref linkend="independent-review"/>.</para>
 
 <sect3 id="talk-to-relevant-communities-early">
-<title>Establish contact early with relevant communities</title>
+<title>Establish Contact Early With Relevant Communities</title>
 
 <para>Another way to foster independent sources of expertise is to
 establish contact with potentially interested technical communities

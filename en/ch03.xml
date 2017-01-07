@@ -353,7 +353,7 @@ unless you have reason to believe you can do better, your project will
 probably run best just using one of those sites.</para>
 
 <sect3 id="canned-hosting-choosing">
-<title>Choosing a canned hosting site</title>
+<title>Choosing a Canned Hosting Site</title>
 
 <para>There are now so many sites providing free-of-charge canned
 hosting for projects released under open source licenses that there is
@@ -385,7 +385,7 @@ open source project hosting options.</para>
 </sect3>
 
 <sect3 id="hosting-on-freedom">
-<title>Hosting on fully open source infrastructure</title>
+<title>Hosting on Fully Open Source Infrastructure</title>
 
 <para>Although all the canned hosting sites use plenty of free
 software in their stack, most of them also wrote some proprietary
@@ -463,7 +463,7 @@ the instructions.</para></footnote></para>
 </sect3>
 
 <sect3 id="anonymity">
-<title>Anonymity and involvement</title>
+<title>Anonymity and Involvement</title>
 
 <para>A problem that is not strictly limited to the canned sites, but
 is most often found there, is the over-requirement of user
@@ -805,7 +805,7 @@ nothing more.</para>
 </sect4>
 
 <sect4 id="address-hiding">
-<title>Address hiding in archives</title>
+<title>Address-Hiding in Archives</title>
 
 <para>To prevent your mailing lists from being a source of addresses
 for spammers, a common technique is for the archiving software to
@@ -1164,7 +1164,7 @@ re-arises every few years, as it inevitably will, you can point people
 to the archived discussion from last time.</para>
 
 <sect4 id="reply-fantasies">
-<title>Two fantasies</title>
+<title>Two Fantasies</title>
 
 <para>Someday, someone will get the bright idea to implement a
 <firstterm>reply-to-list</firstterm> key in a mail reader.  It would
@@ -1766,7 +1766,7 @@ of them.  Consult your specific system's documentation for
 details.</para>
 
 <sect3 id="version-everything">
-<title>Version everything</title>
+<title>Version Everything</title>
 
 <para>Keep not only your project's source code under version control,
 but also its web pages, documentation, FAQ, design notes, and anything
@@ -1850,7 +1850,7 @@ it.</para>
 </sect3>
 
 <sect3 id="branches">
-<title>Use branches to avoid bottlenecks</title>
+<title>Use Branches to Avoid Bottlenecks</title>
 
 <para>Non-expert version control users are sometimes a bit afraid of
 branching and merging.  If you are among those people, resolve right
@@ -1904,7 +1904,7 @@ possible.</para>
 </sect3>
 
 <sect3 id="vc-singularity">
-<title>Singularity of information</title>
+<title>Singularity of Information</title>
 
 <para>Merging has an important corollary: never commit the same change
 twice.  That is, a given change should enter the version control
@@ -2063,7 +2063,7 @@ in <xref linkend="electorate"/><phrase output="printed"> in
 
 <!-- ========================== subsection =========================== -->
 <sect2 id="receiving-changes">
-<title>Receiving and reviewing contributions</title>
+<title>Receiving and Reviewing Contributions</title>
 
 <para>These days the primary means by which
 changes&nbsp;&mdash;&nbsp;code contributions, documentation
@@ -2085,7 +2085,7 @@ whoever submitted it; it is the collective responsibility of the
 project as a whole.</para>
 
 <sect3 id="pull-requests">
-<title>Pull requests</title>
+<title>Pull Requests</title>
 
 <para>A <firstterm>pull request</firstterm> is a request
 <emphasis>from</emphasis> a contributor <emphasis>to</emphasis> the
@@ -2136,7 +2136,7 @@ we all need to just get used to it.  I'm not bitter.</para>
 <sect3 id="commit-notifications">
 <!-- For link compatibility with the old ID. -->
 <anchor id="commit-emails" />
-<title>Commit notifications / commit emails</title>
+<title>Commit Notifications / Commit Emails</title>
 
 <para>Every commit to the repository&nbsp;&mdash;&nbsp;or every push
 containing a group of commits&nbsp;&mdash;&nbsp;should generate a

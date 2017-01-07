@@ -166,7 +166,7 @@ also about drawing people into a closer committment to the
 project.</para>
 
 <sect3 id="delegation-assignment">
-<title>Distinguish clearly between inquiry and assignment</title>
+<title>Distinguish Clearly Between Inquiry and Assignment</title>
 
 <para>Sometimes it is fair to expect that a person will accept a
 particular task.  For example, if someone writes a bug into the code,
@@ -227,7 +227,7 @@ decline the responsibility.</para>
 </sect3>
 
 <sect3 id="delegation-followup">
-<title>Follow up after you delegate</title>
+<title>Follow Up After You Delegate</title>
 
 <para>When you ask someone to do something, remember that you have
 done so, and follow up with him no matter what.  Most requests are
@@ -257,7 +257,7 @@ respond.</para>
 </sect3>
 
 <sect3 id="delegation-interest">
-<title>Notice what people are interested in</title>
+<title>Notice What People Are Interested In</title>
 
 <para>Another thing that makes people happy is to have their interests
 noticed&mdash;in general, the more aspects of someone's personality
@@ -1503,7 +1503,7 @@ auspicious of beginnings for the new release managers either.</para>
 <title>Committers</title>
 
 <sidebar id="committer">
-  <title>Defining "committer" and "commit access".</title>
+  <title>Defining "Committer" and "Commit Access"</title>
   <para>For the purposes of this section, the word
   <firstterm>committer</firstterm> means one of the official
   maintainers of the software&nbsp;&mdash;&nbsp;a committer is someone
@@ -1914,7 +1914,7 @@ side of group, and things won't get out of hand.</para>
 <title>Forks</title>
 
 <sidebar id="social-forks-vs-short-forks">
-<title>"Social forks" versus "short forks".</title>
+<title>"Social Forks" versus "Short Forks"</title>
 
 <para>At its most basic, a <firstterm>fork</firstterm> is when one
 copy of a project diverges from another copy: think "fork in the

@@ -123,8 +123,8 @@ which came later), but also they should indicate as compactly as
 possible the degree and nature of the changes in the release.</para>
 
 <sidebar id="release-numbering-vs-release-ids" >
-<title>Some projects just need release identifiers, not release
-numbers.</title>
+<title>Some Projects Just Need Release Identifiers, Not Release
+Numbers.</title>
 <para>The advice in the rest of this section only applies to projects
 where release number semantics matter.  Use your judgement: if your
 project isn't offering API predictability anyway, or if it practices
@@ -606,7 +606,7 @@ last minute, the more the code is destabilized, and (usually) the more
 new bugs are created.</para>
 
 <sidebar id="time-based-vs-feature-based" >
-<title>Time-based releases vs feature-based releases.</title>
+<title>Time-Based Releases vs Feature-Based Releases</title>
 
 <para>Some software projects use "<firstterm>time-based
 releases</firstterm>", as opposed to "<firstterm>feature-based
@@ -767,7 +767,7 @@ remember if any bugs were found in later testing or not,
 though).</para>
 
 <sect3 id="release-stabilization-collaboration">
-<title>Managing collaborative release stabilization</title>
+<title>Managing Collaborative Release Stabilization</title>
 
 <para>If your project chooses a change voting system, it is imperative
 that the physical mechanics of setting up ballots and casting votes be
@@ -858,7 +858,7 @@ revisions.</para>
 </sect3>
 
 <sect3 id="release-manager">
-<title>Release manager</title>
+<title>Release Manager</title>
 
 <para>The actual process of merging (see
 <xref linkend="vc-vocabulary-merge"/>) approved changes into the
@@ -1070,7 +1070,7 @@ source files should be the same across all the packagings of a given
 release.</para>
 
 <sect3 id="release-capitalization">
-<title>To capitalize or not to capitalize</title>
+<title>To Capitalize or Not to Capitalize</title>
 
 <para>When referring to a project by name, people generally capitalize
 it as a proper noun, and capitalize acronyms if there are any:
@@ -1087,7 +1087,7 @@ directory that will be created when she unpacks a distribution.</para>
 
 </sect3>
 <sect3 id="release-prereleases">
-<title>Pre-releases</title>
+<title>Pre-Releases</title>
 
 <para>When shipping a pre-release or candidate release, the qualifier
 is a part of the release number, so include it in the name of

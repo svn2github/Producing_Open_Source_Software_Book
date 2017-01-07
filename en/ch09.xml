@@ -323,7 +323,7 @@ out, along with a few other terms.</para>
 </variablelist>
 
 <sidebar id="free-open-same">
-  <title>"Free Software" and "Open Source" Are the Same Licenses.</title>
+<title>"Free Software" and "Open Source" Are the Same Licenses</title>
 
 <para>Occasionally people will make the mistake of thinking that
 copyleft licenses (like the GPL) comprise "free software", while the
@@ -672,7 +672,7 @@ the LGPL, <ulink url="https://www.gnu.org/licenses/lgpl.html"
 use it.</para>
 
 <sect3 id="gpl-future-proofing">
-<title>The "or any later version" Option: Future-Proofing the GPL.</title>
+<title>The "or any later version" Option: Future-Proofing the GPL</title>
 
 <para>The GPL has a well-known optional recommendation that you
 release software under the current version of the GPL while giving
@@ -796,7 +796,7 @@ as part of a derivative work.</para>
 </sect3>
 
 <sect3 id="is-the-gpl-free">
-<title>Is the GPL free or not free?</title>
+<title>Is the GPL Free or Not Free?</title>
 
 <para>One consequence of choosing the GPL (or AGPL) is the
 possibility&mdash;small, but not infinitely small&mdash;of finding
