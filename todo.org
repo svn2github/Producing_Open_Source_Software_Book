@@ -11,65 +11,6 @@ that may be actionable some day but that I don't consider to be "todo"
 items right now.
 
 * Andy Oram comments
-** Chapter 3 (Andy Oram)
-   Move Canned Hosting (page 40) before Web site (page 39). I suggest
-   this because canned hosting is an all-in-one umbrella solution that
-   covers most of the other, individual tools. It makes sense to consider
-   canned hosting first and do the others only if you find a reason to
-   reject it.
-   
-   "Be sure to use moderation..." (p. 46): Consider making this a
-   note. That makes it stick out and be more visible, which I think it
-   deserves.
-   
-   Two fantasies (page 50): this also could be a note. I believe one can
-   assign a title to a note, but even without the title, these two
-   paragraphs make a good note.
-   
-   Footnote 7 (about Michael Bernstain) and footnote 8 on Siesta: why not
-   incorporate these into the text for the new edition?
-   
-   Archiving (page 50): I suggest a short introductory paragraph listing
-   the important aspects of archiving: that they allow messages to be
-   retrieved later (and I've often solved a problem by accessing a
-   message casually posted by some stranger), that they provide a history
-   that's valuable to new users coming up to speed and to maintainer,
-   perhaps other advantages.
-   
-   Mailman, "As of this writing, in late 2013..." (page 52): clearly a
-   section of the book you didn't look over and update.
-   
-   Version Control, "it is a communications mechanism" (page 52): while
-   version control is this, I agree, it is more fundamentally a piece of
-   software that assures the integrity of software. I would say this
-   first, followed by the communications rols. Version control (if backed
-   up properly) ensures that the software is never lost, that its history
-   and former states can be reconstructed, that each contributor's
-   contributions can be recorded and acknowledged, etc.
-   
-   Terminology (pages 53-56): I suggest adding an entry for "reversion",
-   which you refer to later.
-   
-   push and pull (page 53): I don't want to add extra verbiage to your
-   introduction to version control, but it may be worth mentioning
-   somewhere (right near the beginning) that version control systems
-   allow people to create a copy of their software on their local
-   systems--a sandbox (or the terms you seem to prefer, clone or working
-   files). Then the concepts of push and pull make more sense.
-   
-   Authorization (pages 59-60)
-   
-   A complex area. This is a good section, but it leaves unclear (to me,
-   at least) whether to give access to the whole project to a new,
-   competent committeer. You seem to say that they should have access to
-   the whole repository, but the last paragraph pulls back and suggests
-   that you should somehow restrict people's access. How?
-   
-   Wikis, page 68: per my usual principle, state the positive impacts and
-   possibilities first, and then how they can "go bad." By the way, I
-   think another problem with wikis is that they don't get updated
-   promptly, and therefore that readers come to distrust them as
-   canonical sources of information.
 ** Chapter 4 (Andy Oram)
    Forkability (pages 72-72): I have two general suggestions for material
    to add.
