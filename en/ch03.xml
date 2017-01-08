@@ -2676,23 +2676,36 @@ space for real-time conversation on a regular basis.</para>
 <sidebar id="irc-alternatives">
 <title>Alternatives to IRC</title>
 
-<para>Starting in 2015, some newer, primarily web-based real-time
-group chat systems began gaining momentum, in particular the open
-source <ulink url="https://mattermost.org/" >Mattermost</ulink> and the
-proprietary <ulink url="https://slack.com/" >Slack</ulink> and <ulink
-url="https://ryver.com/" >Ryver</ulink> team communications services.
-Mattermost is increasingly popular with open source projects, and
-offers gateways to IRC and other older protocols (so does Slack; I
-don't know about Ryver, but if they do offer it they're at least not
-bragging about it on their web pages).</para>
+<para>Starting around early 2015, a number of open source projects
+began experimenting with newer, primarily web-based real-time group
+chat systems, in particular the open source platforms <ulink
+url="https://rocket.chat/" >Rocket.chat</ulink> and <ulink
+url="https://mattermost.org/" >Mattermost</ulink>.  Some have also
+tried the proprietary service <ulink url="https://slack.com/"
+>Slack</ulink>, although it doesn't seem to have sustained its early
+momentum among open source projects<footnote><para>Perhaps due to the
+reasons given in <ulink
+url="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html"
+>drewdevault.com/2015/11/01/Please-stop-using-slack.html</ulink>.</para></footnote>
+<!-- My goodness: there's also shout-irc.com, rambox.pro, matrix.org,
+     sdelements.github.io/lets-chat/, and goodness knows what else out
+     there now.  And irccloud.com provides zero-fee IRC persistence
+     and UI modernization (but is, sadly, not open source, though its
+     mobile apps are: blog.irccloud.com/mobile-apps-open-sourced). -->
+All of them offer gateways to IRC and other older protocols, so
+<!-- At least, it looks like Rocket.chat's IRC gateway is functional
+     now; see https://github.com/RocketChat/Rocket.Chat/issues/216
+     for latest status. -->
+users don't have to change their client-side software to interact with
+the project.  At the same time, there is also an effort under way to
+update IRC itself, at <ulink url="http://ircv3.net/"
+>ircv3.net</ulink>.</para>
 
 <para>It's too early to know how all this will shake out in the long
-run, but IRC is still a good choice and probably will continue to be
-what most open source projects use for some time.  If you think IRC
-won't be suitable for your development community, look at Mattermost
-next; apparently hosted service will be available at <ulink
-url="https://mattermost.com/" >Mattermost.com</ulink> soon, though it
-wasn't ready as of this writing in early 2016.</para>
+run.  IRC is still a good choice and probably will continue to be what
+most open source projects use for some time.  If you think IRC won't
+be suitable for your development community, look at Rocket.chat or
+Mattermost next.</para>
 
 </sidebar>
 
@@ -2743,16 +2756,12 @@ your project is young, there should only be one channel, with everyone
 talking together.  Later, as the user-to-developer ratio increases,
 separate channels may become necessary.</para>
 
-<para>How will people know all the available channels, let alone which
-channel to talk in?  And when they talk, how will they know what the
-local conventions are?</para>
-
-<para>The answer is to tell them by setting the <firstterm>channel
+<para>In each channel, set the <firstterm>channel
 topic</firstterm>.<footnote><para>To set a channel topic, use the
 <literal>/topic</literal> command.  All commands in IRC start with
-"<literal>/</literal>".</para></footnote>  The channel topic is a brief
-message each user sees when they first enter the channel.  It gives
-quick guidance to newcomers, and pointers to further information.  For
+"<literal>/</literal>".</para></footnote>,which is a brief message
+each user sees when they first enter the channel.  It gives quick
+guidance to newcomers, and pointers to further information.  For
 example:</para>
 
 <screen>
@@ -2835,7 +2844,7 @@ asking the bot to tell another user about diff-cmd:</para>
 <para>The exact command set and behaviors differ from bot to bot
 (unfortunately, the diversity of IRC bot command languages seems to be
 rivaled only by the diversity of wiki syntaxes).  The above example
-happens to be with <literal>wayita</literal> (<ulink
+happens to use <literal>wayita</literal> (<ulink
 url="http://repos.borg.ch/svn/wayita/trunk/"
 >repos.borg.ch/svn/wayita/trunk</ulink>), of which there is usually an
 instance running in <literal>#svn</literal> at Freenode, but there are
@@ -2873,7 +2882,10 @@ several replacements are available: Notifico (<ulink
 url="https://n.tkte.ch/" >n.tkte.ch</ulink>), Irker (<ulink
 url="http://www.catb.org/esr/irker/" >catb.org/esr/irker</ulink>), and
 KGB (<ulink url="https://kgb.alioth.debian.org/"
->kgb.alioth.debian.org</ulink>).</para>
+>kgb.alioth.debian.org</ulink>).  Also, many of the major hosting
+sites, e.g., GitHub, make this functionality pretty easy to set
+up&nbsp;&mdash;&nbsp;the key phrase to search for is "IRC hook", if
+you want to learn more.</para>
 
 </sect3>
 
