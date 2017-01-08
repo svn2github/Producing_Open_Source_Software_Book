@@ -1,6 +1,6 @@
 <chapter id="money">
 
-<title>Participating as a Business or a Government Agency</title>
+<title>Participating as a Business, Non-Profit, or Government Agency</title>
 
 <simplesect>
 
@@ -2240,7 +2240,7 @@ First, the negative myths:</para>
      any kind, for the reasons given in <xref
      linkend="patents"/><phrase output="printed"> in <xref
      linkend="legal"/></phrase>, but if you are a patent holder I
-     would still like you to be least be aware of the possible patent
+     would still like you to at least be aware of the possible patent
      consequences of incorporating open code into your
      programs.</para></footnote>  For all these reasons,
      incorporating open source code into software that will be
@@ -2412,7 +2412,9 @@ succeed at it every time.</para>
 <para>If you intend to have long-term organizational engagement with
 open source software projects, the people in your middle layer of
 management will play a key role in determining whether you succeed or
-fail.  Supervising programmers who spend part or all of their time on
+fail.</para>
+
+<para>Supervising programmers who spend part or all of their time on
 open source projects is more complex than supervising programmers on
 purely internal projects.  Many aspects of the developers' work and
 schedule will be strongly influenced by external factors not under the
@@ -2420,15 +2422,16 @@ control of management, and in any case the developers' own desires may
 not always perfectly line up with the employer's.  After all, each
 developer now has two unrelated audiences to satisfy: her employer, as
 embodied by her direct manager, and her colleagues in the open source
-project, many of whom may work for other employers.  If a manager is
-not sufficiently sensitive to this dynamic, then developers can start
-to feel as though they serve two conflicting masters.  Sometimes this
-conflict is the result of poor planning, and other times it is real
-and unavoidable.  Good management can prevent the former situation
-from happening in the first place, and in the latter situation, good
-management is essential for recognizing it and addressing it in some
-way that gives the developer clarity and a way to handle the
-conflicted situation.</para>
+project, many of whom may work for other employers.</para>
+
+<para>If a manager is not sufficiently sensitive to this dynamic, then
+developers can start to feel as though they serve two conflicting
+masters.  Sometimes this conflict is the result of poor planning, and
+other times it is real and unavoidable.  Good management can prevent
+the former situation from happening in the first place, and in the
+latter situation, good management is essential for recognizing it and
+addressing it in some way that gives the developer clarity and a way
+to handle the conflicted situation.</para>
 
 <para>Middle managers also have not only the usual upward and lateral
 internal reporting responsibilities, but are to some degree
@@ -2481,10 +2484,10 @@ project.</para>
 </sect2>
 
 <!-- ========================== subsection =========================== -->
-<sect2 id="innersourcing">
-<title>Innersourcing</title>
+<sect2 id="innersource">
+<title>InnerSourcing</title>
 
-<para><firstterm>Innersource</firstterm> or
+<para><firstterm>InnerSource</firstterm> or
 <firstterm>innersourcing</firstterm> means using standard open source
 development practices only within the boundaries of an organization.
 For example, a company might move all of its projects to GitHub
@@ -2511,8 +2514,8 @@ true open source.</para>
 
 <para>For companies that already participate in open source projects,
 innersourcing can reduce the difference between internal development
-practices and external ones.  If some of your engineers have to
-participate in upstream open source projects anyway, in which they
+practices and external ones.  If some of your engineers 
+participate in upstream open source projects anyway, where they
 must use typical open source collaboration tools and adhere to open
 source standards for submitting and reviewing code and documentation,
 then moving the company's internal engineering infrastructure and
@@ -2521,25 +2524,29 @@ for existing staff, an easier onboarding process for new hires, and
 sometimes improved technical compatibility between internal and
 external projects.  (For these reasons, innersourcing is also often
 used as the first "baby steps" toward genuine corporate participation
-in open source projects).</para>
+in open source projects.)</para>
 
 <para>But the benefits of innersourcing go beyond that.  When
 accompanied by a real commitment to reduce managerial and
-organizational barries to engineers following their own lead in
-contributing to projects across the company, innersourcing can improve
-both morale, help spread expertise around the company more effectively
-(because expertise will come closer to flowing along its natural
-paths, rather than being directed by management), and make software
-development more efficient.</para>
+organizational barriers to engineers participating in projects across
+the company, innersourcing can improve morale, help spread expertise
+around the company more effectively (because expertise will come
+closer to flowing along its natural paths, rather than being directed
+by management), and make software development more
+efficient.<footnote><para>If you're interested in learning more, see
+<ulink url="http://innersourcecommons.org/"
+>InnerSourceCommons.org</ulink>, where Danese Cooper, Head of Open
+Source at PayPal, has been organizing a number of resources about
+InnerSource.</para></footnote></para>
 
 <para>Nevertheless, innersource is not the same as open source, nor is
 it even "open source lite".  The managers we talked to reported that
-innersourced projects have less of the uncontrolled dynamics of truly
+innersourced projects don't have the provocative, uncontrolled energy of truly
 open source projects, because all the actors in innersourcing are,
-ultimately, all part of the same hierarchical authority structure.
+ultimately, embedded in the same hierarchical authority structure.
 Fundamentally, open source dynamics require at least the potential for
 totally permissionless modification (i.e., you don't have to worry
-what someone might think of a fork).  But when software only
+what someone else might think of a fork).  When software only
 circulates within a given management hierarchy, then that potential
 for permissionless collaboration vanishes&nbsp;&mdash;&nbsp;and with
 it, the potential for true open source behavior vanishes too.  The
@@ -2556,7 +2563,7 @@ When that external freedom is removed, everything changes.</para>
 
 <para>Innersourcing also fails the "portable résumé"
 test&nbsp;&mdash;&nbsp;an employee can't take the code with her, and
-her work will not be publicly visible (see <xref linkend="hiring"/>.).
+her work will not be publicly visible (see <xref linkend="hiring"/>).
 She can be alienated from her work, if she leaves the company, which
 means that her motivation to personally invest is reduced.</para>
 
@@ -2602,7 +2609,7 @@ open source project activity.</para>
 
 <para>The kind of activity to look for is not only their direct
 technical activity, but also their relations with the other developers
-in the project.  So look at the candidates commits, but look also at
+in the project.  So look at the candidate's commits, but look also at
 the frequency with which they reviewed <emphasis>others'</emphasis>
 commits, and at their reaction to reviews of their own commits.  In
 the project's issue tracker, how often did the candidate respond
@@ -2629,11 +2636,77 @@ ask them questions about why.  There is nothing wrong with being
 uninvolved as a participant in software that one uses.  However, if
 you're hiring someone to <emphasis>be</emphasis> a participant in a
 project, and they already had a chance to be and chose not to, that
-implies a lack of intrinsic motivation to participate and may indicate
+could imply a lack of intrinsic motivation to participate and may indicate
 that this person's temperament is not what you're looking for.  Or
-there may be other reasons&nbsp;&mdash;&nbsp;for example, the
+there could be other reasons&nbsp;&mdash;&nbsp;for example, the
 candidate's prior management forbade them from participating.
 Whatever the reasons are, you should make sure you find out.</para>
+
+<sect2 id="hiring-for-influence">
+<title>Hiring for Influence</title>
+
+<!-- These observations were supported by some interviews we did for a
+     client.  The following reference numbers will only be meaningful
+     to kfogel (or others from Open Tech Strategies), but I'm putting
+     them in here so I can trace back to those original interviews:
+     (ref:d4291142) (ref:11ef65b9) (ref:e4abd43b) (ref:58af0183) -->
+<para>It is very common for companies to hire an open source developer
+precisely <emphasis>because</emphasis> of her existing position in an
+open source project.  She may be the founder or leader of the project,
+or may just have commit access<footnote><para>See <xref
+linkend="committers"/><phrase output="printed" > in <xref
+linkend="managing-participants" /></phrase>.</para></footnote>, but
+either way her ability to get things done in the upstream community is
+part of her value as a prospective employee; often, it is just as
+important as raw technical skill.</para>
+
+<para>As noted in <xref linkend="economics-of-open-source"/>, there is
+nothing wrong with purchasing influence in this way, as long as the
+employer understands that the new employee will have dual loyalty.  It
+is inappropriate to ask the employee to take actions that would harm
+her standing in the project.  The employee's manager needs to be
+sensitive to this, and to let the employee know that the door is open
+for discussion and pushback if she ever feels she's being put into
+such a situation (hence the importance of managers who understand open
+source, as described in <xref linkend="middle-management"/>).  It is
+perfectly fine for the employee to promote the company's technical
+interests in the project, and to do so openly, as long as the
+proposals are compatible with the project's overall goals and the
+company provides resources to support those proposals in a way that's
+sustainable for the project.</para>
+
+<para>Remember that influence in an upstream project is usually not
+transferable to some other employee.  Position and influence travel
+with the person, not with the employer.  There are occasional
+exceptions to this, e.g., in corporate-driven projects where the
+balance of power among competitors is especially important, or in
+standards bodies with formal representation policies.  In these cases,
+a governance committee seat may be reserved for a certain company, and
+the company gets to designate who sits in that seat.  But even then,
+informal influence tends to matter a lot, and individuals may not be
+truly interchangeable in practice.</para>
+
+<para>This makes the recommendations in <xref
+linkend="long-term-developers"/> all the more important.  When an
+employee holds a position of influence in an open source project that
+is strategically important to your company, that employee has a pretty
+good bargaining position.</para>
+
+<para>Since that kind of employee is likely to be with you for the
+long term, try to take advantage of it by having her help onboard
+others into open source projects.  One executive I interviewed
+<!-- (ref:d4291142) TODO: have asked source if I can use her name -->
+said that when her company acquired another company that had a history
+of working on certain strategically important (to the acquirer) open
+source projects, the engineering team that came with the acquisition
+became a strong influence inside the newly combined company.  The
+developers had good reputations in the upstream projects, and the new
+management not only made sure they were able to continue working in
+those projects, but brought them into a company-wide open source
+working group to help other engineers get involved in upstream
+maintenance too.</para>
+
+</sect2>
 
 </sect1>
 
@@ -2651,11 +2724,11 @@ in a new project, you'll usually still be building on existing open
 source components, and will often be in the position of choosing
 between different projects that implement the same basic
 functionality.  That is not just a technical choice; it's also about
-the social health of those other projects: how large and diverse are
-their developer communities?  Do they get new contributors on a
-regular basis?  Do they handle incoming bug reports in a reasonable
-way?  Do they make stable releases frequently enough for your needs?
-And so on.</para>
+social health and general level of project maturity.  How large and
+diverse are their developer communities?  Do they get new contributors
+on a regular basis?  Do they handle incoming bug reports in a
+reasonable way?  Do they make stable releases frequently enough for
+your needs?  And so on.</para>
 
 <para>Evaluating open source projects is certainly an art, not a
 science.  However, there are some shortcuts that experienced people
@@ -2693,7 +2766,7 @@ evaluation predicted.</para>
      <listitem>
      <para>Look at the distribution of commits across committers, not
      just at the raw frequency of commits.  Does the project have a
-     variety people working together in a sustained way?  Too often,
+     variety of people working together in a sustained way?  Too often,
      evaluators look just at the commit rate, but the rate isn't very
      informative&nbsp;&mdash;&nbsp;knowing the number of commits per
      week doesn't tell you anything except that (perhaps) someone
@@ -2714,7 +2787,7 @@ evaluation predicted.</para>
      organizations.  If a number of different sources of money are all
      investing in a project, that's a sign that that project is going
      to be around for the long term.  (See the discussion of "bus
-     factor" in <xref linkend="getting-started"/>.)</para></listitem>
+     factor" in <xref linkend="social-infrastructure"/>.)</para></listitem>
    </varlistentry>
 
    <varlistentry><term><emphasis>Discussion forums.</emphasis></term>
