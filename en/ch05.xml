@@ -109,7 +109,7 @@ those expectations.</para>
 
 <para>Although money needs to be used carefully, that doesn't mean it
 can't buy influence.  It most certainly can.  The trick is that it
-doesn't buy influence directly&nbsp;&mdash;&nbsp;instead, it buys
+doesn't buy influence directly.  Instead, it buys
 development credibility, which is convertible to influence through the
 project's decision-making processes.  In a straightforward commercial
 transaction, you trade money for what you want.  If you need a feature
@@ -188,12 +188,23 @@ will result from several, or even all, of these motivations:</para>
      competitors.</para></listitem> 
    </varlistentry>
 
-   <varlistentry><term>Augmenting services</term>
+   <varlistentry><term>Ensuring maintenance of infrastructure</term>
      <listitem>
      <para>When a company sells services which depend on, or are made
      more attractive by, particular open source programs, it is
      naturally in that company's interests to ensure those programs
      are actively maintained.</para></listitem>
+   </varlistentry>
+
+   <varlistentry><term>Establishing a standard</term>
+     <listitem>
+     <para>Often a corporation has strategic reasons to establish a
+     technical standard (say, a networking protocol, or an
+     application-specific markup language).  Releasing an open source
+     implementation of that standard, and shepherding the software
+     into widespread use, is perhaps the most effective way to get
+     buy-in from others for the standard.</para>
+     </listitem>
    </varlistentry>
 
    <varlistentry><term>Creating an ecosystem</term>
@@ -279,15 +290,6 @@ will result from several, or even all, of these motivations:</para>
      motivations.</para></listitem>
    </varlistentry>
 
-   <varlistentry><term>Donations</term>
-     <listitem>
-     <para>A widely-used project can sometimes get significant
-     contributions, from both individuals and organizations, just by
-     soliciting donations, or by doing an organized crowdfunding
-     campaign.  See <xref linkend="crowdfunding-and-bounties"/> for a
-     detailed discussion of this approach.</para></listitem>
-   </varlistentry>
-
 </variablelist>
 
 <para>A funder's business model is not the only factor in how that
@@ -330,20 +332,20 @@ from individuals and from private-sector organizations in some
 fundamental ways:
 
 <itemizedlist>
-  <listitem>Governments often aren't trying to retain technical
-  expertise in-house.  That's what contractors are for, after all.</listitem>
-  <listitem>Governments have labyrinthine and in certain ways
+  <listitem><para>Governments often aren't trying to retain technical
+  expertise in-house.  That's what contractors are for, after all.</para></listitem>
+  <listitem><para>Governments have labyrinthine and in certain ways
   inflexible procurement and employment policies.  These policies can
   make it difficult for a government agency to be nimbly responsive in
-  an open source development community.</listitem>
-  <listitem>Government agencies tend to be unusually risk-averse.
+  an open source development community.</para></listitem>
+  <listitem><para>Government agencies tend to be unusually risk-averse.
   Somewhere at the top there's an elected official who, reasonably,
   sees an open source project as just one more surface area for
   opponents to attack.  After all, when development happens in public,
   the inevitable false starts and wrong turns are also public; if
   development were internal, no one else would know about it when
-  those things happen.</listitem>
-  <listitem>Government officials hunger for well-timed and
+  those things happen.</para></listitem>
+  <listitem><para>Government officials hunger for well-timed and
   well-controlled publicity events.  This has certain benefits, but it
   can sometimes come at the expense of overall project health.
   This need for publicity is the complement of being risk-averse:
@@ -356,7 +358,7 @@ fundamental ways:
   certain actions&nbsp;&mdash;&nbsp;or, in some cases, do them too
   soon&nbsp;&mdash;&nbsp;based on external publicity implications
   rather than on what's best for the project technically and
-  socially.</listitem>
+  socially.</para></listitem>
 </itemizedlist>
 
 </para>
@@ -379,7 +381,7 @@ important for a government agency:</para>
      http://doccookbook.sourceforge.net/html/en/dbc.markup.xref.html. -->
 <itemizedlist>
   <listitem><xref xrefstyle="select: title" linkend="rfi-rfp-contract-language"/></listitem>
-  <listitem><xref xrefstyle="select: title" linkend="independent-review"/></listitem>
+  <listitem><xref xrefstyle="select: title" linkend="osivv"/></listitem>
   <listitem><xref xrefstyle="select: title" linkend="lawyers-no-surprises"/></listitem>
   <listitem><xref xrefstyle="select: title" linkend="lock-in-vs-freedom"/></listitem>
   <listitem><xref xrefstyle="select: title" linkend="dispel-myths"/></listitem>
@@ -387,35 +389,45 @@ important for a government agency:</para>
   <listitem><xref xrefstyle="select: title" linkend="middle-management"/></listitem>
 </itemizedlist>
 
-<para>In addition to the above sections, there are many excellent
-online resources for doing open source in
-government&nbsp;&mdash;&nbsp;I won't even try to include a complete
-list, as there is too much and it changes too quickly.  Here are a few
-sites that are likely to remain good starting points for some time to
-come, especially for government agencies in the United States and in
-countries with procurement and civil service systems similar to those
-of the U.S.  <ulink url="https://18f.gsa.gov/" >18f.gsa.gov</ulink> is
-a digital services agency within the United States federal government,
-created in 2014 to bring modern software development practices to
-government work.  18F serves as a technology consultancy to other
-agencies, and builds its deliverables out in the open as open source
-software.  Along the way, 18F has generated useul guidelines and
-observations that anyone trying to run an open source software project
-within government can benefit from.  <ulink url="http://mil-oss.org/"
->Mil-OSS.org</ulink> is an association of civilian and military open
-source software and hardware developers in the U.S, but the advice and
-resources they've put together broadly applicable to open source in
-government generally, not just to military projects.  The home site of
-Dr. David A. Wheeler, <ulink url="http://www.dwheeler.com/"
->dwheeler.com</ulink>, is a fantastic trove that includes, among many
-other open-source-related things, tons of information about how to use
-U.S. government procurement regulations to support open source
-development.  If you are advocating for open source development within
-a government agency, <ulink
-url="http://ben.balter.com/2015/11/23/why-open-source/"
->ben.balter.com/2015/11/23/why-open-source</ulink> is a terrific post
-to mine for arguments, and many of Ben Balter's other writings are
-worth looking at too.</para>
+<para>In addition to the above sections in this book, there are many
+excellent online resources for doing open source in government.  I
+won't even try to include a complete list, as there is too much and it
+changes too quickly.  Here are a few sites that are likely to remain
+good starting points for some time to come, especially for government
+agencies in the United States and in countries with procurement and
+civil service systems similar to those of the U.S.</para>
+
+<itemizedlist>
+  <listitem><para><ulink url="https://18f.gsa.gov/"
+  >18f.gsa.gov</ulink> is a digital services agency within the United
+  States federal government, created in 2014 to bring modern software
+  development practices to government work.  18F serves as a
+  technology consultancy to other agencies, and builds its
+  deliverables out in the open as open source software.  Along the
+  way, 18F has generated useul guidelines and observations that anyone
+  trying to run an open source software project within government can
+  benefit from.</para>
+  </listitem>
+  <listitem><para><ulink url="http://mil-oss.org/"
+  >Mil-OSS.org</ulink> is an association of civilian and military open
+  source software and hardware developers in the U.S, but the advice
+  and resources they've put together broadly applicable to open source
+  in government generally, not just to military projects.</para>
+  </listitem>
+  <listitem><para><ulink url="http://www.dwheeler.com/"
+  >dwheeler.com</ulink>, the home site of Dr. David A. Wheeler, is a
+  fantastic trove that includes, among many other open-source-related
+  things, tons of information about how to use U.S. government
+  procurement regulations to support open source development.</para>
+  </listitem>
+  <listitem><para><ulink
+  url="http://ben.balter.com/2015/11/23/why-open-source/"
+  >ben.balter.com/2015/11/23/why-open-source</ulink> is a terrific
+  post to mine for arguments, if you are advocating for open source
+  development within a government agency.  Many of Ben Balter's other
+  writings are worth looking at too.</para>
+  </listitem>
+</itemizedlist>
 
 <para>Finally, there is one issue in particular that I have
 encountered over and over again in government-initiated open source
@@ -706,7 +718,7 @@ demonstrate an awareness that they have the potential to arise.</para>
 Subversion was started in 2000 by <ulink
 url="http://www.collab.net/">CollabNet</ulink>, which has been the
 project's primary funder since its inception, paying the salaries of
-several developers (disclaimer: I was one of them for six years).  Soon after the
+several developers (disclosure: I was one of them for six years).  Soon after the
 project began, we hired another developer, Mike Pilato, to join the
 effort.  By then, coding had already started.  Although Subversion was
 still very much in the early stages, it already had a development
@@ -829,8 +841,8 @@ when it is.  It's certainly not impossible; it just requires a project
 leader who is able to see things from the point of view of the outside
 developers, as well as that of the funder, and act accordingly.  Even
 then, it's probably a good idea to have a proposal for non-dictatorial
-governance sitting in your back pocket, ready to be brought out the
-moment there are any indications of widespread dissatisfaction in the
+governance sitting in your back pocket, ready to be brought out if
+there start to be indications of widespread dissatisfaction in the
 community.</para>
 
 </sect1>
@@ -1088,44 +1100,57 @@ maintenance, you must require behaviors and deliverables that will
 result in a truly open source product&nbsp;&mdash;&nbsp;meaning, among
 other things, a product that has the potential to be supported and
 customized by vendors other than the one who originally developed it.
-Some of those requirements are:</para>
+In my experience, the most important of those requirements are:</para>
 
 <itemizedlist>
-  <listitem>Design and development must be done in the open from the
+  <listitem><para>Design and development must be done in the open from the
             start of the project (see <xref
             linkend="be-open-from-day-one" /><phrase output="printed"
-            > in <xref linkend="getting-started" /></phrase></listitem>
-  <listitem>The code shall be licensed for open source distribution
+            > in <xref linkend="getting-started" /></phrase></para></listitem>
+  <listitem><para>The code shall be licensed for open source distribution
             from the start of development through delivery and
-            deployment.</listitem> 
-  <listitem>If the same vendor is both writing the software and
+            deployment.</para></listitem> 
+  <listitem><para>If the same vendor is both writing the software and
             deploying the production instances, require that deployed
             code must match the open source code.  Don't let
             proprietary tweaks&nbsp;&mdash;&nbsp;and thus vendor
-            lock-in&nbsp;&mdash;&nbsp;slip in via the back door.</listitem> 
-  <listitem>The product should have no dependencies on proprietary
+            lock-in&nbsp;&mdash;&nbsp;slip in via the back door.</para></listitem> 
+  <listitem><para>The product should have no dependencies on proprietary
             software modules; written permission from you must be
             obtained before any such dependencies are
-            introduced.</listitem> 
-  <listitem>Documentation must be sufficient to allow third parties to
-            understand, configure, and deploy the software.</listitem>
-  <listitem>The vendor's engagement with third parties who become
+            introduced.</para></listitem> 
+  <listitem><para>Documentation must be sufficient to allow third parties to
+            understand, configure, and deploy the software.  The
+            documentation must be in formats typically used by open
+            source projects, e.g., Markdown, DocBook,
+            etc.<footnote><para>Microsoft Word format is almost never
+            seen in open source projects, among other reasons because
+            it is not amenable to auditable spot-changes by
+            contributors.  You will need to make sure your vendor
+            knows this, or else you are likely to end up with a lot of
+            .docx files in the repository.</para></footnote></para></listitem>
+  <listitem><para>The vendor's engagement with third parties who become
             involved in the project should be described and budgeted
             for.  If it is a successful open source project, there
             will eventually be community management overhead, so
             anticipate it: e.g., specify that the vendor must
             establish a participation workflow, review and prioritize
-            contributions, etc.</listitem>
-  <listitem>Describe the extent to which the vendor is expected to
-            participate in publicity about the project, both among
-            technical developer communities and among potential
-            users.</listitem>
-  <listitem>You, the customer, should be the copyright owner of the
-            code written by the vendor.</listitem>
-  <listitem>For any patents controlled by the vendor and affecting the
+            contributions, etc.</para></listitem>
+  <listitem><para>Set clear expectations about the extent to which the
+            vendor is expected to participate in publicity about the
+            project, both among technical developer communities and
+            among potential users.</para></listitem>
+  <listitem><para>You, the customer, should be the copyright owner of the
+            code written by the vendor.</para></listitem>
+  <listitem><para>For any patents controlled by the vendor and affecting the
             project, there must be an unambiguous, non-restrictive
             patent grant not just to you but to everyone who receives
-            the code.</listitem>
+            the code under its open source license.</para></listitem>
+  <listitem><para>If the vendor has little or no experience running
+            open source projects, bring in a separate <firstterm>Open Source
+            IV&amp;V</firstterm> vendor to provide assistance and
+            oversight.  (See <xref linkend="osivv"/>.)</para>
+            </listitem>
 </itemizedlist>
 
 <para>Although this is not a complete list&nbsp;&mdash;&nbsp;every
@@ -1138,10 +1163,35 @@ section.</para>
 </sect2>
 
 <!-- ========================== subsection =========================== -->
-<sect2 id="independent-review">
-<!-- For link compatibility with a previous ID. -->
+<sect2 id="osivv">
+<!-- For link compatibility with two previous IDs. -->
+<anchor id="independent-review" />
 <anchor id="third-party-review" />
-<title>Open Source IV&amp;V: Use Third-Party Review Throughout Development</title>
+<title>Open Source IV&amp;V</title>
+
+<!-- TODO: go over this section, maybe incorporating this new
+     presentation material:
+
+     <firstterm>Independent Verification &amp; Validation</firstterm>
+     (<firstterm>IV&amp;V</firstterm>) is a long-standing technique
+     used in complex technical projects to ensure that the
+     deliverables&nbsp;&mdash;&nbsp;which in this case includes not
+     only the code, but the development process itself and the
+     resultant open source software project&nbsp;&mdash;&nbsp;meet
+     required standards.  Open Source IV&amp;V is a specialized form
+     of IV&amp;V in which a separate vendor, reporting to the customer
+     (not to the development vendor), acts as a kind of prototype open
+     source community in which the development vendor can learn its
+     way.  Typically an OS&nbsp;IV&amp;V vendor has a cooperative
+     relationship with the development vendor, participating in the
+     project much as any third-party contributor would, while also
+     helping acculturate the development vendor to open source norms.
+     But the OS&nbsp;IV&amp;V vendor also ensures that open source
+     standards are met: e.g., when the development vendor claims the
+     documentation is sufficient for someone to install the software
+     from scratch without resort to proprietary dependencies, the
+     OS&nbsp;IV&amp;V vendor can test this claim.
+-->
 
 <para>When a vendor who normally does proprietary development is hired
 to do open source development, by default the result is almost always
@@ -1307,10 +1357,9 @@ source project.  From the point of view of the project's participants,
 it's the most visible and glamorous part.  This unfortunately means
 that other activities, such as documentation, formal testing, etc., can
 sometimes be neglected, at least compared to the amount of attention
-they often receive in proprietary software.  Corporate organizations
-are sometimes able to make up for this, by devoting some of their
-internal software development infrastructure to open source
-projects.</para>
+they often receive in proprietary software.  Organizations are
+are sometimes in the best position to make up this gap, by devoting
+some of their own development resources to open source projects.</para>
 
 <para>The key to doing this successfully is to translate between the
 company's internal processes and those of the public development
@@ -1356,7 +1405,7 @@ mechanisms for remembering the tester who found the bug a committer
 fixed), partly because people tend to assume that having a large user
 community gives the project good testing coverage, and, in the case of
 performance and scalability testing, partly because not all developers
-have access to the necessary hardware resources anyway.</para>
+have access to the requisite hardware resources anyway.</para>
 
 <para>The assumption that having many users is equivalent to having
 many testers is not entirely baseless.  Certainly there's little point
@@ -1451,10 +1500,11 @@ or resources to competently handle legal issues themselves.  If your
 company has a legal department, it can help a project by assisting
 with trademark issues, copyright license ownership and compatibility
 questions, defense against patent trolls, etc.  If the project decides
-to organize formally, or to join an existing umbrella organization,
-your legal department can help with issues of corporate law, asset
-transfer, reviewing agreements, and other due diligence
-matters.</para>
+to organize formally, or to join an existing umbrella organization (as
+described in <xref linkend="non-profit"/><phrase output="printed"> in
+<xref linkend="social-infrastructure"/></phrase>), your legal
+department can help with issues of corporate law, asset transfer,
+reviewing agreements, and other due diligence matters.</para>
 
 <para>Some more concrete ideas of what sorts of legal help might be
 useful are discussed in <xref linkend="legal"/>.  The main thing is to
@@ -1592,17 +1642,17 @@ claim it via URL, banner ads, or some other means.</para>
 
 <para>Many projects have infrastructure needs beyond just hosting of
 code, bug tracker, etc.  For example, projects often use
-<firstterm>continuous integration</firstterm> (CI) testing
-(a.k.a. <firstterm>build farms</firstterm>) to automatically ensure
+<firstterm>continuous integration</firstterm> (CI) testing,
+a.k.a. <firstterm>build farms</firstterm>, to automatically ensure
 that the changes developers are committing both integrate into the
-mainline trunk and pass all automated tests<footnote><para>The
+mainline trunk and pass all automated tests.<footnote><para>The
 Wikipedia page <ulink
 url="https://en.wikipedia.org/wiki/Continuous_integration"
 >en.wikipedia.org/wiki/Continuous_integration</ulink> has a good
-description of this practice and its variants.</para></footnote>.
-(<xref linkend="automated-testing"/><phrase output="printed"> in <xref
-linkend="managing-participants"/></phrase> discusses this concept in
-more detail.)</para>
+description of this practice and its variants.</para></footnote> (See
+<xref linkend="automated-testing"/><phrase output="printed"> in <xref
+linkend="managing-participants"/></phrase> for more details on
+this.)</para>
 
 <para>Depending on the size and complexity of the codebase, the
 number of developers checking in changes, and other factors, running a
@@ -1615,6 +1665,23 @@ technical expertise available on staff, you could hire someone from
 the project to do it, or at the very least give some of the project's
 developers administrative access to the CI servers so they can set
 things up themselves.</para>
+
+</sect2>
+
+<!-- ======================== subsection =========================== -->
+<sect2 id="security-audits">
+<title>Running Security Audits</title>
+
+<para>If your company has a good internal security department, or can
+afford to hire specialists, providing in-depth security review on an
+open source project's code base can do the project a tremendous amount
+of good.  Any feedback from a security audit should be provided back
+to the project using the precautions described in <xref
+linkend="security-receiving"/><phrase output="printed"> in <xref
+linkend="communications"/></phrase>.  However, it is fine to be public
+about the fact that you are conducting the audit; there is no reason
+your organization should not get credit for a substantial contribution
+like that.</para>
 
 </sect2>
 
@@ -1672,14 +1739,14 @@ marketing in general.  Any corporation involved in free software will
 eventually find itself considering how to market themselves, the
 software, or their relationship to the software.</para>
 
-<para>Much of the advice
-in this section is simply about how to avoid common pitfalls in
-marketing open source products (see also <xref
-linkend="publicity"/><phrase output="printed"> in <xref
-linkend="communications"/></phrase>), although we will start by
-examining a major marketing advantage that open source products enjoy
-over proprietary products, and that open source businesses should
-promote as often as possible: the lack of vendor lock-in.</para>
+<para>Much of the advice in this section is simply about how to avoid
+common pitfalls in marketing open source products (see also <xref
+linkend="publicity"/> and <xref linkend="competing-products"/><phrase
+output="printed"> in <xref linkend="communications"/></phrase>),
+although we will start by examining a major marketing advantage that
+open source products enjoy over proprietary products, and that open
+source businesses should promote as often as possible: the lack of
+vendor lock-in.</para>
 
 <!-- ======================== subsection ============================== -->
 <sect2 id="lock-in-vs-freedom">
@@ -1838,51 +1905,10 @@ accurate crediting, of course.  See
 </sect2>
 
 <!-- ======================== subsection ============================== -->
-<sect2 id="competing-products">
-<title>Don't Bash Competing Open Source Products</title>
-
-<para>Refrain from giving negative opinions about competing open
-source software.  It's perfectly okay to give negative
-<emphasis>facts</emphasis>&mdash;that is, easily confirmable
-assertions of the sort often seen in good comparison charts.  But
-negative characterizations of a less rigorous nature are best avoided,
-for two reasons.  First, they are liable to start flame wars that
-detract from productive discussion.  Second, and more importantly,
-some of the developers in <emphasis>your</emphasis> project
-may turn out to work on the competing project as well.  This is more
-likely than it at first might seem: the projects are already in the
-same domain (that's why they're in competition), and developers with
-expertise in that domain may make contributions wherever their
-expertise is applicable.  Even when there is no direct developer
-overlap, it is likely that developers on your project are at least
-acquainted with developers on related projects.  Their ability to
-maintain constructive personal ties could be hampered by
-overly negative marketing messages.</para>
-
-<para>Bashing competing closed-source products seems to be more widely
-accepted in the open source world, especially when those products are
-made by Microsoft.  Personally, I deplore this tendency (though again,
-there's nothing wrong with straightforward factual comparisons), not
-merely because it's rude, but also because it's dangerous for a
-project to start believing its own hype and thereby ignore the ways in
-which the competition may actually be superior.  In general, watch out
-for the effect that marketing statements can have on your own
-development community.  People may be so excited at being backed by
-marketing dollars that they lose objectivity about their software's
-true strengths and weaknesses.  It is normal, and even expected, for a
-company's developers to exhibit a certain detachment toward marketing
-statements, even in public forums.  Clearly, they should not come out
-and contradict the marketing message directly (unless it's actually
-wrong, though one hopes that sort of thing would have been caught
-earlier).  But they may poke fun at it from time to time, as a way of
-bringing the rest of the development community back down to
-earth.</para>
-
-</sect2>
-
-<!-- ======================== subsection ============================== -->
-<sect2 id="competing-developers">
-<title>Don't Bash Competing Vendors' Developers</title>
+<sect2 id="competing-efforts">
+<!-- For link compatibility with an older ID. -->
+<anchor id="competing-developers" />
+<title>Don't Bash Competing Vendors' Efforts</title>
 
 <para>Another situation companies find themselves in, when selling
 services based on open source software, is that they have competitors
@@ -1894,13 +1920,17 @@ will need to compare your company against others selling the same or
 similar things.  This is expected, and in many ways healthy.  However,
 be careful to avoid straying into public criticism of the other
 development teams or even, to a degree, of their development
-priorities.  Your own developers have to work directly with those
-competitors' developers in the open source project, and they often
-have friendly relations, show up at the same conferences, etc.  Even
-if that's not the case today, it may be tomorrow.  Furthermore, you
-may find yourself <emphasis>hiring</emphasis> developers from your
-competitors; if you burn up available goodwill in advance, you may not
-get the best candidates.</para>
+priorities.</para>
+
+<para>Your own developers have to work directly with those
+competitors' developers in the open source project.  They often have
+friendly relations, show up at the same conferences, etc.  Even if
+that's not the case today, it may be tomorrow (as discussed in <xref
+linkend="competing-products"/><phrase output="printed"> in <xref
+linkend="communications"/></phrase>).  Furthermore, you may find
+yourself <emphasis>hiring</emphasis> developers from your competitors;
+if you burn up available goodwill in advance, you may not get the best
+candidates.</para>
 
 <para>Without mentioning names, in part because the situation
 eventually got better and I don't want to rekindle the flames now, I
@@ -1941,27 +1971,29 @@ non-copyleft license, of course, and is discussed in more detail in
 developers, but it has been successful strictly from a business point
 of view: companies that do it make money in the way that they expect
 to make money.  However, there is bit of marketing slippage that many
-of these companies fall into, and I would like to point it out here so
-I can try to convince you not to be part of the problem.</para>
+of these companies fall into, and I would like to point it out here to
+convince you not to be part of the problem.</para>
 
 <para>If you sell a free software version and an enhanced proprietary
 version of your product, please use the words "open source" and
 "proprietary" to refer to them, respectively.  Do
 <emphasis>not</emphasis> call the open source version the "Community
 Edition" and the proprietary version the "Commercial Edition" (or
-"Enterprise Edition").  Aside from the fact that everyone knows there
-is very little "community" around these so-called "Community
-Editions", there is a deeper problem here.  Calling the proprietary
-version the "Commercial Edition" implies that open source software is
-not commercial, which is completely untrue; calling it the "Enterprise
-Edition" implies that open source software is not suitable for
-enterprise-level use.  The former is untrue because open source
-software is commercial by definition: the license guarantees the
-freedom to use the software for any commercial purpose.  (Open source
-is <emphasis>anti-monopoly</emphasis>, of course, but that's separate
-from commerciality.)  The latter is demonstrably untrue: open source
-is widely used at enterprise scale, with and without third-party
-support.</para>
+"Enterprise Edition").</para>
+
+<para>Aside from the fact that everyone knows there is very little
+"community" around these so-called "Community Editions", there is a
+deeper problem here.  Calling the proprietary version the "Commercial
+Edition" implies that open source software is not commercial, and
+calling it the "Enterprise Edition" implies that open source software
+is not suitable for enterprise-level use.  The former is untrue
+because open source software is commercial by definition: the license
+guarantees the freedom to use the software for any commercial purpose.
+(Open source is <emphasis>anti-monopoly</emphasis>, of course, but
+that's separate from commerciality.)  The latter is also usually
+untrue: open source software in general is widely used at enterprise
+scale, with and without third-party support, and chances are an
+enterprise could use your open source edition too.</para>
 
 <para>This kind of misleading marketing particularly hurts efforts
 by open source companies to get their software accepted by governments
@@ -2216,7 +2248,7 @@ commercial outfit that automatically assumes a place at the top of
 the hierarchy to sell gold-label support (e.g., as Oracle or Microsoft
 themselves would be, in the example just given).</para>
 
-<para>Ideally, the goal of fostering independent pools of expertise
+<para>The goal of fostering independent pools of expertise
 should even affect how you structure contracts to develop the software
 in the first place.  If you hire a firm to develop new open source
 software, have a few of your own programmers working alongside them if
@@ -2236,7 +2268,7 @@ your contractor, or at least to perform knowledgeable review, then I
 strongly recommend finding a third-party to provide
 <emphasis>independent</emphasis> deployability and maintainability
 review while the project is under way, as described in
-<xref linkend="independent-review"/>.</para>
+<xref linkend="osivv"/>.</para>
 
 <sect3 id="talk-to-relevant-communities-early">
 <title>Establish Contact Early With Relevant Communities</title>

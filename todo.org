@@ -11,7 +11,7 @@ that may be actionable some day but that I don't consider to be "todo"
 items right now.
 
 * Andy Oram comments
-** Chapter 5 (Andy Oram)
+** TODO Chapter 5 (Andy Oram)
    Lots more comments on this chapter than usual, including a
    suggested name change and some reorganization.
 
@@ -29,6 +29,11 @@ items right now.
    section about it; Crowdfunding and Bounties. Perhaps there's another
    chapter that could go in.)
    
+   [Made the title change.  I kept the disclaimer about fund-raising,
+   though, because so many people think this book is going to explain
+   that that I feel it's necessary to put a notice, in the place
+   they're most likely to look, that it's not going to do that.  -K]
+
    I think that most of the chapter could stay together with the new
    title I suggested. A few other changes would follow:
    
@@ -39,32 +44,62 @@ items right now.
      conferences might go elsewhere. Marketing is also a topic that goes
      beyond the question of who pays.
    
+     [I don't know... I re-read it in context, and while there is a
+     certain slightly-random quality to its placement, it fits well
+     enough and I can't think of anywhere more appropriate to put this
+     stuff.  I did add one more item, about donating security audits,
+     and perhaps the presence of another item in the list will help
+     justify the list more.  -K]
+
    * Don't Bash Competing Open Source Products and Don't Bash Competing
      Vendor's Developers look like communications issues, not business
      issues. They could go in the communicatiosn chapter. Of course, I
      just recommended that you bash the BSD projects...
    
+     [ :-)  I moved the former to Chapter 6, but kept the latter here
+     (albeit renamed), because the latter is more about corporate
+     commercial behavior than about developer communications.   -K]
+
    * Foster Pools of Expertise in Multiple Places seems like a topic for
      another chapter too. (I'm not sure which one, maybe Chapter 4.)
    
+     [Hmm, no, I think this really is about organizations and how they
+     interact with open source projects, and therefore belongs here.
+     It's not about fostering multiple sources of expertise *within* the
+     project; it's about fostering multiple sources of expertise to
+     provide support for a user of the project.  -K]
+
    * Establish contact early with relevant communities: looks like a
      Chapter 4 topic.
    
+     [There's a stronger case here for moving it, but I still think it
+     belongs here more than in Chapter 4.  Again, this is primarily
+     about how a centralized organization should use its resources to
+     make an open source project succeed.  -K]
+
    Now, on to comments about specific sections:
    
    Augmenting services (page 84): there may be a better term for this
    item. It's more like "Ensuring maintenance of infrastructure" because
    the open source project is infrastructure for the company.
    
+   [Agreed; fixed.  -K]
+
    Donations (page 85): this should not be here, because it's not a
    motivation for supporting an open source project.
    
+   [Yeah, weird, why did I even have it there?  I've just removed it.  -K]
+
    "In addition to..." (page 86): I think you intended this paragraph to
    be broken into a list, and for some reason the formatting didn't
    happen. It should be a variable list.
    
+   [Yup, good call.  Done.  -K]
+
    "disclaimer" (page 90): Again, this is a disclosure.
    
+   [Fixed again, thanks.  -K]
+
    Benevolent Dictator (page 91): I like your point in this paragraph,
    but I suspect it's rarely followed. My impression is that if a company
    starts a free software project or takes control of the funding for
@@ -74,6 +109,9 @@ items right now.
    opposite--they try to milk a project for good PR without really
    participating.)
    
+   [I've tweaked the conclusion of the paragraph to bend it in the
+   direction of your point slightly.  -K]
+
    "Will other developer resent..." (page 92): I think there may be
    another issue to consider (although this section is already rather
    long): not so much resentment as confusion about what types of
@@ -85,13 +123,20 @@ items right now.
    who work for free may wonder whether they could get the company to pay
    for their work.
    
+   [Usually companies do state this, and hopefully the reader will
+   remember the advice from "Be Open About Your Motivations"   -K]
+
    "Update Your RFI..." (pages 93-94): I can tell that each of the points
    in your list is based on real abuses that companies carried out in
    government work. That might be worth mentioning.
    
+   [Done, thanks.  -K]
+
    Dirk Reiners quote: Could you ask him what he means by "His case was
    even better"? What "case" is this? Better than what?
    
+   [  -K]
+
    Total cost of ownership (page 101): Another point is that the costs of
    proprietary software tend to outstrip open source if you look ahead
    long enough. I remember how the city of Munich did a TCO analysis that
@@ -102,6 +147,8 @@ items right now.
    is also relevant to the item "Open source is cheaper" on page 105, so
    I'm not sure whether it's worth including in one place or the other.)
    
+   [  -K]
+
    Dispel Myths Within Your Organization (pages 104 ff.): Perhaps divide
    these into unfairly positive myths and unfairly negative myths. Then
    people can anticipate what you're criticizing. Here is three other
@@ -109,17 +156,23 @@ items right now.
    users can peruse the code. 2) All bugs are shallow. 3) We can casually
    copy open source code into our code.
    
+   [  -K]
+
    Foster Pools of Expertise in Multiple Places, page 106: Is it worth
    talking here about certifications, such as LPI? I don't know what you
    think of them. Most American programmers (at least in open source)
    scoff at certifications, but they're a big deal in Japan, Brazil, and
    some other places.
    
+   [  -K]
+
    Don't Let Publicity Events Drive Project Schedule (pages 107-108): the
    last paragraph discourages companies from forcing communities into
    pre-planned schedules. But several successful projects, notably
    Ubuntu, do that. I think this paragraph may be overly idealistic.
    
+   [  -K]
+
    The Key Role of Middle Management (page 108): It might be worth
    explaining the typical relationship between a manager and an open
    source project. Perhaps a manager has a one-to-one relatioship with a
@@ -132,6 +185,8 @@ items right now.
    difficult and takes a lot sensitivity on the part of both the managers
    and the programmers.
    
+   [  -K]
+
    Innersourcing (pages 109-110): Although we agree that this is a timely
    topic that should be in the book, it sticks out as unrelated to the
    rest of the chapter. The chapter is about business, but that doesn't
@@ -141,6 +196,8 @@ items right now.
    the way to open sourcing, or as a follow-up to doing open source
    projects that train the company in open source processes.
    
+   [  -K]
+
    Hiring Open Source Developers (page 110): In the Huawei report, you
    ramped up very nicely by discussing why a company would want to hire
    developers with a particular expertise, and then how to do it. A
@@ -148,9 +205,13 @@ items right now.
    an open source community would be helpful--although you also discuss
    hiring new programmers to join the community.
    
+   [  -K]
+
    Evaluating Open Source Projects (page 110): You might mention the term
    "project maturity," which appeared in a companion book to yours: Open
    Source for Businesses.
+
+   [  -K]
 * Web site and build infrastructure
 ** BUG: DocBook->PDF via FOP continually breaks, totally unmaintainable.
    Wow, I'm so tired of this.  In theory, DocBook is convertible to PDF.

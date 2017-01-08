@@ -1043,9 +1043,59 @@ their understanding of what transpired.</para>
 
 </sect2>
 
+<!-- ======================== subsection ============================== -->
+<sect2 id="competing-products">
+<title>Don't Bash Competing Open Source Products</title>
+
+<para>Refrain from giving negative opinions about competing open
+source software.  It's perfectly okay to give negative
+<emphasis>facts</emphasis>&mdash;that is, easily confirmable
+assertions of the sort often seen in good comparison charts.  But
+negative characterizations of a less rigorous nature are best avoided,
+for two reasons.  First, they are liable to start flame wars that
+detract from productive discussion.  Second, and more importantly,
+some of the developers in <emphasis>your</emphasis> project
+may turn out to work on the competing project as well, or developers
+from the other project may be considering contributing in yours.</para>
+
+<para>This kind of crossover is more likely than it at first might
+seem.  The projects are already in the same domain (that's why they're
+in competition), and developers with expertise in a domain tend to
+make contributions wherever their expertise is applicable.  Even when
+there is no direct developer overlap, it is likely that developers on
+your project are at least acquainted with developers on related
+projects.  Their ability to maintain constructive personal ties could
+be hampered by overly negative marketing messages.</para>
+
+<para>Bashing competing closed-source products seems to be more widely
+accepted in the open source world, especially when those products are
+made by Microsoft.  Personally, I deplore this tendency (though again,
+there's nothing wrong with straightforward factual comparisons), not
+merely because it's rude, but also because it's dangerous for a
+project to start believing its own hype and thereby ignore the ways in
+which the competition may actually be superior.  In general, watch out
+for the effect that marketing statements can have on your own
+development community.  People may be so excited at being backed by
+marketing dollars that they lose objectivity about their software's
+true strengths and weaknesses.  It is normal, and even expected, for a
+company's developers to exhibit a certain detachment toward marketing
+statements, even in public forums.  Clearly, they should not come out
+and contradict the marketing message directly (unless it's actually
+wrong, though one hopes that sort of thing would have been caught
+earlier).  But they may poke fun at it from time to time, as a way of
+bringing the rest of the development community back down to
+earth.</para>
+
+<para>See also the related advice in <xref
+linkend="competing-developers"/><phrase output="printed"> in <xref
+linkend="money"/></phrase>.</para>
+
+</sect2>
+
 </sect1>
 
-<!-- ======================== SECTION ============================== -->
+<!-- ======================== SECTION ==============================
+     -->
 <sect1 id="difficult-people">
 <title>Difficult People</title>
 
