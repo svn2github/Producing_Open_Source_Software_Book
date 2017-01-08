@@ -135,7 +135,8 @@ items right now.
    Dirk Reiners quote: Could you ask him what he means by "His case was
    even better"? What "case" is this? Better than what?
    
-   [  -K]
+   [I removed that second paragraph from the quote; it wasn't
+   necessary anyway. -K]
 
    Total cost of ownership (page 101): Another point is that the costs of
    proprietary software tend to outstrip open source if you look ahead
@@ -147,7 +148,7 @@ items right now.
    is also relevant to the item "Open source is cheaper" on page 105, so
    I'm not sure whether it's worth including in one place or the other.)
    
-   [  -K]
+   [Added that point in.  Thank you.  -K]
 
    Dispel Myths Within Your Organization (pages 104 ff.): Perhaps divide
    these into unfairly positive myths and unfairly negative myths. Then
@@ -156,7 +157,7 @@ items right now.
    users can peruse the code. 2) All bugs are shallow. 3) We can casually
    copy open source code into our code.
    
-   [  -K]
+   [Good ideas all -- done.   -K]
 
    Foster Pools of Expertise in Multiple Places, page 106: Is it worth
    talking here about certifications, such as LPI? I don't know what you
@@ -164,14 +165,17 @@ items right now.
    scoff at certifications, but they're a big deal in Japan, Brazil, and
    some other places.
    
-   [  -K]
+   [I don't think I know enough about them to talk usefull about them.
+   -K]
 
    Don't Let Publicity Events Drive Project Schedule (pages 107-108): the
    last paragraph discourages companies from forcing communities into
    pre-planned schedules. But several successful projects, notably
    Ubuntu, do that. I think this paragraph may be overly idealistic.
    
-   [  -K]
+   [This is really an example of everyone -- Canonical and the Ubuntu
+   community -- being on board with time-based releases.  I've
+   adjusted the text to mention this exception.  -K]
 
    The Key Role of Middle Management (page 108): It might be worth
    explaining the typical relationship between a manager and an open

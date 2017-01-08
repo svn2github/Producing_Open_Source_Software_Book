@@ -1561,11 +1561,6 @@ remember the problems, but he had gotten past them so he knew how to
 describe them. That allowed him to write something that needed only 
 minor fixes by the core developers for the things that he hadn't gotten 
 right, but still covering the 'obvious' stuff devs would have missed.</para>
-
-<para>His case was even better, as it had been his job to introduce a bunch of 
-other people (students) to the system, so he combined the experience of 
-many people, which is something that was just a lucky occurrence and is 
-probably hard to get in most cases.</para>
 </blockquote>
 
 <sect3 id="fund-usability">
@@ -1787,12 +1782,17 @@ zero&nbsp;&mdash;&nbsp;no per-copy royalties, no per-seat license
 fees&nbsp;&mdash;&nbsp;by pointing out, reasonably enough, that
 although there may be no licensing fees, in practice software
 integration involves organizational and technical costs that can be
-quite significant.  This is quite true, as far as it goes.  What they
-don't say is that this argument works against them as much as it works
-for them: to the extent that there <emphasis>are</emphasis> such
-costs&nbsp;&mdash;&nbsp;and there really are&nbsp;&mdash;&nbsp;the
-danger to the customer of vendor lock-in is directly proportional to
-them.  I would love to see open source sales representatives talk more
+quite significant.  This is quite true, as far as it goes, but that
+argument works the other way too: to the extent that there
+<emphasis>are</emphasis> such costs&nbsp;&mdash;&nbsp;and there really
+are&nbsp;&mdash;&nbsp;the danger to the customer of vendor lock-in is
+directly proportional to them.  Another way of saying it is that the
+costs of proprietary software tend to outstrip the costs of open
+source over a long enough period of time.  One pays a premium for
+decreasingly competitive vendor selection, both in money and in loss
+of flexibility and options.</para>
+
+<para>I would love to see open source sales representatives talk more
 about the "<emphasis>cost of total ownership</emphasis>", that is, how
 much does it cost a company to be totally owned by its software
 vendors?  With open source, customers are not
@@ -2051,7 +2051,8 @@ used open source in the past without ensuring proper support channels,
 and since that was their first experience in an unfamiliar territory,
 the entire territory is now tainted.</para>
 
-<para>Here are some of the myths I've encountered most frequently:</para>
+<para>Below are some of the myths I've encountered most frequently.
+First, the negative myths:</para>
 
 <variablelist>
 
@@ -2063,10 +2064,10 @@ the entire territory is now tainted.</para>
      decision-makers who have limited technical
      experience&nbsp;&mdash;&nbsp;don't understand the difference
      between an upstream codebase allowing anyone to copy the code and
-     modify their own copies, and someone modifying the
+     modify the resultant copies, and someone modifying the
      <emphasis>particular instance that you deploy</emphasis>.  The
      former is just the definition of open
-     source, of course; the latter would be a security vulnerability
+     source, of course.  The latter would be a security vulnerability,
      if it happened, but it has nothing to do with the license on the
      code.  I mention this myth merely to prepare you for encountering
      it, because otherwise you might not expect that anyone could hold
@@ -2076,9 +2077,9 @@ the entire territory is now tainted.</para>
    </varlistentry>
 
    <varlistentry><term><emphasis>Open source software is insecure,
-   because anyone can change the code.</emphasis></term>
+   because anyone can see the code / change the code.</emphasis></term>
      <listitem>
-     <para>This is so easy to answer that I won't give a detailed
+     <para>These are so easy to answer that I won't give a detailed
      refutation here; again, I merely note it so you can be prepared
      for it.  If you find yourself having to explain why open source
      software is at least as secure as any other kind of software, if
@@ -2105,28 +2106,6 @@ the entire territory is now tainted.</para>
      to ask specifically for what packages support is desired, and
      then show some sources of support available for
      them.</para></listitem>
-   </varlistentry>
-
-   <varlistentry><term><emphasis>Open source is cheaper.</emphasis></term>
-     <listitem>
-     <para>Licensing costs are often not the largest cost with
-     proprietary software; they are often outweight by training costs,
-     installation and configuration costs, and other factors that make
-     up the "total cost of ownership".  But all of those other costs
-     are, on average, the same for open source software.  Don't make
-     the mistake of pitching your organization on open source software
-     on the grounds that it is cheaper.  At least in terms of the most
-     easily quantified costs, it is not.  It is often cheaper in the
-     long run, because it frees your organization from proprietary
-     vendor lock-in (see <xref linkend="lock-in-vs-freedom"/>),
-     reduces training costs for new employees (because
-     they arrive already familiar with the software), gives you
-     greater ability to customize software to your needs, etc.  But
-     these are long-term benefits, and they may not show up directly
-     on a balance sheet unless you take steps to make your accounting
-     reveal them.  In the short term, open source generally isn't
-     cheaper than proprietary software, and shouldn't be pitched that
-     way.</para></listitem>
    </varlistentry>
 
    <varlistentry><term><emphasis>If we open source this project, we'll
@@ -2166,6 +2145,34 @@ the entire territory is now tainted.</para>
        to explain why this belief is incorrect.</para></listitem>
    </varlistentry>
 
+</variablelist>
+
+<para>Next, the positive myths:</para>
+
+<variablelist>
+
+   <varlistentry><term><emphasis>Open source is cheaper.</emphasis></term>
+     <listitem>
+     <para>Licensing costs are often not the largest cost with
+     proprietary software; they are often outweight by training costs,
+     installation and configuration costs, and other factors that make
+     up the "total cost of ownership".  But all of those other costs
+     are, on average, the same for open source software.  Don't make
+     the mistake of pitching your organization on open source software
+     on the grounds that it is cheaper.  At least in terms of the most
+     easily quantified costs, it is not.  It is often cheaper in the
+     long run, because it frees your organization from proprietary
+     vendor lock-in (see <xref linkend="lock-in-vs-freedom"/>),
+     reduces training costs for new employees (because
+     they arrive already familiar with the software), gives you
+     greater ability to customize software to your needs, etc.  But
+     these are long-term benefits, and they may not show up directly
+     on a balance sheet unless you take steps to make your accounting
+     reveal them.  In the short term, open source generally isn't
+     cheaper than proprietary software, and shouldn't be pitched that
+     way.</para></listitem>
+   </varlistentry>
+
    <varlistentry><term><emphasis>Developers will devote attention to
    this code just because we released it.</emphasis></term>
      <listitem>
@@ -2194,7 +2201,7 @@ the entire territory is now tainted.</para>
      developer attention you attract right away.</para></listitem>
    </varlistentry>
 
-   <varlistentry><term><emphasis>Other companies / cities / whatever
+   <varlistentry><term><emphasis>Other companies / cities / whoever
    will pick up this software and start using it right
    away.</emphasis></term>
      <listitem>
@@ -2217,11 +2224,40 @@ the entire territory is now tainted.</para>
      made.</para></listitem>
    </varlistentry>
 
+   <varlistentry><term><emphasis>We can casually copy open source code
+   into our own code.</emphasis></term>
+     <listitem>
+     <para>Open source licenses are still licenses, and they come with
+     a few conditions.  Virtually all of them require attribution at
+     the source level and inclusion of the license together with the
+     covered code.  Some licenses, especially the copyleft licenses
+     discussed in <xref linkend="license-aspects"/><phrase
+     output="printed"> in <xref linkend="legal"/></phrase>, cause the
+     entire derivative work to be under the same open source license
+     thus implying redistribution obligations that you may not want.
+     Some have patent clauses that can affect your company in complex
+     ways.<footnote><para>I am strongly opposed to software patents of
+     any kind, for the reasons given in <xref
+     linkend="patents"/><phrase output="printed"> in <xref
+     linkend="legal"/></phrase>, but if you are a patent holder I
+     would still like you to be least be aware of the possible patent
+     consequences of incorporating open code into your
+     programs.</para></footnote>  For all these reasons,
+     incorporating open source code into software that will be
+     distributed under a different license&nbsp;&mdash;&nbsp;whether
+     open source or proprietary&nbsp;&mdash;&nbsp;cannot be done
+     casually.  Organizations that incorporate open source code into
+     their products usually need a formal process for doing so, one
+     that involves review by someone who understands the legal issues
+     and the possible interactions between licenses.</para></listitem>
+   </varlistentry>
+
 </variablelist>
 
 </sect2>
 
-<!-- ========================== subsection =========================== -->
+<!-- ========================== subsection ===========================
+     -->
 <sect2 id="foster-expertise-diversity">
 <title>Foster Pools of Expertise in Multiple Places</title>
 
@@ -2322,7 +2358,7 @@ community.</para>
 
 <para>This is just one example illustrating the general principle that
 if you have publicity needs related to an open source project, you
-shouldn't let those needs drive the project's schedule.  If you
+generally shouldn't let those needs drive the project's schedule.  If you
 arrange a press conference for the project reaching 1.0 and being
 deployed live, but then the developers decide on an extra two weeks of
 testing because of some last-minute bugs, you'll have some improvising
@@ -2343,20 +2379,29 @@ etc.</para>
 development community into the scheduling process, so that through
 consensus you are able schedule certain milestones accurately enough
 to tie timed publicity to them.  While that may sound like a good
-idea, in practice it rarely works.  An open source development
-community's first priority is the software itself, and making sure it
-meets the needs its participants are working toward.  Of course the
-community wants releases and other deadlines to be met with reasonable
-regularity, and every development community makes tradeoffs for that.
-But even with the best of intentions among all
-parties, you can never guarantee how that tradeoff will be decided in
-a particular case, when things get down to the wire.  The outcome of a
-community's decision-making process cannot be anticipated with perfect
-accuracy, by definition&nbsp;&mdash;&nbsp;if it could, there would be
-no need for a decision-making process.  So while it's fine to try to
-influence the community's priorities in ways that work to your
-advantage, you should avoid relying on that for scheduling purposes,
-because you won't succeed at it every time.</para>
+idea, in practice it rarely works.  An exception to this is if the
+whole project is on board with doing time-based releases, as described
+in <xref linkend="time-based-vs-feature-based"/><phrase output="printed" > in <xref
+linkend="development-cycle" /></phrase>.  If the development community
+as a whole shares that goal, then they will make the sacrifices
+necessary to keep to the time-based cycle&nbsp;&mdash;&nbsp;but your
+organization must also be willing to abide by that schedule, even if
+it doesn't always align with business needs.</para>
+
+<para>An open source development community's first priority is the
+software itself, and making sure it meets the needs its participants
+are working toward.  Of course the community wants releases and other
+deadlines to be met with reasonable regularity, and every development
+community makes tradeoffs for that.  But even with the best of
+intentions among all parties, you can never guarantee how that
+tradeoff will be decided in a particular case, when things get down to
+the wire.  The outcome of a community's decision-making process cannot
+be anticipated with perfect accuracy, by
+definition&nbsp;&mdash;&nbsp;if it could, there would be no need for a
+decision-making process.  So while it's fine to try to influence the
+community's priorities in ways that work to your advantage, you should
+avoid relying on that for scheduling purposes, because you won't
+succeed at it every time.</para>
 
 </sect2>
 
