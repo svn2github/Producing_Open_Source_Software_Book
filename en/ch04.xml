@@ -503,14 +503,18 @@ community's dynamics) that exceeds that of many committers.</para>
 <para>If valuable members of your community are being left out of
 important decisions because they happen not be contributing code,
 consider expanding the notion of <emphasis>committer</emphasis> out to
-the larger notion of <firstterm>maintainer</firstterm>.  For the rest
-of this section, I'll use that term.  In projects where commit access
-and maintainership are synonymous, then it just means the same thing
-as "committer", but in other projects it might mean more than that.
-The procedures for adding new maintainers should be the same either
-way; it doesn't matter if they write code or
-not&nbsp;&mdash;&nbsp;what matters is their good judgement and the
-trust of their peers in the project.</para>
+the larger notion of
+<firstterm>maintainer</firstterm><footnote><para>Some projects call
+this "member", which is also fine.  There isn't a set term for it.  I
+prefer "maintainer" because it implies responsibility to the project,
+rather than belonging to a club.</para></footnote>.  For the rest of
+this section, I'll use that term.  In projects where commit access and
+maintainership are synonymous, then it just means the same thing as
+"committer", but in other projects it might mean more than that.  The
+procedures for adding new maintainers should be the same either way;
+it doesn't matter if they write code or not&nbsp;&mdash;&nbsp;what
+matters is their good judgement and the trust of their peers in the
+project.</para>
 
 </sect3>
 
