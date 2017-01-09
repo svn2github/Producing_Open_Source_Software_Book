@@ -1,12 +1,14 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version='1.0'>
 
   <xsl:import href="xsl/html/chunk.xsl"/>
+  <xsl:import href="xsl/html/profile-chunk.xsl"/>
 
   <xsl:param name="use.id.as.filename">1</xsl:param>
 
   <xsl:param name="html.stylesheet">styles.css</xsl:param>
   <xsl:param name="toc.section.depth">3</xsl:param>
   <xsl:param name="annotate.toc">0</xsl:param>
+  <xsl:param name="profile.condition">none</xsl:param>
 
   <xsl:template match="sect1" mode="toc">
     <xsl:param name="toc-context" select="."/>

@@ -85,7 +85,7 @@ and people skills.  The technical skills are essential because
 information management software always requires configuration, plus a
 certain amount of ongoing maintenance and tweaking as new needs arise
 (for example, see the discussion of how to handle project growth in
-<xref linkend="bug-filtering"/><phrase output="printed"> later in
+<xref linkend="bug-filtering"/><phrase condition="treeware"> later in
 this chapter</phrase>).  The people skills are necessary
 because the human community also requires maintenance: it's not always
 immediately obvious how to use these tools to full advantage, and in
@@ -192,7 +192,7 @@ configuring many of these tools by using a <firstterm>canned
 hosting</firstterm> site: an online service that offers prepackaged,
 templatized web services with some or all of the collaboration tools
 needed to run a free software project.  See
-<xref linkend="canned-hosting"/><phrase output="printed"> later
+<xref linkend="canned-hosting"/><phrase condition="treeware"> later
 in this chapter</phrase> for a discussion of the advantages and
 disadvantages of canned hosting.</para>
 
@@ -328,7 +328,7 @@ Certain project web pages may be generated files&nbsp;&mdash;&nbsp;for example,
 there are systems for keeping FAQ data in an easy-to-edit master
 format, from which HTML, PDF, and other presentation formats can be
 generated.  As explained in
-<xref linkend="version-everything"/><phrase output="printed">
+<xref linkend="version-everything"/><phrase condition="treeware">
 earlier in this chapter</phrase>,
 you wouldn't want to version the generated formats, only the master
 file.  But when your web site is hosted on someone else's server, it
@@ -682,7 +682,7 @@ features:</para>
     <listitem>
       <para>All posts to the managed lists are stored and made
             available on the web (see <xref
-            linkend="using-archives"/><phrase output="printed"> in
+            linkend="using-archives"/><phrase condition="treeware"> in
             <xref linkend="communications"/></phrase> for more on the
             importance of public archives).  Usually the archiver is a
             native part of the message forum system; occasionally, it
@@ -756,7 +756,7 @@ tandem:</para>
             your mailing list software's documentation for that (see
             <xref
             linkend="message-forum-software"/><phrase
-            output="printed"> later in this chapter</phrase>).  List
+            condition="treeware"> later in this chapter</phrase>).  List
             software often comes with some built-in spam prevention
             features, but you may want to add some third-party
             filters.  I've had good experiences with SpamAssassin
@@ -822,7 +822,7 @@ community of an accurate picture of what sorts of questions people are
 asking, and deprive people of a chance to answer questions themselves
 and/or see answers from others.  (This is really just another instance
 of the advice in <xref linkend="avoid-private-discussions"/><phrase
-output="printed"> in <xref linkend="getting-started"/></phrase>.)
+condition="treeware"> in <xref linkend="getting-started"/></phrase>.)
 Mailing list moderation is strictly about keeping the list free of
 spam, and of wildly off-topic or otherwise inappropriate emails,
 nothing more.</para>
@@ -1126,7 +1126,7 @@ all users, and therefore you just made the best decision you
 could.  Politely ask that the subject not be revisited unless someone
 has something genuinely new to say, then stay out of the thread and
 hope it dies a natural death.  (See also <xref
-linkend="holy-wars"/><phrase output="printed"> in <xref
+linkend="holy-wars"/><phrase condition="treeware"> in <xref
 linkend="communications"/></phrase>.)</para>
 
 <para>Someone may suggest a vote to choose one way or the other.  You
@@ -1257,7 +1257,7 @@ these properties:</para>
             mailing list posts and threads are often linked to from
             the bug tracker (see
             <xref
-            linkend="bug-tracker"/><phrase output="printed">
+            linkend="bug-tracker"/><phrase condition="treeware">
             later in this chapter</phrase>) or
             from other project documents.</para>
 
@@ -1532,7 +1532,7 @@ discussion can often be helpful.</para>
   bugfixes, features and project progress.  Later in this section,
   we'll look at ways to distribute them to the appropriate audiences;
   also, <xref linkend="codifying-tradition"/><phrase
-  output="printed"> in <xref linkend="communications"/></phrase>
+  condition="treeware"> in <xref linkend="communications"/></phrase>
   discusses ways to encourage contributors to write concise and useful
   commit messages.</para></listitem>
  </varlistentry>
@@ -1671,7 +1671,7 @@ discussion can often be helpful.</para>
   repository; meanwhile, on the release branch, no changes are allowed
   except those approved by the release managers.  This way, making a
   release needn't interfere with ongoing development work.  See <xref
-  linkend="branches"/><phrase output="printed"> later in this
+  linkend="branches"/><phrase condition="treeware"> later in this
   chapter</phrase> for a more detailed discussion of
   branching.</para></listitem>
  </varlistentry>
@@ -1913,7 +1913,7 @@ feeling like they're interfering with others' work.  Equally
 importantly, there are times when code needs to be isolated from the
 usual development churn, in order to get a bug fixed or a release
 stabilized (see <xref linkend="stabilizing-a-release"/> and
-<xref linkend="release-lines"/><phrase output="printed"> in
+<xref linkend="release-lines"/><phrase condition="treeware"> in
 <xref linkend="development-cycle"/></phrase>) without worrying
 about tracking a moving target.  At the same time, people need to be
 able to review and comment on experimental work, whether it's
@@ -1993,7 +1993,7 @@ at their company, it needs to be as easy as possible.</para>
 <para>See also
 <xref
 linkend="releases-and-daily-development"/><phrase
-output="printed"> in
+condition="treeware"> in
 <xref linkend="development-cycle"/></phrase>.</para>
 
 </sect3>
@@ -2012,7 +2012,7 @@ harmful.</para>
 granted commit access, even for a sub-area of the project, what they
 actually receive is the physical ability to commit anywhere in the
 master repository.  They're just asked to keep their commits in their
-area.  (See <xref linkend="committers"/><phrase output="printed"> in
+area.  (See <xref linkend="committers"/><phrase condition="treeware"> in
 <xref linkend="managing-participants"/></phrase> for how projects
 decide who can put changes where.)</para>
 
@@ -2087,7 +2087,7 @@ qualified.  Furthermore, in many projects, full (project-wide) commit
 permission has a special corollary status: it implies voting rights on
 project-wide questions.  This political aspect of commit areas is
 discussed more in <xref linkend="electorate"/><phrase
-output="printed"> in <xref
+condition="treeware"> in <xref
 linkend="social-infrastructure"/></phrase>.</para>
 
 </sect3>
@@ -2256,7 +2256,7 @@ modify some of the default behaviors:</para>
 
   <para>Note that this advice to set Reply-to does not contradict the
   recommendations in
-  <xref linkend="reply-to"/><phrase output="printed"> earlier in
+  <xref linkend="reply-to"/><phrase condition="treeware"> earlier in
   this chapter</phrase>.  It's
   always okay for the <emphasis>sender</emphasis> of a message to set
   Reply-to.  In this case, the sender is the version control system
@@ -2319,7 +2319,7 @@ don't.)</para>
             applicable; see
             <xref
             linkend="users-to-participants"/><phrase
-            output="printed"> in
+            condition="treeware"> in
             <xref linkend="managing-participants"/></phrase> for
             how to encourage good bug reports), and whatever other
             information the tracker asks for.  The person who files
@@ -2366,7 +2366,7 @@ don't.)</para>
             a developer may "take ownership" of the ticket and
             <firstterm>assign</firstterm> it to herself (<xref
             linkend="delegation-assignment"/><phrase
-            output="printed"> in
+            condition="treeware"> in
             <xref linkend="managing-participants"/></phrase>
             examines the assignment process in more detail).  The ticket's
             <firstterm>priority</firstterm> may also be set at this
@@ -2404,14 +2404,14 @@ latter tendency.  It does no one any good, as the individual user in
 each case is not responsible for all the previous invalid tickets; the
 statistical trend is visible only from the developers' point of view,
 not the user's.  (In
-<xref linkend="bug-filtering"/><phrase output="printed"> later
+<xref linkend="bug-filtering"/><phrase condition="treeware"> later
 in this chapter,</phrase> we'll look at
 techniques for reducing the number of invalid tickets.)  Also, if
 different users are experiencing the same misunderstanding over and
 over, it might mean that aspect of the software needs to be
 redesigned.  This sort of pattern is easiest to notice when there is
 an issue manager monitoring the bug database; see
-<xref linkend="issue-manager"/><phrase output="printed"> in
+<xref linkend="issue-manager"/><phrase condition="treeware"> in
 <xref linkend="managing-participants"/></phrase>.</para>
 
 <para>Another common life event for the ticket to be closed
@@ -2441,7 +2441,7 @@ source projects use their bug trackers.</para>
 
 <para>The tracker is as much a public face of the project as the repository,
 mailing lists or web pages<footnote><para>Indeed, as <xref
-linkend="evaluating-oss-projects"/><phrase output="printed"> in <xref
+linkend="evaluating-oss-projects"/><phrase condition="treeware"> in <xref
 linkend="money"/></phrase> discusses, the bug tracker is actually the
 first place to look, even before the repository, when you're trying to
 evaluate a project's overall health.</para></footnote>.  Anyone may file a ticket, anyone may look
@@ -2476,7 +2476,7 @@ about trackers' technical features:
     can be contacted for more details.  But if possible, it should not
     <emphasis>require</emphasis> the reporter's email address or real
     identity, as some people prefer to report anonymously.  See <xref
-    linkend="anonymity"/><phrase output="printed"> later in this
+    linkend="anonymity"/><phrase condition="treeware"> later in this
     chapter</phrase> for more on the importance of anonymity.</para>
   </listitem>
   <listitem>
@@ -2529,7 +2529,7 @@ the project, since it makes it easy to integrate bug traffic into
 one's daily email flow.  But don't let this integration give
 anyone the illusion that the total collection of bug tickets and their
 email traffic is the equivalent of the development mailing list.  It's
-not, and <xref linkend="choose-the-forum"/><phrase output="printed">
+not, and <xref linkend="choose-the-forum"/><phrase condition="treeware">
 in <xref linkend="communications"/></phrase> discusses why this is
 important and how to manage the difference.</para>
 
@@ -2641,7 +2641,7 @@ routine maintenance, and to try to get as many people as possible to
 help.</para>
 
 <para>See also
-<xref linkend="issue-manager"/><phrase output="printed"> in
+<xref linkend="issue-manager"/><phrase condition="treeware"> in
 <xref linkend="managing-participants"/></phrase>.</para>
 
 </sect2>
@@ -2742,7 +2742,7 @@ the instructions.</para></footnote>.  If your project's channel gets
 too noisy, you can divide into multiple channels, for example one for
 installation problems, another for usage questions, another for
 development chat, etc (<xref linkend="growth"/><phrase
-output="printed"> in <xref linkend="communications"/></phrase>
+condition="treeware"> in <xref linkend="communications"/></phrase>
 discusses when and how to divide into multiple channels).  But when
 your project is young, there should only be one channel, with everyone
 talking together.  Later, as the user-to-developer ratio increases,
@@ -3095,7 +3095,7 @@ process of translating the software's documentation, but also its
 run-time user interface, error messages, etc into different languages,
 so that each user can interact with the software in their preferred
 language.  (See <xref linkend="translation-manager"/><phrase
-output="printed"> in <xref linkend="managing-participants"/></phrase>
+condition="treeware"> in <xref linkend="managing-participants"/></phrase>
 for more about the translation process.)</para>
 
 <para>It is not strictly necessary to use a separate translation

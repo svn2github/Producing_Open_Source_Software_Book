@@ -1625,3 +1625,22 @@ Archived entries from file /home/kfogel/src/producingoss/todo.org
   Source for Businesses.
 
   [Done, thanks.   -K]
+
+* FIXED: Why is the output="printed" conditional not working?
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-01-09 Mon 11:07
+  :ARCHIVE_FILE: ~/src/producingoss/todo.org
+  :ARCHIVE_OLPATH: Web site and build infrastructure
+  :ARCHIVE_CATEGORY: todo
+  :END:
+  For example, in Chapter 8 there is this conditional:
+ 
+    (see <xref linkend="trademarks"/><phrase output="printed">
+    in <xref linkend="legal"/></phrase>)
+   
+  and yet the HTML output produces (with links, of course) this...
+ 
+    (see the section called “Trademarks” in Chapter 10, Licenses,
+    Copyrights, and Patents),
+ 
+  ...in en/forks.html.  What's up with that?

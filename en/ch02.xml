@@ -94,7 +94,7 @@ make that transition welcoming to anyone who's interested.</para>
 </sidebar>
 
 <para>If you use a "canned hosting" site (see <xref
-linkend="canned-hosting"/><phrase output="printed"> in <xref
+linkend="canned-hosting"/><phrase condition="treeware"> in <xref
 linkend="technical-infrastructure"/></phrase>), one advantage of that
 choice is that those sites have a default layout that is similar from
 project to project and is pretty well-suited to presenting a project
@@ -130,7 +130,7 @@ url="https://directory.fsf.org/" >https://directory.fsf.org/</ulink>.</para>
 might find something so close that it makes more sense to join that
 project and add functionality than to start from scratch yourself.
 See <xref linkend="evaluating-oss-projects"/><phrase
-output="printed">, in <xref linkend="money"/></phrase> for a
+condition="treeware">, in <xref linkend="money"/></phrase> for a
 discussion of how to evaluate an existing open source project
 quickly.</para>
 
@@ -415,7 +415,7 @@ potential developers and users.  State up front, right below the
 mission statement, that the project is "free software" or "open source
 software", and give the exact license.  A quick guide to choosing a
 license is given in
-<xref linkend="license-quickstart"/><phrase output="printed">
+<xref linkend="license-quickstart"/><phrase condition="treeware">
 later in this chapter</phrase>, and
 licensing issues are discussed in detail in <xref
 linkend="legal"/>.</para>
@@ -662,7 +662,7 @@ particular release (which helps respondents to figure out if the bug
 is already fixed or not).  A detailed discussion of version
 numbering can be found in <xref linkend="release-numbering"/>, and the
 details of standardizing build and installation procedures are covered
-in <xref linkend="packaging"/><phrase output="printed">, both in <xref
+in <xref linkend="packaging"/><phrase condition="treeware">, both in <xref
 linkend="development-cycle"/></phrase>.</para>
 
 </sect2>
@@ -693,10 +693,10 @@ based on Git, a popular open source version control system, the code
 that runs GitHub's web services is not itself open source.  Whether
 this matters for your project is a complex question, and is addressed
 in more depth in <xref linkend="canned-hosting"/><phrase
-output="printed"> in <xref
+condition="treeware"> in <xref
 linkend="technical-infrastructure"/></phrase></para></footnote>.
 Version control infrastructure is discussed in detail in <xref
-linkend="vc"/><phrase output="printed"> in <xref
+linkend="vc"/><phrase condition="treeware"> in <xref
 linkend="technical-infrastructure"/></phrase>.</para>
 
 <para>The same goes for the project's bug tracker.  The importance of
@@ -738,7 +738,7 @@ represent "<ulink url="https://en.wikipedia.org/wiki/Technical_debt"
 <para>Note that bug trackers are often used to track not only software
 bugs, but enhancement requests, documentation changes, pending tasks,
 and more.  The details of running a bug tracker are covered in
-<xref linkend="bug-tracker"/><phrase output="printed"> in
+<xref linkend="bug-tracker"/><phrase condition="treeware"> in
 <xref linkend="technical-infrastructure"/></phrase>, so I won't
 go into them here.  The important thing from a presentation point of
 view is just to <emphasis>have</emphasis> a bug tracker, and to make
@@ -776,7 +776,7 @@ discussions and in getting a sense of the project's direction.</para>
    
 <para>As this chapter is only about getting a project started, it's
 enough merely to say that these communications forums need to exist.
-Later, in <xref linkend="growth"/><phrase output="printed"> in
+Later, in <xref linkend="growth"/><phrase condition="treeware"> in
 <xref linkend="communications"/></phrase>, we'll examine where
 and how to set up such forums, the ways in which they might need
 moderation or other management, and how to separate user forums from
@@ -796,7 +796,7 @@ each other and with the users, and ultimately how things get
 done.</para>
 
 <para>This topic is covered in detail in
-<xref linkend="written-rules"/><phrase output="printed"> in
+<xref linkend="written-rules"/><phrase condition="treeware"> in
 <xref linkend="social-infrastructure"/></phrase>, but the basic
 elements of developer guidelines are:
 
@@ -821,7 +821,7 @@ The important thing is that the project come right out and say so.  A
 tyranny pretending to be a democracy will turn people off; a tyranny
 that says it's a tyranny will do fine as long as the tyrant is
 competent and trusted.  (See <xref linkend="forkability"/><phrase
-output="printed"> in <xref linkend="social-infrastructure"/></phrase>
+condition="treeware"> in <xref linkend="social-infrastructure"/></phrase>
 for why dictatorship in open source projects doesn't have the same
 implications as dictatorship in other areas of life.)</para>
   
@@ -840,7 +840,7 @@ link to it.</para>
 
 <para>The separate issue of providing a programmer's introduction to
 the software is discussed in <xref
-linkend="developer-documentation"/><phrase output="printed">
+linkend="developer-documentation"/><phrase condition="treeware">
 later in this chapter</phrase>.</para>
 
 </sect2>
@@ -977,11 +977,11 @@ doing.</para>
   if the FAQ is easy to
   add to, people will add to it.  (Proper FAQ maintenance is a
   non-trivial and intriguing problem: see <xref
-  linkend="manager-is-not-owner"/><phrase output="printed" > in
+  linkend="manager-is-not-owner"/><phrase condition="treeware" > in
   <xref linkend="managing-participants"/></phrase>,
-  <xref linkend="q-and-a-forums"/><phrase output="printed" > in
+  <xref linkend="q-and-a-forums"/><phrase condition="treeware" > in
   <xref linkend="technical-infrastructure"/></phrase>, and <xref
-  linkend="all-as-archives"/><phrase output="printed" > in <xref
+  linkend="all-as-archives"/><phrase condition="treeware" > in <xref
   linkend="communications"/></phrase>.)</para>
 </sidebar>
 
@@ -991,7 +991,7 @@ doing.</para>
 <para>Documentation should be available from two places: online
 (directly from the web site), <emphasis>and</emphasis> in the
 downloadable distribution of the software (see
-<xref linkend="packaging"/><phrase output="printed"> in
+<xref linkend="packaging"/><phrase condition="treeware"> in
 <xref linkend="development-cycle"/></phrase>).  It needs to be
 online, in browsable form, because people often read documentation
 <emphasis>before</emphasis> downloading software for the first time,
@@ -1063,7 +1063,7 @@ as their primary documentation.  In my experience, this works best
 if the wiki is actively maintained by a few people who agree on how
 the documentation is to be organized and what sort of "voice" it
 should have.  See
-<xref linkend="wikis"/><phrase output="printed"> in
+<xref linkend="wikis"/><phrase condition="treeware"> in
 <xref linkend="technical-infrastructure"/></phrase> for
 more.</para>
 
@@ -1185,7 +1185,7 @@ mid-2013, is <ulink url="https://github.com/" >https://github.com/</ulink>, and
 if you don't have a strong preference about where to host, you should
 probably just choose GitHub; many developers are already familiar with
 it and have personal accounts there.  <xref
-linkend="canned-hosting"/><phrase output="printed"> in <xref
+linkend="canned-hosting"/><phrase condition="treeware"> in <xref
 linkend="technical-infrastructure"/></phrase> has a more detailed
 discussion of the questions to consider when choosing a canned hosting
 site, and an overview of the most popular ones.</para>
@@ -1224,7 +1224,7 @@ with other software.</para>
   definition of free software, and the OSI's definition of open source
   software, it becomes obvious that the two definitions delineate the
   same freedoms&nbsp;&mdash;&nbsp;not surprisingly, as <xref
-  linkend="free-vs-open-source"/><phrase output="printed"> in <xref
+  linkend="free-vs-open-source"/><phrase condition="treeware"> in <xref
   linkend="introduction"/></phrase> explains.  The inevitable, and in
   some sense deliberate, result is that the two organizations have
   approved the same set of licenses.<footnote><para>There are actually
@@ -1276,7 +1276,7 @@ widely recognized free software license in the world today.  This is
 in itself a big advantage, since many potential users and contributors
 will already be familiar with it, and therefore won't have to spend
 extra time to read and understand your license.  See <xref
-linkend="license-choosing-gpl"/><phrase output="printed"> in <xref
+linkend="license-choosing-gpl"/><phrase condition="treeware"> in <xref
 linkend="legal"/></phrase> for details.</para>
 
 <sidebar>
@@ -1286,7 +1286,7 @@ service, rather than being distributed to run client-side&nbsp;&mdash;&nbsp;then
 using the <firstterm>GNU Affero GPL</firstterm> instead.  The AGPL is
 just the GPL with one extra clause establishing network accessibility
 as a form of distribution for the purposes of the license.  See <xref
-linkend="gnu-affero-gpl"/><phrase output="printed"> in <xref
+linkend="gnu-affero-gpl"/><phrase condition="treeware"> in <xref
 linkend="legal"/></phrase> for more.</para>
 </sidebar>
 
@@ -1472,7 +1472,7 @@ ephemeral technical question was at issue:
   <para>The discussion and its conclusions will be available in public
         archives forever after, enabling future discussions to avoid
         retracing the same steps.  See
-        <xref linkend="using-archives"/><phrase output="printed">
+        <xref linkend="using-archives"/><phrase condition="treeware">
         in <xref linkend="communications"/></phrase>.</para>
   </listitem>
 </itemizedlist>
@@ -1654,13 +1654,13 @@ misused, it has the potential to create new
 problems&nbsp;&mdash;&nbsp;it's always possible to find people who
 specialize in manipulating social norms and rules to harm a community
 rather than help it (see <xref linkend="difficult-people"/><phrase
-output="printed"> in <xref linkend="communications"/></phrase>), and
+condition="treeware"> in <xref linkend="communications"/></phrase>), and
 if you're particularly unlucky some of those people may find their way
 into your project.  It is always up to the project leadership, by
 which I mean those whom others in the project tend to listen to the
 most, to enforce a code of conduct, and to see to it that a code of
 conduct is used wisely.  (See also <xref linkend="rudeness"/><phrase
-output="printed"> in <xref linkend="communications"/></phrase>.)</para>
+condition="treeware"> in <xref linkend="communications"/></phrase>.)</para>
 
 <para>Some participants may genuinely disagree with the need to adopt
 a code at all, and argue against it on the grounds that it could do
@@ -1739,7 +1739,7 @@ diffs (unless the diff is too large; see <xref
 linkend="vc-vocabulary-diff"/>, in <xref linkend="vc-vocabulary"/>).
 The review itself might take place on a mailing list, or in a review
 tool such as Gerrit or the GitHub "pull request" interface.  See <xref
-linkend="commit-notifications" /><phrase output="printed" > in <xref
+linkend="commit-notifications" /><phrase condition="treeware" > in <xref
 linkend="technical-infrastructure" /></phrase> for details.</para>
 
 <sect3 id="subversion-commit-review">
@@ -1915,7 +1915,7 @@ development.</para>
 
 <para>(These concerns apply even more strongly to government software
 projects; see <xref linkend="starting-open-for-govs" /><phrase
-output="printed" > in <xref linkend="governments-and-open-source"
+condition="treeware" > in <xref linkend="governments-and-open-source"
 /></phrase>.)</para>
 
 </sect3>
@@ -2009,7 +2009,7 @@ of perfect coders, this is unavoidable&nbsp;&mdash;&nbsp;in fact, it will probab
 happen to all of them at first.  This is not because they're bad
 programmers; it's just that any program above a certain size has bugs,
 and peer review will spot some of those bugs (see
-<xref linkend="code-review"/><phrase output="printed"> earlier
+<xref linkend="code-review"/><phrase condition="treeware"> earlier
 in this chapter</phrase>).  At the same time, the newcomers
 themselves won't be subject to much peer review at first, since they
 can't contribute code until they're more familiar with the project.
@@ -2058,7 +2058,7 @@ presentable&nbsp;&mdash;&nbsp;you're ready to announce it to the world.</para>
 
 <para>This is a simpler process than you might expect.  First, set up
 the announcement pages at your project's home site, as described in
-<xref linkend="announcing-releases"/>)<phrase output="printed"> in
+<xref linkend="announcing-releases"/>)<phrase condition="treeware"> in
 <xref linkend="communications"/></phrase>.  Then, post announcements
 in the appropriate forums.  There are two kinds of forums: generic
 forums that display many kinds of new project announcements, and
@@ -2138,7 +2138,7 @@ Thank you,
 -J. Random
 </screen>
 
-<para>(See <xref linkend="publicity"/><phrase output="printed"> in
+<para>(See <xref linkend="publicity"/><phrase condition="treeware"> in
 <xref linkend="communications"/></phrase> for advice on announcing
 subsequent releases and other project events.)</para>
 

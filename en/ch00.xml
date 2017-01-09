@@ -20,7 +20,7 @@ instead of as a commodity.</para>
 business case for open source software<footnote><para>The terms "open
 source software" and "free software" are essentially synonymous in
 this context; they are discussed more in <xref
-linkend="free-vs-open-source"/><phrase output="printed"> in <xref
+linkend="free-vs-open-source"/><phrase condition="treeware"> in <xref
 linkend="introduction"/></phrase>.</para></footnote> is no longer so
 mysterious, and even non-programmers already understand&nbsp;&mdash;&nbsp;or at
 least are not surprised&nbsp;&mdash;&nbsp;that there are people employed at it
@@ -423,6 +423,12 @@ proposed doing a print run of the new edition for their event at the
 University of Illinois at Urbana-Champaign, Illinois in February 2017.
 I appreciate the vote of confidence in the book, and hope the
 HackIllinois attendees will be pleased with the results.</para>
+
+<para>Camille Bégnis of <ulink url="http://www.neodoc.biz/"
+>http://neodoc.biz/</ulink> provided expert DocBook help in real time
+one day, solving a long-standing technical problem in the online
+version of the book that I'd been unable to fix for years.  Merci
+beaucoup, Camille.</para>
 
 <para>The hardest part of these acknowledgements is realizing there
 will never be enough space to do justice to all the knowledge people

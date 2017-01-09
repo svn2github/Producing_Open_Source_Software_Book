@@ -255,7 +255,7 @@ will result from several, or even all, of these motivations:</para>
      customers who want to resell it as part of a proprietary
      application of their own, and simultaneously under a free license
      for those willing to use it under open source terms (see <xref
-     linkend="proprietary-relicensing"/><phrase output="printed"> in <xref
+     linkend="proprietary-relicensing"/><phrase condition="treeware"> in <xref
      linkend="legal"/></phrase>).  If the open source developer
      community is active, the software gets the benefits of wide-area
      debugging and development, yet the company still gets a royalty
@@ -441,7 +441,7 @@ that I have given it its own subsection below.</para>
 Government Projects</title>
 
 <para>In <xref linkend="be-open-from-day-one" /><phrase
-output="printed" > in <xref linkend="getting-started" /></phrase>, I
+condition="treeware" > in <xref linkend="getting-started" /></phrase>, I
 explained why it's best for an open source project to be run in the
 open from the very beginning.  That advice, particularly <xref
 linkend="avoid-exposure-events"/>, is if anything even more true for
@@ -583,7 +583,7 @@ a private agreement are no less sincere for having been coordinated
 beforehand, and are not harmful as long as they are not used to
 prejudicially snuff out opposing arguments.  Their purpose is merely
 to inhibit the sort of people who like to object just to stay in
-shape; see <xref linkend="bikeshed"/><phrase output="printed">
+shape; see <xref linkend="bikeshed"/><phrase condition="treeware">
 in <xref linkend="communications"/></phrase> for more about
 them.</para>
 
@@ -731,7 +731,7 @@ First, he submits some patches to the development mailing list.  After
 enough patches have gone by for the other committers to see that the
 new contributor knows what he's doing, someone proposes that he just
 commit directly (that proposal is private, as described in <xref
-linkend="committers"/><phrase output="printed">
+linkend="committers"/><phrase condition="treeware">
 in <xref linkend="managing-participants"/></phrase>).  Assuming the
 committers agree, one of them mails the new developer and offers him
 direct commit access to the project's repository.</para>
@@ -833,7 +833,7 @@ commit-access standards as the non-Sun developers.)</para>
 
 <para>The need for the funders to play by the same rules as everyone
 else means that the Benevolent Dictatorship governance model (see
-<xref linkend="benevolent-dictator"/><phrase output="printed">
+<xref linkend="benevolent-dictator"/><phrase condition="treeware">
 in <xref linkend="social-infrastructure"/></phrase>) is slightly
 harder to pull
 off in the presence of funding, particularly if the dictator works for
@@ -1107,7 +1107,7 @@ In my experience, the most important of those requirements are:</para>
 <itemizedlist>
   <listitem><para>Design and development must be done in the open from the
             start of the project (see <xref
-            linkend="be-open-from-day-one" /><phrase output="printed"
+            linkend="be-open-from-day-one" /><phrase condition="treeware"
             > in <xref linkend="getting-started" /></phrase></para></listitem>
   <listitem><para>The code shall be licensed for open source distribution
             from the start of development through delivery and
@@ -1243,7 +1243,7 @@ the vendor never came close to meeting normal open source standards.
 Had parallel, independent review been built into the process from the
 start, the problems would have been detected early, and the
 unsatisfactory outcome prevented.  (Relatedly, see <xref
-linkend="be-open-from-day-one"/><phrase output="printed"> in <xref
+linkend="be-open-from-day-one"/><phrase condition="treeware"> in <xref
 linkend="getting-started"/></phrase>.)</para>
 
 <para>Note that the primary vendor may often be quite unconscious that
@@ -1485,7 +1485,7 @@ company has a legal department, it can help a project by assisting
 with trademark issues, copyright license ownership and compatibility
 questions, defense against patent trolls, etc.  If the project decides
 to organize formally, or to join an existing umbrella organization (as
-described in <xref linkend="non-profit"/><phrase output="printed"> in
+described in <xref linkend="non-profit"/><phrase condition="treeware"> in
 <xref linkend="social-infrastructure"/></phrase>), your legal
 department can help with issues of corporate law, asset transfer,
 reviewing agreements, and other due diligence matters.</para>
@@ -1586,7 +1586,7 @@ have worked with open source projects before, if possible.</para>
 <title>Providing Hosting/Bandwidth</title>
 
 <para>The inexorable rise of zero-cost canned hosting sites (see <xref
-linkend="canned-hosting" /><phrase output="printed"> in <xref
+linkend="canned-hosting" /><phrase condition="treeware"> in <xref
 linkend="technical-infrastructure"/></phrase>) for open source
 projects has meant that it is increasingly unnecessary for projects to
 get corporate support for basic project-hosting infrastructure.  It
@@ -1629,7 +1629,7 @@ Wikipedia page <ulink
 url="https://en.wikipedia.org/wiki/Continuous_integration"
 >https://en.wikipedia.org/wiki/Continuous_integration</ulink> has a good
 description of this practice and its variants.</para></footnote> (See
-<xref linkend="automated-testing"/><phrase output="printed"> in <xref
+<xref linkend="automated-testing"/><phrase condition="treeware"> in <xref
 linkend="managing-participants"/></phrase> for more details on
 this.)</para>
 
@@ -1656,7 +1656,7 @@ afford to hire specialists, providing in-depth security review on an
 open source project's code base can do the project a tremendous amount
 of good.  Any feedback from a security audit should be provided back
 to the project using the precautions described in <xref
-linkend="security-receiving"/><phrase output="printed"> in <xref
+linkend="security-receiving"/><phrase condition="treeware"> in <xref
 linkend="communications"/></phrase>.  However, it is fine to be public
 about the fact that you are conducting the audit; there is no reason
 your organization should not get credit for a substantial contribution
@@ -1672,7 +1672,7 @@ like that.</para>
 between developers who might not otherwise meet.  The usefulness of
 in-person meetings&nbsp;&mdash;&nbsp;e.g., conferences, hackathons,
 smaller informal meetups, etc&nbsp;&mdash;&nbsp;is mainly discussed in
-<xref linkend="meeting-in-person"/><phrase output="printed"> in <xref
+<xref linkend="meeting-in-person"/><phrase condition="treeware"> in <xref
 linkend="managing-participants"/></phrase>.  Here I will simply mention
 that encouraging such encounters is a very good use of money in an
 open source project.  From a corporate sponsorship point of view,
@@ -1721,7 +1721,7 @@ software, or their relationship to the software.</para>
 <para>Much of the advice in this section is simply about how to avoid
 common pitfalls in marketing open source products (see also <xref
 linkend="publicity"/> and <xref linkend="competing-products"/><phrase
-output="printed"> in <xref linkend="communications"/></phrase>),
+condition="treeware"> in <xref linkend="communications"/></phrase>),
 although we will start by examining a major marketing advantage that
 open source products enjoy over proprietary products, and that open
 source businesses should promote as often as possible: the lack of
@@ -1881,7 +1881,7 @@ effort, and I'm sure I'm not the only one who took the trouble.</para>
 
 <para>Transparency and verifiability are also an important part of
 accurate crediting, of course.  See
-<xref linkend="credit"/><phrase output="printed"> in
+<xref linkend="credit"/><phrase condition="treeware"> in
 <xref linkend="managing-participants"/></phrase> for more on this.</para>
 
 </sect3>
@@ -1910,7 +1910,7 @@ priorities.</para>
 competitors' developers in the open source project.  They often have
 friendly relations, show up at the same conferences, etc.  Even if
 that's not the case today, it may be tomorrow (as discussed in <xref
-linkend="competing-products"/><phrase output="printed"> in <xref
+linkend="competing-products"/><phrase condition="treeware"> in <xref
 linkend="communications"/></phrase>).  Furthermore, you may find
 yourself <emphasis>hiring</emphasis> developers from your competitors;
 if you burn up available goodwill in advance, you may not get the best
@@ -1948,7 +1948,7 @@ core set of functionality that is available as open source software,
 with a more featureful application wrapped around it as proprietary
 software.  This usually depends on the core open source code having a
 non-copyleft license, of course, and is discussed in more detail in
-<xref linkend="proprietary-relicensing"/><phrase output="printed"> in
+<xref linkend="proprietary-relicensing"/><phrase condition="treeware"> in
 <xref linkend="legal"/></phrase>.</para>
 
 <para>Open core is somewhat controversial among open source
@@ -2171,7 +2171,7 @@ First, the negative myths:</para>
      problem, you can expect word to travel to the right places
      eventually, and of course you can help that word along with
      tactically smart announcements and posts (see <xref
-     linkend="publicity"/><phrase output="printed"> in <xref
+     linkend="publicity"/><phrase condition="treeware"> in <xref
      linkend="communications"/></phrase>).  But until your code has
      had time to naturally accumulate credibility and mindshare, most
      people won't pay any attention, so you shouldn't expect that
@@ -2216,13 +2216,13 @@ First, the negative myths:</para>
      the source level and inclusion of the license together with the
      covered code.  Some licenses, especially the copyleft licenses
      discussed in <xref linkend="license-aspects"/><phrase
-     output="printed"> in <xref linkend="legal"/></phrase>, cause the
+     condition="treeware"> in <xref linkend="legal"/></phrase>, cause the
      entire derivative work to be under the same open source license
      thus implying redistribution obligations that you may not want.
      Some have patent clauses that can affect your company in complex
      ways.<footnote><para>I am strongly opposed to software patents of
      any kind, for the reasons given in <xref
-     linkend="patents"/><phrase output="printed"> in <xref
+     linkend="patents"/><phrase condition="treeware"> in <xref
      linkend="legal"/></phrase>, but if you are a patent holder I
      would still like you to at least be aware of the possible patent
      consequences of incorporating open code into your
@@ -2304,7 +2304,7 @@ process financial data, or medical data, there are open source
 
 <para>You may even have already announced your project to those people
 when you began, as discussed in <xref linkend="announcing"/><phrase
-output="printed"> in <xref linkend="getting-started" /></phrase>.  But
+condition="treeware"> in <xref linkend="getting-started" /></phrase>.  But
 there's more you can do to create external reservoirs of knowledge.
 When your project runs across a design issue that you suspect others
 may have encountered before, it's fine to ask them how they handled
@@ -2330,7 +2330,7 @@ the life of the project, especially the scheduling of releases.  Or
 rather, you can still have as much control as you want, but now there
 are other things you can lose if you exercise that control
 in the wrong way.  For example, if the release manager (see <xref
-linkend="release-manager"/><phrase output="printed" > in <xref
+linkend="release-manager"/><phrase condition="treeware" > in <xref
 linkend="development-cycle" /></phrase>) is someone from outside your
 organization, and she's doing a good job, then if you try to force the
 release to be on a certain precise date, you may cause her and many of
@@ -2365,7 +2365,7 @@ consensus you are able schedule certain milestones accurately enough
 to tie timed publicity to them.  While that may sound like a good
 idea, in practice it rarely works.  An exception to this is if the
 whole project is on board with doing time-based releases, as described
-in <xref linkend="time-based-vs-feature-based"/><phrase output="printed" > in <xref
+in <xref linkend="time-based-vs-feature-based"/><phrase condition="treeware" > in <xref
 linkend="development-cycle" /></phrase>.  If the development community
 as a whole shares that goal, then they will make the sacrifices
 necessary to keep to the time-based cycle&nbsp;&mdash;&nbsp;but your
@@ -2638,7 +2638,7 @@ Whatever the reasons are, you should make sure you find out.</para>
 precisely <emphasis>because</emphasis> of her existing position in an
 open source project.  She may be the founder or leader of the project,
 or may just have commit access<footnote><para>See <xref
-linkend="committers"/><phrase output="printed" > in <xref
+linkend="committers"/><phrase condition="treeware" > in <xref
 linkend="managing-participants" /></phrase>.</para></footnote>, but
 either way her ability to get things done in the upstream community is
 part of her value as a prospective employee; often, it is just as
@@ -2702,7 +2702,7 @@ maintenance too.</para>
 open source projects, that topic is inextricably linked to the problem
 of evaluating existing open source projects.  You can't know whether
 you need to start a new one until you've evaluated what's out there
-(as explained in <xref linkend="look-around"/><phrase output="printed"
+(as explained in <xref linkend="look-around"/><phrase condition="treeware"
 > in <xref linkend="getting-started"/></phrase>).  Furthermore, even
 in a new project, you'll usually still be building on existing open
 source components, and will often be in the position of choosing
@@ -2736,7 +2736,7 @@ evaluation predicted.</para>
      developers?  Is it always the same developer responding, or is
      responsiveness well-distributed throughout the development team?
      More bug reports is better, by the way, as discussed in <xref
-     linkend="vc-and-bug-tracker-access"/><phrase output="printed" >
+     linkend="vc-and-bug-tracker-access"/><phrase condition="treeware" >
      in <xref linkend="getting-started"/></phrase>.  The rate at which
      bug reports are <emphasis>closed</emphasis> is not as important
      as you might think; in a healthy project with an active user
@@ -2802,7 +2802,7 @@ projects, but even using just the steps above can save you a lot of
 trouble.  I have found them particularly useful when evaluating the
 two sides of a recent fork<footnote><para>That is, a "social fork";
 see <xref linkend="social-forks-vs-short-forks"/><phrase
-output="printed" > in <xref
+condition="treeware" > in <xref
 linkend="managing-participants"/></phrase></para></footnote>.  Even in
 a recent fork, it is often possible to tell, just by looking at some
 of the signals described above, which side will flourish over the long

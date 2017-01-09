@@ -103,7 +103,7 @@ out, along with a few other terms.</para>
               view it as a matter of freedom, or are not interested in
               advertising the fact that they do.  See
               <xref linkend="free-vs-open-source"/><phrase
-              output="printed"> in
+              condition="treeware"> in
               <xref linkend="introduction"/></phrase> for a more
               detailed history of this terminological schism.</para>
 
@@ -208,7 +208,7 @@ out, along with a few other terms.</para>
               important topic, covered in
               <xref
               linkend="license-compatibility"/><phrase
-              output="printed"> later in this chapter</phrase>.</para>
+              condition="treeware"> later in this chapter</phrase>.</para>
     </listitem>
   </varlistentry>
 
@@ -296,7 +296,7 @@ out, along with a few other terms.</para>
               that any derivative works must also be licensed under
               the GPL; see <xref
               linkend="license-compatibility"/><phrase
-              output="printed"> later in this chapter</phrase> for
+              condition="treeware"> later in this chapter</phrase> for
               more.</para>
     </listitem>
   </varlistentry>
@@ -386,7 +386,7 @@ to a few oft-recurring issues:</para>
               variant the <xref linkend="license-compatibility">AGPL</xref>).  
               This topic is discussed in more detail in
               <xref linkend="license-compatibility"/><phrase
-              output="printed"> later in this chapter</phrase>.</para> 
+              condition="treeware"> later in this chapter</phrase>.</para> 
     </listitem>
   </varlistentry>
 
@@ -512,7 +512,7 @@ but effectively makes your software an agent in pushing
 
 <para>The question of whether or not this is a good way to
 promote free software is one of the most persistent holy wars on the
-Internet (see <xref linkend="holy-wars"/><phrase output="printed">
+Internet (see <xref linkend="holy-wars"/><phrase condition="treeware">
 in <xref linkend="communications"/></phrase>), and we won't
 investigate it here.  What's important for our purposes is that
 GPL compatibility is something to consider when choosing a license.  The
@@ -623,7 +623,7 @@ doesn't have a reason to choose otherwise.</para>
 
 <para>The mechanics of applying a license to your project are
 discussed in <xref linkend="license-quickstart-applying"/><phrase
-output="printed"> in <xref
+condition="treeware"> in <xref
 linkend="getting-started"/></phrase>.</para>
 
 <sect2 id="license-choosing-gpl">
@@ -659,7 +659,7 @@ release software under the current version of the GPL while giving
 downstream recipients the option to redistribute it under any
 <emphasis>later</emphasis> (i.e., future) version.  The way to offer
 this option is to put language like this in the license headers (see
-<xref linkend="license-quickstart-applying"/><phrase output="printed">
+<xref linkend="license-quickstart-applying"/><phrase condition="treeware">
 in <xref linkend="getting-started"/></phrase>) of the actual source
 files:</para>
 
@@ -783,7 +783,7 @@ better than "less free" (after all, who's not in favor of freedom?),
 it follows that those licenses are better than the GPL.</para>
 
 <para>This debate is another popular holy war (see
-<xref linkend="holy-wars"/><phrase output="printed"> in
+<xref linkend="holy-wars"/><phrase condition="treeware"> in
 <xref linkend="communications"/></phrase>).  Avoid participating
 in it, at least in project forums.  Don't attempt to prove that the
 GPL is less free, as free, or more free than other licenses.  Instead,
@@ -989,7 +989,7 @@ purchased MySQL AB in 2008.</para>
 <firstterm>freemium</firstterm> or <firstterm>open core</firstterm>
 model, uses an open source version to
 drive sales of a presumably fancier proprietary version (see
-<xref linkend="commercial-vs-proprietary"/><phrase output="printed"> in
+<xref linkend="commercial-vs-proprietary"/><phrase condition="treeware"> in
 <xref linkend="money"/></phrase> for a discussion of some
 marketing pitfalls to avoid in this situation).  Usually the
 company offering the proprietary version is also the primary

@@ -23,18 +23,6 @@ items right now.
    source/free/semi-free software".  See also
    http://www.scons.org/doc/HTML/scons-user.html#b-DocbookPdf,
    and http://lwn.net/Articles/661778/ re 'dblatex'.
-** BUG: Why is the output="printed" conditional not working?
-   For example, in Chapter 8 there is this conditional:
- 
-     (see <xref linkend="trademarks"/><phrase output="printed">
-     in <xref linkend="legal"/></phrase>)
-   
-   and yet the HTML output produces (with links, of course) this...
- 
-     (see the section called “Trademarks” in Chapter 10, Licenses,
-     Copyrights, and Patents),
- 
-   ...in en/forks.html.  What's up with that?
 ** BUG: compatibility links don't produce .html files.
    When id="mailing-lists" changed to id="message-forums" in ch03.xml,
    we left an <anchor id="mailing-lists" /> in place for compatibility.
@@ -44,6 +32,12 @@ items right now.
    files that do a 301 redirect to the new link.
 ** BUG: Why are we getting this warning on every commit:
    "Warning: post-commit hook failed (exit code 1) with no output."
+** BUG (latent): the 'condition="treeware"' profile fails in PDF
+   It isn't actually working for PDF (fo) output, it's just that that
+   turns out to be okay because the default behavior when the
+   condition is undefined is to treat it as true, which is what we
+   want for <phrase conditon="treeware">...</phrase> in PDF output.
+   See r3025 for details.
 ** Learn how to not include obsolete appendices in the PDF output.
 ** Explanation of POSS web site to ORM et al
    The online version has some properties that I'd like to maintain -- the

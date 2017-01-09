@@ -411,7 +411,7 @@ these conventions are especially likely to be encountered by people
 unfamiliar with them.  (This is one reason why it's good to be
 generous when trying to figure out whether someone has violated the
 code of conduct, in a project that has one&nbsp;&mdash;&nbsp;see <xref
-linkend="code-of-conduct"/><phrase output="printed"> in <xref
+linkend="code-of-conduct"/><phrase condition="treeware"> in <xref
 linkend="getting-started"/></phrase>.)</para>
 
 <para>Let's start with the things that are <emphasis>not</emphasis>
@@ -477,7 +477,7 @@ lazy.</para>
 <para>There are many other forms of rudeness, of course, but most of
 them are not specific to free software development, and common sense
 is a good enough guide to avoid them.  See also
-<xref linkend="prevent-rudeness"/><phrase output="printed"> in
+<xref linkend="prevent-rudeness"/><phrase condition="treeware"> in
 <xref linkend="getting-started"/></phrase>, if you haven't
 already.</para>
 
@@ -944,9 +944,9 @@ This is not as hopeless as it sounds:</para>
 
 <para>You can anticipate certain standard holy wars: they tend to come
 up over programming languages, licenses (see
-<xref linkend="license-compatibility"/><phrase output="printed">
+<xref linkend="license-compatibility"/><phrase condition="treeware">
 in <xref linkend="legal"/></phrase>), reply-to munging (see
-<xref linkend="reply-to"/><phrase output="printed"> in
+<xref linkend="reply-to"/><phrase condition="treeware"> in
 <xref linkend="technical-infrastructure"/></phrase>), and a few
 other topics.  Each project 
 usually has a holy war or two all its own, as well, which longtime
@@ -1087,7 +1087,7 @@ bringing the rest of the development community back down to
 earth.</para>
 
 <para>See also the related advice in <xref
-linkend="competing-efforts"/><phrase output="printed"> in <xref
+linkend="competing-efforts"/><phrase condition="treeware"> in <xref
 linkend="money"/></phrase>.</para>
 
 </sect2>
@@ -1296,7 +1296,7 @@ mailing lists became useable again.  Part of the reason this strategy
 worked was, perhaps, the implicit threat that we could start
 restricting his posts via the moderation software normally used for
 preventing spam (see
-<xref linkend="spam-prevention"/><phrase output="printed"> in
+<xref linkend="spam-prevention"/><phrase condition="treeware"> in
 <xref linkend="technical-infrastructure"/></phrase>).  But the
 reason we were able to have that option in reserve was that Fitz had
 gathered the necessary support from key people first.</para>
@@ -1407,7 +1407,7 @@ posting.</para>
 <para>Strategy (2) is an ongoing process, lasting the lifetime of the
 project and involving many participants.  Of course it is partly a
 matter of having up-to-date documentation (see
-<xref linkend="documentation"/><phrase output="printed"> in
+<xref linkend="documentation"/><phrase condition="treeware"> in
 <xref linkend="getting-started"/></phrase>) and making sure to
 point people there.  But it is also much more than that; the sections
 that follow discuss this strategy in detail.</para>
@@ -1562,7 +1562,7 @@ case study.</para>
 
     <para><emphasis>Therefore: the source files for the FAQ should be
     conveniently available (see <xref
-    linkend="version-everything"/><phrase output="printed"> in <xref
+    linkend="version-everything"/><phrase condition="treeware"> in <xref
     linkend="technical-infrastructure"/></phrase>), in a format that's
     easy to edit.</emphasis></para>
   </listitem>
@@ -1603,9 +1603,9 @@ than newcomers did in the past.</para>
 communicate and preserve information as they are about coding
 standards and other technical minutae.  We've already looked at both
 sorts of standards, in
-<xref linkend="developer-documentation"/><phrase output="printed"> 
+<xref linkend="developer-documentation"/><phrase condition="treeware"> 
 in <xref linkend="getting-started"/></phrase> and
-<xref linkend="written-rules"/><phrase output="printed"> in
+<xref linkend="written-rules"/><phrase condition="treeware"> in
 <xref linkend="social-infrastructure"/></phrase> respectively, and
 examples are given there.  What this section is about is how to keep
 such guidelines up-to-date as the project evolves, especially
@@ -1655,7 +1655,7 @@ more readers off the list than on it.</para>
 <para>Formatting can make a big difference.  For example, in the
 Subversion project, we were having limited success using the
 bug-filtering technique described in
-<xref linkend="bug-filtering"/><phrase output="printed"> in
+<xref linkend="bug-filtering"/><phrase condition="treeware"> in
 <xref linkend="technical-infrastructure"/></phrase>.  Many bogus
 bug reports were still being filed by inexperienced people, and each
 time it happened, the filer had to be educated in exactly the same way
@@ -1690,7 +1690,7 @@ with the project.</para>
 project's customs.  A certain amount of interactive monitoring (in the
 friendly-reminder sense, not the prison-panopticon sense) is also
 required.  All peer review, even the commit reviews described in
-<xref linkend="code-review"/><phrase output="printed"> in
+<xref linkend="code-review"/><phrase condition="treeware"> in
 <xref linkend="getting-started"/></phrase>, should include review
 of people's conformance or non-conformance with project norms,
 especially with regard to communications conventions.</para>
@@ -1735,7 +1735,7 @@ combination "r12828" can only mean a revision number).  Similar
 concerns apply to ticket numbers, FAQ items, etc.<footnote><para>A
 more extended example of the kinds of benefits such standards make
 possible is the Contribulyzer example mentioned in <xref
-linkend="automation"/><phrase output="printed">, in <xref
+linkend="automation"/><phrase condition="treeware">, in <xref
 linkend="managing-participants"/></phrase>.</para></footnote>
 </para>
 
@@ -1837,7 +1837,7 @@ create a culture where it's normal for everyone to do it, so everyone
 thinks about forum appropriateness as a matter of course, and feels
 comfortable raising questions of forum whenever necessary in any
 discussion.  Obviously, documenting the practice will help (see <xref
-linkend="written-rules" /><phrase output="printed"> in <xref
+linkend="written-rules" /><phrase condition="treeware"> in <xref
 linkend="social-infrastructure"/></phrase>), but you'll probably also
 need to remind people of it often, especially when your project is
 starting out.  A good rule of thumb is: if the conversation looks
@@ -1938,7 +1938,7 @@ simultaneously as possible:</para>
 
   <listitem><para>Post to forums as appropriate, in the manner
             described in
-            <xref linkend="announcing"/>)<phrase output="printed">
+            <xref linkend="announcing"/>)<phrase condition="treeware">
             in <xref linkend="getting-started"/></phrase>.</para>
   </listitem>
 
@@ -1952,7 +1952,7 @@ simultaneously as possible:</para>
             the software, but occasionally other events, such as a
             fundraising drive, the discovery of a security
             vulnerability (see
-            <xref linkend="security"/>)<phrase output="printed">
+            <xref linkend="security"/>)<phrase condition="treeware">
             later in this chapter</phrase>, or a
             major shift in project direction may be posted there as
             well.  Because it is low traffic and used only for
@@ -2422,7 +2422,7 @@ conservative admins can upgrade without worrying about what else they
 might be affecting; they also don't have to worry about future upgrades,
 because the security fix will be in all future releases as a matter of
 course.  (Details of release procedures are discussed in
-<xref linkend="security-releases"/><phrase output="printed"> in
+<xref linkend="security-releases"/><phrase condition="treeware"> in
 <xref linkend="development-cycle"/></phrase>.)</para>
 
 <para>Whether or not the public fix involves a new release, do the

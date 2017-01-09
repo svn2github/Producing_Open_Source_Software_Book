@@ -88,7 +88,7 @@ users.  A release means that:</para>
             be counted on, except sometimes in the case of security
             releases or other one-offs (see
             <xref linkend="security-releases"/><phrase
-            output="printed"> later in this chapter</phrase>).</para>
+            condition="treeware"> later in this chapter</phrase>).</para>
   </listitem>
 
   <listitem><para>New features may have been added.</para>
@@ -147,7 +147,7 @@ them!</para>
 
 <para>All that in a number?  Well, more or less, yes.  Release
 numbering strategies are one of the oldest bikeshed discussions around
-(see <xref linkend="bikeshed"/><phrase output="printed"> in
+(see <xref linkend="bikeshed"/><phrase condition="treeware"> in
 <xref linkend="communications"/></phrase>), and the world is
 unlikely to settle on a single, complete standard anytime soon.
 However, a few good strategies have emerged, along with one
@@ -440,7 +440,7 @@ best for projects that have very long release cycles, and which by
 their nature have a high proportion of conservative users who value
 stability above new features.  It is not the only way to get new
 functionality tested in the wild, however.  In
-<xref linkend="stabilizing-a-release"/><phrase output="printed">
+<xref linkend="stabilizing-a-release"/><phrase condition="treeware">
 later in this chapter</phrase> we will examine another, perhaps more common,
 method of releasing potentially unstable code to the public, in which
 the release number is further marked so that people have an idea of
@@ -541,11 +541,11 @@ same branch&nbsp;&mdash;&nbsp;for all the micro releases in that line.</para>
 
 <para>The social and technical process of stabilizing the branch for
 release is covered in <xref linkend="stabilizing-a-release"/><phrase
-output="printed"> later in this chapter</phrase>.  Here we are
+condition="treeware"> later in this chapter</phrase>.  Here we are
 concerned just with the high-level version control actions that relate
 tothe release process.  When the release branch is stabilized and
 ready, it is time to tag a snapshot from the branch (see <xref
-linkend="vc-vocabulary-tag"/><phrase output="printed"> in <xref
+linkend="vc-vocabulary-tag"/><phrase condition="treeware"> in <xref
 linkend="technical-infrastructure"/></phrase>) with a name like, e.g.,
 "1.0.0".  The resultant tag represents the exact state of the
 project's source tree in the 1.0.0 release (this is useful when
@@ -690,7 +690,7 @@ and not reflexively dig in her heels.</para>
 
 <para>Note that the release owner need not be the same person as the
 project leader (in cases where there is a project leader at all; see
-<xref linkend="benevolent-dictator"/><phrase output="printed">
+<xref linkend="benevolent-dictator"/><phrase condition="treeware">
 in <xref linkend="social-infrastructure"/></phrase>).  In fact,
 sometimes it's
 good to make sure they're <emphasis>not</emphasis> the same person.
@@ -705,7 +705,7 @@ release owner win when there is a disagreement.</para>
 
 <para>Contrast the release owner role with the less dictatorial role
 described in
-<xref linkend="release-manager"/><phrase output="printed"> later
+<xref linkend="release-manager"/><phrase condition="treeware"> later
 in this chapter</phrase>.</para>
 
 </sect2>
@@ -721,7 +721,7 @@ to <emphasis>exclude</emphasis> changes, it's important to design the
 voting system in such a way that getting a change into the release
 involves positive action by multiple developers.  Including a change
 should need more than just a simple majority (see <xref
-linkend="electorate"/><phrase output="printed"> in
+linkend="electorate"/><phrase condition="treeware"> in
 <xref linkend="social-infrastructure"/></phrase>).  Otherwise,
 one vote for and none against a given change would suffice to get it
 into the release, and an
@@ -848,7 +848,7 @@ revisions are provided because they're still the easiest entity to
 review, since they have the original log messages.  The temporary
 branch wouldn't have those log messages; in order to avoid duplication
 of information (see
-<xref linkend="vc-singularity"/><phrase output="printed"> in
+<xref linkend="vc-singularity"/><phrase condition="treeware"> in
 <xref linkend="technical-infrastructure"/></phrase>), the
 branch's log message for r13517 should simply say "Adjust r13222,
 r13223, and r13232 for backport to 1.1.x branch."  All other
@@ -871,7 +871,7 @@ decentralized fashion, in practice there are usually one or two people
 driving the release process.  This role is sometimes formally blessed
 as <firstterm>release manager</firstterm>, but it is quite different
 from a release owner (see
-<xref linkend="release-owner"/><phrase output="printed"> earlier
+<xref linkend="release-owner"/><phrase condition="treeware"> earlier
 in this chapter</phrase>) who has
 final say over the changes.  Release managers keep track of how many
 changes are currently under consideration, how many have been
@@ -885,7 +885,7 @@ long as everyone understands that the release managers are not
 obligated to do all the
 work unless they have explicitly committed to it.  When the time comes
 to put the release out the door (see
-<xref linkend="testing-and-releasing"/><phrase output="printed">
+<xref linkend="testing-and-releasing"/><phrase condition="treeware">
 later in this chapter</phrase>), the release managers
 also take care of the logistics of creating the final release
 packages, collecting digital signatures, uploading the packages, and
@@ -907,7 +907,7 @@ runs in source form (i.e., can be interpreted, like Perl, Python, PHP,
 etc.) or needs to be compiled first (like C, C++, Java, etc.).  With
 compiled software, most users will probably not compile the sources
 themselves, but will instead install from pre-built binary packages
-(see <xref linkend="binary-packages"/><phrase output="printed">
+(see <xref linkend="binary-packages"/><phrase condition="treeware">
 later in this chapter</phrase>).  However, those binary
 packages are still derived from a master source distribution.  The
 point of the source package is to unambiguously define the release.
@@ -977,7 +977,7 @@ files of interest, etc.  Among those other files should be an
 the <filename>README</filename> file, giving instructions on how to build
 and install the software for all the operating systems it supports.
 As mentioned in
-<xref linkend="license-quickstart-applying"/><phrase output="printed">
+<xref linkend="license-quickstart-applying"/><phrase condition="treeware">
 in <xref linkend="getting-started"/></phrase>, there should also
 be a <filename>COPYING</filename> or <filename>LICENSE</filename>
 file, giving the software's terms of distribution.<footnote><para>Your
@@ -1021,7 +1021,7 @@ include every little bugfix and feature enhancement.  Its purpose is
 to give users an overview of what they would gain by upgrading to
 the new release, and to tell them about any incompatible changes.  In
 fact, the changelist is customarily included in the announcement email
-(see <xref linkend="testing-and-releasing"/><phrase output="printed">
+(see <xref linkend="testing-and-releasing"/><phrase condition="treeware">
 later in this chapter</phrase>), so write it with that
 audience in mind.</para>
 
@@ -1031,7 +1031,7 @@ would get by checking out the project directly from its version
 control repository.  Sometimes there are a few differences, for example
 because the package contains some generated files needed for
 configuration and compilation (see
-<xref linkend="packaging-build-install"/><phrase output="printed">
+<xref linkend="packaging-build-install"/><phrase condition="treeware">
 later in this chapter</phrase>), or because the distribution includes
 third-party software that is not maintained by the project, but that
 is required and that users are not likely to already have.  But even
@@ -1157,7 +1157,7 @@ your project's <filename>INSTALL</filename> file, that instantly
 raises their faith that your project is generally aware of
 conventions, and that it is likely to have gotten other things right
 as well.  Also, as discussed in
-<xref linkend="downloads"/><phrase output="printed"> in
+<xref linkend="downloads"/><phrase condition="treeware"> in
 <xref linkend="getting-started"/></phrase>, having a standard
 build procedure pleases potential developers.</para>
 
@@ -1291,7 +1291,7 @@ verify that the copy they receive has not been maliciously tampered
 with.  Users are about to run this code on their computers&nbsp;&mdash;&nbsp;if
 the code has been tampered with, an attacker could suddenly have a
 back door to all their data.  See <xref
-linkend="security-releases"/><phrase output="printed"> later in this
+linkend="security-releases"/><phrase condition="treeware"> later in this
 chapter</phrase> for more about paranoia.  The details of creating
 digital signatures and release hashes are beyond the scope of this
 book, but if you're not familiar with them, see <ulink
@@ -1305,7 +1305,7 @@ to do an Internet search for these phrases (simultaneously):
 inspecting the release for obvious flaws.  Ideally, the developers
 download the package, build and install it onto a clean system, run
 the regression test suite (see
-<xref linkend="automated-testing"/><phrase output="printed"> in
+<xref linkend="automated-testing"/><phrase condition="treeware"> in
 <xref linkend="managing-participants"/></phrase>), and do some
 manual testing.  Assuming it passes these checks, as well as any other
 release checklist criteria the project may have, each developer then
@@ -1378,7 +1378,7 @@ release.</para>
 
 <para>Announcing a release is like announcing any other event, and
 should use the procedures described in
-<xref linkend="publicity"/><phrase output="printed"> in
+<xref linkend="publicity"/><phrase condition="treeware"> in
 <xref linkend="communications"/></phrase>.  There are a few
 specific things to do for releases, though.</para>
 
@@ -1408,7 +1408,7 @@ reports.  Don't single out anyone by name, though, unless there's
 someone who is individually responsible for a huge piece of work,
 the value of which is widely recognized by everyone in the
 project.  Be wary of sliding down the slippery slope of credit
-inflation (see <xref linkend="credit"/><phrase output="printed">
+inflation (see <xref linkend="credit"/><phrase condition="treeware">
 in <xref linkend="managing-participants"/></phrase>).</para>
 
 </sect2>
@@ -1464,7 +1464,7 @@ often stay ahead of the official releases.</para>
 <title>Security Releases</title>
 
 <para>Most of the details of handling security bugs were covered in
-<xref linkend="security"/><phrase output="printed"> in
+<xref linkend="security"/><phrase condition="treeware"> in
 <xref linkend="communications"/></phrase>, but there are some
 special details to discuss for doing security releases.</para>
 
@@ -1652,7 +1652,7 @@ may not have been set yet.</para>
 <para>An alternative strategy for dealing with the tension between
 project release timing and corporate needs is for the company to
 simply make separate interim releases for its customers.  As discussed
-in <xref linkend="economics-of-open-source"/><phrase output="printed">
+in <xref linkend="economics-of-open-source"/><phrase condition="treeware">
 in <xref linkend="money"/></phrase>, such releases can be public and
 open source, and won't do the project any harm as long as they are
 clearly distinguished from the project's official releases.  However,
@@ -1707,7 +1707,7 @@ discussion, dissent, and be genuinely willing to be persuaded whenever
 possible.  Never exercise control merely for the sake of exercising
 control: the more deeply others feel they can participate in the
 release planning process (see
-<xref linkend="share-management"/><phrase output="printed"> in
+<xref linkend="share-management"/><phrase condition="treeware"> in
 <xref linkend="managing-participants"/></phrase>), the easier it
 will be to persuade them to share your priorities on the issues that
 really count for you.</para>
