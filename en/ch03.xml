@@ -295,7 +295,7 @@ site offers public version control repositories and bug tracking; most
 also offer wiki space, many offer mailing list hosting too, and some
 offer continuous integration testing and other
 services<footnote><para>Note that for successful free software
-projects, interested commercial entities will eventually often step to
+projects, interested commercial entities will eventually often step up to
 fund many of these services anyway; see <xref linkend="fund-servers"/>
 for further discussion of this.</para></footnote>.  For many projects,
 canned hosting provides a perfectly adequate developer-oriented entry
@@ -2499,17 +2499,8 @@ about trackers' technical features:
     may never exercise this option, but think of it as
     insurance&nbsp;&mdash;&nbsp;and some projects have actually done
     it).</para>
-    <para>Currently, the ticket trackers of the big three hosting
-    sites (GitHub, Google Code Hosting, and SourceForge) all have
-    APIs, fortunately.  Of them, only SourceForge is itself open
-    source, running a platform called
-    <firstterm>Allura</firstterm><footnote><para>Oddly, SourceForge's
-    API was also the hardest to find documentation for, though it
-    helps once you know the platform's name is "Allura".  For
-    reference, their API documentation is here: <ulink
-    url="https://sourceforge.net/p/forge/documentation/Allura%20API/"
-    >https://sourceforge.net/p/forge/documentation/Allura%20API/</ulink
-    ></para></footnote>.</para>
+    <para>Fortunately, the ticket trackers of most major hosting
+    sites have APIs.</para>
   </listitem>
 </itemizedlist>
 

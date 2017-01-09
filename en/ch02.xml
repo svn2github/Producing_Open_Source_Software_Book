@@ -314,17 +314,9 @@ seeking the open source project of that name.  If they couldn't get
 way.</para></footnote>, the <ulink url="https://twitter.com/gnome"
 >https://twitter.com/gnome</ulink> Twitter handle, the <ulink
 url="https://identi.ca/gnome" >https://identi.ca/gnome</ulink> username at
-Identi.ca<footnote><para> <ulink url="https://identi.ca/"
->https://identi.ca/</ulink> is a microblog / social networking that a number of
-free software developers use; its code is open source and made
-available at <ulink url="http://pump.io/" >http://pump.io/</ulink>.  For
-developer-oriented projects, I recommend at least doing all status
-microposts&nbsp;&mdash;&nbsp;colloquially referred to as
-"tweets"&nbsp;&mdash;&nbsp;on both Identi.ca and Twitter.  While the
-total number of people on Identi.ca is far smaller than on Twitter,
-the percentage of them that are likely to be interested in news about
-an open source project is far higher, at least as of this writing in
-2017 and probably for some years after that.</para></footnote>, the <ulink
+Identi.ca<footnote><para><ulink url="https://identi.ca/"
+>https://identi.ca/</ulink> is an open source microblog / social
+networking that a number of free software developers use.</para></footnote>, the <ulink
 url="https://github.com/gnome" >https://github.com/gnome</ulink> username at
 GitHub.com<footnote><para>While the master copy of Gnome's source code
 is at <ulink url="https://git.gnome.org/" >https://git.gnome.org/</ulink>, they
@@ -1181,13 +1173,7 @@ development wiki, links to development mailing lists, etc.  The two
 sites should link to each other, and in particular it's important that
 the user-facing site make it clear that the project is open source and
 where the open source development activity can be
-found.<footnote><para>As of August 2013, a good example of a project
-with separate but cross-linked primary and developer sites is the
-Ozone Widget Framework: compare their main user-facing site at <ulink
-url="http://www.ozoneplatform.org/" >http://www.ozoneplatform.org/</ulink> with
-their development area at <ulink
-url="https://github.com/ozoneplatform/owf"
->https://github.com/ozoneplatform/owf</ulink>.</para></footnote></para>
+found.</para>
 
 <para>In the past, many projects set up the developer site and
 infrastructure themselves.  Over the last decade or so, however, most
@@ -1791,7 +1777,7 @@ had been going on since time immemorial.</para>
 
 </sect3>
 
-<para>Start doing reviews from very first commit.  The sorts of
+<para>Start doing reviews from the very first commit.  The sorts of
 problems that are easiest to catch by reviewing diffs are security
 vulnerabilities, memory leaks, insufficient comments or API
 documentation, off-by-one errors, caller/callee discipline mismatches,

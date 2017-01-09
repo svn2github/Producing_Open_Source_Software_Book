@@ -129,11 +129,10 @@ out, along with a few other terms.</para>
 
     <listitem><para>Where there are two of anything, there will soon
               be three, and that is exactly what is happening with
-              terms for free software.  The academic world, perhaps
-              wanting precision and inclusiveness over elegance, seems
-              to have settled on FOSS, or sometimes F/OSS, standing
+              terms for free software.  Many people have started
+              using "FOSS" (or, more rarely, "F/OSS"), standing
               for "Free / Open Source Software".  Another variant
-              gaining momentum is FLOSS, which
+              gaining momentum is "FLOSS", which
               stands for "Free / Libre Open Source Software"
               (<foreignphrase>libre</foreignphrase> is familiar from
               many Romance languages and does not suffer from the ambiguities
@@ -445,24 +444,6 @@ to a few oft-recurring issues:</para>
               to distribute under the license altogether.</para>
     </listitem>
   </varlistentry>
-
-  <varlistentry><term>protection of "artistic integrity"</term>
-    <listitem><para>Some licenses (the Artistic License, used
-              for the most popular implementation of the Perl
-              programming language, and Donald Knuth's TeX license,
-              for example) require that modification and
-              redistribution be done in a manner that distinguishes
-              clearly between the pristine original version of the
-              code and any modifications.  They permit essentially the
-              same freedoms as other free licenses, but impose certain
-              requirements that make the integrity of the original
-              code easy to verify.  These licenses have not caught on
-              much beyond the specific programs they were made for,
-              and will not be discussed in this chapter; they are
-              mentioned here only for the sake of completeness.  I do
-              not recommend licensing new code under them.</para> 
-    </listitem>
-  </varlistentry>
 </variablelist>
 
 <para>Most of these stipulations are not mutually exclusive, and some
@@ -723,16 +704,8 @@ it.</para>
 
 <para>In 2007, the Free Software Foundation released a variant of the
 GPL called the <firstterm>GNU Affero GPL</firstterm><footnote><para>
-The history of the license and its name is a bit complicated.  The
-first version of the license was originally released by Affero, Inc,
-who based it on the GNU GPL version 2.  At the time, this was commonly
-referred to as the AGPL.  Later, the Free Software Foundation decided
-to adopt the idea, but by then they had released version 3 of their
-GNU GPL, so they based their new Affero-ized license on that and
-called it the "GNU AGPL".  The old Affero license is now rarely used
-and is more or less deprecated, but to avoid ambiguity, say "AGPL-3.0"
-or "GNU AGPL" to make it clear that you're referring to the modern GNU
-version of the license.</para></footnote>.  Its purpose is to bring
+The history of the license and its name is a bit complicated, and I
+won't go into the details here.</para></footnote>.  Its purpose is to bring
 copyleft-style sharing provisions to the increasing amount of code
 being run as hosted services&nbsp;&mdash;&nbsp;that is, software that
 runs "in the cloud" on remote servers, that users interact with only
@@ -826,12 +799,9 @@ stalking horse for substance.</para>
 will admit that I've never understood the "GPL is not free" argument.
 The only restriction the GPL imposes is that it prevents people from
 imposing <emphasis>further</emphasis> restrictions.  To say that this
-results in less freedom has always seemed to me like saying that
-outlawing slavery reduces freedom, because it prevents some people
-from owning slaves.</para>
-
-<para>(Oh, and if you do get drawn into a debate about it, don't raise
-the stakes by making inflammatory analogies.)</para>
+results in less freedom has always seemed perverse to me.  If the
+retention of monopoly is somehow a freedom to be protected, then the
+word "freedom" is no longer meaningful.</para>
 
 </sect3>
 
@@ -963,8 +933,9 @@ license of the project.  This avoids the sticky issues that a more
 complex CLA can create, whereby the recipient of the CLA might reserve
 the right to relicense the project (and thus all the past
 contributions) under some different license in the future, possibly
-even a proprietary license.  DCOs are perfect for a free software
-project whose contributors expect it to stay that way.</para>
+even a proprietary license.  DCOs are probably the minimum amount of
+CLA a free software project should adopt, but for some circumstances a
+more complex CLA may still be the better course.</para>
 
 </sect3>
 
@@ -1099,6 +1070,8 @@ source development to stay away from proprietary relicensing is that,
 if history is a reliable guide, the temptation to undermine the open
 source license will be overwhelming to the point of being impossible
 to resist.</para>
+
+<remark>JV: you can find on-the-record comments, but I think it best if you leave that stuff alone.</remark>
 
 <para>Finally, there is a deep motivational problem for open source
 projects that operate in the shadow of a proprietarily relicensed
@@ -1337,7 +1310,7 @@ for one such survey.</para></footnote> Open source programmers tend to feel
 particularly strongly about it, and may refuse to work on projects
 that are too closely associated with the collection or enforcement of
 software patents.  If your organization collects software patents,
-then make it clear, in a public and irrevocable way, that the patents
+then make it clear, in a public and legally enforceable way, that the patents
 would never be enforced when the infringement comes from open source
 code, and that the patents are 
 only to be used as a defense in case some other party initiates an
