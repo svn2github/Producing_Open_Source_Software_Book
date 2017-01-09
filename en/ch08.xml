@@ -1681,9 +1681,10 @@ there might be contributors whose commit access gives them free rein
 in the documentation, but who do not commit to the code itself.
 Common areas for partial commit access include documentation,
 translations, binding code to other programming languages,
-specification files for packaging (e.g., RedHat RPM spec files,
-etc.), and other places where a mistake will not result in a problem for
-the core project.</para>
+specification files for packaging (e.g., Debian
+<filename>dpkg</filename> configuration files, etc.), and other
+places where a mistake will not result in a problem for the core
+project.</para>
 
 <para>Since commit access is sometimes not only about committing, but
 about being part of an electorate (see <xref
