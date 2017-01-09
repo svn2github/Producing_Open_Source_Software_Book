@@ -1735,7 +1735,7 @@ combination "r12828" can only mean a revision number).  Similar
 concerns apply to ticket numbers, FAQ items, etc.<footnote><para>A
 more extended example of the kinds of benefits such standards make
 possible is the Contribulyzer example mentioned in <xref
-linkend="automation"/><phrase condition="treeware">, in <xref
+linkend="automation"/><phrase condition="treeware"> in <xref
 linkend="managing-participants"/></phrase>.</para></footnote>
 </para>
 
