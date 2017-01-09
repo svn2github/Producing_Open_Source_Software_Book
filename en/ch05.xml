@@ -731,9 +731,10 @@ First, he submits some patches to the development mailing list.  After
 enough patches have gone by for the other committers to see that the
 new contributor knows what he's doing, someone proposes that he just
 commit directly (that proposal is private, as described in <xref
-linkend="committers"/>).  Assuming the committers agree, one of
-them mails the new developer and offers him direct commit access to
-the project's repository.</para>
+linkend="committers"/><phrase output="printed">
+in <xref linkend="managing-participants"/></phrase>).  Assuming the
+committers agree, one of them mails the new developer and offers him
+direct commit access to the project's repository.</para>
 
 <para>CollabNet had hired Mike specifically to work on Subversion.
 Among those who already knew him, there was no doubt about his coding
