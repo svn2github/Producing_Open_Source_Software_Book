@@ -94,7 +94,8 @@ make that transition welcoming to anyone who's interested.</para>
 </sidebar>
 
 <para>If you use a "canned hosting" site (see <xref
-linkend="starting-with-canned-hosting"/>), one advantage of that
+linkend="canned-hosting"/><phrase output="printed"> in <xref
+linkend="technical-infrastructure"/></phrase>), one advantage of that
 choice is that those sites have a default layout that is similar from
 project to project and is pretty well-suited to presenting a project
 to the world.  That layout can be customized, within certain
@@ -267,7 +268,7 @@ they simply have trouble remembering it.</para>
             prevent third parties from creating identity confusion
             around the project's name.  Even if you intend to host the
             project at some other site (see
-            <xref linkend="starting-with-canned-hosting"/>), you
+            <xref linkend="hosting"/>), you
             can still register project-specific domains and forward
             them to the hosting site.  It helps users a lot to have a
             simple URL to remember.<footnote><para>The importance of
