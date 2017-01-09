@@ -150,9 +150,9 @@ merging it from time to time with a separate public copy that has its
 own governance.  Google's Android operating system is a classic
 example: Google maintains its own copy of Android, which it governs as it
 pleases, and from time to time merges changes between that copy and
-the <ulink
+the Android Open Source Project (<ulink
 url="https://en.wikipedia.org/wiki/Android_%28operating_system%29#Open-source_community"
->https://en.wikipedia.org/wiki/Android_%28operating_system%29#Open-source_community</ulink>.  Essentially, Google is on a
+>https://en.wikipedia.org/wiki/Android_%28operating_system%29#Open-source_community</ulink>).  Essentially, Google is on a
 very long copy-modify-merge loop with respect to the open source
 project, and vice versa.  It is in neither side's interests to
 permanently diverge from the other.</para></footnote></para>
@@ -213,8 +213,8 @@ will result from several, or even all, of these motivations:</para>
      <para>For investors who like to think big, the right open source
      effort can create a new ecosystem&nbsp;&mdash;&nbsp;one in which
      those investors are more likely to flourish.  A good example of
-     this kind of investment, as of this writing in 2014, is the
-     <ulink url="https://www.meteor.com/" >https://www.meteor.com/</ulink>
+     this kind of investment, as of this writing in 2014, is the Meteor
+     (<ulink url="https://www.meteor.com/" >https://www.meteor.com/</ulink>)
      project.</para>  
      </listitem>
    </varlistentry>
@@ -270,8 +270,9 @@ will result from several, or even all, of these motivations:</para>
      revenue from a proprietary version does not <emphasis>necessarily</emphasis>
      mean that the free software version is worse off, and some very well-known
      and widely-used free software has had corresponding proprietary
-     versions (<ulink url="https://en.wikipedia.org/wiki/MySQL"
-     >https://en.wikipedia.org/wiki/MySQL</ulink> is probably the most famous example).  However,
+     versions (MySQL<footnote><para><ulink url="https://en.wikipedia.org/wiki/MySQL"
+     >https://en.wikipedia.org/wiki/MySQL</ulink></para></footnote>
+     is probably the most famous example).  However,
      some developers dislike the thought that their contributions may
      end up in the proprietary version.  Also, the mere presence of
      the proprietary version suggests the possibility that some of the
@@ -716,8 +717,8 @@ start out assuming that the tensions are there; you do need to
 demonstrate an awareness that they have the potential to arise.</para>
 
 <para>A perfect example of this came up early in the Subversion project.
-Subversion was started in 2000 by <ulink
-url="http://www.collab.net/">http://www.collab.net/</ulink>, which has been the
+Subversion was started in 2000 by CollabNet (<ulink
+url="http://www.collab.net/">http://www.collab.net/</ulink>), which has been the
 project's primary funder since its inception, paying the salaries of
 several developers (disclosure: I was one of them for six years).  Soon after the
 project began, we hired another developer, Mike Pilato, to join the
@@ -2830,7 +2831,7 @@ threshold and the pledges are collected only if the threshold is met,
 or "keep it all", which is essentially traditional donation: funds go
 immediately to the recipient whether or not a stated goal amount is
 ever met.  <ulink url="https://goteo.org/" >https://goteo.org/</ulink> and
-<ulink url="https://Kickstarter.com/" >https://Kickstarter.com/</ulink> are
+<ulink url="https://kickstarter.com/" >https://kickstarter.com/</ulink> are
 probably the best-known examples of all-or-nothing crowdfunding
 services, though there are many others (I like Goteo because their
 platform is itself free software, and because it is meant specifically

@@ -234,13 +234,9 @@ gateway to the development area.</para>
 
 <para>In the case of LibreOffice, as with some other large projects,
 they have a few different gateways to developer-land.  There's a
-prominent link that says <ulink
-url="https://www.libreoffice.org/community/get-involved/"
->https://www.libreoffice.org/community/get-involved/</ulink>, and at the top there's also a dropdown
-menu named "Community" that offers both "Get Involved" and another
-link entitled <ulink
-url="https://www.libreoffice.org/community/developers/"
->https://www.libreoffice.org/community/developers/</ulink>.</para>
+prominent link that says "Get Involved", and at the top there's also a
+dropdown menu named "Community" that offers both "Get Involved" and
+another link entitled "Developers" .</para>
 
 <para>The "Get Involved" page is aimed at the broadest possible range of
 potential contributors: developers, yes, but also documenters,
@@ -367,11 +363,11 @@ not space here to review the field.</para>
 
 <para>So I'll make this easy:</para>
 
-<para>If you don't know what to choose, then choose <ulink
-url="https://github.com/" >https://github.com/</ulink>.  It's by far the most
+<para>If you don't know what to choose, then choose GitHub (<ulink
+url="https://github.com/" >https://github.com/</ulink>).  It's by far the most
 popular and appears set to stay that way for some years to come.  It
 has a good set of features and integrations.  Many developers are
-already familiar with GitHub and have an account there.  It has an
+already familiar with GitHub and have an account there.  It offers
 <ulink url="https://develop.github.com/" >https://develop.github.com/</ulink> for interacting
 programmatically with project resources, and while it does not
 currently offer mailing lists, there are plenty of other places you
@@ -382,7 +378,7 @@ can provision those, such as <ulink url="https://discourse.org/"
 <para>If you're not convinced by GitHub (for example because your
 project uses, say, Mercurial instead of Git for version control), but
 you aren't sure where to host, take a look at Wikipedia's thorough
-<ulink
+comparison at <ulink
 url="https://en.wikipedia.org/wiki/Comparison_of_open_source_software_hosting_facilities"
 >https://en.wikipedia.org/wiki/Comparison_of_open_source_software_hosting_facilities</ulink>; it's
 the first place to look for up-to-date, comprehensive information on
@@ -406,25 +402,29 @@ of their infrastructure with you, at least not all of it.</para>
 entirely free software infrastructure and that could, in theory, be
 reproduced independently were that ever to become necessary.
 Fortunately, there are a few such sites.  As of mid-2015, <ulink
-url="https://phacility.com" >https://phacility.com</ulink> offers low-cost
+url="https://phacility.com/" >https://phacility.com/</ulink> offers low-cost
 project hosting in <ulink url="http://phabricator.org/"
 >http://phabricator.org/</ulink>, a fully open source web platform for open-source
 style collaboration.</para>
 
-<para>There is also <ulink url="https://gitlab.com/" >https://gitlab.com/</ulink>,
-which until recently was fully open source.  However, they now seem to
-offer an open source edition for self-hosting and an "enterprise
-edition" that they host and that has a few features the open source
-edition doesn't have.  Unfortunately, GitLab.com doesn't currently
-seem to offer a hosting package based on the strictly open source
-edition, which is too bad, because that would be the best choice for
-an open source project that wants to outsource hosting while
-preserving its commitment, both philosophical and utilitarian, to
-software freedom.</para>
+<para>There is also GitLab (<ulink url="https://gitlab.com/"
+>https://gitlab.com/</ulink>), which until recently was fully open
+source.  However, they now seem to offer an open source edition for
+self-hosting and a so-called "enterprise edition"<footnote><para>See
+<xref linkend="commercial-vs-proprietary"/><phrase
+condition="treeware"> in <xref linkend="money"/></phrase> for why I
+put scare quotes around "enterprise edition".</para></footnote> that
+they host and that has a few features the open source edition doesn't
+have.  Unfortunately, GitLab.com doesn't currently seem to offer a
+hosting package based on the strictly open source edition, which is
+too bad, because that would be the best choice for an open source
+project that wants to outsource hosting while preserving its
+commitment, both philosophical and utilitarian, to software
+freedom.</para>
 
-<para>Furthermore, any service that offers hosting of the <ulink
-url="http://www.redmine.org/" >http://www.redmine.org/</ulink> or <ulink
-url="https://trac.edgewall.org/" >https://trac.edgewall.org/</ulink> code collaboration
+<para>Furthermore, any service that offers hosting of the Redmine (<ulink
+url="http://www.redmine.org/" >http://www.redmine.org/</ulink>) or Trac (<ulink
+url="https://trac.edgewall.org/" >https://trac.edgewall.org/</ulink>) code collaboration
 platforms effectively offers fully freedom-preserving project hosting,
 because those platforms include most of the features needed to run an
 open source project.  Some companies offer that kind of commercial
@@ -536,14 +536,14 @@ have a separate place for other kinds of discussions.</para>
 
 <para>For a long time, discussion forums were mainly mailing lists,
 but the distinction between mailing lists and Web-based forums is,
-thankfully, slowly disappearing.  Services like <ulink
-url="https://groups.google.com/" >https://groups.google.com/</ulink> (which
+thankfully, slowly disappearing.  Services like Google Groups (<ulink
+url="https://groups.google.com/" >https://groups.google.com/</ulink>), which
 <!-- I used to list GMane here, but its status was a little fuzzy as
      of 2016/2017, although the Yomura takeover seems to be going well.
      It would be nice to point to it again; historically, it was one
      of the first widely-used examples of thread equivalence. -->
-is not itself open source) and <ulink url="http://www.discourse.org/"
->http://www.discourse.org/</ulink> (which is) have established that
+is not itself open source, and Discourse (<ulink url="http://www.discourse.org/"
+>http://www.discourse.org/</ulink>), which is, have established that
 cross-accessibility of message forums as mailing lists and vice versa
 is the minimum bar to meet, and modern discussion management systems
 reflect this.</para>
@@ -1189,13 +1189,13 @@ most are probably subscribed to the list anyway.  Eventually, other
 mail readers will pick up the feature, and this whole debate will go
 away.</para>
 
-<para>(Actually, the <ulink url="http://www.mutt.org/" >http://www.mutt.org/</ulink>
-mail reader does offer this feature.  Then shortly after the first
-edition of this book appeared, <ulink
-url="https://github.com/webmaven/" >https://github.com/webmaven/</ulink>
-wrote me to say: "There are other email clients that implement a
-reply-to-list function besides Mutt.  For example, Evolution has this
-function as a keyboard shortcut, but not a button (Ctrl+L).")</para>
+<para>(Actually, the Mutt (<ulink url="http://www.mutt.org/"
+>http://www.mutt.org/</ulink>) mail reader does offer this feature.
+Then shortly after the first edition of this book appeared, Michael
+Bernstein wrote me to say: "There are other email clients that
+implement a reply-to-list function besides Mutt.  For example,
+Evolution has this function as a keyboard shortcut, but not a button
+(Ctrl+L).")</para>
 
 <para>An even better solution would be for Reply-to munging to be a
 per-subscriber preference in the list management software.  Those who
@@ -1293,8 +1293,7 @@ these properties:</para>
             bodies of messages, as well as on authors and
             subjects&nbsp;&mdash;&nbsp;is close to useless.  Note that some archivers 
             support searching by simply farming the work out to an
-            external search engine such as <ulink
-            url="https://www.google.com/" >https://www.google.com/</ulink>.  This is
+            external search engine such as Google.  This is
             acceptable, but direct search support is usually more
             fine-tuned, because it allows the searcher to specify that
             the match must appear in a subject line versus the body,
@@ -1753,8 +1752,8 @@ discussion can often be helpful.</para>
 <para>If you don't already have a strong opinion about which version
 control system your project should use, then choose Git (<ulink
 url="https://git-scm.com/" >https://git-scm.com/</ulink>), and host your
-project's repositories at <ulink url="https://github.com/"
->https://github.com/</ulink>, which offers unlimited free hosting for open
+project's repositories at GitHub (<ulink url="https://github.com/"
+>https://github.com/</ulink>), which offers unlimited free hosting for open
 source projects.</para>
 
 <para>Git is by now the <foreignphrase>de facto</foreignphrase>

@@ -381,9 +381,9 @@ preferential ranking of choices&nbsp;&mdash;&nbsp;such as
 <firstterm>score voting</firstterm>, <firstterm>Borda</firstterm>,
 <firstterm>Condorcet</firstterm>, <firstterm>instant
 runoff</firstterm>, and <firstterm>single transferable
-vote</firstterm>&nbsp;&mdash;&nbsp;but a famous result known as <ulink
+vote</firstterm>&nbsp;&mdash;&nbsp;but a famous result known as "Arrow's Impossibility Theorem" (<ulink
 url="https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem"
->https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem</ulink> has already demonstrated that
+>https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem</ulink>) has already demonstrated that
 no voting system is perfect (at least among a certain broad class of
 voting systems).  Try to avoid getting into a long debate
 about which system to use, because, of course, you will then
@@ -743,9 +743,9 @@ could manage if it started its own organization.</para>
 <para>Here are some well-known and reputable umbrella organizations:</para>
 
 <itemizedlist>
-  <listitem>Software Freedom Conservancy (<ulink
+  <listitem>Software Freedom Conservancy <ulink
   url="https://sfconservancy.org/"
-  >https://sfconservancy.org/</ulink>)<footnote><para>I think the Software
+  >https://sfconservancy.org/</ulink><footnote><para>I think the Software
   Freedom Conservancy is a good choice for most projects,
   which is why I listed it first.  But I should add the disclosure
   that I joined their Evaluation Committee, a volunteer committee that

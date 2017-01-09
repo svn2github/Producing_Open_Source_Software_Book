@@ -1018,11 +1018,11 @@ the patch but no commit, he creates or updates a ticket to point to
 the final version, and to any discussion around it, so that there is a
 permanent record for developers to follow up on later.  In projects
 that use a patch queue manager (e.g., Jeremy Kerr's 
-<ulink url="http://jk.ozlabs.org/projects/patchwork/" >http://jk.ozlabs.org/projects/patchwork/</ulink>)
-or review tools (e.g., <ulink
-url="https://www.gerritcodereview.com/" >https://www.gerritcodereview.com/</ulink>, <ulink
-url="https://en.wikipedia.org/wiki/Review_Board"
->https://en.wikipedia.org/wiki/Review_Board</ulink>, etc), the patch manager can help encourage
+Patchwork, at <ulink url="http://jk.ozlabs.org/projects/patchwork/" >http://jk.ozlabs.org/projects/patchwork/</ulink>)
+or review tools (e.g., Gerrit, at <ulink
+url="https://www.gerritcodereview.com/" >https://www.gerritcodereview.com/</ulink>, or ReviewBoard, at <ulink
+url="https://www.reviewboard.org/"
+>https://www.reviewboard.org/</ulink>, etc), the patch manager can help encourage
 consistent usage of that tool, by putting patches there and watching
 to make sure developers handle them there.</para>
 
@@ -1928,8 +1928,8 @@ forks</firstterm>.  The distinction between them is important.</para>
 development is done in most projects today.  A developer creates her
 own public copy of the project's master repository, makes some
 changes, then submits the changes back to the project directly from
-the forked copy.<footnote><para>This is the "<ulink
-url="pull-requests" >pull-requests</ulink>" workflow first popularized
+the forked copy.<footnote><para>This is the "<xref
+linkend="pull-requests" >pull-requests</xref>" workflow first popularized
 by GitHub.com.  GitHub's decision to use the term "fork" instead of
 "clone" to refer to the personal copies in which development is done
 is largely responsible for the newer, "short fork" sense of

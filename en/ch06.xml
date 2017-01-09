@@ -2317,7 +2317,7 @@ receiving pre-notification is threefold: the recipient must run a
 large, important service where a compromise would be a serious matter;
 the recipient must be known to be someone who won't blab about the
 security problem before the go-public date; and you must have a way
-(such as via <ulink url="https://gnupg.org/" >https://gnupg.org/</ulink>-encrypted
+(such as via GnuPG-encrypted (<ulink url="https://gnupg.org/" >https://gnupg.org/</ulink>)
 email) to communicate securely with the recipient, so that any
 eavesdroppers between you and your recipient can't read the
 message.<footnote><para>Remember that Subject lines in emails aren't
