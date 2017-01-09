@@ -1,7 +1,7 @@
 # We list 'en' first because it's built the most often, and therefore
 # is less likely than any of the translations is to have a problem with
-# PDF generation.  This way it gets built first, which means the
-# 'upload' rule and other things don't have to wait for other builds.
+# PDF generation.  This way it gets built first, which means even if
+# other builds fail later, you can still run the 'upload' rule.
 LANGUAGES=en de es fr he ja ml pl pt-pt pt-br ca da fa id ru it gr ar gl hu nl ro vi zh ta ko sv th tr
 
 default: all
@@ -54,17 +54,15 @@ clean:
         done
 
 upload: 
-	@for d in ${LANGUAGES}; do make $${d};                              \
-	  cd $${d};                                                         \
-          scp producingoss.pdf                                              \
-            kfogel@sp.red-bean.com:/www/producingoss/$${d}/pnew.pdf;        \
-          ssh kfogel@sp.red-bean.com                                        \
-            "(cd /www/producingoss/$${d} && mv pnew.pdf producingoss.pdf)"; \
-          scp producingoss.ps                                               \
-            kfogel@sp.red-bean.com:/www/producingoss/$${d}/pnew.ps;         \
-          ssh kfogel@sp.red-bean.com                                        \
-            "(cd /www/producingoss/$${d} && mv pnew.ps producingoss.ps)";   \
-          cd ..;                                                            \
+	@for d in ${LANGUAGES}; do                                            \
+	  cd $${d};                                                           \
+          if [ -f producingoss.pdf ]; then                                    \
+            scp producingoss.pdf                                              \
+              kfogel@sp.red-bean.com:/www/producingoss/$${d}/pnew.pdf;        \
+            ssh kfogel@sp.red-bean.com                                        \
+              "(cd /www/producingoss/$${d} && mv pnew.pdf producingoss.pdf)"; \
+          fi;                                                                 \
+          cd ..;                                                              \
         done
 
 dist:
