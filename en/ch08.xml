@@ -1505,7 +1505,7 @@ auspicious of beginnings for the new release managers either.</para>
   <title>Defining "Committer" and "Commit Access"</title>
   <para>For the purposes of this section, the word
   <firstterm>committer</firstterm> means one of the official
-  maintainers of the software&nbsp;&mdash;&nbsp;a committer is someone
+  maintainers of the project's software code.  A committer is someone
   who has <firstterm>commit access</firstterm>: the right to make
   changes to the copy of the code that will be used for the project's
   next official release.</para>
@@ -1533,9 +1533,9 @@ auspicious of beginnings for the new release managers either.</para>
   that repository.  It is the same idea either way: the master
   repository is a social concept, not a technical concept, and the
   mechanics of how changes get into it are not important here.  Open
-  source projects continue to use the term "committer" as a synonym
-  for "official maintainer", even though formally speaking the
-  "commit" command is no longer where the gating happens.</para>
+  source projects continue to use the term "committer" in this
+  identifying sense, even though formally speaking the "commit"
+  command is no longer where the gating happens.</para>
 </sidebar>
 
 <para>As the only formally distinct class of people found in all open
@@ -1554,68 +1554,87 @@ side-by-side with people who cannot sets up an obvious power dynamic.
 That dynamic must be managed so that it does not harm the
 project.</para>
 
-<para>In <xref linkend="electorate"/><phrase condition="treeware">
-in <xref linkend="social-infrastructure"/></phrase>, we already
-discussed the mechanics of considering new committers.  Here we will
-look at the standards by which potential new committers should be
-judged, and how this process should be presented to the larger
-community.</para>
+<para>In <xref linkend="electorate"/><phrase condition="treeware"> in
+<xref linkend="social-infrastructure"/></phrase>, we already discussed
+the mechanics of choosing new committers, as a subset of choosing
+maintainers generally.  Here we will look at the standards by which
+potential new committers should be judged, and how this process should
+be presented to the larger community.</para>
+
+<!-- ======================== subsection ============================== -->
+<sect2 id="commiter-vs-maintainer">
+<title>Committers vs Maintainers</title>
+
+<para>If you haven't already, please read <xref
+linkend="non-technical-maintainers"/><phrase condition="treeware"> in
+<xref linkend="social-infrastructure"/></phrase> and take its point to
+heart.</para>
+
+<para>The discussion in this section is specifically about
+<emphasis>committers</emphasis>, not about all maintainers.  Because
+committers are ultimately responsible for the project's code base, and
+for the quality of its public software releases, the long-term health
+of the project is inescapably dependent on how they approach their
+work.  This doesn't mean that other kinds of contributors can't also
+affect the project's health; it just means that if the committers
+aren't doing their job well, there is no way the project can
+succeed.</para>
+
+</sect2>
 
 <!-- ======================== subsection ============================== -->
 <sect2 id="choosing-committers">
 <title>Choosing Committers</title>
 
-<para>In the Subversion project, we choose committers primarily on the
-Hippocratic Principle: <emphasis>first, do no harm</emphasis>.  Our
-main criterion is not technical skill or even knowledge of the code,
-but merely that the person show good judgement.  Judgement includes
-knowing what not to take on.  Someone might post only small patches,
-fixing fairly simple problems in the code, but if her patches apply
-cleanly, do not contain bugs, and are mostly in accord with the
-project's log message and coding conventions, and there are enough
-patches to show a clear pattern, then an existing committer will
-usually propose her for commit access.  If at least three people say
-yes, and no one objects, then the offer is made.  True, we might have
-no evidence that the person is able to solve complex problems in all
-areas of the codebase, but that is irrelevant: the person has made it
-clear that she is capable of judging her own abilities, and that is
-the important thing.  Technical skills can be learned (and taught),
-but judgement, for the most part, cannot.  Therefore, it is the one
-thing you want to make sure a person has before you give her commit
-access.</para>
+<para>A good basis for choosing committers is the Hippocratic
+Principle: <emphasis>first, do no harm</emphasis>.</para>
+
+<para>The most important criterion is not technical skill or even deep
+familiarity with the code, but rather that a person show good
+judgement.  Judgement includes knowing what not to take on.  Someone
+might post only small patches, fixing fairly simple problems in the
+code, but if her patches apply cleanly, do not contain bugs, and are
+mostly in accord with the project's log message and coding
+conventions, and there are enough patches to show a clear pattern,
+then an existing committer should propose her for commit access.  If
+at least (say) three people say yes, and no one objects, then the
+offer is made.  True, there might be no evidence yet that the person
+is able to solve complex problems in all areas of the codebase, but
+that is irrelevant: the person has made it clear that she is capable
+of judging her own abilities, and that is the important thing.</para>
 
 <para>When a new committer proposal does provoke a discussion, it is
 usually not about technical ability, but rather about the person's
 behavior in the project's discussion forums.  Sometimes someone shows
-technical skill and an ability to work within the project's formal
-guidelines, yet is also consistently belligerent or uncooperative in
-public forums.  That's a serious concern; if the person doesn't seem
-to shape up over time, even in response to hints, then we won't add
-her as a committer no matter how skilled she is.  In an open source
-project, social skills, or the ability to "play well in the sandbox",
-are as important as raw technical ability.  Because everything is
-under version control, the penalty for adding a committer you
-shouldn't have added is not so much the problems it could cause in the
-code (review would spot those quickly anyway), but that it might
-eventually force the project to revoke the person's commit
-access&nbsp;&mdash;&nbsp;an action that is never pleasant and can sometimes be
-confrontational.</para>
+technical skill and an ability to meet the project's formal code
+contribution standards, yet is also consistently belligerent or
+uncooperative in public forums.  That's a serious concern; if the
+person doesn't seem to shape up over time, even in response to hints,
+then don't add her as a committer no matter how skilled she is.  In an
+open source project, social skills, or the ability to "play well in
+the sandbox", are as important as raw technical ability.  Because
+everything is under version control, the penalty for adding a
+committer you shouldn't have added is not so much the problems it
+could cause in the code (review would spot those quickly anyway), but
+that it might eventually force the project to revoke the person's
+commit access&nbsp;&mdash;&nbsp;an action that is never pleasant and
+can sometimes fragment the whole community.</para>
 
-<para>Some projects insist that the potential committer demonstrate a
+<para>Some projects insist that a potential committer demonstrate a
 certain level of technical expertise and persistence, by submitting
-some number of nontrivial patches&nbsp;&mdash;&nbsp;that is, not only do these
-projects want to know that the person will do no harm, they want to
-know that she is likely to do good across the codebase.  This isn't
-necessarily harmful, but be careful that it doesn't start to turn
-committership into a matter of membership in an exclusive club.  The
-question to keep in everyone's mind should be "What will bring the
+some number of nontrivial patches&nbsp;&mdash;&nbsp;that is, not only
+do these projects want to know that the person will do no harm, they
+want to know that she is likely to do good across the codebase.  This
+isn't always a bad policy, but be careful that it doesn't start to
+turn committership into a matter of membership in an exclusive club.
+The question to keep in everyone's mind should be "What will bring the
 best results for the code?" not "Will we devalue the social status
 associated with committership by admitting this person?"  The point of
 commit access is not to reinforce people's self-worth, it's to allow
 good changes to enter the code with a minimum of fuss.  If you have
-100 committers, 10 of whom make large changes on a regular basis, and
-the other 90 of whom just fix typos and small bugs a few times a year,
-that's still better than having only the 10.</para>
+100 committers, 12 of whom make large changes on a regular basis, and
+the other 88 of whom just fix typos and small bugs a few times a year,
+that's still better than having only the 12.</para>
 
 </sect2>
 
@@ -1666,19 +1685,21 @@ specification files for packaging (e.g., RedHat RPM spec files,
 etc.), and other places where a mistake will not result in a problem for
 the core project.</para>
 
-<para>Since commit access is not only about committing, but about
-being part of an electorate (see
-<xref linkend="electorate"/><phrase condition="treeware"> in
-<xref linkend="social-infrastructure"/></phrase>),
-the question naturally arises: what can the partial committers vote
-on?  There is no one right answer; it depends on what sorts of partial
-commit domains your project has.  In Subversion things are
-fairly simple: a partial committer can vote on matters confined
-exclusively to that committer's domain, and not on anything else.
-Importantly, we do have a mechanism for casting advisory votes
-(essentially, the committer writes "+0" or "+1&nbsp;(non-binding)"
-instead of just "+1" on the ballot).  There's no reason to silence
-people just because their vote isn't formally binding.</para>
+<para>Since commit access is sometimes not only about committing, but
+about being part of an electorate (see <xref
+linkend="electorate"/><phrase condition="treeware"> in <xref
+linkend="social-infrastructure"/></phrase>), a question may naturally
+arise: what can the partial committers vote on?</para>
+
+<para>There is no one right answer; it depends on what sorts of
+partial commit domains your project has.  In the Subversion project
+things are fairly simple: a partial committer can vote on matters
+confined exclusively to that committer's domain, and not on anything
+else.  Importantly, the project does have a mechanism for casting
+advisory votes (essentially, the committer writes "+0" or
+"+1&nbsp;(non-binding)" instead of just "+1" on the ballot).  There's
+no reason to silence people just because their vote isn't formally
+binding.</para>
 
 <para>Full committers can vote on anything, just as they can commit
 anywhere, and only full committers vote on adding new committers of

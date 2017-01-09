@@ -470,62 +470,95 @@ gets to vote?  This has the potential to be a sensitive issue, because
 it forces the project to officially recognize some people as being
 more involved, or as having better judgement, than others.</para>
 
-<para>The best solution is to simply take an existing distinction,
-commit access, and attach voting privileges to it.  In projects that
-offer both full and partial commit access, the question of whether
-partial committers can vote largely depends on the process by which
-partial commit access is granted.  If the project hands it out
-liberally, for example as a way of maintaining many third-party
-contributed tools in the repository, then it should be made clear that
-partial commit access is really just about committing, not voting.
-The reverse implication naturally holds as well: since full committers
-<emphasis>will</emphasis> have voting privileges, they must be chosen
-not only as programmers, but as members of the electorate.  If someone
-shows disruptive or obstructionist tendencies on the mailing list, the
-group should be very cautious about making him a committer, even if
-the person is technically skilled.</para>
+<para>One solution is to simply take an existing distinction, commit
+access (see <xref linkend="committers"/><phrase condition="treeware">
+in <xref linkend="managing-participants"/></phrase>), and attach
+voting privileges to it.  In projects that offer both full and partial
+commit access, the question of whether partial committers can vote
+largely depends on the process by which partial commit access is
+granted.  If the project hands it out liberally, for example as a way
+of maintaining many third-party contributed tools in the repository,
+then it should be made clear that partial commit access is really just
+about committing, not voting.  The reverse implication naturally holds
+as well: since full committers <emphasis>will</emphasis> have voting
+privileges, they must be chosen not only as programmers, but as
+members of the electorate.  If someone shows disruptive or
+obstructionist tendencies on the mailing list, the group should be
+very cautious about making him a committer, even if the person is
+technically skilled.</para>
+
+<sect3 id="non-technical-maintainers">
+<title>Not All Maintainers Are Coders</title>
+
+<para>For some projects, it works out fine to have the set of
+committers and the set of voters be exactly the same.  But that isn't
+appropriate for every project.  There may be people who are very
+invested, and who contribute a lot, but through means other than
+coding.  Plenty of people provide legal help, or organize events, or
+manage the bug tracker, or write documentation, or do any number of
+other things that are highly valued in the project.  They often may
+have a level of influence in the community (and familiarity with the
+community's dynamics) that exceeds that of many committers.</para>
+
+<para>If valuable members of your community are being left out of
+important decisions because they happen not be contributing code,
+consider expanding the notion of <emphasis>committer</emphasis> out to
+the larger notion of <firstterm>maintainer</firstterm>.  For the rest
+of this section, I'll use that term.  In projects where commit access
+and maintainership are synonymous, then it just means the same thing
+as "committer", but in other projects it might mean more than that.
+The procedures for adding new maintainers should be the same either
+way; it doesn't matter if they write code or
+not&nbsp;&mdash;&nbsp;what matters is their good judgement and the
+trust of their peers in the project.</para>
+
+</sect3>
+
+<sect3 id="adding-maintainers">
+<title>Adding New Maintainers</title>
 
 <para>The voting system itself should be used to choose new
-committers, both full and partial.  But here is one of the rare
+voters, both full and partial.  But here is one of the rare
 instances where secrecy is appropriate.  You can't have votes about
-potential committers posted to a public mailing list, because the
+potential new maintainers posted to a public mailing list, because the
 candidate's feelings (and reputation) could be hurt.  Instead, the
-usual way is that an existing committer posts to a private mailing
-list consisting only of the other committers, proposing that someone
-be granted commit access.  The other committers speak their minds
+usual way is that an existing maintainer posts to a private mailing
+list consisting only of the other maintainers, proposing that someone
+be invited to join.  The other maintainers speak their minds
 freely, knowing the discussion is private.  Often there will be no
 disagreement, and therefore no vote necessary.  After waiting a few
-days to make sure every committer has had a chance to respond, the
-proposer mails the candidate and offers him commit access.  If there
+days to make sure every maintainer has had a chance to respond, the
+proposer mails the candidate and makes the offer.  If there
 is disagreement, discussion ensues as for any other question, possibly
-resulting in a vote.  For this process to be open and frank, the mere
-fact that the discussion is taking place at all should be secret.  If
-the person under consideration knew it was going on, and then were
-never offered commit access, he could conclude that he had lost
-the vote, and would likely feel hurt.  Of course, if someone
-explicitly asks for commit access, then there is no choice but to
-consider the proposal and explicitly accept or reject him.  If the
-latter, then it should be done as politely as possible, with a clear
-explanation: "We liked your patches, but haven't seen enough of them
-yet," or "We appreciate all your patches, but they required
-considerable adjustments before they could be applied, so we don't
-feel comfortable giving you commit access yet.  We hope that this will
-change over time, though."  Remember, what you're saying could come as
-a blow, depending on the person's level of confidence.  Try to see it
-from their point of view as you write the mail.</para>
+resulting in a vote.</para>
 
-<para>Because adding a new committer is more consequential than most
+<para>For this process to be open and frank, the mere fact that the
+discussion is taking place at all should be secret.  If the person
+under consideration knew it was going on, and then were never offered
+maintainership, he could conclude that he had lost the vote, and would
+likely feel hurt.  Of course, if someone explicitly asks to be
+considered, then there is no choice but to take up the proposal and
+explicitly accept or reject him.  If the latter, then it should be
+done as politely as possible, with a clear explanation: "We liked your
+patches, but haven't seen enough of them yet," or "We appreciate all
+the work you did for the conference, but you haven't been very active
+in the project since then, so we don't feel comfortable making you a
+maintainer just yet.  We hope that this will change over time,
+though."  Remember, what you're saying could come as a blow, depending
+on the person's temperament or confidence level.  Try to see it from
+their point of view as you write the mail.</para>
+
+<para>Because adding a new maintainer is more consequential than most
 other one-time decisions, some projects have special requirements for
 the vote.  For example, they may require that the proposal receive at
 least <emphasis>n</emphasis> positive votes and no negative votes, or
 that a supermajority vote in favor.  The exact parameters are not
 important; the main idea is to get the group to be careful about
-adding new committers.  Similar, or even stricter, special requirements
-can apply to votes to <emphasis>remove</emphasis> a committer, though
-hopefully that will never be necessary.  See <xref
-linkend="committers"/><phrase condition="treeware"> in
-<xref linkend="managing-participants"/></phrase> for more on the
-non-voting aspects of adding and removing committers.</para>
+adding new maintainers.  Similar, or even stricter, special
+requirements can apply to votes to <emphasis>remove</emphasis> a
+maintainer, though hopefully that will never be necessary.</para>
+
+</sect3>
 
 </sect2>
 
