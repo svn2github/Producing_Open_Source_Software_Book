@@ -117,8 +117,8 @@ transaction, you trade money for what you want.  If you need a feature
 added, you sign a contract, pay for it, and (if all goes well) the
 work gets done and the feature eventually lands in the product.  In an
 open source project, it's not so simple.  You may sign a contract with
-some developers, but they'd be fooling themselves&mdash;and
-you&mdash;if they guaranteed that the work you paid for would be
+some developers, but they'd be fooling themselves&nbsp;&mdash;&nbsp;and
+you&nbsp;&mdash;&nbsp;if they guaranteed that the work you paid for would be
 accepted by the development community simply because you paid for it.
 The work can only be accepted on its own merits and on how it fits
 into the community's vision for the software (see <xref
@@ -223,8 +223,8 @@ will result from several, or even all, of these motivations:</para>
      <listitem>
      <para>The value of computers and computer components is directly
      related to the amount of software available for them.  Hardware
-     vendors&mdash;not just whole-machine vendors, but also makers
-     of peripheral devices and microchips&mdash;have found that
+     vendors&nbsp;&mdash;&nbsp;not just whole-machine vendors, but also makers
+     of peripheral devices and microchips&nbsp;&mdash;&nbsp;have found that
      having high-quality free software to run on their hardware is
      important to customers.</para>
      </listitem>
@@ -478,7 +478,7 @@ lose.</para>
 
 <para>If you're managing programmers on an open source project, keep
 them there long enough that they acquire both technical and political
-expertise&mdash;a couple of years, at a minimum.  Of course, no
+expertise&nbsp;&mdash;&nbsp;a couple of years, at a minimum.  Of course, no
 project, whether open or closed-source, benefits from swapping
 programmers in and out too often.  The need for a newcomer to learn
 the ropes each time would be a deterrent in any environment.  But the
@@ -603,8 +603,8 @@ development community knows about <emphasis>why</emphasis> you want
 what you want, the more comfortable they'll be with whatever you're
 proposing.</para>
 
-<para>This runs counter to the instinct&mdash;so easy to acquire, so
-hard to shake off&mdash;that knowledge is power, and that the more
+<para>This runs counter to the instinct&nbsp;&mdash;&nbsp;so easy to acquire, so
+hard to shake off&nbsp;&mdash;&nbsp;that knowledge is power, and that the more
 others know about your goals, the more control they have over you.
 But that instinct would be wrong here.  By publicly advocating the
 feature (or bugfix, or whatever it is), you have
@@ -658,7 +658,7 @@ it out for special consideration at first.  This is not deception, it
 is simply standard "honest broker" behavior.  After all, your true
 goal is to solve the problem; a solution is merely a means to that
 end.  If the solution you prefer really is superior, other developers
-will recognize that on their own eventually&mdash;and then they will
+will recognize that on their own eventually&nbsp;&mdash;&nbsp;and then they will
 get behind it of their own free will, which is much better than you
 browbeating them into implementing it.  (There is also the possibility
 that they will think of a better solution.)</para>
@@ -673,7 +673,7 @@ sounds arrogant as that it gives the impression that you have
 <emphasis>already</emphasis> devoted some unknown (but, people will
 presume, large) amount of analytical resources to the problem, behind
 closed doors.  It makes it seem as though efforts have been going on,
-and perhaps decisions made, that the public is not privy to&mdash;and
+and perhaps decisions made, that the public is not privy to&nbsp;&mdash;&nbsp;and
 that is a recipe for resentment.</para>
 
 <para>Naturally, <emphasis>you</emphasis> know how much effort you've
@@ -746,7 +746,7 @@ that CollabNet had the right to ignore project guidelines, simply
 because it was the primary funder.  While the damage from this would
 not necessarily be immediately apparent, it would gradually result in
 the non-salaried developers feeling disenfranchised.  Other people
-have to earn their commit access&mdash;CollabNet just buys
+have to earn their commit access&nbsp;&mdash;&nbsp;CollabNet just buys
 it.</para>
 
 <para>So Mike agreed to start out his employment at CollabNet like any
@@ -825,8 +825,8 @@ Archive's Wayback Machine at
 <ulink url="https://web.archive.org/web/20050227033105/http://blogs.sun.com/roller/page/DaneseCooper/20040916"
        >https://web.archive.org/web/20050227033105/http://blogs.sun.com/roller/page/DaneseCooper/20040916</ulink>,
 for a similar story about commit access.  Cooper was then Sun
-Microsystem's "Open Source Diva"&mdash;I believe that was her official
-title&mdash;and in the blog entry, she describes how the Tomcat
+Microsystem's "Open Source Diva"&nbsp;&mdash;&nbsp;I believe that was her official
+title&nbsp;&mdash;&nbsp;and in the blog entry, she describes how the Tomcat
 development community got Sun to hold its own developers to the same
 commit-access standards as the non-Sun developers.)</para>
 
@@ -893,7 +893,7 @@ standards and specify that the contracted work must meet them.  In
 practice, this usually works out the way everyone hopes.</para>
 
 <para>The best tactic for successful contracting is to hire one of the
-project's developers&mdash;preferably a committer&mdash;as the
+project's developers&nbsp;&mdash;&nbsp;preferably a committer&nbsp;&mdash;&nbsp;as the
 contractor.  This may seem like a form of purchasing influence, and,
 well, it is.  But it's not as corrupt as it might seem.  A developer's
 influence in the project is due mainly to the quality of her code and
@@ -924,7 +924,7 @@ developers and not others?</para>
 
 <para>It's best to be open about contracts when you can.  Otherwise,
 the contractor's behavior may seem strange to others in the
-community&mdash;perhaps she's suddenly giving inexplicably high
+community&nbsp;&mdash;&nbsp;perhaps she's suddenly giving inexplicably high
 priority to features she's never shown interest in the past.  When
 people ask her why she wants them now, how can she answer convincingly
 if she can't talk about the fact that she's been contracted to write
@@ -935,8 +935,8 @@ though others should treat your arrangement as a big deal.  Too often
 I've seen contractors waltz onto a development list with the attitude
 that their posts should be taken more seriously simply because they're
 being paid.  That kind of attitude signals to the rest of the project
-that the contractor regards the fact of the contract&mdash;as opposed
-to the code <emphasis>resulting</emphasis> from the contract&mdash;to
+that the contractor regards the fact of the contract&nbsp;&mdash;&nbsp;as opposed
+to the code <emphasis>resulting</emphasis> from the contract&nbsp;&mdash;&nbsp;to
 be the important thing.  But from the other developers' point of view,
 only the code matters.  At all times, the focus of attention should be
 kept on technical issues, not on the details of who is paying whom.
@@ -972,7 +972,7 @@ once you find someone you can work reliably with, you would be
 reluctant to switch to a different person just for the sake of
 evenhandedness.  Think of it this way: the first time you hire, there
 will be no complaints, because clearly you had to pick
-<emphasis>someone</emphasis>&mdash;it's not your fault you can't hire
+<emphasis>someone</emphasis>&nbsp;&mdash;&nbsp;it's not your fault you can't hire
 everyone.  Later, when you hire the same person a second time, that's
 just common sense: you already know her, the last time was
 successful, so why take unnecessary risks?  Thus, it's perfectly
@@ -987,7 +987,7 @@ long-term success of contract work.  Their involvement in the design
 and review process for sizeable changes cannot be an afterthought; It
 must be considered part of the work, and fully embraced by the
 contractor.  Don't think of community scrutiny as an obstacle to be
-overcome&mdash;think of it as a free design board and QA department.
+overcome&nbsp;&mdash;&nbsp;think of it as a free design board and QA department.
 It is a benefit to be aggressively pursued, not an obstacle to be
 merely endured.</para>
 
@@ -1021,8 +1021,8 @@ the time to write up a proposal and run it by the other developers for
 review.  But we never did so, because it didn't occur to us to think
 of the development list as a resource to be used to improve our
 contracted work.  We knew that people
-were probably going to accept whatever we committed, and&mdash;because
-we didn't know what we didn't know&mdash;we didn't bother to do the
+were probably going to accept whatever we committed, and&nbsp;&mdash;&nbsp;because
+we didn't know what we didn't know&nbsp;&mdash;&nbsp;we didn't bother to do the
 work in a visible way, e.g., posting patches frequently, making small,
 easily digestible commits to a special branch, etc.  The resulting
 authentication protocol was not very good, and of course, once it
@@ -1418,7 +1418,7 @@ were the same as that used by the public project, management might
 need to make company-specific comments and metadata changes to the
 tickets (for example, to raise an ticket's internal priority, or
 schedule its resolution for a particular customer).  Usually such
-notes are confidential&mdash;sometimes they're not even shown to the
+notes are confidential&nbsp;&mdash;&nbsp;sometimes they're not even shown to the
 customer.  But even when they're not confidential, they're not very
 helpful to the public project.</para>
 
@@ -1601,12 +1601,12 @@ having <emphasis>something</emphasis> to do with your company, it can
 also cause a problem: developers are aware of this associative
 tendency too, and may not be very comfortable with having the project
 hosted under your domain unless you're seriously contributing to the
-project&mdash;not just bandwidth and server space, but significant
+project&nbsp;&mdash;&nbsp;not just bandwidth and server space, but significant
 amounts of development time.  After all, there are a lot of free
 places to host these days.  The community may eventually feel that the
 implied misallocation of credit is not worth the minor convenience
 brought by donated hosting, and may even attempt to take the project
-elsewhere.  So if you want to provide hosting, do so&mdash;but if you
+elsewhere.  So if you want to provide hosting, do so&nbsp;&mdash;&nbsp;but if you
 are actually trying to create a public association between your
 company and the project, make sure that the level of support you
 provide is matched to the amount of credit you claim, whether you
@@ -1803,7 +1803,7 @@ source, and it applies to more than just the code.</para>
 <para>Naturally no one would advise companies to make unverifiable
 claims anyway.  But with open source activities, there is an unusually
 high quantity of people with the expertise to verify
-claims&mdash;people who are also likely to have high-bandwidth
+claims&nbsp;&mdash;&nbsp;people who are also likely to have high-bandwidth
 Internet access and the right social contacts to publicize their
 findings in a damaging way, should they choose to.  When Global
 Megacorp Chemical Industries pollutes a stream, that's verifiable, but
@@ -1815,7 +1815,7 @@ many people to check it independently, come to their own conclusions,
 and spread those conclusions by word of mouth.  These communications
 networks are already in place; they are the essence of how open source
 operates, and they can be used to transmit any sort of information.
-Refutation is usually difficult, if not impossible&mdash;especially
+Refutation is usually difficult, if not impossible&nbsp;&mdash;&nbsp;especially
 when what people are saying is true.</para>
 
 <para>For example, it's okay to refer to your organization as having
@@ -1834,7 +1834,7 @@ package under an open source license.  When the initial announcement
 came out, I took a look at their now-public version control repository
 and saw that it contained only three revisions.  In other words, they
 had done an initial import of the source code, but hardly anything had
-happened since then.  That in itself was not worrying&mdash;they'd
+happened since then.  That in itself was not worrying&nbsp;&mdash;&nbsp;they'd
 just made the announcement, after all.  There was no reason to expect
 a lot of development activity right away.</para>
 

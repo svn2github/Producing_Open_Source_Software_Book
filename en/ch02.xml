@@ -29,7 +29,7 @@ programmers come up with on their own.</para>
 them.  For example, the very first thing a visitor learns about a
 project is what its home page looks like.  This information is
 absorbed before any of the actual content on the site is
-comprehended&mdash;before any of the text has been read or links
+comprehended&nbsp;&mdash;&nbsp;before any of the text has been read or links
 clicked on.  However unjust it may be, people cannot stop themselves
 from forming an immediate first impression.  The site's appearance
 signals whether care was taken in organizing the project's
@@ -43,7 +43,7 @@ association.</para>
 <para>Thus, while much of this chapter talks about the content your
 project should start out with, remember that its look and feel matter
 too.  Because the project web site has to work for two different types
-of visitors&mdash;users and developers&mdash;special attention
+of visitors&nbsp;&mdash;&nbsp;users and developers&nbsp;&mdash;&nbsp;special attention
 must be paid to clarity and directedness.  Although this is not the
 place for a general treatise on web design, one principle is important
 enough to deserve mention, particularly when the site serves multiple
@@ -152,9 +152,9 @@ transforming a private vision into a public one.  You or your
 organization may know perfectly well what you want, but expressing
 that goal comprehensibly to the world is a fair amount of work.  It is
 essential, however, that you take the time to do it.  You and the
-other founders must decide what the project is really about&mdash;that
+other founders must decide what the project is really about&nbsp;&mdash;&nbsp;that
 is, decide its limitations, what it <emphasis>won't</emphasis> do as
-well as what it will&mdash;and write up a mission statement.  This
+well as what it will&nbsp;&mdash;&nbsp;and write up a mission statement.  This
 part is usually not too hard, though it can sometimes reveal unspoken
 assumptions and even disagreements about the nature of the project,
 which is fine: better to resolve those now than later.  The next step
@@ -163,7 +163,7 @@ basically, pure drudgery.</para>
 
 <para>What makes it so laborious is that it consists mainly of
 organizing and documenting things everyone already
-knows&mdash;"everyone", that is, who's been involved in the project so
+knows&nbsp;&mdash;&nbsp;"everyone", that is, who's been involved in the project so 
 far.  Thus, for the people doing the work, there is no immediate
 benefit.  They do not need a <filename>README</filename> file giving
 an overview of the project, nor a design document.
@@ -217,7 +217,7 @@ software to solve some problem.  The first thing they'll encounter is
 the project's name.</para>
 
 <para>A good name will not automatically make your project successful,
-and a bad name will not doom it&mdash;well, a
+and a bad name will not doom it&nbsp;&mdash;&nbsp;well, a
 <emphasis>really</emphasis> bad name probably could do that, but we
 start from the assumption that no one here is actively trying to make
 their project fail.  However, a bad name can slow down adoption of the
@@ -388,7 +388,7 @@ level of preparedness.  A reader who doesn't know what "clusters" and
 of Hadoop anyway, so there's no point writing for a reader who knows
 any less than that.  The phrase "designed to detect and handle
 failures at the application layer" will stand out to engineers who
-have experience with large-scale computing clusters&mdash;when they
+have experience with large-scale computing clusters&nbsp;&mdash;&nbsp;when they
 see those words, they'll know that the people behind Hadoop understand
 that world, and the first-time visitor will thus be likely to give
 Hadoop further consideration.</para>
@@ -413,7 +413,7 @@ but did not even state outright that the software was free at all.
 Sometimes the crucial bit of information was relegated to the
 Downloads page, or the Developers page, or some other place that
 required one more mouse click to get to.  In extreme cases, the
-license was not given anywhere on the web site at all&mdash;the only
+license was not given anywhere on the web site at all&nbsp;&mdash;&nbsp;the only
 way to find it was to download the software and look at a license file
 inside.</para>
 
@@ -428,7 +428,7 @@ licensing issues are discussed in detail in <xref
 linkend="legal"/>.</para>
 
 <para>By this point, our hypothetical visitor has
-determined&mdash;probably in a minute or less&mdash;that she's
+determined&nbsp;&mdash;&nbsp;probably in a minute or less&nbsp;&mdash;&nbsp;that she's
 interested in spending, say, at least five more minutes investigating
 this project.  The next sections describe what she should encounter in
 those five minutes.</para>
@@ -647,7 +647,7 @@ telling themselves they can do it any time: <emphasis>"We'll sort all
 that stuff out when the code is closer to being ready."</emphasis>
 What they don't realize is that by putting off the boring work of
 finishing the build and installation procedures, they are actually
-making the code take longer to get ready&mdash;because they
+making the code take longer to get ready&nbsp;&mdash;&nbsp;because they
 discourage developers who might otherwise have contributed to the
 code, if only they could build and test it.  Most insidiously, the
 project won't even <emphasis>know</emphasis> it's
@@ -689,7 +689,7 @@ way to submit changes based on those sources.</para>
 system&nbsp;&mdash;&nbsp;specifically, an online, publicly-accessible
 version controlled repository, from which anyone can check out the
 project's materials and subsequently get updates.  A version control
-repository is a sign&mdash;to both users and developers&mdash;that
+repository is a sign&nbsp;&mdash;&nbsp;to both users and developers&nbsp;&mdash;&nbsp;that
 this project is making an effort to give people what they need to
 participate.  As of this writing, many open source projects use <ulink
 url="https://github.com/" >https://github.com/</ulink>, which offers unlimited
@@ -816,7 +816,7 @@ elements of developer guidelines are:
   </listitem>
   <listitem><para>some indication of <emphasis>how</emphasis>
             development is usually done and how decisions are
-            made&mdash;is the project a benevolent dictatorship, a
+            made&nbsp;&mdash;&nbsp;is the project a benevolent dictatorship, a
             democracy, or something else</para>
   </listitem>
 </itemizedlist>
@@ -862,7 +862,7 @@ rudimentary and incomplete.  This falls squarely into the "drudgery"
 category referred to earlier, and is often the first area where a new
 open source project falls down.  Coming up with a mission statement
 and feature list, choosing a license, summarizing development
-status&mdash;these are all relatively small tasks, which can be
+status&nbsp;&mdash;&nbsp;these are all relatively small tasks, which can be
 definitively completed and usually need not be revisited once done.
 Documentation, on the other hand, is never really finished, which may
 be one reason people sometimes delay starting it at all.</para>
@@ -873,7 +873,7 @@ it.  The most important documentation for initial users is the basics:
 how to quickly set up the software, an overview of how it works,
 perhaps some guides to doing common tasks.  Yet these are exactly the
 things the <emphasis>writers</emphasis> of the documentation know all
-too well&mdash;so well that it can be difficult for them to see
+too well&nbsp;&mdash;&nbsp;so well that it can be difficult for them to see
 things from the reader's point of view, and to laboriously spell out
 the steps that (to the writers) seem so obvious as to be unworthy of
 mention.</para>
@@ -882,7 +882,7 @@ mention.</para>
 to sit down and write the stuff, and then, most importantly,
 incorporate feedback from readers.  Use a simple, easy-to-edit format
 such as HTML, plain text, Markdown, ReStructuredText, or some
-variant of XML&mdash;something that's convenient for lightweight,
+variant of XML&nbsp;&mdash;&nbsp;something that's convenient for lightweight,
 quick improvements on the spur of the moment<footnote><para>Don't
 worry too much about choosing the right format the first time.  If you
 change your mind later, you can always do an automated conversion
@@ -921,7 +921,7 @@ the following minimal criteria:</para>
             task and walk through it thoroughly.  Once someone
             sees that the software <emphasis>can</emphasis> be
             used for one thing, they'll start to explore what else
-            it can do on their own&mdash;and, if you're lucky,
+            it can do on their own&nbsp;&mdash;&nbsp;and, if you're lucky,
             start filling in the documentation themselves.  Which
             brings us to the next point...</para>
   </listitem>
@@ -932,7 +932,7 @@ the following minimal criteria:</para>
             they don't face a struggle to convince the project of
             what's important.  These labels needn't represent
             promises to fill in the gaps by any particular date
-           &mdash;it's equally legitimate to treat them as open
+           &nbsp;&mdash;&nbsp;it's equally legitimate to treat them as open
             requests for help.</para>
   </listitem>
 </itemizedlist>
@@ -948,7 +948,7 @@ treat this as defeatism on the part of the project, nor as a
 commitment to solve the problems by a certain date, unless the project
 makes such a commitment explicitly.  Since anyone who uses the
 software will discover the deficiencies for themselves, it's much
-better for them to be psychologically prepared&mdash;then the
+better for them to be psychologically prepared&nbsp;&mdash;&nbsp;then the
 project will look like it has a solid knowledge of how it's
 doing.</para>
 
@@ -960,8 +960,8 @@ doing.</para>
   <para>A <firstterm>FAQ</firstterm> ("Frequently Asked Questions"
   document) can be one of the best investments a project makes in
   terms of educational payoff.  FAQs are highly tuned to the questions
-  users and developers actually ask&mdash;as opposed to the questions
-  you might have <emphasis>expected</emphasis> them to ask&mdash;and
+  users and developers actually ask&nbsp;&mdash;&nbsp;as opposed to the questions
+  you might have <emphasis>expected</emphasis> them to ask&nbsp;&mdash;&nbsp;and
   therefore, a well-maintained FAQ tends to give those who consult it
   exactly what they're looking for.  The FAQ is often the first place
   users look when they encounter a problem, often even in preference
@@ -1294,8 +1294,8 @@ linkend="legal"/></phrase> for details.</para>
 
 <sidebar>
 <para>If users interact with your code primarily over a
-network connection&mdash;that is, the software is usually part of a hosted
-service, rather than being distributed to run client-side&mdash;then consider
+network connection&nbsp;&mdash;&nbsp;that is, the software is usually part of a hosted
+service, rather than being distributed to run client-side&nbsp;&mdash;&nbsp;then consider
 using the <firstterm>GNU Affero GPL</firstterm> instead.  The AGPL is
 just the GPL with one extra clause establishing network accessibility
 as a form of distribution for the purposes of the license.  See <xref
@@ -1317,7 +1317,7 @@ project's front page.  You don't need to include the actual text of
 the license there; just give its name and make it link to the full
 license text on another page.  That tells the public what license you
 <emphasis>intend</emphasis> the software to be released
-under&mdash;but it's not quite sufficient for legal purposes.  The
+under&nbsp;&mdash;&nbsp;but it's not quite sufficient for legal purposes.  The
 other step is that the software itself should include the
 license.</para>
 
@@ -1510,7 +1510,7 @@ observer's name was Brian Behlendorf, and he was emphatic about
 the general importance of keeping all discussions public unless there
 was a specific need for privacy.</para></footnote> caught wind of what
 was happening and asked for the discussion to be moved to the public
-list.  Rolling our eyes a bit, we did&mdash;and were stunned by the
+list.  Rolling our eyes a bit, we did&nbsp;&mdash;&nbsp;and were stunned by the
 number of insightful comments and suggestions that quickly resulted.
 In many cases people offered ideas that had never even occurred to us.
 It turned out there were some <emphasis>very</emphasis> smart people
@@ -1557,7 +1557,7 @@ enforcement per se.  You don't have to remove people from the mailing
 list when they flame another subscriber, or take away their commit
 access because they made derogatory comments.  (In theory, you might
 eventually have to resort to such actions, but only after all other
-avenues have failed&mdash;which, by definition, isn't the case at the
+avenues have failed&nbsp;&mdash;&nbsp;which, by definition, isn't the case at the
 start of the project.)  Zero-tolerance simply means never letting bad
 behavior slide by unnoticed.  For example, when someone posts a
 technical comment mixed together with an <foreignphrase>ad
@@ -1603,7 +1603,7 @@ class on good behavior:</para>
 effect.  If you consistently call out bad behavior, but don't demand
 an apology or acknowledgement from the offending party, then you leave
 people free to cool down and show their better side by behaving more
-decorously next time&mdash;and they will.</para>
+decorously next time&nbsp;&mdash;&nbsp;and they will.</para>
 
 <para>One of the secrets of
 doing this successfully is to never make the meta-discussion the main
@@ -2000,7 +2000,7 @@ open source the code; and so on.</para>
 <para>But there can be social and managerial issues too, and they are
 often more significant in the long run than the mere mechanical
 concerns.  You will need to make sure everyone on the development team
-understands that a big change is coming&mdash;and make sure that you
+understands that a big change is coming&nbsp;&mdash;&nbsp;and make sure that you
 understand how it's going to feel from their point of view.</para>
 
 <para>Try to imagine how the situation looks to them: formerly, all
@@ -2018,7 +2018,7 @@ all off, the newcomers are unknown, faceless entities.  If one of your
 developers already feels insecure about his skills, imagine how that
 will be exacerbated when newcomers point out flaws in code he wrote,
 and worse, do so in front of his colleagues.  Unless you have a team
-of perfect coders, this is unavoidable&mdash;in fact, it will probably
+of perfect coders, this is unavoidable&nbsp;&mdash;&nbsp;in fact, it will probably
 happen to all of them at first.  This is not because they're bad
 programmers; it's just that any program above a certain size has bugs,
 and peer review will spot some of those bugs (see
@@ -2046,7 +2046,7 @@ external communications.  The way to get them to participate is to
 participate yourself.  Be on the public mailing lists, and make sure
 to answer some questions there.  When you don't have the
 expertise to field a question, then visibly hand it off to a developer
-who does&mdash;and watch to make sure he follows up with an answer,
+who does&nbsp;&mdash;&nbsp;and watch to make sure he follows up with an answer,
 or at least a response.  It will naturally be tempting for the
 longtime developers to lapse into private discussions, since that's
 what they're used to.  Make sure you're subscribed to the internal
@@ -2066,8 +2066,8 @@ of how to mix paid and unpaid developers successfully.</para>
 <sect1 id="announcing">
 <title>Announcing</title>
 
-<para>Once the project is presentable&mdash;not perfect, just
-presentable&mdash;you're ready to announce it to the world.</para>
+<para>Once the project is presentable&nbsp;&mdash;&nbsp;not perfect, just
+presentable&nbsp;&mdash;&nbsp;you're ready to announce it to the world.</para>
 
 <para>This is a simpler process than you might expect.  First, set up
 the announcement pages at your project's home site, as described in
@@ -2188,7 +2188,7 @@ See <xref linkend="be-open-from-day-one"/> for
 more.</para></footnote>.  However, there may be circumstances where
 announcing earlier makes sense.  I do think that at least a
 well-developed design document, or else some sort of code framework,
-is necessary&mdash;of course it may be revised based on public
+is necessary&nbsp;&mdash;&nbsp;of course it may be revised based on public
 feedback, but there has to be something concrete, something more
 tangible than just good intentions, for people to sink their teeth
 into.</para>

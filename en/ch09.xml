@@ -56,9 +56,9 @@ out, along with a few other terms.</para>
               the idea of freedom, and the concept of
               freely redistributable software as primarily a social
               movement rather than a technical one.  The FSF
-              acknowledges that the term is ambiguous&mdash;it could
+              acknowledges that the term is ambiguous&nbsp;&mdash;&nbsp;it could
               mean "free" as in "zero-cost", instead of "free" as in
-              "freedom"&mdash;but feels that it's still the best term,
+              "freedom"&nbsp;&mdash;&nbsp;but feels that it's still the best term,
               all things considered, and that the other possibilities
               in English have their own ambiguities.  (Throughout this
               book, "free" is used in the "freedom" sense, not the
@@ -108,8 +108,8 @@ out, along with a few other terms.</para>
               detailed history of this terminological schism.</para>
 
               <para>The Free Software Foundation has an
-              excellent&mdash;utterly unobjective, but nuanced and
-              quite fair&mdash;exegesis of the two terms, at <ulink
+              excellent&nbsp;&mdash;&nbsp;utterly unobjective, but nuanced and
+              quite fair&nbsp;&mdash;&nbsp;exegesis of the two terms, at <ulink
               url="https://www.fsf.org/licensing/essays/free-software-for-freedom.html"
               >https://www.fsf.org/licensing/essays/free-software-for-freedom.html</ulink>.
               The Open Source Initiative's take on it is (or was, in
@@ -143,7 +143,7 @@ out, along with a few other terms.</para>
 
               <para>All these terms mean the same thing:
               software that can be modified and redistributed by
-              everyone, sometimes&mdash;but not always&mdash;with the
+              everyone, sometimes&nbsp;&mdash;&nbsp;but not always&nbsp;&mdash;&nbsp;with the
               requirement that derivative works be freely
               redistributable under the same terms.</para>
     </listitem>
@@ -313,7 +313,7 @@ out, along with a few other terms.</para>
               (<ulink
               url="https://www.apache.org/licenses/LICENSE-2.0"
               >https://www.apache.org/licenses/LICENSE-2.0</ulink>) is
-              also very popular&mdash;increasingly so&mdash;and
+              also very popular&nbsp;&mdash;&nbsp;increasingly so&nbsp;&mdash;&nbsp;and
               somewhat better adapted to the legal landscape of modern
               open source software development.</para>
     </listitem>
@@ -496,8 +496,8 @@ url="https://www.fsf.org/licensing/licenses/gpl.html"
 these two:</para>
 
 <orderedlist>
-  <listitem><para>Any derivative work&mdash;that is, any work
-            containing a nontrivial amount of GPLed code&mdash;must
+  <listitem><para>Any derivative work&nbsp;&mdash;&nbsp;that is, any work
+            containing a nontrivial amount of GPLed code&nbsp;&mdash;&nbsp;must
             itself be distributed under the GPL.</para> 
   </listitem>
   <listitem><para>No additional restrictions may be placed on the
@@ -515,13 +515,13 @@ redistribution are
 term <firstterm>viral</firstterm> to describe the GPL's
 contagiousness; they do not always mean this pejoratively, but I still
 prefer "reciprocal" because it's more descriptive and less connotative
-of disease.</para></footnote>&mdash;they are passed
+of disease.</para></footnote>&nbsp;&mdash;&nbsp;they are passed
 on to anything else the code gets incorporated into, making it
 effectively impossible to use GPLed code in closed-source programs.
 However, these same clauses also make the GPL incompatible with
 certain other free licenses.  The usual way this happens is that the
-other license imposes a requirement&mdash;for example, a credit clause
-requiring the original authors to be mentioned in some way&mdash;that
+other license imposes a requirement&nbsp;&mdash;&nbsp;for example, a credit clause
+requiring the original authors to be mentioned in some way&nbsp;&mdash;&nbsp;that
 is incompatible with the GPL's "You may not impose any further
 restrictions..." language.  From the point of view of the Free
 Software Foundation, these second-order consequences are desirable, or
@@ -541,8 +541,8 @@ popular licenses<footnote><para>This statistic is based on an
 aggregation of several license count sources, combined with some
 reasonable definitional assumptions.</para></footnote>.
 If you want your code to be able to be
-mixed freely with GPLed code&mdash;and there's a lot of GPLed code out
-there&mdash;then you should pick a GPL-compatible license.  Most of
+mixed freely with GPLed code&nbsp;&mdash;&nbsp;and there's a lot of GPLed code out
+there&nbsp;&mdash;&nbsp;then you should pick a GPL-compatible license.  Most of
 the GPL-compatible open source licenses are also
 proprietary-compatible: that is, code under such a license can be used
 in a GPLed program, and it can be used in a proprietary program.  Of
@@ -656,8 +656,8 @@ a good choice.</para>
 <para>When writing a code library that is meant mainly to be used as
 part of other programs, consider carefully whether the restrictions
 imposed by the GPL are in line with your project's goals.  In some
-cases&mdash;for example, when you're trying to unseat a competing,
-proprietary library that offers the same functionality&mdash;it may
+cases&nbsp;&mdash;&nbsp;for example, when you're trying to unseat a competing,
+proprietary library that offers the same functionality&nbsp;&mdash;&nbsp;it may
 make more strategic sense to license your code in such a way that it
 can be mixed into proprietary programs, even though you would
 otherwise not wish this.  The Free Software Foundation even fashioned
@@ -798,10 +798,10 @@ as part of a derivative work.</para>
 <title>Is the GPL Free or Not Free?</title>
 
 <para>One consequence of choosing the GPL (or AGPL) is the
-possibility&mdash;small, but not infinitely small&mdash;of finding
+possibility&nbsp;&mdash;&nbsp;small, but not infinitely small&nbsp;&mdash;&nbsp;of finding
 yourself or your project embroiled in a dispute about whether or not
 the GPL is truly "free", given that it places some restrictions on
-how you redistribute the code&mdash;namely, the restriction that the
+how you redistribute the code&nbsp;&mdash;&nbsp;namely, the restriction that the
 code cannot be distributed under any other license.  For some people,
 the existence of this restriction means the GPL is therefore "less
 free" than non-copyleft licenses.  Where this
@@ -1315,9 +1315,9 @@ software project of infringing a patent, the project must either stop
 implementing that particular feature, or expose the project
 <emphasis>and its users</emphasis> to expensive and
 time-consuming lawsuits.  Since the instigators of such lawsuits are
-usually corporations with deep pockets&mdash;that's who has the
+usually corporations with deep pockets&nbsp;&mdash;&nbsp;that's who has the
 resources and inclination to acquire patents in the first
-place&mdash;most free software projects cannot afford either to defend
+place&nbsp;&mdash;&nbsp;most free software projects cannot afford either to defend
 themselves nor to indemnify their users, and must capitulate
 immediately even if they think it
 highly likely that the patent would be unenforceable in court.  To
@@ -1354,7 +1354,7 @@ is rational.  The current patent system, at least in the United
 States, is by its nature an arms race: if your competitors have
 acquired a lot of patents, then your best defense is to acquire a lot
 of patents yourself, so that if you're ever hit with a patent
-infringement suit you can respond with a similar threat&mdash;then the
+infringement suit you can respond with a similar threat&nbsp;&mdash;&nbsp;then the
 two parties usually sit down and work out a cross-licensing deal so
 that neither of them has to pay anything, except to their patent 
 lawyers of course.</para>

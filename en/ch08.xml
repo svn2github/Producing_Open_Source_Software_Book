@@ -21,8 +21,8 @@ on that project as I wrote the first edition of this book and had all
 the primary sources close
 at hand, and partly because it's more acceptable to cast critical
 stones into one's own glass house than into others'.  But I have also
-seen in various other projects the benefits of applying&mdash;and the
-consequences of not applying&mdash;the recommendations that follow;
+seen in various other projects the benefits of applying&nbsp;&mdash;&nbsp;and the
+consequences of not applying&nbsp;&mdash;&nbsp;the recommendations that follow;
 when it is politically feasible to give examples from some of those
 other projects, I will do so.</para>
 
@@ -35,10 +35,10 @@ political reasons."  I believe this distaste for politics (or for what
 is imagined to be politics) is especially strong in engineers because
 engineers are bought into the idea that some solutions are objectively
 superior to others.  Thus, when someone acts in a way that seems
-motivated by outside considerations&mdash;say, the maintenance of his
+motivated by outside considerations&nbsp;&mdash;&nbsp;say, the maintenance of his
 own position of influence, the lessening of someone else's
 influence, outright horse-trading, or avoiding hurting someone's
-feelings&mdash;other participants in the project may get annoyed.  Of
+feelings&nbsp;&mdash;&nbsp;other participants in the project may get annoyed.  Of
 course, this rarely prevents them from behaving in the same way when
 their own vital interests are at stake.</para>
 
@@ -118,8 +118,8 @@ status is acquired and kept through actions that help the group's
 goals.</para>
 
 <para>Those norms won't always arise by themselves.  For example, on
-some projects&mdash;experienced open source developers can probably
-name several off the tops of their heads&mdash;people apparently feel
+some projects&nbsp;&mdash;&nbsp;experienced open source developers can probably
+name several off the tops of their heads&nbsp;&mdash;&nbsp;people apparently feel
 that status is acquired by posting frequently and verbosely.  They
 don't come to this conclusion accidentally; they come to it because
 they are rewarded with respect for making long, intricate arguments,
@@ -152,7 +152,7 @@ commitment.</para>
 someone else to do something even when you know you could do it faster
 or better yourself.  Of course, there is sometimes a strict economic
 efficiency argument for this anyway: perhaps the opportunity cost of
-doing it yourself would be too high&mdash;there might be something
+doing it yourself would be too high&nbsp;&mdash;&nbsp;there might be something
 even more important you could do with that time.  But even when that
 kind of comparative advantage argument doesn't apply, you may
 <emphasis>still</emphasis> want to ask someone else to take on the
@@ -234,7 +234,7 @@ done so, and follow up with him no matter what.  Most requests are
 made in public forums, and are roughly of the form "Can you take care
 of X?  Let us know either way; no problem if you can't, just need to
 know."  You may or may not get a response.  If you do, and the
-response is negative, the loop is closed&mdash;you'll need to try some
+response is negative, the loop is closed&nbsp;&mdash;&nbsp;you'll need to try some
 other strategy for dealing with X.  If there is a positive response,
 then keep an eye out for progress on the issue, and comment on the
 progress you do or don't see (everyone works better when they know
@@ -260,7 +260,7 @@ respond.</para>
 <title>Notice What People Are Interested In</title>
 
 <para>Another thing that makes people happy is to have their interests
-noticed&mdash;in general, the more aspects of someone's personality
+noticed&nbsp;&mdash;&nbsp;in general, the more aspects of someone's personality
 you notice and remember, the more comfortable he will be, and the
 more he will want to work with groups of which you are a
 part.</para>
@@ -306,8 +306,8 @@ discussed in <xref linkend="rudeness"/><phrase output="printed">
 in <xref linkend="communications"/></phrase>), because of the
 implication that the recipient's work is worth the time required to
 analyze it.  However, both of those
-conditions&mdash;<emphasis>detailed</emphasis> and
-<emphasis>dispassionate</emphasis>&mdash;must be met for this to be
+conditions&nbsp;mdash;&nbsp;<emphasis>detailed</emphasis> and
+<emphasis>dispassionate</emphasis>&nbsp;&mdash;&nbsp;must be met for this to be
 true.  For example, if someone makes a sloppy change to the code, it
 is useless (and actually harmful) to follow up saying simply "That was
 sloppy."  Sloppiness is ultimately a characteristic of a
@@ -315,8 +315,8 @@ sloppy."  Sloppiness is ultimately a characteristic of a
 keep your reactions focused on the work.  It's much more effective to
 describe all the things wrong with the change, tactfully and without
 malice.  If this is the third or fourth careless change in a row by
-the same person, it's appropriate to say that&mdash;again without
-anger&mdash;at the end of your critique, to make it clear that the
+the same person, it's appropriate to say that&nbsp;&mdash;&nbsp;again without
+anger&nbsp;&mdash;&nbsp;at the end of your critique, to make it clear that the
 pattern has been noticed.</para>
 
 <para>If someone does not improve in response to criticism, the
@@ -560,7 +560,7 @@ documentation is often written in a markup language like XML, there
 may be a compilation step, often quite intricate, involved in creating
 displayable or downloadable documents.  Arranging a web site where
 such compilation happens automatically on every commit can be
-complicated and time-consuming&mdash;but it is worth it, even if it
+complicated and time-consuming&nbsp;&mdash;&nbsp;but it is worth it, even if it
 costs you a day or more to set up.  The overall benefits of having
 up-to-date pages available at all times are huge, even though the cost
 of <emphasis>not</emphasis> having them might seem like only a small
@@ -588,9 +588,9 @@ especially so for open source projects, because automated testing
 (especially regression testing) allows developers to feel comfortable
 changing code in areas they are unfamiliar with, and thus encourages
 exploratory development.  Since detecting breakage is so hard to do by
-hand&mdash;one essentially has to guess where one might have broken
+hand&nbsp;&mdash;&nbsp;one essentially has to guess where one might have broken
 something, and try various experiments to prove that one
-didn't&mdash;having automated ways to detect such breakage saves the
+didn't&nbsp;&mdash;&nbsp;having automated ways to detect such breakage saves the
 project a <emphasis>lot</emphasis> of time.  It also makes people much
 more relaxed about refactoring large swaths of code, and therefore
 contributes to the software's long-term maintainability.</para>
@@ -718,7 +718,7 @@ something anyone can do.</para>
 documentation writers.  For example, even training people to write
 good bug reports pays off in the long run, if you don't spend
 <emphasis>too</emphasis> much time per person, and if they go on
-to submit more bug reports in the future&mdash;which they are more
+to submit more bug reports in the future&nbsp;&mdash;&nbsp;which they are more
 likely to do if they got a constructive reaction to their first
 report.  A constructive reaction need not be a fix for the bug,
 although that's always the ideal; it can also be a solicitation for
@@ -739,9 +739,9 @@ Some hapless newbie will post a useless report:</para>
    just errors.  Is anyone else seeing this problem?</para>
 </blockquote>
 
-<para>Some developer&mdash;who has seen this kind of report a
+<para>Some developer&nbsp;&mdash;&nbsp;who has seen this kind of report a
 thousand times, and hasn't stopped to think that the newbie has
-not&mdash;will respond like this:</para>
+not&nbsp;&mdash;&nbsp;will respond like this:</para>
 
 <blockquote>
    <para>What are we supposed to do with so little information?
@@ -773,7 +773,7 @@ to the user's point of view.  First, it expresses sympathy:
 not necessary in every bug report response; it depends on the severity
 of the problem and how upset the user seemed.)  Second, instead of
 belittling him for not knowing how to report a bug, it tells him how,
-and in enough detail to be actually useful&mdash;for example, many
+and in enough detail to be actually useful&nbsp;&mdash;&nbsp;for example, many
 users don't realize that "show us the error" means "show us the exact
 text of the error, with no omissions or abridgements."  The first time
 you work with such a user, you need to be specific about that.
@@ -793,7 +793,7 @@ url="http://subversion.apache.org/reporting-issues.html"
 standard example of the form.  Notice how they include an
 invitation to provide a patch to fix the bug.  This is not because
 such an invitation will lead to a greater patch/report
-ratio&mdash;most users who are capable of fixing bugs already know
+ratio&nbsp;&mdash;&nbsp;most users who are capable of fixing bugs already know
 that a patch would be welcome, and don't need to be told.  The
 invitation's real purpose is to emphasize to all readers, especially
 those new to the project or new to free software in general, that the
@@ -805,7 +805,7 @@ likely to help make the fix happen, if not by contributing code then
 by providing a more thorough reproduction recipe, or by offering to
 test fixes that other people post.  The goal is to make every user
 realize that there is no <emphasis>innate</emphasis> difference
-between himself and the people who work on the project&mdash;that
+between himself and the people who work on the project&nbsp;&mdash;&nbsp;that
 it's a question of how much time and effort one puts in, not a
 question of who one is.</para>
 
@@ -979,7 +979,7 @@ take after arrival.</para>
 
 <para>Sometimes someone reviews the patch, finds problems, and bounces
 it back to the original author for cleanup.  This usually leads to an
-iterative process&mdash;all visible in a public forum&mdash;in which
+iterative process&nbsp;&mdash;&nbsp;all visible in a public forum&nbsp;&mdash;&nbsp;in which
 the original author posts revised versions of the patch until the
 reviewer has nothing more to criticize.  It is not always easy to tell
 when this process is done: if the reviewer commits the patch, then
@@ -1047,7 +1047,7 @@ other people are also keeping an eye on it, for the same reasons, then
 we'd have needlessly duplicated effort."  The patch manager removes
 the second-guessing from the situation.  Each developer can make the
 decision that is right for her at the moment she first sees the patch.
-If she wants to follow up with a review, she can do that&mdash;the
+If she wants to follow up with a review, she can do that&nbsp;&mdash;&nbsp;the
 patch manager will adjust his behavior accordingly.  If she wants to
 ignore the patch completely, that's fine too; the patch manager will
 make sure it isn't forgotten.</para>
@@ -1072,7 +1072,7 @@ manager might make sense.</para>
 <para>In software projects, "translation" can refer to two somewhat
 different things.  It can mean translating the software's
 documentation into other languages, or it can mean translating the
-software itself&mdash;that is, having the program display errors and
+software itself&nbsp;&mdash;&nbsp;that is, having the program display errors and
 help messages in the user's preferred language.  Both are complex
 tasks, but once the right infrastructure is in place, they are largely
 separable from other development.  Because the tasks are similar in
@@ -1086,7 +1086,7 @@ this.)</para>
 
 <para>In the Subversion project, we had one translation manager handle
 both.  He did not actually write the translations himself, of
-course&mdash;he might help out on one or two, but would need to speak
+course&nbsp;&mdash;&nbsp;he might help out on one or two, but would need to speak
 more than ten languages fluently in order to work on all of them!
 Instead, he managed teams of other translators: he helped them
 coordinate among each other, and he coordinated between the
@@ -1123,7 +1123,7 @@ out to make sure they adhere to those conventions.</para>
 
 <para>Conversations between the translation manager and the
 developers, or between the translation manager and translation teams,
-are usually held in the project's original language&mdash;that is, the
+are usually held in the project's original language&nbsp;&mdash;&nbsp;that is, the
 language from which all the translations are being made.  For most
 free software projects, this is English, but it doesn't matter what it
 is as long as the project agrees on it.  (English is probably best for
@@ -1299,7 +1299,7 @@ target milestones (something most ticket trackers support).  As a
 rule, every Subversion release has one major new feature and a list of
 specific bug fixes.  We assigned the appropriate target milestone to
 all the tickets planned for that release (including the new
-feature&mdash;it got a ticket too), so that people could view the bug
+feature&nbsp;&mdash;&nbsp;it got a ticket too), so that people could view the bug
 database through the lens of release scheduling.  These targets rarely
 remain static, however.  As new bugs come in, priorities sometimes get
 shifted around, and tickets must be moved from one milestone to
@@ -1354,7 +1354,7 @@ changed and that his ability to fulfill a committment has been
 permanently reduced.  People are often reluctant to admit that.</para>
 
 <para>Therefore, it's up to you and the others in the project to
-notice what's happening&mdash;or rather, not happening&mdash;and to
+notice what's happening&nbsp;&mdash;&nbsp;or rather, not happening&nbsp;&mdash;&nbsp;and to
 ask the person what's going on.  The inquiry should be friendly and
 100% guilt-free.  Your purpose is to find out a piece
 of information, not to make the person feel bad.  Generally, the
@@ -1381,7 +1381,7 @@ important.</para>
 the project to see if they agree that the problem is as serious as you
 think it is.  Even if you're already positive, this serves the purpose
 of letting others know that you're considering asking the person to
-step aside.  Usually no one will object to that&mdash;they'll just be
+step aside.  Usually no one will object to that&nbsp;&mdash;&nbsp;they'll just be
 happy you're taking on the awkward task, so they don't have to!</para>
 
 <para>Next, <emphasis>privately</emphasis> contact the person in
@@ -1454,8 +1454,8 @@ Why not just have two issue managers, or patch managers, or whatever
 the role is?</para>
 
 <para>Although that may sound nice in theory, it is generally not a
-good idea.  What makes the manager roles work&mdash;what makes them
-useful, in fact&mdash;is their centralization.  Those things that can
+good idea.  What makes the manager roles work&nbsp;&mdash;&nbsp;what makes them
+useful, in fact&nbsp;&mdash;&nbsp;is their centralization.  Those things that can
 be done in a decentralized fashion are usually already being done that
 way.  Having two people fill one managerial role introduces
 communications overhead between those two people, as well as the
@@ -1473,8 +1473,8 @@ to.</para>
 
 <para>The most important factor in asking someone to step down is
 privacy: giving him the space to make a decision without feeling like
-others are watching and waiting.  I once made the mistake&mdash;an
-obvious mistake, in retrospect&mdash;of mailing all three parties at
+others are watching and waiting.  I once made the mistake&nbsp;&mdash;&nbsp;an
+obvious mistake, in retrospect&nbsp;&mdash;&nbsp;of mailing all three parties at
 once in order to ask Subversion's release manager to step aside in
 favor of two others who were ready to step up.  I'd already talked to
 the two new
@@ -1598,12 +1598,12 @@ under version control, the penalty for adding a committer you
 shouldn't have added is not so much the problems it could cause in the
 code (review would spot those quickly anyway), but that it might
 eventually force the project to revoke the person's commit
-access&mdash;an action that is never pleasant and can sometimes be
+access&nbsp;&mdash;&nbsp;an action that is never pleasant and can sometimes be
 confrontational.</para>
 
 <para>Some projects insist that the potential committer demonstrate a
 certain level of technical expertise and persistence, by submitting
-some number of nontrivial patches&mdash;that is, not only do these
+some number of nontrivial patches&nbsp;&mdash;&nbsp;that is, not only do these
 projects want to know that the person will do no harm, they want to
 know that she is likely to do good across the codebase.  This isn't
 necessarily harmful, but be careful that it doesn't start to turn
@@ -1888,7 +1888,7 @@ help:</para>
             from time to time.  The canonical example is the release
             manager, who goes into high gear around the time of each
             release, but otherwise lies dormant (dormant as a release
-            manager, in any case&mdash;he may also be an active
+            manager, in any case&nbsp;&mdash;&nbsp;he may also be an active
             developer, but that's a different matter).
             </para>
   </listitem>
@@ -1994,8 +1994,8 @@ perception: when a large enough percentage of observers agree, the
 assertion starts to become true.  It is not the case that there is an
 objective truth from the outset, one that we are only imperfectly able to
 perceive at first.  Rather, the perceptions <emphasis>are</emphasis>
-the objective truth, since ultimately a project&mdash;or a
-fork&mdash;is an entity that exists only in people's minds
+the objective truth, since ultimately a project&nbsp;&mdash;&nbsp;or a
+fork&nbsp;&mdash;&nbsp;is an entity that exists only in people's minds
 anyway.</para>
 
 <para>If those initiating the fork feel that they are
@@ -2021,7 +2021,7 @@ straight to the end.</para>
 the project and which is the fork, because a fork is, in essence, a vote
 of confidence.  If more than half of the developers are in favor of
 whatever course the fork proposes to take, usually there is no need to
-fork&mdash;the project can simply go that way itself, unless it is run
+fork&nbsp;&mdash;&nbsp;the project can simply go that way itself, unless it is run
 as a dictatorship with a particularly stubborn dictator.  On the other
 hand, if fewer than half of the developers are in favor, the fork is a
 clearly minority rebellion, and both courtesy and common sense
@@ -2074,7 +2074,7 @@ they need, and provide it if you can.  Bend over backward to show
 that you are not standing in the way, and that you want the fork to
 succeed or fail on its own merits and nothing else.</para>
 
-<para>The reason to do all this&mdash;and do it publicly&mdash;is not
+<para>The reason to do all this&nbsp;&mdash;&nbsp;and do it publicly&nbsp;&mdash;&nbsp;is not
 to actually help the fork, but to persuade developers that your side
 is a safe bet, by appearing as non-vindictive as possible.  In war it
 sometimes makes sense (strategic sense, if not human sense) to force
@@ -2128,7 +2128,7 @@ from the original project.  But if you see influential and respected
 developers supporting the fork, you should ask yourself why.  Perhaps
 the project was being overly restrictive, and the best solution is to
 adopt into the mainline project some or all of the changes
-contemplated by the fork&mdash;in essence, to avoid the fork by
+contemplated by the fork&nbsp;&mdash;&nbsp;in essence, to avoid the fork by
 becoming it.</para>
 
 </sect2>
@@ -2152,11 +2152,11 @@ point of view of any individual project.  Most forks do not succeed,
 and most projects are not happy to be forked.</para>
 
 <para>A corollary is that you should not use the threat of a fork as
-an extremist debating technique&mdash;"Do things my way or I'll fork
-the project!"&mdash;because everyone is aware that a fork that fails
+an extremist debating technique&nbsp;&mdash;&nbsp;"Do things my way or I'll fork
+the project!"&nbsp;&mdash;&nbsp;because everyone is aware that a fork that fails
 to attract developers away from the original project is unlikely to
-survive long.  All observers&mdash;not just developers, but users and
-operating system packagers too&mdash;will make their own judgement about
+survive long.  All observers&nbsp;&mdash;&nbsp;not just developers, but users and
+operating system packagers too&nbsp;&mdash;&nbsp;will make their own judgement about
 which side to choose.  You should therefore appear extremely reluctant
 to fork, so that if you finally do it, you can credibly claim it was
 the only route left.</para>

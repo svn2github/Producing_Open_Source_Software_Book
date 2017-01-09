@@ -26,7 +26,7 @@ ways to fix a road: you can shut it down completely, so that a repair
 crew can swarm all over it at full capacity until the problem is
 solved, or you can work on a couple of lanes at a time, while leaving the
 others open to traffic.  The first way is very efficient <emphasis>for
-the repair crew</emphasis>, but not for anyone else&mdash;the road is
+the repair crew</emphasis>, but not for anyone else&nbsp;&mdash;&nbsp;the road is
 entirely shut down until the job is done.  The second way involves
 much more time and trouble for the repair crew (now they have to work
 with fewer people and less equipment, in cramped conditions, with
@@ -43,7 +43,7 @@ made on a regular schedule.</para>
 
 <para>The model that makes this possible generalizes to more than just
 releases.  It's the principle of parallelizing tasks that are not
-mutually interdependent&mdash;a principle that is by no means unique
+mutually interdependent&nbsp;&mdash;&nbsp;a principle that is by no means unique
 to open source development, of course, but one which open source
 projects implement in their own particular way.  They cannot afford to
 annoy either the roadwork crew or the regular traffic too much, but
@@ -56,7 +56,7 @@ predictability allows them to come and go without worrying about
 whether their schedule will clash with what's happening in the
 project.  But if the project were subject to a master schedule in
 which some activities excluded other activities, the result would be a
-lot of developers sitting idle a lot of the time&mdash;which would be
+lot of developers sitting idle a lot of the time&nbsp;&mdash;&nbsp;which would be
 not only inefficient but boring, and therefore dangerous, in that a
 bored developer is likely to soon be an ex-developer.</para>
 
@@ -216,8 +216,8 @@ Scanley 2.3.0</literallayout>
 </informalexample>
 
 <para>Notice that when it has the "Alpha" qualifier, Scanley "2.3" is
-written as "2.3.0".  The two numbers are equivalent&mdash;trailing
-all-zero components can always be dropped for brevity&mdash;but when a
+written as "2.3.0".  The two numbers are equivalent&nbsp;&mdash;&nbsp;trailing
+all-zero components can always be dropped for brevity&nbsp;&mdash;&nbsp;but when a
 qualifier is present, brevity is out the window anyway, so one might
 as well go for completeness instead.</para>
 
@@ -283,7 +283,7 @@ the default method of distribution.</para>
 
 <para>Although there are many different conventions for how many
 components to use, and what the components mean, the differences tend
-to be minor&mdash;you get a little leeway, but not a lot.  The next
+to be minor&nbsp;&mdash;&nbsp;you get a little leeway, but not a lot.  The next
 two sections discuss some of the most widely used conventions.</para>
 
 </sect2>
@@ -499,14 +499,14 @@ destined for this release can be isolated from mainline development.
 The concept of release branches is certainly not original to free
 software; many proprietary development organizations use them too.
 However, in closed-source environments, release branches are sometimes
-considered a luxury&mdash;a kind of theoretical "best practice" that can,
+considered a luxury&nbsp;&mdash;&nbsp;a kind of theoretical "best practice" that can,
 in the heat of a major deadline, be dispensed with while everyone on
 the team scrambles to stabilize the main tree.</para>
 
 <para>Release branches are pretty much required in open source
 projects, however.  I have seen projects do releases without them, but
 it has always resulted in some developers sitting idle while
-others&mdash;usually a minority&mdash;work on getting the release out
+others&nbsp;&mdash;&nbsp;usually a minority&nbsp;&mdash;&nbsp;work on getting the release out
 the door.  The result is usually bad in several ways.  First, overall
 development momentum is slowed.  Second, the release is of poorer
 quality than it needed to be, because there were only a few people
@@ -536,8 +536,8 @@ off the trunk.  (The details of how to create and manage branches in
 your particular version control system are beyond the scope of this
 book, but the semantics are roughly the same everywhere.)  Note that
 you might want to name the branch "1.0.x" (with a literal "x") instead
-of "1.0.0".  That way you can use the same minor line&mdash;i.e., the
-same branch&mdash;for all the micro releases in that line.</para>
+of "1.0.0".  That way you can use the same minor line&nbsp;&mdash;&nbsp;i.e., the
+same branch&nbsp;&mdash;&nbsp;for all the micro releases in that line.</para>
 
 <para>The social and technical process of stabilizing the branch for
 release is covered in <xref linkend="stabilizing-a-release"/><phrase
@@ -578,8 +578,8 @@ some circumstances it may not even be the best, though it's worked out
 pretty well for projects I've been involved in.  Use any strategy that
 seems to work, but remember the main points: the purpose of a release
 branch is to isolate release work from the fluctuations of daily
-development, and to give the project a physical entity&mdash;the
-release branch&mdash;around which to organize its release process.
+development, and to give the project a physical entity&nbsp;&mdash;&nbsp;the
+release branch&nbsp;&mdash;&nbsp;around which to organize its release process.
 That process is described in detail in the next section.</para>
 
 </sect1>
@@ -757,7 +757,7 @@ conservatism, the justifications offered for vetoes are sometimes
 procedural rather than technical.  For example, a person may feel that
 a change is well-written and unlikely to cause any new bugs, but vote
 against its inclusion in a micro release simply because it's too
-big&mdash;perhaps it adds a new feature, or in some subtle way fails
+big&nbsp;&mdash;&nbsp;perhaps it adds a new feature, or in some subtle way fails
 to fully follow the compatibility guidelines.  I've occasionally even
 seen developers veto something because they simply had a gut feeling
 that the change needed more testing, even though they couldn't spot
@@ -775,8 +775,8 @@ as convenient as possible.  Although there is plenty of open source
 electronic voting software available, in practice the easiest thing to
 do is just to set up a text file in the release branch,
 called <filename>STATUS</filename> or <filename>VOTES</filename> or
-something like that.  This file lists each proposed change&mdash;any
-developer can propose a change for inclusion&mdash;along with all the
+something like that.  This file lists each proposed change&nbsp;&mdash;&nbsp;any
+developer can propose a change for inclusion&nbsp;&mdash;&nbsp;along with all the
 votes for and against it, plus any notes or comments.  (Proposing a
 change doesn't necessarily mean voting for it, by the way, although
 the two often go together.)  An entry in such a file might look like
@@ -800,7 +800,7 @@ this:</para>
 <para>In this case, the change acquired two positive votes, but was
 vetoed by tmartin, who gave the reason for the veto in a parenthetical
 note.  The exact format of the entry doesn't matter; whatever your
-project settles on is fine&mdash;perhaps tmartin's explanation for the
+project settles on is fine&nbsp;&mdash;&nbsp;perhaps tmartin's explanation for the
 veto should go up in the "Notes:" section, or perhaps the change
 description should get a "Description:" header to match the other
 sections.  The important thing is that all the information needed to
@@ -1038,15 +1038,15 @@ is required and that users are not likely to already have.  But even
 if the distributed tree corresponds exactly to some development tree
 in the version control repository, the distribution itself should not
 be a working copy (see <xref linkend="vc-vocabulary-working-copy"/>).
-The release is supposed to represent a static reference point&mdash;a
+The release is supposed to represent a static reference point&nbsp;&mdash;&nbsp;a
 particular, unchangeable configuration of source files.  If it were a
 working copy, the danger would be that the user might update it, and
 afterward think that he still has the release when in fact he has
 something different.</para>
 
 <para>Remember that the package is the same regardless of the
-packaging.  The release&mdash;that is, the precise entity referred to
-when someone says "Scanley&nbsp;2.5.0"&mdash;is the tree created by
+packaging.  The release&nbsp;&mdash;&nbsp;that is, the precise entity referred to
+when someone says "Scanley&nbsp;2.5.0"&nbsp;&mdash;&nbsp;is the tree created by
 unpacking a zip file or tarball.  So the project might offer all of
 these for download:</para>
 
@@ -1171,8 +1171,8 @@ a Unix-like build option on Windows via the Cygwin
 (<ulink url="https://www.cygwin.com/" >https://www.cygwin.com/</ulink>) environment.
 And of course,
 if you're using a language or programming framework that comes with
-its own build and install conventions&mdash;e.g., Perl or
-Python&mdash;you should simply use whatever the standard method is for
+its own build and install conventions&nbsp;&mdash;&nbsp;e.g., Perl or
+Python&nbsp;&mdash;&nbsp;you should simply use whatever the standard method is for
 that framework, whether on Windows, Unix, Mac OS X, or any other
 operating system.</para>
 
@@ -1288,7 +1288,7 @@ world at large, using digital signatures and identifying hashes.</para>
 
 <para>The purpose of signing and hashing is to give users a way to
 verify that the copy they receive has not been maliciously tampered
-with.  Users are about to run this code on their computers&mdash;if
+with.  Users are about to run this code on their computers&nbsp;&mdash;&nbsp;if
 the code has been tampered with, an attacker could suddenly have a
 back door to all their data.  See <xref
 linkend="security-releases"/><phrase output="printed"> later in this
@@ -1355,7 +1355,7 @@ release.  If problems are found, they are fixed on the release branch
 and a new candidate release is rolled out
 (<filename>scanley-2.5.0-beta2</filename>).  The cycle continues until
 no unacceptable bugs are left, at which point the last candidate
-release becomes the official release&mdash;that is, the only
+release becomes the official release&nbsp;&mdash;&nbsp;that is, the only
 difference between the last candidate release and the real release
 is the removal of the qualifier from the version number.</para>
 
@@ -1425,7 +1425,7 @@ continue with micro (bugfix) releases 1.0.1, 1.0.2, etc., until the
 project explicitly decides to end the line.  Note that merely
 releasing 1.1.0 is not sufficient reason to end the 1.0.x line.  For
 example, some users make it a policy never to upgrade to the first
-release in a new minor or major series&mdash;they let others shake the
+release in a new minor or major series&nbsp;&mdash;&nbsp;they let others shake the
 bugs out of, say 1.1.0, and wait until 1.1.1.  This isn't necessarily
 selfish (remember, they're forgoing the bugfixes and new features
 too); it's just that, for whatever reason, they've decided to be very
@@ -1456,7 +1456,7 @@ version</firstterm> or <firstterm>target milestone</firstterm>
 available in the bug tracker, so people filing bugs will be able to do
 so against the proper release.  Don't forget to also have a target
 called "development" or "latest" for the most recent development
-sources, since some people&mdash;not only active developers&mdash;will
+sources, since some people&nbsp;&mdash;&nbsp;not only active developers&nbsp;&mdash;&nbsp;will
 often stay ahead of the official releases.</para>
 
 <!-- ======================== subsection ============================== -->
@@ -1558,7 +1558,7 @@ Other unrelated cleanups:
 <para>The problem with it becomes apparent as soon as someone needs to
 port the <function>BuildDir</function> error check fix over to a
 branch for an upcoming maintenance release.  The porter doesn't want
-any of the other changes&mdash;for example, perhaps the fix for ticket
+any of the other changes&nbsp;&mdash;&nbsp;for example, perhaps the fix for ticket
 #1729 wasn't approved for the maintenance branch at all, and the
 <filename>index.html</filename> tweaks would simply be irrelevant
 there.  But she cannot easily grab just the
@@ -1615,8 +1615,8 @@ often happen around the issue of when and how to schedule releases.
 The salaried developers who are under pressure will naturally want to
 just pick a date when the releases will occur, and have everyone's
 activities fall into line.  But the volunteers may have other
-agendas&mdash;perhaps features they want to complete, or some testing
-they want to have done&mdash;that they feel the release should wait
+agendas&nbsp;&mdash;&nbsp;perhaps features they want to complete, or some testing
+they want to have done&nbsp;&mdash;&nbsp;that they feel the release should wait
 on.</para>
 
 <para>There is no general solution to this problem except discussion

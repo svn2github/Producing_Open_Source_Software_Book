@@ -106,7 +106,7 @@ project growth may stabilize, and the developer and user communities
 settle into a comfortable relationship with the technical
 infrastructure, but then someone will come along and invent a whole
 new information management service, and pretty soon newcomers will be
-asking why your project doesn't use it&mdash;for example, this
+asking why your project doesn't use it&nbsp;&mdash;&nbsp;for example, this
 happened to a lot of free software projects that predate the invention
 of the wiki (see <ulink url="https://en.wikipedia.org/wiki/Wiki"
 >https://en.wikipedia.org/wiki/Wiki</ulink>), and more recently has been
@@ -121,7 +121,7 @@ software and the benefit it brings to the project.</para>
 <para>Beware of the temptation to over-automate, that is, to automate
 things that really require human attention.  Technical infrastructure
 is important, but what makes a free software project work is
-care&mdash;and intelligent expression of that care&mdash;by the humans
+care&nbsp;&mdash;&nbsp;and intelligent expression of that care&nbsp;&mdash;&nbsp;by the humans
 involved.  The technical infrastructure is mainly about giving humans
 easy ways to apply care.</para>
 
@@ -324,7 +324,7 @@ have if you set up the site yourself and had full administrative
 access to the server.</para>
 
 <para>A perfect example of this is the handling of generated files.
-Certain project web pages may be generated files&mdash;for example,
+Certain project web pages may be generated files&nbsp;&mdash;&nbsp;for example,
 there are systems for keeping FAQ data in an easy-to-edit master
 format, from which HTML, PDF, and other presentation formats can be
 generated.  As explained in
@@ -855,7 +855,7 @@ obscure people's email addresses, for example by replacing</para>
 
 <para>or some similarly obvious (to a human) encoding.  Since spam
 address harvesters often work by crawling through web
-pages&mdash;including your mailing list's online archives&mdash;and
+pages&nbsp;&mdash;&nbsp;including your mailing list's online archives&nbsp;&mdash;&nbsp;and
 looking for sequences containing "@", encoding the addresses is a way
 of making people's email addresses invisible or useless to spammers.
 This does nothing to prevent spam from being sent to the mailing list
@@ -1005,8 +1005,8 @@ as a more space-efficient alternative.</para>
 unsubscription instructions to the bottom of every post.  If that
 option is available, turn it on.  It causes only a couple of extra
 lines per message, in a harmless location, and it can save you a lot
-of time, by cutting down on the number of people who mail you&mdash;or
-worse, mail the list!&mdash;asking how to unsubscribe.</para>
+of time, by cutting down on the number of people who mail you&nbsp;&mdash;&nbsp;or
+worse, mail the list!&nbsp;&mdash;&nbsp;asking how to unsubscribe.</para>
 
 </sect3>
 
@@ -1027,7 +1027,7 @@ turning on that feature would be the obvious choice.</para>
 <para>Well, not quite.  There is such a feature, but it has some
 pretty severe disadvantages.  The question of whether or not to use it
 is one of the hottest debates in mailing list
-management&mdash;admittedly, not a controversy that's likely to make
+management&nbsp;&mdash;&nbsp;admittedly, not a controversy that's likely to make
 the evening news in your city, but it can flare up from time to time
 in free software projects.  Below, I will describe the feature, give
 the major arguments on both sides, and make the best recommendation I
@@ -1084,7 +1084,7 @@ reply to everyone (that is, including the list), they should choose
 reply-to-all, and to reply privately to the author, they should choose
 reply-to-author.  Although you want to encourage people to reply to
 the list whenever possible, there are certainly circumstances where a
-private reply is the responder's prerogative&mdash;for example, they
+private reply is the responder's prerogative&nbsp;&mdash;&nbsp;for example, they
 may want to say something confidential to the author of the original
 message, something that would be inappropriate on the public
 list.</para>
@@ -1289,9 +1289,9 @@ these properties:</para>
 
   <varlistentry><term>Searchability</term>
     <listitem>
-      <para>An archiver that doesn't support searching&mdash;on the
+      <para>An archiver that doesn't support searching&nbsp;&mdash;&nbsp;on the
             bodies of messages, as well as on authors and
-            subjects&mdash;is close to useless.  Note that some archivers 
+            subjects&nbsp;&mdash;&nbsp;is close to useless.  Note that some archivers 
             support searching by simply farming the work out to an
             external search engine such as <ulink
             url="https://www.google.com/" >https://www.google.com/</ulink>.  This is
@@ -1513,7 +1513,7 @@ discussion can often be helpful.</para>
   development branch (see <xref linkend="vc-vocabulary-branch"/>),
   people often say "update" instead of "pull", for example: "Hey, I
   noticed the indexing code is always dropping the last byte.  Is this
-  a new bug?" "Yes, but it was fixed last week&mdash;try updating and
+  a new bug?" "Yes, but it was fixed last week&nbsp;&mdash;&nbsp;try updating and
   it should go away."</para>
   <para>See also <xref linkend="pull-requests"/>.</para></listitem>
 
@@ -1621,7 +1621,7 @@ discussion can often be helpful.</para>
   <para>The word <firstterm>version</firstterm> is sometimes used as a
   synonym for "revision", but I will not use it that way in this
   book, because it is too easily confused with "version" in the sense
-  of a version of a piece of software&mdash;that is, the release or
+  of a version of a piece of software&nbsp;&mdash;&nbsp;that is, the release or
   edition number, as in "Version 1.0".  However, since the phrase
   "version control" is already standard, I will continue to use it as
   a synonym for "revision control" and "change control".  Sorry.  One
@@ -1802,7 +1802,7 @@ details.</para>
 but also its web pages, documentation, FAQ, design notes, and anything
 else that people might want to edit.  Keep them right with the
 source code, in the same repository tree.  Any piece of information
-worth writing down is worth versioning&mdash;that is, any piece of
+worth writing down is worth versioning&nbsp;&mdash;&nbsp;that is, any piece of
 information that could change.  Things that don't change should be
 archived, not versioned.  For example, an email, once posted, does not
 change; therefore, versioning it wouldn't make sense (unless it becomes
@@ -1826,7 +1826,7 @@ in <filename>configure.in</filename>.  To make a change to the
 <filename>configure</filename>, one would edit
 <filename>configure.in</filename> and then regenerate; thus, only the
 template <filename>configure.in</filename> is an "editable file."
-Just version the templates&mdash;if you version the generated files as
+Just version the templates&nbsp;&mdash;&nbsp;if you version the generated files as
 well, people will inevitably forget to regenerate them when they commit a
 change to a template, and the resulting inconsistencies will cause no
 end of confusion.</para>
@@ -1890,7 +1890,7 @@ you get used to them, and they become increasingly important as a
 project acquires more developers.</para>
 
 <para>Branches are valuable because they turn a scarce
-resource&mdash;working room in the project's code&mdash;into an
+resource&nbsp;&mdash;&nbsp;working room in the project's code&nbsp;&mdash;&nbsp;into an
 abundant one.  Normally, all developers work together in the same
 sandbox, constructing the same castle.  When someone wants to add a
 new drawbridge, but can't convince everyone else that it would be an
@@ -1942,7 +1942,7 @@ system exactly once.  The revision (or set of revisions) in which the
 change entered is its unique identifier from then on.  If it needs to
 be applied to branches other than the one on which it entered, then it
 should be merged from its original entry point to those other
-destinations&mdash;as opposed to committing a textually identical
+destinations&nbsp;&mdash;&nbsp;as opposed to committing a textually identical
 change, which would have the same effect in the code, but would make
 accurate bookkeeping and release management much harder.</para>
 
@@ -2018,7 +2018,7 @@ decide who can put changes where.)</para>
 provides an audit trail, and in an active project, all commits are
 reviewed anyway.  If someone commits where they're not supposed to,
 others will notice it and say something.  If a change needs to be
-undone, that's simple enough&mdash;everything's under version control
+undone, that's simple enough&nbsp;&mdash;&nbsp;everything's under version control
 anyway, so just revert.</para>
 
 <para>There are several advantages to this more relaxed approach.
@@ -2040,7 +2040,7 @@ management standpoint and from a crediting standpoint.</para>
 <para>Last, and perhaps most important, using the honor system
 encourages an atmosphere of trust and mutual respect.  Giving someone
 commit access to a subdomain is a statement about their technical
-preparedness&mdash;it says: "We see you have expertise to make commits
+preparedness&nbsp;&mdash;&nbsp;it says: "We see you have expertise to make commits
 in a certain domain, so go for it."  But imposing strict authorization
 controls says: "Not only are we asserting a limit on your expertise,
 we're also a bit suspicious about
@@ -2200,7 +2200,7 @@ sometimes <firstterm>triggers</firstterm>) specifically a
 hook</firstterm> hook.  These hooks are a general means of launching
 automated tasks in response to receiving changes.  The hook is fed all
 the information about the merge, and is then free to use that
-information to do anything&mdash;for example, to send out an
+information to do anything&nbsp;&mdash;&nbsp;for example, to send out an
 email.</para>
 
 <para>With pre-packaged commit email systems, you may want to
@@ -2286,7 +2286,7 @@ tracker?</para>
 
 <para>The term <firstterm>bug tracker</firstterm> is misleading.  Bug
 tracking systems are used to track not only bug reports, but new
-feature requests, one-time tasks, unsolicited patches&mdash;really
+feature requests, one-time tasks, unsolicited patches&nbsp;&mdash;&nbsp;really
 anything that has distinct beginning and end states, with optional
 transition states in between, and that accrues information over its
 lifetime.  For this reason, bug trackers are also called
@@ -2321,7 +2321,7 @@ don't.)</para>
             <xref linkend="managing-participants"/></phrase> for
             how to encourage good bug reports), and whatever other
             information the tracker asks for.  The person who files
-            the ticket may be totally unknown to the project&mdash;bug
+            the ticket may be totally unknown to the project&nbsp;&mdash;&nbsp;bug
             reports and feature requests are as likely to come from
             the user community as from the developers.</para>
 
@@ -2580,7 +2580,7 @@ Debian automatically routes each ticket to the appropriate package
 maintainers.  Of course, users can sometimes misidentify a ticket's
 category, with the result that the ticket is sent to the wrong person
 initially, who may then have to reroute it.  However, the important
-thing is that the burden is still shared&mdash;whether the user
+thing is that the burden is still shared&nbsp;&mdash;&nbsp;whether the user
 guesses right or wrong when filing, ticket watching is still
 distributed more or less evenly among the developers, so each ticket is
 able to receive a timely response.</para>
@@ -2641,7 +2641,7 @@ unbuddied ticket, the ideal steps are:</para>
 <para>Remember that although this system will improve the signal/noise
 ratio in the ticket database over time, it will never completely stop
 the misfilings.  The only way to prevent misfilings entirely is to
-close off the bug tracker to everyone but developers&mdash;a cure that
+close off the bug tracker to everyone but developers&nbsp;&mdash;&nbsp;a cure that
 is almost always worse than the disease.  It's better to accept that
 cleaning out invalid tickets will always be part of the project's
 routine maintenance, and to try to get as many people as possible to
@@ -2736,7 +2736,7 @@ sparing you the not-insignificant trouble of maintaining an IRC server
 yourself.</para>
 
 <para>The first thing to do is choose a channel name.  The most
-obvious choice is the name of your project&mdash;if that's available
+obvious choice is the name of your project&nbsp;&mdash;&nbsp;if that's available
 at Freenode, then use it.  If not, try to choose something as close to
 your project's name, and as easy to remember, as possible.  Advertise
 the channel's availabity from your project's web site, so a visitor

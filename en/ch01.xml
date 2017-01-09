@@ -122,8 +122,8 @@ open source project.</para>
 but in the successful projects, it's usually happening behind the
 scenes in some form or another.  A small thought experiment suffices
 to show why.  An open source project consists of a random collection
-of programmers&mdash;already a notoriously independent-minded
-species&mdash;who have most likely never met each other, and who may
+of programmers&nbsp;&mdash;&nbsp;already a notoriously independent-minded
+species&nbsp;&mdash;&nbsp;who have most likely never met each other, and who may
 each have different personal goals in working on the project.  The
 thought experiment is simply to imagine what would happen to such a
 group <emphasis>without</emphasis> management.  Barring miracles, it
@@ -143,9 +143,9 @@ throughout the rest of this book.</para>
 called "failures of cultural navigation."  Twenty years ago, even ten,
 it would have been premature to talk about a global culture of free
 software, but not anymore.  A recognizable culture has slowly emerged,
-and while it is certainly not monolithic&mdash;it is at least as prone
+and while it is certainly not monolithic&nbsp;&mdash;&nbsp;it is at least as prone
 to internal dissent and factionalism as any geographically bound
-culture&mdash;it does have a basically consistent core.  Most
+culture&nbsp;&mdash;&nbsp;it does have a basically consistent core.  Most
 successful open source projects exhibit some or all of the
 characteristics of this core.  They reward certain types of behaviors,
 and punish others; they create an atmosphere that encourages unplanned
@@ -208,7 +208,7 @@ effectively everywhere.  In contrast, a person who does not understand
 the culture will find the process of organizing or participating in a
 project difficult and full of surprises.  Since the number of people
 developing free software continues to grow, there are many people in
-that latter category&mdash;this is largely a culture of recent
+that latter category&nbsp;&mdash;&nbsp;this is largely a culture of recent
 immigrants, and will continue to be so for some time.  If you think
 you might be one of them, the next section provides background for
 discussions you'll encounter later, both in this book and on the
@@ -237,7 +237,7 @@ customers.</para>
 
 <para>Although this early period resembled today's free software
 culture in many ways, it differed in two crucial respects.  First,
-there was as yet little standardization of hardware&mdash;it was a
+there was as yet little standardization of hardware&nbsp;&mdash;&nbsp;it was a
 time of flourishing innovation in computer design, but the diversity
 of computing architectures meant that everything was incompatible with
 everything else.  Software written for one machine would
@@ -277,7 +277,7 @@ frictionless sharing, as we know it today, was not possible.</para>
 
 <para>As the industry matured, several interrelated changes occurred
 simultaneously.  The wild diversity of hardware designs gradually gave
-way to a few clear winners&mdash;winners through superior technology,
+way to a few clear winners&nbsp;&mdash;&nbsp;winners through superior technology,
 superior marketing, or some combination of the two.  At the same time,
 and not entirely coincidentally, the development of so-called "high
 level" programming languages meant that one could write a program
@@ -397,13 +397,13 @@ particular copy of it could be incorporated into a proprietary program
 copyright licenses <footnote><para>See <xref
 linkend="licenses-terminology" /> for more about "permissive" licensing
 versus GPL-style "copyleft" licensing.  The opensource.org FAQ is also
-a good resource on this&mdash;see<ulink
+a good resource on this&nbsp;&mdash;&nbsp;see<ulink
 url="https://opensource.org/faq#copyleft"
 >https://opensource.org/faq#copyleft</ulink>.</para></footnote>).  While
 such incorporation wouldn't in
 any way diminish the original code's continued availability, it would
 have meant that Stallman's efforts could benefit the
-enemy&mdash;proprietary software.  The GPL can be thought of as a form
+enemy&nbsp;&mdash;&nbsp;proprietary software.  The GPL can be thought of as a form
 of protectionism for free software, because it prevents non-free
 software from taking full advantage of GPLed code.  The GPL and its
 relationship to other free software licenses are discussed in detail
@@ -419,7 +419,7 @@ non-free systems, and many people did.  The GNU text editor (Emacs)
 and C compiler (GCC) were particularly successful, gaining large and
 loyal followings not on ideological grounds, but simply on their
 technical merits.  By about 1990, GNU had produced most of a free
-operating system, except for the kernel&mdash;the part that the
+operating system, except for the kernel&nbsp;&mdash;&nbsp;the part that the
 machine actually boots up, and that is responsible for managing memory,
 disk, and other system resources.</para>
 
@@ -466,8 +466,8 @@ software scene, however, and not all were as explictly ideological as
 Stallman's GNU Project.  One of the most important was
 the <firstterm>Berkeley Software Distribution</firstterm>
 (<firstterm>BSD</firstterm>), a gradual re-implementation of the Unix
-operating system&mdash;which up until the late 1970's had been a
-loosely proprietary research project at AT&amp;T&mdash;by programmers
+operating system&nbsp;&mdash;&nbsp;which up until the late 1970's had been a
+loosely proprietary research project at AT&amp;T&nbsp;&mdash;&nbsp;by programmers
 at the University of California at Berkeley.  The BSD group did not
 make any overt political statements about the need for programmers to
 band together and share with one another, but they
@@ -486,7 +486,7 @@ computing environment, developed at MIT in the mid-1980's in
 partnership with hardware vendors who had a common interest in being
 able to offer their customers a windowing system.  Far from opposing
 proprietary software, the X license deliberately allowed proprietary
-extensions on top of the free core&mdash;each member of the consortium
+extensions on top of the free core&nbsp;&mdash;&nbsp;each member of the consortium
 wanted the chance to enhance the default X distribution, and thereby
 gain a competitive advantage over the other members.  X
 Windows<footnote><para>They prefer it to be called the "X Window
@@ -505,8 +505,8 @@ licenses, discussed more in <xref linkend="legal"/>).  Knuth wasn't
 taking a stand one way or the other on the question of
 free-versus-proprietary software; he just needed a better typesetting
 system in order to complete his
-<emphasis>real</emphasis> goal&mdash;a book on computer
-programming&mdash;and saw no reason not to release his system to the
+<emphasis>real</emphasis> goal&nbsp;&mdash;&nbsp;a book on computer
+programming&nbsp;&mdash;&nbsp;and saw no reason not to release his system to the
 world when done.</para>
 
 </sect3>
@@ -572,7 +572,7 @@ true that all free software is zero-cost,<footnote><para>One may charge
 a fee for giving out copies of free software, but since one cannot
 stop the recipients from offering it at no charge afterwards, the
 price is effectively driven to zero immediately.</para></footnote>
-but not all zero-cost software is free as in "freedom"&mdash;that is,
+but not all zero-cost software is free as in "freedom"&nbsp;&mdash;&nbsp;that is,
 the freedom to share and modify for any purpose.  For example, during the
 battle of the browsers in the 1990s, both Netscape and Microsoft gave
 away their competing web browsers at no charge, in a scramble to gain
@@ -599,7 +599,7 @@ means that a problem with English is, to some degree, a problem for
 everyone.  The misunderstanding around the word "free" was so
 prevalent that free software programmers eventually evolved a standard
 formula in response: "It's <emphasis>free</emphasis> as in
-<emphasis>freedom</emphasis>&mdash;think <emphasis>free
+<emphasis>freedom</emphasis>&nbsp;&mdash;&nbsp;think <emphasis>free
 speech</emphasis>, not <emphasis>free beer</emphasis>."  Still, having
 to explain it over and over is tiring.  Many programmers felt, with
 some justification, that the ambiguous word "free" was hampering the
@@ -708,7 +708,7 @@ exactly what those convictions are.  For some, it might be the
 conviction that code developed according to an open process will be
 better code; for others, it might be the conviction that all
 information should be shared.  There's the use of the word "theft" to
-refer (presumably) to illegal copying&mdash;a usage that many object
+refer (presumably) to illegal copying&nbsp;&mdash;&nbsp;a usage that many object
 to, on the grounds that it's not theft if the original possessor still
 has the item afterwards.  There's the tantalizing hint that the free
 software movement might be mistakenly accused of anti-commercialism,
@@ -720,7 +720,7 @@ or misleading.  It's not.  Rather, it is an example of exactly what
 the OSI claims had been missing from the free software movement: good
 marketing, where "good" means "viable in the business world."  The
 Open Source Initiative gave a lot of people exactly what they had been
-looking for&mdash;a vocabulary for talking about free software as a
+looking for&nbsp;&mdash;&nbsp;a vocabulary for talking about free software as a
 development methodology and business strategy, instead of as a moral
 crusade.</para>
 
@@ -733,7 +733,7 @@ it had internal politics as well as external.  The effect today is
 that both sides have had to find common ground, since most projects
 include programmers from both camps, as well as participants who don't
 fit any clear category.  This doesn't mean people never talk about
-moral motivations&mdash;lapses in the traditional "hacker ethic" are
+moral motivations&nbsp;&mdash;&nbsp;lapses in the traditional "hacker ethic" are
 sometimes called out, for example.  But it is rare for a free software
 / open source developer to openly question the basic motivations of
 others in a project.  The contribution trumps the contributor.  If
@@ -761,8 +761,8 @@ find themselves unable to work in any project).  But you do need to be
 aware that the question of "free" versus "open source" exists, partly
 to avoid saying things that might be inimical to some of the
 participants, and partly because understanding developers' motivations
-is the best way&mdash;in some sense, the <emphasis>only</emphasis>
-way&mdash;to manage a project.</para>
+is the best way&nbsp;&mdash;&nbsp;in some sense, the <emphasis>only</emphasis>
+way&nbsp;&mdash;&nbsp;to manage a project.</para>
 
 <para>Free software is a culture by choice.  To operate successfully
 in it, you have to understand why people choose to be in it in the

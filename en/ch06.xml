@@ -44,7 +44,7 @@ method is no longer working well, perhaps because it doesn't scale as
 the number of users increases, and taking the time to do something
 about it.</para>
 
-<para>All of which is obvious in theory&mdash;what makes it hard in
+<para>All of which is obvious in theory&nbsp;&mdash;&nbsp;what makes it hard in
 practice is that free software development environments are
 bewilderingly diverse both in audiences and in communications
 mechanisms.  Should a given thought be expressed in a post to the
@@ -87,7 +87,7 @@ again.</para></footnote></para>
 
 <para>Consider this: the only thing anyone knows about you on the
 Internet comes from what you write, or what others write about you.
-You may be brilliant, perceptive, and charismatic in person&mdash;but
+You may be brilliant, perceptive, and charismatic in person&nbsp;&mdash;&nbsp;but
 if your emails are rambling and unstructured, people will assume
 that's the real you.  Or perhaps you really are rambling and
 unstructured in person, but no one need ever know it, if your posts
@@ -207,7 +207,7 @@ settled on certain formatting conventions:</para>
   of related messages into threads, which can be defined not only by a
   common subject, but by various other headers (which are sometimes
   not displayed).  It follows that if a thread starts to drift to a
-  new topic, you can&mdash;and should&mdash;adjust the subject line
+  new topic, you can&nbsp;&mdash;&nbsp;and should&nbsp;&mdash;&nbsp;adjust the subject line
   accordingly when replying.  The thread's integrity will be
   preserved, due to those other headers, but the new subject will help
   people looking at an overview of the thread know that the topic has
@@ -235,7 +235,7 @@ are some principles that make it more likely.</para>
 <para><emphasis>Make things easy for your readers.</emphasis>
 There's a ton of information
 floating around in any active open source project, and readers cannot
-be expected to be familiar with most of it&mdash;indeed, they cannot
+be expected to be familiar with most of it&nbsp;&mdash;&nbsp;indeed, they cannot
 always be expected to know how to become familiar.  Wherever possible,
 your posts should provide information in the form most convenient for
 readers.  If you have to spend an extra two minutes to dig up the URL
@@ -261,7 +261,7 @@ that the developers will not pay sufficient attention, so he'll
 describe it as a severe, showstopper problem that is preventing him
 (and all his friends/coworkers/cousins) from using the software
 productively, when it's actually only a mild annoyance.  But
-exaggeration is not limited to users&mdash;programmers often do the
+exaggeration is not limited to users&nbsp;&mdash;&nbsp;programmers often do the
 same thing during technical debates, particularly when the
 disagreement is over a matter of taste rather than correctness:</para>
 
@@ -282,7 +282,7 @@ disagreement is over a matter of taste rather than correctness:</para>
 
 <para>You will not be able to rid the project of hyperbole completely, and in
 general it's not necessary to do so.  Compared to other forms of
-miscommunication, hyperbole is not globally damaging&mdash;it hurts
+miscommunication, hyperbole is not globally damaging&nbsp;&mdash;&nbsp;it hurts
 mainly the perpetrator.  The recipients can compensate, it's just that
 the sender loses a little more credibility each time.  Therefore, for
 the sake of your own influence in the project, try to err on the side
@@ -403,9 +403,9 @@ the project.</para>
 <para>One of the defining characteristics of open source culture is
 its distinctive notions of what does and does not constitute rudeness.
 While the conventions described below are not unique to free software
-development, nor even to software in general&mdash;they would be
+development, nor even to software in general&nbsp;&mdash;&nbsp;they would be
 familiar to anyone working in mathematics, the hard sciences, or
-engineering disciplines&mdash;free software, with its porous
+engineering disciplines&nbsp;&mdash;&nbsp;free software, with its porous
 boundaries and constant influx of newcomers, is an environment where
 these conventions are especially likely to be encountered by people
 unfamiliar with them.  (This is one reason why it's good to be
@@ -470,7 +470,7 @@ that one has fallen short this time.  Either way, the norm is
 strengthened.  But failing to meet that norm, while at the same time
 not explaining <emphasis>why</emphasis> you failed to meet it, is like
 saying the topic (and those participating in it) was not worth much
-of your time&mdash;that your time is more valuable than theirs.
+of your time&nbsp;&mdash;&nbsp;that your time is more valuable than theirs.
 Better to show that your time is valuable by being terse than by being
 lazy.</para>
 
@@ -530,7 +530,7 @@ issue of <citetitle>The New Yorker</citetitle>, that shows one dog
 logged into a computer terminal, looking down and telling another
 conspiratorially: "On the Internet, nobody knows you're a dog."  This
 kind of thought probably lies behind a lot of the self-aggrandizing,
-meant-to-be-hip online identities people give themselves&mdash;as if
+meant-to-be-hip online identities people give themselves&nbsp;&mdash;&nbsp;as if
 calling oneself "Wonder Hacker" will actually cause people to believe
 one <emphasis>is</emphasis> a wonderful hacker.  But the fact remains:
 even if no one knows you're a dog, you're still a dog.  A fantastical
@@ -548,7 +548,7 @@ conversation.  Hackerdom in general, and free software culture in
 particular, tends to view title displays as exclusionary and a sign of
 insecurity.  It's okay if your title appears as part of a standard
 signature block at the end of every mail you send, just don't ever use
-it as a tool to bolster your position in a discussion&mdash;the
+it as a tool to bolster your position in a discussion&nbsp;&mdash;&nbsp;the
 attempt is guaranteed to backfire.  You want folks to respect the
 person, not the title.</para>
 
@@ -607,9 +607,9 @@ any lasting harm.  However, if this person wanted to participate
 actively in the project, that legal boilerplate would start to have a
 more insidious effect.  It would send at least two potentially
 destructive signals: first, that this person doesn't have full control
-over his tools&mdash;he's trapped inside some corporate mailer that
+over his tools&nbsp;&mdash;&nbsp;he's trapped inside some corporate mailer that
 tacks an annoying message to the end of every email, and he hasn't got
-any way to route around it&mdash;and second, that he has little or no
+any way to route around it&nbsp;&mdash;&nbsp;and second, that he has little or no
 organizational support for his free software activities.  True, the
 organization has clearly not banned him outright from posting to
 public lists, but it has made his posts look distinctly unwelcoming,
@@ -733,7 +733,7 @@ troublesome.</para>
 art.  It won't work to simply admonish people to stop wasting their
 time, or to ask them not to post unless they have something constructive
 to say.  You may, of course, think these things privately, but if you
-say them out loud then you will be offensive&mdash;and
+say them out loud then you will be offensive&nbsp;&mdash;&nbsp;and
 ineffective.  Instead, you have to
 suggest conditions for further progress: give people a route, a
 path to follow that leads to the results you want, yet without
@@ -769,7 +769,7 @@ important whether or not you actually participated in the thread
 before now, because it reminds everyone that even those who have been
 silent thus far still have a stake in the thread's outcome.  It
 describes why the thread is going nowhere, but does so without
-pejoratives or judgements&mdash;it just dispassionately states
+pejoratives or judgements&nbsp;&mdash;&nbsp;it just dispassionately states
 some facts.  Most importantly, it offers a positive course of action,
 so that instead of people feeling like discussion is being closed off
 (a restriction against which they can only be tempted to rebel), they
@@ -779,7 +779,7 @@ This is a standard the most productive people will naturally want to
 meet.</para>
 
 <para>You won't always want a thread to make it to the next level of
-constructiveness&mdash;sometimes you'll want it to just go away.  The
+constructiveness&nbsp;&mdash;&nbsp;sometimes you'll want it to just go away.  The
 purpose of your post, then, is to make it do one or the other.  If you
 can tell from the way the thread has gone so far that no one is
 actually <emphasis>going</emphasis> to take the steps you suggested,
@@ -878,7 +878,7 @@ will recognize what Kamp is talking about.  However, it is usually
 impossible to persuade <emphasis>everyone</emphasis> to avoid painting
 bikesheds.  The best you can do is point out that the phenomenon
 exists, when you see it happening, and persuade the senior
-developers&mdash;the people whose posts carry the most weight&mdash;to
+developers&nbsp;&mdash;&nbsp;the people whose posts carry the most weight&nbsp;&mdash;&nbsp;to
 drop their paintbrushes early, so at least they're not contributing to
 the noise.  Bikeshed painting parties will never go away entirely, but
 you can make them shorter and less frequent by spreading an awareness
@@ -913,7 +913,7 @@ that neither side is changing the other's mind.  Viewed from inside,
 the other side is being obtuse and not thinking clearly, but they
 might come around if browbeaten enough.  Now, I am
 <emphasis>not</emphasis> saying there's never a right side in a holy
-war.  Sometimes there is&mdash;in the holy wars I've participated
+war.  Sometimes there is&nbsp;&mdash;&nbsp;in the holy wars I've participated
 in, it's always been my side, of course.  But it doesn't matter,
 because there's no algorithm for convincingly demonstrating that one
 side or the other is right.</para>
@@ -922,7 +922,7 @@ side or the other is right.</para>
 wars is to say "We've already spent far more time and energy
 discussing this than it's worth!  Can we please just drop it?"  There
 are two problems with this.  First, that time and energy has already
-been spent and can never be recovered&mdash;the only question now is,
+been spent and can never be recovered&nbsp;&mdash;&nbsp;the only question now is,
 how much <emphasis>more</emphasis> effort remains?  If some people
 feel that just a little more discussion will resolve the issue in
 their favor, then it still makes sense (from their point of view) to
@@ -961,7 +961,7 @@ foolishness, the act of surrendering or changing one's mind becomes
 psychologically unbearable: it would be an admission not just of being
 wrong, but of having been <emphasis>certain</emphasis> and still being
 wrong.  The way you can make this admission palatable for the other
-side is to express some uncertainty yourself&mdash;precisely by
+side is to express some uncertainty yourself&nbsp;&mdash;&nbsp;precisely by
 showing that you understand the arguments they are making and find
 them at least sensible, if not finally persuasive.  Make a gesture
 that provides space for a reciprocal gesture, and usually the
@@ -1049,7 +1049,7 @@ their understanding of what transpired.</para>
 
 <para>Refrain from giving negative opinions about competing open
 source software.  It's perfectly okay to give negative
-<emphasis>facts</emphasis>&mdash;that is, easily confirmable
+<emphasis>facts</emphasis>&nbsp;&mdash;&nbsp;that is, easily confirmable
 assertions of the sort often seen in good comparison charts.  But
 negative characterizations of a less rigorous nature are best avoided,
 for two reasons.  First, they are liable to start flame wars that
@@ -1154,7 +1154,7 @@ be an irritating obstructionist."  Instead, such actions are often
 preceded by a semi-paranoid feeling of being shut out of group
 interactions and decisions.  The person feels he is not being taken
 seriously, or (in the more severe cases) that there is almost a
-conspiracy against him&mdash;that the other project members have decided to
+conspiracy against him&nbsp;&mdash;&nbsp;that the other project members have decided to
 form an exclusive club, of which he is not a member.  This then
 justifies, in his mind, taking rules literally and engaging in a
 formal manipulation of the project's procedures, in order
@@ -1176,7 +1176,7 @@ disease: if it's not too debilitating, the project can afford to
 remain infected, and medicine might have harmful side effects.
 However, if it gets too damaging to tolerate, then it's time for
 action.  Start gathering notes on the patterns you see.  Make sure to
-include references to public archives&mdash;this is one of the reasons
+include references to public archives&nbsp;&mdash;&nbsp;this is one of the reasons
 the project keeps records, so you might as well use them.  Once you've
 got a good case built, start having private conversations with other
 project participants.  Don't tell them what you've observed; instead,
@@ -1316,7 +1316,7 @@ able to provide information increases much more slowly.  Furthermore,
 even if the ratio were evenly balanced, there is still a fundamental
 scalability problem with the way most open source projects handle
 communications.  Consider mailing lists, for example.  Most projects
-have a mailing list for general user questions&mdash;sometimes the
+have a mailing list for general user questions&nbsp;&mdash;&nbsp;sometimes the
 list's name is "users", "discuss", "help", or something else.
 Whatever its name, the purpose of the list is always the same: to
 provide a place where people can get their questions answered, while
@@ -1354,7 +1354,7 @@ in all the noise.  As more and more people make this highly rational
 choice, the forum's activity will seem to stay at a manageable level.
 But it is staying manageable precisely because the rational (or at
 least, experienced) people have started looking elsewhere for
-information&mdash;while the inexperienced people stay behind and
+information&nbsp;&mdash;&nbsp;while the inexperienced people stay behind and
 continue posting.  In other words, one side effect of continuing to
 use unscalable communications models as a project grows is that the
 average <emphasis>quality</emphasis> of communications tends to go
@@ -1557,7 +1557,7 @@ case study.</para>
   <listitem>
     <para>They want to be able to add new material to the FAQ, but
           note that this happens much less often than answers are
-          looked up&mdash;FAQs are far more often read from than
+          looked up&nbsp;&mdash;&nbsp;FAQs are far more often read from than
           written to.</para>
 
     <para><emphasis>Therefore: the source files for the FAQ should be
@@ -1569,10 +1569,10 @@ case study.</para>
 </orderedlist>
 
 <para>Formatting the FAQ like this is just one example of how to make
-a resource presentable.  The same properties&mdash;direct
+a resource presentable.  The same properties&nbsp;&mdash;&nbsp;direct
 searchability, availability to major Internet search engines,
 browsability, referential stability, and (where applicable)
-editability&mdash;apply to other web pages, to the source code tree,
+editability&nbsp;&mdash;&nbsp;apply to other web pages, to the source code tree,
 to the bug tracker, to Q&amp;A forums, etc.  It just happens that most
 mailing list archiving software long ago recognized the importance of
 these properties, which is why mailing lists tend to have this
@@ -1623,12 +1623,12 @@ to repeat yourselves often; this is an inevitable side effect of the
 arrival of newcomers.</para>
 
 <para>Every web page, every mailing list message, and every IRC channel
-should be considered advertising space&mdash;not for commercial
+should be considered advertising space&nbsp;&mdash;&nbsp;not for commercial
 advertisements, but for ads about your project's own resources.  What
 you put in that space depends on the demographics of those likely to
 read it.  An IRC channel for user questions, for example, is likely to
 get people who have never interacted with the project
-before&mdash;often someone who has just installed the software, and
+before&nbsp;&mdash;&nbsp;often someone who has just installed the software, and
 has a question he'd like answered immediately (after all, if it
 could wait, he'd have sent it to a mailing list instead, which would
 probably use less of his total time, although it would take longer
@@ -1647,7 +1647,7 @@ every message.  Most projects put subscription/unsubscription
 instructions there, and perhaps a pointer to the project's home page
 or FAQ page as well.  You might think that anyone subscribed to the
 list would know where to find those things, and they probably
-do&mdash;but many more people than just subscribers see those mailing
+do&nbsp;&mdash;&nbsp;but many more people than just subscribers see those mailing
 list messages.  An archived post may be linked to from many places;
 indeed, some posts become so widely known that they eventually have
 more readers off the list than on it.</para>
@@ -1668,11 +1668,11 @@ important part, the injunction to discuss the bug on the mailing lists
 or IRC channels before filing, would stand out in huge, bold red
 letters, on a bright yellow background, centered prominently above
 everything else on the page.  We did so (it's been reformatted a bit
-since then, but it's still very prominent&mdash;you can see the results at
+since then, but it's still very prominent&nbsp;&mdash;&nbsp;you can see the results at
 <ulink url="http://subversion.apache.org/reporting-issues.html"
 >http://subversion.apache.org/reporting-issues.html</ulink>), and
 the result was a noticeable drop in the rate of bogus ticket filings.
-The project still gets them, of course&mdash;it always will&mdash;but the rate
+The project still gets them, of course&nbsp;&mdash;&nbsp;it always will&nbsp;&mdash;&nbsp;but the rate
 has slowed considerably, even as the number of users increases.  The
 outcome is not only that the bug database contains less junk, but that
 those who respond to ticket filings stay in a better mood, and are more
@@ -1725,7 +1725,7 @@ canonical referral methods for common entities, and that these
 referral methods should be used consistently everywhere, the project
 in effect exports certain standards.  Those standards enable people to
 write tools that present the project's communications in more useable
-ways&mdash;for example, a revision formatted as "r12828" could be
+ways&nbsp;&mdash;&nbsp;for example, a revision formatted as "r12828" could be
 transformed into a live link into the repository browsing system.
 This would be harder to do if the revision were written as "revision
 12828", both because that form could be divided across a line break,
@@ -1889,10 +1889,10 @@ are usually static, unchangeable data anyway.</para>
 purely internal discussions and public relations statements.  This is
 partly because the target audience is always ill-defined: given that
 most or all posts are publicly accessible, the project doesn't have
-full control over the impression the world gets.  Someone&mdash;say, a
+full control over the impression the world gets.  Someone&nbsp;&mdash;&nbsp;say, a
 <ulink url="https://news.ycombinator.com/">https://news.ycombinator.com/</ulink>
 poster or <ulink url="https://slashdot.org/">https://slashdot.org/</ulink>
-editor&mdash;may draw millions of readers' attention to a post that no
+editor&nbsp;&mdash;&nbsp;may draw millions of readers' attention to a post that no
 one ever expected to be seen outside the project.  This is a fact of
 life that all open source projects live with, but in practice, the
 risk is usually small.  In general, the announcements that the project
@@ -1959,7 +1959,7 @@ simultaneously as possible:</para>
             important things, the <literal>announce</literal> list
             typically has the highest subscribership of any mailing
             list in the project (of course, this means you shouldn't
-            abuse it&mdash;consider carefully before posting).  To
+            abuse it&nbsp;&mdash;&nbsp;consider carefully before posting).  To
             avoid random people making announcements, or worse, spam
             getting through, the <literal>announce</literal> list must
             always be moderated.</para>
@@ -2030,7 +2030,7 @@ eventual fix.</para>
 <para>Security bugs are different.  They can compromise users' data,
 and possibly users' entire computers.  To discuss such a problem
 openly would be to advertise its existence to the entire
-world&mdash;including to all the parties who might make malicious use
+world&nbsp;&mdash;&nbsp;including to all the parties who might make malicious use
 of the bug.  Even merely committing a fix effectively announces the
 bug's existence (there are potential attackers who watch the commit
 logs of public projects, systematically looking for changes that
@@ -2045,7 +2045,7 @@ guidelines:</para>
             exactly the same moment you announce the bug.</para> 
   </listitem>
   <listitem><para>Come up with that fix as fast as you
-            can&mdash;especially if someone outside the project
+            can&nbsp;&mdash;&nbsp;especially if someone outside the project
             reported the bug, because then you know there's at least
             one person outside the project who is able to exploit the
             vulnerability.</para>
@@ -2063,7 +2063,7 @@ reports from anyone.  But the regular bug reporting channels won't do,
 because they can be watched by anyone too.  Therefore, have a separate
 mailing list or contact form for receiving security bug reports.  That
 forum must not have publicly readable archives, and its subscribership
-must be strictly controlled&mdash;only long-time, trusted developers
+must be strictly controlled&nbsp;&mdash;&nbsp;only long-time, trusted developers
 can be on the list, and people whom such developers have consensus
 that they trust<footnote><para>E.g., a release manager who maybe isn't
 a core developer but who is already trusted to roll releases anyway.
@@ -2159,7 +2159,7 @@ they've reported the security hole to you, they'll feel they've done
 you a good turn, and you should respond in kind.  Thank them for the
 report, give them a date on or before which you plan to release a
 public fix, and keep them in the loop.  Sometimes they may
-give <emphasis>you</emphasis> a date&mdash;that is, an implicit threat
+give <emphasis>you</emphasis> a date&nbsp;&mdash;&nbsp;that is, an implicit threat
 to publicize the bug on a certain date, whether you're ready or not.
 This may feel like a bullying power play, but it's more likely a
 pre&euml;mptive action resulting from past disappointment with
@@ -2172,7 +2172,7 @@ that they treat you well.</para>
 <para>Another frequent reporter of security bugs is the security
 professional, someone who audits code for a living and keeps up on the
 latest news of software vulnerabilities.  These people usually have
-experience on both sides of the fence&mdash;they've both received and
+experience on both sides of the fence&nbsp;&mdash;&nbsp;they've both received and
 sent reports, probably more than most developers in your project have.
 They too will usually give a deadline for fixing a vulnerability
 before going public.  The deadline may be somewhat negotiable, but
@@ -2331,7 +2331,7 @@ other out-of-band secure way to contact the administrator, use that.
 When sending encrypted pre-notification emails, send them individually
 (one at a time) to each recipient.  Do <emphasis>not</emphasis> send
 to the entire list of recipients at once, because then they would see
-each others' names&mdash;meaning that you would essentially be
+each others' names&nbsp;&mdash;&nbsp;meaning that you would essentially be
 alerting each recipient to the fact that each
 <emphasis>other</emphasis> recipient may have a security hole in her
 service.  Sending it to them all via blind CC (BCC) isn't a good

@@ -20,7 +20,7 @@ survivability.  Operational health is the project's ongoing ability to
 incorporate new code contributions and new developers, and to be
 responsive to incoming bug reports.  Survivability is the project's
 ability to exist independently of any individual participant or
-sponsor&mdash;think of it as the likelihood that the project would
+sponsor&nbsp;&mdash;&nbsp;think of it as the likelihood that the project would
 continue even if all of its founding members were to move on to other
 things<footnote><para>This is also known as the "<firstterm>Bus
 Factor</firstterm>", that is, how many participants would have to get hit by a bus
@@ -155,7 +155,7 @@ much certainty that others feel like it's pointless to dissent.
 People must be free to air ideas, even stupid ideas.  It is inevitable
 that the BD will post a stupid idea from time to time too, of course,
 and therefore the role also requires an ability to recognize and
-acknowledge when one has made a bad decision&mdash;though this is
+acknowledge when one has made a bad decision&nbsp;&mdash;&nbsp;though this is
 simply a trait that <emphasis>any</emphasis> good developer should
 have, especially if she stays with the project a long time.  But the
 difference is that the BD can afford to slip from time to time without
@@ -170,15 +170,15 @@ to work on the code herself, and to understand and comment on any
 change under consideration, but that's all.  The BD position is
 neither acquired nor held by virtue of intimidating coding skills.
 What <emphasis>is</emphasis> important is experience and overall
-design sense&mdash;not necessarily the ability to produce good
+design sense&nbsp;&mdash;&nbsp;not necessarily the ability to produce good
 design on demand, but the ability to recognize and endorse good
 design, whatever its source.</para>
 
 <para>It is common for the benevolent dictator to be a founder of the
 project, but this is more a correlation than a cause.  The sorts of
 qualities that make one able to successfully start a
-project&mdash;technical competence, ability to persuade other people
-to join, and so on&mdash;are exactly the qualities any BD would need.  And
+project&nbsp;&mdash;&nbsp;technical competence, ability to persuade other people
+to join, and so on&nbsp;&mdash;&nbsp;are exactly the qualities any BD would need.  And
 of course, founders start out with a sort of automatic seniority,
 which can often be enough to make benevolent dictatorship by the
 founder appear the path of least resistance for all concerned.</para>
@@ -221,7 +221,7 @@ particular BD.  It's simply that group-based governance is more
 "evolutionarily stable", to borrow a biological metaphor.  Whenever a
 benevolent dictator steps down, or attempts to spread decision-making
 responsibility more evenly, it is an opportunity for the group to
-settle on a new, non-dictatorial system&mdash;establish a
+settle on a new, non-dictatorial system&nbsp;&mdash;&nbsp;establish a
 constitution, as it were.  The group may not take this opportunity the
 first time, or the second, but eventually they will; once they do,
 the decision is unlikely ever to be reversed.  Common sense explains
@@ -409,7 +409,7 @@ voting.</para>
 <title>When To Vote</title>
 
 <para>The hardest thing about voting is determining when to do it.  In
-general, taking a vote should be very rare&mdash;a last resort for
+general, taking a vote should be very rare&nbsp;&mdash;&nbsp;a last resort for
 when all other options have failed.  Don't think of voting as a great
 way to resolve debates.  It isn't.  It ends discussion, and thereby
 ends creative thinking about the problem.  As long as discussion
@@ -568,7 +568,7 @@ really all that was called for was more discussion.  You can prevent
 veto abuse by being very reluctant to use vetoes yourself, and by
 gently calling it out when someone else uses her veto too often.  If
 necessary, you can also remind the group that vetoes are binding for
-only as long as the group agrees they are&mdash;after all, if a
+only as long as the group agrees they are&nbsp;&mdash;&nbsp;after all, if a
 clear majority of developers wants X, then X is going to happen one
 way or another.  Either the vetoing developer will back down, or the
 group will decide to weaken the meaning of a veto.</para>
@@ -666,7 +666,7 @@ should be written down as completely as possible.</para>
 <para>A good way to determine what to include is to base the document
 on the questions that newcomers ask most often, and on the complaints
 experienced developers make most often.  This doesn't necessarily mean
-it should turn into a FAQ sheet&mdash;it probably needs a more
+it should turn into a FAQ sheet&nbsp;&mdash;&nbsp;it probably needs a more
 coherent narrative structure than FAQs can offer.  But it should
 follow the same reality-based principle of addressing the issues that
 actually arise, rather than those you anticipate might arise.</para>
@@ -692,7 +692,7 @@ supposed to be a living reflection of the group's intentions, not a
 source of frustration and blockage.  If someone makes a habit of
 inappropriately asking for rules to be reconsidered every time the
 rules get in her way, you don't always need to debate it with
-her&mdash;sometimes silence is the best tactic.  If other people
+her&nbsp;&mdash;&nbsp;sometimes silence is the best tactic.  If other people
 agree with the complaints, they'll chime in, and it will be obvious
 that something needs to change.  If no one else agrees, then the
 person won't get much response, and the rules will stay as they

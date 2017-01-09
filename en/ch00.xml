@@ -6,7 +6,7 @@
 <title>Why Write This Book?</title>
 
 <para>At parties, people no longer give me a blank stare when I tell
-them I write free software.  "Oh, yes, open source&mdash;like Linux?"
+them I write free software.  "Oh, yes, open source&nbsp;&mdash;&nbsp;like Linux?"
 they say.  I nod eagerly in agreement.  "Yes, exactly!  That's what I
 do."  It's nice not to be completely fringe anymore.  In the past, the
 next question was usually fairly predictable: "How do you make money
@@ -22,8 +22,8 @@ source software" and "free software" are essentially synonymous in
 this context; they are discussed more in <xref
 linkend="free-vs-open-source"/><phrase output="printed"> in <xref
 linkend="introduction"/></phrase>.</para></footnote> is no longer so
-mysterious, and even non-programmers already understand&mdash;or at
-least are not surprised&mdash;that there are people employed at it
+mysterious, and even non-programmers already understand&nbsp;&mdash;&nbsp;or at
+least are not surprised&nbsp;&mdash;&nbsp;that there are people employed at it
 full time.  Instead, the next question is often "<emphasis>Oh, how
 does that work?</emphasis>"</para>
 
@@ -43,7 +43,7 @@ even the assumption that free software projects can be "run" is a
 stretch.  A free software project can be <emphasis>started</emphasis>,
 and it can be influenced by interested parties, often quite strongly.
 But its assets cannot be made the property of any single owner, and as
-long as there are people somewhere&mdash;anywhere&mdash;interested in
+long as there are people somewhere&nbsp;&mdash;&nbsp;anywhere&nbsp;&mdash;&nbsp;interested in
 continuing it, it cannot be unilaterally shut down.  Everyone has
 infinite power; everyone has no power.  It's an interesting
 dynamic.</para>
@@ -222,7 +222,7 @@ away.</para>
 it, which not only made the book better, but kept me writing when I
 wanted to be anywhere in the world but in front of the computer.  Ben
 Collins-Sussman and Mike Pilato also checked up on progress, and were
-always happy to discuss&mdash;sometimes at length&mdash;whatever topic
+always happy to discuss&nbsp;&mdash;&nbsp;sometimes at length&nbsp;&mdash;&nbsp;whatever topic
 I was trying to cover that week.  They also noticed when I slowed
 down, and gently nagged when necessary.  Thanks, guys.</para>
 
@@ -231,9 +231,9 @@ I was writing this book.  She knows what it means to sit down and
 write every day, and provided an inspiring example as well as a
 sympathetic ear.  She also has a fascinating anthropologist's-eye view
 of the free software movement, giving both ideas and references that I
-was able use in the book.  Alex Golub&mdash;another anthropologist
+was able use in the book.  Alex Golub&nbsp;&mdash;&nbsp;another anthropologist
 with one foot in the free software world, and also finishing his
-dissertation at the same time&mdash;was exceptionally supportive early
+dissertation at the same time&nbsp;&mdash;&nbsp;was exceptionally supportive early
 on, which helped a great deal.</para>
 
 <para>Micah Anderson somehow never seemed too oppressed by his own
@@ -242,7 +242,7 @@ way, but he was ever ready with friendship, conversation, and (on at
 least one occasion) technical support.  Thanks, Micah!</para>
 
 <para>Jon Trowbridge and Sander Striker gave both encouragement and
-concrete help&mdash;their broad experience in free software provided
+concrete help&nbsp;&mdash;&nbsp;their broad experience in free software provided
 material I couldn't have gotten any other way.</para>
 
 <para>Thanks to Greg Stein not only for friendship and well-timed
@@ -274,7 +274,7 @@ book.</para>
 schedule to write, and didn't complain when it went on far longer than
 originally planned.  I don't know all the intricacies of how
 management arrives at such decisions, but I suspect Sandhya Klute, and
-later Mahesh Murthy, had something to do with it&mdash;my thanks to
+later Mahesh Murthy, had something to do with it&nbsp;&mdash;&nbsp;my thanks to
 them both.</para>
 
 <para>The entire Subversion development team has been an inspiration
@@ -282,12 +282,12 @@ for the past five years, and much of what is in this book I learned
 from working with them.  I won't thank them all by name here, because
 there are too many, but I implore any reader who runs into a
 Subversion committer to immediately buy that committer the drink of
-his choice&mdash;I certainly plan to.</para>
+his choice&nbsp;&mdash;&nbsp;I certainly plan to.</para>
 
 <para>Many times I ranted to Rachel Scollon about the state of the
 book; she was always willing to listen, and somehow managed to make
 the problems seem smaller than before we talked.  That helped a
-lot&mdash;thanks.</para>
+lot&nbsp;&mdash;&nbsp;thanks.</para>
 
 <para>Thanks (again) to Noel Taylor, who must surely have wondered why
 I wanted to write another book given how much I complained the last
@@ -297,7 +297,7 @@ Thanks also to Matthew Dean and Dorothea Samtleben, friends and
 long-suffering musical partners, who were very understanding as my
 excuses for not practicing piled up.  Megan Jennings was constantly
 supportive, and genuinely interested in the topic even though it was
-unfamiliar to her&mdash;a great tonic for an insecure writer.  Thanks,
+unfamiliar to her&nbsp;&mdash;&nbsp;a great tonic for an insecure writer.  Thanks,
 pal!</para>
 
 <para>I had four knowledgeable and diligent reviewers for this book:
