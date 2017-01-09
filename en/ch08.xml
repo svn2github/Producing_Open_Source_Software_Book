@@ -1928,15 +1928,16 @@ forks</firstterm>.  The distinction between them is important.</para>
 development is done in most projects today.  A developer creates her
 own public copy of the project's master repository, makes some
 changes, then submits the changes back to the project directly from
-the forked copy.<footnote><para>This is the "<xref
-linkend="pull-requests" >pull-requests</xref>" workflow first popularized
-by GitHub.com.  GitHub's decision to use the term "fork" instead of
-"clone" to refer to the personal copies in which development is done
-is largely responsible for the newer, "short fork" sense of
-"fork".</para></footnote> Short forks are done on a routine basis as
-part of daily development, and have no negative effect on the social
-cohesiveness of the project.  They are really just an extension of the
-concept of development branches.</para>
+the forked copy.<footnote><para>This is the "pull request" workflow
+first popularized by GitHub.com (see <xref linkend="pull-requests"
+/><phrase condition="treeware"> in <xref
+linkend="technical-infrastructure"/></phrase>).  GitHub's decision to
+use the term "fork" instead of "clone" to refer to the personal copies
+in which development is done is largely responsible for the newer,
+"short fork" sense of "fork".</para></footnote> Short forks are done
+on a routine basis as part of daily development, and have no negative
+effect on the social cohesiveness of the project.  They are really
+just an extension of the concept of development branches.</para>
 
 <para>Social forks are much less common, and are much more significant
 when they happen.  A social fork is when a group of developers is
