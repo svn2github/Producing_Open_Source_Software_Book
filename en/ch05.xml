@@ -23,7 +23,7 @@ find funding sources for your open source project, though I hope it
 will usefully inform that topic.  There are many different ways open
 source projects are funded <footnote><para>See <ulink
 url="https://en.wikipedia.org/wiki/Business_models_for_open-source_software"
->en.wikipedia.org/wiki/Business_models_for_open-source_software</ulink>
+>https://en.wikipedia.org/wiki/Business_models_for_open-source_software</ulink>
 for an incomplete list.</para></footnote>, just as there are many ways
 all human endeavors are funded.  While open source is incompatible
 with one particular business
@@ -152,7 +152,7 @@ example: Google maintains its own copy of Android, which it governs as it
 pleases, and from time to time merges changes between that copy and
 the <ulink
 url="https://en.wikipedia.org/wiki/Android_%28operating_system%29#Open-source_community"
->Android Open Source Project</ulink>.  Essentially, Google is on a
+>https://en.wikipedia.org/wiki/Android_%28operating_system%29#Open-source_community</ulink>.  Essentially, Google is on a
 very long copy-modify-merge loop with respect to the open source
 project, and vice versa.  It is in neither side's interests to
 permanently diverge from the other.</para></footnote></para>
@@ -214,7 +214,7 @@ will result from several, or even all, of these motivations:</para>
      effort can create a new ecosystem&nbsp;&mdash;&nbsp;one in which
      those investors are more likely to flourish.  A good example of
      this kind of investment, as of this writing in 2014, is the
-     <ulink url="https://www.meteor.com/" >Meteor.com</ulink>
+     <ulink url="https://www.meteor.com/" >https://www.meteor.com/</ulink>
      project.</para>  
      </listitem>
    </varlistentry>
@@ -271,7 +271,7 @@ will result from several, or even all, of these motivations:</para>
      mean that the free software version is worse off, and some very well-known
      and widely-used free software has had corresponding proprietary
      versions (<ulink url="https://en.wikipedia.org/wiki/MySQL"
-     >MySQL</ulink> is probably the most famous example).  However,
+     >https://en.wikipedia.org/wiki/MySQL</ulink> is probably the most famous example).  However,
      some developers dislike the thought that their contributions may
      end up in the proprietary version.  Also, the mere presence of
      the proprietary version suggests the possibility that some of the
@@ -400,7 +400,7 @@ civil service systems similar to those of the U.S.</para>
 
 <itemizedlist>
   <listitem><para><ulink url="https://18f.gsa.gov/"
-  >18f.gsa.gov</ulink> is a digital services agency within the United
+  >https://18f.gsa.gov/</ulink> is a digital services agency within the United
   States federal government, created in 2014 to bring modern software
   development practices to government work.  18F serves as a
   technology consultancy to other agencies, and builds its
@@ -410,20 +410,20 @@ civil service systems similar to those of the U.S.</para>
   benefit from.</para>
   </listitem>
   <listitem><para><ulink url="http://mil-oss.org/"
-  >Mil-OSS.org</ulink> is an association of civilian and military open
+  >http://mil-oss.org/</ulink> is an association of civilian and military open
   source software and hardware developers in the U.S, but the advice
   and resources they've put together broadly applicable to open source
   in government generally, not just to military projects.</para>
   </listitem>
   <listitem><para><ulink url="http://www.dwheeler.com/"
-  >dwheeler.com</ulink>, the home site of Dr. David A. Wheeler, is a
+  >http://www.dwheeler.com/</ulink>, the home site of Dr. David A. Wheeler, is a
   fantastic trove that includes, among many other open-source-related
   things, tons of information about how to use U.S. government
   procurement regulations to support open source development.</para>
   </listitem>
   <listitem><para><ulink
   url="http://ben.balter.com/2015/11/23/why-open-source/"
-  >ben.balter.com/2015/11/23/why-open-source</ulink> is a terrific
+  >http://ben.balter.com/2015/11/23/why-open-source/</ulink> is a terrific
   post to mine for arguments, if you are advocating for open source
   development within a government agency.  Many of Ben Balter's other
   writings are worth looking at too.</para>
@@ -717,7 +717,7 @@ demonstrate an awareness that they have the potential to arise.</para>
 
 <para>A perfect example of this came up early in the Subversion project.
 Subversion was started in 2000 by <ulink
-url="http://www.collab.net/">CollabNet</ulink>, which has been the
+url="http://www.collab.net/">http://www.collab.net/</ulink>, which has been the
 project's primary funder since its inception, paying the salaries of
 several developers (disclosure: I was one of them for six years).  Soon after the
 project began, we hired another developer, Mike Pilato, to join the
@@ -823,7 +823,7 @@ start, the funder makes itself the same size as everyone else.</para>
 <para>(See also Danese Cooper's blog post, preserved in the Internet
 Archive's Wayback Machine at
 <ulink url="https://web.archive.org/web/20050227033105/http://blogs.sun.com/roller/page/DaneseCooper/20040916"
-       >web.archive.org/web/20050227033105/http://blogs.sun.com/roller/page/DaneseCooper/20040916</ulink>,
+       >https://web.archive.org/web/20050227033105/http://blogs.sun.com/roller/page/DaneseCooper/20040916</ulink>,
 for a similar story about commit access.  Cooper was then Sun
 Microsystem's "Open Source Diva"&mdash;I believe that was her official
 title&mdash;and in the blog entry, she describes how the Tomcat
@@ -996,7 +996,7 @@ merely endured.</para>
 
 <para>In 1995, I was one half of a partnership that provided support
 and enhancements for CVS (the Concurrent Versions System; see <ulink
-url="http://nongnu.org/cvs" >nongnu.org/cvs</ulink>).  My partner Jim
+url="http://nongnu.org/cvs" >http://nongnu.org/cvs</ulink>).  My partner Jim
 Blandy and I were, informally, the maintainers of CVS by that point.  But
 we'd never thought carefully about how we ought to relate to the
 existing mostly part-time and volunteer CVS development community.  We
@@ -1196,9 +1196,9 @@ contracting: it's known as <emphasis>IV&amp;V</emphasis>, for
 Validation</emphasis>"<footnote><para>For a more general discussion of
 IV&amp;V, see <ulink
 url="https://en.wikipedia.org/wiki/Verification_and_validation"
->en.wikipedia.org/wiki/Verification_and_validation</ulink> and <ulink
+>https://en.wikipedia.org/wiki/Verification_and_validation</ulink> and <ulink
 url="https://en.wikipedia.org/wiki/Software_verification_and_validation"
->en.wikipedia.org/wiki/Software_verification_and_validation</ulink>.
+>https://en.wikipedia.org/wiki/Software_verification_and_validation</ulink>.
 Note that neither of those discusses open source specifically,
 however</para></footnote>.  It ensures that the deliverables meet the
 necessary standards by having an independent party verify this.  The
@@ -1626,7 +1626,7 @@ that the changes developers are committing both integrate into the
 mainline trunk and pass all automated tests.<footnote><para>The
 Wikipedia page <ulink
 url="https://en.wikipedia.org/wiki/Continuous_integration"
->en.wikipedia.org/wiki/Continuous_integration</ulink> has a good
+>https://en.wikipedia.org/wiki/Continuous_integration</ulink> has a good
 description of this practice and its variants.</para></footnote> (See
 <xref linkend="automated-testing"/><phrase output="printed"> in <xref
 linkend="managing-participants"/></phrase> for more details on
@@ -2068,10 +2068,10 @@ First, the negative myths:</para>
      software is at least as secure as any other kind of software, if
      not more secure, you may wish to use the excellent resources
      provided by Dr. David A. Wheeler at <ulink
-     url="http://www.dwheeler.com/#oss" >dwheeler.com/#oss</ulink>,
+     url="http://www.dwheeler.com/#oss" >http://www.dwheeler.com/#oss</ulink>,
      and the arguments at <ulink
          url="http://www.mil-oss.org/learn-more/security-model-misconceptions"
-         >mil-oss.org/learn-more/security-model-misconceptions</ulink>.</para></listitem>
+         >http://www.mil-oss.org/learn-more/security-model-misconceptions</ulink>.</para></listitem>
    </varlistentry>
 
    <varlistentry><term><emphasis>Open source comes with no
@@ -2518,7 +2518,7 @@ closer to flowing along its natural paths, rather than being directed
 by management), and make software development more
 efficient.<footnote><para>If you're interested in learning more, see
 <ulink url="http://innersourcecommons.org/"
->InnerSourceCommons.org</ulink>, where Danese Cooper, Head of Open
+>http://innersourcecommons.org/</ulink>, where Danese Cooper, Head of Open
 Source at PayPal, has been organizing a number of resources about
 InnerSource.</para></footnote></para>
 
@@ -2575,10 +2575,10 @@ activity is publicly archived.<footnote><para>Brian Fitzpatrick has
 written about the usefulness of having an open source résumé in two
 articles, <citetitle>The Virtual Referral</citetitle> (<ulink
 url="http://www.onlamp.com/pub/a/onlamp/2005/07/14/osdevelopers.html"
->onlamp.com/pub/a/onlamp/2005/07/14/osdevelopers.html</ulink>) and
+>http://www.onlamp.com/pub/a/onlamp/2005/07/14/osdevelopers.html</ulink>) and
 <citetitle>The Virtual Internship</citetitle> (<ulink
 url="http://www.onlamp.com/pub/a/onlamp/2005/08/01/opensourcedevelopers.html"
->onlamp.com/pub/a/onlamp/2005/08/01/opensourcedevelopers.html</ulink>).</para></footnote>
+>http://www.onlamp.com/pub/a/onlamp/2005/08/01/opensourcedevelopers.html</ulink>).</para></footnote>
 But you shouldn't need to go searching for all of it.  When you put
 out a job posting, tell prospective candidates directly that the
 résumé they send in should include references to their open source
@@ -2828,24 +2828,24 @@ or nothing", meaning that each funder pledges money toward a total
 threshold and the pledges are collected only if the threshold is met,
 or "keep it all", which is essentially traditional donation: funds go
 immediately to the recipient whether or not a stated goal amount is
-ever met.  <ulink url="https://goteo.org/" >Goteo.org</ulink> and
-<ulink url="https://Kickstarter.com/" >Kickstarter.com</ulink> are
+ever met.  <ulink url="https://goteo.org/" >https://goteo.org/</ulink> and
+<ulink url="https://Kickstarter.com/" >https://Kickstarter.com/</ulink> are
 probably the best-known examples of all-or-nothing crowdfunding
 services, though there are many others (I like Goteo because their
 platform is itself free software, and because it is meant specifically
 for freely-licensed projects, whereas Kickstarter does not take a
 position on restrictiveness of licensing).  There are also sites like
-<ulink url="https://www.indiegogo.com/" >Indiegogo</ulink> that
+<ulink url="https://www.indiegogo.com/" >https://www.indiegogo.com/</ulink> that
 support both models<footnote><para><ulink
 url="https://en.wikipedia.org/wiki/Comparison_of_crowdfunding_services"
->en.wikipedia.org/wiki/Comparison_of_crowdfunding_services</ulink>.</para></footnote></para>
+>https://en.wikipedia.org/wiki/Comparison_of_crowdfunding_services</ulink>.</para></footnote></para>
 
 <para><firstterm>Bounties</firstterm> are one-time rewards for
 completing specific tasks, such as fixing a bug or implementing a new
 feature.  Bounties are often offered directly by the interested
 parties, since there is no need for a pledge-collecting system, but
 the site <ulink url="https://www.bountysource.com/"
->BountySource.com</ulink> also serves as a clearinghouse for open
+>https://www.bountysource.com/</ulink> also serves as a clearinghouse for open
 source development bounties.</para>
 
 <para>While both crowdfunding and bounties have funded some open
@@ -2864,7 +2864,7 @@ more compatible with high-intensity, one-time bursts of activity, and
 do not provide for ongoing maintenance or investment past the
 completion of the campaign goal or prize condition.<footnote><para>One
 service trying to solve that problem is <ulink
-url="https://snowdrift.coop/" >Snowdrift.coop</ulink>, which aims to
+url="https://snowdrift.coop/" >https://snowdrift.coop/</ulink>, which aims to
 provide sustainable funding for freely-licensed works using a
 carefully designed matching pledge model.  Whether Snowdrift will
 succeed is unknowable as of this writing in mid-2015, since the
@@ -2872,7 +2872,7 @@ service is still in a preliminary stage, but I am watching it with
 interest.  Snowdrift also did a thorough survey, in the Fall of 2013,
 of funding platforms for free software, and posted their results at
 <ulink url="https://snowdrift.coop/p/snowdrift/w/en/othercrowdfunding"
->snowdrift.coop/p/snowdrift/w/en/othercrowdfunding</ulink>; it's worth
+>https://snowdrift.coop/p/snowdrift/w/en/othercrowdfunding</ulink>; it's worth
 a read if you're interested in this topic.</para></footnote></para>
 
 <para>A crowdfunding campaign can sometimes be a good way to get a

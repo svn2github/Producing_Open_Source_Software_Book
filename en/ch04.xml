@@ -26,7 +26,7 @@ things<footnote><para>This is also known as the "<firstterm>Bus
 Factor</firstterm>", that is, how many participants would have to get hit by a bus
 (figuratively speaking) for the project to be unable to continue.  See
 <ulink url="https://en.wikipedia.org/wiki/Bus_factor"
-       >en.wikipedia.org/wiki/Bus_factor</ulink>.</para></footnote>.
+       >https://en.wikipedia.org/wiki/Bus_factor</ulink>.</para></footnote>.
 Technical success is not hard to achieve, but without a
 robust developer base and social foundation, a project may be unable
 to handle the growth that initial success brings, or the departure of
@@ -372,7 +372,7 @@ voting is simple to explain and to count, and comprehensibility is an
 important factor when choosing a voting method.</para>
 
 <para>See <ulink url="https://en.wikipedia.org/wiki/Voting_system"
->en.wikipedia.org/wiki/Voting_system</ulink> for more details about
+>https://en.wikipedia.org/wiki/Voting_system</ulink> for more details about
 approval voting and other voting systems, but beware the temptation to
 geek out on voting systems.  I did, in the course of researching this
 paragraph, and I've never been the same since.  You can try all sorts
@@ -383,7 +383,7 @@ preferential ranking of choices&nbsp;&mdash;&nbsp;such as
 runoff</firstterm>, and <firstterm>single transferable
 vote</firstterm>&nbsp;&mdash;&nbsp;but a famous result known as <ulink
 url="https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem"
->Arrow's impossibility theorem</ulink> has already demonstrated that
+>https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem</ulink> has already demonstrated that
 no voting system is perfect (at least among a certain broad class of
 voting systems).  Try to avoid getting into a long debate
 about which system to use, because, of course, you will then
@@ -400,7 +400,7 @@ results for herself, and so that everything is recorded in the
 archives.  If you prefer to use specialized software to conduct the
 vote, as of this writing in early 2017 the open source voting system
 Helios (<ulink url="https://vote.heliosvoting.org/"
->vote.heliosvoting.org</ulink>) is a good choice and supports approval
+>https://vote.heliosvoting.org/</ulink>) is a good choice and supports approval
 voting.</para>
 
 </sect2>
@@ -577,7 +577,7 @@ group will decide to weaken the meaning of a veto.</para>
 originally comes from the Apache Software Foundation (which has a
 highly structured voting and veto process, described at <ulink
 url="https://www.apache.org/foundation/voting.html"
->apache.org/foundation/voting.html</ulink>), but has since spread to
+>https://www.apache.org/foundation/voting.html</ulink>), but has since spread to
 many other projects&nbsp;&mdash;&nbsp;albeit not always with exactly
 the same formal meaning as at the ASF.  Technically, "-1" does not
 always indicate a formal veto even according to the Apache standards,
@@ -701,15 +701,15 @@ are.</para>
 <para>Three good examples of project guidelines are the LibreOffice
 Development guide at <ulink
 url="https://wiki.documentfoundation.org/Development"
->wiki.documentfoundation.org/Development</ulink>, theSubversion
+>https://wiki.documentfoundation.org/Development</ulink>, theSubversion
 Community Guide, at <ulink
 url="https://subversion.apache.org/docs/community-guide/"
->subversion.apache.org/docs/community-guide/</ulink>, and the
+>https://subversion.apache.org/docs/community-guide/</ulink>, and the
 Apache Software Foundation governance documents, at <ulink
 url="https://www.apache.org/foundation/how-it-works.html"
->apache.org/foundation/how-it-works.html</ulink> and <ulink
+>https://www.apache.org/foundation/how-it-works.html</ulink> and <ulink
 url="https://www.apache.org/foundation/voting.html"
->apache.org/foundation/voting.html</ulink>.  The ASF is
+>https://www.apache.org/foundation/voting.html</ulink>.  The ASF is
 really a collection of software projects, legally organized as a
 nonprofit corporation, so its documents tend to describe governance
 procedures more than development conventions.  They're still worth
@@ -745,7 +745,7 @@ could manage if it started its own organization.</para>
 <itemizedlist>
   <listitem>Software Freedom Conservancy (<ulink
   url="https://sfconservancy.org/"
-  >sfconservancy.org</ulink>)<footnote><para>I think the Software
+  >https://sfconservancy.org/</ulink>)<footnote><para>I think the Software
   Freedom Conservancy is a good choice for most projects,
   which is why I listed it first.  But I should add the disclosure
   that I joined their Evaluation Committee, a volunteer committee that
@@ -756,19 +756,19 @@ could manage if it started its own organization.</para>
 
   <listitem>Apache Software Foundation <ulink
   url="https://apache.org/" 
-  >apache.org</ulink></listitem>
+  >https://apache.org/</ulink></listitem>
 
   <listitem>Eclipse Foundation <ulink 
   url="https://eclipse.org/" 
-  >eclipse.org</ulink></listitem>
+  >https://eclipse.org/</ulink></listitem>
 
   <listitem>Software in the Public Interest <ulink
   url="http://spi-inc.org/" 
-  >spi-inc.org</ulink></listitem>
+  >http://spi-inc.org/</ulink></listitem>
 
   <listitem>Linux Foundation <ulink
   url="http://collabprojects.linuxfoundation.org/"
-  >collabprojects.linuxfoundation.org</ulink></listitem>
+  >http://collabprojects.linuxfoundation.org/</ulink></listitem>
 
 </itemizedlist>
 

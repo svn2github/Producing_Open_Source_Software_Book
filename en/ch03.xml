@@ -15,11 +15,11 @@ prevents open source projects from collapsing under the weight of
 Brooks' Law<footnote><para>From his book <citetitle>The Mythical Man
 Month</citetitle>, 1975.  See <ulink
 url="https://en.wikipedia.org/wiki/The_Mythical_Man-Month"
->en.wikipedia.org/wiki/The_Mythical_Man-Month</ulink>, <ulink
+>https://en.wikipedia.org/wiki/The_Mythical_Man-Month</ulink>, <ulink
 url="https://en.wikipedia.org/wiki/Brooks_Law"
->en.wikipedia.org/wiki/Brooks_Law</ulink>, and
+>https://en.wikipedia.org/wiki/Brooks_Law</ulink>, and
 <ulink url="https://en.wikipedia.org/wiki/Fred_Brooks"
->en.wikipedia.org/wiki/Fred_Brooks</ulink>.</para></footnote>,
+>https://en.wikipedia.org/wiki/Fred_Brooks</ulink>.</para></footnote>,
 which states that adding manpower to a late software project makes it
 later.  Fred Brooks observed that the complexity of communications in
 a project
@@ -109,7 +109,7 @@ new information management service, and pretty soon newcomers will be
 asking why your project doesn't use it&mdash;for example, this
 happened to a lot of free software projects that predate the invention
 of the wiki (see <ulink url="https://en.wikipedia.org/wiki/Wiki"
->en.wikipedia.org/wiki/Wiki</ulink>), and more recently has been
+>https://en.wikipedia.org/wiki/Wiki</ulink>), and more recently has been
 happening to projects whose workflows were developed before the rise
 of GitHub PRs (see <xref linkend="pull-requests"/>) as the canonical
 way to package proposed contributions.  Many infrastructure questions
@@ -222,12 +222,12 @@ for a path from there to the developers' area.</para>
 <para>An example may make this clearer.  As of this writing in
 January 2017, the office suite LibreOffice has its main user-oriented
 web site at <ulink url="https://www.libreoffice.org/"
->libreoffice.org</ulink>, as you'd expect.  If you were a user wanting
+>https://www.libreoffice.org/</ulink>, as you'd expect.  If you were a user wanting
 to download and install LibreOffice, you'd start there, go straight to
 the "Download" link, and so on.  But if you were a developer looking
 to (say) fix a bug in LibreOffice, you might
 <emphasis>start</emphasis> at <ulink url="https://www.libreoffice.org/"
->libreoffice.org</ulink>, but you'd be looking for a link that says
+>https://www.libreoffice.org/</ulink>, but you'd be looking for a link that says
 something like "Developers", or "Development", or "Get
 Involved"&nbsp;&mdash;&nbsp;in other words, you'd be looking for the
 gateway to the development area.</para>
@@ -236,11 +236,11 @@ gateway to the development area.</para>
 they have a few different gateways to developer-land.  There's a
 prominent link that says <ulink
 url="https://www.libreoffice.org/community/get-involved/"
->"Get&nbsp;Involved"</ulink>, and at the top there's also a dropdown
+>https://www.libreoffice.org/community/get-involved/</ulink>, and at the top there's also a dropdown
 menu named "Community" that offers both "Get Involved" and another
 link entitled <ulink
 url="https://www.libreoffice.org/community/developers/"
->"Developers"</ulink>.</para>
+>https://www.libreoffice.org/community/developers/</ulink>.</para>
 
 <para>The "Get Involved" page is aimed at the broadest possible range of
 potential contributors: developers, yes, but also documenters,
@@ -259,7 +259,7 @@ open source contributors would instantly recognize as the
 <emphasis>real</emphasis> gateway to actively-maintained development
 information: the development wiki at <ulink
 url="https://wiki.documentfoundation.org/Development"
->wiki.documentfoundation.org/Development</ulink>.</para>
+>https://wiki.documentfoundation.org/Development</ulink>.</para>
 
 <para>This division into two contributor-facing gateways, one for all
 kinds of contributions and another for coders specifically, is
@@ -368,23 +368,23 @@ not space here to review the field.</para>
 <para>So I'll make this easy:</para>
 
 <para>If you don't know what to choose, then choose <ulink
-url="https://github.com/" >GitHub</ulink>.  It's by far the most
+url="https://github.com/" >https://github.com/</ulink>.  It's by far the most
 popular and appears set to stay that way for some years to come.  It
 has a good set of features and integrations.  Many developers are
 already familiar with GitHub and have an account there.  It has an
-<ulink url="https://develop.github.com/" >API</ulink> for interacting
+<ulink url="https://develop.github.com/" >https://develop.github.com/</ulink> for interacting
 programmatically with project resources, and while it does not
 currently offer mailing lists, there are plenty of other places you
 can provision those, such as <ulink url="https://discourse.org/"
->discourse.org</ulink> and <ulink url="https://groups.google.com/"
->Google Groups</ulink>.</para>
+>https://discourse.org/</ulink> and <ulink url="https://groups.google.com/"
+>https://groups.google.com/</ulink>.</para>
 
 <para>If you're not convinced by GitHub (for example because your
 project uses, say, Mercurial instead of Git for version control), but
 you aren't sure where to host, take a look at Wikipedia's thorough
 <ulink
 url="https://en.wikipedia.org/wiki/Comparison_of_open_source_software_hosting_facilities"
->comparison of open source software hosting facilities</ulink>; it's
+>https://en.wikipedia.org/wiki/Comparison_of_open_source_software_hosting_facilities</ulink>; it's
 the first place to look for up-to-date, comprehensive information on
 open source project hosting options.</para>
 
@@ -406,12 +406,12 @@ of their infrastructure with you, at least not all of it.</para>
 entirely free software infrastructure and that could, in theory, be
 reproduced independently were that ever to become necessary.
 Fortunately, there are a few such sites.  As of mid-2015, <ulink
-url="https://phacility.com" >phacility.com</ulink> offers low-cost
+url="https://phacility.com" >https://phacility.com</ulink> offers low-cost
 project hosting in <ulink url="http://phabricator.org/"
->Phabricator</ulink>, a fully open source web platform for open-source
+>http://phabricator.org/</ulink>, a fully open source web platform for open-source
 style collaboration.</para>
 
-<para>There is also <ulink url="https://gitlab.com/" >GitLab</ulink>,
+<para>There is also <ulink url="https://gitlab.com/" >https://gitlab.com/</ulink>,
 which until recently was fully open source.  However, they now seem to
 offer an open source edition for self-hosting and an "enterprise
 edition" that they host and that has a few features the open source
@@ -423,8 +423,8 @@ preserving its commitment, both philosophical and utilitarian, to
 software freedom.</para>
 
 <para>Furthermore, any service that offers hosting of the <ulink
-url="http://www.redmine.org/" >Redmine</ulink> or <ulink
-url="https://trac.edgewall.org/" >Trac</ulink> code collaboration
+url="http://www.redmine.org/" >http://www.redmine.org/</ulink> or <ulink
+url="https://trac.edgewall.org/" >https://trac.edgewall.org/</ulink> code collaboration
 platforms effectively offers fully freedom-preserving project hosting,
 because those platforms include most of the features needed to run an
 open source project.  Some companies offer that kind of commercial
@@ -537,13 +537,13 @@ have a separate place for other kinds of discussions.</para>
 <para>For a long time, discussion forums were mainly mailing lists,
 but the distinction between mailing lists and Web-based forums is,
 thankfully, slowly disappearing.  Services like <ulink
-url="https://groups.google.com/" >Google Groups</ulink> (which
+url="https://groups.google.com/" >https://groups.google.com/</ulink> (which
 <!-- I used to list GMane here, but its status was a little fuzzy as
      of 2016/2017, although the Yomura takeover seems to be going well.
      It would be nice to point to it again; historically, it was one
      of the first widely-used examples of thread equivalence. -->
 is not itself open source) and <ulink url="http://www.discourse.org/"
->Discourse</ulink> (which is) have established that
+>http://www.discourse.org/</ulink> (which is) have established that
 cross-accessibility of message forums as mailing lists and vice versa
 is the minimum bar to meet, and modern discussion management systems
 reflect this.</para>
@@ -552,7 +552,7 @@ reflect this.</para>
 and web-based forums<footnote><para>Which was a long time
 coming&nbsp;&mdash;&nbsp;see <ulink
 url="http://www.rants.org/2008/03/06/thread_theory/"
->rants.org/2008/03/06/thread_theory</ulink> for more.  And no, I'm not
+>http://www.rants.org/2008/03/06/thread_theory/</ulink> for more.  And no, I'm not
 too dignified to refer to my own blog post.</para></footnote>, I will
 use the terms <firstterm>message&nbsp;forum</firstterm> and
 <firstterm>mailing&nbsp;list</firstterm> more or less interchangeably.
@@ -761,9 +761,9 @@ tandem:</para>
             features, but you may want to add some third-party
             filters.  I've had good experiences with SpamAssassin
             (<ulink url="https://spamassassin.apache.org/"
-            >spamassassin.apache.org</ulink>) and SpamProbe
+            >https://spamassassin.apache.org/</ulink>) and SpamProbe
             (<ulink url="http://spamprobe.sourceforge.net/"
-            >spamprobe.sourceforge.net</ulink>), but this
+            >http://spamprobe.sourceforge.net/</ulink>), but this
             is not a comment on the many other open source spam
             filters out there, some of which are apparently also quite
             good.  I just happen to have used those two myself and
@@ -979,10 +979,10 @@ Mailing-List: contact discuss-help@lists.example.org; run by ezmlm
 
 <para>For the most part, they are self-explanatory.  See <ulink
 url="http://www.nisto.com/listspec/list-manager-intro.html"
->nisto.com/listspec/list-manager-intro.html</ulink> for more
+>http://www.nisto.com/listspec/list-manager-intro.html</ulink> for more
 explanation, or if you need the really detailed, formal specification,
 see <ulink url="http://www.faqs.org/rfcs/rfc2369.html"
->faqs.org/rfcs/rfc2369.html</ulink>.
+>http://www.faqs.org/rfcs/rfc2369.html</ulink>.
 </para>
 
 <para>Having said all that, these days I find that most subscribers
@@ -1150,14 +1150,14 @@ when they're having this debate:
      <emphasis>by Chip Rosenthal</emphasis></para>
      <para><ulink
         url="http://www.unicom.com/pw/reply-to-harmful.html"
-        >"'Reply-To' Munging Considered Harmful"</ulink></para>
+        >http://www.unicom.com/pw/reply-to-harmful.html</ulink></para>
   </listitem>
   <listitem>
      <para><emphasis role="bold">Set Reply-to to list</emphasis>,
      <emphasis>by Simon Hill</emphasis></para>
      <para><ulink
         url="http://www.metasystema.net/essays/reply-to.mhtml"
-        >"Reply-To Munging Considered Useful"</ulink></para>
+        >http://www.metasystema.net/essays/reply-to.mhtml</ulink></para>
   </listitem>
 </itemizedlist>
 
@@ -1167,7 +1167,7 @@ when they're having this debate:
 is a "right" answer to this question<footnote><para>Although there is,
 of course, a right answer, and it is to leave the original author's
 Reply-to untouched.  <ulink url="http://www.ietf.org/rfc/rfc2822.txt"
->RFC&nbsp;2822</ulink>, the relevant standards document, says "When
+>http://www.ietf.org/rfc/rfc2822.txt</ulink>, the relevant standards document, says "When
 the 'Reply-To:' field is present, it indicates the mailbox(es) to
 which the author of the message suggests that replies be
 sent.</para></footnote>, and happily participate in many
@@ -1189,10 +1189,10 @@ most are probably subscribed to the list anyway.  Eventually, other
 mail readers will pick up the feature, and this whole debate will go
 away.</para>
 
-<para>(Actually, the <ulink url="http://www.mutt.org/" >Mutt</ulink>
+<para>(Actually, the <ulink url="http://www.mutt.org/" >http://www.mutt.org/</ulink>
 mail reader does offer this feature.  Then shortly after the first
 edition of this book appeared, <ulink
-url="https://github.com/webmaven/" >Michael Bernstein</ulink>
+url="https://github.com/webmaven/" >https://github.com/webmaven/</ulink>
 wrote me to say: "There are other email clients that implement a
 reply-to-list function besides Mutt.  For example, Evolution has this
 function as a keyboard shortcut, but not a button (Ctrl+L).")</para>
@@ -1294,7 +1294,7 @@ these properties:</para>
             subjects&mdash;is close to useless.  Note that some archivers 
             support searching by simply farming the work out to an
             external search engine such as <ulink
-            url="https://www.google.com/" >Google</ulink>.  This is
+            url="https://www.google.com/" >https://www.google.com/</ulink>.  This is
             acceptable, but direct search support is usually more
             fine-tuned, because it allows the searcher to specify that
             the match must appear in a subject line versus the body,
@@ -1327,7 +1327,7 @@ so don't take this as a complete list).</para>
 <itemizedlist>
  <listitem>
    <para><emphasis role="bold">Discourse</emphasis>&nbsp;&mdash;&nbsp;<ulink 
-         url="https://discourse.org/" >discourse.org</ulink></para>
+         url="https://discourse.org/" >https://discourse.org/</ulink></para>
    <para>Discourse was built to be the One True Discussion System for
          Web and mobile, and so far it seems to be living up to its
          promise.  It is open source, supports both browser-based and
@@ -1337,7 +1337,7 @@ so don't take this as a complete list).</para>
          yourself.</para>
  </listitem>
  <listitem>
-   <para><emphasis role="bold">Google&nbsp;Groups</emphasis>&nbsp;&mdash;&nbsp;<ulink url="https://groups.google.com/" >groups.google.com</ulink></para>
+   <para><emphasis role="bold">Google&nbsp;Groups</emphasis>&nbsp;&mdash;&nbsp;<ulink url="https://groups.google.com/" >https://groups.google.com/</ulink></para>
    <para>Listing Google Groups here was a tough call.  The service is
          not itself open source, and a few of its administrative
          functions can be a bit hard to use.  However, its advantages
@@ -1356,17 +1356,17 @@ so don't take this as a complete list).</para>
  </listitem>
  <listitem>
    <para><emphasis role="bold">GroupServer</emphasis>&nbsp;&mdash;&nbsp;<ulink
-         url="http://www.groupserver.org/"/></para>
+         url="http://www.groupserver.org/"/>http://www.groupserver.org/</para>
    <para>Has built-in archiver and integrated Web-based interface.
          GroupServer is a bit of work to set up, but once you have it
          up and running it offers users a good experience.
          You may  able to find free or low-cost hosted GroupServer
          hosting for your project's forums, for example from <ulink
-         url="https://OnlineGroups.net/" >OnlineGroups.net</ulink>.</para>
+         url="https://OnlineGroups.net/" >https://OnlineGroups.net/</ulink>.</para>
  </listitem>
  <listitem>
    <para><emphasis role="bold">Sympa</emphasis>&nbsp;&mdash;&nbsp;<ulink
-         url="https://www.sympa.org/" >sympa.org</ulink></para>
+         url="https://www.sympa.org/" >https://www.sympa.org/</ulink></para>
    <para>Developed and maintained by a consortium of French
          universities, and designed for a given instance to handle
          both very large lists (> 700000 members, they claim) and a
@@ -1377,7 +1377,7 @@ so don't take this as a complete list).</para>
  </listitem>
  <listitem>
    <para><emphasis role="bold">Mailman</emphasis>&nbsp;&mdash;&nbsp;<ulink
-         url="http://www.list.org/" >list.org</ulink></para>
+         url="http://www.list.org/" >http://www.list.org/</ulink></para>
    <para>For many years, Mailman was the standard for open source
          project mailing lists.  It comes with a built-in archiver,
          Pipermail, and hooks for plugging in external archivers.
@@ -1392,11 +1392,11 @@ so don't take this as a complete list).</para>
          make Mailman a reasonable choice again.  This excellent
          article by Sumana Harihareswara describes the major
          improvements: <ulink url="https://lwn.net/Articles/638090/"
-         >lwn.net/Articles/638090</ulink>.</para>
+         >https://lwn.net/Articles/638090/</ulink>.</para>
  </listitem>
  <listitem>
    <para><emphasis role="bold">Dada</emphasis>&nbsp;&mdash;&nbsp;<ulink
-         url="http://dadamailproject.com/" >dadamailproject.com</ulink></para>
+         url="http://dadamailproject.com/" >http://dadamailproject.com/</ulink></para>
    <para>I've not used Dada myself, but it is actively maintained and,
          at least from outward appearances, quite spiffy.  Note that
          to use it for participatory lists, as opposed to announcement
@@ -1735,7 +1735,7 @@ discussion can often be helpful.</para>
   in-depth explanation and comparison of the two models may be found
   at <ulink
   url="http://svnbook.red-bean.com/nightly/en/svn.basic.version-control-basics.html#svn.basic.vsn-models"
-  >svnbook.red-bean.com/nightly/en/svn.basic.version-control-basics.html#svn.basic.vsn-models</ulink>.  In
+  >http://svnbook.red-bean.com/nightly/en/svn.basic.version-control-basics.html#svn.basic.vsn-models</ulink>.  In
   general, the copy-modify-merge model is better for open source
   development, and all the version control systems discussed in this
   book support that model.</para></listitem>
@@ -1752,9 +1752,9 @@ discussion can often be helpful.</para>
 
 <para>If you don't already have a strong opinion about which version
 control system your project should use, then choose Git (<ulink
-url="https://git-scm.com/" >git-scm.com</ulink>), and host your
+url="https://git-scm.com/" >https://git-scm.com/</ulink>), and host your
 project's repositories at <ulink url="https://github.com/"
->GitHub.com</ulink>, which offers unlimited free hosting for open
+>https://github.com/</ulink>, which offers unlimited free hosting for open
 source projects.</para>
 
 <para>Git is by now the <foreignphrase>de facto</foreignphrase>
@@ -1763,8 +1763,8 @@ GitHub.  Because so many developers are already comfortable with that
 combination, choosing it sends the signal that your project is ready
 for participants.  But Git-at-GitHub is not the only viable
 combination.  Two other reasonable choices of version control system
-are <ulink url="https://www.mercurial-scm.org/" >Mercurial</ulink> and
-<ulink url="https://subversion.apache.org/" >Subversion</ulink>.
+are <ulink url="https://www.mercurial-scm.org/" >https://www.mercurial-scm.org/</ulink> and
+<ulink url="https://subversion.apache.org/" >https://subversion.apache.org/</ulink>.
 Mercurial and Git are both decentralized systems, whereas Subversion
 is centralized.  All three are offered at many different free hosting
 services; some services even support more than one of them (though
@@ -2145,8 +2145,7 @@ can be conveniently tracked using the same workflow as any other
 issue.  Some projects have also contributions enter through a
 collaborative code review tool, such as <ulink
 url="https://en.wikipedia.org/wiki/Gerrit_%28software%29"
->Gerrit</ulink> or <ulink url="https://www.reviewboard.org/" >Review
-Board</ulink>, although GitHub has started building some of the
+>https://en.wikipedia.org/wiki/Gerrit_%28software%29</ulink> or <ulink url="https://www.reviewboard.org/" >https://www.reviewboard.org/</ulink>, although GitHub has started building some of the
 features of code-review tools into its pull request management
 interface.</para>
 
@@ -2507,7 +2506,7 @@ about trackers' technical features:
     helps once you know the platform's name is "Allura".  For
     reference, their API documentation is here: <ulink
     url="https://sourceforge.net/p/forge/documentation/Allura%20API/"
-    >sourceforge.net/p/forge/documentation/Allura%20API</ulink
+    >https://sourceforge.net/p/forge/documentation/Allura%20API/</ulink
     ></para></footnote>.</para>
   </listitem>
 </itemizedlist>
@@ -2572,7 +2571,7 @@ in the tracker.</para>
 
 <para>The first technique seems to be used universally.  Even projects
 with huge ticket databases (say, the Debian bug tracker at
-<ulink url="https://bugs.debian.org/" >bugs.debian.org</ulink>, which
+<ulink url="https://bugs.debian.org/" >https://bugs.debian.org/</ulink>, which
 contained 818,841 tickets as of this writing) still arrange things so that
 <emphasis>someone</emphasis> sees each ticket that comes in.  It may be
 a different person depending on the category of the ticket.  For
@@ -2668,7 +2667,7 @@ around for a long time, and its primarily text-based interface and
 command language can look old-fashioned&nbsp;&mdash;&nbsp;but don't be
 fooled: the number of people using IRC continues to
 grow<footnote><para>See <ulink url="https://freenode.net/history.shtml"
->freenode.net/history.shtml</ulink> for example.</para></footnote>,
+>https://freenode.net/history.shtml</ulink> for example.</para></footnote>,
 and it is a key communications forum for many open source projects.
 It's generally the only place where developers can meet in a shared
 space for real-time conversation on a regular basis.</para>
@@ -2679,14 +2678,14 @@ space for real-time conversation on a regular basis.</para>
 <para>Starting around early 2015, a number of open source projects
 began experimenting with newer, primarily web-based real-time group
 chat systems, in particular the open source platforms <ulink
-url="https://rocket.chat/" >Rocket.chat</ulink> and <ulink
-url="https://mattermost.org/" >Mattermost</ulink>.  Some have also
+url="https://rocket.chat/" >https://rocket.chat/</ulink> and <ulink
+url="https://mattermost.org/" >https://mattermost.org/</ulink>.  Some have also
 tried the proprietary service <ulink url="https://slack.com/"
->Slack</ulink>, although it doesn't seem to have sustained its early
+>https://slack.com/</ulink>, although it doesn't seem to have sustained its early
 momentum among open source projects<footnote><para>Perhaps due to the
 reasons given in <ulink
 url="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html"
->drewdevault.com/2015/11/01/Please-stop-using-slack.html</ulink>.</para></footnote>
+>https://drewdevault.com/2015/11/01/Please-stop-using-slack.html</ulink>.</para></footnote>
 <!-- My goodness: there's also shout-irc.com, rambox.pro, matrix.org,
      sdelements.github.io/lets-chat/, and goodness knows what else out
      there now.  And irccloud.com provides zero-fee IRC persistence
@@ -2699,7 +2698,7 @@ All of them offer gateways to IRC and other older protocols, so
 users don't have to change their client-side software to interact with
 the project.  At the same time, there is also an effort under way to
 update IRC itself, at <ulink url="http://ircv3.net/"
->ircv3.net</ulink>.</para>
+>http://ircv3.net/</ulink>.</para>
 
 <para>It's too early to know how all this will shake out in the long
 run.  IRC is still a good choice and probably will continue to be what
@@ -2711,10 +2710,10 @@ Mattermost next.</para>
 
 <para>If you've never used IRC before, don't be daunted.  It's not
 hard; although there isn't space in this book for an IRC primer,
-<ulink url="http://irchelp.org/" >irchelp.org</ulink> is a good guide
+<ulink url="http://irchelp.org/" >http://irchelp.org/</ulink> is a good guide
 to IRC usage and administration, and in particular see the tutorial at
 <ulink url="http://www.irchelp.org/irchelp/irctutorial.html"
->irchelp.org/irchelp/irctutorial.html</ulink>.  While in theory your
+>http://www.irchelp.org/irchelp/irctutorial.html</ulink>.  While in theory your
 project <emphasis>could</emphasis> run its own IRC servers, it is
 generally not worth the hassle.  Instead, just do what everyone else
 does: host your project's IRC channels<footnote><para>An IRC
@@ -2729,9 +2728,9 @@ channel, it is standard to address them by their username
 they can pick out your inquiry from the other conversation in the
 room; see <ulink
 url="http://www.rants.org/2013/01/09/the-irc-curmudgeon/"
->rants.org/2013/01/09/the-irc-curmudgeon</ulink> for more on this
+>http://www.rants.org/2013/01/09/the-irc-curmudgeon/</ulink> for more on this
 practice.</para></footnote> at Freenode (<ulink
-url="https://freenode.net/" >freenode.net</ulink>).  Freenode gives you
+url="https://freenode.net/" >https://freenode.net/</ulink>).  Freenode gives you
 the control you need to administer your project's IRC channels, while
 sparing you the not-insignificant trouble of maintaining an IRC server
 yourself.</para>
@@ -2744,7 +2743,7 @@ the channel's availabity from your project's web site, so a visitor
 with a quick question will see it right away.<footnote><para>In fact,
 you can even offer an IRC chat portal right on your web site.  See
 <ulink url="https://webchat.freenode.net/"
->webchat.freenode.net</ulink>&nbsp;&mdash;&nbsp;from the dropdown menu
+>https://webchat.freenode.net/</ulink>&nbsp;&mdash;&nbsp;from the dropdown menu
 in the upper left corner, choose "Add webchat to your site" and follow
 the instructions.</para></footnote>.  If your project's channel gets
 too noisy, you can divide into multiple channels, for example one for
@@ -2794,15 +2793,15 @@ into the room will disrupt other conversations.</para>
 <firstterm>pastebin</firstterm> or <firstterm>pastebot</firstterm>
 sites.  When requesting a large amount of data from someone, ask them
 not to paste it into the channel, but instead to go to (for example)
-<ulink url="https://pastebin.ca/" >pastebin.ca</ulink>, paste their
+<ulink url="https://pastebin.ca/" >https://pastebin.ca/</ulink>, paste their
 data into the form there, and tell the resulting new URL to the IRC
 channel.  Anyone can then visit the URL and view the data.</para>
 
 <para>There are many free paste sites available, far too many for a
 comprehensive list.  Three that I seen used a lot are GitHub Gists
-(<ulink url="https://gist.github.com/" >gist.github.com</ulink>),
-<ulink url="http://paste.lisp.org/" >paste.lisp.org</ulink> and <ulink
-url="https://pastebin.ca/" >pastebin.ca</ulink>.  But there are many
+(<ulink url="https://gist.github.com/" >https://gist.github.com/</ulink>),
+<ulink url="http://paste.lisp.org/" >http://paste.lisp.org/</ulink> and <ulink
+url="https://pastebin.ca/" >https://pastebin.ca/</ulink>.  But there are many
 other fine ones, and it's okay if different people in your IRC channel
 choose to use different paste sites.</para>
 </sidebar>
@@ -2846,7 +2845,7 @@ asking the bot to tell another user about diff-cmd:</para>
 rivaled only by the diversity of wiki syntaxes).  The above example
 happens to use <literal>wayita</literal> (<ulink
 url="http://repos.borg.ch/svn/wayita/trunk/"
->repos.borg.ch/svn/wayita/trunk</ulink>), of which there is usually an
+>http://repos.borg.ch/svn/wayita/trunk/</ulink>), of which there is usually an
 instance running in <literal>#svn</literal> at Freenode, but there are
 many other IRC bots available.  Note that no special server privileges
 are required to run a bot.  A bot is just like any other user joining
@@ -2877,12 +2876,12 @@ often react in real time, reviewing the commit and commenting on it on
 the spot.  The technical details of setting this up are beyond the
 scope of this book, but it's usually worth the effort.  This service
 used to be provided in an easy-to-use way by the much-missed <ulink
-url="http://cia.vc/" >cia.vc</ulink>, which shut down in 2011, but
+url="http://cia.vc/" >http://cia.vc/</ulink>, which shut down in 2011, but
 several replacements are available: Notifico (<ulink
-url="https://n.tkte.ch/" >n.tkte.ch</ulink>), Irker (<ulink
-url="http://www.catb.org/esr/irker/" >catb.org/esr/irker</ulink>), and
+url="https://n.tkte.ch/" >https://n.tkte.ch/</ulink>), Irker (<ulink
+url="http://www.catb.org/esr/irker/" >http://www.catb.org/esr/irker/</ulink>), and
 KGB (<ulink url="https://kgb.alioth.debian.org/"
->kgb.alioth.debian.org</ulink>).  Also, many of the major hosting
+>https://kgb.alioth.debian.org/</ulink>).  Also, many of the major hosting
 sites, e.g., GitHub, make this functionality pretty easy to set
 up&nbsp;&mdash;&nbsp;the key phrase to search for is "IRC hook", if
 you want to learn more.</para>
@@ -2999,18 +2998,18 @@ system for the wiki.</para>
 which one, and fortunately there are plenty of good free software wiki
 implementations available.  I've had good experience with DokuWiki
 (<ulink url="https://www.dokuwiki.org/dokuwiki"
->dokuwiki.org/dokuwiki</ulink>), but there are many others.  There is
+>https://www.dokuwiki.org/dokuwiki</ulink>), but there are many others.  There is
 a wonderful tool called the Wiki Choice Wizard at <ulink
-url="http://www.wikimatrix.org/" >wikimatrix.org</ulink> that allows
+url="http://www.wikimatrix.org/" >http://www.wikimatrix.org/</ulink> that allows
 you to specify the features you care about (an open source license can
 be one of them) and then view a chart comparing all the wiki software
 that meets those criteria.  Another good resource is Wikipedia's own
 page comparing different wikis: <ulink
 url="https://en.wikipedia.org/wiki/Comparison_of_wiki_software"
->en.wikipedia.org/wiki/Comparison_of_wiki_software</ulink>.</para>
+>https://en.wikipedia.org/wiki/Comparison_of_wiki_software</ulink>.</para>
 
 <para>I do not recommend using MediaWiki (<ulink
-url="https://www.mediawiki.org" >mediawiki.org</ulink>) as the wiki
+url="https://www.mediawiki.org" >https://www.mediawiki.org</ulink>) as the wiki
 software for most projects.  MediaWiki is the software on which
 Wikipedia itself runs, and while it is very good at that, its
 administrative facilities are tuned to the needs of a site unlike any
@@ -3027,7 +3026,7 @@ plugin, so you can have that syntax anyway if you really want it.
 Third, for those who will use a plaintext syntax instead of rich-text
 editing, it's better to use a standardized generic markup format like
 Markdown (<ulink url="https://daringfireball.net/projects/markdown/"
->daringfireball.net/projects/markdown</ulink>), which is available in
+>https://daringfireball.net/projects/markdown/</ulink>), which is available in
 many wikis either natively or via a plugin, than to use a wiki syntax
 of any flavor.  If you support Markdown, then people can edit in your
 wiki using the same markup syntax they already know from GitHub and
@@ -3052,15 +3051,15 @@ as your project's FAQ, or have the FAQ consist mostly of pointers to
 the forum's most popular items.</para>
 
 <para>A project can certainly host its own forums, and many do, using
-free software such as <ulink url="https://askbot.com/" >Askbot</ulink>
+free software such as <ulink url="https://askbot.com/" >https://askbot.com/</ulink>
 <footnote><para>See <ulink
 url="https://ask.libreoffice.org/en/questions/"
->ask.libreoffice.org</ulink>, for example.</para></footnote>, <ulink
-url="http://osqa.net/" >OSQA</ulink>, <ulink url="http://shapado.com/"
->Shapado</ulink>, or <ulink url="http://www.coordino.com/"
->Coordino</ulink>.  However, there are also some third-party services
+>https://ask.libreoffice.org/en/questions/</ulink>, for example.</para></footnote>, <ulink
+url="http://osqa.net/" >http://osqa.net/</ulink>, <ulink url="http://shapado.com/"
+>http://shapado.com/</ulink>, or <ulink url="http://www.coordino.com/"
+>http://www.coordino.com/</ulink>.  However, there are also some third-party services
 that aggregate questions and answers, the best-known of which, <ulink
-url="https://stackoverflow.com/" >stackoverflow.com</ulink>, frequently
+url="https://stackoverflow.com/" >https://stackoverflow.com/</ulink>, frequently
 has its answers coming up first in generic search engine results for
 popular questions.</para>
 
@@ -3120,24 +3119,24 @@ because they are specially optimized for performing translation rather
 than for performing general code development.</para>
 
 <para>Until 2013, the obvious recommendation for a platform would have
-been <ulink url="https://transifex.com/" >Transifex.com</ulink>, which
+been <ulink url="https://transifex.com/" >https://transifex.com/</ulink>, which
 was both the premier software translation site and was open source
 software itself.  Transifex is probably still the premier platform in
 terms of usage, including among open source projects, but its main
 corporate sponsors forked it into a closed, proprietary version in
 March 2013<footnote><para>See <ulink
 url="https://github.com/transifex/transifex/issues/206#issuecomment-15243207"
->github.com/transifex/transifex/issues/206#issuecomment-15243207</ulink>
+>https://github.com/transifex/transifex/issues/206#issuecomment-15243207</ulink>
 for more.</para></footnote>.  Transifex still offers free hosting for
 open source projects, but if you prefer that your translators have a
 fully open source platform to work in, <ulink
-url="https://weblate.org/" >weblate.org</ulink> is one, and it offers
+url="https://weblate.org/" >https://weblate.org/</ulink> is one, and it offers
 a commercial hosted service that is free of charge for open source
 projects as well.  Three other open source platforms are Launchpad
 Translations <ulink url="https://translations.launchpad.net/"
->translations.launchpad.net</ulink>, <ulink url="http://zanata.org/"
->zanata.org</ulink>, and <ulink url="https://translatewiki.net/"
->translatewiki.net</ulink>.</para>
+>https://translations.launchpad.net/</ulink>, <ulink url="http://zanata.org/"
+>http://zanata.org/</ulink>, and <ulink url="https://translatewiki.net/"
+>https://translatewiki.net/</ulink>.</para>
 
 </sect1>
 
@@ -3164,10 +3163,10 @@ because sending out short quips and announcements that can be easily
 forwarded and replied to is a good way for a project to have
 conversations with its community; see LibreOffice's "@AskLibreOffice"
 tweet stream at <ulink url="https://twitter.com/AskLibreOffice"
->twitter.com/AskLibreOffice</ulink> for an example of this.  Projects
+>https://twitter.com/AskLibreOffice</ulink> for an example of this.  Projects
 also sometimes use services such as <ulink
-url="https://www.eventbrite.com" >Eventbrite.com</ulink> and <ulink
-url="https://www.Meetup.com/" >Meetup.com</ulink> to arrange in-person
+url="https://www.eventbrite.com" >https://www.eventbrite.com</ulink> and <ulink
+url="https://www.Meetup.com/" >https://www.Meetup.com/</ulink> to arrange in-person
 meetings of users and developers.</para>
 
 <para>But beyond lightweight services such as those, most free

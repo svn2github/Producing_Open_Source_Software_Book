@@ -103,13 +103,13 @@ skipped by those already familiar with the material.</para>
 
 <para>Much of the raw material for the first edition of this book came
 from five years of working with the Subversion project (<ulink
-url="http://subversion.apache.org/">subversion.tigris.org</ulink>).
+url="http://subversion.apache.org/">http://subversion.apache.org/</ulink>).
 Subversion is an open source
 version control system, written from scratch, and intended to replace
 CVS as the <foreignphrase>de facto</foreignphrase> version control
 system of choice in the open source community.  The project was
 started by my employer, CollabNet (<ulink
-url="http://www.collab.net/" >collab.net</ulink>), in early 2000,
+url="http://www.collab.net/" >http://www.collab.net/</ulink>), in early 2000,
 and thank goodness
 CollabNet understood right from the start how to run it as a truly
 collaborative, distributed effort.  We got a lot of 
@@ -189,7 +189,7 @@ this book include:</para>
 
 <para>This is not a complete list, of course.  Many of the client
 projects I work with through our consulting practice at <ulink
-url="http://opentechstrategies.com/">Open Tech Strategies, LLC</ulink>
+url="http://opentechstrategies.com/">http://opentechstrategies.com/</ulink>
 have influenced this book, and like most open source programmers, I
 keep loose tabs on a variety of different projects of interest to
 me, just to have a sense of the general state of things.  I haven't
@@ -400,7 +400,7 @@ the book is better for their input, and I am the better for their
 friendship.</para>
 
 <para>Eben Moglen at the Software Freedom Law Center (<ulink
-url="https://softwarefreedom.org/" >softwarefreedom.org</ulink>)
+url="https://softwarefreedom.org/" >https://softwarefreedom.org/</ulink>)
 taught me a lot about how to look at free software as a large-scale
 social and economic phenomenon, and about how companies view free
 software.  He also provided a private working space on a few occasions

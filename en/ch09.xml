@@ -22,8 +22,7 @@ need to hire a lawyer or be one.<footnote><para>For a deeper
 understanding of how copyright law relates to free software, see
 <ulink
 url="https://softwarefreedom.org/resources/2012/ManagingCopyrightInformation.html"
->"Managing copyright information within a free software
-project"</ulink>, published by the Software Freedom Law
+>https://softwarefreedom.org/resources/2012/ManagingCopyrightInformation.html</ulink>, published by the Software Freedom Law
 Center.</para></footnote>
 
 </para>
@@ -49,7 +48,7 @@ out, along with a few other terms.</para>
               coined by Richard Stallman, who codified it in the GNU
               General Public License (GPL), and who founded the Free
               Software Foundation (<ulink url="https://www.fsf.org/"
-              >fsf.org</ulink>) to promote the concept.</para>
+              >https://www.fsf.org/</ulink>) to promote the concept.</para>
 
               <para>Although "free software" covers the
               same set of software as "open source", the FSF, among
@@ -74,7 +73,7 @@ out, along with a few other terms.</para>
               difference, however.  In fact, the term "open source"
               was coined by the group that founded the Open Source 
               Initiative (<ulink url="https://www.opensource.org/"
-              >opensource.org</ulink>)
+              >https://www.opensource.org/</ulink>)
               as a deliberate alternative to "free software".  Their
               goal at the time was largely to make such software a
               more palatable choice for
@@ -90,9 +89,9 @@ out, along with a few other terms.</para>
               which to cooperate.  I remain a happy member of both,
               and urge you to join them too: <ulink
               url="https://opensource.org/join"
-              >opensource.org/join</ulink> and <ulink
+              >https://opensource.org/join</ulink> and <ulink
               url="https://fsf.org/join"
-              >fsf.org/join</ulink>.</para></footnote></para>
+              >https://fsf.org/join</ulink>.</para></footnote></para>
 
               <para>While any license that is free is also open
               source, and vice versa (with a few minor exceptions that
@@ -112,14 +111,14 @@ out, along with a few other terms.</para>
               excellent&mdash;utterly unobjective, but nuanced and
               quite fair&mdash;exegesis of the two terms, at <ulink
               url="https://www.fsf.org/licensing/essays/free-software-for-freedom.html"
-              >www.fsf.org/licensing/essays/free-software-for-freedom.html</ulink>.
+              >https://www.fsf.org/licensing/essays/free-software-for-freedom.html</ulink>.
               The Open Source Initiative's take on it is (or was, in
               2002) spread across two pages: <ulink
               url="https://web.archive.org/web/20021204155022/http://www.opensource.org/advocacy/case_for_hackers.php#marketing"
-              >web.archive.org/web/20021204155022/http://www.opensource.org/advocacy/case_for_hackers.php#marketing</ulink>
+              >https://web.archive.org/web/20021204155022/http://www.opensource.org/advocacy/case_for_hackers.php#marketing</ulink>
               and <ulink
               url="https://web.archive.org/web/20021204155022/http://www.opensource.org/advocacy/free-notfree.php"
-              >web.archive.org/web/20021204155022/http://www.opensource.org/advocacy/free-notfree.php</ulink>
+              >https://web.archive.org/web/20021204155022/http://www.opensource.org/advocacy/free-notfree.php</ulink>
               [sic].</para>
     </listitem>
   </varlistentry>
@@ -140,7 +139,7 @@ out, along with a few other terms.</para>
               many Romance languages and does not suffer from the ambiguities
               of "free"; see
               <ulink url="https://en.wikipedia.org/wiki/FLOSS"
-              >en.wikipedia.org/wiki/FLOSS</ulink> for more).</para>
+              >https://en.wikipedia.org/wiki/FLOSS</ulink> for more).</para>
 
               <para>All these terms mean the same thing:
               software that can be modified and redistributed by
@@ -154,7 +153,7 @@ out, along with a few other terms.</para>
     <listitem><para>Compliant with the Debian Free Software Guidelines
               (<ulink
               url="https://www.debian.org/social_contract#guidelines"
-              >debian.org/social_contract#guidelines</ulink>).
+              >https://www.debian.org/social_contract#guidelines</ulink>).
               This is a widely-used test for whether a given license
               is truly open source
               (free, <foreignphrase>libre</foreignphrase>, etc.).  The
@@ -168,7 +167,7 @@ out, along with a few other terms.</para>
               time thinking about how to construct such a test, the
               guidelines they came up with have proven very robust
               (see <ulink url="https://en.wikipedia.org/wiki/DFSG"
-              >en.wikipedia.org/wiki/DFSG</ulink>),
+              >https://en.wikipedia.org/wiki/DFSG</ulink>),
               and as far as I'm aware, no serious objection to them has
               been raised either by the Free Software Foundation or
               the Open Source Initiative.  If you know that a given
@@ -179,7 +178,7 @@ out, along with a few other terms.</para>
               2004, the Debian Project has maintained a list of known
               DFSG-compliant licenses at <ulink
               url="https://wiki.debian.org/DFSGLicenses"
-              >wiki.debian.org/DFSGLicenses</ulink>.  All of the licenses
+              >https://wiki.debian.org/DFSGLicenses</ulink>.  All of the licenses
               discussed in this chapter are DFSG-compliant.</para>
     </listitem>
   </varlistentry>
@@ -196,14 +195,14 @@ out, along with a few other terms.</para>
               maintains a list of all
               licenses it has ever approved, at
               <ulink url="https://www.opensource.org/licenses/"
-              >opensource.org/licenses/</ulink>, so
+              >https://www.opensource.org/licenses/</ulink>, so
               that being "OSI-approved" is an unambiguous state: a
               license either is or isn't on the list.</para>
 
               <para>The Free Software Foundation also maintains a list
               of licenses at <ulink
               url="https://www.fsf.org/licensing/licenses/license-list.html"
-              >fsf.org/licensing/licenses/license-list.html</ulink>.
+              >https://www.fsf.org/licensing/licenses/license-list.html</ulink>.
               The FSF categorizes licenses not only by whether they
               are free, but whether they are compatible with the GNU
               General Public License.  GPL compatibility is an
@@ -279,7 +278,7 @@ out, along with a few other terms.</para>
               guidelines of most free software certifying
               organizations (see <ulink
               url="https://opensource.org/faq#public-domain"
-              >opensource.org/faq#public-domain</ulink> for more).
+              >https://opensource.org/faq#public-domain</ulink> for more).
               However, there are usually good reasons to use a license
               instead of just releasing into the public domain: even
               with free software, certain terms and conditions can be
@@ -313,7 +312,7 @@ out, along with a few other terms.</para>
               recent Apache Software License version 2
               (<ulink
               url="https://www.apache.org/licenses/LICENSE-2.0"
-              >apache.org/licenses/LICENSE-2.0</ulink>) is
+              >https://www.apache.org/licenses/LICENSE-2.0</ulink>) is
               also very popular&mdash;increasingly so&mdash;and
               somewhat better adapted to the legal landscape of modern
               open source software development.</para>
@@ -336,7 +335,7 @@ OSI, and the Debian Project, have always agreed on.  If you see
 someone, particularly a journalist, making this mistake, please
 politely correct them, perhaps by pointing them to this note (
 <ulink url="http://producingoss.com/en/terminology.html#free-open-same"
->producingoss.com/en/terminology.html#free-open-same</ulink>).
+>http://producingoss.com/en/terminology.html#free-open-same</ulink>).
 The last thing we need is yet more terminological confusion in the
 free and open source software movement.</para>
 
@@ -493,7 +492,7 @@ of free software, they deliberately crafted the license to make it
 impossible to mix GPLed code into proprietary programs.  Specifically,
 among the GPL's requirements (see <ulink
 url="https://www.fsf.org/licensing/licenses/gpl.html"
->fsf.org/licensing/licenses/gpl.html</ulink> for its full text) are
+>https://www.fsf.org/licensing/licenses/gpl.html</ulink> for its full text) are
 these two:</para>
 
 <orderedlist>
@@ -556,7 +555,7 @@ in the first place.</para>
 <para>Fortunately, the Free Software Foundation maintains a list
 showing which licenses are compatible with the GPL and which are not,
 at <ulink url="https://www.gnu.org/licenses/license-list.html"
->gnu.org/licenses/license-list.html</ulink>.  All
+>https://www.gnu.org/licenses/license-list.html</ulink>.  All
 of the licenses discussed in this chapter are present on that list, on
 one side or the other.</para>
 
@@ -607,14 +606,14 @@ license, choose the MIT license.  I've put those licenses in boldface
 to reflect this:</para>
 
 <itemizedlist>
-  <listitem><emphasis role="bold" >GNU General Public License version 3</emphasis> (<code>GPL-3.0</code>, <ulink url="https://www.gnu.org/licenses/gpl.html" >gnu.org/licenses/gpl.html</ulink>)</listitem>
-  <listitem><emphasis role="bold" >GNU Affero General Public License version 3</emphasis> (<code>AGPL-3.0</code>, <ulink url="https://www.gnu.org/licenses/agpl.html" >gnu.org/licenses/agpl.html</ulink>)</listitem>
-  <listitem>Mozilla Public License 2.0 (<code>MPL-2.0</code>, <ulink url="https://www.mozilla.org/MPL/" >mozilla.org/MPL</ulink>)</listitem>
-  <listitem>GNU Library or "Lesser" General Public License version 3 (<code>LGPL-3.0</code>, <ulink url="https://www.gnu.org/licenses/lgpl.html" >gnu.org/licenses/lgpl.html</ulink>)</listitem>
-  <listitem>Eclipse Public License 1.0 (<code>EPL-1.0</code>, <ulink url="https://www.eclipse.org/legal/epl-v10.html" >eclipse.org/legal/epl-v10.html</ulink>) <emphasis>(Note that version 2 of the EPL was almost ready as of mid-2014, and may be out by the time you read this.)</emphasis></listitem>
-  <listitem><emphasis role="bold" >MIT license</emphasis> (<code>MIT</code>, <ulink url="https://opensource.org/licenses/MIT" >opensource.org/licenses/MIT</ulink>)</listitem>
-  <listitem>Apache License 2.0 (<code>Apache-2.0</code>, <ulink url="https://apache.org/licenses/LICENSE-2.0" >apache.org/licenses/LICENSE-2.0</ulink>)</listitem>
-  <listitem>BSD 2-Clause ("Simplified" or "FreeBSD") license (<code>BSD-2-Clause</code>, <ulink url="https://opensource.org/licenses/BSD-2-Clause" >opensource.org/licenses/BSD-2-Clause</ulink>)</listitem>
+  <listitem><emphasis role="bold" >GNU General Public License version 3</emphasis> (<code>GPL-3.0</code>, <ulink url="https://www.gnu.org/licenses/gpl.html" >https://www.gnu.org/licenses/gpl.html</ulink>)</listitem>
+  <listitem><emphasis role="bold" >GNU Affero General Public License version 3</emphasis> (<code>AGPL-3.0</code>, <ulink url="https://www.gnu.org/licenses/agpl.html" >https://www.gnu.org/licenses/agpl.html</ulink>)</listitem>
+  <listitem>Mozilla Public License 2.0 (<code>MPL-2.0</code>, <ulink url="https://www.mozilla.org/MPL/" >https://www.mozilla.org/MPL/</ulink>)</listitem>
+  <listitem>GNU Library or "Lesser" General Public License version 3 (<code>LGPL-3.0</code>, <ulink url="https://www.gnu.org/licenses/lgpl.html" >https://www.gnu.org/licenses/lgpl.html</ulink>)</listitem>
+  <listitem>Eclipse Public License 1.0 (<code>EPL-1.0</code>, <ulink url="https://www.eclipse.org/legal/epl-v10.html" >https://www.eclipse.org/legal/epl-v10.html</ulink>) <emphasis>(Note that version 2 of the EPL was almost ready as of mid-2014, and may be out by the time you read this.)</emphasis></listitem>
+  <listitem><emphasis role="bold" >MIT license</emphasis> (<code>MIT</code>, <ulink url="https://opensource.org/licenses/MIT" >https://opensource.org/licenses/MIT</ulink>)</listitem>
+  <listitem>Apache License 2.0 (<code>Apache-2.0</code>, <ulink url="https://apache.org/licenses/LICENSE-2.0" >https://apache.org/licenses/LICENSE-2.0</ulink>)</listitem>
+  <listitem>BSD 2-Clause ("Simplified" or "FreeBSD") license (<code>BSD-2-Clause</code>, <ulink url="https://opensource.org/licenses/BSD-2-Clause" >https://opensource.org/licenses/BSD-2-Clause</ulink>)</listitem>
 </itemizedlist>
 
 <para>Note that there are some arguments for choosing the Apache
@@ -625,7 +624,7 @@ widely recognized<footnote><para>License choice trends for open source
 repositories on GitHub are a good source of information on this.  See
 <ulink
 url="https://github.com/blog/1964-open-source-license-usage-on-github-com"
->github.com/blog/1964-open-source-license-usage-on-github-com</ulink>
+>https://github.com/blog/1964-open-source-license-usage-on-github-com</ulink>
 for statistics from March of 2015.</para></footnote>.  While the
 Apache License 2.0 has the advantage of containing some explicit
 defenses against misuse of software patents, which might be important
@@ -668,7 +667,7 @@ Lesser GPL</firstterm><footnote><para>Originally named the
 FSF).</para></footnote> The LGPL has looser restrictions than the GPL,
 and can be mixed more easily with non-free code.  The FSF's page about
 the LGPL, <ulink url="https://www.gnu.org/licenses/lgpl.html"
->gnu.org/licenses/lgpl.html</ulink>, has a good discussion of when to
+>https://www.gnu.org/licenses/lgpl.html</ulink>, has a good discussion of when to
 use it.</para>
 
 <sect3 id="gpl-future-proofing">
@@ -768,7 +767,7 @@ license itself is simple: it's just the GPL-3.0 with one extra clause
 about network interaction.  The Wikipedia article on the AGPL is
 excellent: <ulink
 url="https://en.wikipedia.org/wiki/Affero_General_Public_License"
->en.wikipedia.org/wiki/Affero_General_Public_License</ulink></para>
+>https://en.wikipedia.org/wiki/Affero_General_Public_License</ulink></para>
 </sect3>
 
 <sect3 id="copyright-holder-is-special">
@@ -894,7 +893,7 @@ true owner of the code in question and that they never agreed to its
 being distributed by the project under an open source license.  For
 example, the SCO Group did something like this to the Linux project, see
 <ulink url="https://en.wikipedia.org/wiki/SCO-Linux_controversies"
->en.wikipedia.org/wiki/SCO-Linux_controversies</ulink>
+>https://en.wikipedia.org/wiki/SCO-Linux_controversies</ulink>
 for details.  When this happens, the project will have no
 documentation showing that the contributor formally granted the right
 to use the code, which could make some legal defenses more
@@ -949,7 +948,7 @@ text from her usual contribution address to a special archive at the
 project<footnote><para>The DCO text is provided by the project, but
 you don't have to write your own from scratch; see <ulink
 url="http://developercertificate.org/"
->developercertificate.org</ulink> for example.</para></footnote>.
+>http://developercertificate.org/</ulink> for example.</para></footnote>.
 Thereafter, the contributor includes a "Signed-Off-By:" line in her
 patches or commits, using the same identity, to indicate that the
 corresponding contribution is certified under the DCO.  This gives the
@@ -1136,14 +1135,14 @@ copylefted code from a place that restricts users from redistributing
 what they download, you may be in this situation.  For more
 information, see Steven J. Vaughan-Nichols' article <ulink
 url="http://www.zdnet.com/article/no-gpl-apps-for-apples-app-store/"
->"No GPL Apps for Apple's App Store"</ulink>, Richard Gaywood's
+>http://www.zdnet.com/article/no-gpl-apps-for-apples-app-store/</ulink>, Richard Gaywood's
 followup article <ulink
 url="http://www.engadget.com/2011/01/09/the-gpl-the-app-store-and-you/"
->"The GPL, the App Store, and you"</ulink>, and Pieter Colpaert's
+>http://www.engadget.com/2011/01/09/the-gpl-the-app-store-and-you/</ulink>, and Pieter Colpaert's
 explanation of how the iRail and BeTrains projects used <emphasis>pro
 forma</emphasis> dual-licensing to get around the problem, <ulink
 url="https://bonsansnom.wordpress.com/2011/01/08/about-apple-store-gpls-vlc-and-betrains/"
->"About Apple store, GPL’s, VLC and BeTrains"</ulink>.  Thanks to
+>https://bonsansnom.wordpress.com/2011/01/08/about-apple-store-gpls-vlc-and-betrains/</ulink>.  Thanks to
 reader Nathan Toone for pointing out this problem.</para>
 </footnote></para>
 
@@ -1220,7 +1219,7 @@ of exactly what changes Debian makes to the Firefox code that Mozilla
 disagrees with strongly enough to want to dissociate their name from
 the result.  The entire saga is recounted in more detail at <ulink
 url="https://en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project"
->en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project</ulink>.
+>https://en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project</ulink>.
 Coincidentally, I'm writing these words on a Debian GNU/Linux system,
 where Iceweasel has long been my default browser&nbsp;&mdash;&nbsp;I
 just used it to check that URL.</para></footnote></para>
@@ -1243,15 +1242,15 @@ pedicure shop (I'm not making this up) illustrates.</para>
 <sect2 id="gnome-fish-pedicure">
 <title>Case study: The GNOME Logo and the Fish Pedicure Shop</title>
 
-<para>The <ulink url="https://gnome.org/" >GNOME Project</ulink>, which
+<para>The <ulink url="https://gnome.org/" >https://gnome.org/</ulink>, which
 produces one of the major free software desktop environments, is
 represented legally by the <ulink
-url="https://www.gnome.org/foundation/" >GNOME Foundation</ulink>,
+url="https://www.gnome.org/foundation/" >https://www.gnome.org/foundation/</ulink>,
 which owns and enforces trademarks on behalf of the project.  Their
 best-known trademark is the GNOME logo: a curved, stylized foot with
 four toes floating close above it.<footnote><para>You can see examples
 at <ulink url="https://www.gnome.org/foundation/legal-and-trademarks/"
->gnome.org/foundation/legal-and-trademarks</ulink>.</para></footnote></para>
+>https://www.gnome.org/foundation/legal-and-trademarks/</ulink>.</para></footnote></para>
 
 <para>One day, Karen Sandler, then the Executive Director of the GNOME
 Foundation, heard from a GNOME contributor that a mobile fish-pedicure
@@ -1264,7 +1263,7 @@ human foot but cleverly made reference to fish as well.  You can see
 it, along with discussion of other trademark issues GNOME has dealt
 with, in the Linux Weekly News article where this story is told in
 full: <ulink url="https://lwn.net/Articles/491639/"
->lwn.net/Articles/491639</ulink>.</para>
+>https://lwn.net/Articles/491639/</ulink>.</para>
 
 <para>Although GNOME does actively enforce its trademarks, Sandler did
 not see any infringement in this case: the fish-pedicure business is
@@ -1333,7 +1332,7 @@ of <emphasis>all</emphasis> programmers, think that software patents
 should be abolished entirely.<footnote><para>See
 <ulink
 url="https://groups.csail.mit.edu/mac/projects/lpf/Whatsnew/survey.html"
->groups.csail.mit.edu/mac/projects/lpf/Whatsnew/survey.html</ulink>
+>https://groups.csail.mit.edu/mac/projects/lpf/Whatsnew/survey.html</ulink>
 for one such survey.</para></footnote> Open source programmers tend to feel
 particularly strongly about it, and may refuse to work on projects
 that are too closely associated with the collection or enforcement of
@@ -1347,7 +1346,7 @@ right thing to do, it's also good open source public relations.<footnote>
 <para>For example, RedHat has pledged that open source projects are
 safe from its patents, see
 <ulink url="https://www.redhat.com/legal/patent_policy.html"
->redhat.com/legal/patent_policy.html</ulink>.</para>
+>https://www.redhat.com/legal/patent_policy.html</ulink>.</para>
 </footnote></para>
 
 <para>Unfortunately, collecting patents purely for defensive purposes
@@ -1407,20 +1406,19 @@ that.</para>
 U.S. Supreme Court against the patentability of abstract ideas, in
 <citetitle>Alice Corp. v. CLS Bank</citetitle> (<ulink
 url="https://en.wikipedia.org/wiki/Alice_Corp._v._CLS_Bank_International"
->en.wikipedia.org/wiki/Alice_Corp._v._CLS_Bank_International</ulink>),
+>https://en.wikipedia.org/wiki/Alice_Corp._v._CLS_Bank_International</ulink>),
 have made the future of software patents unpredictable.  But there is
 so much money to be extracted via infringement claims, in particular
-by <ulink url="https://en.wikipedia.org/wiki/Patent_troll" >patent
-trolls</ulink> but in general by any entity with a large patent
+by <ulink url="https://en.wikipedia.org/wiki/Patent_troll" >https://en.wikipedia.org/wiki/Patent_troll</ulink> but in general by any entity with a large patent
 portfolio and a lack of other revenue sources, that I am not
 optimistic this fight will be over any time soon.  If you want to
 learn more about the problem, there are good links in
 the Wikipedia article <ulink
 url="https://en.wikipedia.org/wiki/Software_patent"
->en.wikipedia.org/wiki/Software_patent</ulink>.  I've also written
+>https://en.wikipedia.org/wiki/Software_patent</ulink>.  I've also written
 some blog posts summarizing the arguments against software patents,
 collected at <ulink url="http://www.rants.org/patent-posts/"
->www.rants.org/patent-posts</ulink>.  As of this writing it's been
+>http://www.rants.org/patent-posts/</ulink>.  As of this writing it's been
 about six years since the main posts there were published, but all the
 reasons why software patents are a bad idea are just as true now as
 they were then.</para>
@@ -1439,7 +1437,7 @@ this book can provide.  Here are some other resources:</para>
 
 <itemizedlist>
   <listitem><para><ulink url="https://opensource.org/licenses"
-                         >opensource.org/licenses</ulink></para>
+                         >https://opensource.org/licenses</ulink></para>
 
             <para>The OSI license introduction page is a
             well-maintained source of information about widely used
@@ -1459,7 +1457,7 @@ this book can provide.  Here are some other resources:</para>
             trademarks, patents, contracting, and more.  It goes into
             much deeper detail than I could in this chapter.
             <ulink url="http://shop.oreilly.com/product/9780596517960.do"
-            >shop.oreilly.com/product/9780596517960.do</ulink>
+            >http://shop.oreilly.com/product/9780596517960.do</ulink>
             for details.</para>
   </listitem>
 
@@ -1468,7 +1466,7 @@ this book can provide.  Here are some other resources:</para>
             A. Wheeler, at
             <ulink
             url="http://www.dwheeler.com/essays/gpl-compatible.html"
-            >dwheeler.com/essays/gpl-compatible.html</ulink>.</para>
+            >http://www.dwheeler.com/essays/gpl-compatible.html</ulink>.</para>
 
             <para>This is a detailed and well-written article on why
             it is important to use a GPL-compatible license even if

@@ -75,7 +75,7 @@ see <citetitle>Group Awareness in Distributed Software
 Development</citetitle> by Gutwin, Penner, and Schneider.  This paper
 was online for a while, then unavailable, then online again at <ulink
 url="http://www.st.cs.uni-sb.de/edu/empirical-se/2006/PDFs/gutwin04.pdf"
->st.cs.uni-sb.de/edu/empirical-se/2006/PDFs/gutwin04.pdf</ulink>.
+>http://www.st.cs.uni-sb.de/edu/empirical-se/2006/PDFs/gutwin04.pdf</ulink>.
 So try there first, but be prepared to use a search engine if it moves
 again.</para></footnote></para>
 
@@ -871,7 +871,7 @@ Just think about footsteps in wet cement.</para>
 </blockquote>
 
 <para>(Kamp's complete post is very much worth reading, too; see 
-<ulink url="http://bikeshed.com/" >bikeshed.com</ulink>.)</para>
+<ulink url="http://bikeshed.com/" >http://bikeshed.com/</ulink>.)</para>
 
 <para>Anyone who's ever taken regular part in group decision-making
 will recognize what Kamp is talking about.  However, it is usually
@@ -992,10 +992,10 @@ refuse to be drawn into.</para>
 
 <para>For more historical background on holy wars, see <ulink
 url="http://catb.org/~esr/jargon/html/H/holy-wars.html"
->catb.org/~esr/jargon/html/H/holy-wars.html</ulink>, and the
+>http://catb.org/~esr/jargon/html/H/holy-wars.html</ulink>, and the
 paper by Danny Cohen that popularized the term, <ulink
 url="https://www.ietf.org/rfc/ien/ien137.txt"
->ietf.org/rfc/ien/ien137.txt</ulink>.</para>
+>https://www.ietf.org/rfc/ien/ien137.txt</ulink>.</para>
 
 </sect2>
 
@@ -1114,8 +1114,7 @@ up costing other people time and energy, yet do not bring any benefit
 to the project<footnote><para>For an extended discussion of one
 particular subspecies of difficult person, see Amy Hoy's hilariously
 on-target <citetitle><ulink
-url="http://slash7.com/2006/12/22/vampires/">Help Vampires: A
-Spotter's Guide</ulink></citetitle>.  Quoting Hoy: "It's so regular you
+url="http://slash7.com/2006/12/22/vampires/">http://slash7.com/2006/12/22/vampires/</ulink></citetitle>.  Quoting Hoy: "It's so regular you
 could set your watch by it. The decay of a community is just as
 predictable as the decay of certain stable nuclear isotopes. As soon
 as an open source project, language, or what-have-you achieves a
@@ -1671,7 +1670,7 @@ letters, on a bright yellow background, centered prominently above
 everything else on the page.  We did so (it's been reformatted a bit
 since then, but it's still very prominent&mdash;you can see the results at
 <ulink url="http://subversion.apache.org/reporting-issues.html"
->subversion.apache.org/reporting-issues.html</ulink>), and
+>http://subversion.apache.org/reporting-issues.html</ulink>), and
 the result was a noticeable drop in the rate of bogus ticket filings.
 The project still gets them, of course&mdash;it always will&mdash;but the rate
 has slowed considerably, even as the number of users increases.  The
@@ -1776,17 +1775,7 @@ ask.</para>
 
 <para><remark>See
 <ulink
-url="http://subversion.apache.org/mailing-list-guidelines.html"/> for
-an example of mailing list guidelines, talk about which problems such
-guidelines can solve and which they can't.  Also, log message
-guidelines (if that gets its own section, remember to adjust the xrefs
-in Version Control Vocabulary and elsewhere in Chapter 3).  Mention
-the parseability concern; point out that it can overdone, too.
-Formatting of bug tracker numbers in log messages is an excellent
-example of where parseability is an appropriate concern.  Log message
-templates.  Make sure that commit reviews apply to log messages and
-other "meta" aspects of the commit as well as to the code
-itself.</remark></para>
+url="http://subversion.apache.org/mailing-list-guidelines.html"/>http://subversion.apache.org/mailing-list-guidelines.html</remark></para>
 
 -->
 
@@ -1901,8 +1890,8 @@ purely internal discussions and public relations statements.  This is
 partly because the target audience is always ill-defined: given that
 most or all posts are publicly accessible, the project doesn't have
 full control over the impression the world gets.  Someone&mdash;say, a
-<ulink url="https://news.ycombinator.com/">Hacker News</ulink>
-poster or <ulink url="https://slashdot.org/">slashdot.org</ulink>
+<ulink url="https://news.ycombinator.com/">https://news.ycombinator.com/</ulink>
+poster or <ulink url="https://slashdot.org/">https://slashdot.org/</ulink>
 editor&mdash;may draw millions of readers' attention to a post that no
 one ever expected to be seen outside the project.  This is a fact of
 life that all open source projects live with, but in practice, the
@@ -2226,7 +2215,7 @@ if more than 10,000 numbers are handed out in a given year).</para>
 
 <para>A CVE number is an entry in the "Common Vulnerabilities and
 Exposures" list maintained at <ulink url="https://cve.mitre.org/"
->cve.mitre.org</ulink>.  The purpose of the list is to a provide
+>https://cve.mitre.org/</ulink>.  The purpose of the list is to a provide
 standardized name for every known computer security problem, so that
 everyone has a unique, canonical name to use when discussing it, and a
 central place to go to find out more information.<footnote><para>In
@@ -2245,21 +2234,21 @@ bug and how to protect against it.  Instead, it contains a brief
 summary, and a list of references to external resources (such as a
 announcement post from the project in question) where people can go to
 get more detailed information.  The real purpose of <ulink
-url="https://cve.mitre.org/" >cve.mitre.org</ulink> is to provide a
+url="https://cve.mitre.org/" >https://cve.mitre.org/</ulink> is to provide a
 well-organized space in which every vulnerability has a single name,
 and people have a clear route to get more data about it.  See <ulink
 url="https://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-0160"
->cve.mitre.org/cgi-bin/cvename.cgi?name=2014-0160</ulink> for an
+>https://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-0160</ulink> for an
 example of an entry.  Note that the references can be very terse, with
 sources appearing as cryptic abbreviations.  A key to those
 abbreviations is at <ulink
 url="https://cve.mitre.org/data/refs/refkey.html"
->cve.mitre.org/data/refs/refkey.html</ulink>.</para>
+>https://cve.mitre.org/data/refs/refkey.html</ulink>.</para>
 
 <para>If your vulnerability meets the criteria, you may wish to obtain
 a CVE number for it.  You can request one using the instructions at
 <ulink url="https://cve.mitre.org/cve/request_id.html"
->cve.mitre.org/cve/request_id.html</ulink>, but if there is someone in
+>https://cve.mitre.org/cve/request_id.html</ulink>, but if there is someone in
 your project who has already obtained CVE numbers, or who knows
 someone who has, let them do it. The CVE Editorial Board gets a lot of
 submissions, many of them spurious or poorly written submissions; by
@@ -2271,9 +2260,9 @@ vulnerability or exposure according to MITRE's criteria, so there is
 no point submitting it, or b) the vulnerability already
 <emphasis>has</emphasis> a CVE number.  The latter can happen if the
 bug has already been published on another security advisory list, for
-example at <ulink url="https://www.cert.org/" >www.cert.org</ulink> or
+example at <ulink url="https://www.cert.org/" >https://www.cert.org/</ulink> or
 on the BugTraq mailing list at <ulink
-url="http://www.securityfocus.com/" >www.securityfocus.com</ulink>.
+url="http://www.securityfocus.com/" >http://www.securityfocus.com/</ulink>.
 (If that happened without your project hearing about it, then you
 should worry what else might be going on that you don't know
 about.)</para>
@@ -2287,14 +2276,14 @@ vulnerability&nbsp;&mdash;&nbsp;so make sure you or your intermediary
 communicate clearly with the CVE Editorial Board about how long you
 need before publicly announcing.</para>
 
-<para>See <ulink url="https://cve.mitre.org/" >cve.mitre.org</ulink>
+<para>See <ulink url="https://cve.mitre.org/" >https://cve.mitre.org/</ulink>
 for more information about the CVE process.  See also <ulink
 url="https://www.debian.org/security/cve-compatibility"
->debian.org/security/cve-compatibility</ulink> for a particularly
+>https://www.debian.org/security/cve-compatibility</ulink> for a particularly
 clear exposition of one open source project's use of CVE numbers, and
 see <ulink
 url="https://securityblog.redhat.com/2013/01/30/a-minimal-security-response-process/"
->securityblog.redhat.com/2013/01/30/a-minimal-security-response-process</ulink>
+>https://securityblog.redhat.com/2013/01/30/a-minimal-security-response-process/</ulink>
 for a good writeup of a minimal security response process, from a
 security engineer at RedHat.</para>
 
@@ -2328,7 +2317,7 @@ receiving pre-notification is threefold: the recipient must run a
 large, important service where a compromise would be a serious matter;
 the recipient must be known to be someone who won't blab about the
 security problem before the go-public date; and you must have a way
-(such as via <ulink url="https://gnupg.org/" >GnuPG</ulink>-encrypted
+(such as via <ulink url="https://gnupg.org/" >https://gnupg.org/</ulink>-encrypted
 email) to communicate securely with the recipient, so that any
 eavesdroppers between you and your recipient can't read the
 message.<footnote><para>Remember that Subject lines in emails aren't
@@ -2451,7 +2440,7 @@ project cries wolf every time, users might end up thinking the
 software is less secure than it actually is, and also might not
 believe you when you have a really big problem to announce.  See
 <ulink url="https://cve.mitre.org/about/terminology.html"
->cve.mitre.org/about/terminology.html</ulink> for a good introduction
+>https://cve.mitre.org/about/terminology.html</ulink> for a good introduction
 to the problem of judging and describing severity.</para>
 
 <para>In general, if you're unsure how to treat a security problem,
@@ -2464,7 +2453,7 @@ to make missteps the first few times.</para>
 <para>See also the Apache Software Foundation
 guidelines on handling security vulnerabilities at
 <ulink url="https://www.apache.org/security/committers.html"
->apache.org/security/committers.html</ulink>.  They
+>https://www.apache.org/security/committers.html</ulink>.  They
 are an excellent checklist you can compare against to see if you're
 doing everything carefully.</para>
 

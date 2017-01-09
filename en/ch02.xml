@@ -119,11 +119,11 @@ project you have in mind is so specialized that you know there is zero
 chance anyone else has done it.  But generally, there's no point not
 looking, and the payoff can be huge.  If the usual Internet search
 engines don't turn up anything, try searching directly on <ulink
-url="https://github.com/" >github.com</ulink>, <ulink
-url="https://freshcode.club/" >freshcode.club</ulink>, <ulink
-url="https://openhub.net/" >openhub.net</ulink>, and in the
+url="https://github.com/" >https://github.com/</ulink>, <ulink
+url="https://freshcode.club/" >https://freshcode.club/</ulink>, <ulink
+url="https://openhub.net/" >https://openhub.net/</ulink>, and in the
 Free Software Foundation's directory of free software at <ulink
-url="https://directory.fsf.org/" >directory.fsf.org</ulink>.</para>
+url="https://directory.fsf.org/" >https://directory.fsf.org/</ulink>.</para>
 
 <para>Even if you don't find exactly what you were looking for, you
 might find something so close that it makes more sense to join that
@@ -255,7 +255,7 @@ they simply have trouble remembering it.</para>
             discovering whether another project already has the name
             you're thinking of.  For the U.S., trademark searches are
             available at <ulink url="http://www.uspto.gov/"
-            >uspto.gov</ulink>.</para> 
+            >http://www.uspto.gov/</ulink>.</para> 
   </listitem>
   <listitem><para>If possible, is available as a domain name in the
             <systemitem>.com</systemitem>,
@@ -282,7 +282,7 @@ they simply have trouble remembering it.</para>
             all the important TLDs, do so.</para></footnote></para>
   </listitem>
   <listitem><para>If possible, is available as a username on <ulink
-            url="https://twitter.com/" >Twitter</ulink> and other
+            url="https://twitter.com/" >https://twitter.com/</ulink> and other
             microblog sites.  See <xref linkend="own-the-name"/> for
             more on this and its relationship to the domain name.</para>
   </listitem>
@@ -303,7 +303,7 @@ easier for people to sustain a mild interest in the project until
 they're ready to become more involved.</para>
 
 <para>For example, the Gnome free desktop project has the <ulink
-url="https://gnome.org/" >gnome.org</ulink> domain
+url="https://gnome.org/" >https://gnome.org/</ulink> domain
 name<footnote><para>They didn't manage to get gnome.com or gnome.net,
 but that's okay&nbsp;&mdash;&nbsp;if you only have one, and it's .org,
 it's fine.  That's usually the first one people look for when they're
@@ -311,12 +311,12 @@ seeking the open source project of that name.  If they couldn't get
 "gnome.org" itself, a typical solution would be to get
 "gnomeproject.org" instead, and many projects solve the problem that
 way.</para></footnote>, the <ulink url="https://twitter.com/gnome"
->@gnome</ulink> Twitter handle, the <ulink
-url="https://identi.ca/gnome" >gnome</ulink> username at
+>https://twitter.com/gnome</ulink> Twitter handle, the <ulink
+url="https://identi.ca/gnome" >https://identi.ca/gnome</ulink> username at
 Identi.ca<footnote><para> <ulink url="https://identi.ca/"
->Identi.ca</ulink> is a microblog / social networking that a number of
+>https://identi.ca/</ulink> is a microblog / social networking that a number of
 free software developers use; its code is open source and made
-available at <ulink url="http://pump.io/" >pump.io</ulink>.  For
+available at <ulink url="http://pump.io/" >http://pump.io/</ulink>.  For
 developer-oriented projects, I recommend at least doing all status
 microposts&nbsp;&mdash;&nbsp;colloquially referred to as
 "tweets"&nbsp;&mdash;&nbsp;on both Identi.ca and Twitter.  While the
@@ -324,9 +324,9 @@ total number of people on Identi.ca is far smaller than on Twitter,
 the percentage of them that are likely to be interested in news about
 an open source project is far higher, at least as of this writing in
 2017 and probably for some years after that.</para></footnote>, the <ulink
-url="https://github.com/gnome" >gnome</ulink> username at
+url="https://github.com/gnome" >https://github.com/gnome</ulink> username at
 GitHub.com<footnote><para>While the master copy of Gnome's source code
-is at <ulink url="https://git.gnome.org/" >git.gnome.org</ulink>, they
+is at <ulink url="https://git.gnome.org/" >https://git.gnome.org/</ulink>, they
 maintain a mirror at GitHub, since so many developers are already
 familiar with GitHub</para></footnote>, and on the freenode IRC
 network (see <xref linkend="irc"/>) they have the channel
@@ -363,7 +363,7 @@ preferably right under the project's name.</para>
 
 <para>The description should be concrete, limiting, and above all,
 short.  Here's an example of a good one, from <ulink
-url="https://hadoop.apache.org/" >hadoop.apache.org</ulink>:</para>
+url="https://hadoop.apache.org/" >https://hadoop.apache.org/</ulink>:</para>
 
   <blockquote>
   <para><emphasis>The Apache™ Hadoop® project develops open-source
@@ -563,9 +563,9 @@ project should think carefully about what its best development status
 indicators are&nbsp;&mdash;&nbsp;Launchpad project pages do provide
 some good examples of the possibilities.  Start from the top of a
 project page there and scroll down: <ulink
-url="https://launchpad.net/drizzle" >launchpad.net/drizzle</ulink>
+url="https://launchpad.net/drizzle" >https://launchpad.net/drizzle</ulink>
 or <ulink url="https://launchpad.net/inkscape"
->launchpad.net/inkscape</ulink>, to pick two at random.</para></sidebar>
+>https://launchpad.net/inkscape</ulink>, to pick two at random.</para></sidebar>
 
 <sect3 id="development-status-honesty">
 <title>Development Status Should Always Reflect Reality</title>
@@ -692,7 +692,7 @@ project's materials and subsequently get updates.  A version control
 repository is a sign&mdash;to both users and developers&mdash;that
 this project is making an effort to give people what they need to
 participate.  As of this writing, many open source projects use <ulink
-url="https://github.com/" >GitHub.com</ulink>, which offers unlimited
+url="https://github.com/" >https://github.com/</ulink>, which offers unlimited
 free public version control hosting for open source projects.  While
 GitHub is not the only choice, nor even the only good choice, it's a
 reasonable one for most projects<footnote><para>Although GitHub is
@@ -737,10 +737,10 @@ will not be unduly alarmed by the low absolute number of bugs
 recorded.<footnote><para>For a more thorough argument that bug reports
 should be treated as good news, see <ulink
 url="http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/"
->rants.org/2010/01/10/bugs-users-and-tech-debt</ulink>, an article I
+>http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/</ulink>, an article I
 wrote in 2010 about how bug reports do <emphasis>not</emphasis>
 represent "<ulink url="https://en.wikipedia.org/wiki/Technical_debt"
->technical debt</ulink>" but rather user engagement.</para></footnote></para>
+>https://en.wikipedia.org/wiki/Technical_debt</ulink>" but rather user engagement.</para></footnote></para>
 
 <para>Note that bug trackers are often used to track not only software
 bugs, but enhancement requests, documentation changes, pending tasks,
@@ -834,11 +834,11 @@ implications as dictatorship in other areas of life.)</para>
   
 <para><ulink
 url="http://subversion.apache.org/docs/community-guide/"
->subversion.apache.org/docs/community-guide</ulink>
+>http://subversion.apache.org/docs/community-guide/</ulink>
 is an example of particularly thorough developer guidelines; the
 LibreOffice guidelines at <ulink
 url="https://wiki.documentfoundation.org/Development"
->wiki.documentfoundation.org/Development</ulink> are also a good
+>https://wiki.documentfoundation.org/Development</ulink> are also a good
 example.</para>
 
 <para>If the project has a written Code of Conduct (see <xref
@@ -887,7 +887,7 @@ quick improvements on the spur of the moment<footnote><para>Don't
 worry too much about choosing the right format the first time.  If you
 change your mind later, you can always do an automated conversion
 using <ulink url="http://johnmacfarlane.net/pandoc/"
->Pandoc</ulink>.</para></footnote>.  This is not only to remove any
+>http://johnmacfarlane.net/pandoc/</ulink>.</para></footnote>.  This is not only to remove any
 overhead that might impede the original writers from making
 incremental improvements, but also for those who join the project
 later and want to work on the documentation.</para>
@@ -1042,7 +1042,7 @@ developer documentation tells them how to get along with the code
 itself.  The two are often packaged together in one document for
 convenience (as with the <ulink
 url="http://subversion.apache.org/docs/community-guide/"
->subversion.apache.org/docs/community-guide</ulink> example given
+>http://subversion.apache.org/docs/community-guide/</ulink> example given
 earlier), but they don't have to be.</para>
 
 <para>Although developer documentation can be very helpful, there's no
@@ -1076,7 +1076,7 @@ more.</para>
 
 <para>If the infrastructure aspects of documentation workflow seem
 daunting, consider using <ulink url="https://readthedocs.org/"
->readthedocs.org</ulink>.  Many projects now depend on it to automate
+>https://readthedocs.org/</ulink>.  Many projects now depend on it to automate
 the process of presenting their documentation online.  The site takes
 care of format conversion, integration with the project's version
 control repository (so that documentation rebuilds happen
@@ -1183,10 +1183,10 @@ where the open source development activity can be
 found.<footnote><para>As of August 2013, a good example of a project
 with separate but cross-linked primary and developer sites is the
 Ozone Widget Framework: compare their main user-facing site at <ulink
-url="http://www.ozoneplatform.org/" >ozoneplatform.org</ulink> with
+url="http://www.ozoneplatform.org/" >http://www.ozoneplatform.org/</ulink> with
 their development area at <ulink
 url="https://github.com/ozoneplatform/owf"
->github.com/ozoneplatform/owf</ulink>.</para></footnote></para>
+>https://github.com/ozoneplatform/owf</ulink>.</para></footnote></para>
 
 <para>In the past, many projects set up the developer site and
 infrastructure themselves.  Over the last decade or so, however, most
@@ -1194,7 +1194,7 @@ open source projects&nbsp;&mdash;&nbsp;and almost all the new
 ones&nbsp;&mdash;&nbsp;just use one of the "canned hosting" sites that
 have sprung up to offer these services for free to open source
 projects.  By far the most popular such site, as of this writing in
-mid-2013, is <ulink url="https://github.com/" >GitHub.com</ulink>, and
+mid-2013, is <ulink url="https://github.com/" >https://github.com/</ulink>, and
 if you don't have a strong preference about where to host, you should
 probably just choose GitHub; many developers are already familiar with
 it and have personal accounts there.  <xref
@@ -1230,10 +1230,10 @@ with other software.</para>
   the Free Software Foundation as offering the "four freedoms"
   necessary for free software (see <ulink
   url="https://www.gnu.org/philosophy/free-sw.html"
-  >gnu.org/philosophy/free-sw.html</ulink>), while the latter term refers
+  >https://www.gnu.org/philosophy/free-sw.html</ulink>), while the latter term refers
   to licenses approved by the Open Source Initiative as meeting the
   Open Source Definition (<ulink url="https://opensource.org/osd"
-  >opensource.org/osd</ulink>).  However, if you read the FSF's
+  >https://opensource.org/osd</ulink>).  However, if you read the FSF's
   definition of free software, and the OSI's definition of open source
   software, it becomes obvious that the two definitions delineate the
   same freedoms&nbsp;&mdash;&nbsp;not surprisingly, as <xref
@@ -1284,7 +1284,7 @@ code comes with no warranty.  See
 <para>If you don't want your code to be used in proprietary programs,
 use the GNU General Public License, version 3 (<ulink
 url="https://www.gnu.org/licenses/gpl.html"
->gnu.org/licenses/gpl.html</ulink>).  The GPL is probably the most
+>https://www.gnu.org/licenses/gpl.html</ulink>).  The GPL is probably the most
 widely recognized free software license in the world today.  This is
 in itself a big advantage, since many potential users and contributors
 will already be familiar with it, and therefore won't have to spend
@@ -1429,7 +1429,7 @@ them <emphasis>feel</emphasis> like they're all working together in
 the same room.  The more they feel this way, the more time they'll
 want to spend on the project.  I chose these particular examples
 because they came up in the Subversion project (<ulink
-url="http://subversion.apache.org/" >subversion.apache.org</ulink>),
+url="http://subversion.apache.org/" >http://subversion.apache.org/</ulink>),
 which I participated in and observed from its very beginning.  But
 they're not unique to Subversion; situations like these will come up
 in most open source projects, and should be seen as opportunities to
@@ -1656,7 +1656,7 @@ responsibility.</para>
 <para>An Internet search will easily find many examples of codes of
 conduct for open source projects.  The most popular one is probably
 the one at <ulink url="https://contributor-covenant.org/"
->contributor-covenant.org</ulink>, so naturally there's a positive
+>https://contributor-covenant.org/</ulink>, so naturally there's a positive
 feedback dynamic if you choose that one: more developers will be
 already familiar with it, plus you get its translations into other
 languages for free, etc.</para>
@@ -1686,7 +1686,7 @@ violation of the proposed code of conduct.  Sometimes people confuse
 these two things, and need to be reminded of the
 distinction.<footnote><para>There's an excellent post entitled <ulink
 url="https://subfictional.com/2016/01/25/the-complex-reality-of-adopting-a-meaningful-code-of-conduct/"
->"The complex reality of adopting a meaningful code of conduct"</ulink> 
+>https://subfictional.com/2016/01/25/the-complex-reality-of-adopting-a-meaningful-code-of-conduct/</ulink> 
 by Christie Koehler, discussing this in much more
 depth.</para></footnote></para>
 
@@ -1822,7 +1822,7 @@ longer a project is run in a closed source manner, the harder it is to
 open source later.<footnote><para>This section started out as a blog
 post, <ulink
 url="http://archive.civiccommons.org/2011/01/be-open-from-day-one/index.html"
->"Be Open from Day One, not Day N."</ulink>, though
+>http://archive.civiccommons.org/2011/01/be-open-from-day-one/index.html</ulink>, though
 it's been edited a lot for inclusion here.</para>
 </footnote></para>
 
@@ -1853,7 +1853,7 @@ testers, or finishing that feature the customer just added to the
 spec.  Also, programmers struggling to stay on budget will inevitably
 cut corners here and there (in Ward Cunningham's phrase, they will
 incur "<ulink url="https://en.wikipedia.org/wiki/Technical_debt"
->technical debt</ulink>"), with the intention of cleaning it up
+>https://en.wikipedia.org/wiki/Technical_debt</ulink>"), with the intention of cleaning it up
 later.</para>
 
 <para>Thus, when it's time to open source, you'll suddenly find there
@@ -2086,23 +2086,23 @@ source competitors&nbsp;&mdash;&nbsp;but you don't, because you read
 <xref linkend="look-around"/>, right?)</para>
 
 <para>As of late 2017, the best general forum for announcements is probably <ulink
-url="https://news.ycombinator.com/" >news.ycombinator.com</ulink>.
+url="https://news.ycombinator.com/" >https://news.ycombinator.com/</ulink>.
 While you are welcome to submit your project there, note that it will
 have to successfully climb the word-of-mouth / upvote tree to get
 featured on the front page.  The subreddit forums related to <ulink
 url="https://www.reddit.com/r/opensource/"
->reddit.com/r/opensource</ulink>, <ulink
+>https://www.reddit.com/r/opensource/</ulink>, <ulink
 url="https://www.reddit.com/r/programming/"
->reddit.com/r/programming</ulink>, and <ulink
-url="https://www.reddit.com/r/software/" >reddit.com/r/software</ulink>
+>https://www.reddit.com/r/programming/</ulink>, and <ulink
+url="https://www.reddit.com/r/software/" >https://www.reddit.com/r/software/</ulink>
 work in a similar way.  While it's good news for your project if you
 can get mentioned in a place like that, I hesitate to contribute to
 the marketing arms race by suggesting any concrete steps to accomplish
 this.  Use your judgement and try not to spam.</para>
 
 <para>You might also register your project at <ulink
-url="https://freshcode.club/" >freshcode.club</ulink>, and at <ulink
-url="http://openhub.net/" >openhub.net</ulink>, which is the closest
+url="https://freshcode.club/" >https://freshcode.club/</ulink>, and at <ulink
+url="http://openhub.net/" >http://openhub.net/</ulink>, which is the closest
 thing there is to a global database of free software projects and
 their contributors, though it is somewhat desultorily
 maintained.</para>

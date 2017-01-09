@@ -166,7 +166,7 @@ conventions, you can skip this section.<footnote><para>These
 conventions have been
 formalized, in a more detailed way, as the <citetitle>Semantic
 Versioning</citetitle> standard and are maintained at <ulink
-url="http://semver.org/" >semver.org</ulink>.  The
+url="http://semver.org/" >http://semver.org/</ulink>.  The
 recommendations made there seem to be roughly the same as the first
 strategy documented here, except that Semantic Versioning apparently
 does not include the forward-compatibility requirement for increments
@@ -302,7 +302,7 @@ project, but even if you don't, it's still a good example of the kind
 of information release numbers should convey.  This policy is adapted
 from the numbering system used by the APR project, see
 <ulink url="https://apr.apache.org/versioning.html"
->apr.apache.org/versioning.html</ulink>.</para>
+>https://apr.apache.org/versioning.html</ulink>.</para>
 
 <orderedlist>
 
@@ -419,7 +419,7 @@ indicate big changes, new feature sets, etc.</para>
 Linux kernel project<footnote><para>Though Linux no longer uses it;
 see <ulink
 url="https://en.wikipedia.org/wiki/Linux_kernel#Version_numbering"
->en.wikipedia.org/wiki/Linux_kernel#Version_numbering</ulink>.</para></footnote>
+>https://en.wikipedia.org/wiki/Linux_kernel#Version_numbering</ulink>.</para></footnote>
 among others, is that it offers a way to release
 new functionality for testing without subjecting production users to
 potentially unstable code.  People can see from the numbers that
@@ -938,7 +938,7 @@ is <firstterm>zip</firstterm> format, which compresses
 automatically.  For JavaScript projects, it is customary to ship the
 "minified"<footnote><para>See <ulink
 url="https://en.wikipedia.org/wiki/Minification_%28programming%29"
->en.wikipedia.org/wiki/Minification_%28programming%29</ulink>.</para></footnote>
+>https://en.wikipedia.org/wiki/Minification_%28programming%29</ulink>.</para></footnote>
 versions of the files together with the human-readable source files.</para>
 
 </sect2>
@@ -985,7 +985,7 @@ all-caps files&nbsp;&mdash;&nbsp;README, INSTALL,
 etc&nbsp;&mdash;&nbsp;may of course have ".txt" extensions, or ".md"
 to indicate Markdown (<ulink
 url="https://daringfireball.net/projects/markdown/"
->daringfireball.net/projects/markdown</ulink>) format,
+>https://daringfireball.net/projects/markdown/</ulink>) format,
 etc.</para></footnote></para>
 
 <para>There should also be a <filename>CHANGES</filename> file
@@ -1139,7 +1139,7 @@ Libtool</citetitle> book by Vaughan, Elliston, Tromey, and Taylor.  It
 is published as treeware by New Riders, and its content is also freely
 available online at
 <ulink url="http://sources.redhat.com/autobook/"
->sources.redhat.com/autobook</ulink>.</para>
+>http://sources.redhat.com/autobook/</ulink>.</para>
 
 <para>This is not the only standard, though it is one of the most
 widespread.  Other programming languages often have their own
@@ -1168,7 +1168,7 @@ workspace/project model of the standard Microsoft development
 environments (Developer Studio, Visual Studio, VS.NET, MSVC++, etc.).
 Depending on the nature of your software, it may be possible to offer
 a Unix-like build option on Windows via the Cygwin
-(<ulink url="https://www.cygwin.com/" >cygwin.com</ulink>) environment.
+(<ulink url="https://www.cygwin.com/" >https://www.cygwin.com/</ulink>) environment.
 And of course,
 if you're using a language or programming framework that comes with
 its own build and install conventions&mdash;e.g., Perl or
@@ -1244,7 +1244,7 @@ why.</para>
 insists that modifications to the source release are necessary<footnote><para>
 <ulink
     url="https://en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project#Iceweasel"
-    >en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project#Iceweasel</ulink>
+    >https://en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project#Iceweasel</ulink>
 gives a well-known example of this.</para></footnote>.
 Packagers should be encouraged to bring this up with the project's
 developers and describe their plans.  They may get approval, but
@@ -1296,7 +1296,7 @@ chapter</phrase> for more about paranoia.  The details of creating
 digital signatures and release hashes are beyond the scope of this
 book, but if you're not familiar with them, see <ulink
 url="https://www.apache.org/dev/release-signing.html"
->apache.org/dev/release-signing.html</ulink>, and you might also want
+>https://www.apache.org/dev/release-signing.html</ulink>, and you might also want
 to do an Internet search for these phrases (simultaneously):
 "open&nbsp;source" "digital&nbsp;signature"
 "web&nbsp;of&nbsp;trust".</para>
@@ -1310,7 +1310,7 @@ the regression test suite (see
 manual testing.  Assuming it passes these checks, as well as any other
 release checklist criteria the project may have, each developer then
 digitally signs each container (the .tar.gz file, .zip file, etc) using
-GnuPG (<ulink url="https://www.gnupg.org/" >gnupg.org</ulink>) or some other
+GnuPG (<ulink url="https://www.gnupg.org/" >https://www.gnupg.org/</ulink>) or some other
 program capable of producing OpenPGP-compliant signatures.</para>
 
 <para>In most projects, the developers just use their personal digital
@@ -1632,15 +1632,14 @@ may wish to read Martin Michlmayr's Ph.D. thesis <citetitle>Quality
 Improvement in Volunteer Free and Open Source Software Projects:
 Exploring the Impact of Release Management</citetitle>
 (<ulink url="https://www.cyrius.com/publications/michlmayr-phd.html"
->cyrius.com/publications/michlmayr-phd.html</ulink>).  It is about
+>https://www.cyrius.com/publications/michlmayr-phd.html</ulink>).  It is about
 using time-based release processes, as opposed to feature-based, in
 large free software projects.  See also <ulink
 url="https://www.cyrius.com/publications/michlmayr_hunt_probert-release_management.pdf" 
->Release Management in Free Software Projects: Practices and
-Problems</ulink>, by Martin Michlmayr, Francis Hunt, and David
+>https://www.cyrius.com/publications/michlmayr_hunt_probert-release_management.pdf</ulink>, by Martin Michlmayr, Francis Hunt, and David
 Probert.  Finally, Michlmayr gave a talk at Google on the subject: 
 <ulink url="https://www.youtube.com/watch?v=IKsQsxubuAA"
->Release Management in Large Free Software Projects</ulink>.</para></footnote>.
+>https://www.youtube.com/watch?v=IKsQsxubuAA</ulink>.</para></footnote>.
 By nailing down feature sets early, you reduce
 the complexity of the discussion centered on any individual release,
 and therefore improve predictability.  This also creates a kind of

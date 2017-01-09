@@ -89,7 +89,7 @@ interesting results, in a paper by Karim Lakhani and Robert G. Wolf,
 entitled <citetitle>Why Hackers Do What They Do: Understanding
 Motivation and Effort in Free/Open Source Software
 Projects</citetitle>.  See <ulink url="http://flosshub.org/node/53"
->flosshub.org/node/53</ulink>.</para></footnote>  Of course, in some
+>http://flosshub.org/node/53</ulink>.</para></footnote>  Of course, in some
 cases the answer is that it's their job&nbsp;&mdash;&nbsp;their
 manager asked them to.  But even then, most participants have some
 degree of intrinsic motivation that goes beyond a mere management
@@ -411,7 +411,7 @@ doing that work too, things are probably okay.</para>
   going to take care of a certain task but then does nothing with it.
   As Sumana says<footnote><para>See <ulink
   url="http://opensourcebridge.org/sessions/1132"
-  >opensourcebridge.org/sessions/1132</ulink>.</para></footnote>:
+  >http://opensourcebridge.org/sessions/1132</ulink>.</para></footnote>:
   "Nobody in their right mind would pick up and eat the licked cookie
   or finish the [task]."  If you think you see an instance of cookie
   licking happening in your project, simply pointing it out may be
@@ -474,7 +474,7 @@ from the version control logs and other out-of-band mechanisms like
 mailing list archives, so no information is lost by banning it from
 the source files themselves.<footnote><para>But see the mailing list
 thread entitled <citetitle>"having authors names in .py files"</citetitle>
-at <ulink url="https://groups.google.com/group/sage-devel/browse_thread/thread/e207ce2206f0beee" >groups.google.com/group/sage-devel/browse_thread/thread/e207ce2206f0beee</ulink>
+at <ulink url="https://groups.google.com/group/sage-devel/browse_thread/thread/e207ce2206f0beee" >https://groups.google.com/group/sage-devel/browse_thread/thread/e207ce2206f0beee</ulink>
 for a good counterargument, particularly the post from William Stein.
 The key in that case, I think, is that many of the authors come from a
 culture (the academic mathematics community) where crediting directly
@@ -575,11 +575,10 @@ invented for; save your humans for more interesting things.</para>
 <para>(Another example of using automation to remove a bottleneck for
 the entire team is Subversion's Contribulyzer system, which
 I've already described it in detail in Chapter 21 of the book <ulink
-url="http://shop.oreilly.com/product/9780596518028.do" >Beautiful
-Teams</ulink>.  That chapter, <citetitle>Teams and Tools</citetitle>,
+url="http://shop.oreilly.com/product/9780596518028.do" >http://shop.oreilly.com/product/9780596518028.do</ulink>.  That chapter, <citetitle>Teams and Tools</citetitle>,
 is available online at <ulink
 url="http://red-bean.com/kfogel/beautiful-teams/bt-chapter-21.html"
->red-bean.com/kfogel/beautiful-teams/bt-chapter-21.html</ulink>.)</para>
+>http://red-bean.com/kfogel/beautiful-teams/bt-chapter-21.html</ulink>.)</para>
 
 <sect3 id="automated-testing">
 <title>Automated testing</title>
@@ -629,9 +628,9 @@ contributes to the software's long-term maintainability.</para>
 
   <para>See also
   <ulink url="https://en.wikipedia.org/wiki/Regression_testing"
-  >en.wikipedia.org/wiki/Regression_testing</ulink> and 
+  >https://en.wikipedia.org/wiki/Regression_testing</ulink> and 
   <ulink url="https://en.wikipedia.org/wiki/Unit_testing"
-  >en.wikipedia.org/wiki/Unit_testing</ulink>.</para>
+  >https://en.wikipedia.org/wiki/Unit_testing</ulink>.</para>
 
   </sidebar>
 
@@ -658,7 +657,7 @@ with the results posted publicly; that's another example of a
 worthwhile automation.<footnote><para>Increasingly, project hosting
 sites offer to connect repositories to automated test services.  For
 example, GitHub provides easy integration with Travis-CI (<ulink
-url="https://travis-ci.org/" >travis-ci.org</ulink>), a hosted open
+url="https://travis-ci.org/" >https://travis-ci.org/</ulink>), a hosted open
 source continuous integration service that has become the default
 automated testing mechanism for many projects.  Unless you have a good
 reason to do something different, your project should probably just
@@ -790,7 +789,7 @@ for your project.</para>
 
 <para>The Subversion project's bug reporting instructions, at <ulink
 url="http://subversion.apache.org/reporting-issues.html"
->subversion.apache.org/reporting-issues.html</ulink>, are a fairly
+>http://subversion.apache.org/reporting-issues.html</ulink>, are a fairly
 standard example of the form.  Notice how they include an
 invitation to provide a patch to fix the bug.  This is not because
 such an invitation will lead to a greater patch/report
@@ -1019,11 +1018,11 @@ the patch but no commit, he creates or updates a ticket to point to
 the final version, and to any discussion around it, so that there is a
 permanent record for developers to follow up on later.  In projects
 that use a patch queue manager (e.g., Jeremy Kerr's 
-<ulink url="http://jk.ozlabs.org/projects/patchwork/" >Patchwork</ulink>)
+<ulink url="http://jk.ozlabs.org/projects/patchwork/" >http://jk.ozlabs.org/projects/patchwork/</ulink>)
 or review tools (e.g., <ulink
-url="https://www.gerritcodereview.com/" >Gerrit</ulink>, <ulink
+url="https://www.gerritcodereview.com/" >https://www.gerritcodereview.com/</ulink>, <ulink
 url="https://en.wikipedia.org/wiki/Review_Board"
->Review_Board</ulink>, etc), the patch manager can help encourage
+>https://en.wikipedia.org/wiki/Review_Board</ulink>, etc), the patch manager can help encourage
 consistent usage of that tool, by putting patches there and watching
 to make sure developers handle them there.</para>
 
@@ -1163,7 +1162,7 @@ translation language anyway.</para>
 
   <para>For example, changing your software to losslessly handle
   Unicode (<ulink url="https://en.wikipedia.org/wiki/Unicode"
-  >en.wikipedia.org/wiki/Unicode</ulink>) text
+  >https://en.wikipedia.org/wiki/Unicode</ulink>) text
   encodings is an internationalization move, since it's not about a
   particular language, but rather about accepting text from any of a
   number of languages.  On the other hand, making your software print
@@ -1249,7 +1248,7 @@ proportion&nbsp;&mdash;&nbsp;albeit usually non-linear
 proportion&nbsp;&mdash;&nbsp;to the number of people
 <emphasis>using</emphasis> the software.<footnote><para> See <ulink
 url="http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/"
->rants.org/2010/01/10/bugs-users-and-tech-debt</ulink> for a more
+>http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/</ulink> for a more
 detailed discussion of this.</para></footnote> Therefore, even as you
 fix bugs and ship an increasingly robust, mature program, you should
 still expect the number of open tickets to grow essentially without
@@ -1796,10 +1795,10 @@ many employers now look for it on resum&eacute;s<footnote><para>Brian
 Fitzpatrick has written about the employment value of open source
 activity in <citetitle>The Virtual Referral</citetitle> (<ulink
 url="http://www.onlamp.com/pub/a/onlamp/2005/07/14/osdevelopers.html"
->onlamp.com/pub/a/onlamp/2005/07/14/osdevelopers.html</ulink>) and
+>http://www.onlamp.com/pub/a/onlamp/2005/07/14/osdevelopers.html</ulink>) and
 <citetitle>The Virtual Internship</citetitle> (<ulink
 url="http://www.onlamp.com/pub/a/onlamp/2005/08/01/opensourcedevelopers.html"
->onlamp.com/pub/a/onlamp/2005/08/01/opensourcedevelopers.html</ulink>).</para></footnote>.  There are also
+>http://www.onlamp.com/pub/a/onlamp/2005/08/01/opensourcedevelopers.html</ulink>).</para></footnote>.  There are also
 intangible reasons, perhaps even more powerful: people simply want to
 be appreciated, and instinctively look for signs that their work was
 recognized by others.  The promise of credit is therefore one of best
@@ -1832,7 +1831,7 @@ up an atmosphere in which people know they can count on their
 contributions being acknowledged.  <footnote><para>Eventually this
 crediting system became a bit more formalized, as described in <ulink
 url="http://subversion.apache.org/docs/community-guide/conventions.html#crediting"
->subversion.apache.org/docs/community-guide/conventions.html#crediting</ulink>,
+>http://subversion.apache.org/docs/community-guide/conventions.html#crediting</ulink>,
 thus improving the project's ability to find and encourage long-term
 participants, via a system known as the Contribulyzer.  See <xref
 linkend="automation"/> for more about this
@@ -1930,7 +1929,7 @@ development is done in most projects today.  A developer creates her
 own public copy of the project's master repository, makes some
 changes, then submits the changes back to the project directly from
 the forked copy.<footnote><para>This is the "<ulink
-url="pull-requests" >pull request</ulink>" workflow first popularized
+url="pull-requests" >pull-requests</ulink>" workflow first popularized
 by GitHub.com.  GitHub's decision to use the term "fork" instead of
 "clone" to refer to the personal copies in which development is done
 is largely responsible for the newer, "short fork" sense of
@@ -2098,7 +2097,7 @@ compiler, and also one of the
 most portable compilers in the world.  Due to disagreements between the GCC's
 official maintainers and Cygnus Software,<footnote><para>Now part of
 RedHat (<ulink url="https://www.redhat.com/"
->redhat.com</ulink>).</para></footnote> one
+>https://www.redhat.com/</ulink>).</para></footnote> one
 of GCC's most active developer groups, Cygnus created a fork of GCC
 called <firstterm>EGCS</firstterm>.  The fork was deliberately
 non-adversarial: the EGCS developers did not, at any point, try to
