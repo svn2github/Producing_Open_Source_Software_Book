@@ -199,8 +199,11 @@ appropriate.</para>
 </sect1>
 
 <!-- ======================== SECTION ============================== -->
-<sect1 id="acknowledgments">
-<title>Acknowledgments</title>
+<sect1 id="acknowledgements">
+<title>Acknowledgements</title>
+
+<sect2 id="acknowledgements-1">
+<title>For the first edition (2005)</title>
 
 <para>This book took four times longer to write than I thought it
 would, and for much of that time felt rather like a grand piano
@@ -316,6 +319,564 @@ Likewise for Jim, a true friend and a hacker's hacker, who first
 taught me about free software, much as a bird might teach an airplane
 about flying.</para>
 
+</sect2>
+
+<sect2 id="acknowledgements-2">
+<title>For the second edition (2017)</title>
+
+<para>The acknowledgements for the second edition of this book include
+more people and, undoubtedly, more unintentional omissions.  If your
+name should be here but is not, please accept my apologies (and let me
+know, because we can at least fix the online copy).</para>
+
+<para>Andy Oram of O'Reilly Media once again went above and beyond the
+call of duty as an editor.  He read closely and made many excellent
+recommendations; his expertise both in expository writing in general
+and in open source in particular were apparent in all his comments.  I
+can't think him enough, and the book is much improved for his
+attention.</para>
+
+<para>James Vasile has been my friend and colleague for some years
+now, yet not a week goes in which I don't learn something new from
+him.  Despite having a busy job&nbsp;&mdash;&nbsp;I know firsthand,
+because we're business parters&nbsp;&mdash;&nbsp;and young children at
+home, he unhesitatingly volunteered to read through the manuscript and
+provide feedback.  Money can't buy that, and even if it could, I could
+never afford James.  Thanks, pal.</para>
+
+<para>Cecilia Donnelly is both a wonderful friend and a supremely
+capable Open Source Specialist at the Open Tech Strategies office in
+Chicago.  It's a delight to be working with her, as our clients know
+too, and her clear thinking and sharp observations have influenced
+many parts of this book.</para>
+
+<para>Karen Sandler has been unfailingly supportive, and provided
+thoughtful and patient discussion about many of the topics (and even
+some of the specific examples) in this book.  As with James, I usually
+learn something from Karen when we talk about free software, and when
+we talk about other things too.</para>
+
+<para>Bradley Kuhn's name appears several times in the commit logs for
+this book, because he provided highly expert feedback on multiple
+occasions, in one case practically writing the patch himself.  As I
+wrote in the log message for one of the commits, he is someone "whose
+contributions to free software have been immeasurable and whose
+dedication to our shared cause is a constant inspiration".</para>
+
+<para>Karen and Bradley both work at the Software Freedom Conservancy
+(<ulink url="https://sfconservancy.org/" >https://sfconservancy.org/</ulink>).
+If you like this book and you want to help free software, donating to
+the Conservancy is fine first step.  It's also a fine second
+step.</para>
+
+<para>Ben Reser provided a super-detailed and expert review of Chapter
+6 that improved it tremendously.  Ben, thank you so much.</para>
+
+<para>Michael Bernstein not only provided some detailed feedback
+during the interregnum between the first and second editions, he also
+helped a lot with organizing the Kickstarter campaign that made the
+latter possible.  Thank you, Michael.</para>
+
+<para>Danese Cooper always keeps me on my toes, and in particular
+brought me the message (which I was not at first willing to hear) that
+innersourcing <emphasis>can</emphasis> work as a means of helping
+organizations learn open source practices and eventually produce open
+source software themselves.  Thanks for that, Danese, and much
+else.</para>
+
+<para>Between the two editions, I spent a very educational stretch of
+time working at O'Reilly Media, Code for America / Civic Commons
+(while ensconsed in the Open Plans office in New York City, thanks to
+their very kind offer of desk space), and the New America Foundation
+as Open Internet Tools Project Fellow.  Much of what I learned through
+that work ended up in the book, and in addition to the organizations
+themselves I thank Tim O'Reilly, Jen Pahlka, Andrew McLaughlin, Philip
+Ashlock, Abhi Nemani, Nick Grossman, Chris Holmes, Frank Hebbert, and
+Andrew Hoppin for the ideas and perspectives they shared.</para>
+
+<para>Sumana Harihareswara and Leonard Richardson have given frank and
+helpful commentary about various open source goings-on over the years;
+the book is better for their input, and I am the better for their
+friendship.</para>
+
+<para>Eben Moglen at the Software Freedom Law Center (<ulink
+url="https://softwarefreedom.org/" >softwarefreedom.org</ulink>)
+taught me a lot about how to look at free software as a large-scale
+social and economic phenomenon, and about how companies view free
+software.  He also provided a private working space on a few occasions
+when it really made a difference.  Thank you, Eben.</para>
+
+<para>I do not understand how Dr. David A. Wheeler makes time to
+answer my occasional question when he is in demand from so many other
+people as well, but he does, and his answers are always spot-on and
+authoritative.  Thanks as always, David.</para>
+
+<para>Breena Xie's interest in open source led swiftly to trenchant
+questions about it.  Those questions were helpful to me, in thinking
+through certain topics in the book, but so was her patience on those
+occasions when the book demanded more time than it should have (by
+which I mean "than I said it would").  Thank you, Breena.</para>
+
+<para>Many thanks to Radhir Kothuri and the rest of the HackIllinois
+2017 crew, who provided a very timely motivational boost when they
+proposed doing a print run of the new edition for their event at the
+University of Illinois at Urbana-Champaign, Illinois in February 2017.
+I appreciate the vote of confidence in the book, and hope the
+HackIllinois attendees will be pleased with the results.</para>
+
+<para>The hardest part of these acknowledgements is realizing there
+will never be enough space to do justice to all knowledge people have
+shared in the decade since the first edition came out.  I've been
+working in open source the whole time since then, and have had
+illuminating conversations with many clients, partners, interviewees,
+expert consultants, and fellow travelers; some of them have
+occasionally sent in concrete improvements to the book, too.  I can't
+imagine what this new edition would be without the benefit of that
+collective mind, and will try to list some of those people below.  I'm
+sure the list is incomplete, and I apologize for that.  For what it's
+worth, I used a program to randomize the order, and accepted its first
+output:</para>
+
+<para>
+Nithya Ruff,
+Jenn Brandel,
+Joseph Lorenzo Hall,
+Ben Wyss,
+Kit Plummer,
+Mark Atwood,
+Vivien Deparday,
+Sebastian Benthall,
+Martin Michlmayr,
+Derek Eder,
+Hyrum Wright,
+Stefano Zacchiroli,
+Dan Risacher,
+Stephen Walli,
+Simon Phipps,
+Francis Ghesquiere,
+Sanjay Patil,
+Tony Sebro,
+Matt Doar,
+Deb Nicholson,
+Jon Phillips,
+David Robinson,
+Nathan Toone,
+Alolita Sharma,
+Jim McGowan,
+Florian Effenberger,
+Brian Warner,
+Cathy Deng,
+Allison Randal,
+Ariel Núñez,
+Jeremy Allison,
+Thorsten Behrens,
+Deb Bryant,
+Holly St. Clair,
+Jeff Ubois,
+Dustin Mitchell,
+Dan Schultz,
+Luis Villa,
+Jon Scott,
+Dave Neary,
+Mike Milinkovich,
+Wolf Peuker,
+Paul Holland,
+Keith Casey,
+Christian Spanring,
+Bishwa Pandey,
+Scott Goodwin,
+Vivek Vaidya,
+David Eaves,
+Ed Sokolowski,
+Chris Aniszczyk,
+David Hemphill,
+Emma Jane Hogbin Westby,
+Ben Sheldon,
+Guy Martin,
+Michael Downey,
+Charles-H. Schulz,
+Vitorio Miliano,
+Paul Biondich,
+Richard Fontana,
+Philip Olson,
+Leslie Hawthorn,
+Harlan Yu,
+Gerard Braad,
+Daniel Shahaf,
+Matthew Turk,
+Mike Hostetler,
+Waldo Jaquith,
+Jeffrey Johnson,
+Eitan Adler,
+Mike Linksvayer,
+Smiljana Antonijevic,
+Brian Aker,
+Ben Balter,
+Conan Reis,
+Dave Crossland,
+Nicole Boone,
+Brandon Keepers,
+Leigh Honeywell,
+Tom "spot" Callaway,
+Andy Dearing,
+Scott Clark,
+Tina Coleman,
+William A Rowe Jr.,
+Matthew McCullough,
+Stuart Gill,
+Robert Soden,
+Chris Tucker,
+Noel Hidalgo,
+Mark Galassi,
+Chris DiBona,
+Gerhard Poul,
+Christopher Whitaker,
+James Tauber,
+Justin Kestelyn,
+Nadia Eghbal,
+Mel Chua,
+Tony Wasserman,
+Robert Douglass,
+Simone Dalmasso,
+John O'Nolan,
+Tom Marble,
+Patrick Masson,
+Arfon Smith,
+Forest Gregg,
+and Molly de Blanc.
+</para>
+
+<para>The 2nd edition rewrite was funded through a Kickstarter
+campaign.  The response to that campaign was swift and generous, and
+I'm immensely grateful to all the people who pledged.  I hope they
+will forgive me for taking almost four times longer than expected to
+finish the revisions.  Every backer of the campaign is acknowledged
+below, using the name they provided via Kickstarter.  The list is in
+either ascending or descending order by pledge size, but I'm not going
+to say which, because a little mystery should be retained in these
+matters:</para>
+
+<para>
+Pablo,
+Cameron Colby Thomson,
+Bethany Sumner,
+Michael Lefevre,
+Maxim Novak,
+Adrian Smith,
+Jonathan Corwin,
+Laurie Voss,
+James Williams,
+Chris Knadler,
+Zael,
+Kieran Mathieson,
+Teresa Gonczy,
+Poramate Minsiri,
+j. faceless user,
+Michael,
+Isaac Davis aka Hedron A. Davis,
+James Dearing,
+Kyle Simpson,
+Laura Dragan,
+Hilary Mason,
+Tom Smith,
+Michael Massie,
+Erin Marchak,
+Micke Nordin,
+Xavier Antoviaque,
+Michael Dudley,
+Raisa,
+Paul Booker,
+Jack Moffitt,
+Aaron Shaw,
+maurine stenwick,
+Ivan Habunek,
+G. Carter Stokum,
+Barry Solow,
+mooware,
+Harish Pillay,
+Jim Randall,
+Holger S.,
+Alan Joseph Williams,
+Erik Michaels-Ober,
+David Parker,
+Nick,
+Niko Felger,
+Fred Trotter,
+Dorai Thodla,
+William Theaker,
+Hans Bakker,
+Brad,
+Bastien Guerry,
+Miles Fidelman,
+Grant Landram,
+Michael Rogers,
+mostsignificantbit,
+Olivier Berger,
+Fernando Masanori Ashikaga,
+Naomi Goldenson,
+Brian Fitzpatrick,
+Eric Burns,
+Mark V. Albert,
+micah altman,
+Richard Valencia,
+Cody Bartlett Heisinger,
+Nick Grossman,
+cgoldberg,
+Mike Linksvayer,
+Simon Phipps,
+Yoshinari Takaoka,
+Christian Spanring,
+Ross M Karchner,
+Martin Karlsson,
+Kaia Dekker,
+Nóirín Plunkett,
+Emma Jane,
+Helior Colorado,
+Fred Benenson,
+George V. Reilly,
+Lydia Pintscher,
+Noel Hidalgo,
+Albert White,
+Keng Susumpow,
+Mattias Wingstedt,
+Chris Cornutt,
+Zak Greant,
+Jessy Kate Schingler,
+James Duncan Davidson,
+Chris DiBona,
+Daniel Latorre,
+Jeremiah Lee Cohick,
+Jannis Leidel,
+Chris Streeter,
+Leonard Richardson,
+Terry Suitor,
+Trevor Bramble,
+Bertrand Delacretaz,
+John Sykora,
+Bill Kendrick,
+Emmanuel Seyman,
+Paolo Mottadelli,
+Gabriel Burt,
+Adrian Warman,
+Steve Lee,
+Andrew Nacin,
+Chris Ballance,
+Ben Karel,
+Lance Pollard,
+richardj,
+Brian Land,
+Jonathan Markow,
+Kat Walsh,
+Jason Orendorff,
+Jim Garrison,
+Jared Smith,
+Sander van der Waal,
+Karen Sandler,
+Matt Lee,
+John Morton,
+Frank Warmerdam,
+Michael R. Bernstein,
+John Yuda,
+Jack Repenning,
+Jonathan Sick,
+Naser Sharifi,
+Cornelius Schumacher,
+Yao-Ting Wu,
+Camille Acey,
+Greg Grossmeier,
+Zooko Wilcox-O'Hearn,
+Joe,
+Anne Gentle,
+Mark Jaquith,
+Ted Gould,
+James Schumann,
+Falkvinge,
+Schuyler Erle,
+Gordon Fyodor Lyon,
+Tony Meyer,
+Salvador Torres,
+Dustin J. Mitchell,
+Lindy Klein,
+Dave Stanton,
+Floyd DCosta,
+Agog Labs,
+Adrià Mercader,
+KIMURA Wataru,
+Paul Cooper,
+alexML,
+Stefan Heinz,
+maiki,
+BjornW,
+Matt Soar,
+Mick Thompson,
+mfks,
+Sebastian Bergmann,
+Michael Haggerty,
+Stefan Eggers,
+Veronica Vergara,
+Bradley Kuhn,
+Justin Tallant,
+dietrich ayala,
+Nat Torkington,
+David Jeanmonod,
+Randy Metcalfe,
+Daniel Kahn Gillmor,
+George Chamales,
+Erik Möller,
+Tim Schumacher,
+Koichi  Kimura,
+Vanessa Hurst,
+Daniel Shahaf,
+Stefan Sperling,
+Gunnar Hellekson,
+Denver Gingerich,
+Ian Weller,
+adam820,
+Garance Drosehn,
+Philip Olson,
+Matt Doar,
+Brian Jepson,
+J Aaron Farr,
+Mike Nosal,
+Kevin Hall,
+Eric Sinclair,
+Alex Rudnick,
+Jim Brucker,
+PEI-HAN LEE,
+Michael Novak,
+Anthony Ferrara,
+Dan Scott,
+Russell Nelson,
+Frank Wiles,
+Alex Gaynor,
+Julian Krause,
+termie,
+Joel McGrady,
+Christian Fletcher Smith,
+Mel Chua,
+William Goff,
+Tom Liesenfeld,
+Roland Tanglao,
+Ross Gardler,
+Gervase Markham,
+Ingo Renner,
+Rochelle Lodder,
+Charles Adler,
+Dave Hylands,
+Daryn Nakhuda,
+Francois Marier,
+Kendric Evans,
+Greg Price,
+Carlos Martín Nieto,
+Greg Stein,
+Glen Ivey,
+Jason Ray,
+Ben Ubois,
+Landon Jones,
+Jason Sperber,
+Brian Ford,
+Todd Nienkerk,
+Keith Casey,
+Leigh Honeywell,
+Aaron Jorbin,
+Christoph Hochstrasser,
+Miguel Ponce de Leon,
+Dave Neary,
+Eric Lawrence,
+Dirk Haun,
+Brian Burg,
+Brandon Kraft,
+Praveen Sinha,
+ML Cohen,
+Christie Koehler,
+Ethan Jucovy,
+Lawrence S Kemp,
+Justin Sheehy,
+Jonathan Polirer,
+Ronan Barzic,
+Greg Dunlap,
+Darcy Casselman,
+Jeremy G Kahn,
+Sam Moffatt,
+James Vasile,
+Simon Fondrie-Teitler,
+Mario Peshev,
+Alison Foxall,
+Jim Blandy,
+Brandon Satrom,
+Viktor Ekmark,
+Tor Helmer,
+Jeff Ubois,
+Gabriela Rodriguez,
+James Tait,
+Michael Parker,
+Stacy Uden,
+Peter Martin,
+Amy Stephen,
+James Tauber,
+Cameron Goodale,
+Jessica,
+Ben Sheldon,
+Forest Gregg,
+Ken McAuliffe,
+Marta Rybczynska,
+Sean Taylor,
+John Genego,
+Meeuw,
+Mark MacLennan,
+Kennis Koldewyn,
+Igor Galić,
+Henrik Dahlström,
+Jorren Schauwaert,
+Masahiro Takagi,
+Ben Collins-Sussman,
+Decklin Foster,
+Étienne Savard,
+Fabio Kon,
+Ole-Morten Duesund,
+Michael Downey,
+Jacob Kaplan-Moss,
+Nicola Jordan,
+Ian Sullivan,
+Roger W Turner,
+Justin Erenkrantz,
+Isaac Christoffersen,
+Deborah Bryant,
+Christopher Manning,
+Luis Villa,
+Judicaël Courant,
+Leslie Hawthorn,
+Mark R. Hinkle,
+Danese Cooper,
+Michael Tiemann,
+Robert M. Lefkowitz,
+Todd Larsen,
+T Foote,
+Ben Reser,
+Dave Camp,
+Scott Berkun,
+Garrett Rooney,
+Dinyar Rabady,
+Damien Wyart,
+Seth Schoen,
+Rob Brackett,
+Aisha,
+Winnie Fung,
+Donald A. Lobo,
+Dan Robles,
+Django Software Foundation,
+Mark Atwood,
+Krux Digital,
+Stephen Walli,
+Dave Crossland,
+Tina,
+and Thorsten Behrens.
+</para>
+
+Thank you all.
+
+</sect2>
+
 </sect1>
 
 <!-- ======================== SECTION ============================== -->
@@ -323,10 +884,10 @@ about flying.</para>
 <title>Disclaimer</title>
 
 <para>The thoughts and opinions expressed in this book are my own.
-They do not necessarily represent the views of my clients, past
-employers, the New America Foundation, or the open source projects
-discussed here.  They do, however, represent the views of Jim Blandy.
-Seriously: he agrees with everything in this book.  Ask him.</para>
+They do not necessarily represent the views of clients, past
+employers, partners, or the open source projects discussed herein.
+Any errors that remain despite the efforts of the people mentioned in
+the acknowledgements are my own as well.</para>
 
 </sect1>
 

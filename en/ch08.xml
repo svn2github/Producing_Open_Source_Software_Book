@@ -60,7 +60,7 @@ applies to other behaviors that might seem, on their face, like "pure"
 politics.  In fact, there is no such thing as pure politics: it is
 precisely because actions have multiple real-world consequences that
 people become politically conscious in the first place.  Politics is,
-in the end, simply an acknowledgment that <emphasis>all</emphasis>
+in the end, simply an acknowledgement that <emphasis>all</emphasis>
 consequences of decisions must be taken into account.  If a particular
 decision leads to a result that most participants find technically
 satisfying, but involves a change in power relationships that leaves
@@ -1773,7 +1773,7 @@ access is obvious and well defined, it is proper for the list to make
 that distinction too.  Beyond that, the list should not try to
 indicate the informal distinctions that inevitably arise in a project,
 such as who is particularly influential and how.  It is a public
-record, not an acknowledgments file.  List committers either in
+record, not an acknowledgements file.  List committers either in
 alphabetical order, or in the order in which they arrived.</para>
 
 </sect2>
@@ -1838,7 +1838,7 @@ participants, via a system known as the Contribulyzer.  See <xref
 linkend="automation"/> for more about this
 example.</para></footnote></para>
 
-<para>It is important to distinguish between routine acknowledgment
+<para>It is important to distinguish between routine acknowledgement
 and special thanks.  When discussing a particular piece of code, or
 some other contribution someone made, it is fine to acknowledge their
 work.  For example, saying "Daniel's recent changes to the delta code
