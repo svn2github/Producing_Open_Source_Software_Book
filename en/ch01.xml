@@ -194,9 +194,10 @@ It's like having the benefits of attending a conference, but while
 still getting daily work done and without incurring travel
 expenses.<footnote><para>Of course, it's still a good idea for them to
 attend real conferences once in a while too; see <xref
-linkend="meeting-in-person"/>.</para></footnote> In a successful open
-source project, these benefits, once they start arriving, greatly
-outweigh the costs.</para>
+linkend="meeting-in-person"/><phrase condition="treeware"> in <xref
+linkend="managing-participants"/></phrase>.</para></footnote> In a
+successful open source project, these benefits, once they start
+arriving, greatly outweigh the costs.</para>
 
 <para>This book is a practical guide, not an anthropological study or
 a history.  However, a working knowledge of the origins of today's
