@@ -703,9 +703,7 @@ it.</para>
 <title>The GNU Affero GPL: A Version of the GNU GPL for Server-Side Code</title>
 
 <para>In 2007, the Free Software Foundation released a variant of the
-GPL called the <firstterm>GNU Affero GPL</firstterm><footnote><para>
-The history of the license and its name is a bit complicated, and I
-won't go into the details here.</para></footnote>.  Its purpose is to bring
+GPL called the <firstterm>GNU Affero GPL</firstterm>.  Its purpose was to bring
 copyleft-style sharing provisions to the increasing amount of code
 being run as hosted services&nbsp;&mdash;&nbsp;that is, software that
 runs "in the cloud" on remote servers, that users interact with only
