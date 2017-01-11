@@ -2041,8 +2041,15 @@ guidelines:</para>
 
 <orderedlist>
   <listitem><para>Don't talk about the bug publicly until a fix is
-            available; then supply the fix (packaged as a release) at
-            exactly the same moment you announce the bug.</para> 
+            available; then supply the fix at the same time you
+            announce the bug.</para>
+
+            <para>It may make sense to supply the fix by packaging it
+            as a release, or it may be enough to just commit it to the
+            project's public repository.  Whichever of those you you
+            do, doing it effectively announces the vulnerability, so
+            your formal announcement should go out in tandem with that
+            fix.</para>
   </listitem>
   <listitem><para>Come up with that fix as fast as you
             can&nbsp;&mdash;&nbsp;especially if someone outside the project
@@ -2289,6 +2296,34 @@ security engineer at RedHat.</para>
 
 </sect3>
 
+<sect3 id="security-cvss">
+<title>Common Vulnerability Scoring System (CVSS) Scores</title>
+
+<para>Describing the severity of a vulnerability accurately is
+actually a difficult task.  Does the vulnerability require physical
+access to the computer, or is network access enough?  Does it require
+an authenticated user or not?  Is it technically difficult to exploit,
+or can any bored teenager with some coding skills run it?  Does it
+affect data integrity?  Does it cause the software to crash?</para>
+
+<para>Therefore, don't try to improvise language for expressing
+severity.  Instead, use the <firstterm>Common Vulnerability Scoring
+System</firstterm> (<firstterm>CVSS</firstterm>) developed by the
+National Vulnerability Database at the U.S. National Institute of
+Standards:</para>
+
+<para><ulink url="https://nvd.nist.gov/cvss.cfm"
+>https://nvd.nist.gov/cvss.cfm</ulink></para>
+
+<para>NVD has thought very carefully about how to accurately and
+completely characterize severity for digital vulnerabilities, and
+their standardized expression format has become a standard in computer
+security.  You can see an example in the "Severity:" section of the
+sample pre-notification email in <xref
+linkend="security-prenotification"/> below.</para>
+
+</sect3>
+
 <sect3 id="security-prenotification">
 <title>Pre-Notification</title>
 
@@ -2301,28 +2336,33 @@ distribute it.</para>
 announce it to the world, you effectively force everyone using your
 software to upgrade immediately or risk being hacked.  It is sometimes
 appropriate, therefore, to do <firstterm>pre-notification</firstterm>
-for certain important users.  This is particularly true with
-client/server software, where there may be well-known services using
-your software and who are tempting targets for attackers.  Those
-service's administrators would appreciate having an extra day or two
-to do the upgrade, so that they are already protected by the time the
-exploit becomes public knowledge.</para>
+for certain important users.</para>
 
-<para>Pre-notification simply means sending mails to those
-administrators before the go-public date, telling them of the
-vulnerability and how to fix it.  You should send pre-notification
-only to people you trust to be discreet with the information, and with
-whom you can communicate securely.  That is, the qualification for
-receiving pre-notification is threefold: the recipient must run a
-large, important service where a compromise would be a serious matter;
-the recipient must be known to be someone who won't blab about the
-security problem before the go-public date; and you must have a way
-(such as via GnuPG-encrypted (<ulink url="https://gnupg.org/" >https://gnupg.org/</ulink>)
-email) to communicate securely with the recipient, so that any
-eavesdroppers between you and your recipient can't read the
+<para>Pre-notification is somewhat controversial, because it
+privileges some users over others.  I personally think there are some
+circumstances where it is the right choice, particularly when there
+are well-known online services that use the software and that are
+tempting targets for attackers (perhaps because those services hold a
+lot of commercial or personal data about users).  Those service's
+administrators would appreciate having an extra day or two to do the
+upgrade, so that they are already protected by the time the exploit
+becomes public knowledge&nbsp;&mdash;&nbsp;and their users, if they
+knew about this at all, would appreciate this too.</para>
+
+<para>Pre-notification simply means contacting those administrators
+privately before the go-public date, telling them of the vulnerability
+and how to fix it.  You should send pre-notification only to people
+you trust to be discreet with the information, and with whom you can
+communicate securely.  That is, the qualification for receiving
+pre-notification is threefold: the recipient must run a large,
+important service where a compromise would be a serious matter; the
+recipient must be known to be someone who won't blab about the
+security problem before the go-public date; and you must have a way to
+communicate securely with the recipient, so that any eavesdroppers
+between you and your recipient can't read the
 message.<footnote><para>Remember that Subject lines in emails aren't
 encrypted, so don't put too much information about the vulnerability
-in the Subject line.</para></footnote></para>
+in a Subject line.</para></footnote></para>
 
 <para>Pre-notification should be done via secure means.  If email,
 then encrypt it, for the same reasons explained in <xref
@@ -2363,7 +2403,7 @@ made public on May 19th.
 References:
 ===========
 
-   CVE-2015-892346: Scanley stack overflow in queries
+   CVE-2017-892346: Scanley stack overflow in queries
 
 Vulnerability:
 ==============
@@ -2374,7 +2414,11 @@ Vulnerability:
 Severity:
 =========
 
-   Very severe; can involve arbitrary code execution on the server.
+   CVSSv2 Base Score: 9.0
+   CVSSv2 Base Vector: AV:N/AC:L/Au:N/C:C/I:C/A:C
+
+   (See https://nvd.nist.gov/CVSS/Vector-v2.aspx for how to 
+   interpret these expressions.)
 
 Workarounds:
 ============
@@ -2434,14 +2478,10 @@ project's reputation, you may certainly set the tone and prominence of
 a security announcement to match the actual severity of the problem.
 If the security hole is just a minor information exposure, not an
 exploit that allows the user's entire computer to be taken over, then
-it may not warrant a lot of fuss.  You may even decide not to distract
-the <literal>announce</literal> list with it.  After all, if the
-project cries wolf every time, users might end up thinking the
-software is less secure than it actually is, and also might not
-believe you when you have a really big problem to announce.  See
-<ulink url="https://cve.mitre.org/about/terminology.html"
->https://cve.mitre.org/about/terminology.html</ulink> for a good introduction
-to the problem of judging and describing severity.</para>
+it may not warrant a lot of fuss.  See <ulink
+url="https://cve.mitre.org/about/terminology.html"
+>https://cve.mitre.org/about/terminology.html</ulink> for a good
+introduction to how to think about and discuss vulnerabilities.</para>
 
 <para>In general, if you're unsure how to treat a security problem,
 find someone with experience and talk to them about it.  Assessing and
