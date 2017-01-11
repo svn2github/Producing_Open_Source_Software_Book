@@ -28,7 +28,19 @@
   <editor><firstname>Andy</firstname><surname>Oram</surname></editor>
   <pagenums>272 pages</pagenums>
   <!-- <pubdate>2005</pubdate> -->
-  <copyright><year>2005-2017</year><holder>Karl Fogel, under the <ulink url="http://creativecommons.org/licenses/by-sa/4.0/" >CreativeCommons Attribution-ShareAlike (4.0) license</ulink>.</holder></copyright>
+  <copyright><year>2005-2017</year><holder>Karl Fogel, under the <ulink url="http://creativecommons.org/licenses/by-sa/4.0/" >CreativeCommons Attribution-ShareAlike (4.0) license</ulink>.
+  <!-- This is an egregious kluge.  Since I don't know how to reference 
+       the text from <edition> element above and have it show up in
+       the right place in all the output formats, I just crowbar a
+       redundant version into the copyright section here.  At least
+       it'll show up that way.  It looks good in HTML and PDF; build
+       problems with EPUB are preventing me from checking that, but
+       based on an old EPUB I think it should be fine there too.  
+
+       So basically, as long as you have no morals nor sense of taste,
+       this solution is just fine. -->
+  <literallayout>Version: 2.0</literallayout>
+</holder></copyright>
 </bookinfo>
 
 <!-- External entity refs -->
