@@ -79,6 +79,7 @@ dd {
   font-size: 110%;
   font-style: italic;
   font-weight: bold;
+  line-height: 1.3;
   color: #DEDEDE;
   text-align: center;
 }
