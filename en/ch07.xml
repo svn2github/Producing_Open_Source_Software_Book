@@ -118,9 +118,10 @@ will now behave in unexpected ways.</para>
 
 <para>The purpose of release numbering, therefore, is twofold:
 obviously the numbers should unambiguously communicate the ordering of
-releases (i.e., by looking at any two releases' numbers, one can know
-which came later), but also they should indicate as compactly as
-possible the degree and nature of the changes in the release.</para>
+releases within a given series (i.e., by looking at the numbers of any
+two releases in the same series, one can know which came later), but
+also they should indicate as compactly as possible the degree and
+nature of the changes in each release.</para>
 
 <sidebar id="release-numbering-vs-release-ids" >
 <title>Some Projects Just Need Release Identifiers, Not Release
@@ -162,15 +163,7 @@ will thank you.</para>
 <para>This section describes the usual conventions of release
 numbering in detail, and assumes very little prior knowledge.  It is
 intended mainly as a reference.  If you're already familiar with these
-conventions, you can skip this section.<footnote><para>These
-conventions have been
-formalized, in a more detailed way, as the <citetitle>Semantic
-Versioning</citetitle> standard and are maintained at <ulink
-url="http://semver.org/" >http://semver.org/</ulink>.  The
-recommendations made there seem to be roughly the same as the first
-strategy documented here, except that Semantic Versioning apparently
-does not include the forward-compatibility requirement for increments
-in the micro (patch) number.</para></footnote></para>
+conventions, you can skip this section.</para>
 
 <para>Release numbers are groups of digits separated by dots:</para>
 
@@ -289,20 +282,25 @@ two sections discuss some of the most widely used conventions.</para>
 </sect2>
 
 <!-- ========================== subsection =========================== -->
-<sect2 id="release-number-simple-strategy">
-<title>The Simple Strategy</title>
+<sect2 id="semantic-versioning">
+<!-- For link compatibility with an old ID. -->
+<anchor id="release-number-simple-strategy" />
+
+<title>Semantic Versioning</title>
 
 <para>Most projects have rules about what kinds of changes are allowed
 into a release if one is only incrementing the micro number, different
 rules for the minor number, and still different ones for the major
-number.  There is no set standard for these rules yet, but here I will
-describe a policy that has been used successfully by multiple
-projects.  You may want to just adopt this policy in your own
-project, but even if you don't, it's still a good example of the kind
-of information release numbers should convey.  This policy is adapted
-from the numbering system used by the APR project, see
-<ulink url="https://apr.apache.org/versioning.html"
->https://apr.apache.org/versioning.html</ulink>.</para>
+number.  Here I will describe a policy that has been used successfully
+by multiple projects.  You may want to just adopt this policy in your
+own project, but even if you don't, it's still a good example of the
+kind of information release numbers should convey.  This policy is now
+formalized as <firstterm>Semantic Versioning</firstterm> at <ulink
+url="http://semver.org/"
+>http://semver.org/</ulink>.<footnote><para>Except that the semver.org
+standard apparently does not include the forward-compatibility
+requirement for increments in the micro (patch)
+number.</para></footnote></para>
 
 <orderedlist>
 
