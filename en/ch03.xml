@@ -970,9 +970,10 @@ headers are added to each post by the mailing list management software
 itself, some users may be counting on their presence:</para>
 
 <screen>
-list-help: &lt;mailto:discuss-help@lists.example.org&gt;
-list-unsubscribe: &lt;mailto:discuss-unsubscribe@lists.example.org&gt;
-list-post: &lt;mailto:discuss@lists.example.org&gt;
+List-Help: &lt;mailto:discuss-help@lists.example.org&gt;
+List-Unsubscribe: &lt;mailto:discuss-unsubscribe@lists.example.org&gt;
+List-Post: &lt;mailto:discuss@lists.example.org&gt;
+List-Id: &lt;discuss.lists.example.org&gt;
 Delivered-To: mailing list discuss@lists.example.org
 Mailing-List: contact discuss-help@lists.example.org; run by ezmlm
 </screen>
