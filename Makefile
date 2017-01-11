@@ -54,15 +54,17 @@ clean:
         done
 
 upload: 
-	@for d in ${LANGUAGES}; do                                            \
-	  cd $${d};                                                           \
-          if [ -f producingoss.pdf ]; then                                    \
-            scp producingoss.pdf                                              \
-              kfogel@sp.red-bean.com:/www/producingoss/$${d}/pnew.pdf;        \
-            ssh kfogel@sp.red-bean.com                                        \
-              "(cd /www/producingoss/$${d} && mv pnew.pdf producingoss.pdf)"; \
-          fi;                                                                 \
-          cd ..;                                                              \
+	@for d in ${LANGUAGES}; do                                                      \
+          cd $${d};                                                                     \
+          for ext in pdf epub; do                                                       \
+            if [ -f producingoss.$${ext} ]; then                                        \
+              scp producingoss.$${ext}                                                  \
+                kfogel@sp.red-bean.com:/www/producingoss/$${d}/pnew.$${ext};            \
+              ssh kfogel@sp.red-bean.com                                                \
+                "(cd /www/producingoss/$${d} && mv pnew.$${ext} producingoss.$${ext})"; \
+            fi;                                                                         \
+          done;                                                                         \
+          cd ..;                                                                        \
         done
 
 dist:
