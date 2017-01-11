@@ -1971,8 +1971,8 @@ to arise.  You can save a lot of time and trouble if you are prepared
 for them.</para>
 
 <para>Some of these issues are essentially
-mechanical&nbsp;&mdash;&nbsp;indeed, <ulink url="be-open-from-day-one"
->be-open-from-day-one</ulink> can serve as a checklist of sorts.  For
+mechanical&nbsp;&mdash;&nbsp;indeed, <xref linkend="be-open-from-day-one"/>
+can serve as a checklist of sorts.  For
 example, if your code depends on proprietary libraries that are not
 part of the standard distribution of your target operating system(s),
 you will need to find open source replacements; if there is
