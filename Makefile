@@ -58,10 +58,13 @@ upload:
           cd $${d};                                                                     \
           for ext in pdf epub; do                                                       \
             if [ -f producingoss.$${ext} ]; then                                        \
+              echo "Uploading $${ext} for $${d}...";                                    \
               scp producingoss.$${ext}                                                  \
                 kfogel@sp.red-bean.com:/www/producingoss/$${d}/pnew.$${ext};            \
               ssh kfogel@sp.red-bean.com                                                \
                 "(cd /www/producingoss/$${d} && mv pnew.$${ext} producingoss.$${ext})"; \
+              echo "Done";                                                              \
+              echo "";                                                                  \
             fi;                                                                         \
           done;                                                                         \
           cd ..;                                                                        \
