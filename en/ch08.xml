@@ -704,7 +704,7 @@ participant.  When a user takes the time to post to one of the project's
 mailing lists, or to file a bug report, she has already tagged herself
 as having more potential for involvement than most users (from whom
 the project will never hear at all).  Follow up on that potential: if
-she described a bug, thank her for the report and ask her if he wants
+she described a bug, thank her for the report and ask her if she wants
 to try fixing it.  If she wrote to say that an important question was
 missing from the FAQ, or that the program's documentation was
 deficient in some way, then freely acknowledge the problem (assuming
@@ -1845,7 +1845,7 @@ email address, usually the person who reported or analyzed the bug
 fixed by that commit.  Note that this person is different from the
 developer who actually made the commit, whose name is already recorded
 automatically by the version control system.  As of mid-2005, when I
-last did this calculation, slightly over &frac23; were credited in the
+last did this calculation, slightly over two-thirds were credited in the
 commit logs, usually multiple times, before they became committers
 themselves.  This does not, of course, prove that being credited was a
 factor in their continued involvement, but it surely can't hurt to set
