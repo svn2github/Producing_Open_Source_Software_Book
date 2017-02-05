@@ -1395,7 +1395,7 @@ have access to the requisite hardware resources anyway.</para>
 <para>The assumption that having many users is equivalent to having
 many testers is not entirely baseless.  Certainly there's little point
 assigning testers for basic functionality in common environments: bugs
-there will quickly be found by users in the natural course of things.
+there will quickly be found by early-adopter users in the natural course of things.
 But because users are just trying to get work done, they do not
 consciously set out to explore uncharted edge cases in the program's
 functionality, and are likely to leave certain classes of bugs

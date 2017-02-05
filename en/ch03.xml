@@ -1837,6 +1837,7 @@ For example, a project's bug tracker and its wiki hold plenty of
 editable data, but usually do not store that data in the main version
 control system<footnote><para>Some development environments have tried
 to integrate everything into one unified, version-controlled world, e.g.,
+<ulink url="http://fossil-scm.org/" >http://fossil-scm.org/</ulink> and
 <ulink url="http://veracity-scm.com/" >http://veracity-scm/.com</ulink>, 
 but so far none of them have gained widespread adoption in the open
 source world.</para></footnote>.  However, they should still have

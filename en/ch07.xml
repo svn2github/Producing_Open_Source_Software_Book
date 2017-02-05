@@ -541,7 +541,7 @@ same branch&nbsp;&mdash;&nbsp;for all the micro releases in that line.</para>
 release is covered in <xref linkend="stabilizing-a-release"/><phrase
 condition="treeware"> later in this chapter</phrase>.  Here we are
 concerned just with the high-level version control actions that relate
-tothe release process.  When the release branch is stabilized and
+to the release process.  When the release branch is stabilized and
 ready, it is time to tag a snapshot from the branch (see <xref
 linkend="vc-vocabulary-tag"/><phrase condition="treeware"> in <xref
 linkend="technical-infrastructure"/></phrase>) with a name like, e.g.,
