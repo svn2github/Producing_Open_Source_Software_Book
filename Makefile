@@ -31,12 +31,12 @@ all: version-stamp
 # 'xsltproc  --output ./producingoss.fo ../tools/fo-stylesheet.xsl book.xml'
 # as we currently do (if you trace down into tools/Makefile.base-*
 # you'll see how that happens) is an open question.
-pdf: 
+pdf: version-stamp
 	@for name in ${LANGUAGES}; do                           \
           (cd $${name} && make -f ../lang-makefile pdf)         \
         done
 
-ebook:
+ebook: version-stamp
 	@for name in ${LANGUAGES}; do                    \
           (cd $${name} && make -f ../lang-makefile epub) \
         done
@@ -46,7 +46,7 @@ www: lang-www dist
 	@echo -n "r" > revision.txt.tmp
 	@svnversion -n >> revision.txt.tmp
 	@mv revision.txt.tmp revision.txt
-lang-www:
+lang-www: version-stamp
 	@for name in ${LANGUAGES}; do                \
           cd $${name}; make -f ../lang-makefile www; \
           cd ..;                                     \
@@ -57,6 +57,7 @@ clean:
           cd $${name}; make -f ../lang-makefile clean; \
           cd ..;                                       \
         done
+	@rm en/book.xml
 
 upload: 
 	@for d in ${LANGUAGES}; do                                                      \
@@ -75,7 +76,7 @@ upload:
           cd ..;                                                                        \
         done
 
-dist:
+dist: version-stamp
 	@rm -rf tmp
 	@mkdir tmp
 	@svnversion -n . > tmp/rev
