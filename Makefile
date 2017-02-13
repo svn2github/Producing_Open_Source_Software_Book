@@ -6,12 +6,17 @@ LANGUAGES=en de es fr he ja ml pl pt-pt pt-br ca da fa id ru it gr ar gl hu nl r
 
 default: all
 
+# Process en/book.xml.in to produce en/book.xml with the right version number.
+version-stamp:
+	sed -e "s|__SEE ../aggrevision SCRIPT__|`./aggrevision`|g" \
+           < en/book.xml.in > en/book.xml
+
 .PHONY: ${LANGUAGES}
-${LANGUAGES}: 
+${LANGUAGES}: version-stamp
 	@(cd $@ && make -f ../lang-makefile all-but-pdf)
 	@(cd $@ && make -f ../lang-makefile pdf)
 
-all:
+all: version-stamp
 	@for name in ${LANGUAGES}; do                           \
           (cd $${name} && make -f ../lang-makefile all-but-pdf) \
         done

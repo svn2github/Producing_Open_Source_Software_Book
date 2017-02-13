@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Print the aggregate SVN revision of the book, that is, the highest
+# revnum from among the XML files that make up the book.
+#
+# (We can't just use the stock 'svnversion' script for this, because
+# we don't want a composite revision to result, and because we don't
+# want to use the revisions of any files other than book XML files.)
+
+XML_FILES="book.xml.in `grep '.xml"' en/book.xml | cut -d '"' -f 2`"
+
+REVNUMS=""
+
+for name in ${XML_FILES}; do
+  REVNUMS="`svn info en/${name} | grep 'Last Changed Rev: ' | cut -d ' ' -f 4`\n${REVNUMS}"
+done
+
+echo ${REVNUMS} | awk -F ' ' 'BEGIN {x = 0}; $0 > x {x = $0} END {print x}' -
