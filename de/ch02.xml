@@ -2210,7 +2210,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;
 </screen>
 -->
 <screen> 
-Copyright (C) <Jahr>  <Name des Autors>
+Copyright (C) &lt;Jahr&gt;  &lt;Name des Autors&gt;
 
 Dieses Programm ist Freie Software: Sie können es unter den Bedingungen
 der GNU General Public License, wie von der Free Software Foundation,
@@ -2223,7 +2223,7 @@ Gewährleistung der MARKTFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.
 Siehe die GNU General Public License für weitere Details.
 
 Sie sollten eine Kopie der GNU General Public License zusammen mit diesem
-Programm erhalten haben. Wenn nicht, siehe <http://www.gnu.org/licenses/>.
+Programm erhalten haben. Wenn nicht, siehe &lt;http://www.gnu.org/licenses/&gt;.
 </screen>
 <!--
 <para>It does not say specifically that the copy of the license you
