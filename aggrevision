@@ -9,10 +9,12 @@
 
 XML_FILES="book.xml.in `grep '.xml"' en/book.xml | cut -d '"' -f 2`"
 
-REVNUMS=""
+TMP_FILE=aggrevision-$$.tmp
 
+> ${TMP_FILE}
 for name in ${XML_FILES}; do
-  REVNUMS="`svn info en/${name} | grep 'Last Changed Rev: ' | cut -d ' ' -f 4`\n${REVNUMS}"
+  svn info en/${name} | grep 'Last Changed Rev: ' | cut -d ' ' -f 4 \
+  >> ${TMP_FILE}
 done
 
-echo ${REVNUMS} | awk -F ' ' 'BEGIN {x = 0}; $0 > x {x = $0} END {print x}' -
+sort -nr ${TMP_FILE} | head -1
