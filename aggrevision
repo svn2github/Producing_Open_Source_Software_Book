@@ -18,3 +18,5 @@ for name in ${XML_FILES}; do
 done
 
 sort -nr ${TMP_FILE} | head -1
+
+rm ${TMP_FILE}
