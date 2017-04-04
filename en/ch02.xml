@@ -1944,7 +1944,7 @@ reviewing every patch or suggestion posted, when doing so may cost
 valuable development time; etc.</para>
 
 <para>One way to think of it is: you open source your code, not your
-time.  The latter resource is infinitely replicable; the former is
+time.  The former resource is infinitely replicable; the latter is
 not, and you may protect it however you need to.  You'll have to
 determine the point at which engaging with outside users and
 developers makes sense for your project.  In the long run it usually
