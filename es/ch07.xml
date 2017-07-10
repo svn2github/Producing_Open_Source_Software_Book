@@ -136,46 +136,46 @@ the lo van a agradecer.</para>
 
 <!-- ========================== subsection =========================== -->
 <sect2 id="release-number-components">
-<title>Release Number Components</title>
+<title>Componentes de la numeración de liberación</title>
 
-<para>This section describes the formal conventions of release
-numbering in detail, and assumes very little prior knowledge.  It is
-intended mainly as a reference.  If you're already familiar with these
-conventions, you can skip this section.</para>
+<para>Esta sección describe detalladamente las convensiones formales de la numeración
+de liberación, y asume un poco de conocimiento previo.  Esto es principalemente
+una referencia.  Si ya estas familiarizado con estas convensiones,
+puedes saltarte esta sección.</para>
 
-<para>Release numbers are groups of digits separated by dots:</para>
+<para>Los números de la liberación son grupos de digitos separados por puntos:</para>
 
 <informalexample>
 <literallayout>Scanley 2.3
 Singer 5.11.4</literallayout>
 </informalexample>
 
-<para>...and so on.  The dots are <emphasis>not</emphasis> decimal
-points, they are merely separators; "5.3.9" would be followed by
-"5.3.10".  A few projects have occasionally hinted otherwise, most
-famously the Linux kernel with its "0.95", "0.96"... "0.99" sequence
-leading up to Linux 1.0, but the convention that the dots are not
-decimals is now firmly established and should be considered a
-standard.  There is no limit to the number of components (digit
-portions containing no dots), but most projects do not go beyond three
-or four.  The reasons why will become clear later.</para>
+<para>...etcétera.  Los puntos <emphasis>no son</emphasis> puntos
+decimales, son solo separadores; "5.3.9" sería seguido por
+"5.3.10".  Ocasionalmente algunos proyectos insinuan otro significado, el mas
+famoso es el kernel de Linux con su secuencia "0.95", "0.96"... "0.99"
+que conduce a Linux 1.0, pero la convension de que los puntos no son decimales
+esta firmemente establecida y deberí ser considerada como estándard.
+No hay límite en los componentes de los números (porciones de digitos
+que no contienen puntos), pero la mayoría de los proyectos no van mas allá de tres
+o cuatro.  Las razones de porque se aclararan mas adelante.</para>
 
-<para>In addition to the numeric components, projects sometimes tack
-on a descriptive label such as "Alpha" or "Beta" (see
-<xref linkend="alpha-and-beta"/>), for example:</para>
+<para>Adicionalmente a los componentes numericos, algunas veces los proyectos agregan
+una etiqueta descriptiva como "Alpha" o "Beta" (ver
+<xref linkend="alpha-and-beta"/>), por ejemplo:</para>
 
 <informalexample>
 <literallayout>Scanley 2.3.0 (Alpha)
 Singer 5.11.4 (Beta)</literallayout>
 </informalexample>
 
-<para>An Alpha or Beta qualifier means that this
-release <emphasis>precedes</emphasis> a future release that will have
-the same number without the qualifier.  Thus, "2.3.0&nbsp;(Alpha)"
-leads eventually to "2.3.0".  In order to allow several such candidate
-releases in a row, the qualifiers themselves can have meta-qualifiers.
-For example, here is a series of releases in the order that they would
-be made available to the public:</para>
+<para>Un clasificador como Alpha o Beta signigica que esta
+liberación <emphasis>precede</emphasis> a una liberación futura que va a tener
+el mismo número sin el clasificador.  Así, "2.3.0&nbsp;(Alpha)"
+conduce eventualmente a "2.3.0".  Con el fin de permitir varias
+liberaciones de una sola vez, los clasificadores en si mismos pueden tener meta-clasificadores.
+Por ejemplo, aqui una serie de liberaciones en el orden en el que estaran disponibles
+disponibles al público:</para>
 
 <informalexample>
 <literallayout>Scanley 2.3.0 (Alpha 1)
@@ -186,7 +186,7 @@ Scanley 2.3.0 (Beta 3)
 Scanley 2.3.0</literallayout>
 </informalexample>
 
-<para>Notice that when it has the "Alpha" qualifier, Scanley "2.3" is
+<para>Nota que cuando tiene el clasificador "Alpha", Scanley "2.3" is
 written as "2.3.0".  The two numbers are equivalent&mdash;trailing
 all-zero components can always be dropped for brevity&mdash;but when a
 qualifier is present, brevity is out the window anyway, so one might
