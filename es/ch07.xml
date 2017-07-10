@@ -1,11 +1,11 @@
 ﻿<chapter id="development-cycle">
 
-<title>Packaging, Releasing, and Daily Development</title>
+<title>Empaquetado, Liberación, y Desarrollo diario</title>
 <!-- <title>Empaquetando, sacando versiones y el desarrollo diario</title> -->
 
 <simplesect>
 
-<para>Este capítulo trata sobre el empaquetado de los proyectos Open Source,
+<para>Este capítulo trata sobre el empaquetado de proyectos Open Source,
 de cómo liberan su software, y de cómo los patrones de desarrollo globales
 se organizan en torno a estos fines.</para>
 
@@ -63,18 +63,11 @@ sería desarrolladores perdiendo tiempo &mdash; que sería, no sólo
 ineficiente, sino aburrido, y por tanto peligroso, ya que un desarrollador
 aburrido está cerca de convertirse en un ex-desarrollador.</para>
 
-<para>El trabajo de lanzamiento es la tarea que no es de
-desarrollo más noticiable que ocurre en paralelo con el desarrollo,
-por lo que los métodos descritos en las siguientes secciones están 
-orientados mayormente a permitir los lanzamientos. Sin embargo, nótese
-que también es aplicable a otras tareas paralelizables, como la
-traducción e internacionalización, 
-
-Release work is usually the most noticeable non-development task
-that happens in parallel with development, so the methods described in
-the following sections are geared mostly toward enabling releases.
-However, note that they also apply to other parallelizable tasks, such
-as translations and internationalization, amplios cambios en la API se
+<para>El trabajo de Liberación es usalmente la tarea de no-desarrollo mas perceptible
+que ocurre en paralelo con el desarrollo, por tanto los metodos descritos en las
+siguientes secciones se orientan principalmente a hablilitar las liberaciones.
+Sin embargo, nota que esto tambien aplica a otras tareas paralelizables, tales
+como traducciones e internacionalizaciones, amplios cambios en la API se
 realizan gradualmente en toda la base de código, etc.</para>
 
 </simplesect>
@@ -82,64 +75,64 @@ realizan gradualmente en toda la base de código, etc.</para>
 <!-- ========================== SECTION =========================== -->
 
 <sect1 id="release-numbering">
-<title>Release Numbering</title>
+<title>Numeración de liberación</title>
 
-<para>Before we talk about how to make a release, let's look at how to
-name releases, which requires knowing what releases actually mean to
-users.  A release means that:</para>
+<para>Antes de que hablemos de como hacer una liberación, echemos un vistazo a como
+nombrar el lanzamiento, lo cual requiere saber que significa en realidad Liberación para 
+los usuarios.  Una liberación significa que:</para>
 
 <itemizedlist>
 
-  <listitem><para>Old bugs have been fixed.  This is probably the one
-            thing users can count on being true of every release.</para>
+  <listitem><para>Viejos errores se corregieron. Esto es probablemente la unica
+            cosa con la que pueden contar los usuarios como verdadera en cada liberación.</para>
   </listitem>
 
-  <listitem><para>New bugs have been added.  This too can usually
-            be counted on, except sometimes in the case of security
-            releases or other one-offs (see
-            <xref linkend="security-releases"/><phrase
-            output="printed"> later in this chapter</phrase>).</para>
+  <listitem><para>Nuevos errores se agregaron. Usualemente tambien se puede 
+	    contar con esto, excepto algunas veces en el caso de liberaciones de seguridad
+            u otras de unica vez (ver
+            <xref linkend="liberaciones de seguridad"/><phrase
+            output="printed"> mas adelante en este capítulo</phrase>).</para>
   </listitem>
 
-  <listitem><para>New features may have been added.</para>
+  <listitem><para>Nuevas características pueden haber sido agregadas.</para>
   </listitem>
 
-  <listitem><para>New configuration options may have been added, or
-            the meanings of old options may have changed subtly.  The
-            installation procedures may have changed slightly since
-            the last release too, though one always hopes not.</para>
+  <listitem><para>Nuevas opciones de configuración pueden haber sido agregadas, o
+            el significado de viejas opciones fueron cambiadas sutilmente. Tambien los
+            procedimientos de instalación pueden haber cambiado desde
+            la última liberación, aunque uno siempre espera que no.</para>
   </listitem>
 
-  <listitem><para>Incompatible changes may have been introduced, such
-            that the data formats used by older versions of the
-            software are no longer useable without undergoing some
-            sort of (possibly manual) one-way conversion step.</para>
+  <listitem><para>Cambios incompatibles pueden haber sido introducidos, tal
+            que los formatos de datos usados por viejas versiones de 
+            software ya no se pueden usar sin utilizar algun tipo de 
+            paso de conversión unidireccional (posiblemente manual).</para>
   </listitem>
 
 </itemizedlist>
 
-<para>As you can see, not all of these are good things.  This is why
-experienced users approach new releases with some trepidation,
-especially when the software is mature and was already mostly doing
-what they wanted (or thought they wanted).  Even the arrival of new
-features is a mixed blessing, in that it may mean the software
-will now behave in unexpected ways.</para>
+<para>Como puedes ver, no todo esto son buenas cosas.  Esto es, el porque
+usuarios experimientados abordan nuevas liberaciones con cierto temor,
+especialmente cuando el software es maduro y en su mayoría ya esta haciendo
+lo que ellos quieren (o pensaron que querian).  Incluso la llegada de nuevas
+características es una bendición mixta, en la que puede significar que el software
+ahora se comporta de forma inesperada.</para>
 
-<para>The purpose of release numbering, therefore, is twofold:
-obviously the numbers should unambiguously communicate the ordering of
-releases (i.e., by looking at any two releases' numbers, one can know
-which came later), but also they should indicate as compactly as
-possible the degree and nature of the changes in the release.</para>
+<para>El propósito de numerar la liberación, por lo tanto, es doble:
+obviamente los números deben comunicar sin ambiguedad el orden de las
+liberaciones (p. ej., mirando a dos números de liberación, uno puede saber
+cual vino después), pero también debería indicar lo más compactamente
+posible el grado y naturaleza de los cambios en la liberación.</para>
 
-<para>All that in a number?  Well, more or less, yes.  Release
-numbering strategies are one of the oldest bikeshed discussions around
-(see <xref linkend="bikeshed"/><phrase output="printed"> in
-<xref linkend="communications"/></phrase>), and the world is
-unlikely to settle on a single, complete standard anytime soon.
-However, a few good strategies have emerged, along with one
-universally agreed-on principle: <emphasis>be consistent</emphasis>.
-Pick a numbering scheme, document it, and stick with it.  Your users
-will thank you.</para>
+<para>Todo eso en un número?  Bueno, mas o menos, Si.  Las estrategias
+acerca de la numeración de liberación son de las discusiones mas antiguas
+(ver <xref linkend="bikeshed"/><phrase output="printed"> en
+<xref linkend="communications"/></phrase>), y es improbable que en el
+futuro cercano se establezca un solo estandard en el mundo.
+Sin embargo, han surgido algunas buenas estrategias, junto con un
+principio universalmente aceptado: <emphasis>ser consistente</emphasis>.
+Seleccionar un esquema de numeración, documentarlo, y apegarse a el. Tus usuarios
+the lo van a agradecer.</para>
 
 <!-- ========================== subsection =========================== -->
 <sect2 id="release-number-components">
