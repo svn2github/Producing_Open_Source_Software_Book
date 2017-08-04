@@ -501,9 +501,9 @@ have a level of influence in the community (and familiarity with the
 community's dynamics) that exceeds that of many committers.</para>
 
 <para>If valuable members of your community are being left out of
-important decisions because they happen not be contributing code,
-consider expanding the notion of <emphasis>committer</emphasis> out to
-the larger notion of
+important decisions just because those people happen not to be coders,
+consider expanding the notion of <emphasis>committer</emphasis> to
+something more like
 <firstterm>maintainer</firstterm><footnote><para>Some projects call
 this "member", which is also fine.  There isn't a set term for it.  I
 prefer "maintainer" because it implies responsibility to the project,
