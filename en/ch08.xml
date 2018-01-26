@@ -928,8 +928,8 @@ made a conscious decision to initiate, others just happened by
 themselves.  Here we'll examine these roles, and a couple of others,
 in detail (except for release manager, which was already covered in
 <xref linkend="release-manager"/> and <xref
-linkend="release-owner"/><phrase condition="treeware"> earlier in this
-chapter</phrase>).</para>
+linkend="release-owner"/><phrase condition="treeware"> in
+<xref linkend="development-cycle"/></phrase>).</para>
 
 <sect2 id="manager-is-not-owner">
 <!-- For link compatibility with the ID of a now-removed section. -->

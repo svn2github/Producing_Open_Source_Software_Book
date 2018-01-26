@@ -383,7 +383,8 @@ to a few oft-recurring issues:</para>
               remaining under its original license.  Typically these
               compatibility issues come up between some permissive
               license and the GNU General Public License (or its
-              variant the <xref linkend="license-compatibility">AGPL</xref>).  
+              variant the GNU Affero GPL; see <xref
+              linkend="gnu-affero-gpl">AGPL</xref>).
               This topic is discussed in more detail in
               <xref linkend="license-compatibility"/><phrase
               condition="treeware"> later in this chapter</phrase>.</para> 
@@ -1361,12 +1362,12 @@ source license for any party who makes a patent infringement claim
 based on either the work as a whole<footnote><para>Remember that a
 patent may cover, or "read on" in patent jargon, code that the patent
 owner did not themselves write.  It is thus not necessary for a party
-to have contributed code to an open source in order to claim patent
+to have contributed code to an open source project in order to claim patent
 infringement <emphasis>by</emphasis> that project.</para></footnote>,
 or based on the claimant's code contributions to the project.  But
 though it is useful, both legally and politically, to build patent
 defenses into free software licenses in this way, in the end these
-protections are not be enough to dispel the chilling effect that the
+protections are not enough to dispel the chilling effect that the
 threat of patent lawsuits has on free software.  Only changes in the
 substance or interpretation of international patent law will do
 that.</para>

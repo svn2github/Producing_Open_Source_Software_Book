@@ -34,7 +34,7 @@
   <editor><firstname>Andy</firstname><surname>Oram</surname></editor>
   <pagenums>272 pages</pagenums>
   <!-- <pubdate>2005</pubdate> -->
-  <copyright><year>2005-2017</year><holder>Karl Fogel, under the CreativeCommons Attribution-ShareAlike (4.0) license.
+  <copyright><year>2005-2018</year><holder>Karl Fogel, under the CreativeCommons Attribution-ShareAlike (4.0) license.
   <!-- This is an egregious kluge.  Since I don't know how to reference 
        the text from <edition> element above and have it show up in
        the right place in all the output formats, I just crowbar a

@@ -2036,7 +2036,7 @@ bug's existence (there are potential attackers who watch the commit
 logs of public projects, systematically looking for changes that
 indicate security problems in the pre-change code).  Most open source
 projects have settled on approximately the same set of steps to handle
-this conflict between openness and secrecy, based on the these basic
+this conflict between openness and secrecy, based on these basic
 guidelines:</para>
 
 <orderedlist>
