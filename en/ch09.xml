@@ -382,9 +382,10 @@ to a few oft-recurring issues:</para>
               conditions), with the original code in each case
               remaining under its original license.  Typically these
               compatibility issues come up between some permissive
-              license and the GNU General Public License (or its
-              variant the GNU Affero GPL; see <xref
-              linkend="gnu-affero-gpl">AGPL</xref>).
+              license and the GNU General Public
+              License<footnote><para>Or its variant, the GNU Affero
+              GPL (see <xref
+              linkend="gnu-affero-gpl">AGPL</xref>).</para></footnote>.
               This topic is discussed in more detail in
               <xref linkend="license-compatibility"/><phrase
               condition="treeware"> later in this chapter</phrase>.</para> 
