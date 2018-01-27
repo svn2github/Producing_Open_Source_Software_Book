@@ -1961,7 +1961,8 @@ on a routine basis as part of daily development, and have no negative
 effect on the social cohesiveness of the project.  They are really
 just an extension of the concept of development branches.</para>
 
-<para>Social forks are much less common, and are much more significant
+<para>Social forks (also sometimes called <firstterm>hard
+forks</firstterm>) are much less common, and are much more significant
 when they happen.  A social fork is when a group of developers is
 unhappy with the direction of the project and decides to create a
 divergent version more in line with their own vision.  Of course, one
