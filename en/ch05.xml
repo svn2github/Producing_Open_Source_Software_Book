@@ -21,7 +21,7 @@ and for executives making strategic decisions.</para>
 <para>This chapter is <emphasis>not</emphasis> primarily about how to
 find funding sources for your open source project, though I hope it
 will usefully inform that topic.  There are many different ways open
-source projects are funded <footnote><para>See <ulink
+source projects are funded<footnote><para>See <ulink
 url="https://en.wikipedia.org/wiki/Business_models_for_open-source_software"
 >https://en.wikipedia.org/wiki/Business_models_for_open-source_software</ulink>
 for an incomplete list.</para></footnote>, just as there are many ways
@@ -83,8 +83,8 @@ less agree on what "productively" means.</para>
 development communities.  Having paid developers mean that bug reports
 are more likely to be listened to, that needed work is more likely to
 get done, and that the project will be less vulnerable to the Forces
-of Chaos (e.g., a key founding developer suddenly losing interest)
-lurking at the edges of every collaborative endeavor.  One key dynamic
+of Chaos (e.g., a key developer suddenly losing interest) lurking
+at the edges of every collaborative endeavor.  One important dynamic
 is that credibility is contagious, to a point.  When, for example,
 Google backs an open source project, people assume the project will
 have the chance to succeed or fail on its long-term merits, while
