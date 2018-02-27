@@ -730,10 +730,12 @@ will not be unduly alarmed by the low absolute number of bugs
 recorded.<footnote><para>For a more thorough argument that bug reports
 should be treated as good news, see <ulink
 url="http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/"
->http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/</ulink>, an article I
-wrote in 2010 about how bug reports do <emphasis>not</emphasis>
-represent "<ulink url="https://en.wikipedia.org/wiki/Technical_debt"
->https://en.wikipedia.org/wiki/Technical_debt</ulink>" but rather user engagement.</para></footnote></para>
+>http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/</ulink>,
+which is about how the accumulation of bug reports does
+<emphasis>not</emphasis> represent technical debt (in the sense of
+<ulink url="https://en.wikipedia.org/wiki/Technical_debt"
+>https://en.wikipedia.org/wiki/Technical_debt</ulink>) but rather
+user engagement.</para></footnote></para>
 
 <para>Note that bug trackers are often used to track not only software
 bugs, but enhancement requests, documentation changes, pending tasks,
@@ -1127,10 +1129,17 @@ one can get it to run.</para>
   limit does not apply to tutorials or other instructional material,
   of course; it's just for introductory videos.</para>
   <para>In case you don't already have preferred software for
-  recording desktop interaction videos: I've had good luck with
-  <filename>gtk-recordmydesktop</filename> on Debian GNU/Linux, and
-  then the <filename>OpenShot</filename> video editor for post-capture
-  editing.</para>
+  recording desktop interaction videos: If you use the GNOME 3 desktop
+  manager, you can use its built-in screen recording capability (see
+  <ulink
+  url="https://help.gnome.org/users/gnome-help/stable/screen-shot-record.html.en#screencast"
+  >https://help.gnome.org/users/gnome-help/stable/screen-shot-record.html.en#screencast</ulink>&nbsp;&mdash;&nbsp;essentially,
+  do
+  <keycap>Ctl</keycap>+<keycap>Alt</keycap>+<keycap>Shift</keycap>+<keycap>R</keycap>
+  to start recording, and then do
+  <keycap>Ctl</keycap>+<keycap>Alt</keycap>+<keycap>Shift</keycap>+<keycap>R</keycap>
+  again to stop).  There are many open source video editors; <filename>OpenShot</filename>
+  has been fine for post-capture editing in my experience.</para>
 </sidebar>
   
 </sect2>
@@ -1180,15 +1189,15 @@ infrastructure themselves.  Over the last decade or so, however, most
 open source projects&nbsp;&mdash;&nbsp;and almost all the new
 ones&nbsp;&mdash;&nbsp;just use one of the "canned hosting" sites that
 have sprung up to offer these services for free to open source
-projects.  By far the most popular such site, as of this writing in
-mid-2013, is GitHub (<ulink url="https://github.com/" >https://github.com/</ulink>), and
+projects.  By far the most popular such site, as of early 2018,
+is GitHub (<ulink url="https://github.com/" >https://github.com/</ulink>), and
 if you don't have a strong preference about where to host, you should
-probably just choose GitHub; many developers are already familiar with
-it and have personal accounts there.  <xref
+probably just choose GitHub; Many developers are already familiar with
+it and have personal accounts there.  See <xref
 linkend="canned-hosting"/><phrase condition="treeware"> in <xref
-linkend="technical-infrastructure"/></phrase> has a more detailed
+linkend="technical-infrastructure"/></phrase> for a more detailed
 discussion of the questions to consider when choosing a canned hosting
-site, and an overview of the most popular ones.</para>
+site and for an overview of the most popular ones.</para>
 
 </sect2>
 
@@ -1838,10 +1847,11 @@ them that way.  It's very difficult to give a future event the same
 present-day weight as, say, fixing the incoming bugs reported by the
 testers, or finishing that feature the customer just added to the
 spec.  Also, programmers struggling to stay on budget will inevitably
-cut corners here and there (in Ward Cunningham's phrase, they will
-incur "<ulink url="https://en.wikipedia.org/wiki/Technical_debt"
->https://en.wikipedia.org/wiki/Technical_debt</ulink>"), with the intention of cleaning it up
-later.</para>
+cut corners here and there.  In Ward Cunningham's phrase, they will
+incur "technical debt" (<ulink
+url="https://en.wikipedia.org/wiki/Technical_debt"
+>https://en.wikipedia.org/wiki/Technical_debt</ulink>), with the
+intention of paying back that debt later.</para>
 
 <para>Thus, when it's time to open source, you'll suddenly find there
 are things like:</para>
