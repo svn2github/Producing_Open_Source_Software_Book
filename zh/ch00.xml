@@ -1,6 +1,6 @@
 <preface id="preface">
 <title>前言</title>
-  
+
 <!-- ======================== SECTION ============================== -->
 <sect1 id="why">
 <title>为什么写这本书？</title>
@@ -44,9 +44,9 @@
   </listitem>
   <listitem><para>Concurrent Versions System (CVS)版本控制系统是我在1994&ndash;1995期间与Jim Blandy全力投入的一个项目，此后，我只是断断续续地参与这个项目的工作。</para>
   </listitem>
-  <listitem><para>Apache软件基金会（Apache Software Foundation）的开源软件项目集，尤其是Apache可移植运行库（Apache Portable Runtime (APR)和Apache HTTP服务器。</para> 
+  <listitem><para>Apache软件基金会（Apache Software Foundation）的开源软件项目集，尤其是Apache可移植运行库（Apache Portable Runtime (APR)和Apache HTTP服务器。</para>
   </listitem>
-  <listitem><para>OpenOffice.org 办公软件项目，Sleepycat软件公司的Berkeley Database项目，以及MySQL数据库项目；我个人并未参与这些项目的开发，但曾经对其进行关注，并在一些案例中与其开发人员进行过交谈。</para> 
+  <listitem><para>OpenOffice.org 办公软件项目，Sleepycat软件公司的Berkeley Database项目，以及MySQL数据库项目；我个人并未参与这些项目的开发，但曾经对其进行关注，并在一些案例中与其开发人员进行过交谈。</para>
   </listitem>
   <listitem><para>GNU Debugger(GDB)项目（同上）。</para>
   </listitem>
@@ -62,11 +62,14 @@
 <sect1 id="acknowledgments">
 <title>致谢</title>
 
+<sect2 id="acknowledgements-1st-ed">
+<title>写给第一版(2005)</title>
+
 <para>写作本书所耗用的时间是我原来设想的四倍，而在写作期间，无论我身在何处，总感觉到脑袋上仿佛悬挂着一台大三角钢琴。没有以下众人的帮助，我便不可能完成本书的写作而仍然保持精神正常的状态。</para>
 
 <para>本书的编辑，O&apos;Reilly出版社的Andy Oram是一个作家梦寐以求的编辑。他不但谙熟自由软件行业（书中的许多题目是他建议的），而且具有一种非凡的才能，那就是知道对方想说什么，而且帮助对方找到最佳的表达方式。能与Andy合作是我的荣幸。在此，我也要感谢Chuck Toporek，是他将本书的写作提议及时传给了Andy。</para>
 
-<para>Brian Fitzpatrick在我写作本书的时候审阅了全部的内容，这不但使本书更完善，而且在我只想从电脑屏幕前面逃走，躲到世界上任何一个其它角落时，是Brian鞭策我继续写作。Ben Collins-Sussman和Mike 
+<para>Brian Fitzpatrick在我写作本书的时候审阅了全部的内容，这不但使本书更完善，而且在我只想从电脑屏幕前面逃走，躲到世界上任何一个其它角落时，是Brian鞭策我继续写作。Ben Collins-Sussman和Mike
 Pilato也经常询问写作的进程，而且总是乐于讨论那一周我正在写作的任何题目，有时候那样的讨论需要进行很长时间。在我写作稍有懈怠的时候，他们也会注意到，并善意地加以提醒。谢谢你们，伙计们。</para>
 
 <para>在我撰写本书的同时，Biella Coleman正在完成她的博士论文。她了解每天坐下来写作意味着什么，她既是鼓舞我写作的榜样，又能倾听我写作的苦衷。更能以一双人类学家的慧眼观察自由软件运动，给我提供了一些想法和参考资料，用于本书的写作当中。另一位人类学家Alex Golub那时候也在完成他的博士论文，而且他本人涉足自由软件行业，他在本书刚开始写作时给我提供了大量的支持，对我有极大的帮助。</para>
@@ -77,14 +80,14 @@ Pilato也经常询问写作的进程，而且总是乐于讨论那一周我正�
 
 <para>我要感谢Greg Stein，不仅因为我们之间的友谊和他适时的鼓励，更因为他向Subversion项目表明定期地代码评审对建设一个编程社区是一项多么重要的工作。我也要感谢Brian Behlendorf，他巧妙地告诫我们进行公开讨论的重要性；我希望这一原则贯穿了本书的始终。</para>
 
-<para>感谢Benjamin “Mako” Hill和Seth Schoen与我进行的有关自由软件及其政治方面的若干谈话；感谢Zack 
-Urlocker和Louis Suarez-Potts在百忙之中抽空接受我的采访；感谢Slashcode名单上的Shane允许我引用他的帖子；感谢Haggen 
+<para>感谢Benjamin “Mako” Hill和Seth Schoen与我进行的有关自由软件及其政治方面的若干谈话；感谢Zack
+Urlocker和Louis Suarez-Potts在百忙之中抽空接受我的采访；感谢Slashcode名单上的Shane允许我引用他的帖子；感谢Haggen
 So提供的有关制作完成的主页之比较，那极其有帮助 。</para>
 
-<para>感谢Alla 
+<para>感谢Alla
 Dekhtyar、Polina以及Sonya给予我永不倦怠及耐心的鼓励。我真高兴我不必在我们的晚间聚会上提早告辞（或更确切地说，恋恋不舍地告辞）而回家去写“那本书”。</para>
 
-<para>感谢Jack 
+<para>感谢Jack
 Repenning给予我的友谊、交谈、以及他固执地拒绝接受不费力气的错误分析，而不遗余力找寻正确答案的决心。我希望他在自由软件开发以及自由软件行业中长期而丰富的经验在本书中得以体现。</para>
 
 <para>在本书写作期间，CollabNet极其慷慨地允许我采用一个灵活的工作日程，而当我需要的时间远远超出原先预计的时候，他们没有抱怨。我并不完全了解管理层在做这样的决定时考虑的个中细节，但我猜想Sandhya Klute，而后是Mahesh Murthy，均参与了这项决定&mdash;我在此感谢他们两位。</para>
@@ -93,18 +96,73 @@ Repenning给予我的友谊、交谈、以及他固执地拒绝接受不费力�
 
 <para>我曾多次与Rachel Scollon胡言乱语，叙说写书的进程，而她总是乐于倾听，并且能够设法使问题大而化小。那对我有很大的帮助&mdash;多谢。</para>
 
-<para>（再次）感谢Noel 
-Taylor，他一定十分不解，为何我在上次频频抱怨之后又决定写第二本书，然而，Noel给予我的友谊，以及他领导之下的Golos&aacute;合唱团使我的生活即使在最忙碌的时节依然有音乐和好友相伴。我还要感谢Matthew Dean和Dorothea 
-Samtleben，我的好友以及因我而饱受折磨的音乐合作伙伴，在我多次无法与之排练的时候，他们总是给予我极大的理解。Megan 
+<para>（再次）感谢Noel
+Taylor，他一定十分不解，为何我在上次频频抱怨之后又决定写第二本书，然而，Noel给予我的友谊，以及他领导之下的Golos&aacute;合唱团使我的生活即使在最忙碌的时节依然有音乐和好友相伴。我还要感谢Matthew Dean和Dorothea
+Samtleben，我的好友以及因我而饱受折磨的音乐合作伙伴，在我多次无法与之排练的时候，他们总是给予我极大的理解。Megan
 Jennings总是给予最大的支持，并对一个她并不十分熟悉的题目表现出真诚的兴趣&mdash;这对一个缺乏信心的作家来说无异于一剂定心丸。多谢了，我的老友们！</para>
 
-<para>本书有四位学识渊博而又兢兢业业的评审者：Yoav Shapira、Andrew Stellman、Dayanum Srinivas和Ben 
+<para>本书有四位学识渊博而又兢兢业业的评审者：Yoav Shapira、Andrew Stellman、Dayanum Srinivas和Ben
 Hyde。假如我能全部采纳他们提出的极好的建议，本书无疑将更加完善。但由于时间的限制，我不得不有选择性地加以采纳。即便如此，本书的改进仍然十分显著，任何遗留下来的错误都应由我本人承担。</para>
 
 <para>我的父母Frances和Henry一如既往地给予我大力的支持，与上一本书相比，这本书没有那么多技术专业名词，因而我希望他们觉得这本书读起来容易一些。</para>
 
 <para>最后，我要感谢我的两位挚爱好友，Karen Underhill和Jim Blandy。在写作本书期间以及在过去的七年里，Karen给予我的友谊和理解对我来说意味着一切。没有她的帮助，我是不可能完成本书的写作的。Jim对我来说也是一样，一个真正的朋友，一个计算机行业中的王者之王，是Jim将我带入自由软件行业，正如一只鸟给予飞机飞行的灵感。</para>
 
+</sect2>
+
+<sect2 id="acknowledgements-2nd-ed">
+<title>写给第二版(2017)</title>
+
+<para>这本书的第二版得到了比第一版更多的人的帮助，当然，在致谢中也可能存在更多无心的遗漏。如果这里遗漏了您的名字，请接受我的歉意（也请您通知我，至少我们能把在线版本改一改）</para>
+
+<para>来自O'Reilly Media公司的Andy Oram，他提供的帮助再一次远远超过他作为编辑应尽的职责。他读得很认真并提供了很多极好的建议，无论是总体来说他的写作能力，或者是他开源方面的造诣，在他所有的评论中都显得淋漓尽致。这本书因为他的重视而得到很大提高，感激之情无以言表。</para>
+
+<para>我和James Vasile已经是多年的好友和同事了，每周我都能在他身上学到新的东西。尽管他有一份忙碌的工作—我们是商业伙伴，所以我知道的很清楚—和他家里的小孩儿，他仍然毫不犹豫的帮忙看手稿并提供意见。这些都是钱买不来的，就算要买，我也付不起James呀。谢了，兄弟。</para>
+
+<para>Cecilia Donnelly，她既是一个很棒的朋友，同时也是开源方面很厉害的专家，任职于芝加哥的Open Tech Strategies办公室。我和她共事很愉快，连我们的委托人都知道。她清晰的思维和敏锐的洞察力对本书的多个部分都有影响。</para>
+
+<para>Karen Sandler一直不倦的帮助我。我们深入细致地就这本书中的很多话题讨论过（甚至是一些特殊的案例）。和与James聊天一样，当我们聊自由软件和其他一些事的时候，我通常也都能在Karen身上学到东西。</para>
+
+<para>因为Bradley Kuhn多次提出十分专业的反馈意见，有一次他还自己写补丁，所以他的名字在这本书的commit日志里面出现过很多次。正如我在其中一个commit的日志消息里写的一样，”他对自由软件的贡献无可估量，他的参与为我们共同的事业提供了无限的灵感”</para>
+
+<para>Karen和Bradley都为Software Freedom Conservancy(<ulink url="https://sfconservancy.org/" >https://sfconservancy.org/</ulink>)工作。如果你喜欢这本书并且想帮助自由软件，捐助这个组织可以是一个很好的开始，当然之后也可以捐助哦。</para>
+
+<para>Ben Reser给第六章、第七章提供了很细致、专业的评论，这些评论让书增色不少。Ben，谢谢你了。</para>
+
+<para>Michael Bernstein不仅在第一版和第二版的间隔期提供了许多细致的反馈，他还帮助组织了KickStarter活动，并使之成为可能。谢谢你，Michael。</para>
+
+<para>Danese Cooper总是让我对项目保持专注，特别地，她为我带来消息（起初我不想听），消息说innersourcing（在组织内部采用开源开发模式）可以让组织了解学习开源的应用，最终自己也作出开源软件。我要为此和其他很多事情感谢你，Danese。</para>
+
+<para>在这两个版本之间，我度过了很有收获的一段时期。我作为开放互联网工具项目研究员，在O'Reilly Media和Code for America / Civic Commons（我十分感谢他们热心提供的在纽约城的Open Plans办公室的办公区域）和New America Foundation工作。我在这项工作中学到的大部分东西都写在了书里，除了要感谢这些组织本身，我还要另外特别感谢Tim O'Reilly, Jen Pahlka, Andrew McLaughlin, Philip Ashlock, Abhi Nemani, Nick Grossman, Chris Holmes, Frank Hebbert, and Andrew Hoppin，我感谢他们和我分享的想法和观点。</para>
+
+<para>多年来，Sumana Harihareswara和Leonard Richardson对开源软件的事情提供了坦率且有益的评论，他们的贡献让这本书日益完善，和他们做朋友也让我受益匪浅。 </para>
+
+<para>Software Freedom Law Center (<ulink
+url="https://softwarefreedom.org/" >https://softwarefreedom.org/</ulink>)的Eben Moglen教会我如何将自由软件视为大规模的社会和经济现象。他还在一些情况下为我提供个人的办公地点，这非常有帮助。谢谢你，Eben。</para>
+
+<para>David A. Wheeler博士每天要回答那么多人的提问，我也不知道他是如何抽出时间来回答我偶尔请教的问题的。但他做到了，每次的回答都如此正确和可靠。一直以来都多谢你了，David。</para>
+
+<para>Breena Xie对开源的兴趣很快指引她发现了关于开源的深刻问题。在我推敲本书中一些特定主题的时候，这些问题对我很有帮助。同时我也要感谢她的耐心，特别是有时候占用她过多的时间（超过了我和她一开始说的时间）。谢谢你，Breena。</para>
+
+<para>非常感谢Radhir Kothuri和其他HackIllinois 2017的成员，2017年2月,他们在伊利诺伊州的伊利诺伊大学香槟分校举办的活动涉及到印刷新版书的时候，他们及时的鼓励了大家。我很感谢他们对这本书信任度进行的投票，同时希望HackIllinois的参与者们对投票结果满意。</para>
+
+<para>我和<ulink url="http://neodoc.biz/"
+>http://neodoc.biz/</ulink>的Camille Bégnis实时交流了一整天的时间。经过他提供专业的DocBook帮助，我们解决了一个长期以来我无法解决的书在线版本的技术问题。Merci beaucoup, Camille。</para>
+
+<para>致谢中最难的一部分就是我认识到，人们在这本书第一版过后的十年来，大家分享的知识太多了，我怎么样在这里都写不完。自从第一版书以后，我一直在做开源的工作，在与许多客户、合作伙伴、受访者、专家顾问和其他旅行者的讨论中，我都很有启发。他们中有些人偶尔也会为书中的具体改进提供建议。如果没有这些集体智慧的话，我无法想象这本书的质量会怎样，所以我会试着把他们列出来，但是我很抱歉，因为我知道这名单肯定不完整。为了表示排名不分先后，在列出名单前，我用程序打乱了顺序，并取第一次输出的结果。名单如下：</para>
+
+<para>
+  Nithya Ruff, Jenn Brandel, Joseph Lorenzo Hall, Ben Wyss, Kit Plummer, Mark Atwood, Vivien Deparday, Sebastian Benthall, Martin Michlmayr, Derek Eder, Hyrum Wright, Stefano Zacchiroli, Dan Risacher, Stephen Walli, Simon Phipps, Francis Ghesquiere, Sanjay Patil, Tony Sebro, Matt Doar, Deb Nicholson, Jon Phillips, David Robinson, Nathan Toone, Alolita Sharma, Jim McGowan, Florian Effenberger, Brian Warner, Cathy Deng, Allison Randal, Ariel Núñez, Jeremy Allison, Thorsten Behrens, Deb Bryant, Holly St. Clair, Jeff Ubois, Dustin Mitchell, Dan Schultz, Luis Villa, Jon Scott, Dave Neary, Mike Milinkovich, Wolf Peuker, Paul Holland, Keith Casey, Christian Spanring, Bishwa Pandey, Scott Goodwin, Vivek Vaidya, David Eaves, Ed Sokolowski, Chris Aniszczyk, David Hemphill, Emma Jane Hogbin Westby, Ben Sheldon, Guy Martin, Michael Downey, Charles-H. Schulz, Vitorio Miliano, Paul Biondich, Richard Fontana, Philip Olson, Leslie Hawthorn, Harlan Yu, Gerard Braad, Daniel Shahaf, Matthew Turk, Mike Hostetler, Waldo Jaquith, Jeffrey Johnson, Eitan Adler, Mike Linksvayer, Smiljana Antonijevic, Brian Aker, Ben Balter, Conan Reis, Dave Crossland, Nicole Boone, Brandon Keepers, Leigh Honeywell, Tom "spot" Callaway, Andy Dearing, Scott Clark, Tina Coleman, William A Rowe Jr., Matthew McCullough, Stuart Gill, Robert Soden, Chris Tucker, Noel Hidalgo, Mark Galassi, Chris DiBona, Gerhard Poul, Christopher Whitaker, James Tauber, Justin Kestelyn, Nadia Eghbal, Mel Chua, Tony Wasserman, Robert Douglass, Simone Dalmasso, John O'Nolan, Tom Marble, Patrick Masson, Arfon Smith, Forest Gregg, and Molly de Blanc.
+</para>
+
+<para>第二版书改写受到一个Kickstarter项目的资金支持，该项目回应地迅速且慷慨，我非常感谢他们所有参与的人。我希望他们会原谅我花了四倍于预计的时间才完成。以下我要向该项目所有的支持者致谢，用的是他们提供给Kickstarter的名字。以下的排序是按照赞助数额（从高到低或者从低到高）进行的，但我认为这种事比较适合保持神秘吧，所以我不打算说是哪种排序了。名单如下：</para>
+
+<para>
+  Pablo, Cameron Colby Thomson, Bethany Sumner, Michael Lefevre, Maxim Novak, Adrian Smith, Jonathan Corwin, Laurie Voss, James Williams, Chris Knadler, Zael, Kieran Mathieson, Teresa Gonczy, Poramate Minsiri, j. faceless user, Michael, Isaac Davis aka Hedron A. Davis, James Dearing, Kyle Simpson, Laura Dragan, Hilary Mason, Tom Smith, Michael Massie, Erin Marchak, Micke Nordin, Xavier Antoviaque, Michael Dudley, Raisa, Paul Booker, Jack Moffitt, Aaron Shaw, maurine stenwick, Ivan Habunek, G. Carter Stokum, Barry Solow, mooware, Harish Pillay, Jim Randall, Holger S., Alan Joseph Williams, Erik Michaels-Ober, David Parker, Nick, Niko Felger, Fred Trotter, Dorai Thodla, William Theaker, Hans Bakker, Brad, Bastien Guerry, Miles Fidelman, Grant Landram, Michael Rogers, mostsignificantbit, Olivier Berger, Fernando Masanori Ashikaga, Naomi Goldenson, Brian Fitzpatrick, Eric Burns, Mark V. Albert, micah altman, Richard Valencia, Cody Bartlett Heisinger, Nick Grossman, cgoldberg, Mike Linksvayer, Simon Phipps, Yoshinari Takaoka, Christian Spanring, Ross M Karchner, Martin Karlsson, Kaia Dekker, Nóirín Plunkett, Emma Jane, Helior Colorado, Fred Benenson, George V. Reilly, Lydia Pintscher, Noel Hidalgo, Albert White, Keng Susumpow, Mattias Wingstedt, Chris Cornutt, Zak Greant, Jessy Kate Schingler, James Duncan Davidson, Chris DiBona, Daniel Latorre, Jeremiah Lee Cohick, Jannis Leidel, Chris Streeter, Leonard Richardson, Terry Suitor, Trevor Bramble, Bertrand Delacretaz, John Sykora, Bill Kendrick, Emmanuel Seyman, Paolo Mottadelli, Gabriel Burt, Adrian Warman, Steve Lee, Andrew Nacin, Chris Ballance, Ben Karel, Lance Pollard, richardj, Brian Land, Jonathan Markow, Kat Walsh, Jason Orendorff, Jim Garrison, Jared Smith, Sander van der Waal, Karen Sandler, Matt Lee, John Morton, Frank Warmerdam, Michael R. Bernstein, John Yuda, Jack Repenning, Jonathan Sick, Naser Sharifi, Cornelius Schumacher, Yao-Ting Wu, Camille Acey, Greg Grossmeier, Zooko Wilcox-O'Hearn, Joe, Anne Gentle, Mark Jaquith, Ted Gould, James Schumann, Falkvinge, Schuyler Erle, Gordon Fyodor Lyon, Tony Meyer, Salvador Torres, Dustin J. Mitchell, Lindy Klein, Dave Stanton, Floyd DCosta, Agog Labs, Adrià Mercader, KIMURA Wataru, Paul Cooper, alexML, Stefan Heinz, maiki, BjornW, Matt Soar, Mick Thompson, mfks, Sebastian Bergmann, Michael Haggerty, Stefan Eggers, Veronica Vergara, Bradley Kuhn, Justin Tallant, dietrich ayala, Nat Torkington, David Jeanmonod, Randy Metcalfe, Daniel Kahn Gillmor, George Chamales, Erik Möller, Tim Schumacher, Koichi Kimura, Vanessa Hurst, Daniel Shahaf, Stefan Sperling, Gunnar Hellekson, Denver Gingerich, Iliana Weller, adam820, Garance Drosehn, Philip Olson, Matt Doar, Brian Jepson, J Aaron Farr, Mike Nosal, Kevin Hall, Eric Sinclair, Alex Rudnick, Jim Brucker, PEI-HAN LEE, Michael Novak, Anthony Ferrara, Dan Scott, Russell Nelson, Frank Wiles, Alex Gaynor, Julian Krause, termie, Joel McGrady, Christian Fletcher Smith, Mel Chua, William Goff, Tom Liesenfeld, Roland Tanglao, Ross Gardler, Gervase Markham, Ingo Renner, Rochelle Lodder, Charles Adler, Dave Hylands, Daryn Nakhuda, Francois Marier, Kendric Evans, Greg Price, Carlos Martín Nieto, Greg Stein, Glen Ivey, Jason Ray, Ben Ubois, Landon Jones, Jason Sperber, Brian Ford, Todd Nienkerk, Keith Casey, Leigh Honeywell, Aaron Jorbin, Christoph Hochstrasser, Miguel Ponce de Leon, Dave Neary, Eric Lawrence, Dirk Haun, Brian Burg, Brandon Kraft, Praveen Sinha, ML Cohen, Christie Koehler, Ethan Jucovy, Lawrence S Kemp, Justin Sheehy, Jonathan Polirer, Ronan Barzic, Greg Dunlap, Darcy Casselman, Jeremy G Kahn, Sam Moffatt, James Vasile, Simon Fondrie-Teitler, Mario Peshev, Alison Foxall, Jim Blandy, Brandon Satrom, Viktor Ekmark, Tor Helmer, Jeff Ubois, Gabriela Rodriguez, James Tait, Michael Parker, Stacy Uden, Peter Martin, Amy Stephen, James Tauber, Cameron Goodale, Jessica, Ben Sheldon, Forest Gregg, Ken McAuliffe, Marta Rybczynska, Sean Taylor, John Genego, Meeuw, Mark MacLennan, Kennis Koldewyn, Igor Galić, Henrik Dahlström, Jorren Schauwaert, Masahiro Takagi, Ben Collins-Sussman, Decklin Foster, Étienne Savard, Fabio Kon, Ole-Morten Duesund, Michael Downey, Jacob Kaplan-Moss, Nicola Jordan, Ian Sullivan, Roger W Turner, Justin Erenkrantz, Isaac Christoffersen, Deborah Bryant, Christopher Manning, Luis Villa, Judicaël Courant, Leslie Hawthorn, Mark R. Hinkle, Danese Cooper, Michael Tiemann, Robert M. Lefkowitz, Todd Larsen, T Foote, Ben Reser, Dave Camp, Scott Berkun, Garrett Rooney, Dinyar Rabady, Damien Wyart, Seth Schoen, Rob Brackett, Aisha, Winnie Fung, Donald A. Lobo, Dan Robles, Django Software Foundation, Mark Atwood, Krux Digital, Stephen Walli, Dave Crossland, Tina, and Thorsten Behrens.
+</para>
+
+<para>再次对你们所有人表示感谢！</para>
+</sect2>
 </sect1>
 
 <!-- ======================== SECTION ============================== -->
@@ -118,8 +176,7 @@ Hyde。假如我能全部采纳他们提出的极好的建议，本书无疑将�
 </preface>
 
 <!--
-local variables: 
+local variables:
 sgml-parent-document: ("book.xml" "chapter")
 end:
 -->
-
