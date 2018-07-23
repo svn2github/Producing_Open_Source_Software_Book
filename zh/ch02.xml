@@ -4,25 +4,6 @@
 
 <simplesect>
 
-<para>有关自由软件是如何发起的经典模型是由Eric Raymond提出的，在一篇今天已广为人知的有关开源开发的论文<citetitle>《大教堂和集市》</citetitle>中，他写道：</para>
-
-    <blockquote>
-      <para><emphasis>每一个好的软件都始于挠到一个开发者的痒痒处。</emphasis></para>
-
-      <para>（来自<emphasis role="bold"><ulink
-      url="http://www.catb.org/~esr/writings/cathedral-bazaar/"/></emphasis>）</para>
-    </blockquote>
-
-<para>注意Raymond并没有说只有当某些开发人员心里痒痒之后才会导致一个开源项目的诞生。相反，他是说只有当程序员对解决某个问题产生了个人兴趣之后，才能产生优秀的软件；这一点同自由软件的联系在于，大部分自由软件项目的最初动机都是始于一个人的痒痒处。</para>
-
-<para>这仍然是大部分项目的动因，但自从1997年Raymond写下这些话之后这种现象正在慢慢减少。今天我们有了一些组织&mdash;包括盈利性的大企业&mdash;从零开始大型的，集中式管理的开源项目。单个的程序员为了解决一个个人问题敲出一些代码而最后意识到可以有更广泛地应用的例子仍然是许多新自由软件的源头，但不再是唯一的故事。</para>
-
-<para>然而Raymond的观点仍然是真知灼见。关键在于软件的生产者对它的成功有直接的兴趣，因为是自己用。如果软件没能达到期望的目标，那些编写它的个人或是组织会在日常工作中感到不满。例如，OpenAdapter项目（<ulink
-url="http://www.openadapter.org/"/>），这是一个由德累斯顿·克莱沃特投资银行（investment
-bank Dresdner Kleinwort Wasserstein）发起的一个用于集成不同财经信息系统的开源框架，就很难说是始于哪个程序员的个人痒痒处。它始于一个组织的痒痒处。这些痒痒处直接来自这个组织和他们的合伙人的经验，因此如果这个项目没能减轻这些痒痒症，他们立刻能够感觉到。这种情形产出了优秀的软件，因为形成了一个良性的循环。程序不是为了卖给其他人而编写的，不是为解决<emphasis>他人的</emphasis>问题。它是为解决某个<emphasis>自己的</emphasis>问题而编写的，之后再同其他的人分享，足可以把问题想像成疾病，而程序是分发的药物，用来彻底地消灭传染病。</para>
-
-<para>本章是关于如何将一个自由软件项目介绍给全世界，但是其中的很多建议听起来会很像一个卫生组织在分发药物。两者的目标的确非常相似：你要弄清楚药品的作用，把它发放到需要的人手中，并确保那些人知道如何使用它。但对一个软件，你还需要诱使那些接受者加入研究计划来改进“药物”。</para>
-
 <para>自由软件的发布是一项双重任务。软件既要满足使用者，也要满足开发者。这两种需求不一定是冲突的，但是会为项目初期的展示增加复杂度。其中有些信息对两者都有用，有些只是对其中一类有用。对两种信息都应该依照展示的比例原则：描述的详细程度应该同读者在该阶段所应该花费的时间和努力程度相对应。更多的努力应该带来更多的回报。当这种关系发生偏差时，人们有可能很快失去信任并且停止投入精力。</para>
 
 <para>这一点的必然结果就是<emphasis>形象</emphasis>的重要性。程序员们对这一点总是嗤之以鼻。对本质超越形式的热爱成了他们职业自豪感的一部分。所以毫不意外，许多程序员表现出对营销和公关工作的厌恶，同样，职业图形设计师往往也对程序员们的产品感到惊恐万状。</para>
@@ -31,6 +12,23 @@ bank Dresdner Kleinwort Wasserstein）发起的一个用于集成不同财经信
 
 <para>因此，尽管本章的大部分篇幅谈论的是你应该用什么样的内容开始你的项目，但别忘了外观和感觉同样重要。因为项目的网站同时为使用者和开发者两类人服务的，相应的投入也要透明和有针对性。虽然这不是一本讨论网页设计的专著，但是当网站是为多种类型的读者服务时，有一条重要原则是值得一提的，在点击一个链接之前用户应该对它的去处有一个大概的了解。例如，当看到“用户文档”的<emphasis>链接</emphasis>时，明显应该是链接到用户文档，而不是开发者文档。运作一个项目一方面是为了提供信息，但同时也是提供舒适。当用户和开发者们正在犹豫要不要加入时，你应该在预期的地方用一套肯定性的标准来使他们安心。它表明项目有统一的管理，已经预估到了人们可能提出的问题，并且致力于在只花费提问者最少的精力的前提下来解答这些问题。通过显现这种充分准备的氛围，该项目发出了一个信息：“如果加入，你的时间不会被白白浪费，”而这正是人们想听到的。</para>
 
+<sidebar id="user-vs-developer">
+<title>用户和开发者的含义</title>
+<para> <firstterm>用户</firstterm> 和
+<firstterm>开发者</firstterm> 这两个术语，指的是一个人在涉及的开源软件项目的身份，而非她在该项目之外的身份。</para>
+
+
+<para>例如，如果一个开源项目是提供web开发的JavaScript的函数库，有人需要在自己的开发项目里使用这些函数库，那她就是一个“用户”（尽管她头衔可能是程序开发员）。但是如果她开始向<firstterm>upstream</firstterm>-- 也就是向该函数库项目 -- 修复bug，提供代码。那么这个时候她才算参与到了这个项目中来，并成为该项目一个“开发者”。</para>
+
+<para>虽然在开源项目中很多开发者能变成用户，但也并不总是如此。特别是一些为了满足企业级要求的大型软件项目，该软件的开发者可能并不会是该软件直接的用户。</para>
+
+<para>在一些主要服务程序员的项目中，用户和开发者的界限就很模糊了： <emphasis>每一个</emphasis>用户都是潜在的开发者。但就算是针对非技术性型用户的项目，也有一定比例的用户会成为开发者。开源项目就应该让有兴趣的用户能很容易的转变为开发者。</para>
+</sidebar>
+
+<para>如果你们在用“包装主机”网站 (参见 <xref
+linkend="canned-hosting"/><phrase condition="treeware"> in <xref
+linkend="technical-infrastructure"/></phrase>)，这个选择的一个优点就是，这些网站有一个默认的、在各个项目里都通用的布局，而这就非常适合将项目呈现在世人面前。该布局可以在特定范围内自定义，但最初设计者眼前的默认设计就会提示您要尽可能包含访问者想要看见的信息。</para>
+
 
 <!-- ======================== subsection ============================== -->
 <sect2 id="look-around">
@@ -38,9 +36,14 @@ bank Dresdner Kleinwort Wasserstein）发起的一个用于集成不同财经信
 
 <para>开始一个开源项目之前，给你一个重要的告诫：</para>
 
-<para>一定要找找看是否有一个现存的项目已经做了你想做的。有很大的几率有人早于你已经解决了你想解决的问题。如果他们已经解决了它，并且在一个自由许可证下发布了他们的代码，那今天你就没有必要重新发明轮子了。当然有例外：如果是为了练习才开始一个项目，那现有的代码对你没用；或者你脑中的计划非常特别，你肯定不会有其他人有同样的想法，那你也不妨试试看。但总的来说没有理由不先看一看，而收获总是很大。如果常见的互联网搜索引擎发现不了什么，试试在<ulink url="http://freshmeat.net/"/>（一个开源项目的新闻站点，有关它的更多介绍将在后面提到）和<ulink url="http://www.sourceforge.net/"/>上找找看，同时自由软件基金会有一个自由软件的目录在<ulink url="http://directory.fsf.org/"/>。</para>
+<para>一定要找找看是否有一个现存的项目已经做了你想做的。有很大的几率有人早于你已经解决了你想解决的问题。如果他们已经解决了它，并且在一个自由许可证下发布了他们的代码，那今天你就没有必要重新发明轮子了。当然有例外：如果是为了练习才开始一个项目，那现有的代码对你没用；或者你脑中的计划非常特别，你肯定不会有其他人有同样的想法，那你也不妨试试看。但总的来说没有理由不先看一看，而收获总是很大。如果常见的互联网搜索引擎发现不了什么，试试在<ulink
+url="https://github.com/" >https://github.com/</ulink>, <ulink
+url="https://freshcode.club/" >https://freshcode.club/</ulink>, <ulink
+url="https://openhub.net/" >https://openhub.net/</ulink>, 上找找看，同时自由软件基金会有一个自由软件的目录在<ulink
+url="https://directory.fsf.org/" >https://directory.fsf.org/</ulink>。</para>
 
-<para>即使你找不到跟你的想法一模一样的项目，你也许能找到十分接近的，然后加入这个项目为它增加功能比你自己从零开始一个项目要更有意义。</para>
+<para>即使你找不到跟你的想法一模一样的项目，你也许能找到十分接近的，然后加入这个项目为它增加功能比你自己从零开始一个项目要更有意义。参考<xref linkend="evaluating-oss-projects"/><phrase
+condition="treeware"> in <xref linkend="money"/></phrase> 里面有如何快速评估现有开源项目的介绍</para>
 
 </sect2>
 
@@ -82,13 +85,39 @@ bank Dresdner Kleinwort Wasserstein）发起的一个用于集成不同财经信
   </listitem>
   <listitem><para>不与另一个项目重名，也不侵犯任何商标权。这既表现职业美德，也是良好的法律意识。你要避免制造身份混乱。即便没有不同的东西重名的现象，我们现在要搞清楚网络上已有的东西已经很不容易了。</para>
 
-            <para>在前面<xref linkend="look-around"/>里提及的资料有助于你发现是否另一个项目已经采用了你正在考虑的名字。免费的商标搜索见<ulink url="http://www.nameprotect.org/"/>和<ulink url="http://www.uspto.gov/"/>。</para>
+            <para>在前面<xref linkend="look-around"/>里提及的资料有助于你发现是否另一个项目已经采用了你正在考虑的名字。美国的商标搜索见<ulink url="http://www.uspto.gov/"
+            >http://www.uspto.gov/</ulink>。</para>
   </listitem>
-  <listitem><para>尽可能成为<systemitem>.com</systemitem>、<systemitem>.net</systemitem>、以及<systemitem>.org</systemitem>顶级域中的一个域名。你应该选择其中的一个，或许是<systemitem>.org</systemitem>吧，作为项目正式的网址；而另外两个网址都转发到前一个，这还可以防止其他人用项目的名字制造身份混乱。即使你打算将项目放在其它的网站空间上，（见<xref linkend="starting-with-canned-hosting"/>），你仍然可以注册自己项目的域名，而转发至你存放项目的主页上。对用户来说，使用一个容易记忆的URL是十分有帮助的。</para>
+  <listitem><para>尽可能成为<systemitem>.com</systemitem>、<systemitem>.net</systemitem>、以及<systemitem>.org</systemitem>顶级域中的一个域名。你应该选择其中的一个，或许是<systemitem>.org</systemitem>吧，作为项目正式的网址；而另外两个网址都转发到前一个，这还可以防止其他人用项目的名字制造身份混乱。即使你打算将项目放在其它的网站空间上，（见<xref linkend="hosting"/>），你仍然可以注册自己项目的域名，而转发至你存放项目的主页上。对用户来说，使用一个容易记忆的URL是十分有帮助的。<footnote><para>顶级域名的重要性已经在下降了。现在，不少数量的项目的域名都用的例如：<systemitem>.io</systemitem>顶级域名，而不再使用 <systemitem>.com</systemitem>,
+  <systemitem>.net</systemitem>, 或者
+  <systemitem>.org</systemitem>。我也不能预测未来大家选域名的心态，所以靠你自己判断吧，不过如果你能在所有重要的顶级域名中注册的话 ，那就这样做吧。</para></footnote></para>
     </listitem>
+
+<listitem><para>如果可以的话，要能作为用户名在<ulink
+          url="https://twitter.com/" >https://twitter.com/</ulink> 和其他微型博客网站里，在这里参考更多和用户名与域名的关系 <xref linkend="own-the-name"/> </para>
+</listitem>
 </itemizedlist>
 
 </para>
+
+<sect3 id="own-the-name">
+<title>在重要的命名空间里注册名字</title>
+
+<para>对于大型项目，能尽可能 多的在相关命名空间里面注册是一个不错的主意。这个命名空间我指的不仅仅是域名，而且还有一些用户会接触你们用到的账号名称（用户名）。如果你们在用户可能会搜索你们的地方都保持同一个名字的话，那么在他们决定更进一步参与之前，用户他们可以持续保持对你们的关注。</para>
+
+<para>比如说，Gnome免费桌面项目的这个域名<ulink
+url="https://gnome.org/" >https://gnome.org/</ulink> <footnote><para>他们没有能够获得gnome.com或者gnome.net，但也无妨&mdash;如果你只有一个域名，而它就是.org，这也不错。.org通常都是人们第一个会想到去搜索开源项目名字的地方。如果他们不能注册"gnome.org"的话，一个常见的解决方法就是去使用"gnomeproject.org"，很多项目都是这样做的。</para></footnote>, 这个 <ulink url="https://twitter.com/gnome"
+>https://twitter.com/gnome</ulink> Twitter 界面，这个 <ulink
+url="https://identi.ca/gnome" >https://identi.ca/gnome</ulink> 在
+Identi.ca的用户名<footnote><para><ulink url="https://identi.ca/"
+>https://identi.ca/</ulink> 是一个很多自由软件开发者使用的开源微博/社交网络</para></footnote>, the <ulink
+url="https://github.com/gnome" >https://github.com/gnome</ulink>
+在GitHub.com的用户名<footnote><para>Gnome的主程序源代码在这里<ulink url="https://git.gnome.org/" >https://git.gnome.org/</ulink>,因为太多开发者都熟悉GitHub，所以他们在GitHub也搞了一个镜像</para></footnote>尽管他们有自己的IRC服务器（当然由他们自己控制这个频道的命名空间），在freenode IRC
+网络(参见 <xref linkend="irc"/>)他们也有频道<code>#gnome</code></para>
+
+<para>所有这些让Gnome项目变得容易被发现：因为那正是潜在贡献者会去找的地方。当然了，Gnome是一个大型且复杂的项目，它有着成千上万的贡献者和小模块；因为到目前为止有非常多的方式去参与到Gnome中，所以对于Gnome来说，容易被发现的好处是比其他新项目的好处更大的。但是（就算是新的项目），在相关的命名空间里获取尽可能多的命名也绝不会对你的项目<emphasis>有负面影响</emphasis>。所以，当你开始一个项目，想想你想给项目取的名称，然后在你觉得可能用到的地方去注册吧。上面所提到的一些网站大概是一个不错的初始项目需要注册的名单，但你也可能需要去和你项目领域有关的网站去注册。</para>
+
+</sect3>
 
 </sect2>
 
@@ -99,15 +128,19 @@ bank Dresdner Kleinwort Wasserstein）发起的一个用于集成不同财经信
 <para>人们找到了项目的网页之后，下一步就要看一份简短的项目描述，即使命陈述，以便（在30秒之内）决定他们是否对该项目有兴趣并获取更多信息。因此，这份使命陈述必须放在首页显著的位置，最好是紧贴着项目名字的下方。</para>
 
 <para>使命陈述必须具体，紧凑；而最重要的是简短。以下是一个很好的例子，来自<ulink
-url="http://www.openoffice.org/"/>：</para>
+url="https://hadoop.apache.org/" >https://hadoop.apache.org/</ulink>:</para>
 
-  <blockquote>
-  <para><emphasis>创建一个以社区为基础，领先的国际化办公室套件，能够在所有主要的平台上运行，并借基于API和XML文件格式的开放组件，提供对所有功能和数据的接入性。</emphasis></para>
+
+<blockquote>
+<para><emphasis>Apache™ Hadoop®项目为了可靠的可适应各种量级的分布式计算开发开源软件。</emphasis></para>
+
+  <para><emphasis>Apache Hadoop软件库是一个允许对存储在各个电脑中的大规模数据集通过简单的编程模型来分布式处理。它旨在从单个服务器扩展到数千台计算机，每台计算机都提供本地计算和存储。因为每个计算机都可能容易出现故障，所以软件库本身不是依靠硬件来提供高可用性，而是设计用于检测和处理应用程序层的故障，从而在计算机集群之上提供高可用性服务。</emphasis></para>
   </blockquote>
 
-<para>这份使命陈述仅仅用了简短的几句话，通过大量依赖读者已有的知识明白无误地传达了所要传达的信息。 “以社区为基础”表明该软件不受任何一家大公司控制其开发；“<emphasis>国际化</emphasis>”指的是该软件允许人们在本地及多种语言环境下工作；“<emphasis>所有主要的平台</emphasis>”说的是该软件可移植到Unix，苹果和视窗操作系统。其余的文字则说明开放接口以及易读的文件格式都是该软件目标中重要的组成部分。这份使命陈述并没有在字面上告诉读者它旨在成为微软Office的开源替代品，但是人们从字里行间便能看出它的含义。乍一看，这份使命陈述似乎有些空泛，但实际上界定得相当明确：“<emphasis>办公室套件</emphasis>”对那些熟悉这个软件的人来说是非常具体的东西。在此，读者已有的知识（这里指的是读者有可能对微软Office软件的了解）又一次用来把使命陈述变得简洁明了了。</para>
+<para>在仅仅四个句子里，依靠读者自己先前获取的知识，他们把需要说的都说得很清楚。这是一个重要的观点：设定一个基本的入门门槛也挺好。如果一个读者连"clusters" 和"high-availability"的意思都不了解，那这个读者可能也不需要使用到Hadoop，所以也没有必要为不懂这些的人再多解释。“旨在检测和处理应用程序层故障”，这一句将吸引到具有大规模计算集群经验的工程师&mdash;当他们看见这些词的时候，他们便知道Hadoop开发者是懂他们这行的，初次来的访问者也愿意进一步考虑Hadoop。</para>
 
-<para>一份使命陈述的性质不单单是由它所描述的软件决定的，而在一定程度上得看是由谁来写的。例如，OpenOffice.org使用&quot;<emphasis>以社区为基础</emphasis>&quot;这个词是很有道理的，因为这个项目最初是由Sun Microsystems发起，而至今仍主要是由这家公司赞助的。在其使命陈述中使用&quot;以社区为基础&quot;这几个字，Sun表明它对一些担心该公司有可能试图垄断开发这一软件的忧虑是有敏感度的。这样的处理方法，即表明对一个有可能出现的潜在的问题有意识，就给将来完全避免这个问题的出现奠定了很好的基础。话又说回来，如果项目并非由一家大公司赞助，那或许根本不需要这样的词语；说到底，社区开发已经成为今天的模式了，因而没有理由要特别将那样的词语写在使命陈述中。</para>
+<para>看过使命陈述之后仍对项目有兴趣的人自然想要了解更多的情况，或许要看一看用户文件和开发人员文件，最终可能下载一些东西。但在做这些事情以前，他们要确定这是一个开源项目。</para>
+
 
 </sect2>
 
@@ -115,7 +148,7 @@ url="http://www.openoffice.org/"/>：</para>
 <sect2 id="state-freedom">
 <title>声明项目是自由软件</title>
 
-<para>看过使命陈述之后仍对项目有兴趣的人自然想要了解更多的情况，或许要看一看用户文件和开发人员文件，最终可能下载一些东西。但在做这些事情以前，他们要确定这是一个开源项目。</para>
+
 
 <para><emphasis>网站的首页必须清清楚楚地写明这是一个开源项目。</emphasis>这看起来好像无需加以强调，但是你会惊讶有多少项目忽略了这一点。我见过不少自由软件网站，其首页不但没有说明该软件是在哪一个自由许可证下发布的，而且根本没在首页表明这是一个自由软件。有时候这一至关重要的信息被次要地放在了下载页，或是开发人员页，或是其它的一个需要多点击一次鼠标才能看到的一个地方。在一些极端的例子中，网页上哪儿都找不到自由许可证&mdash;只有下载软件打开之后才能看到。</para>
 
@@ -154,7 +187,7 @@ linkend="legal"/>。</para>
     </itemizedlist>
     <para><emphasis>需求：</emphasis></para>
     <itemizedlist>
-      <listitem><para><emphasis>Python 2.2或更高版本</emphasis></para>
+      <listitem><para><emphasis>Python 3.2或更高版本</emphasis></para>
       </listitem>
       <listitem><para><emphasis>足够的硬盘空间以储存索引（大约原文件大小的2倍）</emphasis></para>
       </listitem>
@@ -171,13 +204,35 @@ linkend="legal"/>。</para>
 
 <para>人们总是希望了解一个项目的状况。对新的项目，他们想知道项目的承诺和现实之间存在着多大的距离。对成熟的项目，他们想知道维护得如何，新发布的频率怎样，以及对Bug报告反应的及时性等等。</para>
 
-<para>要回答这些问题，你应该建立开发状态页，列出项目的近期目标和需求（例如，需要具备某方面专长的开发人员）。开发状态页也可以列出过去发布的记录，其中包含特性清单，以便访问者了解项目是如何定义“进展”的，并根据这一定义了解项目进展的速度。</para>
+<para>要回答这些问题有很多方法。其中一种方法是：建立开发状态页，列出项目的近期目标和需求（例如，需要具备某方面专长的开发人员）。开发状态页也可以列出过去发布的记录，其中包含特性清单，以便访问者了解项目是如何定义“进展”的，并根据这一定义了解项目进展的速度。一些项目把他们的开发状态页面做成一个路线图：过去的进度就显示发生的时间，未来的进度安排就写上预期实现的日期。</para>
+
+
+<para>另一个方式&mdash;与第一个方法并不互斥，事实上与之结合会更有效果&mdash;是在项目的首页和/或其开发人员登陆页面中嵌入各种自动维护的计数器和指示器，显示各种信息，总体上可以展示项目的开发状态和进度。 例如说，一个公告或新闻面板来显示新闻项目、一个Twitter或者别的微博来显示与项目指定的主题标签匹配的通知、一个显示最近发布项目的时间表、一个展示最近bug修复情况（提出的bug和解决的bug）的面板、再一个显示邮件列表和讨论活动等等。每一个面板都是一个进一步了解其详细情况的入口，比如说：点击“最近的bugs”面板，页面会跳转到全部bug的记录日志中，至少也要给一个下拉菜单显示更多的bug追踪信息。</para>
+
+
+<para>实际上，这里杂糅了两种略有不同的“开发状态”的含义。一种是正式的：这个项目距离既定的目标还有多远，现在开发的速度怎么样。另一种不那么正式，但也同样有用：这个项目有多活跃？是不是在正常运作？这里的人是不是完成了任务。通常后面这个概念是来访者最为关心的，而一个项目是否完成了它的预期并不显得那么重要，因为（在访客心中）更重要的是这个项目有没有一个活跃的开发者社区。</para>
+
+<para>这两种开放状态的概念，当然是互相关联的，而且一个善于展示的项目会把两者都展现出来。通常信息会分放在两个部分，一个是项目的首页（充分展示两种开发状态的概览），另一个是面向开发者的页面。</para>
+
+<sidebar id="launchpad-status-indicators">
+<title>案例：Lauchpad状态指示器</title>
+<para>一个在展示面向开发者状态显示器很不错的网站就是  Launchpad.net。它有点不同寻常，因为有些项目将其作为首要的展示信息的平台，另一些项目只在上面发布安装包(或者更确切地说，Launchpad是专门用于支持Ubuntu GNU / Linux操作系统打包特定程序的“项目”的主要站点)
+。无论是上面两种中的哪种，一个项目在Launchpad上的页面都会显示其各种自动更新的状态指示器，可以由此快速了解项目的开发状况。尽管简单地模仿Launchpad页面不是一个好主意&mdash;你自己的项目也应该仔细思考采取什么指示器&mdash;但Launchpad页面提供的都是很好的例子，说不定就能用在你的项目里。从这个项目的顶上往下滑动滚轮，<ulink
+url="https://launchpad.net/drizzle" >https://launchpad.net/drizzle</ulink>
+or <ulink url="https://launchpad.net/inkscape"
+>https://launchpad.net/inkscape</ulink>然后随意挑选两个看看吧。</para></sidebar>
+
+
+<sect3 id="development-status-honesty">
+<title>开发状态应该始终反映真实情况</title>
 
 <para>别因为你的项目看起来没准备好而感到害怕，也不要向夸大开发状态的诱惑妥协。谁都清楚软件是分阶段开发的产品；你不必觉得难以开口说出：“这是仍带有Bug的alpha软件，它可以运行。而且至少有时候能正常工作，但你使用这个软件就得自己承担风险。”这类语言不会吓跑你在这个阶段需要的开发人员。然而，对于用户来说，最糟糕的事情莫过于在软件准备好之前就吸引用户。一旦冠上了稳定性差或是Bug多多的名声，软件就很难再正名了。采取保守的策略对长远的目标是非常有益的；软件的稳定性超出用户的预期总比达不到用户的期望<emphasis>好得多</emphasis>，而给用户惊喜就会给产品带来最佳口碑。</para>
 
 <sidebar id="alpha-and-beta">
   <title>Alpha和Beta</title>
-  <para>术语<firstterm>alpha</firstterm>这个词通常指的是第一次发布，但是用户可以使用该软件进行工作，并且软件也具备了最初计划的所有功能，但已知的Bug仍然存在。Alpha软件的主要目的在于获取回馈，以便开发人员了解他们应该做什么。下一个阶段，<firstterm>beta</firstterm>是指软件中所有厉害的Bug都已经被消灭了，但是软件还未经过足够的测试，因而还不能正式发布。Beta软件的目的有二，一是在未发现Bug的情况下正式发布软件，二是提供给开发人员详细的回馈，以便他们能够尽快解决问题之后正式发布软件。Alpha和Beta的差别通常是由判断而决定的。</para>
+  <para>术语<firstterm>alpha</firstterm>这个词通常指的是第一次发布，但是用户可以使用该软件进行工作，并且软件也具备了最初计划的所有功能，但已知的Bug仍然存在。Alpha软件的主要目的在于获取回馈，以便开发人员了解他们应该做什么。Alpha软件通常可以自由的更换API和功能。</para>
+
+  <para>下一个阶段，<firstterm>beta</firstterm>是指软件的API已经基本完善，所有影响大的Bug都已经被消灭了，但是软件还未经过足够的测试，因而还不能正式发布。Beta软件的目的有二，一是在未发现Bug的情况下正式发布软件，二是提供给开发人员详细的回馈，以便他们能够尽快解决问题之后正式发布软件。在Beta软件系列中，API和功能不到万不得已就不该改变了。</para>
 </sidebar>
 
 </sect2>
@@ -190,7 +245,7 @@ linkend="legal"/>。</para>
 
 <para>发行机制应该尽量做到方便，标准化以及清楚无误。假如你要根除一种疾病，你分发的药物不会是需要一种非标准化的注射器来操作的吧。同样的道理，软件应该与标准化的构造和安装方法相一致；一个软件距离标准化越远，用户和开发人员放弃该软件并且一头雾水地离开的可能性就越大。</para>
 
-<para>那听起来是显而易见的道理，但是许多项目往往等到很晚的时候才动手解决标准化安装程序，因为他们总是告诉自己这一步什么时候都可以做：<emphasis>“等到代码接近完工的时候再来解决这些所有的问题吧。”</emphasis>殊不知在拖延完成软件建设和安装程序这类枯燥工作的时候，他们实际上是在推迟完成代码的时间&mdash;因为他们让一些本来可以为软件编程做贡献的开发人员失去了兴趣。最糟糕的是，他们根本就<emphasis>不知道</emphasis>他们失去了那些开发人员，因为那是一连串无果而终的一个过程：某人拜访了一个网页，下载了软件，试图参与构建，失败了，放弃而离开了。除了拜访者本人以外，谁会知道发生了这一切？项目参与者中谁也不会意识到某位拜访者的兴趣和良好意愿在悄无声息中便被扼杀了。</para>
+<para>那听起来是显而易见的道理，但是许多项目往往等到很晚的时候才动手解决标准化安装程序，因为他们总是告诉自己这一步什么时候都可以做：<emphasis>“等到代码接近完工的时候再来解决这些所有的问题吧。”</emphasis>殊不知在拖延完成软件建设和安装程序这类枯燥工作的时候，他们实际上是在推迟完成代码的时间&mdash;因为他们让一些本来可以为软件编程做贡献的开发人员失去了兴趣。最糟糕的是，他们根本就<emphasis>不知道</emphasis>他们失去了那些开发人员，因为那是一连串无果而终的一个过程：某人访问了一个网页，下载了软件，试图参与构建，失败了，放弃而离开了。除了访问者本人以外，谁会知道发生了这一切？项目参与者中谁也不会意识到这位访问者的兴趣，然而 一个良好的意愿在悄无声息中便被扼杀了。</para>
 
 <para>枯燥但具有高回报的工作应该尽早完成，而通过良好包装便能够大大降低进入项目障碍的工作显然是具有很高的回报率的。</para>
 
@@ -203,11 +258,22 @@ linkend="release-numbering"/>，而构建和安装程序标准化的详细内容
 <sect2 id="vc-and-bug-tracker-access">
 <title>版本控制和Bug跟踪访问</title>
 
-<para>下载源码软件包对于只想安装和使用软件的人来说足矣，但对于想要解决bug问题或增加新特性的那些人就不够了。尽管每夜源代码快照会有些帮助，但是对一个活跃的开发社区来说，仍然不够细致。人们需要实时进入最新的代码系统，而能够实现这一点的途径便是使用版本控制系统。如果一个人在匿名情况下便可以获取受版本控制的代码，那就意味着该软件对用户和开发人员昭示：项目正努力为人们的参与创造条件。要是你不能马上提供版本控制，也应该出一个声明，告知人们你会尽快那样做。有关版本控制的基础架构详见<phrase output="printed"><xref linkend="technical-infrastructure"/>中的</phrase><xref linkend="vc"/>。</para>
+<para>下载安装包对于只想安装使用该软件的人来说还可以，但对于想要调试或添加新功能的人来说就不够了。每晚对源代码的快照能够起到帮助的作用，但若是对于一个蓬勃发展的开源社区来说的话，就显得不够精细了。人们需要一个对最新源代码能够实时访问的途径，并能够针对该版本的源代码提交修改意见。</para>
 
-<para>对于项目的Bug跟踪系统来说，也是同样的道理。Bug跟踪系统之所以重要不只因为它对开发人员十分有用，而且对关注项目的人来说是一种标志。在许多人看来，一个可以进入的Bug数据库是一个项目是否严肃认真的重要标志之一。再者，数据库中的Bug数量越多，项目看起来越好。这听起来似乎有悖常理，但是请记住Bug数量的记录实际上取决于三个因素：软件中存在的Bug绝对数量，使用该软件的用户人数，以及用户记录新发现的Bug的方便程度。在这三个因素当中，后两个比前一个重要得多。任何具有一定规模和复杂性的软件基本上都存在一定数量有待被发现的Bug。真正的问题是，一个项目在记录和优先解决Bug问题方面做得有多好？如果一个项目有一个较大而又维护得很好的Bug数据库（意思是bug问题得到及时地回应，重复bug被合并等等），那么这个项目就会比那些没有Bug数据库，或者Bug数据库里空空如也的项目给予人们更好的印象。</para>
+<para>很好的一个解决方案就是使用版本控制系统&mdash;特别地，一个在线公开访问的版本控制仓库（version controlled repository），任何人都可以查看项目的文件和更新。一个版本控制仓库&mdash;对开发者和用户来说&mdash;都是一个项目在努力让大家参与其中的信号。目前为止，很多的开源项目都在用<ulink
+url="https://github.com/" >https://github.com/</ulink>，它为开源项目提供无限制的自由公开版本控制储存服务。尽管Github并不是唯一选择，也不是唯一好的选择，但对于绝大部分项目来说，它是很合理的<footnote><para>虽然GitHub是基于Git这个开源版本控制系统，但运营Github网页服务的代码本身却并非是开源的。这是否会对你的项目造成困扰？我将在这里进一步讨论<xref linkend="canned-hosting"/><phrase
+condition="treeware"> in <xref
+linkend="technical-infrastructure"/></phrase></para></footnote>。版本控制架构的细节讨论在这里<xref
+linkend="vc"/><phrase condition="treeware">属于<xref
+linkend="technical-infrastructure"/></phrase>.</para>
 
-<para>当然，如果你的项目刚刚起步，那么Bug数据库里就只有为数不多的Bug，而对此你也没有什么办法。但是如果在开发状况页强调项目仍处于初创期，且人们看到bug数据库里大多数的文档都是近期建立的，他们便可以由此推断出该项目仍然有良好的解决<emphasis>率</emphasis>，也就不会因为看到相对较低的已经记录的Bug绝对数量而产生不适当的警觉。</para>
+<para>对于项目的Bug跟踪系统来说，也是同样的道理。Bug跟踪系统之所以重要不只因为它对开发人员十分有用，而且对关注项目的人来说是一种标志。在许多人看来，一个可以进入的Bug数据库是一个项目是否严肃认真的重要标志之一。&mdash;再者，数据库中的Bug数量越多，项目看起来<emphasis>越好</emphasis>。这听起来似乎有悖常理，但是请记住Bug数量的记录实际上取决于三个因素：软件中存在的Bug绝对数量，使用该软件的用户人数，以及用户记录新发现的Bug的方便程度。在这三个因素当中，后两个比前一个重要得多。任何具有一定规模和复杂性的软件基本上都存在一定数量有待被发现的Bug。真正的问题是，一个项目在记录和优先解决Bug问题方面做得有多好？如果一个项目有一个较大而又维护得很好的Bug数据库（意思是bug问题得到及时地回应，重复bug被合并等等），那么这个项目就会比那些没有Bug数据库，或者Bug数据库里空空如也的项目给予人们更好的印象。</para>
+
+<para>当然，如果你的项目刚刚起步，那么Bug数据库里就只有为数不多的Bug，而对此你也没有什么办法。但是如果在开发状况页强调项目仍处于初创期，且人们看到bug数据库里大多数的文档都是近期建立的，他们便可以由此推断出该项目仍然有良好的解决<emphasis>率</emphasis>，也就不会因为看到相对较低的已经记录的Bug绝对数量而产生不适当的警觉。<footnote><para>For a more thorough argument that bug reports
+should be treated as good news, see 如果想看关于bug跟踪系统更详细的介绍，参见这里<ulink
+url="http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/"
+>http://www.rants.org/2010/01/10/bugs-users-and-tech-debt/</ulink>,里面介绍了bug数据库的累积并<emphasis>不是</emphasis>代表了技术债务（Technical debt）<ulink url="https://en.wikipedia.org/wiki/Technical_debt"
+>https://en.wikipedia.org/wiki/Technical_debt</ulink>) 而是反映了用户的积极参与。</para></footnote></para>
 
 <para>请注意Bug跟踪系统的用途不止追踪软件的Bug，而且也用来跟踪扩展请求，文档变更，待解决的任务，以及其它一些问题。运行一个Bug跟踪系统的详细内容见<phrase output="printed"><xref linkend="technical-infrastructure"/>中的</phrase><xref linkend="bug-tracker"/>，所以在此我就不赘述了。重要的是，Bug跟踪<emphasis>一定</emphasis>要显示出来，而且要确保项目的首页上便能看到这一点。</para>
 
@@ -217,10 +283,10 @@ linkend="release-numbering"/>，而构建和安装程序标准化的详细内容
 <sect2 id="communications-channels">
 <title>沟通渠道</title>
 
-<para>项目的访客通常都希望知道如何能联系上参与项目的有关人员。提供邮件列表地址、聊天室、IRC频道、以及任何其它形式的论坛，以便其他参与项目的人同样可以联系上。告诉人们你和项目的其他有关人员都在邮件列表上，因而人们便知道他们有途径将回馈传递给开发人员。你在邮件列表上并不意味着你承诺回答所有的问题，也不等于你要满足所有人提出的有关特性的要求。长远来看，大多数用户或许根本从不参与论坛，然而，如果他们知道他们需要的时候<emphasis>可以</emphasis>那样做，那对他们就是一种欣慰。</para>
+<para>项目的访客通常都希望知道如何能联系上参与项目的有关人员。提供邮件列表地址、聊天室、IRC频道(<xref linkend="technical-infrastructure"/>)、以及任何其它形式的论坛，以便其他参与项目的人同样可以联系上。告诉人们你和项目的其他有关人员都在邮件列表上，因而人们便知道他们有途径将回馈传递给开发人员。你在邮件列表上并不意味着你承诺回答所有的问题，也不等于你要满足所有人提出的有关特性的要求。长远来看，大多数用户或许根本从不参与论坛，然而，如果他们知道他们需要的时候<emphasis>可以</emphasis>那样做，那对他们就是一种欣慰。</para>
 
 <para>在项目开发初期，没有必要将用户论坛与开发人员论坛分开。更好的办法是让所有与软件有关的人员在“同一间屋子”里进行交谈。在早期使用软件的人当中，开发人员与用户之间的界线通常很模糊；不是没有界线，但是开发人员与用户之间的比例在项目早期远远高于后面的阶段。尽管我们不能假设每一位早期与项目有关的人都是想要介入软件开发的编程人员，但是我们可以肯定他们至少很有兴趣地关注项目发展中进行的讨论，并了解项目发展的方向。</para>
-   
+
 <para>由于本章只讨论项目的初建，所以在此我们只要说明有必要建立以上所说的交流论坛就行了。稍后，在<phrase output="printed"><xref linkend="communications"/></phrase>中的<xref linkend="growth"/>，我们将讨论在什么地方以及如何建立这样的论坛，及可能需要的协调和其它方面的管理，另外，在时机成熟的时候，如何分离用户与开发人员的论坛而避免造成无法逾越的鸿沟。</para>
 
 </sect2>
@@ -231,7 +297,7 @@ linkend="release-numbering"/>，而构建和安装程序标准化的详细内容
 
 <para>如果有人考虑参与项目，她会寻找开发者指南。与社会性文档相比，开发者指南通常没有很多的技巧：只需要解释开发者之间，以及与用户之间如何交互，以及如何最终完成任务。</para>
 
-<para>这部分的细节可以看<phrase output="printed"><xref linkend="social-infrastructure"/>中的</phrase><xref linkend="written-rules"/>，但开发指南的基本元素包括：<itemizedlist><listitem><para>与其它开发者交流论坛的链接</para> 
+<para>这部分的细节可以看<phrase output="printed"><xref linkend="social-infrastructure"/>中的</phrase><xref linkend="written-rules"/>，但开发指南的基本元素包括：<itemizedlist><listitem><para>与其它开发者交流论坛的链接</para>
   </listitem>
   <listitem><para>报告Bug和提交补丁的指导</para>
   </listitem>
@@ -239,9 +305,19 @@ linkend="release-numbering"/>，而构建和安装程序标准化的详细内容
   </listitem>
 </itemizedlist>
 
-对于“专制”这里没有任何轻蔑的含义。如果存在一个开发者对所有变更拥有否决权，这完全没有问题。许多成功的项目以这种方式进行。关键是项目能够说出来它的做法。一个假装民主的独裁会让人厌恶；如果独裁者只要有能力并被信任，一切都会很好。</para>
-  
-<para>完整的开发者指南实例可以看<ulink url="http://svn.collab.net/repos/svn/trunk/www/hacking.html"/>，或者是更加关注管理和参与精神，而较少关注技术事务的<ulink url="http://www.openoffice.org/dev_docs/guidelines.html"/>。</para>
+对于“专制”这里没有任何轻蔑的含义。如果存在一个开发者对所有变更拥有否决权，这完全没有问题。许多成功的项目以这种方式进行。关键是项目能够说出来它的做法。一个假装民主的独裁会让人厌恶；如果独裁者只要有能力并被信任，一切都会很好。(参见 <xref linkend="forkability"/><phrase
+condition="treeware"> 位于 <xref linkend="social-infrastructure"/></phrase>
+你就会明白为什么在开源项目里的独裁和生活中其他的独裁不一样。)</para>
+
+<para><ulink
+url="http://subversion.apache.org/docs/community-guide/"
+>http://subversion.apache.org/docs/community-guide/</ulink>这是一个挺不错的开发者手册，另外Libreoffice的手册也是一个不错的例子：
+<ulink
+url="https://wiki.documentfoundation.org/Development"
+>https://wiki.documentfoundation.org/Development</ulink> </para>
+
+<para>如果项目有写一个行为准则(see <xref
+linkend="code-of-conduct"/>),那么开发者手册也应有个链接指向它。</para>
 
 <para>为程序员提供单独的软件指导的问题会在<phrase output="printed">本章后面的</phrase><xref
 linkend="developer-documentation"/>讨论。</para>
@@ -256,7 +332,8 @@ linkend="developer-documentation"/>讨论。</para>
 
 <para>一个隐伏的事实是，文档对于编写者的功用与阅读者的功用是相反的。对于初始用户来说最重要的是基础文档：如何快速配置软件，软件如何工作的概述以及一些常规操作的指导。而这些通常是<emphasis>编写者</emphasis>所非常熟悉的内容&mdash;以至于很难从读者的角度看问题，因而他们不会费力去表述一些非常明显而不值一提的步骤。</para>
 
-<para>对这个问题没有神奇的解决办法。必须有人坐下来写好内容，然后交给普通的用户来验证它的质量。使用简单和容易编辑的格式，例如HTML、纯文本、Texinfo或一些XML的变种&mdash;便于在激励下可以轻型和快速的作出改进。这不仅是为了消除最初作者进行增量改进所带来的代价，也是为了希望修改文档的新加入者。</para>
+<para>对这个问题没有神奇的解决办法。必须有人坐下来写好内容，然后交给普通的用户来验证它的质量。使用简单和容易编辑的格式，例如HTML、纯文本、Texinfo或一些XML的变种&mdash;便于在激励下可以轻型和快速的作出改进<footnote><para>一开始你并不用太担心选择一个正确的格式，如果未来想换的话，随时可以用这个自动转换：<ulink url="http://johnmacfarlane.net/pandoc/"
+>http://johnmacfarlane.net/pandoc/</ulink>.</para></footnote>。这不仅是为了消除最初作者进行增量改进所带来的代价，也是为了希望修改文档的新加入者。</para>
 
 <para>一个保证基本初始文档完成的方法是预先限制其范围。这种方法至少不会让我们感觉是在完成一个开放结尾的任务。一个经验是它必须达到下面的最低标准：</para>
 
@@ -271,7 +348,7 @@ linkend="developer-documentation"/>讨论。</para>
   </listitem>
 </itemizedlist>
 
-<para>最后一点更广泛重要，也更实际，并可以应用到整个项目中，而不仅仅是文档中。开源领域中一个都知道的问题就是项目规范。你不必夸大项目的这种短处，你只需小心冷静的识别出需要这种规范（说明文档、Bug跟踪数据库或邮件列表讨论中都可以）的场景。就项目而言，没有人会视其为失败主义，也不会认为这是对在特定日期完成的承诺，除非项目明确作出这种承诺。因为使用软件的所有人都会发现这种不足，他们最好能在心理上做好准备&mdash;然后项目就有了解决这些问题的坚实知识。</para>
+<para>最后一点在很多的地方都很重要，实际上，并可以应用到整个项目中，而不仅仅是文档中。开源领域中一个都知道的问题就是项目规范。你不必夸大项目的这种短处，你只需小心冷静的识别出需要这种规范（说明文档、Bug跟踪数据库或邮件列表讨论中都可以）的场景。就项目而言，没有人会视其为失败主义，也不会认为这是对在特定日期完成的承诺，除非项目明确作出这种承诺。因为使用软件的所有人都会发现这种不足，他们最好能在心理上做好准备&mdash;然后项目就有了解决这些问题的坚实知识。</para>
 
 <sidebar id="starting-a-faq">
   <title>维护FAQ</title>
@@ -280,8 +357,13 @@ linkend="developer-documentation"/>讨论。</para>
 
   <para>但很不幸，你不可能在项目的开始就完成FAQ。好的FAQ不是写成的，而是长成的。它们是通过定义响应文档，随着人们对软件的日常使用而进化。因为不能预感到用户将会提出的问题，所以我们无法从头开始编写有用的FAQ。</para>
 
-  <para>因此，不要在这方面浪费时间了。但无论如何，你或许会发现创建一个FAQ的空白模板会很有用，很明显这样可以帮助人们在项目进行中贡献问题和答案。此时，最重要的性质不是完整，而是方便：如果添加FAQ非常简单，人们就会去添加。 （正确的FAQ维护应该是特殊和迷惑性的问题，将会在<phrase output="printed"><xref linkend="managing-volunteers"/></phrase>的<xref
-  linkend="faq-manager"/>详细讨论。）</para>
+  <para>因此，不要在这方面浪费时间了。但无论如何，你或许会发现创建一个FAQ的空白模板会很有用，很明显这样可以帮助人们在项目进行中贡献问题和答案。此时，最重要的性质不是完整，而是方便：如果添加FAQ非常简单，人们就会去添加。 （正确的FAQ维护应该是不琐碎和具迷惑性的问题，将会在下面部分地方讨论<xref
+  linkend="manager-is-not-owner"/><phrase condition="treeware" > 位于
+  <xref linkend="managing-participants"/></phrase>,
+  <xref linkend="q-and-a-forums"/><phrase condition="treeware" > 位于
+  <xref linkend="technical-infrastructure"/></phrase>, 和 <xref
+  linkend="all-as-archives"/><phrase condition="treeware" > 位于 <xref
+  linkend="communications"/></phrase>.)</para>
 </sidebar>
 
 <sect3 id="documentation-availability">
@@ -298,7 +380,8 @@ page&quot;，以提醒人们知道需要更长的下载时间）单独HTML页的
 <title>开发者文档</title>
 
 <para>开发者文档主要为了帮助程序员理解代码，从而修改和扩展软件。这与更关注社交性而不是技术性的<emphasis>开发者指南</emphasis>有些许不同。开发者指南告诉程序员如何与代码本身打交道。为了方便，这两个文档通常会整理为一份文档（例如前面提到的<ulink
-url="http://svn.collab.net/repos/svn/trunk/www/hacking.html"/>），但是这不是必须的。</para>
+url="http://subversion.apache.org/docs/community-guide/"
+>http://subversion.apache.org/docs/community-guide/</ulink>），但是这不是必须的。</para>
 
 <para>尽管开发者文档可能很有用，但也没有为了它而影响发布。只要原始作者还在而且愿意，就可以回答关于代码的问题，一开始这就足够了。实际上，反复回答相同的问题是编写这个文档的动力所在。但即使文档还没有写，坚定地参与者也依然会设法以自己的方式处理代码。驱使人们花时间研究代码基的原因是他们发现这些代码对他们有用。如果人们相信这一点，他们就会花时间去搞明白；如果他们不相信，再多的开发者文档也留不住他们。</para>
 
@@ -306,33 +389,67 @@ url="http://svn.collab.net/repos/svn/trunk/www/hacking.html"/>），但是这不
 
 <para>一些项目使用wiki作为初始文档，甚至作为他们主要的文档。在我的经验里，只有文档是被少数认可文档的组织方式和包含内容的成员编辑时，才能正常工作。更多细节在<phrase output="printed"><xref linkend="technical-infrastructure"/></phrase>的<xref linkend="wikis"/>。</para>
 
+
+<para>如果文档工作流程的基础结构看起来令人生畏，那么你可以考虑使用 <ulink url="https://readthedocs.org/"
+>https://readthedocs.org/</ulink>。现在很多项目都依靠这个来自动完成文档的构建。这个网站能帮你转换格式，并且集成了版本控制仓库功能(所以文档的重建是可以自动完成的),同时它还能做很多其他单调的任务，这样一来你和其他参与者都能更专注于内容开发了。</para>
+
+
 </sect3>
 
 </sect2>
 
 <!-- ======================== subsection ============================== -->
-<sect2 id="example-output">
+<sect2 id="examples-and-demos">
+<!-- For link compatibility with the old section ID. -->
+<anchor id="example-output" />
 <title>输出和屏幕截图实例</title>
 
-<para>如果一个项目包含图形化的用户界面，或者生成图形和其他特别的输出，那么就应该将这些样例放到项目网站上。如果是界面，那应该是截图；对于输出，可以是截图或只是文件。但是为了迎合人们立刻满足的需要：一个单独的截图比大段描述文字和邮件列表的唠叨更让人信服，因为截图是软件能正常<emphasis>工作</emphasis>的不容争辩的证据。它可能充满bug、可能难于安装、可能文档不全，但是截图是一个人投入足够的精力，可以使之运行的证据。</para>
+<!-- For link compatibility with an old sidebar ID. -->
+<anchor id="screenshots" />
 
-<sidebar id="screenshots">
-  <title>屏幕截图</title>
-  <para>如果没做过截图，可能会感觉有点麻烦，这里是一些制作截图的基本指导。使用Gimp（<ulink url="http://www.gimp.org/"/>），打开<guimenu>File</guimenu>-&gt;<guimenu>Acquire</guimenu>-&gt;<guimenu>Screenshot</guimenu>，然后选择<guimenuitem>Single&nbsp;Window</guimenuitem>或
-  <guimenuitem>Whole&nbsp;Screen</guimenuitem>，然后点
-  <guimenuitem>OK</guimenuitem>。然后你的下一次鼠标点击就会捕捉窗口或屏幕，成为Gimp的一个文件。如果必要，还可以对图像进行剪裁和大小调整，相关指导在<ulink url="http://www.gimp.org/tutorials/Lite_Quickies/#crop"/>。</para> 
+<para>如果一个项目包含图形化的用户界面，或者生成图形和其他特别的输出，那么就应该将这些样例放到项目网站上。如果是界面，那应该是截图又或者一个简短的（四分钟以内）有字幕和旁白的短视频。至于输出什么比较好呢？一般来说截图或者能够下载的样本文件就行。至于基于网页的程序，那么一个demo就是最好的了，当然前提是这个程序能够做出demo来。</para>
+
+
+<para>最重要的是即时满足人们渴望看见的东西，当然是以他们期待的方式。单个屏幕截图或视频比描述性文本和邮件列表聊天的段落更具说服力，因为它证明了该软件<emphasis>能够运行</emphasis>。尽管代码可能还有bug，或者难以安装，亦或者不兼容 很多设备，但是基于图像的证据就在告诉人们，只要各方面都做到位的话，这个软件是可以正常运行的。</para>
+
+<sidebar id="video-brevity">
+  <title>保证视频都很简洁， <emphasis>告诉大家</emphasis>它们很简洁。</title>
+  <para>如果你有一个关于你项目的视频介绍，保持他比四分钟更短，并且保证用户在点击视频<emphasis>之前</emphasis>就知道视频的长度了。这符合前面提到的“缩放演示原则”：通过消除所有风险，来告诉用户观看视频是一个容易的不错的了解项目的方式。访问者更有可能点击“观看我们的3分钟视频”的链接，而不是点击“观看我们的视频”的链接，因为在前一种情况下，他们知道他们在点击之前会遇到什么&mdash;这样的话她们看的会更认真，也一般不会看一半就不看了，因为看之前在心里就准备好了预期的时间。</para>
+
+<para>至于四分钟限制来自何处：这是一个科学事实，通过同一个实验对象（匿名）的多次尝试确定的。当然，该限制不适用于教程或其他教学材料; 它仅适用于介绍性视频。</para>
+
+<para>如果你还没有用于录制桌面交互视频的首选软件：而你又在使用GNOME 3桌面管理器，则可以使用其内置屏幕录制功能(参见
+<ulink
+url="https://help.gnome.org/users/gnome-help/stable/screen-shot-record.html.en#screencast"
+>https://help.gnome.org/users/gnome-help/stable/screen-shot-record.html.en#screencast</ulink>&mdash;只要按下
+<keycap>Ctl</keycap>+<keycap>Alt</keycap>+<keycap>Shift</keycap>+<keycap>R</keycap>
+就能开始录像，然后再一次按下
+<keycap>Ctl</keycap>+<keycap>Alt</keycap>+<keycap>Shift</keycap>+<keycap>R</keycap>
+就能停止)。当然还有很多开源的视频编辑器； <filename>OpenShot</filename>
+用来编辑录制以后的视频还是挺不错的。</para>
 </sidebar>
-  
+
 </sect2>
 
 <para>还有一些东西需要放置到网站中，如果你有时间，或者如果出于某种原因而显得特别合适：一个新闻页、一个项目历史页、一个相关链接页、站点搜索特性和捐赠页等等。开始时这些都不是必要的，但将来要一直留意。</para>
 
-<sect2 id="starting-with-canned-hosting">
-<title>包装主机</title>
+<sect2 id="hosting">
+<title>上线</title>
 
-<para>有一些站点为开源项目提供免费的主机和基础设施：web站点、版本控制、bug跟踪、下载区、讨论论坛和定期备份等等。具体细节站点之间各不相同，通过使用这些站点，你可以免费得到基础服务。但是很明显你也同时放弃了通过用户经验，来进行细化控制的能力。主机服务决定了站点运行的软件，也控制了或至少影响了项目站点的感观。</para>
+<!-- For link compatibility with the old section id. -->
+<anchor id="starting-with-canned-hosting" />
 
-<para><phrase output="printed"><xref linkend="technical-infrastructure"/>的</phrase><xref linkend="canned-hosting"/>是包装主机优缺点的详细讨论，也有提供这种服务的站点列表。</para>
+<para>我们应该把项目的材料都放在什么地方呢？</para>
+
+<para>当然是放在一个网站上面&mdash;但是这个答案的完整版就不是那么简单了。</para>
+
+<para>很多项目对于主要呈现给用户看的页面&mdash;就是那种有各种漂亮图片和“About”页面写了清晰的介绍并附上视频诸如此类的东西&mdash;和给开发者看的页面有着天壤之别。在开发者页面里一切都显得有点不如人意，例如在等宽字体和不可穿透的缩写中充满了间距紧密的文本.</para>
+
+<para>好吧，我夸张了一点。无论如何，在项目的早期阶段，区分这两个受众并不是那么重要。大多数感兴趣的访问者将是开发人员，或者至少是那些愿意尝试新代码的人。随着时间的推移，您可能会发现有必要去拥有一个面向用户的站点（当然，如果你的项目是代码库，那些“用户”可能是其他程序员），并且对于那些有兴趣参与开发的人来说，还需要一个相对独立的协作区域。后者将具有代码存储库，错误跟踪器，开发百科，开发邮件列表的链接等。这两个站点应该相互链接，特别是面向用户的站点应该清楚地表明项目是开源的和哪里可以找到开源开发活动。</para>
+
+<para>过去，许多项目都是自己设置开发人员站点和网站的基础架构。但最近十多年来，大部分开源项目&mdash;几乎所有的新项目&mdash;就直接用"canned hosting"网站提供的服务。到目前2018年为止最流行的还是GitHub (<ulink url="https://github.com/" >https://github.com/</ulink>)，如果你没有别的偏好的话，你可能也就用GitHub了吧，很多开发者都已经熟悉了这个网站并有自己的账号了。关于选取这类站点的更多细节以及介绍，请参见 <xref
+linkend="canned-hosting"/><phrase condition="treeware"> in <xref
+linkend="technical-infrastructure"/></phrase></para>
 
 </sect2>
 
@@ -344,6 +461,20 @@ url="http://svn.collab.net/repos/svn/trunk/www/hacking.html"/>），但是这不
 <title>选择许可证并应用</title>
 
 <para>这部分是关于选择许可证的快速粗糙指南。阅读<xref linkend="legal"/>可以理解不同许可证的法律含义细节，以及这些许可证如何影响人们将你的软件与其他自由软件混合的能力。</para>
+
+<sidebar id="fsf-and-osi-approved">
+  <title>同义词: "free software license", "FSF-approved", "open source license" 和 "OSI-approved"</title>
+
+  <para>术语"free software license"和"open source license"本质上就是同意的，在本书中我也一直把二者视为等价。</para>
+
+  <para>严格意义上来说，前面那个术语更多指的是Free Software Foundation组织确认过的许可协议，包括为开源软件提供必要的“四种自由”。(参见 <ulink
+  url="https://www.gnu.org/philosophy/free-sw.html"
+  >https://www.gnu.org/philosophy/free-sw.html</ulink>), 而后面那个术语指的是由Open Source Initiative确认的符合开源定义的协议(<ulink url="https://opensource.org/osd"
+  >https://opensource.org/osd</ulink>).  然而，如果你阅读FSF和OSI关于自由软件的定义，你会发现对自由的定义是一致的。&mdash;这也斌不奇怪，正如<xref
+  linkend="free-vs-open-source"/><phrase condition="treeware"> 位于 <xref
+  linkend="introduction"/></phrase> 解释的那样。那么接下来不可避免的结果就是两个也差不多的许可协议。<footnote><para>尽管实际上他们各自准许的协议有轻微的差别，但是对我们做项目的并没有太多影响&mdash;以及其他很多实用的地方也都差别不大。通常如果不是很常用的许可协议，这两个组织都不会去仔细分析。曾经这两个组织也都达成一致，有过一个协议符合其中一个组织的定义，但不符合另一个的要求。每当我试图找寻更多关于此事的细节，但得到的许可协议的名字却总不相同，但反正这些协议也不常见到，所以现在你可能用到的协议里面，"OSI-approved"和 "FSF-approved"就没有什么区别的了。</para></footnote></para>
+</sidebar>
+
 
 <para>确实有大量可供选择的许可证。其中大多数我们这里不必讨论，因为他们通常是为了满足公司或个人的特定法律需求，不会适合你的项目。我们会限制为大多数常见的许可证；大多数情况下，你会从其中选择一个。</para>
 
@@ -359,7 +490,16 @@ url="http://svn.collab.net/repos/svn/trunk/www/hacking.html"/>），但是这不
 <sect2 id="license-quickstart-gpl">
 <title>GPL</title>
 
-<para>如果你不希望你的代码在私有程序中使用，可以使用GNU的通用公共许可证。GPL可能是当世最广泛公认得自由软件许可证。在本质上是一个巨大的优势，因为许多潜在的用户和贡献者已经对此许可证十分熟悉。更多细节看<phrase output="printed"><xref linkend="legal"/>的</phrase><xref linkend="license-choosing-gpl"/>。</para>
+<para>如果你不希望你的代码在私有程序中使用，可以使用GNU的通用公共许可证（GNU General Public License, version 3 (<ulink
+url="https://www.gnu.org/licenses/gpl.html"
+>https://www.gnu.org/licenses/gpl.html</ulink>)）。GPL可能是当世最广泛公认得自由软件许可证。在本质上是一个巨大的优势，因为许多潜在的用户和贡献者已经对此许可证十分熟悉，所以用户都不用花更多的时间去阅读和理解这个许可协议。更多细节看<phrase output="printed"><xref linkend="legal"/>的</phrase><xref linkend="license-choosing-gpl"/>。</para>
+
+<sidebar>
+<para>If users interact with your code primarily over a
+network connection如果用户对你们代码的主要需求要联网才能实现&mdash;也就是说提供的软件是在线提供的话，而不是分发给每个用户在自己的机器上下载使用&mdash;&nbsp;那么你们可以考虑使用<firstterm>GNU Affero GPL</firstterm> 代替GPL。这个AGPL就是在GPL的基础上添加了一句对在线访问目的的要求。可以参见 <xref
+linkend="gnu-affero-gpl"/><phrase condition="treeware">位于<xref
+linkend="legal"/></phrase>了解更多.</para>
+</sidebar>
 
 </sect2>
 
@@ -367,12 +507,15 @@ url="http://svn.collab.net/repos/svn/trunk/www/hacking.html"/>），但是这不
 <sect2 id="license-quickstart-applying">
 <title>如何为你的软件应用许可证</title>
 
-<para>一旦你选择了一个许可证，你必须在项目首页注明。你不必引入许可证的实际文本；只需要提供许可证的名称，并提供到完整许可证文本的链接。</para>
+<para>一旦你选择了一个许可证，你就需要去应用它。</para>
 
-<para>这告知公众你<emphasis>希望</emphasis>软件按照何种许可证发布，但是对于法律目的还不足够。这个软件本身必须包含许可证。一个常见的做法是将许可证全文保存到一个叫做<filename>COPYING</filename>（或<filename>LICENSE</filename>）文件中，其中包含了许可证的全文，然后还要注意在每个源文件的开头，注明版权日期、所有者和许可证，以及何处可以找到版权全文。</para>
+<para>
+你需要做的第一件事就是在项目首页注明。你不必引入许可证的实际文本；只需要提供许可证的名称，并提供到完整许可证文本的链接。这告知公众你<emphasis>希望</emphasis>软件按照何种许可证发布，但是对于法律目的还不足够。这个软件本身必须包含许可证。</para>
+
+<para>一个常见的做法是将许可证全文保存到一个叫做<filename>COPYING</filename>（或<filename>LICENSE</filename>）文件中，其中包含了许可证的全文，然后还要注意在每个源文件的开头，注明版权日期、所有者和许可证，以及何处可以找到版权全文。</para>
 
 <para>这个模式也有许多变种，所以我们这里看一个实例。GNU的GPL说可以在每个源文件的开头放置如下的提醒：</para>
-
+或者<filename>LICENSE</filename>
 <screen>
 Copyright (C) &lt;year&gt;  &lt;name of author&gt;
 
@@ -391,7 +534,9 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 </screen>
 
-<para>并不是说随程序收到的许可证拷贝在文件<filename>COPYING</filename>中，而是它通常放置在那个地方（你可以在上面的声明中直接注明位置）。这个模板给了获取许可证版权的地理地址。另一个常见的方法是提供包含许可证的网页链接。只要使用你的判断并指出你认为版权能够永久保存的位置，也可以是你项目网站的某个位置。一般来说，你在每个源文件放置的通告不会和上面这个完全一样，只需要其包含版权持有者和日期，以及版权的名称，并明确指明完全许可证的位置即可。</para>
+<para>并不是说随程序收到的许可证拷贝在文件<filename>COPYING</filename>或者<filename>LICENSE</filename>中，而是它通常放置在那个地方（你可以在上面的声明中直接注明位置，但没有什么必要）。</para>
+
+<para>一般来说，你在每个源文件放置的通告不会和上面这个完全一样，只需要其包含版权持有者和日期，以及版权的名称，并明确指明完全许可证的位置即可。<footnote><para>基于版权的目的，每当文件被修改了，那么就需要记录下修改的日期。换句话说，如果一个文件在2008年、2009年和2013年被编辑过，那你就要写下“2008,2009,2013”&mdash;<emphasis>而不是</emphasis>“2008-2013”，因为该文件并非在这个区间里的每一年都被修改了。</para></footnote>, 当然了，如果有钱的话，最好的方式还是请一名律师吧。</para>
 
 </sect2>
 
@@ -401,7 +546,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 <sect1 id="setting-tone">
 <title>设置风格</title>
 
-<para>我们已经覆盖了配置项目时的大多数一次性任务：选择一个许可证，安排初始的网站等等。但是开始一个新项目时最重要的方面是会变化的。选择一个邮件列表地址很容易；而保证列表的对话不走题且有效率则完全是另一回事情。如果项目经过多年的关闭，内部的开发，重新开始时开发过程将会改变，你需要准备开发者来应对这种变化。</para>
+<para>我们已经覆盖了配置项目时的大多数一次性任务：选择一个许可证，安排初始的网站等等。但是开始一个新项目时最重要的方面是会变化的。选择一个邮件列表地址很容易；而保证讨论的内容不偏题且有效率则完全是另一回事情。如果项目经过多年的关闭，内部的开发，重新开始时开发过程将会改变，你需要准备开发者来应对这种变化。</para>
 
 <para>第一步是最难的，因为未来管理的先例和预期都没有设置。正式的规则还没有带来项目的稳定性，而是由开发过程中共享的难以稳定的团体智慧带来。也许有已经写好的规则，但通常是通过难以预料的，不断进化的协议来引导项目。写好的规则不能定义其描述的项目文化，即使后来也是近似而已。</para>
 
@@ -421,7 +566,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 -->
 
 <para>通过特定实例，你可以设置好的先例。这不必是一个完整的列表，但是通过尽早设置这样的协作情绪的方法，可以大大的帮助项目。从物理上讲，每个开发者都在自己的房间独立工作，但是你可以设法让他们<emphasis>感觉</emphasis>是在一个房间一起工作。他们这样的感觉越多，就会在项目上花费更多的时间。我选择了这些例子，因为这些实例来自Subversion项目（<ulink
-url="http://subversion.tigris.org/"/>），而我从一开始就参与并观察了这些实例。但是这不仅仅对Subversion有效；大多数开源项目中都会遇到类似的情形，这是开个好头的好机会。</para>
+url="http://subversion.apache.org/" >http://subversion.apache.org/</ulink>），而我从一开始就参与并观察了这些实例。但是这不仅仅对Subversion有效；大多数开源项目中都会遇到类似的情形，这是开个好头的好机会。</para>
 
 <!-- ======================== subsection ============================== -->
 <sect2 id="avoid-private-discussions">
@@ -447,7 +592,7 @@ url="http://subversion.tigris.org/"/>），而我从一开始就参与并观察�
 
 </para>
 
-<para>最后，很有可能某个人会提出一个你从想到过的好主意，给对话带来真正的贡献。很难说这有多大的可能；这仅仅由代码的复杂程度和需求的专业程度决定。但是如果允许我使用轶事作为证据，我会证明这样做比直觉所期望的结果更好。在Subversion项目，我们（创始人）相信我们面对的是一组深入而复杂的问题，为此我们痛苦思考了几个月，我们很明确的怀疑在新建立的邮件列表中的会有任何人做出真正的贡献。所以我们选择了一条比较懒惰的方式，开始通过私下邮件讨论技术想法，直到项目的一个观察者<footnote><para>我们这里不是为了还债，而是实践我前面讲的说教：这位观察者的名字是Brian Behlendorf，他指出了除隐私原因以外，保持所有讨论公开的普遍重要性。</para></footnote>嗅出了问题，并要求将讨论公开。眨了眨眼我们这样做了&mdash;后来的结果让我们十分惊讶，我们很快便获得了许多有见地的回复和建议。大多数情况下人们提供的想法都是我们从来没有想到的。结果是邮件列表中一下子多了许多<emphasis>非常</emphasis>英明的人；他们只是在等待正确的诱饵。可以肯定地是公开讨论比私下讨论会保持更长的时间，也能得到更多的产出，花费额外的时间是值得的。</para>
+<para>最后，很有可能某个人会提出一个你从没想到过的好主意，给对话带来真正的贡献。很难说这有多大的可能；这仅仅由代码的复杂程度和需求的专业程度决定。但是如果允许我使用轶事作为证据，我会证明这样做比直觉所期望的结果更好。在Subversion项目，我们（创始人）相信我们面对的是一组深入而复杂的问题，为此我们痛苦思考了几个月，我们很明确的怀疑在新建立的邮件列表中的会有任何人做出真正的贡献。所以我们选择了一条比较懒惰的方式，开始通过私下邮件讨论技术想法，直到项目的一个观察者<footnote><para>我们这里不是为了还债，而是实践我前面讲的说教：这位观察者的名字是Brian Behlendorf，他指出了除隐私原因以外，保持所有讨论公开的普遍重要性。</para></footnote>嗅出了问题，并要求将讨论公开。眨了眨眼我们这样做了&mdash;后来的结果让我们十分惊讶，我们很快便获得了许多有见地的回复和建议。大多数情况下人们提供的想法都是我们从来没有想到的。结果是邮件列表中一下子多了许多<emphasis>非常</emphasis>英明的人；他们只是在等待正确的诱饵。可以肯定地是公开讨论比私下讨论会保持更长的时间，也能得到更多的产出，花费额外的时间是值得的。</para>
 
 <para>我们不必把问题总结为：“团结就是力量”（我们已经见过许多更成功的团队），但可以确认的是有一些事情适于在团队中完成。首先是有了大量的审阅；其次是快速产生大量的想法。想法的质量由其所针对的思想决定，当然，在你用挑战性的问题刺激他们之前，你无法判断这些思考者是那种人。</para>
 
@@ -471,9 +616,34 @@ url="http://subversion.tigris.org/"/>），而我从一开始就参与并观察�
       <para><emphasis>现在，对于这个建议。我认为M所说的是正确的...</emphasis></para>
     </blockquote>
 
-<para>因为此回复的不自然，会有显著的效果。如果你对于坏的行为保持一贯的行动，而不是要求攻击方进行道歉和承认，这样就让人们可以自由的冷静下来，而在下一次能够表现的更有礼貌一点&mdash;他们会的。这样做能成功的诀窍是不要将元讨论作为主题。它必须放在一边，成为回复主要部分的简短序言。通过顺便提及指出“我们这里不是这么做的”，然后转移到真正的内容，这样你就给了人们一些可以回复的话题。如果有人抗议他们不应该受到你的责难，只需要拒绝讨论这个问题。除了不回复（如果你认为他们只是精力过剩，不需要回复），也可以说你为反应过度而道歉，而且在邮件中很难感到这种微妙之处，然后回到主题。绝不在任何时候要求一个人为不合适行为作出承认，无论是公开还是私下的。如果他们选择随自己的意愿进行道歉，那样很好，但是要求他们那么做只会导致怨恨。</para>
+<para>因为此回复的不自然，会有显著的效果。如果你对于坏的行为保持一贯的行动，而不是要求攻击方进行道歉和承认，这样就让人们可以自由的冷静下来，而在下一次能够表现的更有礼貌一点&mdash;他们会的。</para>
+
+<para>这样做能成功的诀窍是不要将元讨论作为主题。它必须放在一边，成为回复主要部分的简短序言。通过顺便提及指出“我们这里不是这么做的”，然后转移到真正的内容，这样你就给了人们一些可以回复的话题。如果有人抗议他们不应该受到你的责难，只需要拒绝讨论这个问题。除了不回复（如果你认为他们只是精力过剩，不需要回复），也可以说你为反应过度而道歉，而且在邮件中很难感到这种微妙之处，然后回到主题。绝不在任何时候要求一个人为不合适行为作出承认，无论是公开还是私下的。如果他们选择随自己的意愿进行道歉，那样很好，但是要求他们那么做只会导致怨恨。</para>
 
 <para>总体目标是将好的礼节视为“团队内”的行为。这可以帮助项目，因为开发者会由于论战而流失（即使是他们喜爱和希望提供支持的项目）。你可能甚至不知道他们为什么离开；有些人可能一直潜伏在邮件列表，考虑到加入到项目需要的厚脸皮，就会决定放弃加入。保持论坛的友善是一个长期生存策略，在项目还比较小的时候，这很容易。一旦这成为了文化的一部分，你就不是唯一提升这种文化的人。所有人会一起维护。</para>
+
+</sect2>
+
+<!-- ======================== subsection ============================== -->
+<sect2 id="code-of-conduct">
+<title>行为准则</title>
+
+<para>从这本书2006年出版以后的十年来，开源项目，特别是较大的项目，采用明确的<firstterm>行为准则（code of
+conduct）</firstterm>已经变得更加普遍。我觉得这是一个不错的趋势。随着开源项目最终变得更加多样化，行为准则的存在可以提醒参与者三思而后行，例如某种笑话是否会对某些人造成伤害。行为准则提醒参与者保证一个互相尊重和友好的环境是每个人的责任。</para>
+
+<para>上网随便搜一下就能找到很多开源项目行为准则的例子，但最常用的可能还是这个<ulink url="https://contributor-covenant.org/"
+>https://contributor-covenant.org/</ulink>这样做的好处就是：很多开发者本身就熟悉这个准则了，而且还省去了翻译的费用等等。</para>
+
+<para>不过一个行为准则<emphasis>并不能</emphasis>解决人际交往的问题。甚至于，如果错误使用的话，可能还会造成其他问题。&mdash;总是能找到专门钻社会规则漏洞的人，他们会妨害这个社区而不是帮助它变得更好。(参见 <xref linkend="difficult-people"/><phrase
+condition="treeware"> 位于 <xref linkend="communications"/></phrase>)，如果你不幸运的话，他们可能会出现在你的项目里。确保行为准则被合理正确的执行往往都是项目管理人员（人们愿意听他们的）的任务。(同样参见<xref linkend="rudeness"/><phrase
+condition="treeware"> 位于 <xref linkend="communications"/></phrase>.)</para>
+
+<para>Some participants may genuinely disagree with the need to adopt
+a code at all, and argue against it on the grounds that it could do
+more harm than good. 有些参与者也许真的不认同确认一个准则的需求，甚至觉得那是弊大于利。即使你觉得他们是错的，你也必要保证他们能够陈述自己的观点而不会受到攻击。毕竟，不同意项目需要行为准则，不等价于&mdash;事实上，完全无关于&mdash;参与了违背行为准则的行为。有时候人们会混淆两者的概念，这个区别还是应该得到重视。<footnote><para>这里有一个非常棒的帖子<ulink
+url="https://subfictional.com/2016/01/25/the-complex-reality-of-adopting-a-meaningful-code-of-conduct/"
+>https://subfictional.com/2016/01/25/the-complex-reality-of-adopting-a-meaningful-code-of-conduct/</ulink>
+由Christie Koehler写的，里面讨论了很多这些内容。</para></footnote></para>
 
 </sect2>
 
@@ -487,7 +657,20 @@ url="http://subversion.tigris.org/"/>），而我从一开始就参与并观察�
 
 <para>评审必须是公开的。即使有时我与其他开发者坐在同一个物理房间，我们中的一个做出了提交，我们也尽量不在房间中进行口头评审，而是将其发送到开发邮件列表。所有人会从看到发生的评审获益。人们紧跟着评论，有时会在其中发现瑕疵，即使没有发现，这也会一直提醒他们评审是一个预期的，有规律的活动，就像刷盘子和割草坪。</para>
 
-<para>在Subversion项目，开始时并没有建立有规律的代码评审实践。无法保障所有的提交会得到评审，尽管如此，还是会有人在看到感兴趣的代码块时看一下修改。一些小Bug确实能够，也应该被发现。一个叫Greg Stein的开发者，从以前的工作知道代码评审的重要性，决定通过评审<emphasis>每个单独提交</emphasis>到源代码库的每一行来设立一个范例。每当有人提交，邮件列表就会紧跟着出现Greg的邮件，解剖这次提交，分析可能的问题，偶尔还会赞扬一下聪明的代码。很快，他就发现了其他人会略过而不会注意的Bug和非最优的代码实践。更深刻的是，他从没有抱怨他是唯一评审所有提交的人，尽管这样做占用了他很多时间，但是他确实一有机会就会盛赞代码评审。不久之后，其他人，包括我也开始了有规律的提交评审。我们的动机是什么？不是Greg有意识的让我们为此感到羞愧。而是他已经证明代码评审是值得花费时间的方法，它的贡献与编写新的代码不相上下。一旦他证明了这一点，它就成为预期的行为，以至于如果一个提交者发现没有人对其提交有任何反应，他会感到担心，甚至会在列表中讯问是否有人愿意花时间为其评审。不久之后，Greg得到一个工作，他也没有更多时间为Subversion工作，结束了有规律的评审。但是之后，他的习惯深深影响了我们，似乎这样做是天经地义的。</para>
+
+<para>需要一些技术上的机制来有效地进行变更审阅。特别要提到的是，设置提交通知非常有用。提交通知的效果是，每当有人提交更改到中央存储库时，会发出电子邮件或其他可订阅的通知，显示日志消息和差异（除非差异太大;参见<xref
+linkend="vc-vocabulary-diff"/>，位于<xref linkend="vc-vocabulary"/>)。评论本身可能发生在邮件列表或Gerrit或GitHub"pull request"界面等评论工具中。参见 <xref
+linkend="commit-notifications" /><phrase condition="treeware" >位于<xref
+linkend="technical-infrastructure" /></phrase>的详细说明。</para>
+
+<sect3 id="subversion-commit-review">
+<title>案例研究</title>
+
+<para>在Subversion项目，开始时并没有建立有规律的代码评审实践。无法保障所有的提交会得到评审，尽管如此，还是会有人在看到感兴趣的代码块时看一下修改。一些小Bug确实能够，也应该被发现。一个叫Greg Stein的开发者，从以前的工作知道代码评审的重要性，决定通过评审<emphasis>每个单独提交</emphasis>到源代码库的每一行来设立一个范例。每当有人提交，邮件列表就会紧跟着出现Greg的邮件，解剖这次提交，分析可能的问题，偶尔还会赞扬一下聪明的代码。很快，他就发现了其他人会略过而不会注意的Bug和非最优的代码实践。更深刻的是，他从没有抱怨他是唯一评审所有提交的人，尽管这样做占用了他很多时间，但是他确实一有机会就会盛赞代码评审。不久之后，其他人，包括我也开始了有规律的提交评审。</para>
+
+<para>我们的动机是什么？不是Greg有意识的让我们为此感到羞愧。而是他已经证明代码评审是值得花费时间的方法，它的贡献与编写新的代码不相上下。一旦他证明了这一点，它就成为预期的行为，以至于如果一个提交者发现没有人对其提交有任何反应，他会感到担心，甚至会在列表中讯问是否有人愿意花时间为其评审。不久之后，Greg得到一个工作，他也没有更多时间为Subversion工作，结束了有规律的评审。但是之后，他的习惯深深影响了我们，似乎这样做是天经地义的。</para>
+
+</sect3>
 
 <para>从第一个提交就开始评审。差异评审中最容易检查出来的问题包括安全漏洞、内存泄露、注释不足或API文档问题、位偏移错误、调用/被调用不匹配以及其他在较小的上下文就能发现的问题。然而，即使这类未能将重复的模式抽象到一处的较大规模问题，在经过有规律的评审后也可以被定位出来，因为对以前差异的记忆提醒了对当前差异的评审。</para>
 
@@ -499,18 +682,140 @@ url="http://subversion.tigris.org/"/>），而我从一开始就参与并观察�
 </sect2>
 
 <!-- ======================== SECTION ============================== -->
-<sect2 id="opening-closed-projects">
-<title>将一个封闭项目开放时，对于改变的影响要格外敏感</title>
+<sect2 id="be-open-from-day-one">
+<title>开放要从第一天开始</title>
 
-<para>如果你开放一个已存在的项目，其中已经有了许多习惯于在封闭源代码环境下工作的活跃开发者，你必须确保每个人理解正要发生的重大变化&mdash;你必须设身处地的为他们着想。</para>
+<para>从第一天开始就将你的项目开源。项目以闭源方式运行的时间越长，以后开源就越困难。<footnote><para>本节最初是一篇博文，<ulink
+url="http://archive.civiccommons.org/2011/01/be-open-from-day-one/index.html"
+>http://archive.civiccommons.org/2011/01/be-open-from-day-one/index.html</ulink>, 不过后来加到这里修改了不少。</para>
+</footnote></para>
+
+<para>从一开始就是开源并不意味着你的开发人员必须立即承担社区管理的额外责任。 人们常常认为“开源”意味着“陌生人用问题分散我们的注意力”，但这并其实是可选的&mdash;如果你觉得这对你的项目有所帮助的话，那才这样选，所以还是在你的掌握之中。从一开始就开源的话，就有很多不错的好处，而相反的，如果一个项目闭源时间越久，那就越难在日后开源了。</para>
+
+<para>我认为下面可能是一个潜在的原因：</para>
+
+<para>在项目的每一个阶段，程序员都面临一个选择：是做成兼容开源的模式呢？还是做成不兼容开源的呢？而每当他们选择了后者，那么这个项目就离开源可以说是越来越远了。</para>
+
+<para>关键的是，他们有时候没办法就会选择后者&mdash;开发的压力就迫使他们往那边靠拢。修复测试人员不断报告的错误，或者完成客户刚刚添加到规范中的功能，所有这些对于程序员的压力相比于闭源开发都太大了。 此外，努力保持预算的程序员将不可避免地在某些地方偷工减料。用Ward Cunningham的话来说就是，他们会招致"technical debt" (<ulink
+url="https://en.wikipedia.org/wiki/Technical_debt"
+>https://en.wikipedia.org/wiki/Technical_debt</ulink>)，因为他们打算以后再说。</para>
+
+<para>因此，当你需要开源的时候，你会突然发现下面这些事情：</para>
+
+<itemizedlist>
+  <listitem>特定客户的配置和密码出现在代码存储库;</listitem>
+
+  <listitem>从实时（和机密）信息构建的样本数据;</listitem>
+
+  <listitem>包含无法公开的敏感信息的错误报告;</listitem>
+
+  <listitem>代码中的评论表达了对客户最新紧急请求的“”过于诚实”的反应;</listitem>
+
+  <listitem>开发人员团队之间的通信档案，并不打算展示给陌生人的技术信息;</listitem>
+
+  <listitem>由于依赖库而导致的许可问题，其条款可能适用于内部部署（或者甚至不适用），但与开源分发不兼容;</listitem>
+
+  <listitem>以错误格式编写的文档（例如，您所在部门使用的专有内部Wiki），没有简单的翻译工具可用于将其格式化为适合公开发布的格式;</listitem>
+
+  <listitem>非可移植构建的依赖项，只有当你尝试将软件移出内部构建环境时才会发现原来不可移植;</listitem>
+
+  <listitem>存在一些Modularity violations每个人都知道有问题，但还没有时间去清理这些问题</listitem>
+  <listitem>(这列表可能还要补充。)</listitem>
+</itemizedlist>
+
+<para>问题不仅仅在于清理工作; 他们有时还需要额外决策。例如，如果敏感材料过去被存入代码存储库，那么你的团队现在可以选择完全从历史修订中清除它，这样您就可以开源整个（脱敏）历史记录，或者只是清理最新的历史记录，然后再从这里开源（有时称为“top-skim”）。这两种方法没有对错&mdash;但这也是问题：因为你现在需要多做一个决定了 在某些项目中，在最终版本发布之前，会有多次这种决定，而且有时候决定还会有所反转。但选择的本身就是成本的一部分。</para>
+
+<!--Sifan: I don't know how to translate Exposure event into Chinese, so I just copy the English section here and I hope someone would notice it and help -->
+<sect3 id="avoid-exposure-events">
+<title>Waiting Just Creates an Exposure Event</title>
+
+<para>The other problem with opening up a developed codebase is that
+it creates a needlessly large exposure event.  Whatever issues there
+may be in the code (modularity corner-cutting, security
+vulnerabilities, etc), they are all exposed to public scrutiny at
+once&
+nbsp;&mdash;&nbsp;the open-sourcing event becomes an opportunity
+for the technical blogosphere to pounce on the code and see what they
+can find.</para>
+
+<para>Contrast that with the scenario where development was done in
+the open from the beginning: code changes come in one at a time, so
+problems are handled as they come up (and are often caught sooner,
+since there are more eyeballs on the code).  Because changes reach the
+public at a low, continuous rate of exposure, no one blames your
+development team for the occasional corner-cutting or flawed code
+checkin.  Everyone's been there, after all; these tradeoffs are
+inevitable in real-world development.  As long as the technical debt
+is properly recorded in "FIXME" comments and bug reports, and any
+security issues are addressed promptly, it's fine.  Yet if those same
+issues were to appear suddenly all at once, unsympathetic observers
+may jump on the aggregate exposure in a way they never would have if
+the issues had come up piecemeal in the normal course of
+development.</para>
+
+<para>(These concerns apply even more strongly to government software
+projects; see <xref linkend="starting-open-for-govs" /><phrase
+condition="treeware" > in <xref linkend="governments-and-open-source"
+/></phrase>.)</para>
+
+</sect3>
+
+<para>The good news is that these are all unforced errors.  A project
+incurs little extra cost by avoiding them in the simplest way
+possible: by running in the open from Day One.</para>
+
+<para>"In the open" means the following things are publicly
+accessible, in standard formats, from the first day of the project:
+the code repository, bug tracker, design documents, user
+documentation, wiki, and developer discussion forums. It also means
+the code and documentation are placed under an open source license, of
+course. It also means your team's day-to-day work takes place in the
+publicly visible area.</para>
+
+<para>"In the open" does not have to mean: allowing strangers to check
+code into your repository (they're free to copy it into their own
+repository, if they want, and work with it there); allowing anyone to
+file bug reports in your tracker (you're free to choose your own QA
+process, and if allowing reports from strangers doesn't help you, you
+don't have to do it); reading and responding to every bug report
+filed, even if you do allow strangers to file; responding to every
+question people ask in the forums (even if you moderate them through);
+reviewing every patch or suggestion posted, when doing so may cost
+valuable development time; etc.</para>
+
+<para>One way to think of it is: you open source your code, not your
+time.  The former resource is infinitely replicable; the latter is
+not, and you may protect it however you need to.  You'll have to
+determine the point at which engaging with outside users and
+developers makes sense for your project.  In the long run it usually
+does, and most of this book is about how to do it effectively.  But
+the pace of engagement is always under your control.  Developing in
+the open does not change this, it just ensures that everything done in
+the project is, by definition, done in a way that's compatible with
+being open source.</para>
+
+</sect2>
+</sect1>
+
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="opening-closed-projects">
+<title>将一个之前封闭的项目开放</title>
+
+<para>当然最好还是避免去做一个将闭源项目开源化的事，直接在一开始就开源吧！但如果你的项目已经是闭源的了，里面活跃的开发者们也都习惯了闭源开发环境，然后你又在准备使之开源，那就会有一些比较常见的问题可能会出现。提前准备好应对方法的话能帮你省下很多时间。</para>
+
+<para>处理这些问题的方法都已经有套路了&mdash;而且 <xref linkend="be-open-from-day-one"/>
+就能作为一个待做事项表。例如，如果您的代码依赖于不属于目标操作系统标准分发的专有库，则需要查找开源替换; 如果有机密内容&mdash;比方说，不可轻易更改的，不能公开的注释、密码或特定站点的配置信息，属于第三方的机密数据等&mdash;&nbsp;在项目的版本控制历史中，您可能必须发布“top-skim”版本，即从您开源代码的那一刻起重新开始当前版本的版本历史记录; 等等。</para>
+
+<para>但也存在社会性和管理上的问题，从长远来看，它们通常比这些可以机械工作解决的问题更重要。你必须确保每个在开发小组的人都能理解正要发生的重大变化&mdash;你必须设身处地的为他们着想。</para>
+
 
 <para>想象一下他们面对的情形：以前，所有的代码和设计决定都是由一组程序员做出，他们对软件有差不多相等的熟悉程度，而且都是从同一个管理中接受相同的压力，而且清楚其他人的长处和弱点。现在你让他们将代码暴露给随机的陌生人监视，而他们只会根据代码形成判断，而不会考虑造成这种决定的商业压力。这些陌生人会询问很多问题，这些问题让已有的开发者发现无论如何为文档苦干，<emphasis>仍然</emphasis>不足（不可避免的）。最关键的是，这些新来者是未知的，未露面的实体。如果你的一个开发者已经感觉到他的技艺不够安全，想想一下当新来者指出他所写代码的Bug时的严重性，更严重的，在他的同事面前。除非你有一个拥有完美编码员的团队，这是不可避免的&mdash;实际上，对于每一个人开始都会发生这种情况。这不是因为他们不是好程序员；只是因为任何超过一定规模的程序都会有Bug，而同级评审可以发现一些此类Bug（<phrase output="printed">见本章前面的</phrase><xref linkend="code-review"/>）。而此时，新来者开始本身并没有受到同级评审的支配，因此他们在熟悉项目之前不能贡献代码。对你的开发者，感觉指责正在到来，绝不会离开。因此，要小心这些老手的人心散了。</para>
 
 <para>防止发生这种情况的最佳方法是警告每个人即将发生的情况，告诉他们开始的不适是完全正常的，鼓励他们一切都会好起来的。有一些警告应该在私下发生，在项目开放以前。但是你也会发现如果在公共列表中提醒人们会有好处，告诉他们这是项目开发的新方式，需要一段时间来调整。你能做的最好的事情是通过实例进行引导。如果你看到你的开发者无法回答足够多的新手问题，那么只要告诉他们回答更多也于事无补。也许他们对于何种问题需要保证回复没有太好的感觉，或者他们对于如何排定代码工作和新的外部沟通交流负担的优先级没有感觉。让它们参与进来的方法是你自己参与进去。作为一个公开邮件列表，确保在那里回答一些问题。当你没有回答某个问题的技能时，要明确的交给能做的开发者&mdash;然后观察确保有回答或至少是一个回应。当然现在还是有长期开发者进行私下讨论的诱惑，因为他们一贯如此。请确定你已经订阅了可能发生问题的内部邮件列表，并且告知他们此类讨论应该立刻公开。</para>
 
-<para>对于开放的封闭项目，还有一些其它的长期关注。<xref linkend="social-infrastructure"/>探索了混合付费和未付费开发者的技巧，<xref linkend="legal"/>讨论了当公开的私有代码基包含其它组织编写或“拥有的”软件时所必须承担的法律义务。</para>
 
-</sect2>
+<para>如果你想要一个新开放的项目能招纳不直接针对他们工作收费的开发者&mdash;在大部分成功的开源项目里，往往都有一些这种开发者&mdash;参见 <xref linkend="money"/> 阅读更多关于如何成功的在一个项目里同时拥有收费开发者和不收费开发者的讨论。</para>
 
 </sect1>
 
@@ -519,10 +824,26 @@ url="http://subversion.tigris.org/"/>），而我从一开始就参与并观察�
 <sect1 id="announcing">
 <title>通告</title>
 
-<para>一旦项目可以展示了&mdash;不必完美，只要能看&mdash;就可以将其通知给世界了。这是一个非常简单的过程：来到<ulink
-url="http://freshmeat.net/"/>，在顶端的导航栏点<guimenuitem>Submit</guimenuitem>，然后输入你的新项目的通告。Freshmeat是一个大家关注新项目通告的地方。你只需要在那里用项目新闻抓住一些眼球，就会众口相传。</para>
+<para>一旦项目可以展示了&mdash;不必完美，只要能看&mdash;就可以将其通知给世界了。</para>
 
-<para>如果你知道某个邮件列表或新闻组会对你的项目合题或感兴趣，那么请在那里通告，但请注意，一个论坛只有<emphasis>一个</emphasis>通告，将人们引向项目本身的论坛，进行后续的讨论（通过设定<systemitem>Reply-to</systemitem>头）。这种发布一定要简短扼要：</para>
+<para>这是一个比你想象中要简单的过程。第一步就是在你项目的首页设置一个公告，如同这里说的那样<xref linkend="announcing-releases"/>)<phrase condition="treeware"> 位于
+<xref linkend="communications"/></phrase></para>。然后，在合适的论坛里发布通告。这有两种论坛：有各种新项目的通用论坛和只讨论特定主题的论坛（你项目可能会受到欢迎的那种）。
+
+<para>确保在你的公告里包含用户能在搜索引擎中搜到你的关键词。一个不错的测试就是，如果有人搜索“open source foo bar baz”，然后你的项目又提供这些，那它就应该出现在第一个结果页里 。（除非你有很多竞争者&mdash;但那是不可能的，因为你看了<xref linkend="look-around"/>对吧？</para>
+
+<para>截止到2017年年底，最好的发公告的综合型论坛大概是<ulink
+url="https://news.ycombinator.com/" >https://news.ycombinator.com/</ulink>。尽管你可以在那边提交你的项目，也要注意需要有人点赞受到关注才能被显示在主页上。reddit论坛的开源分区 <ulink
+url="https://www.reddit.com/r/opensource/"
+>https://www.reddit.com/r/opensource/</ulink>, <ulink
+url="https://www.reddit.com/r/programming/"
+>https://www.reddit.com/r/programming/</ulink>, 和<ulink
+url="https://www.reddit.com/r/software/" >https://www.reddit.com/r/software/</ulink>都有类似的机制。如果能让你的项目出现在这些地方，确实很不错，但我也不知道如何提出具体的建议帮助你赢得竞争。还是靠你自己的判断，不要搞得太过（以至于像垃圾邮件了）。</para>
+
+<para>你可能也会想在这里注册你的项目<ulink
+url="https://freshcode.club/" >https://freshcode.club/</ulink>，还有这里 <ulink
+url="http://openhub.net/" >http://openhub.net/</ulink>，这个很像是自由软件项目和贡献者的全球数据库，虽然在某种程度上感觉有点杂乱。</para>
+
+<para>最后，特定主题的论坛可能是你最感兴趣的地方了。如果你知道某个邮件列表或新闻组会对你的项目合题或感兴趣&mdash;你可能是其中的一员&mdash;，那么请在那里通告，但请注意，一个论坛只有<emphasis>一个</emphasis>通告，将人们引向项目本身的论坛，进行后续的讨论（通过设定<systemitem>Reply-to</systemitem>头）。这种发布一定要简短扼要，并且邮件的Subject一栏要清楚的表明这是一个新项目的发布公告：</para>
 
 <screen>
 To: discuss@lists.example.org
@@ -531,7 +852,7 @@ Reply-to: dev@scanley.org
 
 这是关于Scanley项目的一次性公告，Scanley是一个包含丰富API的开源全
 文索引和搜索引擎，主要为程序员提供对于大组文件的搜索服务。Scanley
-现在是可运行的代码，正在进行活跃的开发，征集开发者和测试者。 
+现在是可运行的代码，正在进行活跃的开发，征集开发者和测试者。
 
 主页: http://www.scanley.org/
 
@@ -543,8 +864,8 @@ Reply-to: dev@scanley.org
    - (计划) 索引远程网站
 
 前提条件:
-   - Python 2.2或更高
-   - 包含索引的足够空间 (大约原始数据的2倍大小)
+   - Python 3.2或更高
+   - SQLite 3.8.1或更高
 
 更多信息，请访问scanley.org。
 
@@ -558,7 +879,8 @@ Reply-to: dev@scanley.org
 
 <para>但也有例外。在Subversion项目，我们从设计文档、一组核心的感兴趣和紧密联系的开发者、许多热闹的介绍和<emphasis>不</emphasis>能运行的代码开始。完全出乎我的意料，项目从一开始就获得了活跃的参与者，当我们可以运行什么时，已经有不少志愿开发者已经深入参与进来。Subversion不是唯一的例子；Mozilla项目也是从不能运行的代码开始，现在成为了成功和流行的web浏览器。</para>
 
-<para>面对这种证据，我必须回过头来看可运行代码是启动项目必要条件的断言。可运行程序仍然是成功的最重要基础，一个好的经验法则是直到可以运行再开始公告项目。然而，有一些环境下，尽早通告是有意义的。我想这时起码要有完成良好的设计文档，或其他代码框架&mdash;当然，这也许需要根据公共反馈调整，但是要有一些实际的东西，比好的意图更确切地东西，让人们可以动动牙齿。</para>
+<para>面对这种证据，我必须回过头来看可运行代码是启动项目必要条件的断言。可运行程序仍然是成功的最重要基础，一个好的经验法则是直到可以运行再开始公开发布项目<footnote><para>注意
+<emphasis>公开发布</emphasis>你的项目可能在你开源了代码的很久以后。我的建议是考虑何时公开发布并不应该影响你将代码开源。&mdash;理想的情况下，你的项目应该从一开始就把代码开放给大家，而这个和你何时公开发布是互不影响的。参见<xref linkend="be-open-from-day-one"/> 了解更多。</para></footnote>然而，有一些环境下，尽早通告是有意义的。我想这时起码要有完成良好的设计文档，或其他代码框架&mdash;当然，这也许需要根据公共反馈调整，但是要有一些实际的东西，比好的意图更确切地东西，让人们可以动动牙齿。</para>
 
 <para>无论你何时通告，不要指望立刻有一大堆志愿者会到来。通常情况下，通告的结果是得到很少随意的询问，以及一些人加入你的邮件列表，除此之外，一切如常。但随着时间的流逝，你会逐渐发现代码贡献者和用户参与的增加。通告仅仅是播下种子。消息的传递需要很长时间。如果项目持续回报参与者，这个新闻<emphasis>就会</emphasis>传播，因为人们喜欢分享他们所发现的好东西。如果一切都好，指数级交流网络的动力会慢慢将项目改变为复杂的社区，你不必再知道每个人的名字，也不必跟踪每一次对话。下一章我们将讨论在这个环境下如何工作。</para>
 
@@ -567,9 +889,7 @@ Reply-to: dev@scanley.org
 </chapter>
 
 <!--
-local variables: 
+local variables:
 sgml-parent-document: ("book.xml" "chapter")
 end:
 -->
-
-
