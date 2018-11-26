@@ -42,12 +42,12 @@ of it at first.</para>
 langem. Viele Entwicklung wurden schon immer informell subventioniert. 
 Wenn ein Systemadministrator ein Programm zur Netzwerkanalyse schreibt,
 um seine Arbeit zu erleichtern, stellt er es online und erhält Beiträge
-von anderen Administratoren, in Form von Bugfixes und neuen Funktionen,
-sodass sich sich ein neues Konsortium bildet. Die Finanzierung stammt 
-aus den Gehältern der Administratoren, seine Bürofläche und 
-Infrastruktur werden, wenn auch ohne ihr Wissen, von dem jeweiligen
-Arbeitgeber gespendet. Diese Organisationen profitieren natürlich von 
-der Investition, auch wenn sie zunächst, aus institutioneller Sicht, 
+von anderen Administratoren in Form von Bugfixes und neuen Funktionen,
+sodass sich ein neues Konsortium bildet. Die Finanzierung stammt 
+aus den Gehältern der Administratoren, deren Bürofläche und 
+Infrastruktur von dem jeweiligen Arbeitgebern, wenn auch ohne deren Wissen,
+gespendet werden. Diese Organisationen profitieren natürlich von 
+der Investition, auch wenn sie zunächst aus institutioneller Sicht 
 nichts davon wissen.</para>
 
 <!--
@@ -70,17 +70,17 @@ agree on what "productively" means?</para>
 -->
 <para>Der Unterschied heute ist, dass viele dieser Anstrengungen
 formalisiert werden. Firmen sind sich der Vorteile von 
-Open-Source-Software bewusst geworden und fangen an sich direkter an ihrer
+Open-Source-Software bewusst geworden und fangen an, sich direkter an ihrer
 Entwicklung zu beteiligen. Entwickler erwarten mittlerweile, dass
-wirklich wichtige Projekte zumindest Spenden, oder sogar längerfristige
+wirklich wichtige Projekte zumindest Spenden und sogar längerfristige
 Sponsoren anlocken. Geld hat zwar nicht sonderlich viel an der Dynamik
 der Entwicklung freier Software geändert, der Maßstab der Abläufe ist
 aber doch größer geworden, sowohl hinsichtlich der Anzahl der 
-Entwickler, als auch der Zeit pro Entwickler. Es hat auch die 
-Organisation der Projekte beeinflusst und wie die beteiligten Parteien
+Entwickler als auch der Zeit pro Entwickler. Es hat auch einen Effekt auf die 
+Art und Weise, wie Projekte organisiert sind und wie die beteiligten Parteien
 miteinander umgehen. Es geht nicht nur darum, wie das Geld ausgegeben
 wird oder wie Rendite gemessen wird, sondern auch um Verwaltung und 
-Ablauf: Wie kann die hierarchische Befehlsstruktur einer Firma, mit
+Ablauf: Wie kann die hierarchische Befehlsstruktur einer Firma mit
 einer halb dezentralisierten Gemeinschaften von Freiwilligen im Einklang
 gebracht werden? Werden die Entwickler dieser beiden Gruppen sich 
 überhaupt darauf einigen können, was "Produktivität" bedeutet?</para>
@@ -97,17 +97,16 @@ backs an open source project, people pretty much assume the project
 won't be allowed to fail, and their resultant willingness to devote
 effort to it can make that a self-fulfilling prophecy.</para>
 -->
-<para>Finanzielle Rückendeckung wird allgemein von 
-Open-Source-Gemeinschaften 
-gerne angenommen. Sie kann vor den Folgen vom Chaos 
-schützen, die so viele Projekte wegfegen, bevor sie es wirklich
+<para>Finanzielle Rückendeckung wird allgemein von Open-Source-Gemeinschaften
+gerne willkommen geheißen. Sie kann vor den Folgen vom Chaos 
+schützen, welche so viele Projekte wegfegen, bevor sie es wirklich
 schaffen, vom Boden abzuheben. Leute sind eher bereit, der Software
 eine Chance zu geben, wenn sie das Gefühl haben, ihre Zeit in etwas zu
-investieren, was auch noch in 6 Monaten da sein wird. Schließlich ist
-Glaubwürdigkeit zu einem gewissen Grad ansteckend. Wenn sagen wir IBM
+investieren, dass auch noch in 6 Monaten da sein wird. Schließlich ist
+Glaubwürdigkeit zu einem gewissen Grad ansteckend. Wenn, sagen wir, IBM
 ein Projekt unterstützt, kann man davon ausgehen, dass ein Scheitern
-des Projekts nicht zugelassen wird, und ihre sich daraus ergebende
-Bereitschaft selbst Mühe aufzubringen kann zu einer zu einer selbst
+des Projekts nicht zugelassen wird und ihre sich daraus ergebende
+Bereitschaft, selbst Mühe aufzubringen, kann zu einer selbst
 erfüllende Prophezeiung werden.</para>
 
 <!--
@@ -126,19 +125,19 @@ contributions or outside participation in design discussions.  People
 sense what's expected of them, and live up (or down) to those
 expectations.</para>
 -->
-<para>Finanzierung bringt jedoch auch ein Gefühl von Kontrolle. Ohne
-sorgfältige Handhabung kann Geld die Entwicklergemeinschaft in
+<para>Finanzierung bringt, wie auch immer jedoch auch ein Gefühl von
+Kontrolle. Ohne sorgfältige Handhabung kann Geld die Entwicklergemeinschaft in
 Lager spalten. Wenn die unbezahlten Entwickler das Gefühl bekommen,
-dass Entscheidungen über die Architektur oder neuen Funktionen, einfach 
+dass Entscheidungen über die Architektur oder neue Funktionen einfach 
 eine Frage des Geldes sind, werden sie zu einem anderen Projekt
-wechseln, indem sie eher das Gefühl haben, dass Leistung das 
+wechseln, in dem sie eher das Gefühl haben, dass Leistung das 
 Ausschlaggebende ist. Unbezahlte Arbeit für Funktionen, die alleine im
 Interesse einer Firma sind, wird kein freiwilliger Entwickler machen.
 Sie werden sich vielleicht nicht auf der Mailingliste beschweren,
-mit der Zeit, wird es aber immer weniger von außen zu hören geben, 
-während Freiwillige sich immer weniger bemühen ernst genommen zu 
+mit der Zeit wird es aber immer weniger von außen zu hören geben, 
+während Freiwillige sich immer weniger bemühen, ernst genommen zu 
 werden. Das Surren der kleineren Aktivitäten, in Form von Bug-Reports 
-und gelegentlichen kleinen Fixes wird weitergehen. Es wird aber von
+und gelegentlichen kleinen Fixes, wird weitergehen. Es wird aber von
 außen keine größeren Beiträge oder Beteiligung an wichtigen Diskussionen
 geben. Leute spüren, was man von ihnen erwartet (bzw. nicht erwartet),
 und werden diesen Erwartungen gerecht werden.</para>
@@ -159,19 +158,18 @@ vision, but you won't be the only voice.</para>
 -->
 <para>Geld muss zwar vorsichtig benutzt werden, Einfluss ist aber
 deswegen noch lange nicht käuflich. Der Haken ist, dass man ihn nicht 
-direkt erkaufen kann. Bei einem einfachen kommerziellen Geschäft, 
+direkt erkaufen kann. Bei einem einfachen kommerziellen Geschäft 
 tauschen Sie Geld gegen ein Gut. Wenn Sie eine zusätzliche Funktion
 benötigen, unterschreiben Sie einen Vertrag, zahlen dafür und es wird
 umgesetzt. In einem Open-Source-Projekt geht das nicht so einfach. Sie
-werden vielleicht mit ein paar Entwickler Verträge abschließen, aber
+werden vielleicht mit ein paar Entwicklern Verträge abschließen, aber
 diese würden sich &ndash; und Sie &ndash; täuschen, wenn sie garantieren, 
 dass die von Ihnen finanzierte Arbeit von der Entwicklergemeinschaft
-angenommen wird. Nur weil Sie dafür bezahlen, mag die Funktion noch
-lange nicht zu der Vorstellung über die Zukunft der Software der 
-Gemeinschaft passen. Die Arbeit kann nur im Rahmen seiner Leistung
-und wie gut sie sich in die Vision der Community für die Software 
-einfügt angenommen werden. Sie werden dabei möglicherweise etwas zu 
-der Vision zu sagen haben, Sie werden aber nicht die einzige sein.</para>
+angenommen wird, nur weil Sie dafür bezahlen. Die Arbeit kann nur im 
+Rahmen seiner Leistung und hinsichtlich der Frage, wie gut sie sich in 
+die Vision der Community für die Software einfügt, angenommen werden. 
+Sie werden dabei möglicherweise etwas zu der Vision zu sagen haben,
+Sie werden aber nicht die einzige Stimme sein.</para>
 
 <!--
 <para>So money can't purchase influence, but it can purchase things
@@ -191,14 +189,14 @@ the company's size, budget, or business plan.</para>
 -->
 <para>Einfluss ist also nicht käuflich, Sachen die zu Einfluss
 <emphasis>führen</emphasis> sind es aber sehr wohl. Das offensichtlichste
-Beispiel sind Programmierer. Wenn gute Programmierer eingestellt werden,
-und sie lange genug bleiben um Erfahrung mit der Software und
+Beispiel sind Programmierer. Wenn gute Programmierer eingestellt werden
+und sie lange genug bleiben, um Erfahrung mit der Software und
 Glaubwürdigkeit in der Gemeinschaft zu sammeln, können Sie das Projekt 
 gleichermaßen beeinflussen wie jedes andere Mitglied. Sie haben bei
 Wahlen eine Stimme, mehreren Entwickler geben Ihnen sogar ein Stimmblock.
 Wenn Sie in dem Projekt respektiert werden, bekommen sie Einfluss über 
 ihre Stimmen hinaus. Bezahlte Entwickler müssen auch nicht ihre Motive 
-versuchen zu verschleiern. Schließlich will jeder der eine Änderung macht
+zu verschleiern versuchen. Schließlich will jeder, der eine Änderung macht,
 es aus irgend einem Grund. Die Motive Ihrer Firma sind in keiner Weise 
 weniger berechtigt, als die von irgendjemand anderem. Das Stimmgewicht
 ihrer Firma hängt jedoch von dem Status ihrer Stellvertreter im Projekt
@@ -564,7 +562,7 @@ Diskussionen in den Foren aufgeflammt sind. Ein neuer Entwickler ohne
 Erinnerung an solche Unterhaltungen, könnte versuchen diese Themen 
 erneut anzusprechen, was zum Verlust der Glaubwürdigkeit Ihrer 
 Organization führt; die anderen werden sich vielleicht wundern "ob
-die sich denn garn ichts behalten können"? Neue Entwickler werden auch
+die sich denn garn nichts behalten können"? Neue Entwickler werden auch
 kein politisches Gespür für die Persönlichkeiten im Projekt haben und
 werden nicht in der Lage sein die Richtung der Entwicklung so schnell
 oder reibungslos zu beeinflussen, wie ein alter Hase.</para>
@@ -584,17 +582,17 @@ aground.  Private, behind-the-scenes encouragement and pointers can
 also help a lot, especially if the newcomer is not accustomed to
 massively parallel peer review of his code.</para>
 -->
-<para>Lassen Sie Anfänger sich zur Einweisung, unter Beaufsichtigung, an
-dem Projekt beteiligen. Der neue Entwickler sollte vom ersten Tag sehr
-eng mit der öffentlichen Entwicklergemeinschaft arbeiten, angefangen mit
-Bugfixes und Aufräumarbeiten, um die Codebasis kennenzulernen und sich
-einen Ruf in der Gemeinschaft zu erarbeiten, er sollte jedoch keine
+<para>Trainieren Sie Neuankömmlinge mittels eines Programms der 
+beaufsichtigten Beschäftigung. Der neue Entwickler sollte vom ersten Tag an 
+in engem Kontakt mit der öffentlichen Entwicklergemeinschaft stehen, angefangen mit
+Bugfixes und Aufräumarbeiten, so dass er die Codebasis kennenlernen und sich
+einen Ruf in der Gemeinschaft erarbeiten kann, er sollte jedoch keine
 langwierige und verstrickte Diskussionen über Codestruktur zünden.
-Währenddessen sollten ein Paar erfahrene Entwickler für Fragen zur
-bereitstehen, die jede Nachricht des Anfängers an die Verteiler, lesen
-sollten, sogar bei Threads denen sie sonst keine Beachtung schenken würden.
-Das wird der Gruppe helfen mögliche Steine auf dem Weg zu erkennen, bevor
-der Anfänger drüber stolpert. Private Anregung und Hinweise im
+Währenddessen sollten ein Paar erfahrene Entwickler für Fragen
+bereitstehen und jede Nachricht des Anfängers an die Verteiler lesen,
+sogar bei Threads, denen sie sonst keine Beachtung schenken würden.
+Das wird der Gruppe helfen, mögliche Steine auf dem Weg zu erkennen, bevor
+der Anfänger darüber stolpert. Private Anregung und Hinweise im
 Hintergrund können auch eine große Hilfe sein, besonders wenn der 
 Anfänger es nicht gewohnt ist, dass sein Code der Kritik durch die
 Gemeinschaft unterworfen ist.</para>
