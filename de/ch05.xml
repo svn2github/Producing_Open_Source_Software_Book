@@ -193,12 +193,12 @@ Beispiel sind Programmierer. Wenn gute Programmierer eingestellt werden
 und sie lange genug bleiben, um Erfahrung mit der Software und
 Glaubwürdigkeit in der Gemeinschaft zu sammeln, können Sie das Projekt 
 gleichermaßen beeinflussen wie jedes andere Mitglied. Sie haben bei
-Wahlen eine Stimme, mehreren Entwickler geben Ihnen sogar ein Stimmblock.
-Wenn Sie in dem Projekt respektiert werden, bekommen sie Einfluss über 
-ihre Stimmen hinaus. Bezahlte Entwickler müssen auch nicht ihre Motive 
-zu verschleiern versuchen. Schließlich will jeder, der eine Änderung macht,
+Wahlen eine Stimme, mehreren Entwickler sogar einen Stimmblock.
+Wenn sie in dem Projekt respektiert werden, bekommen sie Einfluss über 
+ihre Stimmen hinaus. Bezahlte Entwickler müssen auch nicht versuchen,
+ihre Motive zu verschleiern. Schließlich will jeder, der eine Änderung macht,
 es aus irgend einem Grund. Die Motive Ihrer Firma sind in keiner Weise 
-weniger berechtigt, als die von irgendjemand anderem. Das Stimmgewicht
+weniger berechtigt als die von irgendjemand anderem. Das Stimmgewicht
 ihrer Firma hängt jedoch von dem Status ihrer Stellvertreter im Projekt
 ab, nicht von ihrer Größe, ihrem Budget oder Geschäftsplan.</para>
 
@@ -217,9 +217,9 @@ funded.  The items in this list aren't mutually exclusive; often a
 project's financial backing will result from several, or even all, of
 these motivations:</para>
 -->
-<para>Es gibt viele verschiedene Gründe Open-Source-Projekte zu 
+<para>Es gibt viele verschiedene Gründe, Open-Source-Projekte zu 
 Finanzieren. Die Punkte auf dieser Liste schließen sich nicht gegenseitig
-aus; oftmals wird die Finanzielle Rückendeckung das Resultat mehrerer oder
+aus; oftmals wird die finanzielle Rückendeckung das Resultat mehrerer oder
 all dieser Motivationen sein:</para>
 
 <variablelist>
@@ -246,16 +246,16 @@ all dieser Motivationen sein:</para>
      <ulink url="http://www.koha.org/" >koha.org</ulink></para>
      -->
      <para>Separate Organisationen mit überlappenden Softwarebedarf
-     merken, dass sie die gleiche Arbeit machen, entweder schreiben sie
+     bemerken oftmals, dass sie die gleiche Arbeit machen, entweder schreiben sie
      redundant den gleichen Code in der selben Firma, oder sie kaufen
      ähnliche Produkte von proprietären Anbietern. Wenn sie bemerken, was
      vor sich geht, werden sie vielleicht ihre Ressourcen zusammenlegen
-     und ein Open-Source-Projekt gründen (oder beitreten) welches an 
+     und ein Open-Source-Projekt gründen (oder beitreten), welches an 
      ihren Bedarf angepasst ist. Die Vorteile sind offensichtlich: Die 
-     Kosten der Entwicklung werden geteilt, die Vorteile kommen aber 
+     Kosten der Entwicklung werden geteilt aber die Vorteile kommen 
      allen gleichermaßen zugute. Obwohl dieses Szenario die intuitivste
      für gemeinnützige Organisationen scheint, kann es auch für 
-     profitorientierte Konkurrenten Sinn machen.</para>
+     profitorientierte Konkurrenten strategisch sinnvoll sein.</para>
      <para>Beispiele: <ulink url="http://www.openadapter.org/"/>,
      <ulink url="http://www.koha.org/"/></para>
      </listitem>
@@ -280,9 +280,9 @@ all dieser Motivationen sein:</para>
      </listitem>
      -->
      <para>Wenn eine Firma Dienstleistungen zu bestimmten 
-     Open-Source-Anwendungen 
-     verkauft oder diese durch Open-Source-Software attraktiver gemacht
-     werden, liegt es natürlich im Interesse der Firma sicherzustellen, 
+     Open-Source-Anwendungen verkauft oder diese durch
+     Open-Source-Software attraktiver gemacht werden, liegt
+     es natürlich im Interesse der Firma sicherzustellen, 
      dass diese Anwendungen auch gepflegt werden.</para>
      <para>Beispiel: Die Unterstützung von 
      <ulink url="http://subversion.tigris.org/"/> durch
@@ -339,7 +339,7 @@ all dieser Motivationen sein:</para>
      to MS Office).</para>
      -->
      <para>Manche Firmen unterstützen ein bestimmtes Open-Source-Projekt
-     um ein Produkt der Konkurrenz zu untergraben, welches unter
+     um ein Konkurrenzprodukt zu untergraben, welches unter
      Umständen auch selber Open-Source sein kann. Den Marktanteil des
      Konkurrenten wegzufressen ist selten der einzige Grund ein
      Open-Source-Projekt zu unterstützen, kann aber eine Rolle
@@ -402,19 +402,17 @@ all dieser Motivationen sein:</para>
      für diejenigen, die bereit sind, es unter den Open-Source-Bedingungen
      zu benutzen (siehe 
      <xref linkend="dual-licensing"/><phrase output="printed"> im Kapitel
-     <xref linkend="legal"/></phrase>). Wenn die 
-     Open-Source-Entwicklergemeinschaft
-     aktiv ist, bekommt die Software die Vorteile
-     vieler Anwender um die Entwicklung zu testen, die Firma bekommt 
-     dennoch Nutzungsgebühren um ihre Vollzeitentwickler zu 
-     unterstützen.</para>
+     <xref linkend="legal"/></phrase>). Wenn die Open-Source-Entwicklergemeinschaft
+     aktiv ist, bekommt die Software die Vorteile einer weit gefassten Testung 
+     und Entwicklung, die Firma hingegen dennoch Nutzungsgebühren um ihre 
+     Vollzeitentwickler zu unterstützen.</para>
      <para>Zwei bekannte Beispiele sind 
      <ulink url="http://www.mysql.com/">MySQL</ulink>, die Hersteller der
      gleichnamigen Datenbank-Software, und 
      <ulink url="http://www.sleepycat.com/">Sleepycat</ulink>, welche
      Distributionen und Support für die Berkeley-Datenbank anbietet. 
      Beide sind nicht zufällig Datenbank-Firmen. Datenbank-Software 
-     neigt dazu eher in anderen Anwendungen integriert zu werden als
+     neigt dazu, eher in anderen Anwendungen integriert als
      direkt an Kunden vermarktet zu werden, also ist es sehr gut für das
      Modell der doppelten Lizenzierung geeignet.</para> 
      </listitem>
@@ -442,15 +440,15 @@ all dieser Motivationen sein:</para>
      -->
      <para>Ein erfolgreiches Projekt kann manchmal wesentliche Beiträge,
      sowohl von Einzelpersonen als auch von Organisationen bekommen, 
-     allein durch einen Spendenknopf, oder den Verkauf von Waren mit 
-     ihre Marke wie Tassen, T-Shirts, Mousepads, usw. Hierbei sollte man
+     allein durch einen Spendenknopf oder den Verkauf von Waren mit 
+     ihrer Marke wie Tassen, T-Shirts, Mousepads, usw. Hierbei sollte man
      vorsichtig sein: Wenn ihr Projekt Spenden annimmt, sollten Sie 
-     planen wie das Geld benutzt werden soll, <emphasis>bevor</emphasis>
+     planen, wie das Geld benutzt werden soll, <emphasis>bevor</emphasis>
      es auftaucht, und schreiben Sie ihre Pläne auf die Webseite des 
      Projekts. Diskussionen über die Aufteilung von Geld verlaufen 
-     meistens friedlicher wenn es noch keins gibt; sollte es doch
+     meistens friedlicher, wenn es noch keins gibt; sollte es doch
      bedeutende Streitigkeiten über die Verwendung geben, ist es trotzdem
-     besser es in einer eher akademischen Diskussion 
+     besser, es in einer eher akademischen Diskussion 
      herauszufinden.</para>
      </listitem>
    </varlistentry>
@@ -473,7 +471,7 @@ public distribution without any fuss?</para>
 -->
 <para>Das Geschäftsmodell eines Geldgebers ist nicht sein einziger 
 Einfluss auf eine Open-Source-Gemeinschaft. Seine historische Beziehung
-spielt auch eine wesentliche Rolle: Hat die Firma das Projekt gegründet,
+spielt auch eine wesentliche Rolle: Hat die Firma das Projekt gegründet
 oder tritt es einer bereits laufenden Entwicklung bei? So oder so muss
 sich der Geldgeber Glaubwürdigkeit verdienen, es ist deswegen auch nicht
 verwunderlich, dass letzteres etwas mehr Mühe erfordert. Die 
@@ -525,10 +523,10 @@ have made there.</para>
 <para>Behalten Sie Ihre Open-Source-Programmierer lange genug bei einem
 Projekt, um sich sowohl technische als auch politische Kompetenzen
 aneignen können &ndash; mindestens einige Jahre. Natürlich profitiert 
-kein Projekt, ob Open-Source oder nicht vom häufigen Wechsel unter den
+kein Projekt, ob Open-Source oder nicht, vom häufigen Wechsel unter den
 Programmierern. Sich jedes mal neu einarbeiten zu müssen wäre in jeder
 Umgebung für Neulinge schwierig. Für Open-Source-Projekte ist die 
-Strafe aber noch größer, da Entwickler, die ein Projekt verlassen nicht
+Strafe aber noch größer, da Entwickler, die ein Projekt verlassen, nicht
 nur ihre Kenntnisse über den Code mitnehmen, sondern auch ihre Position
 in der Gemeinschaft sowie die dort aufgebauten menschlichen 
 Beziehungen.</para>
@@ -550,21 +548,21 @@ feel for the project's personalities, and will not be able to
 influence development directions as quickly or as smoothly as one
 who's been around a long time.</para>
 -->
-<para>Die von einem Entwickler angeeignete Glaubwürdigkeit kann nicht
+<para>Die von einem Entwickler angehäufte Glaubwürdigkeit kann nicht
 übertragen werden. Das offensichtlichste Beispiel wäre wohl, dass 
 Commit-Zugriff nicht von einem Entwickler zum Anderen vererbt werden 
 kann (siehe <xref linkend="money-vs-love"/> später in diesem Kapitel),
-wenn ein neuer Entwickler also noch keinen Commit-Zugriff hat, wird er
-bis dahin Patches einreichen müssen. Commit-Zugriff ist aber nur die
-messbarste Erscheinung für den verlorenen Einfluss. Ein langjähriger
-Entwickler kennt auch alle alten Streitigkeiten die immer wieder in 
+wenn also ein neuer Entwickler noch keinen Commit-Zugriff hat, wird er
+bis dahin Patches einreichen müssen. Commit-Zugriff ist aber nur der
+messbarste Ausdruck für den verlorenen Einfluss. Ein langjähriger
+Entwickler kennt auch alle alten Streitigkeiten, die immer wieder in 
 Diskussionen in den Foren aufgeflammt sind. Ein neuer Entwickler ohne
-Erinnerung an solche Unterhaltungen, könnte versuchen diese Themen 
+Erinnerung an solche Unterhaltungen könnte versuchen, diese Themen 
 erneut anzusprechen, was zum Verlust der Glaubwürdigkeit Ihrer 
 Organization führt; die anderen werden sich vielleicht wundern "ob
-die sich denn garn nichts behalten können"? Neue Entwickler werden auch
+die sich denn garn nichts merken können"? Neue Entwickler werden auch
 kein politisches Gespür für die Persönlichkeiten im Projekt haben und
-werden nicht in der Lage sein die Richtung der Entwicklung so schnell
+nicht in der Lage sein, die Richtung der Entwicklung so schnell
 oder reibungslos zu beeinflussen, wie ein alter Hase.</para>
 
 <!--
@@ -593,7 +591,7 @@ bereitstehen und jede Nachricht des Anfängers an die Verteiler lesen,
 sogar bei Threads, denen sie sonst keine Beachtung schenken würden.
 Das wird der Gruppe helfen, mögliche Steine auf dem Weg zu erkennen, bevor
 der Anfänger darüber stolpert. Private Anregung und Hinweise im
-Hintergrund können auch eine große Hilfe sein, besonders wenn der 
+Hintergrund können auch eine große Hilfe sein, besonders, wenn der 
 Anfänger es nicht gewohnt ist, dass sein Code der Kritik durch die
 Gemeinschaft unterworfen ist.</para>
 
@@ -624,19 +622,19 @@ questions and reviewing patches.</para>
 zu arbeiten, setzen wir uns zusammen und wählen ein paar offen stehende
 Fehler für die neue Person, um sich erst einmal die Krallen zu schärfen.
 Wir diskutieren den technischen Rahmen der Lösungen und weisen dann 
-mindestens einen erfahrenen Entwickler an (öffentlich) den vom Neuling
-eingereichten Patch, kritisch unter die Lupe zu nehmen (alles für die
+mindestens einen erfahrenen Entwickler an, (öffentlich) den vom Neuling
+eingereichten Patch kritisch unter die Lupe zu nehmen (alles für die
 Öffentlichkeit sichtbar). Normalerweise schauen wir uns den Patch nicht
 einmal an, bevor er auf dem zentralen Verteiler für Entwickler zu sehen
-ist, auch wenn wir es könnten, gäbe es dazu einen Grund. Das wichtige
+ist, auch wenn wir es, gäbe es einen Grund dazu, könnten. Das wichtige
 für den neuen Entwickler ist die öffentliche Überprüfung durchzulaufen,
 dabei den Codebase kennenzulernen und sich an Kritik von völlig Fremden
 zu gewöhnen. Wir versuchen es aber so abzustimmen, dass unsere 
 Bewertung möglichst bald nach dem Patch kommt. Dadurch ist unsere 
 Bewertung die erste auf dem Verteiler, was helfen kann, den Ton der 
 nachfolgenden Bewertungen zu setzen. Es trägt auch zu der Idee bei, dass
-diese neue Person ernst genommen werden soll: Wenn andere sehen wie
-wir uns Zeit nehmen ausführliche Bewertungen zu schreiben, mit 
+diese neue Person ernst genommen werden soll: Wenn andere sehen, dass
+wir uns Zeit nehmen, um ausführliche Bewertungen zu schreiben, mit 
 gründlichen Erklärungen und, wenn angemessen, Verweise auf die Archive, 
 werden sie es als Schulungsform erkennen, was wahrscheinlich eine 
 längerfristige Investition andeutet. Das kann sie positiver gegenüber 
@@ -668,7 +666,7 @@ einzelne Beteiligte aufzutreten und nicht als monolithisches
 Firmenwesen. Das liegt nicht an irgend einer negativen Behaftung von 
 monolithischen Unternehmen (naja, vielleicht schon ein bisschen, 
 aber darum geht es nicht in diesem Buch). Einzelpersonen sind 
-schlicht das einzige wofür Open-Source-Projekte strukturell gewappnet 
+schlicht das einzige, wofür Open-Source-Projekte strukturell gewappnet 
 sind. Ein einzelner Beteiligter kann sich an Diskussionen beteiligen, 
 Patches einreichen, sich Glaubwürdigkeit verschaffen, an Abstimmungen 
 teilnehmen usw. Eine Firma kann das nicht.</para>
@@ -687,8 +685,8 @@ Bildung einer zentralisierten Opposition. Lassen Sie Ihre Entwickler
 sich auf der Mailingliste untereinander streiten. Ermutigen Sie
 häufige und öffentliche gegenseitig Überprüfung und Bewertung des Codes.
 Raten Sie davon ab, immer als Block abzustimmen, denn wenn sie das 
-machen, werden andere das Gefühl bekommen allein aus Prinzip, einen
-Gegenpol organisieren zu müssen, um sie in Schach zu halten.</para>
+machen, werden andere das Gefühl bekommen, allein aus Prinzip, dass
+ein Gegenpol angebracht wäre, um sie in Schach zu halten.</para>
 
 <!--
 <para>There's a difference between actually being decentralized and
@@ -711,22 +709,22 @@ in <xref linkend="communications"/></phrase> for more about
 them.</para>
 -->
 <para>Es gibt einen Unterschied zwischen einer wirklich 
-dezentralisierten Organisation und einfach als solches erscheinen zu 
+dezentralisierten Organisation und einfach als eine solche erscheinen zu 
 wollen. In bestimmten Fällen kann es durchaus nützlich sein, ihre
 Entwickler an einem Strang ziehen zu lassen und sie sollten vorbereitet
-sein falls nötig, im Hintergrund zu koordinieren. Wenn beispielsweise
+sein, falls nötig, im Hintergrund zu koordinieren. Wenn beispielsweise
 ein Vorschlag gemacht wird, kann ihm durch frühzeitige Zustimmung 
 anderer Entwickler auf die Sprünge geholfen werden, indem sie den 
-Eindruck von zunehmenden Konsens vortäuschen. Andere spüren ein 
-gewisses Momentum für den Vorschlag, der durch einen Einspruch 
+Eindruck von zunehmenden Konsens vortäuschen. Andere spüren einen 
+gewissen Impuls für den Vorschlag, der durch einen Einspruch 
 ihrerseits aufgehalten würde. Deshalb werden Leute nur dann Einsprechen,
 wenn sie dazu einen guten Grund haben. Es gibt im Übrigen nichts
 verwerfliches daran, Zustimmung auf diese Art zu koordinieren, solange
 Einsprüche weiterhin ernst genommen werden. Wie sich diese private
 Übereinkunft öffentlich offenbart ist nicht unaufrichtig oder für das
 Projekt schädlich, nur weil sie vorher koordiniert wurde, so lange sie
-nicht dazu benutzt wird um Gegenargumente frühzeitig und abträglich
-auszustechen. Der Hintergrund ist lediglich bestimmte Personen 
+nicht dazu benutzt wird, Gegenargumente frühzeitig und abträglich
+auszustechen. Der Hintergrund ist lediglich, bestimmte Personen 
 aufzuhalten, die einfach nur Einwände machen um Fit zu bleiben; siehe
 <xref linkend="bikeshed"/><phrase output="printed"> im Kapitel 
 <xref linkend="communications"/></phrase> für weiteres.</para>
