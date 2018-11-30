@@ -559,7 +559,7 @@ Entwickler kennt auch alle alten Streitigkeiten, die immer wieder in
 Diskussionen in den Foren aufgeflammt sind. Ein neuer Entwickler ohne
 Erinnerung an solche Unterhaltungen könnte versuchen, diese Themen 
 erneut anzusprechen, was zum Verlust der Glaubwürdigkeit Ihrer 
-Organization führt; die anderen werden sich vielleicht wundern "ob
+Organisation führt; die anderen werden sich vielleicht wundern "ob
 die sich denn garn nichts merken können"? Neue Entwickler werden auch
 kein politisches Gespür für die Persönlichkeiten im Projekt haben und
 nicht in der Lage sein, die Richtung der Entwicklung so schnell
@@ -634,7 +634,7 @@ Bewertung möglichst bald nach dem Patch kommt. Dadurch ist unsere
 Bewertung die erste auf dem Verteiler, was helfen kann, den Ton der 
 nachfolgenden Bewertungen zu setzen. Es trägt auch zu der Idee bei, dass
 diese neue Person ernst genommen werden soll: Wenn andere sehen, dass
-wir uns Zeit nehmen, um ausführliche Bewertungen zu schreiben, mit 
+wir uns Zeit nehmen um ausführliche Bewertungen zu schreiben, mit 
 gründlichen Erklärungen und, wenn angemessen, Verweise auf die Archive, 
 werden sie es als Schulungsform erkennen, was wahrscheinlich eine 
 längerfristige Investition andeutet. Das kann sie positiver gegenüber 
@@ -661,7 +661,7 @@ are structurally equipped to deal with.  An individual contributor can
 have discussions, submit patches, acquire credibility, vote, and so
 forth.  A company cannot.</para>
 -->
-<para>Ihre Entwickler sollten anstreben in den öffentlichen Foren als
+<para>Ihre Entwickler sollten anstreben, in den öffentlichen Foren als
 einzelne Beteiligte aufzutreten und nicht als monolithisches
 Firmenwesen. Das liegt nicht an irgend einer negativen Behaftung von 
 monolithischen Unternehmen (naja, vielleicht schon ein bisschen, 
@@ -749,14 +749,14 @@ development community knows about <emphasis>why</emphasis> you want
 what you want, the more comfortable they'll be with whatever you're
 proposing.</para>
 -->
-<para>Seien Sie so offen hinsichtlich Ihrer Motive wie Sie es können, 
-ohne hierbei Geschäftsgeheimnisse offenzulegen. Wenn Sie in Ihrem
-Projekt eine bestimmte Funktion haben wollen, sagen wir, weil Ihre 
+<para>Seien Sie hinsichtlich der Motive ihrer Organisation so offen, wie 
+Sie es können, ohne hierbei Geschäftsgeheimnisse offenzulegen. Wenn Sie
+in Ihrem Projekt eine bestimmte Funktion haben wollen, sagen wir, weil Ihre 
 Kunden danach schreien, sprechen Sie auf den Mailinglisten offen 
 darüber. Wenn die Kunden anonym bleiben wollen, was manchmal vorkommt,
-fragen Sie wenigstens, ob Sie sie als anonyme Beispiele anführen dürfen.
+fragen Sie wenigstens, ob Sie diese als anonyme Beispiele anführen dürfen.
 Je mehr die öffentliche Entwicklergemeinschaft darüber weiß,
-<emphasis>warum</emphasis> Sie etwas wollen, desto eher werden sie Ihre
+<emphasis>warum</emphasis> Sie etwas wollen, desto eher wird diese Ihre
 Vorschlage akzeptieren.</para>
 
 <!--
@@ -774,17 +774,16 @@ real-world scenarios showing why the proposed feature is important,
 that can have a dramatic effect on the debate.</para>
 -->
 <para>Das widerspricht dem Instinkt &ndash; einfach anzueignen, aber 
-schwer loszuwerden &ndash;, dass Wissen gleich Macht ist und Ihre Ziele 
-anderen gegenüber bekannt zu geben, diesen mehr Kontrolle über Sie gibt.
-Der Instinkt wäre
-hier aber falsch. Indem Sie sich öffentlich für eine Funktion (oder ein
+schwer loszuwerden &ndash;, dass Wissen gleich Macht ist und dass je mehr
+anderen ihre Ziele bekannt sind, je mehr Kontrolle diese über Sie haben.
+Der Instinkt wäre hier aber falsch. Indem Sie sich öffentlich für eine Funktion (oder ein
 Bugfix, oder was auch immer) aussprechen, haben Sie ja schon Ihre 
 Karten auf den Tisch gelegt. Die einzige Frage ist, ob Sie die 
-Gemeinschaft überzeugen können Ihr Ziel mit Ihnen zu teilen. Wenn Sie 
-einfach sagen, dass Sie die Funktion haben wollen, aber keine konkreten
+Gemeinschaft überzeugen können, Ihr Ziel mit Ihnen zu teilen. Wenn Sie 
+einfach sagen, dass Sie die Funktion haben wollen aber keine konkreten
 Gründe dafür nennen wollen, stehen Sie auf schwachem Boden und Leute
-werden anfangen verborgene Absichten zu vermuten. Aber auch nur ein paar
-echte Szenarien zu nennen, die aufzeigen warum die vorgeschlagene 
+werden anfangen, verborgene Absichten zu vermuten. Aber auch nur ein paar
+echte Szenarien zu nennen, die aufzeigen, warum die vorgeschlagene 
 Funktion wichtig ist, kann sich dramatisch auf die Debatte 
 auswirken.</para>
 
@@ -803,14 +802,14 @@ the most persistent, or the most senior.</para>
 -->
 <para>Um den Grund dafür zu erkennen, sollten Sie die Alternative
 bedenken. All zu oft sind Debatten über neue Funktionen oder Richtungen
-langwierig und ermüdend. Die Argumente die angebracht werden reduzieren
+langwierig und ermüdend. Die Argumente, welche angebracht werden, reduzieren
 sich meistens auf "Ich persönlich will X", oder das immer wieder beliebte
 "Meine langjährigen Erfahrung als Software-Entwickler hat gezeigt, dass
 X für Nutzer äußerst wichtig ist / eine nutzlose Krause ist, die keinen
 zufrieden stellen wird". Solche Debatten werden dementsprechend durch 
 Mangel an Daten über echte Nutzung weder verkürzt noch verlängert, 
-sondern treiben immer weiter von der Praxis ab. Ohne irgend eine 
-ausgleichende Kraft, wird das Endergebnis eher von dem Wortgewandtesten,
+sondern driften immer weiter von der Praxis ab. Ohne irgend eine 
+ausgleichende Kraft wird das Endergebnis eher von dem Wortgewandtesten,
 dem Hartnäckigsten oder dem Ranghöchsten bestimmt.</para>
 
 <!--
@@ -829,10 +828,10 @@ oxygen.  As long as you present it right, they will welcome it
 enthusiastically, and it will propel things in the direction you want
 to go.</para>
 -->
-<para>Ihre Position als Organization mit reichlich Kundendaten, 
+<para>Ihre Position als Organisation mit reichlich Kundendaten 
 ermöglicht Ihnen genau solch eine ausgleichende Kraft bereitzustellen.
 Sie können ein Kanal für Informationen sein, die sonst keine Möglichkeit 
-hätten zu der Gemeinschaft zu gelangen. Sie müssen sich nicht dafür 
+hätten, zu der Gemeinschaft zu gelangen. Sie müssen sich nicht dafür 
 schämen, dass diese Informationen Ihre Wünsche untermauern. Die meisten
 Entwickler haben für sich keine breite Erfahrung über die Nutzung Ihrer
 Software. Jeder Entwickler benutzt die Software auf seine eigene Art; 
@@ -867,12 +866,12 @@ that they will think of a better solution.)</para>
 <para>Der Schlüssel ist natürlich, es richtig zu präsentieren. Es reicht
 auf keinen Fall aus, nur weil Sie mit einer Menge Nutzern zu tun haben
 und weil diese eine gegebene Funktion brauchen (oder meinen zu 
-brauchen), darauf zu bestehen Ihre Lösung zu implementieren. Statt 
+brauchen), darauf zu bestehen, Ihre Lösung zu implementieren. Statt 
 dessen sollten sich Ihre ersten Nachrichten eher auf das gegebene 
 Problem konzentrieren, als auf eine bestimmte Lösung. Beschreiben Sie 
 sehr ausführlich die Erfahrungen Ihrer Kunden, bieten Sie die Ihnen 
 bestmögliche Auswertung, sowie möglichst viele Lösungsansätze. Wenn
-Leute anfangen zu spekulieren, wie effektiv die verschiedenen Lösungen
+Leute zu spekulieren beginnen, wie effektiv die verschiedenen Lösungen
 sind, können Sie mit Ihren Daten die verschiedenen Antworten 
 untermauern oder entkräften. Sie werden vielleicht die ganze Zeit
 eine bestimmte Lösung im Hinterkopf haben, heben Sie es am Anfang aber
@@ -935,14 +934,14 @@ Hinsicht ein Nachteil. Ihre Entwickler haben dadurch eine etwas andere
 Einstellung als alle anderen auf den Mailinglisten, wodurch ihre 
 Fähigkeit eingeschränkt wird, die Dinge aus der Sicht derjenigen zu
 sehen, die noch nicht über das Problem nachgedacht haben. Je früher Sie
-alle anderen dazu bringen können ihre Sicht einzunehmen, desto geringer
+alle anderen dazu bringen können, ihre Sicht einzunehmen, desto geringer
 werden die resultierende Auswirkungen sein. Diese Logik gilt nicht nur
 für einzelne technische Situationen, sondern auch für das breitere
 Mandat Ihre Ziele so klar wie möglich darzulegen. Das Unbekannte
-verursacht immer mehr Unruhe als das Bekannte. Wenn Menschen verstehen
-warum Sie etwas wollen, werden sie sich dabei wohl fühlen mit Ihnen zu
-reden, selbst wenn sie anderer Meinung sind als Sie. Wenn sie nicht
-herausbekommen was Sie bewegt, werden sie zumindest Zeitweise vom
+verursacht immer mehr Unruhe als das Bekannte. Wenn Menschen verstehen,
+warum Sie etwas wollen, werden sie sich im Gespräch mit ihnen wohl fühlen,
+selbst wenn sie anderer Meinung sind. Wenn sie nicht
+herausbekommen, was Sie bewegt, werden sie zumindest Zeitweise vom
 Schlimmsten ausgehen.</para>
 
 <!--
@@ -955,9 +954,9 @@ accept the fact that you may not have as much influence as you want in
 the discussion.  This is one of the compromises you make in order to
 have a development community not on your payroll.</para>
 -->
-<para>Sie werden natürlich nicht alles veröffentlichen können, und man
-wird es nicht von Ihnen erwarten. Alle Organisationen haben Geheimnisse;
-vielleicht haben Profitorientierte Organisationen mehr davon, 
+<para>Sie werden natürlich nicht alles veröffentlichen können und man
+wird es auch nicht von Ihnen erwarten. Alle Organisationen haben Geheimnisse;
+vielleicht haben profitorientierte Organisationen mehr davon, 
 aber gemeinnützige haben sie auch. Wenn Sie einen bestimmten Kurs 
 verfechten müssen, aber nichts über Ihre Gründe offenbaren können, 
 dann bieten Sie einfach die Ihnen mit dieser Behinderung bestmöglichen 
@@ -1901,7 +1900,7 @@ having them interact directly with the development team.</para>
 <para>Der Eintrag in den Tracker sollte vorzugsweise von der Abteilung
 zur Qualitätssicherung gemacht werden. So kann die Öffentlichkeit die
 Beteiligung Ihrer Firma besser sehen und würdigen: Nützliche
-Bug-Meldungen tragen ebenso zum guten Ruf Ihrer Organization bei wie
+Bug-Meldungen tragen ebenso zum guten Ruf Ihrer Organisation bei wie
 jeder andere technische Beitrag. Es gibt freiwilligen Entwickler auch
 einen direkten Draht um mit der Test-Abteilung zu kommunizieren. Wenn
 diese Abteilung den Bugtracker beobachtet, kann ein Entwickler eine
@@ -2268,7 +2267,7 @@ Conversely, don't claim to have a deeply involved volunteer developer
 community if anyone can look at your repository and see that there are
 few or no code changes coming from outside your organization.</para>
 -->
-<para>Es ist zum Beispiel in Ordnung von Ihrer Organization zu sagen,
+<para>Es ist zum Beispiel in Ordnung von Ihrer Organisation zu sagen,
 dass Sie "Projekt X gegründet" hat wenn das tatsächlich der Fall ist.
 Bezeichnen Sie sich aber nicht als die "Hersteller von X" wenn der
 meiste Code von Fremden geschrieben wurde. Umgekehrt sollten Sie nicht
