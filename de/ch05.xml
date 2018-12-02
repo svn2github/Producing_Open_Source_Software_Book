@@ -985,11 +985,11 @@ start out assuming that the tensions are there; you do need to
 demonstrate an awareness that they have the potential to arise.</para>
 -->
 <para>Wenn Sie ein bezahlter Entwickler in einem Projekt sind, dann
-legen Sie frühzeitig die Richtlinien fest, was für Geld käuflich ist,
-und was nicht. Das bedeutet nicht, dass Sie es zweimal täglich in den
-Foren wiederholen müssen, um Ihre noble und unbestechliche Natur zu
-verdeutlichen. Es bedeutet lediglich, dass Sie auf Gelegenheiten achten
-sollten, um Spannungen zu entschärfen, die durch Geld entstehen 
+stellen Sie frühzeitig Richtlinien auf, die festlegen, was für Geld 
+käuflich ist und was nicht. Das bedeutet nicht, dass Sie es zweimal
+täglich in den Foren wiederholen müssen, um Ihre noble und unbestechliche
+Natur zu verdeutlichen. Es bedeutet lediglich, dass Sie auf Gelegenheiten
+achten sollten, um Spannungen zu entschärfen, die durch Geld entstehen 
 <emphasis>könnten</emphasis>. Sie müssen nicht von vorhandenen
 Spannungen ausgehen; Sie müssen allerdings zeigen, dass es das
 Potential dazu gibt.</para>
@@ -1032,11 +1032,11 @@ the project's repository.</para>
 hatte bereits ein Verfahren, nach dem neue Entwickler Commit-Zugriff
 bekamen. Zuerst reicht man ein paar Patches auf der Entwickler-Liste
 ein. Nachdem genügend Patches eingetroffen sind, damit anderen Committer
-sehen können, dass der neue Mitwirkende weiß was er macht, schlägt 
+sehen können, dass der neue Mitwirkende weiß, was er macht, schlägt 
 jemand vor, ihm den direkten Zugriff zu gewähren (dieser Vorschlag
 findet im Privaten statt, wie in <xref linkend="committers"/> 
 beschrieben). Angenommen die Committer stimmen überein, schreibt einer
-von ihnen dem neuen Entwickler eine Mail in der er den direkten 
+von ihnen dem neuen Entwickler eine Mail, in der er ihm den direkten 
 Commit-Zugriff auf das Projektarchiv des Projekts anbietet.</para>
 
 <!--
@@ -1055,7 +1055,7 @@ have to earn their commit access&mdash;CollabNet just buys
 it.</para>
 -->
 <para>CollabNet hatte Mike ausdrücklich eingestellt, um an Subversion zu
-arbeiten. Bei denen die ihn kannten, zweifelte keiner an seinen
+arbeiten. Bei denen, die ihn kannten, zweifelte keiner an seinen
 Fähigkeiten als Programmierer oder seiner Bereitschaft, an dem Projekt zu
 arbeiten. Desweiteren hatten die freiwilligen Entwickler eine sehr gute
 Beziehung zu den Mitarbeitern von CollabNet und hätten wahrscheinlich
@@ -1063,7 +1063,7 @@ keine Einwände, Mike einfach gleich am ersten Arbeitstag Commit-Zugriff
 zu geben. Wir wussten aber, dass dies einen Präzedenzfall sein würde.
 Wenn wir Mike von oben herab Zugriff auf das Projektarchiv gegeben hätten,
 käme das der Aussage gleich, dass CollabNet das Recht hätte, die Richtlinien
-des Projekts zu ignorieren, einfach nur weil es der größte Geldgeber 
+des Projekts zu ignorieren, einfach nur, weil es der größte Geldgeber 
 war. Obwohl dieser Schaden nicht unbedingt gleich ersichtlich gewesen wäre,
 hätte es langsam dazu geführt, dass unbezahlte Entwickler sich ihrer
 Rechte beraubt fühlen: Andere müssen sich ihren Commit-Zugriff erarbeiten
@@ -1079,15 +1079,15 @@ of weeks of solid activity by Mike, someone (I can't remember if it
 was a CollabNet developer or not) proposed him for commit access, and
 he was accepted, as we knew he would be.</para>
 -->
-<para>Mike willigte also ein seine Arbeit bei CollabNet wie jeder andere
+<para>Mike willigte also ein, seine Arbeit bei CollabNet wie jeder andere
 freiwillige Entwickler anzufangen, ohne Commit-Zugriff. Er schickte 
 Patches an die öffentlichen Foren, wo sie von allen überprüft und
 kritisch beurteilt werden konnten und wurden. Wir erklärten auch
 öffentlich unser explizites Vorgehen, um Missverständnisse zu 
-vermeiden. Nach ein paar Wochen solider Aktivität von Mike, schlug 
-jemand (ich kann mich nicht mehr erinnern ob es ein Entwickler von 
-CollabNet war oder nicht) vor, ihm Commit-Zugriff zu gewähren und wurde
-wie von allen erwartet angenommen.</para>
+vermeiden. Nach ein paar Wochen solider Aktivität von Mike schlug 
+jemand (ich kann mich nicht mehr erinnern, ob es ein Entwickler von 
+CollabNet war oder nicht) vor, ihm Commit-Zugriff zu gewähren, und er wurde
+akzeptiert, wie von uns erwartet.</para>
 
 <!--
 
@@ -1156,11 +1156,11 @@ start, the funder makes itself the same size as everyone else.</para>
 <para>Diese konsequente Durchsetzung verschafft einem Glaubwürdigkeit,
 die man mit Geld nicht kaufen kann. Und Glaubwürdigkeit ist eine 
 wertvolle Währung bei technischen Diskussionen: Es schützt einem vor
-spätere Angriffe auf seine Motive. Bei einer hitzigen Debatte, greifen
-Leute manchmal auf Angriffe ohne technischische Bedeutung zurück, um die
+späterer Infragestellung der eigenen Motive. Bei einer hitzigen Debatte
+greifen Leute manchmal auf Angriffe ohne technischische Bedeutung zurück, um die
 Schlacht für sich zu entscheiden. Der Haupt-Geldgeber bietet durch seine
-tiefe Beteiligung und offensichtliche Sorgen über die Richtung die das
-Projekt nimmt eine breiteres Ziel als die Meisten. Indem er
+tiefe Beteiligung und offensichtliche Sorgen um die Richtung, welche das
+Projekt nimmt, eine breiteres Ziel als die Meisten. Indem er
 gewissenhaft alle Richtlinien des Projekts von Anfang an wahrnimmt,
 stellt der Finanzier sich auf derselben Ebene wie alle anderen.</para>
 
@@ -1178,10 +1178,10 @@ commit-access standards as the non-Sun developers.)</para>
 <para>(Siehe auch den Blog von Danese Cooper bei
 <ulink url="http://blogs.sun.com/roller/page/DaneseCooper/20040916"/>
 für eine ähnliche Geschichte um Commit-Zugriff. Cooper war damals die
-"Open-Source-Diva" von Sun Microsystem's &ndash; ich glaube das war ihr
+"Open-Source-Diva" von Sun Microsystem's &ndash; ich glaube, das war ihr
 offizieller Titel &ndash; und sie beschreibt in ihrem Blog, wie die 
 Entwicklergemeinschaft von Tomcat Sun dazu brachte, die gleichen Richtlinien 
-für Commit-Zugriff für seine eigenen Entwickler zu befolgen, wie
+für Commit-Zugriff für seine eigenen Entwickler zu befolgen wie
 für die Entwickler außerhalb von Sun.)</para>
 
 <!--
@@ -1201,18 +1201,18 @@ governance sitting in your back pocket, ready to be brought out the
 moment there are any indications of widespread dissatisfaction in the
 community.</para>
 -->
-<para>Weil Geldgeber nach den selben Regeln spielen müssen, wie alle
+<para>Weil Geldgeber nach denselben Regeln spielen müssen wie alle
 anderen, lässt sich das Modell der gütigen Diktatur (siehe
 <xref linkend="benevolent-dictator"/><phrase output="printed"> im
 Kapitel <xref linkend="social-infrastructure"/></phrase>) nur schwer
-anwenden, wenn Geld im Spiel ist, insbesondere wenn der Diktator für 
+anwenden, wenn Geld im Spiel ist, insbesondere, wenn der Diktator für 
 den Geldgeber arbeitet. Da eine Diktatur wenig Regeln hat, ist es 
 schwierig für einen Geldgeber zu beweisen, dass er die Normen der
 Gemeinschaft befolgt, selbst wenn das der Fall ist. Es ist sicherlich 
 nicht unmöglich, es erfordert aber einen Projektleiter, der in der Lage
 ist, die Dinge sowohl aus der Sicht der externen Entwickler als auch
-derer die für den Geldgeber arbeiten, zu sehen und sich entsprechend zu 
-verhalten. Selbst dann, ist es wahrscheinlich eine gute Idee ein nicht
+derer, die für den Geldgeber arbeiten, zu sehen und sich entsprechend zu 
+verhalten. Selbst dann ist es wahrscheinlich eine gute Idee, ein nicht
 diktatorisches Modell bereit zu halten, welches man bei Anzeichen von
 breiter Unzufriedenheit in der Gemeinschaft vorschlagen kann.</para>
 
@@ -1247,12 +1247,12 @@ der Gemeinschaft angenommen wird und in die veröffentlichte Version
 aufgenommen wird. Theoretisch würde es keinen Unterschied machen, wer
 der Auftragnehmer ist, solange er gute Arbeit macht und die Richtlinien
 des Projekts beachtet. Theorie und Praxis kann manchmal auch
-zusammenpassen: Ein komplett Fremder der mit einem guten Patch 
-auftaucht, <emphasis>wird</emphasis> es im Allgemeinen schaffen, diese
-in die Software zu bekommen. Das Schwierige ist, dass es als komplett
-Fremder sehr schwer ist, einen guten Patch für eine nicht triviale 
+zusammenpassen: Ein komplett Fremder, der mit einem guten Patch 
+auftaucht, <emphasis>wird</emphasis> es im Allgemeinen schaffen, diesen
+in die Software hineinzubekommen. Das Schwierige ist, dass es als komplett
+Fremder sehr mühevoll ist, einen guten Patch für eine nicht triviale 
 Erweiterung oder Funktion zu produzieren; man muss es zuerst mit dem 
-übrigen Teilnehmern diskutieren. Die Dauer dieser Diskussion, kann man
+übrigen Teilnehmern diskutieren. Die Dauer dieser Diskussion kann man
 nicht genau voraussehen. Wenn der Auftragnehmer nach Arbeitszeit bezahlt
 wird, werden Sie vielleicht mehr Bezahlen, als Sie erwartet haben; wenn
 er Pauschal bezahlt wird, kann es passieren, dass er länger arbeitet,
@@ -1282,26 +1282,25 @@ regarding code changes, the contract can reference those standards and
 specify that the work must meet them.  In practice, this usually works
 out the way everyone hopes.</para>
 -->
-<para>Es gibt zwei Möglichkeiten das Problem zu umgehen. Man sollte
-vorzugsweise eine fundierte Vermutung über die Dauer der Diskussion
-machen, beruhend auf der vergangenen Erfahrung mit einem Puffer für Fehler,
-was dem Vertrag zugrunde liegt. Es hilft auch das Problem in möglichst
-viele Einzelteile zu spalten, um die einzelnen Brocken eher einschätzen
-zu können. Der andere Weg ist den Auftrag auf den eigentlichen Patch zu
+<para>Es gibt zwei Möglichkeiten das Problem zu umgehen. Der bevorzugte
+Weg ist, eine fundierte Vermutung über die Dauer der Diskussion, beruhend
+auf der bisherigen Erfahrung, zu machen, mit einem Puffer für Fehler,
+und den Vertrag darauf fußen lassen. Es hilft auch, das Problem in möglichst
+viele, unabhängige Einzelteile zu spalten, um die einzelnen Teile eher einschätzen
+zu können. Der andere Weg ist, den Auftrag auf den eigentlichen Patch zu
 beschränken, unabhängig von seiner Aufnahme im Projekt. Es ist dadurch
-viel einfacher den Vertrag zu schreiben, hat aber den Nachteil, dass
+viel einfacher, den Vertrag zu schreiben, hat aber den Nachteil, dass
 Ihnen dann der Klotz am Bein hängt, den Patch so lange zu pflegen, wie
-Sie auf die Software angewiesen sind, oder zumindest so lange bis Sie es
-schaffen eine gleichwertige Funktion in den Hauptzweig zu bekommen. 
-Natürlich kann man selbst beim ersten Vorgehen nicht im
-Vertrag darauf bestehen, etwas über die Aufnahme im Projekt 
-festzulegen, weil das den Verkauf von etwas bedeuten würden, was nicht zum 
-Verkauf steht. (Was 
-passiert wenn die Übrigen im Projekt sich entscheiden, die Funktion 
+Sie auf die Software angewiesen sind, oder zumindest so lange, bis Sie es
+schaffen, eine gleichwertige Funktion in den Hauptzweig zu bekommen. 
+Natürlich, auch beim bevorzugten Weg kann der Vertrag selbst nicht verlangen,
+dass die Aufnahme des Patches in den Code akzeptiert wird, weil das den 
+Verkauf von etwas bedeuten würden, das nicht zum Verkauf steht. (Was 
+passiert, wenn die Übrigen im Projekt sich entscheiden, die Funktion 
 nicht zu unterstützen)? Der Vertrag kann allerdings eine gewisse 
 angemessen und glaubwürdige Anstrengung beinhalten, um die Änderung von
-der Gemeinschaft angenommen zu bekommen, und sie danach im
-Projektarchiv einzuspielen. Wenn das Projekt Normen über Änderungen am Code
+der Gemeinschaft angenommen und sie danach im Projektarchiv eingespielt
+zu bekommen. Wenn das Projekt beispielsweise Normen über Codeänderungen
 festgelegt hat, kann der Vertrag auf diese verweisen und festlegen, das
 die Arbeit sich danach richten muss. In der Praxis verläuft das 
 meistens positiv für alle Parteien.</para>
@@ -1336,25 +1335,25 @@ involved with the project.</para>
 Entwickler des Projekts &ndash; vorzugsweise einen etablierten Beteiligten
 &ndash; als Auftragnehmer anzustellen. Das mag sich nach erkauftem
 Einfluss anhören, und nun ja, dass ist es auch. Es ist aber nicht so
-korrupt, wie es sich anhört. Der Einfluss den ein Entwickler innerhalb
+korrupt, wie es sich anhört. Der Einfluss, den ein Entwickler innerhalb
 eines Projekts hat, hängt vorrangig von der Qualität seiner Arbeit,
 sowie seinen Umgang mit anderen Entwicklern ab. Die Tatsache, dass er
 ein Vertrag hat, um bestimmte Sachen erledigt zu bekommen, hebt seinen
 Status in keiner Weise und es senkt ihn auch nicht, auch wenn Leute ihn
 vielleicht etwas vorsichtiger hinterfragen werden. Die meisten
-Entwickler würden ihre längerfristige Position in einem Projekt nicht
-riskieren um eine weitestgehend unbeliebte Funktion zu unterstützen.
-Tatsächlich sollte ein Teil von dem was Sie erhalten, wenn Sie einen 
+Entwickler würden ihre auf Dauer angelegte Position in einem Projekt nicht
+für die Unterstützung einer weitestgehend unbeliebten Funktion riskieren.
+Tatsächlich sollte ein Teil von dem, was Sie erhalten, wenn Sie einen 
 solchen Entwickler einstellen, Ratschläge darüber sein, welche
 Änderungen wahrscheinlich von der Gemeinschaft angenommen werden. Sie
-bekommen auch eine gewisse Umstellung der Prioritäten im Projekt. Da die
-Prioritäten lediglich davon abhängen, wer Zeit hat an etwas zu arbeiten,
-sorgen Sie durch Entlohnung bestimmter Arbeiten dafür, dass diese eine
-etwas höhere Priorität bekommen. Unter erfahrenen Open-Source-Entwicklern
-ist diese Tatsache wohlbekannt, und zumindest manche werden der Arbeit
-eines Auftragnehmers Aufmerksamkeit widmen, einfach nur weil es den 
-Anschein hat <emphasis>fertig zu werden</emphasis>, also wollen sie 
-dabei helfen, dass es richtig gemacht wird. Sie schreiben dabei zwar
+erzielen auch eine gewisse Umstellung der Prioritäten im Projekt.
+Weil die Priorisierung oft aus der Frage resultiert, wer an welchem Teil
+Zeit hat zu arbeiten, wird, da Sie jemandes Zeit bezahlen, dessen Arbeit
+in der Prioritätenlist ein wenig nach oben wandern. Unter erfahrenen
+Open-Source-Entwicklern ist diese Tatsache wohlbekannt und zumindest manche
+werden der Arbeit eines Auftragnehmers Aufmerksamkeit widmen, einfach nur
+weil zu vermuten ist, <emphasis>dass es fertig wird</emphasis>, also wollen
+sie dabei helfen, dass es richtig gemacht wird. Sie schreiben dabei zwar
 vielleicht keinen Code, werden aber Entwürfe diskutieren und Kritik am
 Code üben, was alles sehr nützlich sein kann. Aus all diesen Gründen,
 sollte der Auftragnehmer am ehesten aus den Reihen der bereits am
@@ -1367,9 +1366,9 @@ tensions in the community by the fact that you've contracted with some
 developers and not others?</para>
 -->
 <para>Dadurch stellen sich zwei Fragen: Sollten Verträge jemals privat
-sein? Und wenn sie es nicht sind, sollten Sie sich darüber sorgen 
-machen, Spannungen in der Gemeinschaft zu verursachen indem Sie mit
-manchen der Entwickler Verträge geschlossen haben, und nicht mit 
+sein? Und wenn sie es nicht sind, sollten Sie sich darüber Sorgen 
+machen, Spannungen in der Gemeinschaft zu verursachen, indem Sie mit
+manchen der Entwickler Verträge geschlossen haben und nicht mit 
 anderen?</para>
 
 <!--
@@ -1386,7 +1385,7 @@ Verhalten des Beauftragten anderen in der Gemeinschaft komisch
 vorkommen &ndash; vielleicht gibt er bestimmten Funktionen plötzlich 
 eine unerklärlich hohe Priorität, die ihn früher aber nicht 
 interessierten. Wenn Leute ihn darauf ansprechen, wie soll er überzeugend
-antworten, wenn er nicht darüber reden kann, dass er beauftragt wurde, 
+antworten, wenn er nicht darüber reden kann, dass er beauftragt wurde 
 sie zu schreiben?</para>
 
 <!--
@@ -1412,11 +1411,11 @@ customer's identity, but in any case he doesn't dwell on the contract.
 His remarks about it are just an ornament to an otherwise technical
 discussion about how to get something done.</para>
 -->
-<para>Gleichzeitig sollten weder Sie noch der Auftragnehmer so tun als
+<para>Gleichzeitig sollten weder Sie noch der Auftragnehmer so tun, als
 ob andere ihre Vereinbarung als etwas besonderes behandeln sollten. All
 zu oft habe ich Auftragnehmer erlebt, die auf der Mailingliste mit
-der Einstellung auftreten, dass ihre Nachrichten ernster genommen werden
-sollten, einfach nur weil sie bezahlt werden. Diese Einstellung zeigt
+der Einstellung auftraten, dass ihre Nachrichten ernster genommen werden
+sollten, einfach nur, weil sie bezahlt werden. Diese Einstellung zeigt
 den anderen Teilnehmern, dass der Auftragnehmer den Vertrag an sich als
 das Wesentliche erachtet &ndash; im Gegensatz zu dem aus dem Vertrag
 <emphasis>resultierenden</emphasis> Code. Aus Sicht der anderen 
@@ -1427,9 +1426,9 @@ mit Auftragsarbeit besonders elegant um. Während er seine Änderungen am
 Code im IRC bespricht, macht er nebenbei Anmerkungen (oftmals in einer 
 privaten Nachricht, also <firstterm>privmsg</firstterm> im IRC, an
 andere Entwickler), dass er für die Arbeit an diesem bestimmten Fehler
-oder Funktion bezahlt wird. Er gibt aber durchweg den Eindruck, dass er
+oder Funktion bezahlt wird. Er vermittelt aber durchweg den Eindruck, dass er
 an dieser Änderung auch so arbeiten wolle, und dass er froh ist, dass 
-das Geld es ihm ermöglicht. Ob er sagt für wen er arbeitet oder nicht,
+das Geld es ihm ermöglicht. Egal ob er sagt für wen er arbeitet oder nicht,
 den Vertrag macht er nie zum eigentlichen Thema. Seine Anmerkungen 
 darüber sind lediglich eine Zierde einer ansonsten technische Diskussion
 über die Lösung eines Problems.</para>
@@ -1445,16 +1444,14 @@ sponsoring certain bug fixes allows CollabNet to redirect its
 resources to other bugs, resulting in greater efficiency for the
 project as a whole.</para>
 -->
-<para>Dieses Beispiel zeigt einen weiteren Grund offen über Verträge zu
-reden: es mag mehrere Organisationen geben, die bei einem 
-Open-Source-Projekt
-Verträge beisteuern, und wenn jeder über die Arbeit des anderen
+<para>Das folgende Beispiel zeigt einen weiteren Grund für das Offensein
+über Verträge auf: Es mag mehrere Organisationen geben, die bei einem
+Open-Source-Projekt Verträge beisteuern, und wenn jeder über die Arbeit des anderen
 bescheid weiß, können sie vielleicht ihre Ressourcen bündeln. Im obigen
-Fall, ist der größte Finanzier (CollabNet) in keinster Weise an diesen
+Fall ist der größte Finanzierer (CollabNet) in keinster Weise an diesen
 Einzelverträgen beteiligt. Aber mit dem Wissen, dass jemand anderes 
-bestimmte Bugfixes fördert, wird CollabNet ermöglicht sich auf andere
-Fehler zu konzentrieren, und insgesamt die Effizienz im Projekt zu
-erhöhen.</para>
+bestimmte Bugfixes fördert, wird es CollabNet ermöglicht, sich auf andere
+Fehler zu konzentrieren, und dadurch insgesamt die Effizienz im Projekt erhöht.</para>
 
 <!--
 <para>Will other developers resent that some are paid for working on
@@ -1474,13 +1471,13 @@ successful, so why take unnecessary risks?  Thus, it's perfectly
 natural to have one or two go-to people in the community, instead of
 spreading the work around evenly.</para>
 -->
-<para>Nehmen es andere Entwickler es den beauftragten Mitgliedern übel,
-dass sie für die Arbeit am Projekt bezahlt werden? Im allgemeinen nein,
-insbesondere wenn diejenigen, die bezahlt werden sowieso anerkannte,
+<para>Nehmen andere Entwickler es den beauftragten Mitgliedern übel,
+dass sie für die Arbeit am Projekt bezahlt werden? Im allgemeinen nicht,
+insbesondere wenn diejenigen, die bezahlt werden, sowieso anerkannte,
 geachtete Mitglieder der Gemeinschaft sind. Keiner erwartet, dass
 Auftragsarbeit gleichmäßig auf die Beteiligten aufgeteilt wird. Leute
-verstehen wie wichtig dauerhafte Beziehungen sind: Die Ungewissheiten
-bei Auftragsarbeit sind derart, dass wenn man einen zuverlässigen
+verstehen, wie wichtig dauerhafte Beziehungen sind: Die Ungewissheiten
+bei Auftragsarbeit sind derart, dass, wenn man einen zuverlässigen
 Geschäftspartner gefunden hat, man nur widerwillig zu jemand anderen 
 wechselt, nur der Gerechtigkeit halber. Sie können es sich so 
 vorstellen: Wenn Sie das erste mal jemand wählen wird es bestimmt keine
@@ -1489,8 +1486,8 @@ Beschwerden geben, denn schließlich mussten Sie ja
 nicht alle beauftragen. Wenn Sie später dieselbe Person ein zweites mal
 beauftragen, ist das nur vernünftig: Sie kennen ihn schon, der letzte
 Auftrag verlief erfolgreich, warum sollten Sie ein unnötiges Risiko
-eingehen? Es ist deshalb ganz natürlich ein-zwei Leute in der
-Gemeinschaft zu haben an die man sich wenden kann, anstatt die Arbeit
+eingehen? Es ist deshalb ganz natürlich, ein-zwei Leute in der
+Gemeinschaft zu haben, an die man sich wenden kann, anstatt die Arbeit
 gleichmäßig aufzuteilen.</para>
 
 <sect2 id="community-review-acceptance">
