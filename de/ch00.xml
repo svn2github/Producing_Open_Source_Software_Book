@@ -13,110 +13,113 @@
 
 <!--
 <para>At parties, people no longer give me a blank stare when I tell
-them I write free software.  "Oh, yes, open source&mdash;like Linux?"
-they say.  I nod eagerly in agreement.  "Yes, exactly!  That's what I
-do."  It's nice not to be completely fringe anymore.  In the past, the
+them I write free software. "Oh, yes, open source&nbsp;&mdash;&nbsp;like Linux?"
+they say. I nod eagerly in agreement. "Yes, exactly! That's what I
+do." It's nice not to be completely fringe anymore. In the past, the
 next question was usually fairly predictable: "How do you make money
-doing that?"  To answer, I'd summarize the economics of open source:
+doing that?" To answer, I'd summarize the economics of open source:
 that there are organizations in whose interest it is to have certain
 software exist, but that they don't need to sell copies, they just
 want to make sure the software is available and maintained, as a tool
-instead of a commodity.</para>
+instead of as a commodity.</para>
 -->
-<para>Wenn ich auf einer Party davon erzähle, dass ich freie Software 
-schreibe, wird mir heutzutage nicht mehr mit leerem Blick begegnet; 
-vielmehr ist die Reaktion: "Ach ja, Open Source &ndash; wie Linux?"
-Und ich nicke eifrig zustimmend: "Ja, genau! Das mache ich."
+<para>Auf Parties begegnen mir Leute nicht mehr mit leerem Blick, wenn ich erzähle,
+dass ich freie Software schreibe. "Oh, ja, Open Source &nbsp;&ndash;&nbsp; wie Linux?"
+sagen sie. Ich nicke dann eifrig zustimmend: "Ja, genau! Das mache ich."
 Es ist angenehm, nicht mehr so ganz am Rand zu stehen. In der 
 Vergangenheit war die nächste Frage leicht vorhersehbar:
 "Wie verdient man denn dabei Geld?" Als Antwort fasste ich die 
 wirtschaftlichen Hintergründe von Open Source kurz zusammen: Es gibt 
 Organisationen, die daran interessiert sind, dass eine bestimmte
 Software existiert, ohne sie verkaufen zu müssen, sie wollen schlicht 
-sicher gehen, dass sie verfügbar ist und gepflegt wird: als Werkzeug,
-und nicht als Ware.</para>
+sicher gehen, dass sie verfügbar ist und gepflegt wird: als Werkzeug
+und nicht als Handelsware.</para>
 
 <!--
-<para>Lately, however, the next question has not always been about
-money.  The business case for open source software<footnote><para>The
-terms "open source" and "free" are essentially synonymous in this
-context; they are discussed more in
-<xref linkend="free-vs-open-source"/><phrase output="printed"> in
-<xref linkend="introduction"/></phrase>.</para></footnote> is no
-longer so mysterious, and many non-programmers already
-understand&mdash;or at least are not surprised&mdash;that there are
-people employed at it full time.  Instead, the question I have been
-hearing more and more often is "<emphasis>Oh, how does that
-work?</emphasis>"</para>
+<para>The next question is not always about money, though. The
+business case for open source software<footnote><para>The terms "open
+source software" and "free software" are essentially synonymous in
+this context; they are discussed more in <xref
+linkend="free-vs-open-source"/><phrase condition="treeware"> in <xref
+linkend="introduction"/></phrase>.</para></footnote> is no longer so
+mysterious, and even non-programmers already understand&nbsp;&mdash;&nbsp;or at
+least are not surprised&nbsp;&mdash;&nbsp;that there are people employed at it
+full time. Instead, the next question is often "<emphasis>Oh, how
+does that work?</emphasis>"</para>
 -->
-<para>In letzer Zeit jedoch dreht sich die nächste Frage nicht immer
-um Geld. Die Wirtschaftlichkeit von Open-Source-Software<footnote><para>
-Im Prinzip sind die Begriffe "Open Source" und "Frei" in diesem Kontext 
-Synonyme. Sie werden in <xref linkend="free-vs-open-source"/>
-<phrase output="printed"> im Kapitel <xref linkend="introduction"/>
-</phrase> ausführlicher behandelt.</para></footnote> ist nicht 
-mehr so rätselhaft, und viele Nicht-Programmierer verstehen 
-mittlerweile &ndash; oder sind zumindest nicht überrascht darüber &ndash; ,
-dass manche damit ihr Geld verdienen. Stattdessen ist die Frage, die
-ich immer häufiger höre, "<emphasis>Ach ja, wie funktioniert das
-eigentlich?</emphasis>"</para>
+
+<para>Die nächste Frage dreht sich dann allerdings nicht ums Geld.
+Die Wirtschaftlichkeit von Open-Source-Software<footnote><para>
+Die Begriffe "Open Source Software" und "Freie Software" sind im Grunde
+genommenin Synonyme in diesem Kontext. Sie werden ausführlicher in <xref
+linkend="free-vs-open-source"/><phrase condition="treeware"> im <xref
+linkend="introduction"/></phrase> behandelt.</para></footnote> ist nicht 
+mehr so rätselhaft, und gerade Nicht-Programmierer verstehen 
+mittlerweile&nbsp;&ndash;&nbsp;oder sind zumindest nicht überrascht darüber&nbsp;&ndash;&nbsp;,
+dass manche damit vollzeitbeschäftigt sind. Stattdessen ist die nächste Frage oft
+"<emphasis>Ach ja, wie funktioniert das eigentlich?
+</emphasis>"</para>
 
 <!--
 <para>I didn't have a satisfactory answer ready, and the harder I
 tried to come up with one, the more I realized how complex a topic it
-really is.  Running a free software project is not exactly like
+really is. Running a free software project is not exactly like
 running a business (imagine having to constantly negotiate the nature
-of your product with a group of volunteers, most of whom you've never
-met!).  Nor, for various reasons, is it exactly like running a
-traditional non-profit organization, nor a government.  It has
+of your product with a group of random people of diverse motivations
+and interests, most of whom you've never met!).
+Nor, for various reasons, is it exactly like running a
+traditional non-profit organization, nor a government. It has
 similarities to all these things, but I have slowly come to the
 conclusion that free software is <foreignphrase>sui
-generis</foreignphrase>.  There are many things with which it can be
-usefully compared, but none with which it can be equated.  Indeed,
+generis</foreignphrase>. There are many things with which it can be
+usefully compared, but none with which it can be equated. Indeed,
 even the assumption that free software projects can be "run" is a
-stretch.  A free software project can be <emphasis>started</emphasis>,
+stretch. A free software project can be <emphasis>started</emphasis>,
 and it can be influenced by interested parties, often quite strongly.
 But its assets cannot be made the property of any single owner, and as
-long as there are people somewhere&mdash;anywhere&mdash;interested in
-continuing it, it cannot be unilaterally shut down.  Everyone has
-infinite power; everyone has no power.  It makes for an interesting
+long as there are people somewhere&nbsp;&mdash;&nbsp;anywhere&nbsp;&mdash;&nbsp;interested in
+continuing it, it cannot be unilaterally shut down. Everyone has
+infinite power; everyone has no power. It's an interesting
 dynamic.</para>
 -->
 <para>Dafür hatte ich keine gute Antwort parat, und je mehr ich 
-versuchte eine zu finden, desto bewusster wurde mir, was für ein
-komplexes Thema es wirklich ist. Ein Open-Source-Projekt zu leiten,
+versuchte, eine zu finden, desto bewusster wurde mir, was für ein
+komplexes Thema es wirklich ist. Ein Open-Source-Projekt zu leiten
 ist nicht unbedingt wie die Leitung einer Firma (stellen Sie sich
-vor, ständig mit einer Gruppe von Freiwilligen über die Natur Ihres
-Produkts diskutieren zu müssen, von denen Sie den meisten noch nicht
-einmal begegnet sind!). Es ist auch nicht wie die Leitung einer 
+vor, ständig mit einer Gruppe zusammengewürfelter Leute unterschiedlichster
+Motivationen und Interessen über die Natur Ihres Produktes diskutieren zu müssen,
+von denen Sie den meisten noch nicht einmal begegnet sind!).
+Es ist auch nicht wie die Leitung einer 
 gewöhnlichen, gemeinnützigen Organisation oder eines Staates. Es gibt 
 Ähnlichkeiten zu all dem, aber ich bin langsam zu dem Schluss gekommen, 
-dass freie Software in dieser Hinsicht einzigartig ist. Es gibt vieles 
-womit man sie sinnvoll vergleichen kann, aber nichts womit man sie 
+dass freie Software in dieser Hinsicht einzigartig ist. Es gibt vieles, 
+womit man sie sinnvoll vergleichen kann, aber nichts, womit man sie 
 gleichsetzen kann. Tatsächlich geht die Annahme etwas weit, dass man
 ein Open-Source-Projekt überhaupt "führen" könne. Ein 
 Open-Source-Projekt kann <emphasis>begonnen</emphasis> und durch 
 interessierte Beteiligte beeinflusst werden, oft sogar relativ stark. 
-Aber niemand kann es sich aneignen, und solange es irgendwo Beteiligte
-gibt, die es fortführen wollen, kann es niemals von einer Partei 
+Aber niemand kann es sich aneignen, und solange es irgendwo&nbsp;&mdash;&nbsp;überall&nbsp;&mdash;&nbsp;Beteiligte
+gibt, die es fortführen wollen, kann es niemals von einer Seite 
 stillgelegt werden. Jeder hat unendliche Macht; jeder hat keine
 Macht. Daraus ergibt sich eine interessante Dynamik.</para>
 
 <!--
-<para>That is why I wanted to write this book.  Free software projects
-have evolved a distinct culture, an ethos in which the liberty to make
-the software do anything one wants is a central tenet, and yet the
-result of this liberty is not a scattering of individuals each going
-their own separate way with the code, but enthusiastic collaboration.
-Indeed, competence at cooperation itself is one of the most highly
-valued skills in free software.  To manage these projects is to engage
-in a kind of hypertrophied cooperation, where one's ability not only
-to work with others but to come up with new ways of working together
-can result in tangible benefits to the software.  This book attempts
-to describe the techniques by which this may be done.  It is by no
-means complete, but it is at least a beginning.</para>
+<para>That is why I wanted to write this book in the first place, and,
+a decade later, wanted to update it. Free software projects have
+evolved a distinct culture, an ethos in which the liberty to make the
+software do anything one wants is a central tenet. Yet the result of
+this liberty is not a scattering of individuals each going their own
+separate way with the code, but enthusiastic collaboration. Indeed,
+competence at cooperation itself is one of the most highly valued
+skills in free software. To manage these projects is to engage in a
+kind of hypertrophied cooperation, where one's ability not only to
+work with others but to come up with new ways of working together can
+result in tangible benefits to the software. This book attempts to
+describe the techniques by which this may be done. It is by no means
+complete, but it is at least a beginning.</para>
 -->
-<para>Das ist der Grund für dieses Buch. Freie Software-Projekte haben
+<para>Das ist der Grund, weshalb ich dieses Buch zuallererst schreiben
+und jetzt nach einer Dekade aktualisieren wollte. Freie Software-Projekte haben
 eine ausgeprägte Kultur entwickelt, mit einer Gesinnung, in der die 
 Freiheit, Software zu entwickeln, die alles tut was man will, der 
 zentrale Grundsatz ist. Das Ergebnis dieser Freiheit ist jedoch nicht 
@@ -124,23 +127,22 @@ eine Zerstreuung der einzelnen Beteiligten, so dass jeder seinen eigenen
 Weg mit seinem Code geht, sondern eine enthusiastische Zusammenarbeit. 
 Tatsächlich ist die Kompetenz zur Zusammenarbeit eine der am meisten 
 geschätzten Fähigkeiten in Open-Source-Software. Diese Projekte zu 
-verwalten, ist wie das Angehen einer Art hypertrophisierten Kooperation,
-in der sowohl die eigene Fähigkeit mit anderen zusammenzuarbeiten,
+verwalten ist wie die Beteiligung an einer Art hypertrophisierten Kooperation,
+in der sowohl die eigene Fähigkeit, mit anderen zusammenzuarbeiten,
 als auch neue Wege für diese Zusammenarbeit zu finden, konkrete
 Vorteile für die Software bringen kann. Dieses Buch versucht Techniken
-hierzu zu beschreiben. Es ist keineswegs vollständig, aber 
+zu beschreiben, mit denen dies möglich ist. Es ist keineswegs vollständig, aber 
 immerhin ein Anfang.</para>
 
 <!--
 <para>Good free software is a worthy goal in itself, and I hope that
 readers who come looking for ways to achieve it will be satisfied with
-what they find here.  But beyond that I also hope to convey something
+what they find here. But beyond that I also hope to convey something
 of the sheer pleasure to be had from working with a motivated team of
 open source developers, and from interacting with users in the
-wonderfully direct way that open source encourages.  Participating in
-a successful free software project is
-<emphasis>fun</emphasis>, and ultimately that's what keeps the whole
-system going.</para>
+wonderfully direct way that open source encourages. Participating in
+a successful free software project is a deep pleasure, and ultimately
+that's what keeps the whole system going.</para>
 -->
 <para>Gute freie Software ist an und für sich schon ein würdiges Ziel,
 und ich hoffe, dass Leser die hierin nach neuen Wegen suchen, mit
@@ -148,9 +150,8 @@ dem zufrieden sein werden, was sie hier finden. Darüber hinaus hoffe ich
 etwas von der Freude an der Arbeit mit einem motivierten Team von 
 Open-Source-Entwicklern und der wundervoll direkten Art mit Benutzern zu 
 interagieren, zu der Open Source ermutigt, vermitteln zu können. An einem
-erfolgreichen Open-Source-Projekt teilzunehmen, macht 
-<emphasis>Spaß</emphasis>, und letztlich ist es das, was das ganze
-System am Laufen hält.</para>
+erfolgreichen Open-Source-Projekt teilzunehmen, ist eine große Freude und
+letztlich ist es das, was das ganze System am Laufen hält.</para>
 
 </sect1>
 
@@ -164,7 +165,7 @@ System am Laufen hält.</para>
 <!--
 <para>This book is meant for software developers and managers who are
 considering starting an open source project, or who have started one
-and are wondering what to do now.  It should also be helpful for
+and are wondering what to do now. It should also be helpful for
 people who just want to participate in an open source project but have
 never done so before.</para>
 -->
@@ -185,9 +186,9 @@ Compiler und Patches kennen.</para>
 
 <!--
 <para>Prior experience with open source software, as either a user or
-a developer, is not necessary.  Those who have worked in free software
+a developer, is not necessary. Those who have worked in free software
 projects before will probably find at least some parts of the book a
-bit obvious, and may want to skip those sections.  Because there's
+bit obvious, and may want to skip those sections. Because there's
 such a potentially wide range of audience experience, I've made an
 effort to label sections clearly, and to say when something can be
 skipped by those already familiar with the material.</para>
@@ -212,14 +213,14 @@ mit der Materie vertraute Leser beruhigt weiterblättern können.</para>
 <!--
 <para>Much of the raw material for this book came from five years of
 working with the Subversion project
-(<ulink url="http://subversion.tigris.org/"/>).  Subversion is an open
+(<ulink url="http://subversion.tigris.org/"/>). Subversion is an open
 source version control system, written from scratch, and intended to
 replace CVS as the <foreignphrase>de facto</foreignphrase> version
-control system of choice in the open source community.  The project
+control system of choice in the open source community. The project
 was started by my employer, CollabNet
 (<ulink url="http://www.collab.net/"/>), in early 2000, and thank
 goodness CollabNet understood right from the start how to run it as a
-truly collaborative, distributed effort.  We got a lot of volunteer
+truly collaborative, distributed effort. We got a lot of volunteer
 developer buy-in early on; today there are 50-some developers on
 the project, of whom only a few are CollabNet employees.</para>
 -->
@@ -241,17 +242,17 @@ denen nur wenige bei CollabNet angestellt sind.</para>
 <!--
 <para>Subversion is in many ways a classic example of an open source
 project, and I ended up drawing on it more heavily than I originally
-expected.  This was partly a matter of convenience: whenever I needed
+expected. This was partly a matter of convenience: whenever I needed
 an example of a particular phenomenon, I could usually call one up
-from Subversion right off the top of my head.  But it was also a
-matter of verification.  Although I am involved in other free software
+from Subversion right off the top of my head. But it was also a
+matter of verification. Although I am involved in other free software
 projects to varying degrees, and talk to friends and acquaintances
 involved in many more, one quickly realizes when writing for print
-that all assertions need to be fact-checked.  I didn't want to make
+that all assertions need to be fact-checked. I didn't want to make
 statements about events in other projects based only on what I could
-read in their public mailing list archives.  If someone were to try
+read in their public mailing list archives. If someone were to try
 that with Subversion, I knew, she'd be right about half the time and
-wrong the other half.  So when drawing inspiration or examples from a
+wrong the other half. So when drawing inspiration or examples from a
 project with which I didn't have direct experience, I tried to first
 talk to an informant there, someone I could trust to explain what was
 really going on.</para>
@@ -276,7 +277,7 @@ reden, mit jemandem der wusste, was sich tatsächlich abgespielt hatte.</para>
 
 <!--
 <para>Subversion has been my job for the last 5 years, but I've been
-involved in free software for 12.  Other projects that influenced this
+involved in free software for 12. Other projects that influenced this
 book include:</para>
 -->
 <para>Ich arbeite seit 5 Jahren an Subversion, habe aber schon seit 12
@@ -340,9 +341,9 @@ Projekte dieses Buch beeinflusst:</para>
 </itemizedlist>
 
 <!--
-<para>This is not a complete list, of course.  Like most open source
+<para>This is not a complete list, of course. Like most open source
 programmers, I keep loose tabs on many different projects, just to
-have a sense of the general state of things.  I won't name all of them
+have a sense of the general state of things. I won't name all of them
 here, but they are mentioned in the text where appropriate.</para>
 -->
 <para>Die Liste ist natürlich unvollständig. Wie die meisten 
@@ -364,7 +365,7 @@ nennen, aber sie werden im Text an entsprechender Stelle erwähnt.
 <!--
 <para>This book took four times longer to write than I thought it
 would, and for much of that time felt rather like a grand piano
-suspended above my head wherever I went.  Without help from many
+suspended above my head wherever I went. Without help from many
 people, I would not have been able to complete it while staying
 sane.</para>
 -->
@@ -375,10 +376,10 @@ Erst die Hilfe vieler Menschen hat es mir ermöglicht, dieses Buch
 fertigzustellen, ohne dabei den Verstand zu verlieren.</para>
 
 <!--
-<para>Andy Oram, my editor at O'Reilly, was a writer's dream.  Aside
+<para>Andy Oram, my editor at O'Reilly, was a writer's dream. Aside
 from knowing the field intimately (he suggested many of the topics),
 he has the rare gift of knowing what one meant to say and helping one
-find the right way to say it.  It has been an honor to work with him.
+find the right way to say it. It has been an honor to work with him.
 Thanks also to Chuck Toporek for steering this proposal to Andy right
 away.</para>
 -->
@@ -393,11 +394,11 @@ hatte.</para>
 <!--
 <para>Brian Fitzpatrick reviewed almost all of the material as I wrote
 it, which not only made the book better, but kept me writing when I
-wanted to be anywhere in the world but in front of the computer.  Ben
+wanted to be anywhere in the world but in front of the computer. Ben
 Collins-Sussman and Mike Pilato also checked up on progress, and were
 always happy to discuss&mdash;sometimes at length&mdash;whatever topic
-I was trying to cover that week.  They also noticed when I slowed
-down, and gently nagged when necessary.  Thanks, guys.</para>
+I was trying to cover that week. They also noticed when I slowed
+down, and gently nagged when necessary. Thanks, guys.</para>
 -->
 <para>Brian Fitzpatrik hat das ganze Material durchgesehen, während
 ich es schrieb, was nicht nur dazu führte, dass das Buch besser wurde,
@@ -411,11 +412,11 @@ mich durch kleine Nörgeleien auf. Danke Jungs!</para>
 
 <!--
 <para>Biella Coleman was writing her dissertation at the same time
-I was writing this book.  She knows what it means to sit down and
+I was writing this book. She knows what it means to sit down and
 write every day, and provided an inspiring example as well as a
-sympathetic ear.  She also has a fascinating anthropologist's-eye view
+sympathetic ear. She also has a fascinating anthropologist's-eye view
 of the free software movement, giving both ideas and references that I
-was able use in the book.  Alex Golub&mdash;another anthropologist
+was able use in the book. Alex Golub&mdash;another anthropologist
 with one foot in the free software world, and also finishing his
 dissertation at the same time&mdash;was exceptionally supportive early
 on, which helped a great deal.</para>
@@ -435,7 +436,7 @@ eine außerordentliche Unterstützung, was eine große Hilfe war.</para>
 <para>Micah Anderson somehow never seemed too oppressed by his own
 writing gig, which was inspiring in a sick, envy-generating sort of
 way, but he was ever ready with friendship, conversation, and (on at
-least one occasion) technical support.  Thanks, Micah!</para>
+least one occasion) technical support. Thanks, Micah!</para>
 -->
 <para>Micah Anderson schien irgendwie nie besonders bedrückt
 durch seine eigene Schreibarbeit, was auf eine krankhafte, Neid erzeugende
@@ -456,7 +457,7 @@ herangekommen wäre.</para>
 <!--
 <para>Thanks to Greg Stein not only for friendship and well-timed
 encouragement, but for showing the Subversion project how important
-regular code review is in building a programming community.  Thanks
+regular code review is in building a programming community. Thanks
 also to Brian Behlendorf, who tactfully drummed into our heads the
 importance of having discussions publicly; I hope that principle is
 reflected throughout this book.</para>
@@ -487,7 +488,7 @@ Hosting-Paketen.</para>
 
 <!--
 <para>Thanks to Alla Dekhtyar, Polina, and Sonya for their unflagging
-and patient encouragement.  I'm very glad that I will no longer have
+and patient encouragement. I'm very glad that I will no longer have
 to end (or rather, try unsuccessfully to end) our evenings early to go
 home and work on "The Book."</para>
 -->
@@ -499,7 +500,7 @@ vorzeitig beenden zu müssen (bzw. dies ohne Erfolg zu versuchen), um
 <!--
 <para>Thanks to Jack Repenning for friendship, conversation, and a
 stubborn refusal to ever accept an easy wrong analysis when a harder
-right one is available.  I hope that some of his long experience with
+right one is available. I hope that some of his long experience with
 both software development and the software industry rubbed off on this
 book.</para>
 -->
@@ -512,7 +513,7 @@ auch in der Softwareindustrie auf dieses Buch abgefärbt hat.</para>
 <!--
 <para>CollabNet was exceptionally generous in allowing me a flexible
 schedule to write, and didn't complain when it went on far longer than
-originally planned.  I don't know all the intricacies of how
+originally planned. I don't know all the intricacies of how
 management arrives at such decisions, but I suspect Sandhya Klute, and
 later Mahesh Murthy, had something to do with it&mdash;my thanks to
 them both.</para>
@@ -527,7 +528,7 @@ zu tun &ndash; meinen Dank ihnen beiden.</para>
 <!--
 <para>The entire Subversion development team has been an inspiration
 for the past five years, and much of what is in this book I learned
-from working with them.  I won't thank them all by name here, because
+from working with them. I won't thank them all by name here, because
 there are too many, but I implore any reader who runs into a
 Subversion committer to immediately buy that committer the drink of
 his choice&mdash;I certainly plan to.</para>
@@ -542,7 +543,7 @@ seiner Wahl zu spendieren &ndash; ich jedenfalls habe das vor.</para>
 <!--
 <para>Many times I ranted to Rachel Scollon about the state of the
 book; she was always willing to listen, and somehow managed to make
-the problems seem smaller than before we talked.  That helped a
+the problems seem smaller than before we talked. That helped a
 lot&mdash;thanks.</para>
 -->
 <para>Oftmals wetterte ich gegenüber Rachel Scollen über den Zustand des 
@@ -557,9 +558,9 @@ time, but whose friendship and leadership of Golos&aacute; helped keep
 music and good fellowship in my life even in the busiest times.
 Thanks also to Matthew Dean and Dorothea Samtleben, friends and
 long-suffering musical partners, who were very understanding as my
-excuses for not practicing piled up.  Megan Jennings was constantly
+excuses for not practicing piled up. Megan Jennings was constantly
 supportive, and genuinely interested in the topic even though it was
-unfamiliar to her&mdash;a great tonic for an insecure writer.  Thanks,
+unfamiliar to her&mdash;a great tonic for an insecure writer. Thanks,
 pal!</para>
 -->
 <para>Danke (nochmals) an Noel Taylor, der sich sicherlich fragte,
@@ -575,10 +576,10 @@ einen unsicheren Schriftsteller. Danke!</para>
 
 <!--
 <para>I had four knowledgeable and diligent reviewers for this book:
-Yoav Shapira, Andrew Stellman, Davanum Srinivas, and Ben Hyde.  If I
+Yoav Shapira, Andrew Stellman, Davanum Srinivas, and Ben Hyde. If I
 had been able to incorporate all of their excellent suggestions, this
-would be a better book.  As it was, time constraints forced me to pick
-and choose, but the improvements were still significant.  Any errors
+would be a better book. As it was, time constraints forced me to pick
+and choose, but the improvements were still significant. Any errors
 that remain are entirely my own.</para>
 -->
 <para>Ich hatte vier sachkundige und gewissenhafte Kritiker für dieses
@@ -600,9 +601,9 @@ hoffe ich, sie werden es etwas leserlicher finden.</para>
 
 <!--
 <para>Finally, I would like to thank the dedicatees, Karen Underhill
-and Jim Blandy.  Karen's friendship and understanding have meant
+and Jim Blandy. Karen's friendship and understanding have meant
 everything to me, not only during the writing of this book but for the
-last seven years.  I simply would not have finished without her help.
+last seven years. I simply would not have finished without her help.
 Likewise for Jim, a true friend and a hacker's hacker, who first
 taught me about free software, much as a bird might teach an airplane
 about flying.</para>

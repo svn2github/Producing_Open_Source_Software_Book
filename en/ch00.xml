@@ -6,17 +6,17 @@
 <title>Why Write This Book?</title>
 
 <para>At parties, people no longer give me a blank stare when I tell
-them I write free software.  "Oh, yes, open source&nbsp;&mdash;&nbsp;like Linux?"
-they say.  I nod eagerly in agreement.  "Yes, exactly!  That's what I
-do."  It's nice not to be completely fringe anymore.  In the past, the
+them I write free software. "Oh, yes, open source&nbsp;&mdash;&nbsp;like Linux?"
+they say. I nod eagerly in agreement. "Yes, exactly! That's what I
+do." It's nice not to be completely fringe anymore. In the past, the
 next question was usually fairly predictable: "How do you make money
-doing that?"  To answer, I'd summarize the economics of open source:
+doing that?" To answer, I'd summarize the economics of open source:
 that there are organizations in whose interest it is to have certain
 software exist, but that they don't need to sell copies, they just
 want to make sure the software is available and maintained, as a tool
 instead of as a commodity.</para>
 
-<para>The next question is not always about money, though.  The
+<para>The next question is not always about money, though. The
 business case for open source software<footnote><para>The terms "open
 source software" and "free software" are essentially synonymous in
 this context; they are discussed more in <xref
@@ -24,50 +24,50 @@ linkend="free-vs-open-source"/><phrase condition="treeware"> in <xref
 linkend="introduction"/></phrase>.</para></footnote> is no longer so
 mysterious, and even non-programmers already understand&nbsp;&mdash;&nbsp;or at
 least are not surprised&nbsp;&mdash;&nbsp;that there are people employed at it
-full time.  Instead, the next question is often "<emphasis>Oh, how
+full time. Instead, the next question is often "<emphasis>Oh, how
 does that work?</emphasis>"</para>
 
 <para>I didn't have a satisfactory answer ready, and the harder I
 tried to come up with one, the more I realized how complex a topic it
-really is.  Running a free software project is not exactly like
+really is. Running a free software project is not exactly like
 running a business (imagine having to constantly negotiate the nature
 of your product with a group of random people of diverse motivations
 and interests, most of whom you've never met!).
 Nor, for various reasons, is it exactly like running a
-traditional non-profit organization, nor a government.  It has
+traditional non-profit organization, nor a government. It has
 similarities to all these things, but I have slowly come to the
 conclusion that free software is <foreignphrase>sui
-generis</foreignphrase>.  There are many things with which it can be
-usefully compared, but none with which it can be equated.  Indeed,
+generis</foreignphrase>. There are many things with which it can be
+usefully compared, but none with which it can be equated. Indeed,
 even the assumption that free software projects can be "run" is a
-stretch.  A free software project can be <emphasis>started</emphasis>,
+stretch. A free software project can be <emphasis>started</emphasis>,
 and it can be influenced by interested parties, often quite strongly.
 But its assets cannot be made the property of any single owner, and as
 long as there are people somewhere&nbsp;&mdash;&nbsp;anywhere&nbsp;&mdash;&nbsp;interested in
-continuing it, it cannot be unilaterally shut down.  Everyone has
-infinite power; everyone has no power.  It's an interesting
+continuing it, it cannot be unilaterally shut down. Everyone has
+infinite power; everyone has no power. It's an interesting
 dynamic.</para>
 
 <para>That is why I wanted to write this book in the first place, and,
-a decade later, wanted to update it.  Free software projects have
+a decade later, wanted to update it. Free software projects have
 evolved a distinct culture, an ethos in which the liberty to make the
-software do anything one wants is a central tenet.  Yet the result of
+software do anything one wants is a central tenet. Yet the result of
 this liberty is not a scattering of individuals each going their own
-separate way with the code, but enthusiastic collaboration.  Indeed,
+separate way with the code, but enthusiastic collaboration. Indeed,
 competence at cooperation itself is one of the most highly valued
-skills in free software.  To manage these projects is to engage in a
+skills in free software. To manage these projects is to engage in a
 kind of hypertrophied cooperation, where one's ability not only to
 work with others but to come up with new ways of working together can
-result in tangible benefits to the software.  This book attempts to
-describe the techniques by which this may be done.  It is by no means
+result in tangible benefits to the software. This book attempts to
+describe the techniques by which this may be done. It is by no means
 complete, but it is at least a beginning.</para>
 
 <para>Good free software is a worthy goal in itself, and I hope that
 readers who come looking for ways to achieve it will be satisfied with
-what they find here.  But beyond that I also hope to convey something
+what they find here. But beyond that I also hope to convey something
 of the sheer pleasure to be had from working with a motivated team of
 open source developers, and from interacting with users in the
-wonderfully direct way that open source encourages.  Participating in
+wonderfully direct way that open source encourages. Participating in
 a successful free software project is a deep pleasure, and ultimately
 that's what keeps the whole system going.</para>
 
@@ -79,7 +79,7 @@ that's what keeps the whole system going.</para>
 
 <para>This book is meant for managers and software developers who are
 considering starting an open source project, or who have started one
-and are wondering what to do now.  It should also be helpful for
+and are wondering what to do now. It should also be helpful for
 people who just want to participate in an open source project but have
 never done so before.</para>
 
@@ -88,9 +88,9 @@ software engineering concepts such as APIs, source code, compilers, and
 patches.</para>
 
 <para>Prior experience with open source software, as either a user or
-a developer, is not necessary.  Those who have worked in free software
+a developer, is not necessary. Those who have worked in free software
 projects before will probably find at least some parts of the book a
-bit obvious, and may want to skip those sections.  Because there's
+bit obvious, and may want to skip those sections. Because there's
 such a potentially wide range of audience experience, I've made an
 effort to label sections clearly, and to say when something can be
 skipped by those already familiar with the material.</para>
