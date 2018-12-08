@@ -163,25 +163,25 @@ letztlich ist es das, was das ganze System am Laufen hält.</para>
 <title>Wer sollte dieses Buch lesen?</title>
 
 <!--
-<para>This book is meant for software developers and managers who are
+<para>This book is meant for managers and software developers who are
 considering starting an open source project, or who have started one
 and are wondering what to do now. It should also be helpful for
 people who just want to participate in an open source project but have
 never done so before.</para>
 -->
-<para>Dieses Buch richtet sich an Softwareentwickler und Führungskräfte,
-die mit dem Gedanken spielen, ein Open-Source-Projekt zu starten, oder 
-bereits eines begonnen haben, und sich nun fragen wie es weitergeht.
+<para>Dieses Buch richtet sich an Führungskräfte und Softwareentwickler,
+die mit dem Gedanken spielen, ein Open-Source-Projekt zu starten, oder
+bereits eines begonnen haben und sich nun fragen, wie es weitergeht.
 Es sollte auch für alle hilfreich sein, die sich zum ersten Mal an einem
 Open-Source-Projekt beteiligen wollen.</para>
 
 <!--
 <para>The reader need not be a programmer, but should know basic
-software engineering concepts such as source code, compilers, and
+software engineering concepts such as APIs, source code, compilers, and
 patches.</para>
 -->
 <para>Der Leser braucht kein Programmierer zu sein, sollte jedoch 
-grundsätzliche Konzepte der Softwareentwicklung wie Quellcode,
+grundsätzliche Konzepte der Softwareentwicklung wie APIs, Quellcode,
 Compiler und Patches kennen.</para>
 
 <!--
@@ -196,9 +196,9 @@ skipped by those already familiar with the material.</para>
 <para>Erfahrung mit Open-Source-Software, ob nun als Anwender oder
 als Entwickler, ist nicht nötig. Wer sich bereits an Open-Source-Projekten 
 beteiligt hat, wird vielleicht manchen Abschnitt
-als überflüssig empfinden, und ggf. überspringen wollen. Aufgrund der
+als überflüssig empfinden und ggf. überspringen wollen. Aufgrund der
 potenziell breit gefächerten Erfahrung des Publikums habe ich versucht,
-Abschnitte klar zu kennzeichnen und darauf hinzuweisen, wann bereits 
+Abschnitte klar zu kennzeichnen und darauf hinzuweisen, dass bereits 
 mit der Materie vertraute Leser beruhigt weiterblättern können.</para>
 
 </sect1>
@@ -211,31 +211,35 @@ mit der Materie vertraute Leser beruhigt weiterblättern können.</para>
 <title>Quellen</title>
 
 <!--
-<para>Much of the raw material for this book came from five years of
-working with the Subversion project
-(<ulink url="http://subversion.tigris.org/"/>). Subversion is an open
-source version control system, written from scratch, and intended to
-replace CVS as the <foreignphrase>de facto</foreignphrase> version
-control system of choice in the open source community. The project
-was started by my employer, CollabNet
-(<ulink url="http://www.collab.net/"/>), in early 2000, and thank
-goodness CollabNet understood right from the start how to run it as a
-truly collaborative, distributed effort. We got a lot of volunteer
-developer buy-in early on; today there are 50-some developers on
-the project, of whom only a few are CollabNet employees.</para>
+<para>Much of the raw material for the first edition of this book came
+from five years of working with the Subversion project (<ulink
+url="http://subversion.apache.org/">http://subversion.apache.org/</ulink>).
+Subversion is an open source
+version control system, written from scratch, and intended to replace
+CVS as the <foreignphrase>de facto</foreignphrase> version control
+system of choice in the open source community. The project was
+started by my employer, CollabNet (<ulink
+url="http://www.collab.net/" >http://www.collab.net/</ulink>), in early 2000,
+and thank goodness
+CollabNet understood right from the start how to run it as a truly
+collaborative, distributed effort. We got a lot of 
+developer buy-in early on; today there are 50-some developers on the
+project, of whom only a few are CollabNet employees.</para>
 -->
-<para>Ein Großteil des Materials für dieses Buch stammt aus fünf 
-Jahren Arbeit am Subversion-Projekt
-(<ulink url="http://subversion.tigris.org/"/>). Subversion ist ein 
+<para>Ein Großteil des Materials für die erste Ausgabe dieses Buches stammt
+aus fünf Jahren Arbeit am Subversion-Projekt (<ulink
+url="http://subversion.apache.org/">http://subversion.apache.org/</ulink>).
+Subversion ist ein 
 Open-Source-System zur Versionsverwaltung<footnote><para>engl. Version 
-Control</para></footnote>, das von Grund auf neu geschrieben wurde,
+Control</para></footnote>, das von Grund auf neu geschrieben wurde
 und als Ablösung für CVS konzipiert ist, dem Quasi-Standard für
 Versionsverwaltung in der Open-Source-Gemeinschaft. Das Projekt
 wurde von meinem Arbeitgeber, CollabNet
-(<ulink url="http://www.collab.net/"/>), im 
-Frühjahr 2000 begonnen, und zum Glück verstand CollabNet, es gleich von
+(<ulink
+url="http://www.collab.net/" >http://www.collab.net/</ulink>), im 
+Frühjahr 2000 begonnen und zum Glück verstand CollabNet es gleich von
 Beginn an als echtes gemeinschaftliches, verteiltes Unterfangen zu
-betreiben. Von Anfang an bekamen wir großen Zulauf an Freiwilligen.
+betreiben. Von Anfang an bekamen wir einen großen Zulauf an Entwicklern.
 Heute sind um die 50 Entwickler am Projekt beteiligt, von
 denen nur wenige bei CollabNet angestellt sind.</para>
 
@@ -262,7 +266,7 @@ für ein Open-Source-Projekt, und ich griff darauf mehr zurück, als
 ich ursprünglich erwartet hatte. Zum Teil einfach aus Bequemlichkeit: 
 Wenn ich nach einem Beispiel für ein bestimmtes Phänomen suchte, konnte 
 ich mich meist spontan an einem Fall aus Subversion erinnern. Obwohl ich
-an anderen Open-Source-Projekten in unterschiedlichem Maß beteiligt bin,
+an anderen Open-Source-Projekten in unterschiedlichem Maß beteiligt bin
 und mit Freunden und Bekannten rede, die ebenfalls an vielen weiteren 
 beteiligt sind, wurde mir beim Schreiben schnell klar, dass ich meine Behauptungen 
 durch Fakten stützen sollte. Allein auf der Grundlage dessen, was ich
@@ -276,13 +280,17 @@ hatte, versuchte ich zuerst, mit einem Beteiligten aus dem Projekt zu
 reden, mit jemandem der wusste, was sich tatsächlich abgespielt hatte.</para>
 
 <!--
-<para>Subversion has been my job for the last 5 years, but I've been
-involved in free software for 12. Other projects that influenced this
-book include:</para>
+<para>While Subversion was my full time job from 2000-2006, I've been
+involved in free software for more than twenty years, including all
+the years since 2006 (when the first edition of this book was
+published). Other projects and organizations that have influenced
+this book include:</para>
 -->
-<para>Ich arbeite seit 5 Jahren an Subversion, habe aber schon seit 12
-Jahren mit freier Software zu tun. Unter anderem haben folgende
-Projekte dieses Buch beeinflusst:</para>
+<para>Wenngleich Subversion mein Vollzeitjob von 2000-2006 war, habe ich mit
+freier Software seit mehr als zwanzig Jahren zu tun, einschließlich all der
+Jahre seit 2006 (als die erste Ausgabe dieses Buches veröffentlicht wurde).
+Weitere Projekte und Organisationen, welche dieses Buch beeinflusst haben, sind:
+</para>
 
 <itemizedlist>
 <!--
@@ -291,18 +299,18 @@ Projekte dieses Buch beeinflusst:</para>
             packages.</para>
   </listitem>
 -->
-  <listitem><para>Das GNU Emacs Text-Editor-Projekt der GNU Software
+  <listitem><para>Das GNU Emacs Text-Editor-Projekt der Free Software
             Foundation, bei der ich ein paar kleine Pakete pflege.</para>
   </listitem>
 <!--
   <listitem><para>Concurrent Versions System (CVS), which I worked on
-            intensely in 1994&ndash;1995 with Jim Blandy, but have been
-            involved with only intermittently since.</para>
+            intensely in 1994&ndash;1995 with Jim Blandy and was
+            involved with intermittently for a few years afterwards.</para>
   </listitem>
 -->
   <listitem><para>Concurrent Versions System (CVS), an dem ich intensiv
-            mit Jim Blandy von 1994 bis 1995 arbeitete, seitdem aber nur
-            sporadisch beteiligt bin.</para>
+            mit Jim Blandy von 1994 bis 1995 arbeitete und dann aber nur
+            sporadisch während ein paar Jahren danach beteiligt war.</para>
   </listitem>
 <!--
   <listitem><para>The collection of open source projects known as the
@@ -311,18 +319,72 @@ Projekte dieses Buch beeinflusst:</para>
   </listitem>
 -->
   <listitem><para>Die Open-Source-Projekte unter dem gemeinschaftlichen
-            Namen Apache Software Foundation, insbesondere die Apache 
+            Namen "Apache Software Foundation", insbesondere die Apache 
             Portable Runtime (APR) und der Apache HTTP Server.</para> 
   </listitem>
 <!--
-  <listitem><para>OpenOffice.org, the Berkeley Database from
-            Sleepycat, and MySQL Database; I have not been
+  <listitem><para>The Launchpad.net project at Canonical, Ltd.</para> 
+  </listitem>
+-->
+  <listitem><para>Das Launchpad.net Projekt bei Canonical, Ltd.</para> 
+  </listitem>
+<!--
+  <listitem><para>Code for America and O'Reilly Media, which gave me
+            an inside view on open source civic technology development
+            starting in 2010, and kindly kept me in the loop after I
+            became a full-time independent consultant in 2012.</para>
+  </listitem>
+-->
+  <listitem><para>"Code for America" und O'Reilly Media, was mir beginnend
+	    mit 2010 einen Einblick in Open Source Technologieentwicklung
+            öffenlticher Träger verschaffte und mich, seit dem ich 2012
+	    ein unabhängiger Berater wurde, auf dem Laufenden hält.</para>
+  </listitem>
+<!--
+  <listitem><para>The many open source anti-surveillance and
+            censorship-circumvention tools supported by the Open
+            Internet Tools Project (OpenITP.org) and by the Open
+            Technology Institute at the New America Foundation.</para>
+  </listitem>
+-->
+  <listitem><para>All die Anti-Überwachungs- und Zensur-Umgehungs-Werkzeuge,
+	    welche vom Open Internet Tools Project (OpenITP.org) und dem
+	    Open Technology Institute bei der New America Foundation unterstützt
+	    werden.</para>
+  </listitem>
+<!--
+  <listitem><para>Checkbook NYC, the municipal financial transparency
+            software released by the New York City Office of the
+            Comptroller.</para>
+  </listitem>
+-->
+  <listitem><para>Checkbook NYC, die städtische finanztransparenz
+             Software, veröffentlicht vom New York City Office of the
+             Comptroller.</para>
+  </listitem>
+<!--
+  <listitem><para>The Arches Project, an open source geospatial web
+            application for inventorying and helping protect cultural
+            heritage sites (e.g., historic buildings, archeological
+            sites, etc), created by the Getty Conservation Institute
+            and World Monuments Fund.</para>
+  </listitem>
+-->
+  <listitem><para>Das "Arches Project", eine geographische Open Source Web
+            Anwendung zur Inventarisierung und unter Schutz Stellung von
+	    Kulturdenkmälern (z.B. historische Gebäude, archäologische Stätten
+            usw.), gegründet durch das "Getty Conservation Institute"
+            und dem  "World Monuments Fund".</para>
+  </listitem>
+<!--
+  <listitem><para>OpenOffice.org / LibreOffice.org, the Berkeley
+            Database from Sleepycat, and MySQL Database; I have not been
             involved with these projects personally, but have observed
             them and, in some cases, talked to people there.</para> 
   </listitem>
 -->
-  <listitem><para>OpenOffice.org, die Berkeley-Datenbank von Sleepycat,
-            und die MySQL-Datenbank, an denen ich zwar nicht persönlich 
+  <listitem><para>OpenOffice.org / LibreOffice.org, die Berkeley-Datenbank
+            von Sleepycat, und die MySQL-Datenbank, an denen ich zwar nicht persönlich 
             beteiligt war, die ich aber beobachtet und zu denen ich
             Kontakt gepflegt habe.</para> 
   </listitem>
@@ -338,17 +400,28 @@ Projekte dieses Buch beeinflusst:</para>
 -->
   <listitem><para>Das Debian-Projekt (ebenso).</para>
   </listitem>
+<!--
+  <listitem><para>The Hypothes.is Project (likewise).</para>
+  </listitem>
+-->
+  <listitem><para>Das Hypothes.is Projekt (ebenso).</para>
+  </listitem>
 </itemizedlist>
 
 <!--
-<para>This is not a complete list, of course. Like most open source
-programmers, I keep loose tabs on many different projects, just to
-have a sense of the general state of things. I won't name all of them
-here, but they are mentioned in the text where appropriate.</para>
+<para>This is not a complete list, of course. Many of the client
+projects I work with through our consulting practice at Open Tech
+Strategies, LLC have influenced this book, and like most open source
+programmers, I keep loose tabs on a variety of different projects of
+interest to me, just to have a sense of the general state of things.
+I haven't named all of them here, but they are mentioned in the text
+where appropriate.</para>
 -->
-<para>Die Liste ist natürlich unvollständig. Wie die meisten 
-Open-Source-Programmierer halte ich beiläufig Kontakt zu vielen
-verschiedenen Projekten, nur um ein allgemeines Gefühl für
+<para>Die Liste ist natürlich unvollständig. Viel der Kundenprojekte,
+mit denen ich aufgrund unserer Beratungstätigkeit bei Open Tech Stratgies LLC
+zu tun habe, beeinflussten dieses Buch und wie die meisten 
+Open-Source-Programmierer halte ich beiläufig Kontakt zu einer Vielzahl
+verschiedener mich interessierenden Projekten, nur um ein allgemeines Gefühl für
 ihren Zustand zu behalten. Ich werde sie hier nicht alle beim Namen 
 nennen, aber sie werden im Text an entsprechender Stelle erwähnt.
 </para>

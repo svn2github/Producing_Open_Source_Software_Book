@@ -107,28 +107,28 @@ url="http://subversion.apache.org/">http://subversion.apache.org/</ulink>).
 Subversion is an open source
 version control system, written from scratch, and intended to replace
 CVS as the <foreignphrase>de facto</foreignphrase> version control
-system of choice in the open source community.  The project was
+system of choice in the open source community. The project was
 started by my employer, CollabNet (<ulink
 url="http://www.collab.net/" >http://www.collab.net/</ulink>), in early 2000,
 and thank goodness
 CollabNet understood right from the start how to run it as a truly
-collaborative, distributed effort.  We got a lot of 
+collaborative, distributed effort. We got a lot of 
 developer buy-in early on; today there are 50-some developers on the
 project, of whom only a few are CollabNet employees.</para>
 
 <para>Subversion is in many ways a classic example of an open source
 project, and I ended up drawing on it more heavily than I originally
-expected.  This was partly a matter of convenience: whenever I needed
+expected. This was partly a matter of convenience: whenever I needed
 an example of a particular phenomenon, I could usually call one up
-from Subversion right off the top of my head.  But it was also a
-matter of verification.  Although I am involved in other free software
+from Subversion right off the top of my head. But it was also a
+matter of verification. Although I am involved in other free software
 projects to varying degrees, and talk to friends and acquaintances
 involved in many more, one quickly realizes when writing for print
-that all assertions need to be fact-checked.  I didn't want to make
+that all assertions need to be fact-checked. I didn't want to make
 statements about events in other projects based only on what I could
-read in their public mailing list archives.  If someone were to try
+read in their public mailing list archives. If someone were to try
 that with Subversion, I knew, she'd be right about half the time and
-wrong the other half.  So when drawing inspiration or examples from a
+wrong the other half. So when drawing inspiration or examples from a
 project with which I didn't have direct experience, I tried to first
 talk to an informant there, someone I could trust to explain what was
 really going on.</para>
@@ -136,7 +136,7 @@ really going on.</para>
 <para>While Subversion was my full time job from 2000-2006, I've been
 involved in free software for more than twenty years, including all
 the years since 2006 (when the first edition of this book was
-published).  Other projects and organizations that have influenced
+published). Other projects and organizations that have influenced
 this book include:</para>
 
 <itemizedlist>
@@ -187,7 +187,7 @@ this book include:</para>
   </listitem>
 </itemizedlist>
 
-<para>This is not a complete list, of course.  Many of the client
+<para>This is not a complete list, of course. Many of the client
 projects I work with through our consulting practice at Open Tech
 Strategies, LLC have influenced this book, and like most open source
 programmers, I keep loose tabs on a variety of different projects of
@@ -206,31 +206,31 @@ where appropriate.</para>
 
 <para>This book took four times longer to write than I thought it
 would, and for much of that time felt rather like a grand piano
-suspended above my head wherever I went.  Without help from many
+suspended above my head wherever I went. Without help from many
 people, I would not have been able to complete it while staying
 sane.</para>
 
-<para>Andy Oram, my editor at O'Reilly, was a writer's dream.  Aside
+<para>Andy Oram, my editor at O'Reilly, was a writer's dream. Aside
 from knowing the field intimately (he suggested many of the topics),
 he has the rare gift of knowing what one meant to say and helping one
-find the right way to say it.  It has been an honor to work with him.
+find the right way to say it. It has been an honor to work with him.
 Thanks also to Chuck Toporek for steering this proposal to Andy right
 away.</para>
 
 <para>Brian Fitzpatrick reviewed almost all of the material as I wrote
 it, which not only made the book better, but kept me writing when I
-wanted to be anywhere in the world but in front of the computer.  Ben
+wanted to be anywhere in the world but in front of the computer. Ben
 Collins-Sussman and Mike Pilato also checked up on progress, and were
 always happy to discuss&nbsp;&mdash;&nbsp;sometimes at length&nbsp;&mdash;&nbsp;whatever topic
-I was trying to cover that week.  They also noticed when I slowed
-down, and gently nagged when necessary.  Thanks, guys.</para>
+I was trying to cover that week. They also noticed when I slowed
+down, and gently nagged when necessary. Thanks, guys.</para>
 
 <para>Biella Coleman was writing her dissertation at the same time
-I was writing this book.  She knows what it means to sit down and
+I was writing this book. She knows what it means to sit down and
 write every day, and provided an inspiring example as well as a
-sympathetic ear.  She also has a fascinating anthropologist's-eye view
+sympathetic ear. She also has a fascinating anthropologist's-eye view
 of the free software movement, giving both ideas and references that I
-was able use in the book.  Alex Golub&nbsp;&mdash;&nbsp;another anthropologist
+was able use in the book. Alex Golub&nbsp;&mdash;&nbsp;another anthropologist
 with one foot in the free software world, and also finishing his
 dissertation at the same time&nbsp;&mdash;&nbsp;was exceptionally supportive early
 on, which helped a great deal.</para>
@@ -238,7 +238,7 @@ on, which helped a great deal.</para>
 <para>Micah Anderson somehow never seemed too oppressed by his own
 writing gig, which was inspiring in a sick, envy-generating sort of
 way, but he was ever ready with friendship, conversation, and (on at
-least one occasion) technical support.  Thanks, Micah!</para>
+least one occasion) technical support. Thanks, Micah!</para>
 
 <para>Jon Trowbridge and Sander Striker gave both encouragement and
 concrete help&nbsp;&mdash;&nbsp;their broad experience in free software provided
@@ -246,7 +246,7 @@ material I couldn't have gotten any other way.</para>
 
 <para>Thanks to Greg Stein not only for friendship and well-timed
 encouragement, but for showing the Subversion project how important
-regular code review is in building a programming community.  Thanks
+regular code review is in building a programming community. Thanks
 also to Brian Behlendorf, who tactfully drummed into our heads the
 importance of having discussions publicly; I hope that principle is
 reflected throughout this book.</para>
@@ -259,33 +259,33 @@ to be quoted; and to Haggen So for his enormously helpful comparison
 of canned hosting sites.</para>
 
 <para>Thanks to Alla Dekhtyar, Polina, and Sonya for their unflagging
-and patient encouragement.  I'm very glad that I will no longer have
+and patient encouragement. I'm very glad that I will no longer have
 to end (or rather, try unsuccessfully to end) our evenings early to go
 home and work on "The Book."</para>
 
 <para>Thanks to Jack Repenning for friendship, conversation, and a
 stubborn refusal to ever accept an easy wrong analysis when a harder
-right one is available.  I hope that some of his long experience with
+right one is available. I hope that some of his long experience with
 both software development and the software industry rubbed off on this
 book.</para>
 
 <para>CollabNet was exceptionally generous in allowing me a flexible
 schedule to write, and didn't complain when it went on far longer than
-originally planned.  I don't know all the intricacies of how
+originally planned. I don't know all the intricacies of how
 management arrives at such decisions, but I suspect Sandhya Klute, and
 later Mahesh Murthy, had something to do with it&nbsp;&mdash;&nbsp;my thanks to
 them both.</para>
 
 <para>The entire Subversion development team has been an inspiration
 for the past five years, and much of what is in this book I learned
-from working with them.  I won't thank them all by name here, because
+from working with them. I won't thank them all by name here, because
 there are too many, but I implore any reader who runs into a
 Subversion committer to immediately buy that committer the drink of
 his choice&nbsp;&mdash;&nbsp;I certainly plan to.</para>
 
 <para>Many times I ranted to Rachel Scollon about the state of the
 book; she was always willing to listen, and somehow managed to make
-the problems seem smaller than before we talked.  That helped a
+the problems seem smaller than before we talked. That helped a
 lot&nbsp;&mdash;&nbsp;thanks.</para>
 
 <para>Thanks (again) to Noel Taylor, who must surely have wondered why
@@ -294,16 +294,16 @@ time, but whose friendship and leadership of Golos&aacute; helped keep
 music and good fellowship in my life even in the busiest times.
 Thanks also to Matthew Dean and Dorothea Samtleben, friends and
 long-suffering musical partners, who were very understanding as my
-excuses for not practicing piled up.  Megan Jennings was constantly
+excuses for not practicing piled up. Megan Jennings was constantly
 supportive, and genuinely interested in the topic even though it was
-unfamiliar to her&nbsp;&mdash;&nbsp;a great tonic for an insecure writer.  Thanks,
+unfamiliar to her&nbsp;&mdash;&nbsp;a great tonic for an insecure writer. Thanks,
 pal!</para>
 
 <para>I had four knowledgeable and diligent reviewers for this book:
-Yoav Shapira, Andrew Stellman, Davanum Srinivas, and Ben Hyde.  If I
+Yoav Shapira, Andrew Stellman, Davanum Srinivas, and Ben Hyde. If I
 had been able to incorporate all of their excellent suggestions, this
-would be a better book.  As it was, time constraints forced me to pick
-and choose, but the improvements were still significant.  Any errors
+would be a better book. As it was, time constraints forced me to pick
+and choose, but the improvements were still significant. Any errors
 that remain are entirely my own.</para>
 
 <para>My parents, Frances and Henry, were wonderfully supportive as
@@ -311,9 +311,9 @@ always, and as this book is less technical than the previous one, I
 hope they'll find it somewhat more readable.</para>
 
 <para>Finally, I would like to thank the dedicatees, Karen Underhill
-and Jim Blandy.  Karen's friendship and understanding have meant
+and Jim Blandy. Karen's friendship and understanding have meant
 everything to me, not only during the writing of this book but for the
-last seven years.  I simply would not have finished without her help.
+last seven years. I simply would not have finished without her help.
 Likewise for Jim, a true friend and a hacker's hacker, who first
 taught me about free software, much as a bird might teach an airplane
 about flying.</para>
@@ -324,40 +324,40 @@ about flying.</para>
 <title>For the second edition (2017)</title>
 
 <para>The acknowledgements for the second edition of this book include
-more people and, undoubtedly, more unintentional omissions.  If your
+more people and, undoubtedly, more unintentional omissions. If your
 name should be here but is not, please accept my apologies (and let me
 know, because we can at least fix the online copy).</para>
 
 <para>Andy Oram of O'Reilly Media once again went above and beyond the
-call of duty as an editor.  He read closely and made many excellent
+call of duty as an editor. He read closely and made many excellent
 recommendations; his expertise both in expository writing in general
-and in open source in particular were apparent in all his comments.  I
+and in open source in particular were apparent in all his comments. I
 can't thank him enough, and the book is much improved for his
 attention.</para>
 
 <para>James Vasile has been my friend and colleague for some years
 now, yet not a week goes in which I don't learn something new from
-him.  Despite having a busy job&nbsp;&mdash;&nbsp;I know firsthand,
+him. Despite having a busy job&nbsp;&mdash;&nbsp;I know firsthand,
 because we're business partners&nbsp;&mdash;&nbsp;and young children at
 home, he unhesitatingly volunteered to read through the manuscript and
-provide feedback.  Money can't buy that, and even if it could, I could
-never afford James.  Thanks, pal.</para>
+provide feedback. Money can't buy that, and even if it could, I could
+never afford James. Thanks, pal.</para>
 
 <para>Cecilia Donnelly is both a wonderful friend and a supremely
 capable Open Source Specialist at the Open Tech Strategies office in
-Chicago.  It's a delight to be working with her, as our clients know
+Chicago. It's a delight to be working with her, as our clients know
 too, and her clear thinking and sharp observations have influenced
 many parts of this book.</para>
 
 <para>Karen Sandler has been unfailingly supportive, and provided
 thoughtful and patient discussion about many of the topics (and even
-some of the specific examples) in this book.  As with James, I usually
+some of the specific examples) in this book. As with James, I usually
 learn something from Karen when we talk about free software, and when
 we talk about other things too.</para>
 
 <para>Bradley Kuhn's name appears several times in the commit logs for
 this book, because he provided highly expert feedback on multiple
-occasions, in one case practically writing the patch himself.  As I
+occasions, in one case practically writing the patch himself. As I
 wrote in the log message for one of the commits, he is someone "whose
 contributions to free software have been immeasurable and whose
 dedication to our shared cause is a constant inspiration".</para>
@@ -365,29 +365,29 @@ dedication to our shared cause is a constant inspiration".</para>
 <para>Karen and Bradley both work at the Software Freedom Conservancy
 (<ulink url="https://sfconservancy.org/" >https://sfconservancy.org/</ulink>).
 If you like this book and you want to help free software, donating to
-the Conservancy is fine first step.  It's also a fine second
+the Conservancy is fine first step. It's also a fine second
 step.</para>
 
 <para>Ben Reser provided a super-detailed and expert review of Chapters
-6 and 7 that resulted in many improvements.  Ben, thank you so much.</para>
+6 and 7 that resulted in many improvements. Ben, thank you so much.</para>
 
 <para>Michael Bernstein not only provided some detailed feedback
 during the interregnum between the first and second editions, he also
 helped a lot with organizing the Kickstarter campaign that made the
-latter possible.  Thank you, Michael.</para>
+latter possible. Thank you, Michael.</para>
 
 <para>Danese Cooper always keeps me on my toes, and in particular
 brought me the message (which I was not at first willing to hear) that
 innersourcing <emphasis>can</emphasis> work as a means of helping
 organizations learn open source practices and eventually produce open
-source software themselves.  Thanks for that, Danese, and much
+source software themselves. Thanks for that, Danese, and much
 else.</para>
 
 <para>Between the two editions, I spent a very educational stretch of
 time working at O'Reilly Media, Code for America / Civic Commons
 (while ensconsed in the Open Plans office in New York City, thanks to
 their very kind offer of desk space), and the New America Foundation
-as Open Internet Tools Project Fellow.  Much of what I learned through
+as Open Internet Tools Project Fellow. Much of what I learned through
 that work ended up in the book, and in addition to the organizations
 themselves I thank Tim O'Reilly, Jen Pahlka, Andrew McLaughlin, Philip
 Ashlock, Abhi Nemani, Nick Grossman, Chris Holmes, Frank Hebbert, and
@@ -402,19 +402,19 @@ friendship.</para>
 url="https://softwarefreedom.org/" >https://softwarefreedom.org/</ulink>)
 taught me a lot about how to look at free software as a large-scale
 social and economic phenomenon, and about how companies view free
-software.  He also provided a private working space on a few occasions
-when it really made a difference.  Thank you, Eben.</para>
+software. He also provided a private working space on a few occasions
+when it really made a difference. Thank you, Eben.</para>
 
 <para>I do not understand how Dr. David A. Wheeler makes time to
 answer my occasional questions when he is in demand from so many other
 people as well, but he does, and his answers are always spot-on and
-authoritative.  Thanks as always, David.</para>
+authoritative. Thanks as always, David.</para>
 
 <para>Breena Xie's interest in open source led swiftly to trenchant
-questions about it.  Those questions were helpful to me, in thinking
+questions about it. Those questions were helpful to me, in thinking
 through certain topics in the book, but so was her patience on those
 occasions when the book demanded more time than it should have (by
-which I mean "than I said it would").  Thank you, Breena.</para>
+which I mean "than I said it would"). Thank you, Breena.</para>
 
 <para>Many thanks to Radhir Kothuri and the rest of the HackIllinois
 2017 crew, who provided a very timely motivational boost when they
@@ -426,19 +426,19 @@ HackIllinois attendees will be pleased with the results.</para>
 <para>Camille Bégnis of <ulink url="http://neodoc.biz/"
 >http://neodoc.biz/</ulink> provided expert DocBook help in real time
 one day, solving a long-standing technical problem in the online
-version of the book that I'd been unable to fix for years.  Merci
+version of the book that I'd been unable to fix for years. Merci
 beaucoup, Camille.</para>
 
 <para>The hardest part of these acknowledgements is realizing there
 will never be enough space to do justice to all the knowledge people
-have shared in the decade since the first edition came out.  I've been
+have shared in the decade since the first edition came out. I've been
 working in open source the whole time since then, and have had
 illuminating conversations with many clients, partners, interviewees,
 expert consultants, and fellow travelers; some of them have
-occasionally sent in concrete improvements to the book, too.  I can't
+occasionally sent in concrete improvements to the book, too. I can't
 imagine what this new edition would be without the benefit of that
-collective mind, and will try to list some of those people below.  I'm
-sure the list is incomplete, and I apologize for that.  For what it's
+collective mind, and will try to list some of those people below. I'm
+sure the list is incomplete, and I apologize for that. For what it's
 worth, I used a program to randomize the order, and accepted its first
 output:</para>
 
@@ -552,11 +552,11 @@ and Molly de Blanc.
 </para>
 
 <para>The 2nd edition rewrite was funded through a Kickstarter
-campaign.  The response to that campaign was swift and generous, and
-I'm immensely grateful to all the people who pledged.  I hope they
+campaign. The response to that campaign was swift and generous, and
+I'm immensely grateful to all the people who pledged. I hope they
 will forgive me for taking almost four times longer than expected to
-finish the revisions.  Every backer of the campaign is acknowledged
-below, using the name they provided via Kickstarter.  The list is in
+finish the revisions. Every backer of the campaign is acknowledged
+below, using the name they provided via Kickstarter. The list is in
 either ascending or descending order by pledge size, but I'm not going
 to say which, because a little mystery should be retained in these
 matters:</para>
@@ -729,7 +729,7 @@ Daniel Kahn Gillmor,
 George Chamales,
 Erik Möller,
 Tim Schumacher,
-Koichi  Kimura,
+Koichi Kimura,
 Vanessa Hurst,
 Daniel Shahaf,
 Stefan Sperling,
