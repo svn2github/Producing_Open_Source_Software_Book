@@ -429,12 +429,17 @@ nennen, aber sie werden im Text an entsprechender Stelle erwähnt.
 </sect1>
 
 <!-- ======================== SECTION ============================== -->
-<sect1 id="acknowledgments">
+<sect1 id="acknowledgements">
 <!--
-<title>Acknowledgments</title>
+<title>Acknowledgements</title>
 -->
 <title>Danksagung</title>
 
+<sect2 id="acknowledgements-1st-ed">
+<!--
+<title>For the first edition (2005)</title>
+-->
+<title>Für die erste Auflage (2005)</title>
 <!--
 <para>This book took four times longer to write than I thought it
 would, and for much of that time felt rather like a grand piano
@@ -442,7 +447,7 @@ suspended above my head wherever I went. Without help from many
 people, I would not have been able to complete it while staying
 sane.</para>
 -->
-<para>Es hat vier mal länger gedauert dieses Buch zu schreiben, als
+<para>Es hat vier mal länger gedauert, dieses Buch zu schreiben, als
 ich ursprünglich geplant hatte, und die meiste Zeit davon fühlte ich mich,
 als würde beständig ein Konzertflügel über meinem Kopf schweben.
 Erst die Hilfe vieler Menschen hat es mir ermöglicht, dieses Buch 
@@ -456,12 +461,12 @@ find the right way to say it. It has been an honor to work with him.
 Thanks also to Chuck Toporek for steering this proposal to Andy right
 away.</para>
 -->
-<para>Mein Redakteur, Andy Oram bei O'Reilly, war der Traum eines jeden
+<para>Andy Oram, mein Redakteur bei O'Reilly, war der Traum eines jeden
 Schriftstellers. Er kennt nicht nur das Thema (viele Vorschläge kamen
 von ihm), sondern hat auch die seltene Gabe zu verstehen, was man
-meint und kann einem helfen, es in die richtigen Worte zu fassen. Es war
+meint, und kann einem helfen, es in die richtigen Worte zu fassen. Es war
 eine Ehre, mit ihm zu arbeiten. Danke auch an Chuck Toprek, 
-der den Vorschlag zu diesem Buch direkt an Andy geleitet 
+welcher den Vorschlag zu diesem Buch direkt an Andy geleitet 
 hatte.</para>
 
 <!--
@@ -469,7 +474,7 @@ hatte.</para>
 it, which not only made the book better, but kept me writing when I
 wanted to be anywhere in the world but in front of the computer. Ben
 Collins-Sussman and Mike Pilato also checked up on progress, and were
-always happy to discuss&mdash;sometimes at length&mdash;whatever topic
+always happy to discuss&nbsp;&mdash;&nbsp;sometimes at length&nbsp;&mdash;&nbsp;whatever topic
 I was trying to cover that week. They also noticed when I slowed
 down, and gently nagged when necessary. Thanks, guys.</para>
 -->
@@ -478,9 +483,9 @@ ich es schrieb, was nicht nur dazu führte, dass das Buch besser wurde,
 sondern mich auch dann am Schreiben hielt, wenn ich lieber an jedem anderen
 Ort auf der Welt gewesen wäre, als vor dem Bildschirm. Auch Ben Collins-Sussman
 und Mike Pilato prüften meinen Fortschritt und waren stets erfreut,
-mit mir &ndash; manchmal sehr ausführlich &ndash; zu
-diskutieren, egal welches Thema ich in der Woche zu behandeln versuchte.
-Sie bemerkten auch, wenn ich erlahmte und munterten
+mit mir&nbsp;&mdash;&nbsp;manchmal sehr ausführlich&nbsp;&mdash;&nbsp;
+diskutieren zu können, egal welches Thema ich in der Woche zu behandeln versuchte.
+Sie bemerkten auch, wenn ich erlahmte, und munterten
 mich durch kleine Nörgeleien auf. Danke Jungs!</para>
 
 <!--
@@ -489,20 +494,19 @@ I was writing this book. She knows what it means to sit down and
 write every day, and provided an inspiring example as well as a
 sympathetic ear. She also has a fascinating anthropologist's-eye view
 of the free software movement, giving both ideas and references that I
-was able use in the book. Alex Golub&mdash;another anthropologist
+was able use in the book. Alex Golub&nbsp;&mdash;&nbsp;another anthropologist
 with one foot in the free software world, and also finishing his
-dissertation at the same time&mdash;was exceptionally supportive early
+dissertation at the same time&nbsp;&mdash;&nbsp;was exceptionally supportive early
 on, which helped a great deal.</para>
 -->
 <para>Biella Coleman schrieb zur selben Zeit an ihrer Doktorarbeit,
-wie ich an diesem Buch. Sie weiß was es heißt, sich jeden Tag
+wie ich an diesem Buch. Sie weiß, was es heißt, sich jeden Tag
 hinzusetzen und zu schreiben. Sie war ein inspirierendes Beispiel und
 bot mir ein mitfühlendes Ohr. Sie hat auch einen faszinierenden 
-Anthropologen-Blickwinkel 
-auf die Bewegung der freien Software und lieferte Ideen
-und Referenzen, die ich im Buch verwenden konnte. Alex Golub &ndash; auch
+Anthropologen-Blickwinkel auf die Bewegung der freien Software und lieferte Ideen
+und Referenzen, die ich im Buch verwenden konnte. Alex Golub&nbsp;&mdash;&nbsp;auch
 ein Anthropologe mit einem Fuß in der Welt der freien Software, der
-ebenfalls zu der Zeit an seiner Doktorarbeit schrieb &ndash; bot am Anfang
+ebenfalls zu der Zeit an seiner Doktorarbeit schrieb&nbsp;&mdash;&nbsp;bot am Anfang
 eine außerordentliche Unterstützung, was eine große Hilfe war.</para>
 
 <!--
@@ -519,13 +523,12 @@ Unterstützung zur Stelle. Danke Micah!</para>
 
 <!--
 <para>Jon Trowbridge and Sander Striker gave both encouragement and
-concrete help&mdash;their broad experience in free software provided
+concrete help&nbsp;&mdash;&nbsp;their broad experience in free software provided
 material I couldn't have gotten any other way.</para>
 -->
 <para>Jon Trowbridge und Sander Striker gaben sowohl Aufmunterung als 
-auch konkrete Hilfe &ndash; ihre breite Erfahrung hinsichtlich freier
-Software lieferte Material, an das ich sonst nie 
-herangekommen wäre.</para>
+auch konkrete Hilfe&nbsp;&mdash;&nbsp;ihre breite Erfahrung hinsichtlich freier
+Software lieferte Material, an das ich sonst nie herangekommen wäre.</para>
 
 <!--
 <para>Thanks to Greg Stein not only for friendship and well-timed
@@ -540,7 +543,7 @@ zeitige Ermunterung, sondern dafür, dass er dem Subversion-Projekt
 gezeigt hat, wie wichtig der regelmäßige Code-Review für den Aufbau
 einer Entwickler-Gemeinschaft ist. Danke auch an Brian Behlendorf,
 der taktvoll in unsere Köpfe hämmerte, wie wichtig es ist, Diskussionen 
-öffentlich zu führen; Ich hoffe, dass dieses Prinzip sich durchweg im
+öffentlich zu führen; ich hoffe, dass dieses Prinzip sich durchweg im
 Buch wiederspiegelt.</para>
 
 <!--
@@ -588,15 +591,15 @@ auch in der Softwareindustrie auf dieses Buch abgefärbt hat.</para>
 schedule to write, and didn't complain when it went on far longer than
 originally planned. I don't know all the intricacies of how
 management arrives at such decisions, but I suspect Sandhya Klute, and
-later Mahesh Murthy, had something to do with it&mdash;my thanks to
+later Mahesh Murthy, had something to do with it&nbsp;&mdash;&nbsp;my thanks to
 them both.</para>
 -->
 <para>CollabNet war besonders großzügig darin, mir eine flexible
 Zeitplanung zu erlauben, und beschwerte sich nicht, als ich viel länger
-brauchte als ursprünglich geplant. Ich kenne die komplexen Wege nicht,
+brauchte, als ursprünglich geplant. Ich kenne die komplexen Wege nicht,
 auf denen eine Betriebsleitung zu solchen Entscheidungen gelangt, aber ich 
-vermute es hatte etwas mit Sandyha Klute, und später mit Mahesh Murthy,
-zu tun &ndash; meinen Dank ihnen beiden.</para>
+vermute, es hatte etwas mit Sandyha Klute und später mit Mahesh Murthy,
+zu tun&nbsp;&mdash;&nbsp;meinen Dank ihnen beiden.</para>
 
 <!--
 <para>The entire Subversion development team has been an inspiration
@@ -604,25 +607,25 @@ for the past five years, and much of what is in this book I learned
 from working with them. I won't thank them all by name here, because
 there are too many, but I implore any reader who runs into a
 Subversion committer to immediately buy that committer the drink of
-his choice&mdash;I certainly plan to.</para>
+his choice&nbsp;&mdash;&nbsp;I certainly plan to.</para>
 -->
 <para>Das gesamte Subversion-Team ist in den letzten fünf Jahren eine
-Inspiration gewesen, und vieles in diesem Buch habe ich durch die 
-Zusammenarbeit in ihm gelernt. Ich werde hier nicht jeden beim Namen
+Inspiration gewesen und vieles in diesem Buch habe ich durch die 
+Zusammenarbeit mit ihnen gelernt. Ich werde hier nicht jeden beim Namen
 nennen, es sind einfach zu viele, aber ich beschwöre jeden Leser, dem
 ein Mitwirkender von Subversion über den Weg läuft, diesem ein Getränk
-seiner Wahl zu spendieren &ndash; ich jedenfalls habe das vor.</para>
+seiner Wahl zu spendieren&nbsp;&mdash;&nbsp;ich jedenfalls habe das vor.</para>
 
 <!--
 <para>Many times I ranted to Rachel Scollon about the state of the
 book; she was always willing to listen, and somehow managed to make
 the problems seem smaller than before we talked. That helped a
-lot&mdash;thanks.</para>
+lot&nbsp;&mdash;&nbsp;thanks.</para>
 -->
 <para>Oftmals wetterte ich gegenüber Rachel Scollen über den Zustand des 
 Buches; stets war sie bereit mir zuzuhören und irgendwie schaffte sie es
-immer, die Probleme kleiner zu machen als vor dem Gespräch. Das war
-eine ungeheure Hilfe &ndash; danke.</para>
+immer, die Probleme kleiner zu machen, als sie vor dem Gespräch waren. Das war
+eine ungeheure Hilfe&nbsp;&mdash;&nbsp;danke.</para>
 
 <!--
 <para>Thanks (again) to Noel Taylor, who must surely have wondered why
@@ -633,18 +636,18 @@ Thanks also to Matthew Dean and Dorothea Samtleben, friends and
 long-suffering musical partners, who were very understanding as my
 excuses for not practicing piled up. Megan Jennings was constantly
 supportive, and genuinely interested in the topic even though it was
-unfamiliar to her&mdash;a great tonic for an insecure writer. Thanks,
+unfamiliar to her&nbsp;&mdash;&nbsp;a great tonic for an insecure writer. Thanks,
 pal!</para>
 -->
 <para>Danke (nochmals) an Noel Taylor, der sich sicherlich fragte,
-warum ich noch ein Buch schreiben wollte, wenn man bedenkt wie oft ich
-mich beim letzten Mal beschwert hatte, dessen Freundschaft und Führung bei 
-Golosá mir half, Musik und Kameradschaft in meinem Leben zu halten, selbst
+warum ich noch ein Buch schreiben wollte, wenn man bedenkt, wie oft ich
+mich beim letzten Mal beschwert hatte, aber dessen Freundschaft und Führung bei 
+Golosá mir half, Musik und Kameradschaft in meinem Leben zu behalten, selbst
 zu den betriebsamsten Zeiten. Danke auch an Matthew Dean und Dorothea
 Samtleben, Freunde und lange musikalische Leidensgenossen, die sehr
 verständnisvoll waren, als meine Ausreden für Proben sich stapelten.
 Megan Jennings blieb durchweg unterstützend und ehrlich interessiert an
-dem Thema, obwohl es ihr fremd war &ndash; eine großartige Stärkung für
+dem Thema, obwohl es ihr fremd war&nbsp;&mdash;&nbsp;eine großartige Stärkung für
 einen unsicheren Schriftsteller. Danke!</para>
 
 <!--
@@ -668,9 +671,9 @@ zuzuschreiben.</para>
 always, and as this book is less technical than the previous one, I
 hope they'll find it somewhat more readable.</para>
 -->
-<para>Meine Eltern, Frances und Henry waren wunderbare Unterstützer wie 
-immer, und da dieses Buch weniger technisch ist als das letzte,
-hoffe ich, sie werden es etwas leserlicher finden.</para>
+<para>Meine Eltern, Frances und Henry, waren  wie immer wunderbare
+Unterstützer und da dieses Buch weniger technisch ist als das letzte,
+hoffe ich, dass sie es etwas leserlicher finden werden.</para>
 
 <!--
 <para>Finally, I would like to thank the dedicatees, Karen Underhill
@@ -687,8 +690,605 @@ Die Freundschaft und das Verständnis von Karen haben mir alles bedeutet,
 nicht nur während ich an diesem Buch schrieb, sondern auch die letzten 
 sieben Jahre hindurch. Ohne ihre Hilfe hätte ich es sicher nicht geschafft.
 Dasselbe gilt für Jim, einen echten Freund und Hacker von einem Hacker,
-der mir beibrachte was freie Software ist, ähnlich wie ein
-Vogel, der ein Flugzeug fliegen lehrt.</para>
+der mir beibrachte, was freie Software ist, ähnlich wie ein
+Vogel, der einem Flugzeug das Fliegen lehrt.</para>
+
+</sect2>
+
+<sect2 id="acknowledgements-2nd-ed">
+<!--
+<title>For the second edition (2017)</title>
+-->
+<title>Für die zweite Auflage (2017)</title>
+<!--
+<para>The acknowledgements for the second edition of this book include
+more people and, undoubtedly, more unintentional omissions. If your
+name should be here but is not, please accept my apologies (and let me
+know, because we can at least fix the online copy).</para>
+-->
+<para>Die Danksagung für die zweite Auflage dieses Buches schließt mehr 
+Menschen ein und, zweifelsohne, mehr unbeabsichtige Auslassungen. Wenn dein Name
+hier erscheinen sollte, es aber nicht tut, akzeptier bitte meine Entschuldigung
+( und lass es mich wissen, weil wir letztlich die Online-Ausgabe korrigieren können).</para>
+
+<!--
+<para>Andy Oram of O'Reilly Media once again went above and beyond the
+call of duty as an editor. He read closely and made many excellent
+recommendations; his expertise both in expository writing in general
+and in open source in particular were apparent in all his comments. I
+can't thank him enough, and the book is much improved for his
+attention.</para>
+-->
+<para>
+Andy Oram von O'Reilly Media ging erneut weit über die Pflicht eines 
+Redakteurs hinaus. Er las genauestens und machte viele hervorragende Anmerkungen;
+seine Expertise bezüglich erklärendem Schreiben generell und Open-Source im speziellen
+war in all seinen Anmerkungen offensichtlich. 
+</para>
+
+<!--
+<para>James Vasile has been my friend and colleague for some years
+now, yet not a week goes in which I don't learn something new from
+him. Despite having a busy job&nbsp;&mdash;&nbsp;I know firsthand,
+because we're business partners&nbsp;&mdash;&nbsp;and young children at
+home, he unhesitatingly volunteered to read through the manuscript and
+provide feedback. Money can't buy that, and even if it could, I could
+never afford James. Thanks, pal.</para>
+-->
+<para>James Vasile ist mein Freund und Kollege seit ein paar Jahren nun, bis jetzt
+ist keine Woche vergangen, in der ich nicht etwas neues von ihm gelernt hätte.
+Ungeachtet eines anstrengenden Jobs&nbsp;&mdash;&nbsp;ich weiss das aus erster Hand,
+denn wir sind Geschäftspartner&nbsp;&mdash;&nbsp;und kleiner Kinder zu Hause, 
+unterstützte er ohne zu zögern durch Lesen des Manuskriptes und Rückmeldung dazu geben.
+Geld kann das nicht erkaufen und wenn es dies könnte, könnte ich mir James nicht leisten.
+Danke Kumpel.</para>
+
+<!--
+<para>Cecilia Donnelly is both a wonderful friend and a supremely
+capable Open Source Specialist at the Open Tech Strategies office in
+Chicago. It's a delight to be working with her, as our clients know
+too, and her clear thinking and sharp observations have influenced
+many parts of this book.</para>
+-->
+<para>Cecilia Donnelly ist beides, eine wundervolle Freundin und eine
+äußerst fähige Open-Source Spezialistin beim Open Tech Strategies Büro
+in Chiocago. Es ist ein Vergnügen, mit ihr zu arbeiten, was unsere Kunden
+ebenfalls sehr schätzen, und ihr klares Denken und ihre scharfe Beobachtungsgabe
+haben viele Teile dieses Buches beeinflusst.</para>
+
+
+<para>Karen Sandler has been unfailingly supportive, and provided
+thoughtful and patient discussion about many of the topics (and even
+some of the specific examples) in this book. As with James, I usually
+learn something from Karen when we talk about free software, and when
+we talk about other things too.</para>
+
+<para>Bradley Kuhn's name appears several times in the commit logs for
+this book, because he provided highly expert feedback on multiple
+occasions, in one case practically writing the patch himself. As I
+wrote in the log message for one of the commits, he is someone "whose
+contributions to free software have been immeasurable and whose
+dedication to our shared cause is a constant inspiration".</para>
+
+<para>Karen and Bradley both work at the Software Freedom Conservancy
+(<ulink url="https://sfconservancy.org/" >https://sfconservancy.org/</ulink>).
+If you like this book and you want to help free software, donating to
+the Conservancy is fine first step. It's also a fine second
+step.</para>
+
+<para>Ben Reser provided a super-detailed and expert review of Chapters
+6 and 7 that resulted in many improvements. Ben, thank you so much.</para>
+
+<para>Michael Bernstein not only provided some detailed feedback
+during the interregnum between the first and second editions, he also
+helped a lot with organizing the Kickstarter campaign that made the
+latter possible. Thank you, Michael.</para>
+
+<para>Danese Cooper always keeps me on my toes, and in particular
+brought me the message (which I was not at first willing to hear) that
+innersourcing <emphasis>can</emphasis> work as a means of helping
+organizations learn open source practices and eventually produce open
+source software themselves. Thanks for that, Danese, and much
+else.</para>
+
+<para>Between the two editions, I spent a very educational stretch of
+time working at O'Reilly Media, Code for America / Civic Commons
+(while ensconsed in the Open Plans office in New York City, thanks to
+their very kind offer of desk space), and the New America Foundation
+as Open Internet Tools Project Fellow. Much of what I learned through
+that work ended up in the book, and in addition to the organizations
+themselves I thank Tim O'Reilly, Jen Pahlka, Andrew McLaughlin, Philip
+Ashlock, Abhi Nemani, Nick Grossman, Chris Holmes, Frank Hebbert, and
+Andrew Hoppin for the ideas and perspectives they shared.</para>
+
+<para>Sumana Harihareswara and Leonard Richardson have given frank and
+helpful commentary about various open source goings-on over the years;
+the book is better for their input, and I am the better for their
+friendship.</para>
+
+<para>Eben Moglen at the Software Freedom Law Center (<ulink
+url="https://softwarefreedom.org/" >https://softwarefreedom.org/</ulink>)
+taught me a lot about how to look at free software as a large-scale
+social and economic phenomenon, and about how companies view free
+software. He also provided a private working space on a few occasions
+when it really made a difference. Thank you, Eben.</para>
+
+<para>I do not understand how Dr. David A. Wheeler makes time to
+answer my occasional questions when he is in demand from so many other
+people as well, but he does, and his answers are always spot-on and
+authoritative. Thanks as always, David.</para>
+
+<para>Breena Xie's interest in open source led swiftly to trenchant
+questions about it. Those questions were helpful to me, in thinking
+through certain topics in the book, but so was her patience on those
+occasions when the book demanded more time than it should have (by
+which I mean "than I said it would"). Thank you, Breena.</para>
+
+<para>Many thanks to Radhir Kothuri and the rest of the HackIllinois
+2017 crew, who provided a very timely motivational boost when they
+proposed doing a print run of the new edition for their event at the
+University of Illinois at Urbana-Champaign, Illinois in February 2017.
+I appreciate the vote of confidence in the book, and hope the
+HackIllinois attendees will be pleased with the results.</para>
+
+<para>Camille Bégnis of <ulink url="http://neodoc.biz/"
+>http://neodoc.biz/</ulink> provided expert DocBook help in real time
+one day, solving a long-standing technical problem in the online
+version of the book that I'd been unable to fix for years. Merci
+beaucoup, Camille.</para>
+
+<para>The hardest part of these acknowledgements is realizing there
+will never be enough space to do justice to all the knowledge people
+have shared in the decade since the first edition came out. I've been
+working in open source the whole time since then, and have had
+illuminating conversations with many clients, partners, interviewees,
+expert consultants, and fellow travelers; some of them have
+occasionally sent in concrete improvements to the book, too. I can't
+imagine what this new edition would be without the benefit of that
+collective mind, and will try to list some of those people below. I'm
+sure the list is incomplete, and I apologize for that. For what it's
+worth, I used a program to randomize the order, and accepted its first
+output:</para>
+
+<para>
+Nithya Ruff,
+Jenn Brandel,
+Joseph Lorenzo Hall,
+Ben Wyss,
+Kit Plummer,
+Mark Atwood,
+Vivien Deparday,
+Sebastian Benthall,
+Martin Michlmayr,
+Derek Eder,
+Hyrum Wright,
+Stefano Zacchiroli,
+Dan Risacher,
+Stephen Walli,
+Simon Phipps,
+Francis Ghesquiere,
+Sanjay Patil,
+Tony Sebro,
+Matt Doar,
+Deb Nicholson,
+Jon Phillips,
+David Robinson,
+Nathan Toone,
+Alolita Sharma,
+Jim McGowan,
+Florian Effenberger,
+Brian Warner,
+Cathy Deng,
+Allison Randal,
+Ariel Núñez,
+Jeremy Allison,
+Thorsten Behrens,
+Deb Bryant,
+Holly St. Clair,
+Jeff Ubois,
+Dustin Mitchell,
+Dan Schultz,
+Luis Villa,
+Jon Scott,
+Dave Neary,
+Mike Milinkovich,
+Wolf Peuker,
+Paul Holland,
+Keith Casey,
+Christian Spanring,
+Bishwa Pandey,
+Scott Goodwin,
+Vivek Vaidya,
+David Eaves,
+Ed Sokolowski,
+Chris Aniszczyk,
+David Hemphill,
+Emma Jane Hogbin Westby,
+Ben Sheldon,
+Guy Martin,
+Michael Downey,
+Charles-H. Schulz,
+Vitorio Miliano,
+Paul Biondich,
+Richard Fontana,
+Philip Olson,
+Leslie Hawthorn,
+Harlan Yu,
+Gerard Braad,
+Daniel Shahaf,
+Matthew Turk,
+Mike Hostetler,
+Waldo Jaquith,
+Jeffrey Johnson,
+Eitan Adler,
+Mike Linksvayer,
+Smiljana Antonijevic,
+Brian Aker,
+Ben Balter,
+Conan Reis,
+Dave Crossland,
+Nicole Boone,
+Brandon Keepers,
+Leigh Honeywell,
+Tom "spot" Callaway,
+Andy Dearing,
+Scott Clark,
+Tina Coleman,
+William A Rowe Jr.,
+Matthew McCullough,
+Stuart Gill,
+Robert Soden,
+Chris Tucker,
+Noel Hidalgo,
+Mark Galassi,
+Chris DiBona,
+Gerhard Poul,
+Christopher Whitaker,
+James Tauber,
+Justin Kestelyn,
+Nadia Eghbal,
+Mel Chua,
+Tony Wasserman,
+Robert Douglass,
+Simone Dalmasso,
+John O'Nolan,
+Tom Marble,
+Patrick Masson,
+Arfon Smith,
+Forest Gregg,
+and Molly de Blanc.
+</para>
+
+<para>The 2nd edition rewrite was funded through a Kickstarter
+campaign. The response to that campaign was swift and generous, and
+I'm immensely grateful to all the people who pledged. I hope they
+will forgive me for taking almost four times longer than expected to
+finish the revisions. Every backer of the campaign is acknowledged
+below, using the name they provided via Kickstarter. The list is in
+either ascending or descending order by pledge size, but I'm not going
+to say which, because a little mystery should be retained in these
+matters:</para>
+
+<para>
+Pablo,
+Cameron Colby Thomson,
+Bethany Sumner,
+Michael Lefevre,
+Maxim Novak,
+Adrian Smith,
+Jonathan Corwin,
+Laurie Voss,
+James Williams,
+Chris Knadler,
+Zael,
+Kieran Mathieson,
+Teresa Gonczy,
+Poramate Minsiri,
+j. faceless user,
+Michael,
+Isaac Davis aka Hedron A. Davis,
+James Dearing,
+Kyle Simpson,
+Laura Dragan,
+Hilary Mason,
+Tom Smith,
+Michael Massie,
+Erin Marchak,
+Micke Nordin,
+Xavier Antoviaque,
+Michael Dudley,
+Raisa,
+Paul Booker,
+Jack Moffitt,
+Aaron Shaw,
+maurine stenwick,
+Ivan Habunek,
+G. Carter Stokum,
+Barry Solow,
+mooware,
+Harish Pillay,
+Jim Randall,
+Holger S.,
+Alan Joseph Williams,
+Erik Michaels-Ober,
+David Parker,
+Nick,
+Niko Felger,
+Fred Trotter,
+Dorai Thodla,
+William Theaker,
+Hans Bakker,
+Brad,
+Bastien Guerry,
+Miles Fidelman,
+Grant Landram,
+Michael Rogers,
+mostsignificantbit,
+Olivier Berger,
+Fernando Masanori Ashikaga,
+Naomi Goldenson,
+Brian Fitzpatrick,
+Eric Burns,
+Mark V. Albert,
+micah altman,
+Richard Valencia,
+Cody Bartlett Heisinger,
+Nick Grossman,
+cgoldberg,
+Mike Linksvayer,
+Simon Phipps,
+Yoshinari Takaoka,
+Christian Spanring,
+Ross M Karchner,
+Martin Karlsson,
+Kaia Dekker,
+Nóirín Plunkett,
+Emma Jane,
+Helior Colorado,
+Fred Benenson,
+George V. Reilly,
+Lydia Pintscher,
+Noel Hidalgo,
+Albert White,
+Keng Susumpow,
+Mattias Wingstedt,
+Chris Cornutt,
+Zak Greant,
+Jessy Kate Schingler,
+James Duncan Davidson,
+Chris DiBona,
+Daniel Latorre,
+Jeremiah Lee Cohick,
+Jannis Leidel,
+Chris Streeter,
+Leonard Richardson,
+Terry Suitor,
+Trevor Bramble,
+Bertrand Delacretaz,
+John Sykora,
+Bill Kendrick,
+Emmanuel Seyman,
+Paolo Mottadelli,
+Gabriel Burt,
+Adrian Warman,
+Steve Lee,
+Andrew Nacin,
+Chris Ballance,
+Ben Karel,
+Lance Pollard,
+richardj,
+Brian Land,
+Jonathan Markow,
+Kat Walsh,
+Jason Orendorff,
+Jim Garrison,
+Jared Smith,
+Sander van der Waal,
+Karen Sandler,
+Matt Lee,
+John Morton,
+Frank Warmerdam,
+Michael R. Bernstein,
+John Yuda,
+Jack Repenning,
+Jonathan Sick,
+Naser Sharifi,
+Cornelius Schumacher,
+Yao-Ting Wu,
+Camille Acey,
+Greg Grossmeier,
+Zooko Wilcox-O'Hearn,
+Joe,
+Anne Gentle,
+Mark Jaquith,
+Ted Gould,
+James Schumann,
+Falkvinge,
+Schuyler Erle,
+Gordon Fyodor Lyon,
+Tony Meyer,
+Salvador Torres,
+Dustin J. Mitchell,
+Lindy Klein,
+Dave Stanton,
+Floyd DCosta,
+Agog Labs,
+Adrià Mercader,
+KIMURA Wataru,
+Paul Cooper,
+alexML,
+Stefan Heinz,
+maiki,
+BjornW,
+Matt Soar,
+Mick Thompson,
+mfks,
+Sebastian Bergmann,
+Michael Haggerty,
+Stefan Eggers,
+Veronica Vergara,
+Bradley Kuhn,
+Justin Tallant,
+dietrich ayala,
+Nat Torkington,
+David Jeanmonod,
+Randy Metcalfe,
+Daniel Kahn Gillmor,
+George Chamales,
+Erik Möller,
+Tim Schumacher,
+Koichi Kimura,
+Vanessa Hurst,
+Daniel Shahaf,
+Stefan Sperling,
+Gunnar Hellekson,
+Denver Gingerich,
+Iliana Weller,
+adam820,
+Garance Drosehn,
+Philip Olson,
+Matt Doar,
+Brian Jepson,
+J Aaron Farr,
+Mike Nosal,
+Kevin Hall,
+Eric Sinclair,
+Alex Rudnick,
+Jim Brucker,
+PEI-HAN LEE,
+Michael Novak,
+Anthony Ferrara,
+Dan Scott,
+Russell Nelson,
+Frank Wiles,
+Alex Gaynor,
+Julian Krause,
+termie,
+Joel McGrady,
+Christian Fletcher Smith,
+Mel Chua,
+William Goff,
+Tom Liesenfeld,
+Roland Tanglao,
+Ross Gardler,
+Gervase Markham,
+Ingo Renner,
+Rochelle Lodder,
+Charles Adler,
+Dave Hylands,
+Daryn Nakhuda,
+Francois Marier,
+Kendric Evans,
+Greg Price,
+Carlos Martín Nieto,
+Greg Stein,
+Glen Ivey,
+Jason Ray,
+Ben Ubois,
+Landon Jones,
+Jason Sperber,
+Brian Ford,
+Todd Nienkerk,
+Keith Casey,
+Leigh Honeywell,
+Aaron Jorbin,
+Christoph Hochstrasser,
+Miguel Ponce de Leon,
+Dave Neary,
+Eric Lawrence,
+Dirk Haun,
+Brian Burg,
+Brandon Kraft,
+Praveen Sinha,
+ML Cohen,
+Christie Koehler,
+Ethan Jucovy,
+Lawrence S Kemp,
+Justin Sheehy,
+Jonathan Polirer,
+Ronan Barzic,
+Greg Dunlap,
+Darcy Casselman,
+Jeremy G Kahn,
+Sam Moffatt,
+James Vasile,
+Simon Fondrie-Teitler,
+Mario Peshev,
+Alison Foxall,
+Jim Blandy,
+Brandon Satrom,
+Viktor Ekmark,
+Tor Helmer,
+Jeff Ubois,
+Gabriela Rodriguez,
+James Tait,
+Michael Parker,
+Stacy Uden,
+Peter Martin,
+Amy Stephen,
+James Tauber,
+Cameron Goodale,
+Jessica,
+Ben Sheldon,
+Forest Gregg,
+Ken McAuliffe,
+Marta Rybczynska,
+Sean Taylor,
+John Genego,
+Meeuw,
+Mark MacLennan,
+Kennis Koldewyn,
+Igor Galić,
+Henrik Dahlström,
+Jorren Schauwaert,
+Masahiro Takagi,
+Ben Collins-Sussman,
+Decklin Foster,
+Étienne Savard,
+Fabio Kon,
+Ole-Morten Duesund,
+Michael Downey,
+Jacob Kaplan-Moss,
+Nicola Jordan,
+Ian Sullivan,
+Roger W Turner,
+Justin Erenkrantz,
+Isaac Christoffersen,
+Deborah Bryant,
+Christopher Manning,
+Luis Villa,
+Judicaël Courant,
+Leslie Hawthorn,
+Mark R. Hinkle,
+Danese Cooper,
+Michael Tiemann,
+Robert M. Lefkowitz,
+Todd Larsen,
+T Foote,
+Ben Reser,
+Dave Camp,
+Scott Berkun,
+Garrett Rooney,
+Dinyar Rabady,
+Damien Wyart,
+Seth Schoen,
+Rob Brackett,
+Aisha,
+Winnie Fung,
+Donald A. Lobo,
+Dan Robles,
+Django Software Foundation,
+Mark Atwood,
+Krux Digital,
+Stephen Walli,
+Dave Crossland,
+Tina,
+and Thorsten Behrens.
+</para>
+
+Thank you all.
+
+</sect2>
 
 </sect1>
 
