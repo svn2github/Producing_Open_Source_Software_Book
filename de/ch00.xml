@@ -736,10 +736,10 @@ provide feedback. Money can't buy that, and even if it could, I could
 never afford James. Thanks, pal.</para>
 -->
 <para>James Vasile ist mein Freund und Kollege seit ein paar Jahren nun, bis jetzt
-ist keine Woche vergangen, in der ich nicht etwas neues von ihm gelernt hätte.
+ist keine Woche vergangen, in der ich nicht etwas Neues von ihm gelernt hätte.
 Ungeachtet eines anstrengenden Jobs&nbsp;&mdash;&nbsp;ich weiss das aus erster Hand,
 denn wir sind Geschäftspartner&nbsp;&mdash;&nbsp;und kleiner Kinder zu Hause, 
-unterstützte er ohne zu zögern durch Lesen des Manuskriptes und Rückmeldung dazu geben.
+war er sofort bereit, das Manuskript durchzulesen und zu kommentieren.
 Geld kann das nicht erkaufen und wenn es dies könnte, könnte ich mir James nicht leisten.
 Danke Kumpel.</para>
 
@@ -752,45 +752,87 @@ many parts of this book.</para>
 -->
 <para>Cecilia Donnelly ist beides, eine wundervolle Freundin und eine
 äußerst fähige Open-Source Spezialistin beim Open Tech Strategies Büro
-in Chiocago. Es ist ein Vergnügen, mit ihr zu arbeiten, was unsere Kunden
+in Chicago. Es ist ein Vergnügen, mit ihr zu arbeiten, was unsere Kunden
 ebenfalls sehr schätzen, und ihr klares Denken und ihre scharfe Beobachtungsgabe
 haben viele Teile dieses Buches beeinflusst.</para>
 
-
+<!--
 <para>Karen Sandler has been unfailingly supportive, and provided
 thoughtful and patient discussion about many of the topics (and even
 some of the specific examples) in this book. As with James, I usually
 learn something from Karen when we talk about free software, and when
 we talk about other things too.</para>
+-->
+<para>
+Karen Sandler war unerschöpflich unterstützend und bot gedankenreiche und
+geduldige Diskussionen bei vielen der Themen ( und sogar bei einigen der
+speziellen Beispiele) in diesem Buch. Wie bei James erlerne ich normalerweise
+etwas durch Karen, wenn wir über freie Software reden und wenn wir über andere
+Dinge reden ebenso.</para>
 
+
+<!--
 <para>Bradley Kuhn's name appears several times in the commit logs for
 this book, because he provided highly expert feedback on multiple
 occasions, in one case practically writing the patch himself. As I
 wrote in the log message for one of the commits, he is someone "whose
 contributions to free software have been immeasurable and whose
 dedication to our shared cause is a constant inspiration".</para>
+-->
 
+<para>Bradley Kuhn's Name erscheint einige male in den Commit-Logs dieses Buches,
+weil er Experten-Feedback von hohem Niveau bei vielen Gelegenheiten lieferte,
+in einem Fall schrieb er praktischerweise selbst den Patch. Wie ich es in einer
+der Log-Messages für eins der Commits schrieb, ist er jemand "dessen
+Beiträge zu freier Software unermesslich waren und dessen Engagement
+für unsere gemeinsame Sache eine ständige Inspiration ist".</para>
+<!--
 <para>Karen and Bradley both work at the Software Freedom Conservancy
 (<ulink url="https://sfconservancy.org/" >https://sfconservancy.org/</ulink>).
 If you like this book and you want to help free software, donating to
 the Conservancy is fine first step. It's also a fine second
 step.</para>
+-->
+<para>Karen und Bradley arbeiten beide an der "Software Freedom Conservancy"
+(<ulink url="https://sfconservancy.org/" >https://sfconservancy.org/</ulink>).
+Wenn ihnen dieses Buch gefällt und Sie freier Software helfen wollen, der
+"Software Freedom Conservancy" zu spenden ist ein erster Schritt. Auch als
+zweiter Schritt ist es gut.</para>
 
+<!--
 <para>Ben Reser provided a super-detailed and expert review of Chapters
 6 and 7 that resulted in many improvements. Ben, thank you so much.</para>
+-->
+<para>Ben Reser lieferte eine super-detaillierte- und Experten-Überprüfung
+von Kapitel 6 und 7, was zu vielen Verbesserungen führte. Ben, vielen Dank dafür.</para>
 
+<!--
 <para>Michael Bernstein not only provided some detailed feedback
 during the interregnum between the first and second editions, he also
 helped a lot with organizing the Kickstarter campaign that made the
 latter possible. Thank you, Michael.</para>
+-->
+<para>Michael Bernstein hat nicht nur einiges an detaillierten Rückmeldungen
+während der Unterbrechung zwischen der ersten und zweiten Ausgabe gegeben,
+er hat auch sehr viel bei der Organisation der Kickstarter Kamagne, welche
+Letztere erst möglich machte, geholfen.</para>
 
+<!--
 <para>Danese Cooper always keeps me on my toes, and in particular
 brought me the message (which I was not at first willing to hear) that
 innersourcing <emphasis>can</emphasis> work as a means of helping
 organizations learn open source practices and eventually produce open
 source software themselves. Thanks for that, Danese, and much
 else.</para>
+-->
+<para>Danese Cooper hält mich immer auf Trab und vor allem
+brachte sie mir die Botschaft (die ich zunächst nicht hören wollte),
+dass Innersourcing funktionieren <emphasis>kann</emphasis> in dem Sinn, dass 
+es Organisationen hilft, Open Source-Praktiken zu erlernen und schließlich
+selbst Open-Source Software herzustellen. Vielen Dank dafür, Danese, und 
+vieles mehr sonst.</para>
 
+<!--
 <para>Between the two editions, I spent a very educational stretch of
 time working at O'Reilly Media, Code for America / Civic Commons
 (while ensconsed in the Open Plans office in New York City, thanks to
@@ -800,43 +842,95 @@ that work ended up in the book, and in addition to the organizations
 themselves I thank Tim O'Reilly, Jen Pahlka, Andrew McLaughlin, Philip
 Ashlock, Abhi Nemani, Nick Grossman, Chris Holmes, Frank Hebbert, and
 Andrew Hoppin for the ideas and perspectives they shared.</para>
-
+-->
+<para>Zwischen den beiden Auflagen verbrachte ich eine sehr lehrreiche Zeit 
+bei O'Reilly Media, Code for America / Civic Commons (währenddessen verankert
+im Open Plans Büro in New York City, Dank für das sehr freundliches Angebot
+an Schreibtischplatz) und der New America Foundation als Open Internet Tools Project
+Kollege. Vieles von dem, was ich durch die Arbeit lernte, fand Eingang in das Buch
+und in Ergänzung zu den Organisationen selbst danke ich Tim O'Reilly, Jen Pahlka,
+Andrew McLaughlin, Philip Ashlock, Abhi Nemani, Nick Grossman, Chris Holmes,
+Frank Hebbert and Andrew Hoppin für die Ideen und Sichtweisen, die sie teilten.</para>
+<!--
 <para>Sumana Harihareswara and Leonard Richardson have given frank and
 helpful commentary about various open source goings-on over the years;
 the book is better for their input, and I am the better for their
 friendship.</para>
+-->
+<para>Sumana Harihareswara und Leonard Richardson gaben im laufe der Jahre
+offene und hilfreiche Kommentare über verschiedene Open-Source Abläufe;
+das Buch hat durch ihren Input gewonnen, und ich bin durch ihre Freundschaft
+ein besserer Mensch geworden</para>
 
+<!--
 <para>Eben Moglen at the Software Freedom Law Center (<ulink
 url="https://softwarefreedom.org/" >https://softwarefreedom.org/</ulink>)
 taught me a lot about how to look at free software as a large-scale
 social and economic phenomenon, and about how companies view free
 software. He also provided a private working space on a few occasions
 when it really made a difference. Thank you, Eben.</para>
+-->
+<para>Eben Moglen beim Software Freedom Law Center (<ulink
+url="https://softwarefreedom.org/" >https://softwarefreedom.org/</ulink>)
+lehrte mich eine Menge über die Art, freie Software als ein großformatiges
+soziales und ökonomischen Phänomen zu betrachten, und darüber, wie Unternehmen
+freie Software sehen. Bei einigen Gelegenheiten stellte er auch einen privaten
+Arbeitsraum zur Verfügung als es wirklich einen Unterschied gemacht hat. Dank dir, Eben</para>
 
+<!--
 <para>I do not understand how Dr. David A. Wheeler makes time to
 answer my occasional questions when he is in demand from so many other
 people as well, but he does, and his answers are always spot-on and
 authoritative. Thanks as always, David.</para>
+-->
+<para>Ich verstehe nicht, wie Dr. David A. Wheeler Zeit findet, meine gelegentlichen
+Fragen zu beantworten, während er von so vielen anderen Menschen in Anspruch genommen wird,
+aber er tut es und seine Antworten sind immer genau und maßgebend. Vielen Dank wie immer, David.</para>
 
+<!--
 <para>Breena Xie's interest in open source led swiftly to trenchant
 questions about it. Those questions were helpful to me, in thinking
 through certain topics in the book, but so was her patience on those
 occasions when the book demanded more time than it should have (by
 which I mean "than I said it would"). Thank you, Breena.</para>
+-->
+<para>Breena Xie's Interesse an Open-Source führten schnell zu scharfen
+Fragen dazu. Diese Fragen waren für mich hilfreich, um bestimmte Themen
+im Buch zu durchdenken, aber so war auch ihre Geduld, auf diese
+Gelegenheiten zu warten, als das Buch mehr Zeit erforderte als es sollte (damit
+meine ich "als ich sagte es würde"). Danke, Breena.</para>
 
+<!--
 <para>Many thanks to Radhir Kothuri and the rest of the HackIllinois
 2017 crew, who provided a very timely motivational boost when they
 proposed doing a print run of the new edition for their event at the
 University of Illinois at Urbana-Champaign, Illinois in February 2017.
 I appreciate the vote of confidence in the book, and hope the
 HackIllinois attendees will be pleased with the results.</para>
+-->
+<para>Vielen Dank Radhir Kothuri und dem Rest des HackIllinois
+2017 Team, welche rechtzeitig einen Motivationsschub brachten, als sie vorschlugen,
+eine Ausgabe der neuen Auflage für ihre Veranstaltung an der University
+of Illinois bei Urbana-Champaign, Illinois, Februar 2017, zu machen.
+Ich schätze den Vertrauensvorschuß für das Buch und hoffe, die HackIllinois
+Anhänger werden mit den Ergebnissen zufrieden sein.</para>
 
+<!--
 <para>Camille Bégnis of <ulink url="http://neodoc.biz/"
 >http://neodoc.biz/</ulink> provided expert DocBook help in real time
 one day, solving a long-standing technical problem in the online
 version of the book that I'd been unable to fix for years. Merci
 beaucoup, Camille.</para>
+-->
 
+<para>Camille Bégnis von <ulink url="http://neodoc.biz/"
+>http://neodoc.biz/</ulink> lieferte Experten-DocBook Hilfe in Echtzeit
+an einem Tag, wodurch ein lange ausstehendes Technikproblem der Online Version des
+Buches gelöst wurde, welches ich selbst jahrelang nicht lösen konnte. Merci
+beaucoup, Camille.
+</para>
+
+<!--
 <para>The hardest part of these acknowledgements is realizing there
 will never be enough space to do justice to all the knowledge people
 have shared in the decade since the first edition came out. I've been
@@ -849,6 +943,18 @@ collective mind, and will try to list some of those people below. I'm
 sure the list is incomplete, and I apologize for that. For what it's
 worth, I used a program to randomize the order, and accepted its first
 output:</para>
+-->
+<para>Der härteste Teil solcher Danksagungen ist, sich einzugestehen, dass
+es niemals genug Raum geben wird, um all dem Wissen gerecht zu werden, das
+Leute in dieser Dekade seit dem Erscheinen der ersten Auflage geteilt haben.
+Ich habe im Open-Source Bereich seit dem die ganze Zeit gearbeitet und hatte
+erleuchtende Gespräche mit meinen Kunden, Partnern, Reportern, Beratungsexperten,
+und Sympathisanten; manche von diesen haben auch bisweilen konkrete Verbesserungen
+für das Buch eingereicht. Ich kann mir kaum vorstellen, wie das Buch ohne die
+Unterstützung durch diesen kollektiven Geist wäre und werde daher versuchen, weiter unten
+einige dieser Menschen aufzulisten. Ich bin sicher, dass die Liste unvollständig ist
+und entschuldige mich dafür. Nebenbei bemerkt habe ich die Reihenfolge mittels eines
+Programms gemischt und das erste Ergebnis davon akzeptiert:</para>
 
 <para>
 Nithya Ruff,
@@ -959,6 +1065,7 @@ Forest Gregg,
 and Molly de Blanc.
 </para>
 
+<!--
 <para>The 2nd edition rewrite was funded through a Kickstarter
 campaign. The response to that campaign was swift and generous, and
 I'm immensely grateful to all the people who pledged. I hope they
@@ -968,7 +1075,16 @@ below, using the name they provided via Kickstarter. The list is in
 either ascending or descending order by pledge size, but I'm not going
 to say which, because a little mystery should be retained in these
 matters:</para>
+-->
 
+<para>Die Überarbeitung der 2. Auflage wurde durch eine Kickstarter Kampagne
+gegründet. Die Reaktion auf diese Kampagne war schnell und großzügig und ich bin
+all den Menschen, die mir Pfand gaben, immens dankbar. Ich hoffe, sie vergeben mir,
+dass ich annähernd viermal länger brauchte, als ich für die Beendung der Revision
+erwartet hatte. Jeder Unterstützer der Kampagne wird weiter unten mittels des Namens,
+den er bei Kickstarter verwendet, anerkannt. Die Liste ist weder in auf- noch in
+absteigender Reihe anhand der Pfandhöhe sortiert, aber ich werde nicht sagen, wie,
+denn ein kleines Mysterium soll in diesem Zusammenhang verbleiben:</para>
 <para>
 Pablo,
 Cameron Colby Thomson,
@@ -1301,12 +1417,16 @@ Thank you all.
 
 <!--
 <para>The thoughts and opinions expressed in this book are my own.
-They do not necessarily represent the views of CollabNet or of the
-Subversion project.</para>
+They do not necessarily represent the views of clients, past
+employers, partners, or the open source projects discussed herein.
+Any errors that remain despite the efforts of the people mentioned in
+the acknowledgements are my own as well.</para>
 -->
 <para>Die Gedanken und Meinungen in diesem Buch sind meine eigenen.
-Sie stellen nicht unbedingt die Sicht von CollabNet oder die
-des Subversion-Projekts dar.</para>
+Sie stellen nicht unbedingt die Sicht von Kunden, ehemaligen Arbeitgebern,
+Partnern oder der hier angesprochenen Open-Source Projekte dar. Irgendwelche
+Fehler, die trotz der Bemühungen der in der Danksagung genannten Menschen
+verblieben sind, sind ebenfalls meine eigenen.</para>
 
 </sect1>
 
