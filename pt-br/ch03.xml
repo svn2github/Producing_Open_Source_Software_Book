@@ -1302,7 +1302,10 @@ a aceitá-las.</para></listitem>
   mesmo arquivo mas sem interferências.  Como as duas mudanças não
   interferem uma com a outra quando uma pessoa a atualiza sua cópia do arquivo
   (já contendo suas próprias mudanças), as mudanças da outra pessoa serão
-  automaticamente agregadas.  Isto é muito comum, especialmente em projetos que contém muitas pessoas trabalhando no mesmo código.  Quando duas modificações diferentes <emphasis>se interferem</emphasis>, o resultado é um "conflito"; veja abaixo.</para>
+  automaticamente agregadas.  Isto é muito comum, especialmente
+  em projetos que contém muitas pessoas trabalhando no mesmo código.  Quando 
+  duas modificações diferentes <emphasis>se interferem</emphasis>, o resultado 
+  é um "conflito"; veja abaixo.</para>
   </listitem>
  </varlistentry>
 
