@@ -1290,22 +1290,19 @@ a aceitá-las.</para></listitem>
 
  <varlistentry id="vc-vocabulary-merge">
   <term><firstterm>merge (a.k.a. port)</firstterm></term>
-  <listitem><para>To move a change from one branch to another.  This
-  includes merging from the main trunk to some other branch, or vice
-  versa.  In fact, those are the most common kinds of merges; it is
-  rare to port a change between two non-main branches.  See <xref
-  linkend="vc-singularity"/> for more about this kind of
-  merging.</para>
+  <listitem><para>Mover uma mudança de um branch para o outro.  Isso 
+  inclui um merge da linha principal com algum branch, ou vice
+  versa.  Na verdade, estes são os tipos mais comuns de merge; é raro
+  transportar mudanças entre dois branches não-principais.  Veja <xref
+  linkend="vc-singularity"/> para mais detalhes sobre este tipo de
+  merge.</para>
 
-  <para>"Merge" has a second, related meaning: it is what the version
-  control system does when it sees that two people have changed the
-  same file but in non-overlapping ways.  Since the two changes do not
-  interfere with each other, when one of the people updates their copy
-  of the file (already containing their own changes), the other
-  person's changes will be automatically merged in.  This is very
-  common, especially on projects where multiple people are hacking on
-  the same code.  When two different changes <emphasis>do</emphasis>
-  overlap, the result is a "conflict"; see below.</para>
+  <para>"Merge" tem um segundo significado: é o que o sistema de
+  controle de versão faz quando identifica que duas pessoas mudaram o
+  mesmo arquivo mas sem interferências.  Como as duas mudanças não
+  interferem uma com a outra quando uma pessoa a atualiza sua cópia do arquivo
+  (já contendo suas próprias mudanças), as mudanças da outra pessoa serão
+  automaticamente agregadas.  Isto é muito comum, especialmente em projetos que contém muitas pessoas trabalhando no mesmo código.  Quando duas modificações diferentes <emphasis>se interferem</emphasis>, o resultado é um "conflito"; veja abaixo.</para>
   </listitem>
  </varlistentry>
 
