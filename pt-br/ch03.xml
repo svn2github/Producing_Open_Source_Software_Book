@@ -1289,7 +1289,7 @@ a aceitá-las.</para></listitem>
  </varlistentry>
 
  <varlistentry id="vc-vocabulary-merge">
-  <term><firstterm>merge (a.k.a. port)</firstterm></term>
+  <term><firstterm>merge (a.k.a. port) (ou junção)</firstterm></term>
   <listitem><para>Mover uma mudança de um branch para o outro.  Isso 
   inclui um merge da linha principal com algum branch, ou vice
   versa.  Na verdade, estes são os tipos mais comuns de merge; é raro
@@ -1300,47 +1300,48 @@ a aceitá-las.</para></listitem>
   <para>"Merge" tem um segundo significado: é o que o sistema de
   controle de versão faz quando identifica que duas pessoas mudaram o
   mesmo arquivo mas sem interferências.  Como as duas mudanças não
-  interferem uma com a outra quando uma pessoa a atualiza sua cópia do arquivo
-  (já contendo suas próprias mudanças), as mudanças da outra pessoa serão
-  automaticamente agregadas.  Isto é muito comum, especialmente
-  em projetos que contém muitas pessoas trabalhando no mesmo código.  Quando 
-  duas modificações diferentes <emphasis>se interferem</emphasis>, o resultado 
-  é um "conflito"; veja abaixo.</para>
-  </listitem>
- </varlistentry>
+  interferem uma com a outra quando uma pessoa a atualiza sua cópia 
+  do arquivo (já contendo suas próprias mudanças), as mudanças da 
+  outra pessoa serão automaticamente agregadas.  Isto é muito comum, 
+  especialmente em projetos que contém muitas pessoas trabalhando no 
+  mesmo código.  Quando duas modificações diferentes <emphasis>se 
+  interferem</emphasis>, o resultado é um "conflito"; veja 
+  abaixo.</para></listitem></varlistentry>
 
  <varlistentry id="vc-vocabulary-conflict">
-  <term><firstterm>conflict</firstterm></term>
-  <listitem><para>What happens when two people try to make different
-  changes to the same place in the code.  All version control systems
-  automatically detect conflicts, and notify at least one of the
-  humans involved that their changes conflict with someone else's.  It
-  is then up to that human to <firstterm>resolve</firstterm> the
-  conflict, and to communicate that resolution to the version control
-  system.</para></listitem>
+  <term><firstterm>conflict (ou conflito)</firstterm></term>
+  <listitem><para>É o que acontece quando duas pessoas tentam 
+  modificar a mesma parte do código de maneiras diferentes.  Todos os 
+  sistemas de controle de versão detectam conflitos automaticamente, 
+  e notificam pelo menos um humano de que suas mudanças conflitam com 
+  as de outra pessoa.  O humano notificado deve então 
+  <firstterm>resolver</firstterm> o conflito, e comunicar a resolução 
+  para o sistema de controle de versão.</para></listitem>
  </varlistentry>
 
  <varlistentry id="vc-vocabulary-lock">
-  <term><firstterm>lock</firstterm></term>
-  <listitem><para>A way to declare an exclusive intent to change a
-  particular file or directory.  For example, "I can't commit any
-  changes to the web pages right now.  It seems Alfred has them all
-  locked while he fixes their background images."  Not all version
-  control systems even offer the ability to lock, and of those that
-  do, not all require the locking feature to be used.  This is because
-  parallel, simultaneous development is the norm, and locking people
-  out of files is (usually) contrary to this ideal.</para>
+  <term><firstterm>lock (ou bloqueio)</firstterm></term>
+  <listitem><para>Um jeito de declarar a intenção de modificar 
+  exclusivamente um arquivo ou diretório.  Por exemplo, "Não consigo 
+  <emphasis>commitar</emphasis> nenhuma mudança para as páginas web 
+  no momento.  Parace que Alfred as bloqueou enquanto conserta as 
+  imagens de fundo."  Nem todos os sistemas de controle de versão 
+  suportam a habilidade de bloquear, e daqueles que suportam, nem 
+  todos requerem que a habilidade seja usada.  Isso se dá porque 
+  desenvolvimento paralelo é a regra, e bloquear pessoas de acessar 
+  um arquivo é contrário à este ideal.</para>
 
-  <para>Version control systems that require locking to make commits
-  are said to use the <firstterm>lock-modify-unlock</firstterm> model.
-  Those that do not are said to use the
-  <firstterm>copy-modify-merge</firstterm> model.  An excellent
-  in-depth explanation and comparison of the two models may be found
-  at <ulink
-  url="http://svnbook.red-bean.com/svnbook-1.0/ch02s02.html"/>.  In
-  general, the copy-modify-merge model is better for open source
-  development, and all the version control systems discussed in this
-  book support that model.</para></listitem>
+  <para>Sistemas de controle de versão que requerem o bloqueio para 
+  realizar commits usam um modelo chamado 
+  <firstterm>bloquear-modificar-desbloquear</firstterm>.
+  Aqueles que não requerem usam o modelo chamado 
+  <firstterm>copiar-modificar-juntar</firstterm>.  Uma excelente
+  explicação e comparação dos dois modelos à fundo pode ser 
+  encontrada em <ulink 
+  url="http://svnbook.red-bean.com/svnbook-1.0/ch02s02.html"/>.  No
+  geral, o modelo copiar-modificar-juntar é melhor para 
+  desenvolvimento aberto, e todos os sistema de controle de versão 
+  discutidos neste livro suportam este modelo.</para></listitem>
  </varlistentry>
 
 </variablelist>
