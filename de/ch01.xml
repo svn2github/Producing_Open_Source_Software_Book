@@ -6,170 +6,160 @@ y<chapter id="introduction">
 <title>Einleitung</title>
 
 <simplesect>
-
 <!--
-<para>Most free software projects fail.</para>
+<para>Free software&nbsp;&mdash;&nbsp;open source
+software<footnote><para>The terms are synonymous, as mentioned in
 -->
-<para>Die meisten freien Software-Projekte scheitern.</para>
-
-<!--
-<para>We tend not to hear very much about the failures.  Only
-successful projects attract attention, and there are so many free
-software projects in total<footnote><para>SourceForge.net, one popular
-hosting site, had 79,225 projects registered as of mid-April 2004.
-This is nowhere near the total number of free software projects on the
-Internet, of course; it's just the number that chose to use
-SourceForge.</para></footnote> that even though only a small
-percentage succeed, the result is still a lot of visible projects.  We
-also don't hear about the failures because failure is not an event.
-There is no single moment when a project ceases to be viable; people
-just sort of drift away and stop working on it.  There may be a moment
-when a final change is made to the project, but those who made it
-usually didn't know at the time that it was the last one.  There is
-not even a clear definition of when a project is expired.  Is it when
-it hasn't been actively worked on for six months?  When its user base
-stops growing, without having exceeded the developer base?  What if
-the developers of one project abandon it because they realized they
-were duplicating the work of another&mdash;and what if they join that
-other project, then expand it to include much of their earlier effort?
-Did the first project end, or just change homes?</para>
+<!-- I thought I was going to have to add the xrefstyle="the %t"
+     attribute to the xref below, but DocBook knew that the target was
+     a chapter-like thing not a section-like thing and didn't add any
+     words, so the "the" in the running text is enough. -->
+<!--the <xref linkend="preface"/>.  See <xref
+linkend="free-vs-open-source"/> for
+more.</para></footnote>&nbsp;&mdash;&nbsp;has become the backbone of
+modern information technology.  It runs on your phone, on your laptop
+and desktop computers, and in embedded microcontrollers for household
+appliances, automobiles, industrial machinery and countless other
+devices that we too often forget even have software.  Open source is
+especially prevalent on the servers that provide online services on
+the Internet.  Every time you send an email, visit a web site, or call
+up some information on your smartphone, a significant portion of the
+activity is handled by open source software.</para>
 -->
-<para>Wir hören nicht viel über Fehlschäge. Nur erfolgreiche 
-Projekte ziehen die Aufmerksamkeit auf sich, und es gibt insgesamt
-so viele Open-Source-Projekte <footnote><para>Die beliebte 
-Hosting-Seite 
-SourceForge.net, verzeichnete Mitte April 2004 79,225 Projekte.
-Natürlich ist das nicht einmal annähernd die Gesamtzahl der freien 
-Software-Projekte im Internet, sondern lediglich die Teilmenge die 
-Sourceforge als Plattform gewählt haben.</para></footnote>, dass obwohl
-nur ein Bruchteil Erfolg hat, immer noch eine Menge Projekte sichtbar 
-sind. Von den Fehlschlägen hören wir auch deshalb nicht, weil Versagen
-kein Ereignis ist. Es gibt keinen bestimmten Zeitpunkt, an dem ein Projekt
-aufhört realisierbar zu sein; Teilnehmer gleiten irgendwie langsam davon
-und hören auf daran zu arbeiten. Es gibt vielleicht einen Moment, an dem
-die letzte Änderung gemacht wird, aber derjenige, der sie durchführt, 
-weiß für gewöhnlich nicht, dass es die letzte sein wird. Es gibt nicht
-einmal eine klare Definition, wann ein Projekt abgelaufen ist. Ist es, 
-wenn an einem Projekt seit sechs Monaten nicht aktiv gearbeitet wurde?
-Sobald seine Nutzergemeinde aufhört zu wachsen, ohne die 
-Entwicklergemeinde 
-übertroffen zu haben? Was ist wenn die Entwickler ihr Projekt
-verlassen, sobald sie merken, dass ein anderes Projekt die gleichen
-Ziele verfolgt, und sie nur unnötig einen doppelten Aufwand betreiben,
-und sie sich diesem anderen Projekt anschließen und ihre früheren 
-Anstrengungen mit einzubeziehen? Wurde das Projekt beendet, oder ist 
-es nur umgezogen?</para>
+<para>Freie Software&nbsp;&mdash;&nbsp;Open Source
+software<footnote><para>Die Begriffe sind Synonyme, wie bereits in
+<!-- I thought I was going to have to add the xrefstyle="the %t"
+     attribute to the xref below, but DocBook knew that the target was
+     a chapter-like thing not a section-like thing and didn't add any
+     words, so the "the" in the running text is enough. -->
+<xref linkend="preface"/> erwähnt.  Sieh <xref
+linkend="free-vs-open-source"/> für Details.</para>
+</footnote>&nbsp;&mdash;&nbsp;wurde zum Rückgrad moderner Informationstechnologie.
+Sie läuft auf ihrem Telefon, ihrem Laptop und Desktop-Computer und in 
+eingebetteten Mikrocontrollern von Haushaltsgeräten, Automobilen, Industriemaschinen
+und zahllosen anderen Geräten, bei denen wir häufig nicht dran denken, dass
+auch sie Software haben.
+</para>
 
 <!--
-<para>Because of such complexities, it's impossible to put a precise
-number on the failure rate.  But anecdotal evidence from over a decade
-in open source, some casting around on SourceForge.net, and a little
-Googling all point to the same conclusion: the rate is extremely high,
-probably on the order of 90&ndash;95%.  The number climbs higher if you
-include surviving but dysfunctional projects: those
-which <emphasis>are</emphasis> producing running code, but which are
-not pleasant places to be, or are not making progress as quickly or as
-dependably as they could.</para>
+<para>Yet it is also largely invisible, even to many of the people who
+work in technology.  Open source's nature is to fade into the
+background and go unnoticed except by those whose work touches it
+directly.  It is the plankton of computing.  We all breathe, but few
+of us stop to think about where the oxygen is coming from.</para>
 -->
-<para>Durch diese Komplexität ist es unmöglich die Ausfallquote 
-genau zu beziffern. Einzelberichte aus über einem Jahrzehnt freier
-Software, kurzes Stöbern auf SourceForge.net und ein wenig Googeln, 
-deuten jedoch alle auf den gleichen Schluss: die Rate ist extrem hoch,
-wahrscheinlich in der Größenordnung von 90%&ndash;95%. Die Zahl wird 
-größer, wenn man überlebende, aber nicht vernünftig laufende Projekte mit
-einbezieht: solche die zwar laufenden Code produzieren, aber weder ein
-angenehmer Aufenthaltsort sind, noch so schnell oder zuverlässig 
-Fortschritte machen, wie sie könnten.</para>
+<para>Noch immer ist sie weitestgehend unsichtbar, vor allem auch gegenüber
+Menschen, die im Technologiebereich arbeiten. Die Natur von Open Software ist,
+in den Hintergrund zu verschwinden und unbemerkt zu bleiben, außer für die,
+deren Arbeit direkte Berührung damit hat.</para>
 
 <!--
-<para>This book is about avoiding failure.  It examines not only how
-to do things right, but how to do them wrong, so you can recognize and
-correct problems early.  My hope is that after reading it, you will
-have a repertory of techniques not just for avoiding common pitfalls
-of open source development, but also for dealing with the growth and
-maintenance of a successful project.  Success is not a zero-sum game,
-and this book is not about winning or getting ahead of the
-competition.  Indeed, an important part of running an open source
+<para>If you've read this far, though, you're already one of the
+people who wonders where the oxygen comes from, and probably want to
+create some yourself.</para>
+-->
+<para>Wenn Sie bis hierhin gelesen haben, sind Sie bereits einer der
+Menschen, die sich fragen, woher der Sauerstoff kommt, und der
+wahrscheinlich selbst welchen erschaffen möchte.</para>
+
+<!--
+<para>This book will examine not only how to do open source right, but
+how to do it wrong, so you can recognize and correct problems early.
+My hope is that after reading it, you will have a repertory of
+techniques not just for avoiding common pitfalls, but for dealing with
+the growth and maintenance of a successful project.  Success is not a
+zero-sum game, and this book is not about winning or getting ahead of
+the competition.  Indeed, an important part of running an open source
 project is working smoothly with other, related projects.  In the long
 run, every successful project contributes to the well-being of the
 overall, worldwide body of free software.</para>
 -->
-<para>In diesem Buch geht es darum, Versagen zu vermeiden. Es untersucht
-nicht nur wie man Sachen richtig macht, sondern wie man sie falsch 
-macht, um frühzeitig Probleme erkennen und korrigieren zu können.
-Ich hoffe Ihnen zeigen zu können, wie man häufige Stolpersteine 
-vermeidet, und erfolgreich Wachstum und der Pflege eines Projekts 
-meistert. Erfolg ist kein Nullsummenspiel, und in diesem
+<para>In diesem Buch möchte nicht nur untersuchen, wie man Open Source richtig
+macht sondern auch, wie man es falsch macht, so dass Sie Probleme frühzeitig
+erkennen und korrigieren können. Ich hoffe, dass Sie nach dieser Lektüre
+über ein Repertoir an Techniken verfügen, mit dem Sie nicht nur häufige Stolpersteine 
+vermeiden sondern auch Wachstum und Pflege eines erfolgreichen Projektes 
+meistern. Erfolg ist kein Nullsummenspiel und in diesem
 Buch geht es nicht darum zu Gewinnen oder der Konkurrenz voraus zu sein.
 Tatsächlich ist ein wichtiger Teil beim Betrieb eines Open-Source-Projekts
-die reibungslose Zusammenarbeit mit anderen verwandten
+die reibungslose Zusammenarbeit mit anderen, verwandten
 Projekten. Auf lange Sicht trägt jedes erfolgreiche Open-Source-Projekt
 zum Wohl der gesamten Welt der freien Software bei.</para>
 
 <!--
-<para>It would be tempting to say that free software projects fail for
-the same sorts of reasons proprietary software projects do.
-Certainly, free software has no monopoly on unrealistic requirements,
-vague specifications, poor resource management, insufficient design
-phases, or any of the other hobgoblins already well known to the
-software industry.  There is a huge body of writing on these topics,
-and I will try not to duplicate it in this book.  Instead, I will
-attempt to describe the problems peculiar to free software.  When a
-free software project runs aground, it is often because the developers
-(or the managers) did not appreciate the unique problems of open
-source software development, even though they might have been quite
-prepared for the better-known difficulties of closed-source
-development.</para>
+<para>It would be tempting to say that when free software projects
+fail, they do so for the same sorts of reasons proprietary software
+projects do. Certainly, free software has no monopoly on unrealistic
+requirements, vague specifications, poor staff management, ignoring
+user feedback, or any of the other hobgoblins already well known to
+the software industry.  There is a huge body of writing on these
+topics, and I will try not to duplicate it in this book.  Instead, I
+will attempt to describe the problems peculiar to free software.  When
+a free software project runs aground, it is often because the
+participants did not appreciate the unique problems of open source
+software development, even though they might be quite well-prepared
+for the better-known difficulties of closed-source development.</para>
 -->
+
 <para>Man ist versucht zu sagen, freie Software-Projekte würden aus den
 selben Gründen fehlschlagen, wie proprietäre Software-Projekte. Freie 
 Software hat sicherlich kein Monopol auf unrealistische Anforderungen,
-vage Spezifikationen, schlechte Verwaltung von Ressourcen, zu kurze 
-Entwurfsphasen, oder irgend einen der anderen Kobolde die der 
-Software-Industrie
-bereits wohl bekannt sind. Es gibt genügend Material zu diesem
-Thema und ich werde in diesem Buch nicht versuchen es zu duplizieren.
-Stattdessen werde ich versuchen die Probleme zu beschreiben, die der
+vage Spezifikationen, schlechte Ressourcenverwaltung, Ignorierung von
+Nuteranforderungen oder irgend einen der anderen Kobolde, welche der 
+Software-Industrie bereits wohl bekannt sind. Es gibt genügend Material
+zu diesem Thema und ich werde versuchen, es in diesem Buch nicht zu duplizieren.
+Stattdessen werde ich versuchen, die Probleme zu beschreiben, die der
 freien Software eigen sind. Wenn ein freies Software-Projekt an die Wand
-gefahren wird, liegt es oft daran dass die
-Entwickler (oder die Projektleiter) nicht um die spezifischen Probleme
-von Open-Source-Software wussten, auch wenn sie durchaus auf die 
-bekannteren Probleme der Closed-Source-Entwicklung vorbereitet 
-waren.</para>
+gefahren wird, liegt es oft daran, dass die Mitwirkenden nicht um die
+spezifischen Probleme von Open-Source-Software wussten, auch wenn sie
+durchaus auf die bekannteren Probleme der Closed-Source-Entwicklung
+vorbereitet waren.</para>
 
 <!--
 <para>One of the most common mistakes is unrealistic expectations
 about the benefits of open source itself.  An open license does not
-guarantee that hordes of active developers will suddenly volunteer
-their time to your project, nor does open-sourcing a troubled project
+guarantee that hordes of active developers will suddenly devote their
+time to your project, nor does open-sourcing a troubled project
 automatically cure its ills.  In fact, quite the opposite: opening up
 a project can add whole new sets of complexities, and cost
 <emphasis>more</emphasis> in the short term than simply keeping it
-in-house.  Opening up means arranging the code to be comprehensible to
-complete strangers, setting up a development web site and email lists,
-and often writing documentation for the first time.  All this is a lot
-of work.  And of course, if any interested developers
-<emphasis>do</emphasis> show up, there is the added burden of
-answering their questions for a while before seeing any benefit from
-their presence.  As developer Jamie Zawinski said about the troubled
-early days of the Mozilla project:</para>
+in-house.</para>
 -->
+
 <para>Einer der häufigsten Fehler sind unrealistische Erwartungen über
 die Vorteile von offenem Quellcode. Eine offene Lizenz garantiert weder,
-dass eine Horde aktiver Entwickler urplötzlich anfangen, von sich aus,
-Zeit in Ihr Projekt zu investieren, noch wird die Offenlegung die 
-Krankheiten des Projekts automatisch heilen. Tatsächlich kann es sogar 
+dass eine Horde aktiver Entwickler urplötzlich von sich aus
+Ihem Projekt Zeit widmen, noch wird die Offenlegung die Krankheiten des
+Projekts automatisch heilen. Tatsächlich kann es sogar 
 genau das Gegenteil bewirken: Es kann eine ganze Reihe neuer
 Komplexitäten hinzufügen und kurzfristig <emphasis>mehr</emphasis> 
-kosten, als die Software einfach in Betrieb zu halten. Das Projekt zu
-öffnen bedeutet, den Quellcode so zu gestalten, dass er für völlig Fremde 
-verständlich ist, eine Site für Entwickler aufzubauen, Mailinglisten 
-einzurichten und oft auch zum erstem Mal eine Dokumentation 
-zu schreiben. All das ist eine Menge Arbeit. Und <emphasis>falls</emphasis> 
-interessierte Entwickler auftauchen, gibt es die zusätzliche Bürde, eine
-Zeit lang ihre Fragen beantworten zu müssen, bevor man aus ihrer
-Anwesenheit einen Nutzen zieht. Der Entwickler Jamie Zawinski hatte 
-folgendes über die Anfangstage des Mozilla Projekts zu sagen:</para>
+kosten, als die Software einfach in Betrieb zu halten.</para>
+
+<!--
+<para>Opening up means arranging the code to be comprehensible to
+complete strangers, writing development documentation, and setting
+discussion forums and other collaboration tools (this is discussed in
+more detail in <xref linkend="technical-infrastructure"/>).</para>
+-->
+<para>Das Projekt zu öffnen bedeutet, den Quellcode so zu gestalten,
+dass er für völlig Fremde verständlich ist, Entwicklungsdokumentation
+zu schreiben und Diskussionsforen und andere Werkzeuge für die Zusammanarbeit
+aufzubauen (dies wird in <xref linkend="technical-infrastructure"/>
+detaillierter beschrieben).</para>
+
+<!--
+<para>All of this is work, and is pure overhead at first.  If any
+interested developers <emphasis>do</emphasis> show up, there is the
+added burden of answering their questions for a while before seeing
+any benefit from their presence.  As developer Jamie Zawinski said
+about the troubled early days of the Mozilla project:</para>
+-->
+<para>All das ist eine Menge Arbeit und zunächst reiner Zusatzaufwand.
+<emphasis>Falls</emphasis> interessierte Entwickler auftauchen, gibt es
+die zusätzliche Bürde, eine Zeit lang ihre Fragen beantworten zu müssen,
+bevor man aus ihrer Anwesenheit einen Nutzen zieht. Der Entwickler
+Jamie Zawinski hatte folgendes über die Anfangstage des Mozilla Projekts
+zu sagen:</para>
 
     <blockquote>
 <!--
@@ -188,102 +178,116 @@ folgendes über die Anfangstage des Mozilla Projekts zu sagen:</para>
 
 <!--
       <para>(from <emphasis role="bold"><ulink
-      url="http://www.jwz.org/gruntle/nomo.html"/></emphasis>)</para>
+      url="https://www.jwz.org/gruntle/nomo.html"
+      >https://www.jwz.org/gruntle/nomo.html</ulink></emphasis>)</para>
 -->
-      <para>(aus <emphasis role="bold"><ulink
-      url="http://www.jwz.org/gruntle/nomo.html"/></emphasis>)</para>
+
+      <para>(from <emphasis role="bold"><ulink
+      url="https://www.jwz.org/gruntle/nomo.html"
+      >https://www.jwz.org/gruntle/nomo.html</ulink></emphasis>)</para>
+
     </blockquote>
 
 <!--
 <para>A related mistake is that of skimping on presentation and
 packaging, figuring that these can always be done later, when the
 project is well under way.  Presentation and packaging comprise a wide
-range of tasks, all revolving around the theme of reducing the barrier
-to entry.  Making the project inviting to the uninitiated means
-writing user and developer documentation, setting up a project web
-site that's informative to newcomers, automating as much of the
-software's compilation and installation as possible, etc.  Many
-programmers unfortunately treat this work as being of secondary
-importance to the code itself.  There are a couple of reasons for
-this.  First, it can feel like busywork, because its benefits are most
-visible to those least familiar with the project, and vice versa.
-After all, the people who develop the code don't really need the
-packaging.  They already know how to install, administer, and use the
-software, because they wrote it.  Second, the skills required to do
-presentation and packaging well are often completely different from
-those required to write code.  People tend to focus on what they're
-good at, even if it might serve the project better to spend a little
-time on something that suits them less.  <xref
-linkend="getting-started"/> discusses presentation and packaging
-in detail, and explains why it's crucial that they be a priority from
-the very start of the project.</para>
+range of tasks, all revolving around the theme of clearing away
+distractions and cognitive barriers for newcomers&nbsp;&mdash;&nbsp;reducing the
+amount of work they need to do to get from wherever they are to "the
+next step" of engagement.  The web site has to look good, the
+software's compilation, packaging, and installation should be as
+automated as possible, etc.</para>
 -->
-<para>Ein verwandter Fehler ist an Aufmachung und Präsentation zu 
+<para>Ein ähnlicher Fehler ist es, an der Aufmachung und Präsentation zu 
 sparen, in der Annahme, dass diese Sachen auch später erledigt werden
 können, sobald das Projekt erst einmal läuft. Aufmachung und
 Präsentation umfasst eine weite Reihe von Aufgaben, die sich alle um das
-Thema drehen, die Einstiegshürden niedrig zu legen. Das Projekt für
-Außenstehende einladend zu machen bedeutet, Anleitungen für Nutzer und
-Entwickler zu schreiben, eine Webseite aufzubauen, die für 
-Neuankömmlinge informativ ist, möglichst viele der Kompilierungs-
-und Installationsvorgänge der Software zu automatisieren, usw. Viele
-Entwickler behandeln diese Aufgaben leider so als wären sie nur von
-zweitrangiger Bedeutung im Verhältnis zum eigentlichen Quellcode. Es 
-gibt hierfür ein paar Gründe. Erstens, kann es einem wie Fleißarbeit 
-vorkommen, denn die Vorteile sind zumeist nur für diejenigen sichtbar,
-die noch am wenigsten mit dem Projekt zu tun haben und umgekehrt. 
-Schließlich kann jemand, der bereits mit dem Projekt vertraut ist,
-auf diese ganze Aufmachung verzichten. Er weiß schon, wie man die
-Software installiert, administriert und benutzt, schließlich hat er sie
-ja entwickelt. Zweitens sind die Fähigkeiten, die Aufmachung
-und Präsentation vernünftig zu gestalten, andere als solche die man 
-benötigt um Quellcode zu schreiben. Menschen neigen dazu, sich auf das
-zu konzentrieren, was sie gut können, selbst wenn es für das Projekt 
-besser wäre, ein wenig Zeit in etwas zu investieren, was ihnen weniger
-liegt. <xref linkend="getting-started"/> behandelt Aufmachung und 
-Präsentation im Detail und erklärt, warum es entscheidend ist, dass 
-sie gleich von Anfang an Priorität haben sollten.</para>
+Thema drehen, die Einstiegshürden für Neuankömmlinge niedrig zu halten&nbsp;&mdash;&nbsp;das
+Arbeitspacket zu verkleinern, das sie erledigen müssen, um von dort wo sie sind die
+nächste Stufe der Verbindlichkeit zur erreichen. Die Webseite muss professionell
+aussehen, die Softwarecompilierung, Packetierung und Installation sollte
+soweit wie möglich autmatisiert erfolgen, usw.</para>
+
+<!--
+<para>Many programmers unfortunately treat this kind of work as being
+of secondary importance to the code itself.  There are a couple of
+reasons for this.  First, it can feel like busywork, because its
+benefits are most visible to those least familiar with the
+project&nbsp;&mdash;&nbsp;and vice versa: after all, the people who
+develop the code don't really need the packaging.  They already know
+how to install, administer, and use the software, because they wrote
+it.  Second, the skills required to do presentation and packaging well
+are often completely different from those required to write code.
+People tend to focus on what they're good at, even if it might serve
+the project better to spend a little time on something that suits them
+less.  <xref linkend="getting-started"/> discusses presentation and
+packaging in detail, and explains why it's crucial that they be a
+priority from the very start of the project.</para>
+-->
+<para>Viele Programmierer behandeln unglücklicherweise diese Art Arbeit
+als zweitrangig gegenüber dem eigentlichen Coding. Es gibt eine Reihe Gründe dafür.
+Erstens kann es sich wie viel Arbeit anfühlen, weil dessen Vorteile für diejenigen
+am sichtbarsten sind, die am wenigsten mit dem Projekt vertraut sind&nbsp;&mdash;&nbsp;
+und umgekehrt: Letztendlich brauchen diejenigen, welche den Code entwickeln, nicht
+wirklich die Packetierung. Sie wissen bereits, wie die Software zu installieren,
+zu administrieren und zu benutzen ist, weil sie diese geschrieben haben.
+Zweitens sind die erforderlichen Fähigkeiten für Präsentieren und gutes Packetieren
+oft komplett andere als die, Code zu schreiben. Menschen neigen dazu, sich auf das,
+worin sie gut sind, zu fokussieren, auch wenn es für das Projekt besser ist, etwas Zeit
+für etwas zu verbringen, das ihnen weniger gut gefällt.  <xref linkend="getting-started"/>
+bespricht Präsentation und Packetierung detailliert und erklärt, warum es wichtig ist,
+dass sie Priorität von Beginn an im Projekt haben.
+</para>
+
+
 
 <!--
 <para>Next comes the fallacy that little or no project management is
 required in open source, or conversely, that the same management
 practices used for in-house development will work equally well on an
-open source project.  Management in an open source project isn't
-always very visible, but in the successful projects, it's usually
-happening behind the scenes in some form or another.  A small thought
-experiment suffices to show why.  An open source project consists of a
-random collection of programmers&mdash;already a notoriously
-independent-minded category&mdash;who have most likely never met each
-other, and who may each have different personal goals in working on
-the project.  The thought experiment is simply to imagine what would
-happen to such a group <emphasis>without</emphasis> management.
-Barring miracles, it would collapse or drift apart very quickly.
-Things won't simply run themselves, much as we might wish otherwise.
-But the management, though it may be quite active, is often informal,
-subtle, and low-key.  The only thing keeping a development group
-together is their shared belief that they can do more in concert than
-individually.  Thus the goal of management is mostly to ensure that
-they continue to believe this, by setting standards for
-communications, by making sure useful developers don't get
-marginalized due to personal idiosyncracies, and in general by making
-the project a place developers want to keep coming back to.  Specific
-techniques for doing this are discussed throughout the rest of this
-book.</para>
+open source project.</para>
 -->
+
 <para>Der nächste Trugschluss ist, dass bei freier Software wenig bis
-gar kein Projektmanagement erforderlich ist bzw. umgekehrt, dass dieselben Management-Verfahren, die für die Entwicklung im Betrieb benutzt
-werden, sich genauso gut auf ein Open-Source-Projekt anwenden lassen.
-Die Verwaltung ist bei einem Open-Source-Projekt nicht immer besonders 
-offensichtlich, aber bei erfolgreichen Projekten gibt es sie in irgendeiner Form im Hintergrund. Ein kleines Gedankenexperiment reicht um die
+gar kein Projektmanagement erforderlich ist bzw. umgekehrt, dass dieselben
+Management-Verfahren, die für die Entwicklung im Betrieb benutzt
+werden, sich genauso gut auf ein Open-Source-Projekt anwenden lassen.</para>
+
+<!--
+<para>Management in an open source project isn't always very visible,
+but in the successful projects, it's usually happening behind the
+scenes in some form or another.  A small thought experiment suffices
+to show why. An open source project consists of a random collection
+of programmers&nbsp;&mdash;&nbsp;already a notoriously independent-minded
+species&nbsp;&mdash;&nbsp;who have most likely never met each other, and who may
+each have different personal goals in working on the project.  The
+thought experiment is simply to imagine what would happen to such a
+group <emphasis>without</emphasis> management. Barring miracles, it
+would collapse or drift apart very quickly. Things won't simply run
+themselves, much as we might wish otherwise. But the management,
+though it may be quite active, is often informal, subtle, and low-key.
+The only thing keeping a development group together is their shared
+belief that they can do more in concert than individually. Thus the
+goal of management is mostly to ensure that they continue to believe
+this, by setting standards for communications, by making sure useful
+developers don't get marginalized due to personal idiosyncracies, and
+in general by making the project a place developers want to keep
+coming back to.  Specific techniques for doing this are discussed
+throughout the rest of this book.</para>
+-->
+<para>Die Verwaltung ist bei einem Open-Source-Projekt nicht immer besonders 
+sichtbar, aber bei erfolgreichen Projekten gibt es sie in irgendeiner Form
+im Hintergrund. Ein kleines Gedankenexperiment reicht, um die
 Gründe dafür zu zeigen. Ein Open-Source-Projekt besteht aus einem 
-zufällig zusammengewürfeltem Haufen von Programmierern &ndash; bereits
-an und für sich notorisch eigensinnige Leute &ndash;, von denen
-untereinander wahrscheinlich keiner einem anderen je begegnet ist, und 
+zufällig zusammengewürfeltem Haufen von Programmierern&nbsp;&mdash;&nbsp;bereits
+an und für sich eine notorisch eigensinnige Gattung&nbsp;&mdash;&nbsp;, von denen
+untereinander wahrscheinlich keiner einem anderen je begegnet ist und 
 von denen jeder u.U. unterschiedliche eigene persönliche Ziele verfolgt.
 Das Gedankenexperiment ist einfach: Stellen Sie sich vor, was mit einer
 solchen Gruppe passieren würde, <emphasis>ohne</emphasis> eine 
 Verwaltung. Wenn kein Wunder geschieht, würden sie sehr schnell
-auseinander gehen. Auch wenn wir es uns anders wünschen, läuft das
+auseinanderbrechen. Auch wenn wir es uns anders wünschen, läuft das
 Ganze nicht einfach von alleine. Die Verwaltung ist aber, wenn auch
 ziemlich aktiv, meistens informell, subtil und unauffällig. Das Einzige,
 was die Entwickler zusammenhält, ist, dass sie zusammen mehr erreichen
@@ -297,12 +301,12 @@ soll gezeigt werden, wie man diese Ziele erreicht.</para>
 
 <!--
 <para>Finally, there is a general category of problems that may be
-called "failures of cultural navigation."  Ten years ago, even five,
+called "failures of cultural navigation."  Twenty years ago, even ten,
 it would have been premature to talk about a global culture of free
 software, but not anymore.  A recognizable culture has slowly emerged,
-and while it is certainly not monolithic&mdash;it is at least as prone
+and while it is certainly not monolithic&nbsp;&mdash;&nbsp;it is at least as prone
 to internal dissent and factionalism as any geographically bound
-culture&mdash;it does have a basically consistent core.  Most
+culture&nbsp;&mdash;&nbsp;it does have a basically consistent core.  Most
 successful open source projects exhibit some or all of the
 characteristics of this core.  They reward certain types of behaviors,
 and punish others; they create an atmosphere that encourages unplanned
@@ -316,19 +320,19 @@ unintentionally, and often do not have a consensus about what
 constitutes reasonable default behavior.  This means that when
 problems arise, the situation can quickly deteriorate, as the
 participants lack an already established stock of cultural reflexes to
-fall back on for resolving differences. </para>
+fall back on for resolving differences.</para>
 -->
 <para>Schließlich gibt es eine generelle Problematik, die man als
-"Versagen kultureller Navigation" bezeichnen könnte. Vor zehn, vielleicht
-auch nur fünf Jahren hätte es als voreilig gegolten, von einer globalen
+"Versagen kultureller Navigation" bezeichnen könnte. Vor zwanzig, vielleicht
+auch nur zehn Jahren hätte es als voreilig gegolten, von einer globalen
 Kultur der freien Software zu reden, heute jedoch nicht. Eine erkennbare
 Kultur ist langsam gewachsen, und obwohl sie sicherlich nicht
-monolitisch ist &ndash; sie ist mindestens so anfällig für interne 
+monolitisch ist&nbsp;&mdash;&nbsp;sie ist mindestens so anfällig für interne 
 Meinungsverschiedenheiten und Parteigeist wie irgend eine geographisch
-gebundene Kultur &ndash; hat sie doch einen im Grunde genommen 
+gebundene Kultur&nbsp;&mdash;&nbsp;hat sie doch einen im Grunde genommen 
 beständigen Kern. Die meisten erfolgreichen Open-Source-Projekte,
-zeigen alle, oder zumindest einen großen Teil der Merkmale von diesem
-Kern. Sie belohnen bestimmte Verhaltensmuster und bestrafen andere;
+zeigen alle, oder zumindest einen großen Teil der Merkmale dieses
+Kerns. Sie belohnen bestimmte Verhaltensmuster und bestrafen andere;
 sie schaffen eine Atmosphäre, die spontane Beteiligung fördert,
 manchmal auf Kosten zentraler Koordination; sie haben Konzepte von 
 Unhöflichkeit und gutem Benehmen, die von den anderswo vorherrschenden
@@ -338,9 +342,86 @@ sodass sie einen groben Konsens über das zu erwartenden Benehmen teilen.
 Nicht erfolgreiche Projekte weichen für gewöhnlich wesentlich von diesem
 Kern ab, wenn auch unabsichtlich, und haben oft keinen Konsens 
 darüber, welches Benehmen als angemessen einzustufen ist. Das hat zur 
-Folge, dass sobald Probleme auftreten, die Situation schnell 
+Folge, dass, sobald Probleme auftreten, die Situation schnell 
 eskalieren kann, da den Teilnehmern ein etablierter Grundbestand
 kultureller Reflexe fehlt, um Meinungsverschiedenheiten zu klären.</para>
+
+<!--
+<para>That last category, failures of cultural navigation, includes an
+interesting phenomenon: certain types of organizations are
+structurally less compatible with open source development than others.
+One of the great surprises for me in preparing the second edition of
+this book was realizing that, on the whole, experience indicates that
+governments are <emphasis>less</emphasis> suited to participating in
+free software projects than for-profit corporations are, with
+non-profits somewhere in between the two.  There are many reasons for
+this (see <xref linkend="governments-and-open-source"/>), and the
+problems are certainly surmountable, but it's worth noting that when
+an existing organization&nbsp;&mdash;&nbsp;particularly a hierarchical
+one, and <emphasis>particularly</emphasis> a hierarchical,
+risk-averse, and publicity-sensitive one&nbsp;&mdash;&nbsp;starts or
+joins an open source project, the organization will usually have to
+make some adjustments.</para>
+-->
+<para>Die letzte Kategorie, fehlende kulturelle Orientierung, schließt ein
+interessantes Phänomen ein: Bestimmte Organisationsformen sind strukturell
+weniger kompatibel mit Open-Souce Entwicklung als andere. Eine der größten
+Überaschungen für mich bei der Vorbereitung zu dieser zweiten Auflage war, zu erkennen,
+dass, alles in Gänze betrachtet, die Erfahrung zeigte, das öffentliche
+Verwaltungen <emphasis>weniger</emphasis> begeistert von der Beteiligung
+an freien Software Projekten sind als profitorientierte Kooperationen, wobei
+Non-Profits irgendwo zwischen diesen beiden liegen. Es gibt viele Ursachen
+dafür (sieh <xref linkend="governments-and-open-source"/>) und die Probleme
+sind bestimmt überwindbar aber es lohnt sich zu beachten, dass wenn eine
+existierende Organisation&nbsp;&mdash;&nbsp;zumal eine hierarchische und
+<emphasis>vor allem</emphasis>  eine hierarchische, risikoscheue und
+öffentlichkeits wirksame&nbsp;&mdash;&nbsp; einem Open-Source Projekt beitritt
+oder eins startet, diese Organisation normalerweise ein paar Anpassungen
+vornehmen werden muss.</para>
+
+<!--
+<para>The extra effort required to run open source instead of closed
+is not great, but the effort is most noticeable right at the
+beginning.  What's less noticeable at the beginning are the benefits,
+which are considerable and which become clearer as the project
+progresses.  There is the deep personal satisfaction it gives
+developers, of course: the pleasure of doing one's work in the open,
+able to appreciate and be appreciated by one's peers.  It is no
+accident that many open source developers continue to stay active on
+the same projects&nbsp;&mdash;&nbsp;as part of their job&nbsp;&mdash;&nbsp;even after changing
+employers.  But there are also significant organizational benefits:
+the open source projects your organization participates in are a
+membrane through which your managers and developers are regularly
+exposed to people and ideas outside your organizational hierarchy.
+It's like having the benefits of attending a conference, but while
+still getting daily work done and without incurring travel
+expenses.<footnote><para>Of course, it's still a good idea for them to
+attend real conferences once in a while too; see <xref
+linkend="meeting-in-person"/><phrase condition="treeware"> in <xref
+linkend="managing-participants"/></phrase>.</para></footnote> In a
+successful open source project, these benefits, once they start
+arriving, greatly outweigh the costs.</para>
+-->
+<para>Der Aufwand für den Betrieb von Open- im Gegensatz zu
+Closed-Source ist nicht groß, aber der Aufwand ist am ehesten gerade zu
+Beginn merklich. Weniger merklich zu Beginn sind die Vorteile, welche
+beachtlich sind und offensichtlicher werden, während das Projekt läuft.
+Da ist eine tiefe Zufriedenheit, welche es Entwicklern gewiss gibt:
+die Freude, seine Arbeit offen, schätzenwert und von seinen Kollegen
+geschätzt zu machen. Es ist kein Zufall, dass viele Open-Source Entwickler
+im selben Projekt aktiv bleiben - als Teil ihrer Arbeit - auch nach
+Wechsel des Arbeitgebers. Aber es gibt auch signifikante organisatorische
+Vorteile: Die Open-Source Projekte, an denen ihre Organistion teilnimmt,
+sind wie eine Haut, durch welche ihre Manager und Entwickler ständig gegenüber
+Menschen und Ideen exponiert sind, die außerhalb ihrer organisatorischen
+Hierarchie stehen. Es ist in etwa so, als hätte man die Vorteile einer Teilnahme
+an einer Konferenz während man weiterhin die tägliche Arbeit erledigt und ohne
+dass Reisekosten entstehen.<footnote><para>Sicher, es ist weiterhin eine gute Idee
+für sie, hin und wieder an echten Konferenzen teilzunehmen; sieh <xref
+linkend="meeting-in-person"/><phrase condition="treeware"> in <xref
+linkend="managing-participants"/></phrase>.</para></footnote> In einem 
+erfolgreichen Open-Source Projekt wiegen diese Vorteile, wenn sie zu Tage treten,
+die Kosten um ein vielfaches auf.</para>
 
 <!--
 <para>This book is a practical guide, not an anthropological study or
@@ -352,14 +433,14 @@ and dialect, yet still be able to participate comfortably and
 effectively everywhere.  In contrast, a person who does not understand
 the culture will find the process of organizing or participating in a
 project difficult and full of surprises.  Since the number of people
-developing free software is still growing by leaps and bounds, there
-are many people in that latter category&mdash;this is largely a
-culture of recent immigrants, and will continue to be so for some
-time.  If you think you might be one of them, the next section
-provides background for discussions you'll encounter later, both in
-this book and on the Internet.  (On the other hand, if you've been
-working with open source for a while, you may already know a lot of
-its history, so feel free to skip the next section.)</para>
+developing free software continues to grow, there are many people in
+that latter category&nbsp;&mdash;&nbsp;this is largely a culture of recent
+immigrants, and will continue to be so for some time.  If you think
+you might be one of them, the next section provides background for
+discussions you'll encounter later, both in this book and on the
+Internet.  (On the other hand, if you've been working with open source
+for a while, you may already know a lot of its history, so feel free
+to skip the next section.)</para>
 -->
 <para>Dieses Buch ist ein praktischer Führer, keine anthropologische
 Studie oder Historie. Grundkenntnisse über die Herkunft der Kultur der
@@ -400,7 +481,7 @@ machine themselves.  Customers sometimes distributed their patches
 back not only to the manufacturer, but to other owners of similar
 machines.  The manufacturers often tolerated and even encouraged this:
 in their eyes, improvements to the software, from whatever source,
-just made the machine more attractive to other potential
+just made the hardware more attractive to other potential
 customers.</para>
 -->
 <para>Software wurde schon immer an Andere weitergegeben und miteinander
@@ -414,7 +495,7 @@ selbst zu verändern und zu erweitern. Kunden gaben ihre Verbesserungen
 nicht nur an den Hersteller zurück, sondern teilten es manchmal auch mit
 den Besitzern ähnlicher Maschinen. Den Herstellern war das nur recht, sie
 ermutigten sogar dazu: Aus ihrer Sicht machte jede Verbesserung an der 
-Software, egal aus welcher Quelle, ihre Maschine attraktiver für andere
+Software, egal aus welcher Quelle, ihre Hardware attraktiver für andere
 potenzielle Kunden.</para>
 
 <!--
