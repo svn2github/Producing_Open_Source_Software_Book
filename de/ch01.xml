@@ -251,7 +251,7 @@ open source project.</para>
 
 <para>Der nächste Trugschluss ist, dass bei freier Software wenig bis
 gar kein Projektmanagement erforderlich ist bzw. umgekehrt, dass dieselben
-Management-Verfahren, die für die Entwicklung im Betrieb benutzt
+Management-Verfahren, die für die Entwicklung im Unternehmen benutzt
 werden, sich genauso gut auf ein Open-Source-Projekt anwenden lassen.</para>
 
 <!--
@@ -501,48 +501,50 @@ potenzielle Kunden.</para>
 <!--
 <para>Although this early period resembled today's free software
 culture in many ways, it differed in two crucial respects.  First,
-there was as yet little standardization of hardware&mdash;it was a
+there was as yet little standardization of hardware&nbsp;&mdash;&nbsp;it was a
 time of flourishing innovation in computer design, but the diversity
 of computing architectures meant that everything was incompatible with
-everything else.  Thus, software written for one machine would
-generally not work on another.  Programmers tended to acquire
+everything else.  Software written for one machine would
+generally not work on another; programmers tended to acquire
 expertise in a particular architecture or family of architectures
 (whereas today they would be more likely to acquire expertise in a
 programming language or family of languages, confident that their
 expertise will be transferable to whatever computing hardware they
 happen to find themselves working with).  Because a person's expertise
 tended to be specific to one kind of computer, their accumulation of
-expertise had the effect of making that computer more attractive to
-them and their colleagues.  It was therefore in the manufacturer's
-interests for machine-specific code and knowledge to spread as widely
-as possible.</para>
+expertise had the effect of making that particular architecture
+computer more attractive to them and their colleagues.  It was
+therefore in the manufacturer's interests for machine-specific code
+and knowledge to spread as widely as possible.</para>
 -->
+
+
 <para>Obwohl diese frühe Zeit in vielerlei Hinsicht der heutigen freien
 Software-Kultur ähnelte, gab es zwei wesentliche Unterschiede. Erstens
-gab es noch kaum standardisierte Hardware &ndash; es war eine Zeit 
-florierender Innovationen bei den Architekturen in Computern, aber diese
+gab es noch kaum standardisierte Hardware&nbsp;&mdash;&nbsp;es war eine Zeit 
+florierender Innovationen des Computerdesigns, aber diese
 Vielfalt bedeutete, dass alles inkompatibel zueinander war. Deshalb lief
-Software, die für eine Maschine geschrieben wurde, im Allgemeinen auf
-keiner anderen. Programmierer eigneten sich im Allgemeinen Fachkenntnisse
-zu einer bestimmten Architektur oder Familie von Architekturen an (im 
+Software, die für eine bestimmte Maschine geschrieben wurde, im Allgemeinen auf
+keiner anderen; Programmierer bevorzugten, sich Fachkenntnisse
+zu einer bestimmten Architektur oder Familie von Architekturen anzueignen (im 
 Gegensatz dazu würden sie heute eher Fachkenntnisse in einer 
 Programmiersprache oder Familie von Programmiersprachen sammeln, mit der
 Zuversicht, dass ihre Kenntnisse, auf welcher Hardware sie auch arbeiten 
 mögen, übertragbar wären). Weil die Erfahrungen einer Person dazu neigten
-sich auf einen Computer zu beschränken, hatte die Aneignung von Erfahrung
-die Folge, diesen Computer für sie und ihre Kollegen attraktiver zu 
-machen. Deshalb war es im Interesse des Herstellers, dass für seine Maschinen spezifisches Wissen und 
-Code sich so weit wie möglich 
-verbreitete.</para>
+sich auf eine bestimmte Computerarchitektur zu beschränken, hatte die Aneignung von Erfahrung
+die Folge, dass diese Computerarchitektur für diese und ihre Kollegen attraktiver war.
+Deshalb war es im Interesse des Herstellers, dass für seine Maschinen spezifisches Wissen und 
+Code sich so weit wie möglich verbreitete.</para>
+
 
 <!--
-<para>Second, there was no Internet.  Though there were fewer legal
-restrictions on sharing than today, there were more technical ones:
-the means of getting data from place to place were inconvenient and
-cumbersome, relatively speaking.  There were some small, local
-networks, good for sharing information among employees at the same
-research lab or company.  But there remained barriers to overcome if
-one wanted to share with everyone, no matter where they were.  These
+<para>Second, there was no widespread Internet.  Though there were
+fewer legal restrictions on sharing than there are today, the
+technical restrictions were greater: the means of getting data from
+place to place were inconvenient and cumbersome, relatively speaking.
+There were some small, local networks, good for sharing information
+among employees at the same lab or company.  But there remained
+barriers to overcome if one wanted to share with the world.  These
 barriers <emphasis>were</emphasis> overcome in many cases.  Sometimes
 different groups made contact with each other independently, sending
 disks or tapes through land mail, and sometimes the manufacturers
@@ -554,13 +556,13 @@ impedance to sharing, an impedance proportional to the distance (real
 or organizational) that the software had to travel.  Widespread,
 frictionless sharing, as we know it today, was not possible.</para>
 -->
-<para>Zweitens gab es kein Internet. Obwohl es weniger rechtliche
-Einschränkungen gab als heute, die den Austausch von Software
-verhinderten, gab es mehr technische: Es gab ein ein paar wenige, lokale
+<para>Zweitens gab es kein weit verbreitetes Internet. Obwohl es weniger rechtliche
+Einschränkungen für den Austausch von Software gab als heute, waren die
+technischen Beschränkungen gößer: Es gab ein ein paar wenige, lokale
 Netzwerke, die gut waren um Informationen unter Mitarbeitern der gleichen
 Forschungseinrichtung auszutauschen. Aber es blieben Barrieren die es zu
-überwinden galt, wenn man mit jedem teilen wollte, unabhängig von seinem
-Standort. Diese Barrieren <emphasis>wurden</emphasis> in vielen Fällen
+überwinden galt, wenn man mit der Welt teilen wollte. Diese Barrieren
+<emphasis>wurden</emphasis> in vielen Fällen
 überwunden. Manchmal stellten verschiedene Gruppen eigenständig Kontakt
 zueinander her. Sie sandten einander Disketten oder Magnetbänder mittels
 Post zu und manchmal fungierten die Hersteller selbst als zentrale 
@@ -583,7 +585,7 @@ erleben, war nicht möglich.</para>
 <!--
 <para>As the industry matured, several interrelated changes occurred
 simultaneously.  The wild diversity of hardware designs gradually gave
-way to a few clear winners&mdash;winners through superior technology,
+way to a few clear winners&nbsp;&mdash;&nbsp;winners through superior technology,
 superior marketing, or some combination of the two.  At the same time,
 and not entirely coincidentally, the development of so-called "high
 level" programming languages meant that one could write a program
@@ -603,7 +605,7 @@ strategy.</para>
 -->
 <para>Mit der Reifung der Industrie ergaben sich mehrere zusammenhängende
 Veränderungen. Der Wildwuchs bei den Hardware-Architekturen
-konsolidierte sich auf einige wenige Gewinner &ndash; Gewinner durch 
+konsolidierte sich auf einige wenige Gewinner&nbsp;&mdash;&nbsp;Gewinner durch 
 überlegene Technologie, überlegenes Marketing, oder eine Kombination
 beider. Gleichzeitig, und nicht ganz zufällig, hatte die Entwicklung
 sogenannter "höherer" Programmiersprachen zur Folge, dass man
@@ -628,7 +630,7 @@ share and modify code freely among themselves, they might
 independently reimplement some of the improvements now being sold as
 "added value" by the supplier.  Worse, shared code could get into the
 hands of competitors.  The irony is that all this was happening around
-the time the Internet was getting off the ground.  Just when truly
+the time the Internet was getting off the ground.  So just when truly
 unobstructed software sharing was finally becoming technically
 possible, changes in the computer business made it economically
 undesirable, at least from the point of view of any single company.
@@ -643,7 +645,7 @@ der Verbesserungen eigenständig neu implementieren, die der Hersteller
 als "Mehrwert" verkaufen wollte. Schlimmer noch, getauschter Quellcode
 könnte an die Konkurrenz gelangen. Ironisch dabei ist, dass all das
 zur selben Zeit geschah, als das Internet endlich anfing abzuheben.
-Gerade als der echte reibungslose Austausch von Software endlich 
+Gerade als dann somit der echte reibungslose Austausch von Software endlich 
 technisch machbar wurde, machten Veränderungen in der Computerindustrie
 es wirtschaftlich nicht wünschenswert, zumindest aus Sicht der einzelnen
 Unternehmen. Die Hersteller wurden restriktiver, entweder verwehrten sie
@@ -653,7 +655,7 @@ praktisch unmöglich machten.</para>
 
 <sect3 id="history-conscious-resistance">
 <!--
-<title>Conscious resistance</title>
+<title>Conscious Resistance</title>
 -->
 <title>Bewusster Widerstand</title>
 
@@ -666,7 +668,7 @@ during what turned out to be a golden age and a golden location for
 code sharing.  The AI Lab had a strong "hacker
 ethic",<footnote><para>Stallman uses the word "hacker" in the sense of
 "someone who loves to program and enjoys being clever about it," not
-the relatively new meaning of "someone who breaks into
+the somewhat newer meaning of "someone who breaks into
 computers."</para></footnote> and people were not only encouraged but
 expected to share whatever improvements they made to the system.  As
 Stallman wrote later:</para>
@@ -678,12 +680,12 @@ Stallman arbeitete im Labor für künstliche Intelligenz am Massachusetts
 Institute of Technology in 
 den 1970ern und frühen '80ern. Es sollte sich herausstellen, dass dies
 die goldene Zeit und der goldene Ort für den freien Austausch von 
-Quellcode war. Das KI-Labor hatte eine starke "Hacker-Ethik", 
+Quellcode war. Das KI-Labor hatte eine starke "Hacker-Ethik" 
 <footnote><para>Stallman benutzt das Wort "Hacker" im ursprünglichen
-Sinne von "Jemand der es liebt zu Programmieren und Spaß daran hat sich
-dabei geschickt anzustellen", nicht im Sinne der relativ neuen Bedeutung
+Sinne von "Jemand der es liebt zu Programmieren und Spaß daran hat, sich
+dabei geschickt anzustellen", nicht im Sinne der gewisserweise neueren Bedeutung
 von "Jemand der in Computer einbricht".</para></footnote> und Leute 
-wurden nicht nur dazu ermutigt sondern es wurde von ihnen erwartet, alle
+wurden nicht nur dazu ermutigt, sondern es wurde von ihnen erwartet, alle
 Verbesserungen am System mit Anderen zu teilen. Stallman schrieb 
 später:</para>
 
@@ -698,23 +700,24 @@ später:</para>
       it, or cannibalize parts of it to make a new program.
       </emphasis></para>
 -->
-      <para><emphasis>Wir nannten unsere Software nicht "freie Software"
+      <para><emphasis>Wir nannten unsere Software nicht "freie Software",
       weil es diesen Begriff noch nicht gab; aber genau das war es.
-      Immer als Leute von anderen Universitäten oder Firmen eine
-      Anwendung benutzen und portieren wollte, konnten sie das gerne
+      Immer wenn Leute von anderen Universitäten oder Firmen eine
+      Anwendung benutzen und portieren wollten, konnten sie das gerne
       machen. Wenn du jemand bei der Nutzung einer unbekannten und
       interessanten Anwendung gesehen hast, konntest du immer darum
-      bitten dir den Quellcode anzuschauen, um es zu lesen, zu
+      bitten, dir den Quellcode anzuschauen, um es zu lesen, zu
       verändern oder Teile davon für eine neue Anwendung 
       auszuschlachten.</emphasis></para>
 
 <!--
       <para>(from <emphasis role="bold"><ulink
-      url="http://www.gnu.org/gnu/thegnuproject.html"/></emphasis>)</para>
+      url="https://www.gnu.org/gnu/thegnuproject.html" >https://www.gnu.org/gnu/thegnuproject.html</ulink></emphasis>)</para>
 -->
-      <para>(von <emphasis role="bold">
-      <ulink url="http://www.gnu.org/gnu/thegnuproject.html"/>
-      </emphasis>)</para>
+      <para>(von <emphasis role="bold"><ulink
+	url="https://www.gnu.org/gnu/thegnuproject.html" >https://www.gnu.org/gnu/thegnuproject.html</ulink>
+ 	</emphasis>)
+      </para>
     </blockquote>
 
 
@@ -727,13 +730,13 @@ similar to what they had been working on at the Lab, only now under an
 exclusive license.  At the same time, the AI Lab acquired new
 equipment that came with a proprietary operating system.</para>
 -->
-<para>Die Edenische Gemeinschaft um Stallman herum, brach kurz nach 1980
+<para>Die paradiesische Gemeinschaft um Stallman herum brach kurz nach 1980
 zusammen, als die Veränderungen der Industrie letztendlich 
 das KI-Labor einholten. Eine Startup-Firma stellte viele Programmierer
-des Labors ein, um an einem Betriebssystem zu arbeiten, ähnlich zu dem
+des Labors ein, um an einem Betriebssystem zu arbeiten, ähnlich dem,
 welches sie im Labor programmiert hatten, diesmal aber unter einer 
-exklusiven Lizenz. Gleichzeitig, schaffte sich das KI-Labor neue 
-Ausrüstung an, welches mit einem proprietären Betriebssystem 
+exklusiven Lizenz. Gleichzeitig schaffte sich das KI-Labor neue 
+Ausrüstung an, welche mit einem proprietären Betriebssystem 
 ausgeliefert wurde.</para>
 
 <!--
@@ -779,8 +782,8 @@ job writing code at one of the new companies, where the results of his
 work would be kept locked in a box, he resigned from the Lab and
 started the GNU Project and the Free Software Foundation (FSF).  The
 goal of GNU<footnote><para>It stands for "GNU's Not Unix", and the
-"GNU" in that expansion stands for...the same
-thing.</para></footnote> was to develop a completely free and open
+"GNU" in that expansion stands for an infinitely long
+footnote.</para></footnote> was to develop a completely free and open
 computer operating system and body of application software, in which
 users would never be prevented from hacking or from sharing their
 modifications.  He was, in essence, setting out to recreate what had
@@ -788,20 +791,20 @@ been destroyed at the AI Lab, but on a world-wide scale and without
 the vulnerabilities that had made the AI Lab's culture susceptible to
 disintegration.</para>
 -->
-<para>Stallman entschied sich aus irgend eine persönliche Eigenart heraus
+<para>Stallman entschied sich aus irgend einer persönliche Eigenart heraus,
 Widerstand gegen diese Entwicklung zu leisten. Anstatt für das nunmehr
-dezimierte KI-Labor weiterzuarbeiten, oder eine Arbeit bei einer der
+dezimierte KI-Labor weiterzuarbeiten oder eine Arbeit bei einer der
 neuen Firmen anzunehmen, wo die Ergebnisse seiner Arbeit verschlossen in
 einer Kiste wären, kündigte er dem Labor und gründete das GNU
 Projekt und die Free Software Foundation (FSF). Das Ziel von GNU
 <footnote><para>Abkürzung für "GNU's Not Unix", und das "GNU" in dieser
-Erweiterung steht für... dasselbe.</para></footnote> war es ein
+Erweiterung steht für eine Fußnote unendlicher Länge.</para></footnote> war es, ein
 komplett freies und offenes Betriebssystem und eine Reihe von 
-Anwendungen zu entwickeln, die jedem Benutzer ermöglichen sollte an
+Anwendungen zu entwickeln, die jedem Benutzer ermöglichen sollte, an
 der Software zu hacken, sowie ihre Änderungen untereinander zu teilen.
-Im wesentlichen machte er sich auf den Weg wiederherzustellen, was im
+Im Wesentlichen machte er sich auf den Weg, wiederherzustellen, was im
 KI-Labor zerstört wurde, aber in einer weltumspannenden Größenordnung
-und ohne die Schwachstellen welche die Kultur des KI-Labors verwundbar
+und ohne die Schwachstellen, welche die Kultur des KI-Labors verwundbar
 gemacht hatten.</para>
 
 <!--
@@ -815,37 +818,49 @@ original, with no additional restrictions.  In effect, it uses
 copyright law to achieve an effect opposite to that of traditional
 copyright: instead of limiting the software's distribution, it
 prevents <emphasis>anyone</emphasis>, even the author, from limiting
-it.  For Stallman, this was better than simply putting his code into
-the public domain.  If it were in the public domain, any particular
-copy of it could be incorporated into a proprietary program (as has
-also been known to happen to code under permissive copyright
-licenses).  While such incorporation wouldn't in any way diminish the
-original code's continued availability, it would have meant that
-Stallman's efforts could benefit the enemy&mdash;proprietary software.
-The GPL can be thought of as a form of protectionism for free
-software, because it prevents non-free software from taking full
-advantage of GPLed code.  The GPL and its relationship to other free
-software licenses are discussed in detail in
-<xref linkend="legal"/>.</para>
+distribution.  For Stallman, this was better than simply putting his
+code into the public domain.  If it were in the public domain, any
+particular copy of it could be incorporated into a proprietary program
+(as also sometimes happens to code under permissive open source
+copyright licenses <footnote><para>See <xref
+linkend="licenses-terminology" /> for more about "permissive" licensing
+versus GPL-style "copyleft" licensing.  The opensource.org FAQ is also
+a good resource on this&nbsp;&mdash;&nbsp;see<ulink
+url="https://opensource.org/faq#copyleft"
+>https://opensource.org/faq#copyleft</ulink>.</para></footnote>).  While
+such incorporation wouldn't in
+any way diminish the original code's continued availability, it would
+have meant that Stallman's efforts could benefit the
+enemy&nbsp;&mdash;&nbsp;proprietary software.  The GPL can be thought of as a form
+of protectionism for free software, because it prevents non-free
+software from taking full advantage of GPLed code.  The GPL and its
+relationship to other free software licenses are discussed in detail
+in <xref linkend="legal"/>.</para>
 -->
-<para>Zusätzlich zur Arbeit am neuen Betriebssystem, entwarf er eine
+<para>Zusätzlich zur Arbeit am neuen Betriebssystem entwarf er eine
 urheberrechtliche Lizenz, deren Bedingungen garantierten, dass sein
 Code für immer frei bleiben würde. Die GNU General Public License (GPL)
 ist ein cleveres Stück juristisches Judo: Es besagt, dass Code ohne 
-Einschränkungen kopiert und verändert werden darf, und dass sowohl
+Einschränkungen kopiert und verändert werden darf und dass sowohl
 Kopien als auch abgeleitete Werke (das heißt veränderte Versionen)
 unter derselben Lizenz wie das Original, ohne weitere Einschränkungen,
 freigegeben werden müssen. Tatsächlich benutzt es das Urheberrecht um
-genau das Gegenteil zu erreichen wozu es üblicherweise benutzt wird: 
+genau das Gegenteil von dem zu erreichen, wofür es üblicherweise benutzt wird: 
 Anstatt die Verbreitung der Software einzuschränken, hindert es 
-<emphasis>jeden</emphasis>, sogar den Autor, an seiner Einschränkung.
+<emphasis>jeden</emphasis>, sogar den Autor, daran, ihre Verbreitung einzuschränken.
 Für Stallman war das besser als seinen Code einfach als öffentliches
 Gut freizugeben. Ohne eine Lizenz könnte jede beliebige Kopie in eine
-proprietäre Anwendung aufgenommen werden (ein bekanntes Phänomen bei
-Code welcher unter toleranten Lizenzen veröffentlicht wird). Obwohl
+proprietäre Anwendung aufgenommen werden (was manchmal auch bei
+Code, welcher unter toleranten Lizenzen veröffentlicht wird, passiert
+<footnote><para>sieh <xref
+linkend="licenses-terminology" /> zu weiterem über "tollerante" Lizenzierung
+versus GPL-artiger "copyleft" Lizenzierung.  Die opensource.org FAQ ist dafür
+ebenso eine gute Informationsquelle&nbsp;&mdash;&nbsp;sieh <ulink
+url="https://opensource.org/faq#copyleft"
+>https://opensource.org/faq#copyleft</ulink>.</para></footnote>). Obwohl
 solch eine Einbindung in keiner Weise die weitere Verfügbarkeit des
 Codes einschränken würde, könnten die Anstrengungen von Stallman 
-dadurch dem Feind &ndash; proprietäre Software &ndash; zum Vorteil
+dadurch dem Feind&nbsp;&ndash;&nbsp;proprietäre Software&nbsp;&mdash;&nbsp;zum Vorteil
 gereichen. Die GPL kann man als einen Schutz für freie Software
 betrachten, da es nicht-freie Software daran hindert, seinen GPL Code
 komplett auszunutzen. Die GPL und ihre Beziehung zu anderen freien
@@ -863,7 +878,7 @@ non-free systems, and many people did.  The GNU text editor (Emacs)
 and C compiler (GCC) were particularly successful, gaining large and
 loyal followings not on ideological grounds, but simply on their
 technical merits.  By about 1990, GNU had produced most of a free
-operating system, except for the kernel&mdash;the part that the
+operating system, except for the kernel&nbsp;&mdash;&nbsp;the part that the
 machine actually boots up, and that is responsible for managing memory,
 disk, and other system resources.</para>
 -->
@@ -877,7 +892,7 @@ GNU Software in ansonsten proprietären Systemen, was von vielen gemacht
 wurde. Der GNU Text-Editor (Emacs) und C Compiler (GCC) fanden großen 
 Anklang, nicht nur wegen der Ideologie, sondern einfach aufgrund ihrer
 technischen Vorzüge. Bis ca. 1990, hatte GNU den Großteil eines freien
-Betriebssystems fertiggestellt. Es fehlte noch ein Kernel &ndash; also
+Betriebssystems fertiggestellt. Es fehlte noch ein Kernel&nbsp;&mdash;&nbsp;also
 die Software die beim Hochfahren geladen wird und für die Verwaltung von
 Arbeitsspeicher, Festplatten und anderer Ressourcen des Systems zuständig
 ist.</para>
@@ -888,36 +903,37 @@ turned out to be harder to implement than expected.  The ensuing delay
 prevented the Free Software Foundation from making the first release
 of an entirely free operating system.  The final piece was put into
 place instead by Linus Torvalds, a Finnish computer science student
-who, with the help of volunteers around the world, had completed a
+who, with the help of developers around the world, had completed a
 free kernel using a more conservative design.  He named it Linux, and
-when it was combined with the existing GNU programs, the result was a
+when it was combined with the existing GNU programs and other free
+software (especially the X Windows System), the result was a
 completely free operating system.  For the first time, you could boot
 up your computer and do work without using any proprietary
 software.<footnote><para>Technically, Linux was not the first.  A free
 operating system for IBM-compatible computers, called 386BSD, had come
 out shortly before Linux.  However, it was a lot harder to get 386BSD
 up and running.  Linux made such a splash not only because it was
-free, but because it actually had a high chance of booting your
-computer when you installed it.</para></footnote></para>
+free, but because it actually had a high chance of successfully
+booting your computer after you installed it.</para></footnote></para>
 -->
 <para>Leider hatte das GNU Projekt eine Kernelstruktur gewählt, die
 schwieriger zu implementieren war, als sie es erwartet hatten. Die
 dadurch entstandene Verzögerung hinderte die Free Software Foundation
 daran, die erste Veröffentlichung eines komplett freien Betriebssystems
 zu machen. Das letzte Stück wurde statt dessen von Linus Torvalds, einem
-finnischen Informatik-Studenten hervorgebracht, der mit der Hilfe von 
-vielen Freiwilligen, verteilt auf der ganzen Welt, einen freien Kernel
+finnischen Informatik-Studenten, hervorgebracht, der mit der Hilfe von 
+vielen Entwicklern, verteilt auf der ganzen Welt, einen freien Kernel
 fertig gestellt hatte, der auf einem viel konservativeren Aufbau 
 basierte. Er nannte es Linux, und als es mit den bereits existierenden
-GNU Anwendungen kombiniert wurde, war das Ergebnis ein komplett freies
+GNU Anwendungen und anderen freien Anwendungen (speziell das X Windows System)
+kombiniert wurde, war das Ergebnis ein komplett freies
 Betriebssystem. Zum ersten Mal konnte man seinen Computer ohne 
 proprietäre Software hochfahren und damit arbeiten. <footnote><para>Rein 
 technisch gesehen war Linux nicht das erste freie Betriebssystem,
 sondern das kurz zuvor erschienene 386BSD für IBM-kompatible Rechner. 
 386BSD war jedoch viel schwieriger zum Laufen zu bringen. Linux sorgte für Aufregung, 
-nicht nur weil es frei war, sondern weil man
-es auf seinem Computer tatsächlich zum Laufen bringen 
-konnte.</para></footnote></para>
+nicht nur weil es frei war, sondern weil es mit hoher Wahrscheinlichkeit
+deinen Computer bootete, nachdem du es installiert hattest.</para></footnote></para>
 
 <!--
 <para>Much of the software on this new operating system was not
@@ -936,16 +952,16 @@ by means of the GPL and other texts.  As their code spread widely,
 that message spread as well.</para>
 -->
 <para>Viel Software dieses neuen Betriebssystems wurde nicht vom GNU
-Projekt produziert. In der Tat war GNU nicht einmal die einzige Gruppe
-die daran arbeitete ein freies Betriebssystem herzustellen (ein Beispiel
+Projekt produziert. In der Tat war GNU nicht einmal die einzige Gruppe,
+die daran arbeitete, ein freies Betriebssystem herzustellen (ein Beispiel
 ist der Code der letztendlich in NetBSD und FreeBSD aufging, an dem zu
 dieser Zeit bereits entwickelt wurde). Die Free Software Foundation war
-nicht nur aufgrund des Codes den sie produzierten von Bedeutung,
+nicht nur aufgrund des Codes, den sie produzierten, von Bedeutung,
 sondern auch wegen ihrer Rhetorik. Indem sie von freier Software eher 
-als Glaubenssache sprachen wofür es sich zu kämpfen lohnt, und nicht
+als Glaubenssache sprachen, für die es sich zu kämpfen lohnt, und nicht
 als eine Sache der Bequemlichkeit, machten sie es für Programmierer 
 schwierig <emphasis>nicht</emphasis> ein politisches Bewusstsein darüber
-zu haben. Selbst wenn man der FSF nicht zustimmte musste man sich mit
+zu haben. Selbst wenn man der FSF nicht zustimmte, musste man sich mit
 dem Thema befassen, wenn auch nur um eine andere Position einzunehmen. Die
 Wirksamkeit der FSF als Propagandisten bestand darin, ihren Code mittels
 der GPL und anderer Texte an eine Botschaft zu binden. Zusammen mit ihrem Code
