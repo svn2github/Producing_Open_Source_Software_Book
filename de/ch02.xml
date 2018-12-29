@@ -6,159 +6,32 @@
 <title>Der Einstieg</title>
 
 <simplesect>
-
 <!--
-<para>The classic model of how free software projects get started was
-supplied by Eric Raymond, in a now-famous paper on open source
-processes entitled <citetitle>The Cathedral and the
-Bazaar</citetitle>.  He wrote:</para>
+<para>Starting a free software project is a twofold task.  The
+software needs to acquire users, and to acquire developers.  These two
+needs are not necessarily in conflict, but the interaction between
+them adds some complexity to a project's initial presentation.  Some
+information is useful for both audiences, some is useful only for one
+or the other.  Both kinds of information should subscribe to the
+principle of scaled presentation: the degree of detail presented at
+each stage should correspond to the amount of time and effort put in
+by the reader at that stage.  More effort should always result in more
+reward.  When effort and reward do not correlate reliably, most people
+will lose faith and stop investing effort.</para>
 -->
-<para>Den klassischen Verlauf eines freien Software-Projektes 
-beschreibt Eric Raymond in seinem nunmehr berühmten Text über Open Source,
-<citetitle>The Cathedral and the Bazaar</citetitle>:</para>
-
-    <blockquote>
-<!--
-      <para><emphasis>Every good work of software starts by scratching
-      a developer's personal itch.</emphasis></para>
--->
-      <para><emphasis>Jede gute Software entsteht aus einem persönlichen
-        Bedürfnis eines Programmierers.</emphasis></para>
-
-<!--
-      <para>(from <emphasis role="bold"><ulink
-      url="http://www.catb.org/~esr/writings/cathedral-bazaar/"/>
-      </emphasis>)</para>
--->
-      <para>(von <emphasis role="bold">
-        <ulink url="http://www.catb.org/~esr/writings/cathedral-bazaar/"/>
-      </emphasis>)</para>
-    </blockquote>
-
-<!--
-<para>Note that Raymond wasn't saying that open source projects happen
-only when some individual gets an itch.  Rather, he was saying that
-<emphasis>good</emphasis> software results when the programmer has a
-personal interest in seeing the problem solved; the relevance of this
-to free software was that a personal itch happened to be the most
-frequent motivation for starting a free software project.</para>
--->
-<para>Raymond sagte wohlgemerkt nicht, dass Open-Source-Projekte nur aus
-dem persönlichen Bedürfnis eines Programmierers entstehen, sondern dass
-<emphasis>gute</emphasis> Software dann entsteht, wenn der Programmierer
-ein persönliches Interesse daran hat ein Problem zu lösen; was insofern
-für freie Software relevant ist, da sich herausstellte, dass die
-meisten Open-Source-Projekte von Programmierern begonnen wurden, die
-eines ihrer eigenen Probleme lösen wollten.</para>
-
-<!--
-<para>This is still how most free software projects are started, but less so
-now than in 1997, when Raymond wrote those words.  Today, we have the
-phenomenon of organizations&mdash;including for-profit
-corporations&mdash;starting large, centrally-managed open source
-projects from scratch.  The lone programmer, banging out some code to
-solve a local problem and then realizing the result has wider
-applicability, is still the source of much new free software, but is
-not the only story.</para>
--->
-<para>Die Motivation für die meisten freien Software-Projekte ist auch
-heute noch dieselbe, wenn auch in geringerem Maße als um 1997, zu der Zeit als
-Raymond diese Worte schrieb. Heute beobachten wir das Phänomen, dass 
-Organisationen &ndash; auch gewinnorientierte Unternehmen &ndash; große, zentral 
-organisierte Open-Source-Projekte anfangen. Der einsame Programmierer,
-der ein bisschen Code produziert um ein lokales Problem zu lösen und dann
-feststellt, dass das Ergebnis eine breitere Anwendbarkeit besitzt, ist 
-immer noch die Quelle für vieles an freier Software, jedoch nicht
-mehr die einzige.</para>
-
-<!--
-<para>Raymond's point is still insightful, however.  The essential
-condition is that the producers of the software have a direct interest
-in its success, because they use it themselves.  If the software
-doesn't do what it's supposed to do, the person or organization
-producing it will feel the dissatisfaction in their daily work.  For
-example, the OpenAdapter project (<ulink
-url="http://www.openadapter.org/"/>), which was started by investment
-bank Dresdner Kleinwort Wasserstein as an open source framework for
-integrating disparate financial information systems, can hardly be
-said to scratch any individual programmer's personal itch.  It
-scratches an institutional itch.  But that itch arises directly from
-the experiences of the institution and its partners, and therefore if
-the project fails to relieve them, they will know.  This arrangement
-produces good software because the feedback loop flows in the right
-direction.  The program isn't being written to be sold to someone else
-so they can solve <emphasis>their</emphasis> problem.  It's being
-written to solve one's <emphasis>own</emphasis> problem, and then
-shared with everyone, much as though the problem were a disease and
-the software were medicine whose distribution is meant to completely
-eradicate the epidemic.</para>
--->
-<para>Raymonds Sicht ist aber immer noch aufschlussreich.
-Diejenigen, die Software produzieren, müssen ein direktes Interesse an
-ihrem Erfolg haben, weil sie auch Benutzer sind. Wenn die Software nicht
-macht was es soll, wird die Person oder Organisation, die sie produziert,
-es bei der täglichen Arbeit merken. Ein gutes Beispiel ist das OpenAdapter
-Projekt (<ulink url="http://www.openadapter.org/"/>) der 
-Investmentbank Dresdner Kleinwort Wasserstein, das als Open-Source-Framework 
-zur Integration unterschiedlicher finanzieller Informationssysteme 
-begonnen wurde. Es kann wohl kaum als Bedürfnis eines eines einzelnen 
-Programmierers bezeichnet werden, sondern als institutionelles 
-Bedürfnis. Dieses Bedürfnis entsteht aber direkt aus den Erfahrungen
-der Institution und ihrer Partner. Wenn die Software ihre Aufgabe nicht
-erfüllt, wird es bemerkt. Aus diesem Arrangement entsteht gute
-Software, da Rückmeldungen an der richtigen Stelle ankommen. Die 
-Software muss nicht verkauft werden, also können sie sich auf
-<emphasis>ihre</emphasis> Probleme konzentrieren. Sie wird geschrieben
-um die <emphasis>eigenen</emphasis> Probleme zu lösen, um diese Lösung dann mit 
-allen zu teilen. Es ist so, als wäre das Problem eine Krankheit
-und die Software die entsprechende Medizin um eine Epidemie in den Griff
-zu bekommen.</para>
-
-<!--
-<para>This chapter is about how to introduce a new free software
-project to the world, but many of its recommendations would sound
-familiar to a health organization distributing medicine.  The goals
-are very similar: you want to make it clear what the medicine does,
-get it into the hands of the right people, and make sure that those
-who receive it know how to use it.  But with software, you also want
-to entice some of the recipients into joining the ongoing research
-effort to improve the medicine.</para>
--->
-<para>In diesem Kapitel geht es um die Frage, wie man der Welt ein neues 
-freies Software-Projekt vorstellt. Viele seiner Empfehlungen klingen sehr 
-nach einer Gesundheitsorganisation, die Medizin verteilen will. Die Ziele 
-sind sich sehr ähnlich: Man will klarstellen, was die Medizin macht, sie
-in die Hände der richtigen Leute bringen und sicherstellen, dass 
-diejenigen, die es erhalten, damit umzugehen wissen. Bei freier
-Software will man aber auch ein paar der Empfänger zu einer Beteiligung
-an der fortwährenden Forschungsarbeit zur Verbesserung der Medizin
-bewegen.</para>
-
-<!--
-<para>Free software distribution is a twofold task.  The software
-needs to acquire users, and to acquire developers.  These two needs
-are not necessarily in conflict, but they do add some complexity to a
-project's initial presentation.  Some information is useful for both
-audiences, some is useful only for one or the other.  Both kinds of
-information should subscribe to the principle of scaled presentation;
-that is, the degree of detail presented at each stage should
-correspond directly to the amount of time and effort put in by the
-reader.  More effort should always equal more reward.  When the two do
-not correlate tightly, people may quickly lose faith and stop
-investing effort.</para>
--->
-<para>Beim Vertrieb freier Software gibt es zwei Ziele. Die Software
-muss sowohl Nutzer als auch Entwickler anziehen. Diese beiden 
-Anforderungen stehen zueinander nicht zwangsläufig im Widerspruch, aber sie 
-machen die anfängliche Präsentation des Projekts etwas komplexer. 
-Manche Informationen sind für beide Gruppen nützlich, manche nur für 
-die eine oder die andere. Beide Arten der Information sollten das 
-Prinzip der skalierenden Präsentation verfolgen; d.h. dass die Menge an
-Informationen sich jederzeit mit der Zeit und Anstrengung decken sollte,
-die vom Leser aufgebracht wird. Eine größere Anstrengung sollte auch 
-immer eine größere Belohnung mit sich bringen. Wenn beides nicht eng
-miteinander korreliert, werden die Leser schnell die Hoffnung aufgeben
-und aufhören Zeit zu investieren.</para>
+<para>
+Das Starten eines freien Softwareprojekts ist eine zweifältige Aufgabe. Die
+Software muss Benutzer akquirieren und Entwickler akquirieren. Diese zwei
+Bedürfnisse stehen nicht notwendigerweise in Konflikt, aber die Interaktion zwischen
+diesen erhöht die Komplexität der ersten Präsentation eines Projekts. Ein paar
+Informationen sind für beide Zielgruppen nützlich, manche nur für die Eine
+oder die Andere. Beide Arten von Informationen sollten das Prinzip der
+skalierten Darstellung berücksichtigen: Der präsentierte Detaillierungsgrad
+jeder Stufe sollte der Zeit und dem Aufwand entsprechen, den der Leser zu diesem
+Zeitpunkt einzubringen bereit ist. Mehr Aufwand sollte immer mehr Belohnung bewirken.
+Wenn Anstrengung und Belohnung nicht zuverlässig korrelieren, werden die meisten Menschen
+das Vertrauen verlieren und aufhören, Mühe zu investieren.
+</para>
 
 <!--
 <para>The corollary to this is that <emphasis>appearances
@@ -166,30 +39,30 @@ matter</emphasis>.  Programmers, in particular, often don't like to
 believe this.  Their love of substance over form is almost a point of
 professional pride.  It's no accident that so many programmers exhibit
 an antipathy for marketing and public relations work, nor that
-professional graphic designers are often horrified at what programmers
-come up with on their own.</para>
+professional graphic designers are often horrified at the designs
+programmers come up with on their own.</para>
 -->
-<para>Daraus folgt: <emphasis>das Erscheinungsbild ist 
+<para>Daraus folgt: <emphasis>Das Erscheinungsbild ist 
 wichtig</emphasis>. Programmierern fällt es besonders schwer, das zu
-glauben. Ihre Liebe zum Inhalt gegenüber dem Äußeren gehört fast
+glauben. Ihre Liebe des Inhalt über der zur Form gehört fast
 schon zum Berufsethos. Es ist kein Zufall, dass so viele Programmierer
-gegen Marketing und Public Relations eine Antipathie hegen, oder dass
-professionelle Grafiker über so manches erschrocken sind, worauf 
+gegen Marketing und Public Relations eine Antipathie hegen oder dass
+professionelle Grafiker über so manches Design erschrocken sind, auf dass 
 Programmierer von sich aus kommen.</para>
 
 <!--
 <para>This is a pity, because there are situations where form
 <emphasis>is</emphasis> substance, and project presentation is one of
 them.  For example, the very first thing a visitor learns about a
-project is what its web site looks like.  This information is absorbed
-before any of the actual content on the site is
-comprehended&mdash;before any of the text has been read or links
+project is what its home page looks like.  This information is
+absorbed before any of the actual content on the site is
+comprehended&nbsp;&mdash;&nbsp;before any of the text has been read or links
 clicked on.  However unjust it may be, people cannot stop themselves
 from forming an immediate first impression.  The site's appearance
 signals whether care was taken in organizing the project's
 presentation.  Humans have extremely sensitive antennae for detecting
 the investment of care.  Most of us can tell in one glance whether a
-web site was thrown together quickly or was given serious thought.
+home page was thrown together quickly or was given serious thought.
 This is the first piece of information your project puts out, and the
 impression it creates will carry over to the rest of the project by
 association.</para>
@@ -198,15 +71,15 @@ association.</para>
 auch <emphasis>wirklich</emphasis> dem Inhalt entspricht. Die 
 Präsentation eines Projekts ist genau solch ein Fall. Die erste
 Information, die ein Besucher über ein Projekt erhält, ist die Gestaltung
-seiner Webseite. Diese Information wird erfasst, bevor irgendein
-tatsächlicher Inhalt der Seite verstanden wird &ndash; bevor ein 
+von dessen Webseite. Diese Information wird erfasst, bevor irgendein
+tatsächlicher Inhalt der Seite verstanden wird&nbsp;&mdash;&nbsp;bevor ein 
 Text gelesen wurde oder auf einen Link geklickt wurde. Egal wie
 ungerecht es sein mag, Menschen können sich nicht anders helfen, als sich
 sofort einen ersten Eindruck zu verschaffen. Im Erscheinungsbild der
 Seite wird deutlich, ob man sich beim Aufbau der Präsentation des
 Projekts Mühe gemacht hat. Menschen haben eine extrem sensible Antenne
 dafür, wieviel Mühe in etwas investiert wurde. Die meisten können mit
-einem Blick erkennen, ob eine Seite eilig zusammengebastelt wurde oder
+einem Blick erkennen, ob eine Webseite eilig zusammengebastelt wurde oder
 ob man sich ernsthafte Gedanken gemacht hat. Das ist die erste 
 Information, die Ihr Projekt nach außen gibt, und der hierdurch 
 vermittelte Eindruck überträgt sich auf das übrige Projekt.</para>
@@ -215,7 +88,7 @@ vermittelte Eindruck überträgt sich auf das übrige Projekt.</para>
 <para>Thus, while much of this chapter talks about the content your
 project should start out with, remember that its look and feel matter
 too.  Because the project web site has to work for two different types
-of visitors&mdash;users and developers&mdash;special attention
+of visitors&nbsp;&mdash;&nbsp;users and developers&nbsp;&mdash;&nbsp;special attention
 must be paid to clarity and directedness.  Although this is not the
 place for a general treatise on web design, one principle is important
 enough to deserve mention, particularly when the site serves multiple
@@ -236,8 +109,8 @@ what people need to hear.</para>
 -->
 <para>Auch wenn sich dieses Kapitel thematisch um inhaltliche Fragen dreht,
 sollten sie daran denken, dass das Erscheinungsbild eine Rolle spielt.
-Da die Webseite für zwei Arten von Besuchern &ndash; Benutzer und 
-Entwickler &ndash; geeignet sein muss, muss besonders auf Klarheit und
+Da die Webseite für zwei Arten von Besuchern&nbsp;&mdash;&nbsp;Benutzer und 
+Entwickler&nbsp;&mdash;&nbsp;geeignet sein muss, muss besonders auf Klarheit und
 Führung geachtet werden. Auch wenn hier nicht die richtige Stelle für
 eine allgemeine Abhandlung über Web-Design ist, gibt es ein
 erwähnenswertes Prinzip, insbesondere wenn die Seite mehrere 
@@ -253,11 +126,103 @@ grundsätzlicher Angebote an der richtigen Stelle gibt Benutzern und
 Entwicklern eine Sicherheit bei ihrer Entscheidung, ob sie sich 
 beteiligen wollen oder nicht. Es sagt ihnen, dass dieses Projekt seine
 Siebensachen beisammen hat, Fragen erahnt, die gestellt werden, und sich die
-Mühe gemacht hat diese so zu beantworten, dass Fragesteller möglichst wenig
+Mühe gemacht hat, diese so zu beantworten, dass Fragesteller möglichst wenig
 Einsatz aufbringen müssen. Indem das Projekt eine Aura des Vorbereitetseins
 ausstrahlt, sendet es die folgende Botschaft aus:
 "Du verschwendest deine Zeit nicht, wenn du dich beteiligst". 
 Das ist genau die Botschaft, die Menschen hören wollen.</para>
+
+<sidebar id="user-vs-developer">
+<!--
+<title>What We Mean by Users and Developers</title>
+-->
+<title>Was wir unter Nutzern und Entwicklern verstehen</title>
+<!--
+<para>The terms <firstterm>user</firstterm> and
+<firstterm>developer</firstterm> here refer to someone's relationship
+to the open source software project in question, not to her identity
+in the world at large.</para>
+-->
+<para>Die Begriffe <firstterm>Nutzer</firstterm> und
+<firstterm>Entwickler</firstterm> bezieht sich hier auf die Beziehung,
+die jemand mit einem betreffenden Software Projekt hat, nicht auf ihre Identität
+in der Welt in Gänze.</para>
+
+
+<!--
+<para>For example, if the open source project is a Javascript library
+intended for use in web development, and someone is using the library
+as part of her work building web sites, then she is a "user" of the
+library (even though professionally her title might be "software
+developer").  But if she starts contributing bugfixes and enhancements
+back <firstterm>upstream</firstterm> that is, back into the project
+ then, to the extent that she becomes involved in the project's
+maintenance, she is also a "developer" of the project.</para>
+-->
+<para>Wenn beispielsweise das Open-Source Projekt eine für die Benutzung
+in der Webentwicklung vorgesehene Javascript Bibiliothek ist und jemand
+benutzt die Bibleothek als Teil ihrer Arbeit zum Bau von Webseiten, dann ist
+sie eine "Nutzerin" dieser Bibleothek (obwohl ihr professioneller Titel
+"Software-Entwickler" sein mag). Aber wenn sie anfängt, Bugfixes und Verbesserungen
+wieder <firstterm>stromaufwärts</firstterm> beizutragen - das heißt wieder
+in das Projekt - dann, soweit sie in die Wartung des Projekts involviert ist,
+ist sie auch "Entwicklerin" des Projekts. </para>
+
+<!--
+<para>It's common for developers in an open source projects to be
+users as well, but it's not always the case.  Especially with large
+projects started by organizations to meet enterprise-scale software
+needs, the developers may not always be direct users of the software,
+although they are still usually part of the team that uses that
+software within their organization.</para>
+-->
+<para>Für Entwickler ist es üblich, in einem Open Source-Projekt auch Benutzer zu sein,
+aber es ist nicht immer der Fall. Besonders bei großen Projekten, die von
+Organisationen begonnen wurden, um unternehmensweite Softwareanforderungen
+zu erfüllen, müssen die Entwickler nicht immer direkte Benutzer der Software sein,
+obwohl sie normalerweise immer noch Teil des Teams sind, welches diese Software
+innerhalb ihrer Organisation verwendet.</para>
+
+<!--
+<para>In projects meant primarily for programmers, the boundary
+between user and developer is very porous: <emphasis>every</emphasis>
+user is a potential developer.  But even in projects meant for
+non-technical people, some percentage of the users are potential
+developers.  Open source projects should be run in such a way as to
+make that transition welcoming to anyone who's interested.</para>
+</sidebar>
+-->
+
+<para>Bei Projekten, die in erster Linie für Programmierer gedacht sind, ist die Grenze
+zwischen Benutzer und Entwickler sehr durchlässig: <emphasis> Jeder </emphasis>
+Benutzer ist ein potenzieller Entwickler. Aber auch in Projekten, die für
+Nicht-technische Personen gedacht sind, sind einige Prozent der Benutzer potenziell
+Entwickler. Open Source-Projekte sollten so ausgeführt werden, dass
+dieser Übergang für alle Interessierten einladent wird.</para>
+</sidebar>
+
+<!--
+<para>If you use a "canned hosting" site (see <xref
+linkend="canned-hosting"/><phrase condition="treeware"> in <xref
+linkend="technical-infrastructure"/></phrase>), one advantage of that
+choice is that those sites have a default layout that is similar from
+project to project and is pretty well-suited to presenting a project
+to the world.  That layout can be customized, within certain
+boundaries, but the default design prompts you to include the
+information visitors are most likely to be looking for.</para>
+-->
+<para>Wenn Sie ein "Hosting-Paket"<footnote><para>Anm. d. Übersetzers: Wir verwenden
+den Begriff "Hosting-Packet", weil der engl. Begriff "canned hosting" im deutschen
+Sprachraum nicht geläufig ist. Ein anderer, auch im deutschen Sprachraum geläufiger
+Begriff, ist "Shared Hosting". "Hosting-Paket" schien uns beim Übersetzen am 
+geeignetsten zu sein.</para></footnote> verwenden (sieh <xref
+linkend="canned-hosting"/><phrase condition="treeware"> in <xref
+linkend="technical-infrastructure"/></phrase>), ist ein Vorteil dieser Variante,
+dass deren Seiten ein Standardlayout haben, welches von Projekt zu Projekt ähnlich
+und sehr gut geeignet ist, um ein Projekt der Welt zu präsentieren. Dieses
+Layout kann auf bestimmte Weise angepasst werden, in gewissen Grenzen, aber das
+Standarddesign fordert Sie auf, die Informationen einzupflegen, welche Besucher
+am ehesten suchen.</para>
 
 
 <!-- ======================== subsection ============================== -->
@@ -285,41 +250,48 @@ educational experience, pre-existing code won't help; or maybe the
 project you have in mind is so specialized that you know there is zero
 chance anyone else has done it.  But generally, there's no point not
 looking, and the payoff can be huge.  If the usual Internet search
-engines don't turn up anything, try searching on
-<ulink url="http://freecode.com/"/> (an open source project news
-site, about which more will be said later), on
-<ulink url="http://www.sourceforge.net/"/>, and in the Free Software
-Foundation's directory of free software at
-<ulink url="http://directory.fsf.org/"/>.</para>
+engines don't turn up anything, try searching directly on <ulink
+url="https://github.com/" >https://github.com/</ulink>, <ulink
+url="https://freshcode.club/" >https://freshcode.club/</ulink>, <ulink
+url="https://openhub.net/" >https://openhub.net/</ulink>, and in the
+Free Software Foundation's directory of free software at <ulink
+url="https://directory.fsf.org/" >https://directory.fsf.org/</ulink>.</para>
 -->
-<para>Schauen Sie sich vorher um, ob nicht schon ein Projekt existiert
+<para>Schauen Sie sich vorher um, ob nicht schon ein Projekt existiert,
 das Ihre Anforderungen erfüllt. Die Wahrscheinlichkeit ist hoch, dass
 unabhängig von dem Problem, das Sie lösen wollen, Ihnen jemand zuvorgekommen 
 ist. Wenn das der Fall ist und der entsprechende Code unter eine freie
-Lizenz gestellt wurde, gibt es keinen Grund das Rad neu zu erfinden. Es
+Lizenz gestellt wurde, gibt es keinen Grund, das Rad neu zu erfinden. Es
 gibt natürlich Ausnahmen: Falls Sie ein Projekt um der Lernerfahrung 
 willen beginnen wollen, wird Ihnen bereits existierender Code nicht 
 weiterhelfen. Vielleicht wissen Sie bereits von vornherein, dass Ihr
 Problem so spezifisch ist, dass es mit Sicherheit noch von keinem
-gelöst wurde. Im Allgemeinen gibt es aber keinen Grund sich nicht 
-umzuschauen, und der Lohn kann beträchtlich sein. Sollten die üblichen 
-Suchmaschinen keine brauchbaren Ergebnisse liefern, sollte Sie es bei
-<ulink url="http://freshmeat.net/"/> (eine Nachrichtenseite über 
-Open-Source-Projekte (zu dieser Seite, später mehr), bei 
-<ulink url="http://www.sourceforge.net/"/> oder beim Verzeichnis 
-freier Software der Free Software Foundation 
-<ulink url="http://directory.fsf.org/"/> versuchen.</para>
+gelöst wurde. Im Allgemeinen gibt es aber keinen Grund, sich nicht 
+umzuschauen, und es kann sich beträchtlich lohnen. Sollten die üblichen 
+Suchmaschinen keine brauchbaren Ergebnisse liefern, sollte Sie es direkt bei
+<ulink
+url="https://github.com/" >https://github.com/</ulink>, <ulink
+url="https://freshcode.club/" >https://freshcode.club/</ulink>, <ulink
+url="https://openhub.net/" >https://openhub.net/</ulink> und beim Verzeichnis 
+freier Software der Free Software Foundation <ulink
+url="https://directory.fsf.org/" >https://directory.fsf.org/</ulink> versuchen.</para>
 
 <!--
 <para>Even if you don't find exactly what you were looking for, you
 might find something so close that it makes more sense to join that
-project and add functionality than to start from scratch
-yourself.</para>
+project and add functionality than to start from scratch yourself.
+See <xref linkend="evaluating-oss-projects"/><phrase
+condition="treeware"> in <xref linkend="money"/></phrase> for a
+discussion of how to evaluate an existing open source project
+quickly.</para>
 -->
 <para>Selbst wenn Sie nicht genau das finden, wonach Sie suchen,
 könnten Sie etwas derart ähnliches finden, dass es sinnvoller ist,
 sich an diesem Projekt zu beteiligen und es um die fehlenden Funktionen
-zu erweitern, als komplett von vorne anzufangen.</para>
+zu erweitern, als selbst komplett von Vorne anzufangen. Sieh
+<xref linkend="evaluating-oss-projects"/><phrase
+condition="treeware"> in <xref linkend="money"/></phrase> zu einer Diskussion,
+auf welche Weise ein existierendes Open-Source Projekt schnell zu evaluieren ist.</para>
 
 </sect2>
 
@@ -337,8 +309,8 @@ zu erweitern, als komplett von vorne anzufangen.</para>
 <para>You've looked around, found that nothing out there really fits
 your needs, and decided to start a new project.</para>
 -->
-<para>Sie haben sich umgeschaut, herausgefunden dass nichts Ihre 
-Anforderungen erfüllt und sich entschlossen, ein neues Projekt zu
+<para>Sie haben sich umgeschaut, herausgefunden, dass nichts Ihre 
+Anforderungen erfüllt, und sich entschlossen, ein neues Projekt zu
 starten.</para>
 
 <!--
@@ -352,9 +324,9 @@ transforming a private vision into a public one.  You or your
 organization may know perfectly well what you want, but expressing
 that goal comprehensibly to the world is a fair amount of work.  It is
 essential, however, that you take the time to do it.  You and the
-other founders must decide what the project is really about&mdash;that
+other founders must decide what the project is really about&nbsp;&mdash;&nbsp;that
 is, decide its limitations, what it <emphasis>won't</emphasis> do as
-well as what it will&mdash;and write up a mission statement.  This
+well as what it will&nbsp;&mdash;&nbsp;and write up a mission statement.  This
 part is usually not too hard, though it can sometimes reveal unspoken
 assumptions and even disagreements about the nature of the project,
 which is fine: better to resolve those now than later.  The next step
@@ -363,13 +335,13 @@ basically, pure drudgery.</para>
 -->
 <para>Das Schwierigste beim Start eines neuen freien Software-Projekts 
 ist die Verwandlung einer persönlichen Vision in eine öffentliche. Sie
-oder Ihre Organisation mögen sehr wohl wissen was Sie wollen. Dieses
+oder Ihre Organisation mögen sehr wohl wissen, was Sie wollen. Dieses
 Ziel so auszudrücken, dass die Welt es versteht, erfordert ein 
 beträchtliches Maß an Arbeit. Allerdings ist es von so grundsätzlicher
 Bedeutung, dass Sie sich die Zeit dazu nehmen sollten. Sie und die anderen
-Gründer müssen entscheiden, worum es in dem Projekt wirklich geht &ndash;
+Gründer müssen entscheiden, worum es in dem Projekt wirklich geht&nbsp;&mdash;&nbsp;
 so müssen Sie über seine Grenzen entscheiden, was es abdecken wird und was
-<emphasis>nicht</emphasis> &ndash; und ein Missionsziel 
+<emphasis>nicht</emphasis>&nbsp;&mdash;&nbsp;und ein Missionsziel 
 (engl. mission statement) verfassen. Dieser Teil ist für
 gewöhnlich nicht allzu schwer, auch wenn es manchmal unerwähnt 
 gebliebene Annahmen, sogar Meinungsverschiedenheiten über die Natur des
@@ -381,10 +353,10 @@ aufzubereiten, was im Grunde genommen eine Schinderei ist.</para>
 <!--
 <para>What makes it so laborious is that it consists mainly of
 organizing and documenting things everyone already
-knows&mdash;"everyone", that is, who's been involved in the project so
+knows&nbsp;&mdash;&nbsp;"everyone", that is, who's been involved in the project so 
 far.  Thus, for the people doing the work, there is no immediate
 benefit.  They do not need a <filename>README</filename> file giving
-an overview of the project, nor a design document or user manual.
+an overview of the project, nor a design document.
 They do not need a carefully arranged code tree conforming to the
 informal but widespread standards of software source distributions.
 Whatever way the source code is arranged is fine for them, because
@@ -394,11 +366,11 @@ fundamental architectural assumptions of the project remain
 undocumented; they're already familiar with that too.</para>
 -->
 <para>Diese Arbeit ist deshalb so mühselig, weil man hauptsächlich 
-Dinge organisiert und dokumentiert, die jeder bereits kennt &ndash; 
+Dinge organisiert und dokumentiert, die jeder bereits kennt&nbsp;&mdash;&nbsp; 
 d.h "jeder" der bislang am Projekt beteiligt ist. Für diejenigen, die
 die Arbeit machen, gibt es deshalb keinen direkten Nutzen. Sie
 brauchen weder die <filename>README</filename>-Datei für einen Überblick
-über das Projekt, noch Entwurfsdokumente oder Benutzerhandbücher.
+über das Projekt, noch ein Entwurfsdokument.
 Sie brauchen keine sorgsam aufbereitete Code-Struktur die mit den
 zwar informellen aber verbreiteten Normen zur Veröffentlichung
 von Quellen konform ist. Wie auch immer der Quellcode strukturiert ist,
@@ -409,7 +381,7 @@ Architektur des Projekts undokumentiert bleiben; auch mit ihnen sind
 sie ja bereits vertraut.</para>
 
 <!--
-<para>Newcomers, on the other hand, need these things.  Fortunately,
+<para>Newcomers, on the other hand, need all these things.  Fortunately,
 they don't need them all at once.  It's not necessary for you to
 provide every possible resource before taking a project public.  In a
 perfect world, perhaps, every new open source project would start out
@@ -418,7 +390,7 @@ special markings for features planned but not yet implemented),
 beautifully and portably packaged code, capable of running on any
 computing platform, and so on.  In reality, taking care of all these
 loose ends would be prohibitively time-consuming, and anyway, it's
-work that one can reasonably hope volunteers will help with once the
+work that one can reasonably hope others will help with once the
 project is under way.</para>
 -->
 <para>Neulinge andererseits brauchen all diese Dinge.
@@ -431,7 +403,7 @@ Hinweise auf Funktionen, die zwar geplant, aber noch nicht implementiert
 sind), wunderschönem und portabel gegliedertem Code, der auf jeder
 Plattform läuft, und so weiter. In Wirklichkeit wäre es unvertretbar zeitaufwendig,
 auf all diese Dinge zu achten; und überhaupt sind dies Arbeiten, bei
-denen man davon ausgehen kann, dass sich Freiwillige beteiligen
+denen man davon ausgehen kann, dass sich andere beteiligen,
 sobald das Projekt läuft.</para>
 
 <!--
@@ -496,7 +468,7 @@ Berührung kommen wird, ist der Name Ihres Projekts.</para>
 
 <!--
 <para>A good name will not automatically make your project successful,
-and a bad name will not doom it&mdash;well, a
+and a bad name will not doom it&nbsp;&mdash;&nbsp;well, a
 <emphasis>really</emphasis> bad name probably could do that, but we
 start from the assumption that no one here is actively trying to make
 their project fail.  However, a bad name can slow down adoption of the
@@ -504,7 +476,7 @@ project, either because people don't take it seriously, or because
 they simply have trouble remembering it.</para>
 -->
 <para>Ein guter Name wird Ihr Projekt nicht automatisch erfolgreich
-machen, und ein schlechter Name wird nicht seinen Untergang besiegeln &ndash;
+machen, und ein schlechter Name wird nicht seinen Untergang besiegeln&nbsp;&mdash;&nbsp;
 nun ja, ein <emphasis>wirklich</emphasis> schlechter Name könnte das 
 vielleicht tatsächlich, aber wir gehen davon aus, dass niemand versuchen 
 wird, sein Projekt aktiv zu sabotieren. Allerdings kann ein schlechter
@@ -527,15 +499,15 @@ nicht merken können.</para>
 -->
   <listitem><para>Gibt eine ungefähre Vorstellung davon, was das Projekt
             tut oder steht zumindest in einer so offensichtlichen 
-            Beziehung dazu, dass man weiß was das Projekt tut, wenn man 
+            Beziehung dazu, dass man weiß, was das Projekt tut, wenn man 
             den Namen kennt, und es deshalb später leicht hat, sich an 
             den Namen zu erinnern.</para>
   </listitem>
 <!--
   <listitem><para>Is easy to remember.  Here, there is no getting
             around the fact that English has become the default
-            language of the Internet: "easy to remember" means "easy
-            for someone who can read English to remember."  Names that
+            language of the Internet: "easy to remember" usually means
+            "easy for someone who can read English to remember."  Names that
             are puns dependent on native-speaker pronounciation, for
             example, will be opaque to the many non-native English
             readers out there.  If the pun is particularly compelling
@@ -546,12 +518,12 @@ nicht merken können.</para>
 -->
   <listitem><para>Ist einfach zu behalten. Man kommt hier nicht um die
             Tatsache herum, dass Englisch zur Standardsprache im 
-            Internet geworden ist: "einfach zu behalten" bedeutet in
-            diesem Fall "Einfach zu behalten für jemanden, der Englisch
+            Internet geworden ist: "einfach zu behalten" bedeutet normalerweise
+            "Einfach zu behalten für jemanden, der Englisch
             lesen kann". Wortspiele, die auf der einheimischen Aussprache 
             beruhen, werden vielen Menschen, deren Muttersprache nicht 
             Englisch ist, unverständlich bleiben. Ist das Wortspiel
-            besonders verlockend und einprägsam, kann es das wert
+            besonders verlockend und einprägsam, kann es das Wert
             sein; denken Sie aber daran, dass viele, die den Namen sehen,
             nicht dasselbe heraushören werden wie ein englischer 
             Muttersprachler.</para>
@@ -567,9 +539,9 @@ nicht merken können.</para>
             <para>The resources mentioned earlier in
             <xref linkend="look-around"/> are useful in
             discovering whether another project already has the name
-            you're thinking of.  Free trademark searches are
-            available at <ulink url="http://www.nameprotect.org/"/>
-            and <ulink url="http://www.uspto.gov/"/>.</para>
+            you're thinking of.  For the U.S., trademark searches are
+            available at <ulink url="http://www.uspto.gov/"
+            >http://www.uspto.gov/</ulink>.</para> 
   </listitem>
 -->
   <listitem><para>Gleicht nicht dem eines anderen Projekts und verletzt 
@@ -583,7 +555,7 @@ nicht merken können.</para>
             Quellen können Ihnen dabei helfen herauszufinden, ob ein
             anderes Projekt bereits den Namen trägt, den Sie im Sinn 
             haben. Die kostenlose Suche nach Markenzeichen ist über
-            <ulink url="http://www.nameprotect.org/"/> und
+            <ulink url="http://www.nameprotect.org/"/> und speziell für die USA über
             <ulink url="http://www.uspto.gov/"/> verfügbar.</para>
   </listitem>
 <!--
@@ -597,16 +569,25 @@ nicht merken können.</para>
             prevent third parties from creating identity confusion
             around the project's name.  Even if you intend to host the
             project at some other site (see
-            <xref linkend="starting-with-canned-hosting"/>), you
+            <xref linkend="hosting"/>), you
             can still register project-specific domains and forward
             them to the hosting site.  It helps users a lot to have a
-            simple URL to remember.</para>
-    </listitem>
+            simple URL to remember.<footnote><para>The importance of
+            top-level domain names seems to be declining.  A number of
+            projects now have just their name in the
+            <systemitem>.io</systemitem> TLD, for example, and don't
+            bother with <systemitem>.com</systemitem>,
+            <systemitem>.net</systemitem>, or
+            <systemitem>.org</systemitem>.  I can't predict what the
+            brand psychology of domain names will be in the future, so
+            just use your judgement, and if you can get the name in
+            all the important TLDs, do so.</para></footnote></para>
+  </listitem>
 -->
   <listitem><para>Ist idealerweise als Domain-Name verfügbar in den
-            Top-Level-Domeins
+            Top-Level-Domains
             <systemitem>.com</systemitem>,
-            <systemitem>.net</systemitem>, und
+            <systemitem>.net</systemitem> und
             <systemitem>.org</systemitem>.
             Sie sollten eine von ihnen auswählen, vielleicht 
             <systemitem>.org</systemitem>, um sie als offizielle Seite
@@ -615,15 +596,136 @@ nicht merken können.</para>
             Verwirrung bezüglich Ihres Projektnamens zu stiften.
             Selbst wenn Sie vorhaben, das Projekt auf einer anderen Seite
             zu betreiben (siehe 
-            <xref linkend="starting-with-canned-hosting"/>), können Sie
+            <xref linkend="hosting"/>), können Sie
             immer noch die Projekt-spezifische URL registrieren und 
             diese auf die Seiten des Betreibers weiterleiten. Es hilft 
             dem Nutzer ungemein, nur eine einfache URL im Kopf behalten
-            zu müssen.</para>
+            zu müssen.<footnote><para>Die Wichtigkeit von Top-Level Domainnamen
+			nimmt scheinbar ab. Zahlreiche Projekte haben gerade ihren Namen in der
+			<systemitem>.io</systemitem> TLD, beispielsweise, und scheren sich nicht
+			um <systemitem>.com</systemitem>,
+            <systemitem>.net</systemitem> oder
+            <systemitem>.org</systemitem>. Ich kann nicht vorhersagen, wie die Marken-Psychologie
+			von Domainnamen in Zukunft sein wird, daher nutzen Sie ihr Urteilsvermögen und wenn Sie
+			unter all den wichtigen TLDs den Namen bekommen können, tun Sie es.</para></footnote></para>
     </listitem>
+<!--	
+  <listitem><para>If possible, is available as a username on <ulink
+            url="https://twitter.com/" >https://twitter.com/</ulink> and other
+            microblog sites.  See <xref linkend="own-the-name"/> for
+            more on this and its relationship to the domain name.</para>
+  </listitem>
+-->
+     <listitem><para>Möglicherweise ist er als Nutzername auf <ulink
+            url="https://twitter.com/" >https://twitter.com/</ulink> und anderen
+            Mikroblogseiten verfügbar. Siehe <xref linkend="own-the-name"/> zu Details dazu
+	    und dessen Beziehung zu Domainnamen.</para>
+     </listitem>
+
 </itemizedlist>
 
 </para>
+
+<sect3 id="own-the-name">
+<!--
+<title>Own the Name in the Important Namespaces</title>
+-->
+
+<title>Besitze den Namen in wichtigen Namensräumen</title>
+<!--
+<para>For large projects, it is a good idea to own the project's name
+as many of the relevant namespaces on the Internet as you can.  By
+namespaces, I mean not just the domain name system, but also online
+services in which account names (usernames) are the publicly visible
+handle by which people refer to the project.  If you have the same
+name in all the places where people would look for you, you make it
+easier for people to sustain a mild interest in the project until
+they're ready to become more involved.</para>
+-->
+<para>Für große Projekte ist es eine gute Idee, den Projektnamen in 
+sovielen relevanten Namensräume des Internet zu besitzen wie möglich.
+Mit Namensräume meine ich nicht nur das Domain Name System, sondern auch online
+Dienste, bei denen Kontonamen (Benutzernamen) die öffentlich sichtbaren Anlaufstellen sind,
+durch welche Personen auf das Projekt verweisen. Wenn du den gleichen Namen
+überall dort hast, wo Menschen nach dir suchen würden, ist es für die Menschen leichter,
+ein laues Interesse am Projekt zu wahren, bis sie zu mehr Engagement bereit sind.</para>
+
+<!--
+<para>For example, the Gnome free desktop project has the <ulink
+url="https://gnome.org/" >https://gnome.org/</ulink> domain
+name<footnote><para>They didn't manage to get gnome.com or gnome.net,
+but that's okay&nbsp;&mdash;&nbsp;if you only have one, and it's .org,
+it's fine.  That's usually the first one people look for when they're
+seeking the open source project of that name.  If they couldn't get
+"gnome.org" itself, a typical solution would be to get
+"gnomeproject.org" instead, and many projects solve the problem that
+way.</para></footnote>, the <ulink url="https://twitter.com/gnome"
+>https://twitter.com/gnome</ulink> Twitter handle, the <ulink
+url="https://identi.ca/gnome" >https://identi.ca/gnome</ulink> username at
+Identi.ca<footnote><para><ulink url="https://identi.ca/"
+>https://identi.ca/</ulink> is an open source microblog / social
+networking that a number of free software developers use.</para></footnote>, the <ulink
+url="https://github.com/gnome" >https://github.com/gnome</ulink> username at
+GitHub.com<footnote><para>While the master copy of Gnome's source code
+is at <ulink url="https://git.gnome.org/" >https://git.gnome.org/</ulink>, they
+maintain a mirror at GitHub, since so many developers are already
+familiar with GitHub</para></footnote>, and on the freenode IRC
+network (see <xref linkend="irc"/>) they have the channel
+<code>#gnome</code>, although they also maintain their own IRC servers
+(where they control the channel namespace anyway, of course).</para>
+-->
+<para>Beispielsweise hat das freie Desktop-Projekt Gnome den <ulink
+url="https://gnome.org/" >https://gnome.org/</ulink> Domainnamen
+<footnote><para>Sie schafften es nicht, gnome.com oder gnome.net zu bekommen,
+aber das ist okay&nbsp;&mdash;&nbsp;wenn Du nur einen hast und es ist der .org,
+ist das ausgezeichnet. Das ist normalerweise der Erste, nach dem Leute suchen,
+wenn sie nach einem Open-Source Projekt diesen Namens Ausschau halten. Wenn
+Sie "gnome.org" selber nicht bekommen können, kann eine übliche Lösung darin
+bestehen, stattdessen "gnomeproject.org" zu nehmen und viele Projekte lösen das
+Problem auf diese Weise.</para></footnote>, die <ulink url="https://twitter.com/gnome"
+>https://twitter.com/gnome</ulink> Twitter Anlaufstelle, den <ulink
+url="https://identi.ca/gnome" >https://identi.ca/gnome</ulink> Nutzernamen bei
+Identi.ca<footnote><para><ulink url="https://identi.ca/"
+>https://identi.ca/</ulink> ist eine Open-Source Mikrobolog / Sozial Networking
+Platform, die zahlreiche freie Software Entwickler nutzen.</para></footnote>,
+den <ulink url="https://github.com/gnome" >https://github.com/gnome</ulink> Nutzernamen
+bei GitHub.com<footnote><para>Während die Hauptkopie des Gnome Sourcecodes bei <ulink
+url="https://git.gnome.org/" >https://git.gnome.org/</ulink> liegt, pflegen sie eine
+gespiegelte Kopie bei GitHub, seit so viele Entwickler sich bereits mit GitHub
+auskennen</para></footnote> und beim Freenote IRC Netzwerk (siehe <xref linkend="irc"/>)
+haben sie den Kanal <code>#gnome</code>, obwohl sie auch ihren eigenen IRC Server
+warten (wo sie den Kanal Namensraum sowieso kontrollieren).</para>
+
+<!--
+<para>All this makes the Gnome project splendidly easy to find: it's
+usually right where a potential contributor would expect it to be.  Of
+course, Gnome is a large and complex project with thousands of
+contributors and many subdivisions; the advantage to Gnome of being
+easy to find is greater than it would be for a newer project, since by
+now there are so many ways to get involved in Gnome.  But it will
+certainly never <emphasis>harm</emphasis> your project to own its name
+in as many of the relevant namespaces as it can, and it can sometimes
+help.  So when you start a project, think about what its online handle
+should be and register that handle with the online services you think
+you're likely to care about.  The ones mentioned above are probably a
+good initial list, but you may know others that are relevant for the
+particular subject area of your project.</para>
+-->
+
+<para>All dies macht das Gnome Projekt blendent einfach auffindbar: Es ist im
+Allgemeinen genau da, wo ein potentieller Unterstützer erwarten würde es
+anzutreffen. Sicher, Gnome ist ein großes und komplexes Projekt mit tausenden
+Unterstützern und vielen Unterteilungen; Der Nutzen für Gnome, einfach
+Auffindbarkeit zu sein, ist größer als er bei einem neueren Projekt wäre, bis
+jetzt gibt es so viele Wege, an Gnome teilzunehmen. Aber es wird sicher niemals
+ihrem Projekt <emphasis>schaden</emphasis>, seinen Namen in soviel wie möglich
+relevanten Namensräumen zu besitzen und das kann manchmal hilfreich sein.
+Wenn sie also ein Projekt starten, denken sie darüber nach, was der Online
+Anlaufpunkt sein sollte, und registrieren sie diesen bei den Online-Diensten
+um die sie sich sorgen. Die weiter oben Erwähnten sind möglicherweise eine
+gute Anfangsliste, aber sie mögen andere kennen, die für den konkreten Bereich
+ihres Projektes relevant sind.</para>
+</sect3>
 
 </sect2>
 
