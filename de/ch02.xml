@@ -737,106 +737,99 @@ ihres Projektes relevant sind.</para>
 <title>Formulieren Sie ein klares Missionsziel</title>
 
 <!--
-<para>Once they've found the project's web site, the next thing people
-will look for is a quick description, a mission statement, so they can
+<para>Once they've found the project's home site, the next thing people
+will look for is a quick description or mission statement, so they can
 decide (within 30 seconds) whether or not they're interested in
 learning more.  This should be prominently placed on the front page,
 preferably right under the project's name.</para>
 -->
 <para>Sobald Besucher ihre Projektseite gefunden haben, werden sie nach
-einer kurzen Beschreibung, dem Ziel des Projekts suchen, um (innerhalb
+einer kurzen Beschreibung oder dem Leitbild suchen, um (innerhalb
 von 30 Sekunden) entscheiden zu können, ob sie interessiert daran sind,
 mehr zu erfahren. Das Ziel sollte auf der Frontseite einen auffälligen
 Platz einnehmen, vorzugsweise gleich unter dem Projektnamen.</para>
 
 <!--
-<para>The mission statement should be concrete, limiting, and above
-all, short.  Here's an example of a good one, from <ulink
-url="http://www.openoffice.org/"/>:</para>
+<para>The description should be concrete, limiting, and above all,
+short.  Here's an example of a good one, from <ulink
+url="https://hadoop.apache.org/" >https://hadoop.apache.org/</ulink>:</para>
 -->
-<para>Die Formulierung des Missionsziels sollte anschaulich, klar
-umrissen und vor allem kurz sein. Hier ist ein gutes Beispiel von
-<ulink url="http://www.openoffice.org/"/>:</para>
+<para>Die Beschreibung sollte konkret, klar umrissen und vor allem kurz sein.
+Hier ist ein gutes Beispiel von <ulink
+url="https://hadoop.apache.org/" >https://hadoop.apache.org/</ulink>:</para>
 
-  <blockquote>
 <!--
-  <para><emphasis>To create, as a community, the leading international
-  office suite that will run on all major platforms and provide access
-  to all functionality and data through open-component based APIs and
-  an XML-based file format.</emphasis></para>
+  <blockquote>
+  <para><emphasis>The Apache™ Hadoop® project develops open-source
+  software for reliable, scalable, distributed computing.</emphasis></para>
+
+  <para><emphasis>The Apache Hadoop software library is a framework
+  that allows for the distributed processing of large data sets across
+  clusters of computers using simple programming models. It is
+  designed to scale up from single servers to thousands of machines,
+  each offering local computation and storage. Rather than rely on
+  hardware to deliver high-availability, the library itself is
+  designed to detect and handle failures at the application layer, so
+  delivering a highly-available service on top of a cluster of
+  computers, each of which may be prone to failures.</emphasis></para>
+  </blockquote>
 -->
-  <para><emphasis>Gemeinschaftlich die führende internationale 
-  Office-Lösung erschaffen, die auf allen wichtigen Plattformen läuft und 
-  den Zugriff auf alle Funktionen und Daten durch offene Schnittstellen
-  und ein XML-basiertes Dateiformat erlaubt.</emphasis></para>
+  <blockquote>
+  <para><emphasis>Das Apache™ Hadoop® Projekt entwickelt Open-Source Software für
+  zuverlässiges, skalierbares, verteiltes Rechnen.</emphasis></para>
+
+  <para><emphasis>Die Apache Hadoop Software Bibliothek ist ein Rahmenwerk,
+  dass es erlaubt, für verteilte Abarbeitung von großen Datensätzen über
+  Computer-Cluster hinweg, ein einfaches Programmiermodell zu nutzen. Es wurde
+  designed, um von einem einzelnen Server bis hin zu tausenden Maschienen zu
+  skalieren, von denen jede lokale Rechen- und Speicherkapazität anbietet.
+  Es verlässt sich weniger auf Hardware, um Höchverfügbarkeit zu liefern, sondern
+  die Bibleothek selbst wurde designed, um Fehler im Applikationslayer zu
+  ermitteln und zu behandeln, so dass Hochverfügbarkeit auf Ebene eines
+  Cluster aus Computern geliefert wird, von denen jeder fehleranfällig
+  sein kann.</emphasis></para>
   </blockquote>
 
-<!--
-<para>In just a few words, they've hit all the high points, largely by
-drawing on the reader's prior knowledge.  By saying "<emphasis>as a
-community</emphasis>", they signal that no one corporation will
-dominate development; "<emphasis>international</emphasis>" means that
-the software will allow people to work in multiple languages and
-locales; "<emphasis>all major platforms</emphasis>" means it will be
-portable to Unix, Macintosh, and Windows.  The rest signals that open
-interfaces and easily understandable file formats are an important
-part of the goal.  They don't come right out and say that they're
-trying to be a free alternative to Microsoft Office, but most people
-can probably read between the lines.  Although this mission statement
-looks broad at first glance, in fact it is quite circumscribed: the
-words "<emphasis>office suite</emphasis>" mean something very concrete
-to those familiar with such software.  Again, the reader's presumed
-prior knowledge (in this case probably from MS Office) is used to keep
-the mission statement concise.</para>
--->
-<para>In nur wenigen Worten haben sie alle wichtigen Punkte erfasst,
-hauptsächlich indem sie sich auf das Vorwissen der Leser stützen.
-Mit "<emphasis>gemeinschaftlich</emphasis>", 
-signalisieren sie, dass keine einzelne Firma die Entwicklung dominieren
-wird; "<emphasis>international</emphasis>" bedeutet, dass die Software
-es Menschen erlauben wird, in mehreren Sprachen zu arbeiten; 
-"<emphasis>alle wichtigen Plattformen</emphasis>" heißt für Unix, 
-Macintosh und Windows. Das Übrige signalisiert, dass offene 
-Schnittstellen und leicht verständliche Dateiformate ein wichtiger Teil
-ihres Ziels sind. Sie sagen nicht offen, dass sie eine freie Alternative
-zu Microsoft Office sein wollen, aber die meisten Menschen können zwischen 
-den Zeilen lesen. Auch wenn dieser Satz auf den ersten Blick weitgreifend
-erscheint, ist es tatsächlich recht begrenzt: Der Begriff
-"<emphasis>Office-Lösung</emphasis>" bedeutet etwas ganz bestimmtes für 
-diejenigen, die mit solcher Software vertraut sind. Die mutmaßlichen
-Vorkenntnisse der Leser (in diesem Fall wahrscheinlich mit MS Office) 
-werden ausgenutzt, um das Missionsziel kompakt zu halten.</para>
 
 <!--
-<para>The nature of a mission statement depends partly on who is
-writing it, not just on the software it describes.  For example, it
-makes sense for OpenOffice.org to use the words "<emphasis>as a
-community</emphasis>", because the project was started, and is still
-largely sponsored, by Sun Microsystems.  By including those words, Sun
-indicates its sensitivity to worries that it might try to dominate the
-development process.  With this sort of thing, merely demonstrating
-awareness of the <emphasis>potential</emphasis> for a problem goes a
-long way toward avoiding the problem entirely.  On the other hand,
-projects that aren't sponsored by a single corporation probably don't
-need such language; after all, development by community is the norm,
-so there would ordinarily be no reason to list it as part of the
-mission.</para>
+<para>In just four sentences, they've hit all the high points, largely
+by drawing on the reader's prior knowledge.  That's an important
+point: it's okay to assume a minimally informed reader with a baseline
+level of preparedness.  A reader who doesn't know what "clusters" and
+"high-availability" mean in this context probably can't make much use
+of Hadoop anyway, so there's no point writing for a reader who knows
+any less than that.  The phrase "designed to detect and handle
+failures at the application layer" will stand out to engineers who
+have experience with large-scale computing clusters&nbsp;&mdash;&nbsp;when they
+see those words, they'll know that the people behind Hadoop understand
+that world, and the first-time visitor will thus be likely to give
+Hadoop further consideration.</para>
 -->
-<para>Die Gestaltung des Missionsziels hängt teilweise davon ab, wer es 
-schreibt und nicht von der Software die es beschreibt. So ist es für
-Open Office beispielsweise sinnstiftend, das Wort
-"<emphasis>gemeinschaftlich</emphasis>" zu verwenden, denn das Projekt
-wurde gestartet und noch immer großteils gesponsort von Sun Microsystems.
-Mit dieser Wortwahl zeigt man sich sensibel gegenüber Befürchtungen, die
-Entwicklung könne einmal seitens Sun dominiert werden. In einer solchen 
-Angelegenheit kann schon allein der Hinweis auf die 
-<emphasis>Möglichkeit</emphasis> eines Problems einen wesentlichen 
-Schritt für seine Ausräumung darstellen. 
+<para>In nur vier Sätzen haben sie alle Highlights getroffen, weitestgehend
+durch das Vorwissen des Lesers. Das ist ein wichtiger Punkt: Es ist okay,
+von einem in Mindestmaß informierten Leser auszugehen, der grundsätzlich
+vorbereitet ist. Ein Leser, der nicht weiß, was "Cluster" und "Hochverfügbarkeit"
+in diesem Zusammenhang bedeutet, kann vermutlich nicht viel Nutzen aus
+Hadoop überhaupt ziehen, so dass es keine Veranlassung gibt, für einen Leser zu
+schreiben, der weniger als dieses weiß. Die Phrase "designed, um Fehler im
+Applikationslayer zu ermitteln und zu behandeln" hat Ingenieure im Auge,
+die Übung mit großformatigen Rechenclustern haben&nbsp;&mdash;&nbsp;wenn diese
+solche Worte sehen, werden sie wissen, dass die hinter Hadoop stehenden Leute
+diese Welt verstehen und der erstmalige Besucher wird Hadoop gerne weiterhin in
+Erwägung ziehen.</para>
 
-Andererseits können Projekte, die nicht durch eine einzige Firma 
-unterstützt werden, auf solche Formulierungen verzichten; schließlich 
-ist die Entwicklung durch eine Gemeinschaft das Übliche, es gibt also 
-normalerweise keinen Grund, dies im Missionsziel aufzuführen.</para>
+
+<!--
+<para>Those who remain interested after reading the mission statement
+will next want to see more details, perhaps some user or developer
+documentation, and eventually will want to download something.  But
+before any of that, they'll need to be sure it's open source.</para>
+-->
+<para>Wer die Missionziele gelesen hat und weiterhin interessiert ist, wird
+nun weitere Einzelheiten erfahren wollen, vielleicht durch die
+Benutzer- oder Entwicklerdokumentation, schließlich wird er
+etwas herunterladen wollen. Doch vor alledem will er sicher sein,
+dass es sich um Open Source handelt.</para>
 
 </sect2>
 
@@ -847,17 +840,6 @@ normalerweise keinen Grund, dies im Missionsziel aufzuführen.</para>
 -->
 <title>Sagen Sie, dass das Projekt frei ist</title>
 
-<!--
-<para>Those who remain interested after reading the mission statement
-will next want to see more details, perhaps some user or developer
-documentation, and eventually will want to download something.  But
-before any of that, they'll need to be sure it's open source.</para>
--->
-<para>Wer die Missionziele gelesen hat und noch interessiert ist, wird
-nun weitere Einzelheiten erfahren wollen, vielleicht durch die
-Benutzer- oder Entwicklerdokumentation, schließlich wird er
-etwas herunterladen wollen. Doch vor alledem will er sicher sein,
-dass es sich um Open Source handelt.</para>
 
 <!--
 <para><emphasis>The front page must make it unambiguously clear that
@@ -869,51 +851,53 @@ but did not even state outright that the software was free at all.
 Sometimes the crucial bit of information was relegated to the
 Downloads page, or the Developers page, or some other place that
 required one more mouse click to get to.  In extreme cases, the
-license was not given anywhere on the web site at all&mdash;the only
-way to find it was to download the software and look inside.</para>
+license was not given anywhere on the web site at all&nbsp;&mdash;&nbsp;the only
+way to find it was to download the software and look at a license file
+inside.</para>
 -->
 <para><emphasis>Die Hauptseite muss unmissverständlich klar machen,
 dass das Projekt Open Source ist.</emphasis> Das mag offensichtlich
 klingen, Sie wären aber überrascht darüber, wie viele Projekte es 
 vergessen. Ich habe schon Projekte gesehen, deren Hauptseite nicht nur 
-versäumte zu sagen, unter welcher Lizenz ihre Software veröffentlicht
+nicht sagte, unter welcher Lizenz ihre Software veröffentlicht
 wurde, sondern nicht einmal erwähnte, dass es sich um freie Software 
 handelt. Manchmal erschien die entscheidende Information erst auf der 
-Download-Seite, der Entwickler-Seite oder irgend einer andere Stelle die
+Download-Seite, der Entwickler-Seite oder irgend einer andere Stelle, die
 einen Klick mehr erforderte. Im Extremfall wurde die Lizenz überhaupt
-nicht auf der Site angegeben &ndash; die einzige Möglichkeit sie 
-herauszufinden war, die Software herunterzuladen und hineinzuschauen.</para>
+nicht auf der Site angegeben&nbsp;&mdash;&nbsp;die einzige Möglichkeit sie 
+herauszufinden war, die Software herunterzuladen und darin nach einer
+Lizenzdatei zu schauen.</para>
 
 <!--
-<para>Don't make this mistake.  Such an omission can lose many
+<para>Please don't make this mistake.  Such an omission can lose many
 potential developers and users.  State up front, right below the
 mission statement, that the project is "free software" or "open source
 software", and give the exact license.  A quick guide to choosing a
 license is given in
-<xref linkend="license-quickstart"/><phrase output="printed">
+<xref linkend="license-quickstart"/><phrase condition="treeware">
 later in this chapter</phrase>, and
 licensing issues are discussed in detail in <xref
 linkend="legal"/>.</para>
 -->
-<para>Vermeiden Sie diesen Fehler. Durch solch ein Versäumnis können 
+<para>Bitte machen Sie diesen Fehler nicht. Durch solch ein Versäumnis können 
 Ihnen viele potentieller Entwickler und Nutzer verloren gehen. Sagen Sie 
 gleich vorweg, direkt unterhalb des Missionsziels, dass das Projekt 
 freie Software oder Open-Source-Software ist, und geben Sie die genaue
 Lizenz an. Eine kurze Anleitung zur Wahl einer Lizenz bietet der Abschnitt 
-<xref linkend="license-quickstart"/><phrase output="printed">später in 
+<xref linkend="license-quickstart"/><phrase condition="treeware"> weiter unten in 
 diesem Kapitel</phrase>; Lizenzfragen werden ausführlich im Kapitel
 <xref linkend="legal"/> behandelt.</para>
 
 <!--
-<para>At this point, our hypothetical visitor has
-determined&mdash;probably in a minute or less&mdash;that she's
+<para>By this point, our hypothetical visitor has
+determined&nbsp;&mdash;&nbsp;probably in a minute or less&nbsp;&mdash;&nbsp;that she's
 interested in spending, say, at least five more minutes investigating
 this project.  The next sections describe what she should encounter in
-that five minutes.</para>
+those five minutes.</para>
 -->
 <para>Bis hierhin hat sich unser hypothetischer Besucher entschieden 
-&ndash; wahrscheinlich innerhalb der ersten Minute oder schon vorher 
-&ndash; ob er interessiert ist, sagen wir, zumindest weitere fünf
+&nbsp;&mdash;&nbsp;wahrscheinlich innerhalb der ersten Minute oder schon vorher 
+&nbsp;&mdash;&nbsp;ob er interessiert ist, sagen wir, zumindest weitere fünf
 Minuten in das Projekt zu investieren. Der nächste Abschnitt beschreibt,
 was er innerhalb dieser fünf Minuten vorfinden sollte.</para>
 
@@ -941,9 +925,9 @@ statement might say:</para>
 Software unterstützt werden (Wenn etwas noch nicht fertig ist, können 
 Sie es trotzdem auflisten, schreiben Sie aber
 "<emphasis>geplant</emphasis>" oder "<emphasis>in&nbsp;Arbeit</emphasis>"
-daneben), und der Anforderungen, die die Software an die Hardware stellt. 
+daneben), und der Anforderungen, welche die Software an die Hardware stellt. 
 Stellen Sie sich die Liste der Funktionen/Anforderungen wie etwas vor, 
-das Sie jemandem geben würden, der eine Kurzzusammenfassung zu dieser 
+das Sie jemandem geben würden, der eine kurze Zusammenfassung zu dieser 
 Software wünscht. Oft ist sie einfach nur eine logische Erweiterung der 
 Missionsziele. Das Missionsziel könnte zum Beispiel folgendes
 beinhalten:</para>
@@ -1017,10 +1001,10 @@ bieten, um das Missionsziel zu verdeutlichen:</para>
     <para><emphasis>Anforderungen:</emphasis></para>
     <itemizedlist>
 <!--
-      <listitem><para><emphasis>Python 2.2 or higher</emphasis></para>
+      <listitem><para><emphasis>Python 3.2 or higher</emphasis></para>
       </listitem>
 -->
-      <listitem><para><emphasis>Python 2.2 oder höher</emphasis></para>
+      <listitem><para><emphasis>Python 3.2 oder höher</emphasis></para>
       </listitem>
 <!--
       <listitem><para><emphasis>Enough disk space to hold the indexes
@@ -1053,40 +1037,172 @@ ob ihnen diese Software etwas nützen könnte, und sie können gleichzeitig
 <title>Stand der Entwicklung</title>
 
 <!--
-<para>People always want to know how a project is doing.  For new
+<para>Visitors usually want to know how a project is doing.  For new
 projects, they want to know the gap between the project's promise and
 current reality.  For mature projects, they want to know how actively
 it is maintained, how often it puts out new releases, how responsive
 it is likely to be to bug reports, etc.</para>
 -->
-<para>Leute wollen immer wissen wie es einem Projekt geht. Bei neuen
-Projekten wollen sie wissen wie weit seine Versprechen und sein 
+<para>Besucher wollen normalerweise wissen, wie es einem Projekt geht. Bei neuen
+Projekten wollen sie wissen, wie weit dessen Versprechen und dessen 
 derzeitiger Stand auseinanderliegen. Bei einem ausgereiften Projekt 
 wollen sie wissen, wie aktiv es gepflegt wird, wie oft neue Versionen 
 veröffentlicht werden, wie schnell es wahrscheinlich auf Bug-Meldungen
-reagieren wird, usw.</para>
+reagieren wird usw.</para>
 
 <!--
-<para>To answer these questions, you should provide a development
-status page, listing the project's near-term goals and needs (for
-example, it might be looking for developers with a particular kind of
-expertise).  The page can also give a history of past releases, with
-feature lists, so visitors can get an idea of how the project defines
-"progress" and how quickly it makes progress according to that
-definition.</para>
+<para>There are a couple of different avenues for providing answers to
+these questions.  One is to have a development status page, listing
+the project's near-term goals and needs (for example, it might be
+looking for developers with a particular kind of expertise).  The page
+can also give a history of past releases, with feature lists, so
+visitors can get an idea of how the project defines "progress", and
+how quickly it makes progress according to that definition.  Some
+projects structure their development status page as a roadmap that
+includes the future: past events are shown on the dates they actually
+happened, future ones on the approximate dates the project hopes they
+will happen.</para>
 -->
-<para>Um diese Fragen zu beantworten, sollten Sie eine Seite zum
-Fortschritt der Entwicklung einrichten, auf der die kurzfristigen Ziele
-und Anfragen des Projekts aufgelistet werden (es könnte z.B. auf der 
-Suche nach Entwicklern mit bestimmten Fachkenntnissen sein). Die Seite
-kann auch eine Übersicht vergangener Versionen haben, mit einer 
+<para>Es gibt eine Reiche verschiedener Wege, um Antworten auf diese Fragen
+anzubieten. Einer ist, eine Seite zum Status der Entwicklung einzurichten,
+auf der die kurzfristigen Ziele und Anfragen des Projekts aufgelistet werden
+(es könnte z.B. auf der Suche nach Entwicklern mit bestimmten Fachkenntnissen
+sein). Die Seite kann auch eine Übersicht vergangener Versionen haben, mit einer 
 Auflistung der jeweiligen Funktionen, damit Besucher sich ein Bild 
 machen können, was in diesem Projekt unter "Fortschritt" verstanden wird
-und wie schnell es nach diesem Verständnis vorankommt.</para>
+und wie schnell es nach diesem Verständnis vorankommt. Manche Projekte
+strukturieren ihre Entwicklungsstatus-Seite als Roadmap, welche die Zukunft
+beinhaltet: Vergangene Ereignisse werden an Zeitenpunkten gezeigt, die gerade
+erst vorbei sind, zukünftige an ungefähren Zeitpunkten, von denen das Projekt
+hofft, dass sie an diesen dann passieren.</para>
 
 <!--
-<para>Don't be afraid of looking unready, and don't give in to the
-temptation to hype the development status.  Everyone knows that
+<para>The other way&nbsp;&mdash;&nbsp;not mutually exclusive with the
+first, and in fact probably best done in combination with
+it&nbsp;&mdash;&nbsp;is to have various automatically-maintained
+counters and indicators embedded in the projects's front page and/or
+its developer landing page, showing various pieces of information
+that, in the aggregate, give a sense of the project's development
+status and progress.  For example, an Announcements or News panel
+showing recent news items, a Twitter or other microblog stream showing
+notices that match the project's designated hashtags, a timeline of
+recent releases, a panel showing recent activity in the bug tracker
+(bugs filed, bugs responded to), another showing mailing list or
+discussion forum activity, etc.  Each such indicator should be a
+gateway to further information of its type: for example, clicking on
+the "recent bugs" panel should take one to the full bug tracker, or at
+least to an expanded view into bug tracker activity.</para>
+-->
+<para>Der andere Weg&nbsp;&mdash;&nbsp; der sich mit dem Ersten nicht
+gegenseitig ausschließt und tatsächlich am besten mit diesem in
+Kombination gemacht wird&nbsp;&mdash;&nbsp;ist, verschiedene
+automatisch-pflegende Zähler und Indikatoren in die Startseite und/oder
+der Entwicklerseite des Projektes einzubetten, welche verschiedene
+Informationshäppchen zeigen, die zusammenfassend gesehen, einen Eindruck
+vom Entwicklungsstatus und Fortschritt des Projektes geben. Zum Beispiel
+ein Ankündigungs- oder Nachrichtenfenster, aktuelle Nachrichten zeigend,
+einen Twitter- oder ein anderer Microblog-Stream, der Benachrichtigungen
+anzeigt, die mit den angegebenen Hashtags des Projekts übereinstimmen,
+eine Zeitleiste von kürzlich veröffentlichten Versionen, ein Panel mit
+den letzten Aktivitäten im Bug-Tracker (Bugs eingereicht, Bugs geantwortet),
+eine andere Mailingliste oder Diskussionsforum-Aktivität usw. Jeder dieser
+Indikatoren sollte ein Zugangspunkt für weitere Informationen sein. Wenn Sie
+beispielsweise auf das Fenster "Letzte Fehler" klicken, sollten Sie den
+vollständigen Bug-Tracker oder zumindest eine erweiterte Ansicht der
+Bug-Tracker-Aktivität aufrufen.</para>
+
+<!--
+<para>Really, there are two slightly different meanings of
+"development status" being conflated here.  One is the formal sense:
+where does the project stand in relation to its stated goals, and how
+fast is it making progress.  The other is less formal but just as
+useful: how active is this project?  Is stuff going on?  Are there
+people here, getting things done?  Often that latter notion is what a
+visitor is most interested in.  Whether or not a project met its most
+recent milestone is sometimes not as interesting as the more
+fundamental question of whether it has an active community of
+developers around it.</para>
+-->
+<para>Tatsächlich gibt es zwei leicht unterschiedliche Bedeutungen für
+"Entwicklungsstatus", die hier miteinander verschmolzen werden. Eine 
+ist das formale Gefühl: Wo steht das Projekt in Relation zu seinen
+erklärten Zielen und wie schnell kommt es voran? Die andere ist weniger
+formell, aber genauso nützlich: Wie aktiv ist dieses Projekt? Läuft das
+Zeug? Gibt es hier Leute, die Dinge erledigen? Oft ist diese letztere
+Darstellung das, was ein Besucher am meisten interessiert. Ob ein Projekt
+seinen letzten Meilenstein erreicht hat oder nicht, ist manchmal nicht so
+interessant wie die grundlegendere Frage, ob es eine aktive Gemeinschaft
+von Entwicklern gibt.</para>
+
+<!--
+<para>The two notions of development status are, of course, related,
+and a well-presented project shows both kinds.  The information can be
+divided between the project's front page (show enough there to give an
+overview of both types of development status) and a more
+developer-oriented page.</para>
+-->
+<para>Die zwei Begriffe des Entwicklungsstandes sind natürlich miteinander
+verbunden und ein gut dargestelltes Projekt zeigt beide Arten. Die Informationen
+können zwischen der Titelseite des Projekts (dort hinreichend dargestellt, um
+einen Überblick über beide Arten des Entwicklungsstatus zu geben) und einer
+eher auf Entwickler ausgerichteten Seite aufgeteilt werden.</para>
+
+<sidebar id="launchpad-status-indicators">
+<!--
+<title>Example: Launchpad Status Indicators</title>
+-->
+<title>Beispiel: Launchpad Status Indikatoren</title>
+<!--
+<para>One site that does a pretty good job of showing
+developer-oriented status indicators is Launchpad.net.  Launchpad.net
+is a bit unusual in that it is both a primary hosting platform for
+some projects, and a secondary, packaging-oriented site for others (or
+rather, for those others it is the primary site for the "project" of
+getting that particular program packaged for the Ubuntu GNU/Linux
+operating system, which Launchpad was specifically designed to
+support).  In either case, a project's landing page on Launchpad shows
+a variety of automatically-maintained status indicators that quickly
+give an idea of where the project stands.  While simply imitating a
+Launchpad page is probably not a good idea&nbsp;&mdash;&nbsp;your own
+project should think carefully about what its best development status
+indicators are&nbsp;&mdash;&nbsp;Launchpad project pages do provide
+some good examples of the possibilities.  Start from the top of a
+project page there and scroll down: <ulink
+url="https://launchpad.net/drizzle" >https://launchpad.net/drizzle</ulink>
+or <ulink url="https://launchpad.net/inkscape"
+>https://launchpad.net/inkscape</ulink>, to pick two at random.</para></sidebar>
+-->
+<para>
+Launchpad.net ist eine Site, die ziemlich gute Ergebnisse bei der Anzeige
+von entwicklerorientierten Statusindikatoren leistet. Launchpad.net ist
+insofern etwas ungewöhnlich, als dass es für einige Projekte sowohl eine
+primäre Hosting-Plattform, als auch für andere eine sekundäre, auf das
+Packen ausgerichtete Website ist (bzw. für die Anderen ist es der primäre
+Standort für das "Projekt", um das speziell zusamengestellte Programmpaket
+für das Ubuntu GNU / Linux-Betriebssystem, für das Launchpad entsprechend
+seiner Spezifikation entwickelt wurde, zu erhalten). In beiden Fällen werden
+auf der Startseite eines Projekts in Launchpad verschiedene automatisch
+gewartete Statusanzeigen angezeigt, die schnell Aufschluss über den Stand
+des Projekts geben. Während das einfache Nachahmen einer Launchpad-Seite
+wahrscheinlich keine gute Idee ist, sollte Ihr eigenes Projekt sorgfältig
+darüber nachdenken, was die besten Entwicklungsstatusindikatoren sind.
+Launchpad-Projektseiten bieten einige gute Beispiele für die Möglichkeiten.
+Beginnen Sie bei den folgenden oben auf einer Projektseite und scrollen Sie nach unten:
+<ulink
+url="https://launchpad.net/drizzle" >https://launchpad.net/drizzle</ulink>
+oder <ulink url="https://launchpad.net/inkscape"
+>https://launchpad.net/inkscape</ulink>, um nur zwei zufällig heraus zu picken.</para></sidebar>
+
+
+<sect3 id="development-status-honesty">
+<!--
+<title>Development Status Should Always Reflect Reality</title>
+-->
+<title>Der Entwicklungsstatus sollte immer die Realität widerspiegeln</title>
+
+<!--
+<para>Don't be afraid of looking unready, and never give in to the
+temptation to inflate or hype the development status.  Everyone knows that
 software evolves by stages; there's no shame in saying "This is alpha
 software with known bugs.  It runs, and works at least some of the
 time, but use at your own risk."  Such language won't scare away the
@@ -1100,17 +1216,17 @@ pleasant surprises produce the best kind of word-of-mouth.</para>
 -->
 <para>Fürchten Sie sich nicht davor, einen unfertigen Eindruck zu 
 vermitteln und widerstehen Sie der Versuchung, den Entwicklungsstand 
-besser darzustellen als er wirklich ist. Jeder weiß, dass sich Software in
-Schritten entwickelt; es ist keine Schande zu sagen "Es ist Alpha-Software
-und sie hat bekannte Fehler. Sie läuft zwar und funktioniert 
-zumindest teilweise, trotzdem gilt: Nutzung auf eigene Gefahr". Diese
+besser darzustellen, als er wirklich ist. Jeder weiß, dass sich Software in
+Schritten entwickelt; zu sagen "Es ist Alpha-Software und sie hat bekannte
+Fehler. Sie läuft zwar und funktioniert zumindest teilweise, trotzdem
+gilt: Nutzung auf eigene Gefahr" ist keine Schande. Diese
 Ausdrucksweise wird nicht die Art von Entwicklern verschrecken, die Sie zu
-dieser Zeit brauchen. Was die Nutzer angeht: Einer der schlimmsten 
-Fehler, die ein Projekt machen kann, ist Nutzer anzulocken, für die die
+dieser Zeit brauchen. Was die Nutzer angeht: Einer der schlimmsten Fehler,
+die ein Projekt machen kann, ist, Nutzer anzulocken, für welche die
 Software noch nicht bereit ist. Der Ruf, instabil oder fehlerträchtig zu
 sein, ist schwer wieder loszuwerden, wenn er dem Projekt einmal anhaftet. 
-Auf lange Sicht zahlt es sich aus, konservativ zu sein; es ist besser 
-wenn die Software <emphasis>stabiler</emphasis> läuft als erwartet,
+Auf lange Sicht zahlt es sich aus, konservativ zu sein; es ist besser, 
+wenn die Software <emphasis>stabiler</emphasis> läuft als erwartet
 und angenehme Überraschungen sorgen für die beste Mundpropaganda.</para>
 
 <sidebar id="alpha-and-beta">
@@ -1123,33 +1239,59 @@ und angenehme Überraschungen sorgen für die beste Mundpropaganda.</para>
   release, with which users can get real work done and which has all
   the intended functionality, but which also has known bugs.  The main
   purpose of alpha software is to generate feedback, so the developers
-  know what to work on.  The next stage, <firstterm>beta</firstterm>,
-  means the software has had all the serious bugs fixed, but has not
-  yet been tested enough to certify for release.  The purpose of beta
-  software is to either become the official release, assuming no bugs
-  are found, or provide detailed feedback to the developers so they
-  can reach the official release quickly.  The difference between
-  alpha and beta is very much a matter of judgement.</para>
+  know what to work on.  Alpha releases are generally free to change
+  APIs and functionality.</para>
 -->
   <para>Der Begriff <firstterm>alpha</firstterm> bedeutet für gewöhnlich
   eine erste Version, mit der Benutzer echte Arbeit erledigen können, die
   alle geplanten Funktionen hat, aber auch bekannte Fehler. Der vorrangige
   Sinn von Alpha-Software ist, Rückmeldungen zu erhalten, damit die 
-  Entwickler wissen, woran sie arbeiten sollen. Die Stufe 
-  <firstterm>beta</firstterm> bedeutet, dass in der Software alle groben 
-  Fehler behoben wurden, aber noch nicht genug getestet wurde, um als zur 
-  Herausgabe geeignet zu gelten. Der Sinn von Beta-Software ist entweder
-  zur offiziellen Version zu werden, wenn keine Fehler gefunden wurden, 
-  oder detaillierte Rückmeldungen an die Entwickler zu geben, um die zügige 
-  Fertigstellung der Version zu unterstützen. Der Unterschied zwischen 
-  alpha und beta ist zum größten Teil eine Sache der Einschätzung.</para>
+  Entwickler wissen, woran sie arbeiten sollen. Alpha Releases können
+  sich generell nach freien Stücken bei APIs und Funktionalität ändern.</para>
+
+<!--
+  <para>The next stage, <firstterm>beta</firstterm>, means the
+  software's APIs are finalized and its serious known bugs fixed, but
+  it has not yet been tested enough to certify for production release.
+  The purpose of beta software is to either become the official
+  release, assuming no bugs are found, or provide detailed feedback to
+  the developers so they can reach the official release quickly.  In a
+  series of beta releases, APIs and functionality should not change
+  except when absolutely necessary.</para>
+-->
+  <para>Die nächste Stufe, <firstterm>beta</firstterm>, bedeutet, dass die Software
+  APIs abgeschlossen sind und alle groben bekannten Fehler behoben wurden, aber
+  noch nicht genug getestet wurde, um als Produktions-Release zertifiziert
+  zu sein. Der Sinn von Beta-Software ist, entweder zur offiziellen Version
+  zu werden, angenommen, dass keine Fehler gefunden wurden, oder detaillierte
+  Rückmeldungen an die Entwickler, so dass diese zügig die offizielle Version
+  erreichen können. In einer Serie von Beta-Releases sollten sich APIs und
+  Funktionalität nicht ändern, außer es ist absolut notwendig.</para>
 </sidebar>
+
+</sect3>
 
 </sect2>
 
 <!-- ======================== subsection ============================== -->
 <sect2 id="downloads">
 <title>Downloads</title>
+
+<!-- This section probably needs to be rewritten, because there's so
+     much software, especially Javascript, that is distributed
+     straight from GitHub.  To a first approximation, source packaging
+     is important for something you expect an OS packager to
+     repackage; otherwise, it may be a luxury.  Not sure whether this
+     footnote for JS can be used or not:
+
+     <footnote><para>This is still true even for Javascript packages
+     that are deployed as minified, continuously available downloads
+     from a canonical URL.  Minified JS downloads are equivalent to an
+     executable form.  They're not what a developer would hack on to
+     fix a bug&nbsp;&mdash;&nbsp;for that, you need developer-friendly
+     source code.  You also need .</para></footnote>
+-->
+
 
 <!--
 <para>The software should be downloadable as source code in standard
@@ -1193,9 +1335,10 @@ telling themselves they can do it any time: <emphasis>"We'll sort all
 that stuff out when the code is closer to being ready."</emphasis>
 What they don't realize is that by putting off the boring work of
 finishing the build and installation procedures, they are actually
-making the code take longer to get ready&mdash;because they
+making the code take longer to get ready&nbsp;&mdash;&nbsp;because they
 discourage developers who might otherwise have contributed to the
-code.  Most insidiously, they don't <emphasis>know</emphasis> they're
+code, if only they could build and test it.  Most insidiously, the
+project won't even <emphasis>know</emphasis> it's
 losing all those developers, because the process is an accumulation of
 non-events: someone visits a web site, downloads the software, tries
 to build it, fails, gives up and goes away.  Who will ever know it
@@ -1203,21 +1346,22 @@ happened, except the person themselves?  No one working on the project
 will realize that someone's interest and good will have been silently
 squandered.</para>
 -->
-<para>Das hört sich offensichtlich an, aber viele Projekte machen sich
-diese Mühe sehr lange Zeit nicht, in der Annahme, dass sie es jederzeit
-tun könnten: <emphasis>"Wir erledigen den Kram sobald der Code näher
-an der Fertigstellung ist."</emphasis> Hierbei übersehen sie jedoch,
-dass das Hinausschieben der langweiligen Arbeiten an Build- und
-Installations-Vorgängen auch die Fertigstellung vom Code hinausschiebt
-&ndash; denn sie entmutigen Entwickler, die ansonsten etwas 
-zum Code beigetragen hätten. Das Heimtückische daran ist, 
-dass nicht einmal jemand davon <emphasis>erfährt</emphasis>, dass
-Entwickler verlorengegangenen sind, denn der Vorgang ist eine 
+<para>Das hört sich offensichtlich an, aber viele Projekte kümmert es nicht,
+das sie ihre Installationsprozeduren erst sehr spät standardisieren, in
+der Annahme, dass sie es jederzeit machen könnten: <emphasis>"Wir erledigen
+den Kram, sobald der Code näher an der Fertigstellung ist."</emphasis>. Hierbei
+übersehen diese jedoch, dass sie mit dem Hinausschieben der langweiligen Arbeiten
+zur Fertigstellung der Build- und Installations-Vorgänge den Zeitraum, um den Code
+startklar zu bekommen, tatsächlich verlängern&nbsp;&mdash;&nbsp;denn sie
+entmutigen Entwickler, welche ansonsten etwas zum Code beigetragen hätten, wenn
+nur sie selbst ihn bauen und testen können. Das Heimtückische daran ist, 
+dass das Projekt nicht einmal davon <emphasis>erfährt</emphasis>, dass
+es all diese Entwickler verliert, denn der Vorgang ist eine 
 Ansammlung von Nicht-Ereignissen: Jemand geht auf die Webseite, lädt 
 die Software herunter, versucht einen Build zu machen, scheitert, gibt auf 
 und geht seiner Wege. Wer außer der Person selbst wird jemals davon 
 erfahren? Keiner im Projekt wird je bemerken, wie Interesse und 
-Wohlwollen von jemanden lautlos verschwendet wurde.</para>
+Wohlwollen von jemanden lautlos verprasst wurde.</para>
 
 <!--
 <para>Boring work with a high payoff should always be done early, and
@@ -1225,27 +1369,30 @@ significantly lowering the project's barrier to entry through good
 packaging brings a very high payoff.</para>
 -->
 <para>Langweilige Arbeit mit einem hohen Nutzen sollte immer frühzeitig
-erledigt werden, und das Herabsetzen der Einstiegshürden für ein Projekt
-durch sauberes Packen zahlt sich mit vielfachem Gewinn aus.</para>
+erledigt werden und das Herabsetzen der Einstiegshürden für ein Projekt
+durch sauberes Packetieren zahlt sich mit vervielfachtem Gewinn aus.</para>
 
 <!--
-<para>When you release a downloadable package, it is vital that you
-give a unique version number to the release, so that people can
-compare any two releases and know which supersedes the other.  A
-detailed discussion of version numbering can be found in <xref
-linkend="release-numbering"/>, and the details of standardizing
-build and installation procedures are covered in
-<xref linkend="packaging"/><phrase output="printed">, both
-in <xref linkend="development-cycle"/></phrase>.</para>
+<para>When you release a downloadable package, give it a unique
+version number, so that people can compare any two releases and know
+which supersedes the other.  That way they can report bugs against a
+particular release (which helps respondents to figure out if the bug
+is already fixed or not).  A detailed discussion of version
+numbering can be found in <xref linkend="release-numbering"/>, and the
+details of standardizing build and installation procedures are covered
+in <xref linkend="packaging"/><phrase condition="treeware">, both in <xref
+linkend="development-cycle"/></phrase>.</para>
 -->
-<para>Wenn Sie ein Paket zum Herunterladen freigeben ist es wichtig, eine
-eindeutige Versionsnummer zu vergeben, damit die Ausgaben unterschieden
-werden können und zu sehen welche die aktuellere ist. Eine 
-ausführliche Diskussion über Versionsnummern finden Sie in 
-<xref linkend="release-numbering"/>, und Details zur Standardisierung
-von Build- und Installations-Vorgängen werden im Abschnitt 
-<xref linkend="packaging"/><phrase output="printed">, sowie in
-<xref linkend="development-cycle"/></phrase> behandelt.</para>
+<para>Wenn Sie ein herunterladbares Paket freigeben, vergeben Sie diesem eine
+eindeutige Versionsnummer, damit die Leute zwei beliebige unterschiedliche
+Pakete auch unterscheiden können und wissen, welches das Aktuellere ist. Auf
+diesem Weg können von jenen Fehler in Bezug auf eine bestimmtes Paket
+gemeldet werden (was Auskunftgebende zu ermitteln hilft, ob der Fehler
+bereits behoben wurde oder nicht). Eine ausführliche Diskussion über
+Versionsnummerierung finden Sie in <xref linkend="release-numbering"/> und
+Details zur Standardisierung von Build- und Installations-Vorgängen werden im
+<xref linkend="packaging"/><phrase condition="treeware">, beides in <xref
+linkend="development-cycle"/></phrase> behandelt.</para>
 
 </sect2>
 
